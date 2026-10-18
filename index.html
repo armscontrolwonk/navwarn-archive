@@ -76,10 +76,12 @@
     rows.forEach(w => {
       if (!w.positions.length) return;
       const pts = w.positions.map(p => L.latLng(p[0], p[1]));
-      const g = pts.length >= 3 ? L.polygon(pts, { weight: 1, color: '#e0442b', fillOpacity: .15 })
-              : pts.length === 2 ? L.polyline(pts, { weight: 2, color: '#e0442b' })
-              : L.circleMarker(pts[0], { radius: 5, color: '#e0442b', fillOpacity: .6 });
-      g.bindPopup(`<b>${w.id}</b><br>${esc(w.subject)}`).addTo(layer);
+      const area = /BOUND(?:ED)?\s+BY|AREA BOUNDED|WITHIN AREA/i.test(w.text);
+      const line = /TRACKLINE|JOINING|ALONG|CABLE|PIPELINE|ROUTE/i.test(w.text);
+      const popup = `<b>${w.id}</b><br>${esc(w.subject)}`;
+      if (area && pts.length >= 3) L.polygon(pts, { weight: 1, color: '#e0442b', fillOpacity: .15 }).bindPopup(popup).addTo(layer);
+      else if (line && pts.length >= 2) L.polyline(pts, { weight: 2, color: '#e0442b' }).bindPopup(popup).addTo(layer);
+      else pts.forEach(p => L.circleMarker(p, { radius: 4, color: '#e0442b', fillOpacity: .6 }).bindPopup(popup).addTo(layer));
     });
   }
   const esc = s => (s || '').replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
