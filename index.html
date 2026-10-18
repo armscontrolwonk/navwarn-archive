@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Navigational Warnings Archive</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+  :root { --bg:#fff; --fg:#111; --muted:#666; --line:#e3e3e3; --accent:#0b5fff; --chip:#eef3ff; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#121417; --fg:#e8e8e8; --muted:#9a9a9a; --line:#2a2e34; --accent:#7aa2ff; --chip:#1b2434; } }
+  :root[data-theme="dark"] { --bg:#121417; --fg:#e8e8e8; --muted:#9a9a9a; --line:#2a2e34; --accent:#7aa2ff; --chip:#1b2434; }
+  * { box-sizing:border-box }
+  body { margin:0; background:var(--bg); color:var(--fg); font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif }
+  header { padding:14px 16px; border-bottom:1px solid var(--line); display:flex; gap:14px; flex-wrap:wrap; align-items:baseline }
+  header h1 { font-size:18px; margin:0 }
+  header .meta { color:var(--muted); font-size:13px }
+  #map { height:42vh; min-height:260px; border-bottom:1px solid var(--line) }
+  .tools { padding:10px 16px; display:flex; gap:10px; flex-wrap:wrap; align-items:center; border-bottom:1px solid var(--line) }
+  .tools input, .tools select { font:inherit; padding:6px 8px; border:1px solid var(--line); border-radius:6px; background:var(--bg); color:var(--fg) }
+  .tools input { flex:1; min-width:160px }
+  .chip { background:var(--chip); border-radius:999px; padding:2px 9px; font-size:12px; white-space:nowrap }
+  .chip.stale { background:#ffe9d6; color:#7a3b00 }
+  ul.list { list-style:none; margin:0; padding:0 16px 40px }
+  li.w { border-bottom:1px solid var(--line); padding:10px 0 }
+  li.w .head { display:flex; gap:10px; flex-wrap:wrap; align-items:baseline; cursor:pointer }
+  li.w .id { font-weight:600 }
+  li.w .when { color:var(--muted); font-size:13px }
+  li.w .subj { flex:1 1 100%; }
+  li.w pre { display:none; white-space:pre-wrap; font:13px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace; background:var(--chip); padding:10px; border-radius:6px; margin:8px 0 0 }
+  li.w.open pre { display:block }
+  a { color:var(--accent) }
+</style>
+</head>
+<body>
+<header>
+  <h1>Navigational Warnings Archive</h1>
+  <span class="meta" id="meta">loading…</span>
+  <span id="sources"></span>
+</header>
+<div id="map"></div>
+<div class="tools">
+  <input id="q" placeholder="search text, e.g. rocket, cable, seismic, 48-30N">
+  <select id="series"><option value="">all series</option></select>
+  <span class="meta" id="count"></span>
+</div>
+<ul class="list" id="list"></ul>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+(async () => {
+  const [active, sources] = await Promise.all([
+    fetch('index/active.json').then(r => r.json()),
+    fetch('index/sources.json').then(r => r.json())]);
+  const W = active.warnings;
+  document.getElementById('meta').textContent = `${W.length} in force · generated ${active.generated}`;
+  document.getElementById('sources').innerHTML = Object.entries(sources.sources).map(([n, s]) =>
+    `<span class="chip ${s.stale ? 'stale' : ''}" title="newest ${s.newest_issued_at || '?'} · last ok ${s.last_ok || 'never'}">${n}${s.stale ? ' · stale' : ''}</span>`).join(' ');
+  const sel = document.getElementById('series');
+  [...new Set(W.map(w => w.series))].sort().forEach(s => sel.append(new Option(s, s)));
+
+  const map = L.map('map', { worldCopyJump: true }).setView([30, 0], 2);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(map);
+  let layer = L.layerGroup().addTo(map);
+
+  function render() {
+    const q = document.getElementById('q').value.trim().toLowerCase();
+    const s = sel.value;
+    const rows = W.filter(w => (!s || w.series === s) && (!q || (w.id + ' ' + w.text).toLowerCase().includes(q)));
+    document.getElementById('count').textContent = `${rows.length} shown`;
+    document.getElementById('list').innerHTML = rows.map((w, i) => `
+      <li class="w" data-i="${i}"><div class="head">
+        <span class="id">${w.id}</span><span class="when">${w.issued_at || ''}${w.expires_at ? ' → ' + w.expires_at : ''}</span>
+        <span class="chip">${w.source}</span>
+        <span class="subj">${esc(w.subject)}</span></div>
+        <pre>${esc(w.text)}\n\n<a href="${w.url}" target="_blank" rel="noopener">source</a> · ${w.positions.length} positions</pre></li>`).join('');
+    layer.clearLayers();
+    rows.forEach(w => {
+      if (!w.positions.length) return;
+      const pts = w.positions.map(p => L.latLng(p[0], p[1]));
+      const g = pts.length >= 3 ? L.polygon(pts, { weight: 1, color: '#e0442b', fillOpacity: .15 })
+              : pts.length === 2 ? L.polyline(pts, { weight: 2, color: '#e0442b' })
+              : L.circleMarker(pts[0], { radius: 5, color: '#e0442b', fillOpacity: .6 });
+      g.bindPopup(`<b>${w.id}</b><br>${esc(w.subject)}`).addTo(layer);
+    });
+  }
+  const esc = s => (s || '').replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+  document.getElementById('list').addEventListener('click', e => {
+    const li = e.target.closest('li.w'); if (li && !e.target.closest('a')) li.classList.toggle('open');
+  });
+  document.getElementById('q').addEventListener('input', render);
+  sel.addEventListener('change', render);
+  render();
+})();
+</script>
+</body>
+</html>
