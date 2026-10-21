@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link href="/AMSA.Web.MSIPublication/Content/Site.css" rel="stylesheet" type="text/css" />
+    
+    
+    <script src="/AMSA.Web.MSIPublication/Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="/AMSA.Web.MSIPublication/Scripts/jquery.validate.js" type="text/javascript"></script>
+    
+
+    
+    
+</head>
+
+    <body>
+                   
+
+<style>
+    input.error{
+        border-color: #F78181;
+    }
+    label.error{
+        border-color: #F78181;
+        color:red;
+        display: inline;
+    }
+</style>
+<form action="/AMSA.Web.MSIPublication/" id="theForm" method="post">    <span>Select All Valid Australian MSI</span><input checked="checked" data-val="true" data-val-required="The SelectAll field is required." id="SelectAll" name="SelectAll" type="checkbox" value="true" /><input name="SelectAll" type="hidden" value="false" /> <br />
+    <fieldset style="margin-bottom: 0">
+        <legend>Search Filter</legend>
+
+        
+        <span>Include Drill Rigs</span><input checked="checked" data-val="true" data-val-required="The ShowDrillRigs field is required." id="ShowDrillRigs" name="ShowDrillRigs" type="checkbox" value="true" /><input name="ShowDrillRigs" type="hidden" value="false" /> <br/>
+        <span>Include Special Vessels</span><input checked="checked" data-val="true" data-val-required="The ShowSpecialVessels field is required." id="ShowSpecialVessels" name="ShowSpecialVessels" type="checkbox" value="true" /><input name="ShowSpecialVessels" type="hidden" value="false" /> <br />
+        <span>Include Auscoast Warnings</span><input checked="checked" data-val="true" data-val-required="The ShowAuscoast field is required." id="ShowAuscoast" name="ShowAuscoast" type="checkbox" value="true" /><input name="ShowAuscoast" type="hidden" value="false" /> <br/>
+        <span id="areas">        
+            <div style="border: solid 1px grey; width: 300px; padding: 5px;">
+                <div>Include Auscoast Warnings for these areas:</div>
+                A <input checked="checked" data-val="true" data-val-required="The RegionA field is required." id="RegionA" name="RegionA" type="checkbox" value="true" /><input name="RegionA" type="hidden" value="false" /> 
+                B <input checked="checked" data-val="true" data-val-required="The RegionB field is required." id="RegionB" name="RegionB" type="checkbox" value="true" /><input name="RegionB" type="hidden" value="false" /> 
+                C <input checked="checked" data-val="true" data-val-required="The RegionC field is required." id="RegionC" name="RegionC" type="checkbox" value="true" /><input name="RegionC" type="hidden" value="false" /> 
+                D <input checked="checked" data-val="true" data-val-required="The RegionD field is required." id="RegionD" name="RegionD" type="checkbox" value="true" /><input name="RegionD" type="hidden" value="false" /> 
+                E <input checked="checked" data-val="true" data-val-required="The RegionE field is required." id="RegionE" name="RegionE" type="checkbox" value="true" /><input name="RegionE" type="hidden" value="false" /> 
+                F <input checked="checked" data-val="true" data-val-required="The RegionF field is required." id="RegionF" name="RegionF" type="checkbox" value="true" /><input name="RegionF" type="hidden" value="false" /> 
+                G <input checked="checked" data-val="true" data-val-required="The RegionG field is required." id="RegionG" name="RegionG" type="checkbox" value="true" /><input name="RegionG" type="hidden" value="false" /> 
+                H <input checked="checked" data-val="true" data-val-required="The RegionH field is required." id="RegionH" name="RegionH" type="checkbox" value="true" /><input name="RegionH" type="hidden" value="false" /> 
+            </div>
+        </span>
+    </fieldset>
+    <input type="submit" value="Search" id="Search" name="Command"/> <br/>
+    <br/>
+    <p>Search Results:</p>
+    <input type="submit" value="Send results to my email address" id="SendEmail" name="Command"/><input class="text-box single-line" id="Email" name="Email" type="text" value="" /> <br/>
+    <input type="hidden" value="" id="LinkCommand" name="Command"/> <br/>
+    <hr/>
+    <p>Maritime Safety Information current at 211910 UTC Oct 26</p>
+    <p>Issued by the Australian Maritime Safety Authority<br />Rescue Coordination Centre (RCC Australia)</p>
+    <hr/>
+    <p>Part 1. Safety Messages:</p>
+    <hr/>
+    <p>Part 2. NAVAREA X warnings:</p>
+<br />SECURITE<br />FM JRCC AUSTRALIA 150000Z OCT 26<br />NAVAREA X 112/26<br />1. NAVAREA X WARNINGS IN FORCE AT 150000 UTC OCT 26<br />106/26, 112/26<br />2. AUSCOAST WARNINGS IN FORCE AT 150000 UTC OCT 26<br />AREA A 322/26<br />AREA B 307/26<br />AREA C 231/26<br />AREA D 208/26, 228/26, 231/26, 280/26, 292/26, 297/26, 314/26, 317/26, 318/26<br />AREA E NIL<br />AREA F 273/26<br />AREA G 120/26, 267/26, 270/26, 296/26, 303/26, 321/26, 323/26<br />AREA H NIL<br />3. COMPLETE TEXTS OF ALL WARNINGS IN FORCE ARE AVAILABLE FROM WEBSITE WWW.AMSA.GOV.AU.<br />4. CANCEL THIS MESSAGE 220000 UTC OCT 26<br />NNNN                <br/>
+<br />SECURITE<br />FM JRCC AUSTRALIA 210029Z OCT 26<br />NAVAREA X 113/26<br />SPECIAL PURPOSE VESSEL LAYLA / V2YX9 / 304716000 CONDUCTING CABLE RECOVERY ALONG THE FOLLOWING LINE<br />A.13-06.14S 161-11.58E<br />B.12-23.69S 162-08.91E<br />C.11-43.41S 163-07.90E<br />D.10-50.91S 163-20.29E<br />2.0NM CLEARANCE REQUESTED.<br />NNNN                <br/>
+        <hr />
+        <p>Part 3. Coastal warnings:</p>
+        <p>AUSCOAST coastal warning - area A: </p>
+<br />SECURITE<br />FM JRCC AUSTRALIA 162239Z OCT 26<br />AUSCOAST WARNING 324/26<br />GANNET PASSAGE WAVERIDER BUOY IN POSITION 10-35.41S 141-52.18E<br />UNRELIABLE<br />NNNN                <br/>
+<br />SECURITE<br />FM JRCC AUSTRALIA 162243Z OCT 26<br />AUSCOAST WARNING 325/26<br />VARZIN PASSAGE WAVERIDER BUOY PRIMARY IN POSITION 10-31.00S 141-57.00E<br />UNRELIABLE<br />NNNN                <br/>
+        <br/>
+        <p>AUSCOAST coastal warning - area B: </p>
+<br />SECURITE<br />FM RCC AUSTRALIA 170642Z OCT 26<br />AUSCOAST WARNING 327/26<br />WHITE TIP REEF (MAIN & REAR) LIGHT K3054.1  IN POSITION 19-55.47S 150-16.09E<br />UNRELIABLE<br />NNNN                <br/>
+        <br/>
+        <p>AUSCOAST coastal warning - area C: </p>
+<br />SECURITE<br />FM JRCC AUSTRALIA 291202Z JUN 26<br />AUSCOAST WARNING 231/26<br />1. . SPECIAL PURPOSE VESSEL RESPONDER / V7CY9 / 538001582 CONDUCTING CABLE LAYING OPERATIONS 5 NM EITHER SIDE OF A LINE JOINING<br />A. 38-19.86S 144-19.61E<br />B. 39-06.11S 145-33.18E<br />C. 39-17.45S 146-22.33E<br />D. 39-23.78S 148-40.00E<br />E. 39-20.00S 149-46.17E<br />F. 37-18.44S 153-20.94E<br />2. 1.0 NM CLEARANCE REQUESTED.<br />NNNN                <br/>
+        <br/>
+        <p>AUSCOAST coastal warning - area D: </p>
+<br />SECURITE<br />FM JRCC AUSTRALIA 290102Z JUN 26<br />AUSCOAST WARNING 228/26<br />1 X 6M YELLOW SURFACE BUOY ESTABLISHED IN POSITION 38-47.62S 142-37.77E<br />2.5NM CLEARANCE REQUESTED<br />NNNN                <br/>
+<br />SECURITE<br />FM JRCC AUSTRALIA 291202Z JUN 26<br />AUSCOAST WARNING 231/26<br />1. . SPECIAL PURPOSE VESSEL RESPONDER / V7CY9 / 538001582 CONDUCTING CABLE LAYING OPERATIONS 5 NM EITHER SIDE OF A LINE JOINING<br />A. 38-19.86S 144-19.61E<br />B. 39-06.11S 145-33.18E<br />C. 39-17.45S 146-22.33E<br />D. 39-23.78S 148-40.00E<br />E. 39-20.00S 149-46.17E<br />F. 37-18.44S 153-20.94E<br />2. 1.0 NM CLEARANCE REQUESTED.<br />NNNN                <br/>
+<br />SECURITE<br />FM JRCC AUSTRALIA 201327Z AUG 26<br />AUSCOAST WARNING 280/26<br />DRILL RIG VALARIS 107/A8GS5 IN POSITION 38-17.79S 147-40.57E<br />2.5 NM CLEARANCE REQUESTED.<br />NNNN                <br/>
+<br />SECURITE<br />FM JRCC AUSTRALIA 072317Z SEP 26<br />AUSCOAST WARNING 292/26<br />2 X 6M YELLOW SURFACE BUOYS FL.WHITE 3S TEMPORARILY ESTABLISHED WITHIN 1.0NM OF POSITION 38-47.19S 142-36.00E<br />2.5NM CLEARANCE REQUESTED<br />NNNN                <br/>
+<br />SECURITE<br />FM JRCC AUSTRALIA 180430Z SEP 26<br />AUSCOAST WARNING 297/26<br />8 VIRTUAL AIS NAVIGATION MARKS IN AN AREA BOUNDED BY 38-23S TO 38-37S AND 148-25E TO 148-37E<br />INOPERATIVE<br />NNNN                <br/>
+<br />SECURITE<br />FM JRCC AUSTRALIA 042318Z OCT 26<br />AUSCOAST WARNING 314/26<br />12 X 6 METRE YELLOW SURFACE BUOYS FL. WHITE 3 SEC TEMPORARILY ESTABLISHED WITHIN 1.0NM OF POSITION 38-46.14S 142-48.47E.<br />2.5NM CLEARANCE REQUESTED.<br />NNNN                <br/>
+<br />SECURITE<br />FM JRCC AUSTRALIA 062253Z OCT 26<br />AUSCOAST WARNING 317/26<br />JULIET-1 GAS WELL PERMANENTLY ESTABLISHED IN POSITION 38-46.24S 142-48.79E.<br />500 METRE EXCLUSION ZONE ESTABLISHED AROUND THE POSITION.<br />NNNN                <br/>
+<br />SECURITE<br />FM JRCC AUSTRALIA 071328Z OCT 26<br />AUSCOAST WARNING 318/26<br />DRILL RIG TRANSOCEAN EQUINOX / V7A7397 / 538010767 IN POSITION 38-41.03S 142-49.47E<br />2.5 NM CLEARANCE REQUESTED.<br />NNNN                <br/>
+        <br/>
+            <p>AUSCOAST coastal warning - area E: nil</p>
+        <p>AUSCOAST coastal warning - area F: </p>
+<br />SECURITE<br />FM JRCC AUSTRALIA 140043Z AUG 26<br />AUSCOAST WARNING 273/26<br />4 X YELLOW SURFACE BUOYS, FL Y 5 SEC, ESTABLISHED WITHIN 0.3NM OF 29-27.00S 114-52.18E.<br />NNNN                <br/>
+<br />SECURITE<br />FM JRCC AUSTRALIA 191123Z OCT 26<br />AUSCOAST WARNING 330/26<br />UNCREWED VESSEL REACH REMOTE 2 / VKCC / 503189810 CONDUCTING SUBSEA SURVEY OPERATIONS IN AN AREA BOUNDED BY 34-24.10 S TO 34-53.60 S AND 114-56.40 E TO 115-39.70 E<br />2.0NM CLEARANCE REQUESTED.<br />NNNN                <br/>
+        <br/>
+        <p>AUSCOAST coastal warning - area G: </p>
+<br />SECURITE<br />FM JRCC AUSTRALIA 291651Z MAR 26<br />AUSCOAST WARNING 120/26<br />SPECIAL PURPOSE VESSEL SAFE BOREAS 565905000 SUPPORTING UNDERWATER OPERATIONS IN AN AREA BOUNDED BY 12-54.90S TO 12-59.90S AND 124-25.10E TO 124-35.10E<br />2.5NM CLEARANCE REQUESTED.<br />NNNN                <br/>
+<br />SECURITE<br />FM JRCC AUSTRALIA 052222Z AUG 26<br />AUSCOAST WARNING 267/26<br />DRILL RIG JANSZ FCS/995031119 IN POSITION 19-52.73S 114-36.50E<br />2.5 NM CLEARANCE REQUESTED.<br />NNNN                <br/>
+<br />SECURITE<br />FM JRCC AUSTRALIA 100638Z AUG 26<br />AUSCOAST WARNING 270/26<br />SPECIAL PURPOSE VESSEL VE CONSTRUCTOR / H9YT / 373335000 CONDUCTING UNDERWATER OPERATIONS IN AN AREA BOUNDED BY 19-12.00S TO 19-21.00S AND 116-30.00E TO 116-50.00E<br />0.5NM CLEARANCE REQUESTED.<br />NNNN                <br/>
+<br />SECURITE<br />FM JRCC AUSTRALIA 280425Z SEP 26<br />AUSCOAST WARNING 303/26<br />SPECIAL PURPOSE VESSEL SHARK 1/T2DT6/572762220 CONDUCTING HYDROGRAPHIC SURVEY IN AN AREA BOUNDED BY 11-30.00 S TO 12-22.00 S AND 125-05.00 E TO 126-01.00 E.<br />UNMANNED SURFACE VESSELS USV FREMANTLE 01/503177870 AND USV FREMANTLE 02/503201150 IN SUPPORT.<br />2NM CLEARANCE REQUESTED.<br />NNNN                <br/>
+<br />SECURITE<br />FM JRCC AUSTRALIA 130239Z OCT 26<br />AUSCOAST WARNING 321/26<br />SPECIAL PURPOSE VESSEL SKANDI HERCULES / C6YY2 / 311048900 CONDUCTING SUBSEA OPERATIONS IN POSITION 19-57.30` S 115-12.32` E<br />5.0NM CLEARANCE REQUESTED.<br />NNNN                <br/>
+<br />SECURITE<br />FM JRCC AUSTRALIA 170516Z OCT 26<br />AUSCOAST WARNING 326/26<br />BLACKTIP WELL HEAD PLATFORM LIGHT IN POSITION 13-53.70S 128-94E<br />UNLIT<br />NNNN                <br/>
+<br />SECURITE<br />FM RCC AUSTRALIA 191238Z OCT 26<br />AUSCOAST WARNING 331/26<br />PORT HEDLAND C3 PILE LIGHT Q1676.3  IN POSITION 20-02.26S 118-24.90E<br />UNLIT<br />NNNN                <br/>
+<br />SECURITE<br />FM JRCC AUSTRALIA 202131Z OCT 26<br />AUSCOAST WARNING 334/26<br />SPECIAL PURPOSE VESSEL OUTER LIMIT / VJN3640 / 503691000 CONDUCTING UNDERWATER OPERATIONS IN AN AREA BOUNDED BY 21-26.28 S TO 21-40.36 S AND 114-46.07 E TO 114-49.20 E<br />0.5NM CLEARANCE REQUESTED.<br />NNNN                <br/>
+        <br/>
+        <p>AUSCOAST coastal warning - area H: </p>
+<br />SECURITE<br />FM JRCC AUSTRALIA 162239Z OCT 26<br />AUSCOAST WARNING 324/26<br />GANNET PASSAGE WAVERIDER BUOY IN POSITION 10-35.41S 141-52.18E<br />UNRELIABLE<br />NNNN                <br/>
+<br />SECURITE<br />FM JRCC AUSTRALIA 162243Z OCT 26<br />AUSCOAST WARNING 325/26<br />VARZIN PASSAGE WAVERIDER BUOY PRIMARY IN POSITION 10-31.00S 141-57.00E<br />UNRELIABLE<br />NNNN                <br/>
+        <br/>
+        <hr/>
+        <p>Part 4. Summary of Mobile Drilling Rigs:</p>
+        <br/>
+        <table>
+            <tr>
+                <td>Drill Rig Name</td>
+                <td>Callsign</td>
+                <td>Position</td>
+            </tr>
+                <tr>
+                    <td>JANSZ FCS</td>
+                    <td>AXA001</td>
+                    <td>19 52.7S 114 36.5E</td>
+                </tr>
+                <tr>
+                    <td>TRANSOCEAN EQUINOX</td>
+                    <td>V7A7397</td>
+                    <td>38 41.0S 142 49.5E</td>
+                </tr>
+                <tr>
+                    <td>VALARIS 107</td>
+                    <td>A8GS5</td>
+                    <td>38 17.8S 147 40.6E</td>
+                </tr>
+        </table>
+        <hr/>
+        <p>Part 5. Special Purpose Vessels:</p>
+        <br/>
+        <table>
+            <tr>
+                <td>Vessel Name</td>
+                <td>Callsign</td>
+                <td>Operating</td>
+            </tr>
+                <tr>
+                    <td>REACH REMOTE 2</td>
+                    <td>VKCC</td>
+                    <td>IN AREA BOUNDED 34 24.1S TO 34 53.6S AND 114 56.4E TO 115 39.7E</td>
+                </tr>
+                <tr>
+                    <td>SHARK 1</td>
+                    <td>T2DT6</td>
+                    <td>IN AREA BOUNDED 11 30.0S TO 12 22.0S AND 125 05.0E TO 126 01.0E</td>
+                </tr>
+                <tr>
+                    <td>SAFE BOREAS</td>
+                    <td>9V9903</td>
+                    <td>IN AREA BOUNDED 12 54.9S TO 12 59.9S AND 124 25.1E TO 124 35.1E</td>
+                </tr>
+                <tr>
+                    <td>RESPONDER</td>
+                    <td>V7CY9</td>
+                    <td>ALONG THE LINE 38 19.9S 144 19.6E TO 37 18.4S 153 20.9E</td>
+                </tr>
+                <tr>
+                    <td>SKANDI HERCULES</td>
+                    <td>C6YY2</td>
+                    <td>AROUND POSITION 19 57.3S 115 12.3E</td>
+                </tr>
+                <tr>
+                    <td>OUTER LIMIT</td>
+                    <td>VJN3640</td>
+                    <td>IN AREA BOUNDED 21 26.3S TO 21 40.4S AND 114 46.1E TO 114 49.2E</td>
+                </tr>
+                <tr>
+                    <td>LAYLA</td>
+                    <td>V2YX9</td>
+                    <td>ALONG THE LINE 13 06.1S 161 11.6E TO 10 50.9S 163 20.3E</td>
+                </tr>
+                <tr>
+                    <td>VE CONSTRUCTOR</td>
+                    <td>H9YT</td>
+                    <td>IN AREA BOUNDED 19 12.0S TO 19 21.0S AND 116 30.0E TO 116 50.0E</td>
+                </tr>
+        </table>
+    <hr/>
+    <p>For information on coastal areas please refer to the ANNUAL<br />AUSTRALIAN NOTICES TO MARINERS or the AUSTRALIAN GMDSS HANDBOOK.</p>
+    <p>The date-time format used is "ddhhmmZ mon yy", where "Z" indicates UTC.</p>
+</form>
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+    $(document).ready(function ()
+    {
+        setSelectAll($("#SelectAll").prop('checked'));
+        showAuscoastAreas();
+       
+        $("#ShowAuscoast").change(function() {
+            showAuscoastAreas();
+            //$("#areas").hide();
+            //if (this.checked) {
+            //    $("#areas").show();
+            //}
+        });
+
+        $("#SelectAll").change(function ()
+        {
+            setSelectAll(this.checked);
+        });
+        
+        $("#DownloadAuscoastCsv").click(function (event)
+        {
+            downloadCSV('Download auscoast warning information as a csv file');
+        });
+       
+        $("#DownloadDrillRigCsv").click(function (event) {
+            downloadCSV('Download drill rig information as a csv file');
+        });
+
+        $("#DownloadSpecialVesselsCsv").click(function (event) {
+            downloadCSV('Download special vessel information as a csv file');
+        });
+        
+
+        $("#Search").click(function (event)
+        {
+            $("#theForm").validate();
+            $("#Email").rules("remove");
+        });
+        
+        $("#SendEmail").click(function (event)
+        {
+            $("#theForm").validate();
+            $("#Email").rules("add",
+                {
+                    required: true, email: true
+                });
+        });
+        
+
+        $("form").submit(function ()
+        {
+            enableAllFilters(true);
+        });
+        
+    });
+
+
+    function downloadCSV(commandText)
+    {
+        $("#theForm").validate();
+        $("#Email").rules("remove");
+
+        $("#LinkCommand").val(commandText);
+            $("#theForm").submit();
+    }
+    
+
+
+    function showAuscoastAreas() {
+        $("#areas").hide();
+        if ($("#ShowAuscoast").is(':checked')) {
+            $("#areas").show();
+        }
+    }
+
+
+    function setSelectAll(checked)
+    {
+        if (checked)
+        {
+            checkAllFilters(true);
+            enableAllFilters(false);
+        } else {
+            enableAllFilters(true);
+        }
+        showAuscoastAreas();
+    }
+
+
+    function enableAllFilters(enable)
+    {
+        if (enable)
+        {
+            //$("#ShowCq").prop('disabled', '');
+            $("#ShowDrillRigs").prop('disabled', '');
+            $("#ShowSpecialVessels").prop('disabled', '');
+            $("#ShowAuscoast").prop('disabled', '');
+            $("#RegionA").prop('disabled', '');
+            $("#RegionB").prop('disabled', '');
+            $("#RegionC").prop('disabled', '');
+            $("#RegionD").prop('disabled', '');
+            $("#RegionE").prop('disabled', '');
+            $("#RegionF").prop('disabled', '');
+            $("#RegionG").prop('disabled', '');
+            $("#RegionH").prop('disabled', '');
+
+        } else
+        {
+            //$("#ShowCq").prop('disabled', 'disabled');
+            $("#ShowDrillRigs").prop('disabled', 'disabled');
+            $("#ShowSpecialVessels").prop('disabled', 'disabled');
+            $("#ShowAuscoast").prop('disabled', 'disabled');
+            $("#RegionA").prop('disabled', 'disabled');
+            $("#RegionB").prop('disabled', 'disabled');
+            $("#RegionC").prop('disabled', 'disabled');
+            $("#RegionD").prop('disabled', 'disabled');
+            $("#RegionE").prop('disabled', 'disabled');
+            $("#RegionF").prop('disabled', 'disabled');
+            $("#RegionG").prop('disabled', 'disabled');
+            $("#RegionH").prop('disabled', 'disabled');
+        }
+    }
+
+
+    function checkAllFilters(check)
+    {
+        //$("#ShowCq").prop('checked', check);
+        $("#ShowDrillRigs").prop('checked', check);
+        $("#ShowSpecialVessels").prop('checked', check);
+        $("#ShowAuscoast").prop('checked', check);
+        $("#RegionA").prop('checked', check);
+        $("#RegionB").prop('checked', check);
+        $("#RegionC").prop('checked', check);
+        $("#RegionD").prop('checked', check);
+        $("#RegionE").prop('checked', check);
+        $("#RegionF").prop('checked', check);
+        $("#RegionG").prop('checked', check);
+        $("#RegionH").prop('checked', check);
+    }
+
+    
+</script>
+    </body>
+</html>
