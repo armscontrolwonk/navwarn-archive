@@ -47,7 +47,7 @@ Enable GitHub Pages on the main branch (root) to publish `index.html`.
 | ukho | NAVAREA I, UK coastal (WZ) | server-rendered HTML |
 | kystverket | NAVAREA XIX | simple report page |
 | amsa | NAVAREA X, AUSCOAST areas A-H | one page, full text; rig and special-vessel tables kept raw only |
-| ccg | NAVAREA XVII/XVIII + all Canadian coastal series | ~35 HTML pages per run |
+| ccg | Canadian coastal series only (NAVAREA XVII/XVIII are not on this site) | ~35 HTML pages per run |
 | nga_daily | NAVAREA IV, XII | NGA text bulletins; flagged stale when NGA stops updating |
 
 A source is marked stale when its newest warning is older than its expected cadence; its warnings

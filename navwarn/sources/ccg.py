@@ -1,4 +1,5 @@
-"""Canadian Coast Guard NAVWARNs (includes NAVAREA XVII/XVIII and all coastal series).
+"""Canadian Coast Guard NAVWARNs: coastal series only. NAVAREA XVII/XVIII in-force texts are not
+published here; the Coast Guard says to request them from navarea17.18@innav.gc.ca.
 HTML search, 50 per page (~35 pages). One bulk fetch per run; raw pages saved as one concatenated file."""
 from __future__ import annotations
 import re, time

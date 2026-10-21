@@ -15,7 +15,7 @@ Leave out of v1:
 |---|---|---|---|
 | IV, XII, HYDRO* | NGA (US) | JSON API `msi.nga.mil/api/publications/broadcast-warn` responds but is **frozen: newest record 2024-05-10**, 386 "active" items, all 2021-2024. Independently confirmed by an open-source project on 2026-10-07. The archive it still serves is huge (NAVAREA IV back to 1977, ~20k records; HYDROPAC ~82k). Daily in-force text bulletins at `msi.nga.mil/apology_objects/DailyMemIV.txt` / `DailyMemXII.txt` show "IN FORCE AS OF 05 MAR" 2026, so also possibly stale. The `/navwarnings` page returns a WAF 403 to curl. NGA email subscription is the live channel. | A (archive, one-time grab) / D (email) |
 | I | UKHO | `msi.admiralty.co.uk/RadioNavigationalWarnings` returns 200 with warning text server-rendered in the HTML (NAVAREA I 225/26 etc. visible). No robots.txt. | B |
-| XVII, XVIII + Canadian coastal | Canadian Coast Guard | `nis.ccg-gcc.gc.ca/public/rest/...` is HTML (406 on JSON Accept). Search supports status published/cancelled, date ranges, areas; **CSV export up to 2,000 rows**; email subscription with CSV attachment. | A (CSV) / D |
+| Canadian coastal (not XVII, XVIII) | Canadian Coast Guard | `nis.ccg-gcc.gc.ca/public/rest/...` is HTML (406 on JSON Accept). Search supports status published/cancelled, date ranges, areas; **CSV export up to 2,000 rows**; email subscription with CSV attachment. Checked 2026-10-21: no NAVAREA XVII/XVIII warnings on this site; CCG says to request their texts from navarea17.18@innav.gc.ca. | A (CSV) / D |
 | XIX | Kystverket (Norway) | English warnings page returns 200. Site states it is a convenience copy of the broadcast. | B |
 | XI | Japan Coast Guard | Old `navarea11_en.html` is 404. Another project reads the list from a `warnings.cgi` endpoint. Needs re-discovery. | B (unverified) |
 | X | AMSA (Australia) | MSI page returns 200 but warning text is not inline (loaded from a sub-site or JS). Weekly in-force bulletin Thursdays 0000 UTC; **automated email** available. | B/D |
@@ -93,7 +93,7 @@ Alternatives, in case the repo constraint bites:
 
 1. Repo skeleton, Actions cron every 6 h, Python with `requests`, one module per source exposing `fetch() -> bytes` and `parse(bytes) -> list[Warning]`.
 2. One-time grab of the NGA archive (`status=all` for 4, 12, A, P, C) into `warnings/`. That alone is a historically useful dataset back to 1977.
-3. Live sources: UKHO (I), Canada CSV (XVII/XVIII), Kystverket (XIX), NGA daily text bulletins (IV/XII) with a staleness alarm.
+3. Live sources: UKHO (I), Canada (coastal only), Kystverket (XIX), NGA daily text bulletins (IV/XII) with a staleness alarm.
 4. Mailbox ingest: subscribe the project address to NGA, AMSA (X), Canada, and ask Maritime NZ (XIV).
 5. Static site: table + map of active warnings from `index/active.json`, per-warning permalink to the JSON and the raw file it came from.
 6. Then re-discover Japan (XI) and SHOM (II), and start on the PDF-only offices one at a time.
