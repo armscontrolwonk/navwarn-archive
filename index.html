@@ -39,9 +39,11 @@
 </header>
 <div id="map"></div>
 <div class="tools">
-  <input id="q" placeholder="search text, e.g. rocket, cable, seismic, 48-30N">
+  <input id="q" placeholder="search; separate terms with commas, e.g. rocket, danger area, ракетные">
   <select id="series"><option value="">all series</option></select>
   <span class="meta" id="count"></span>
+  <label class="chip" style="cursor:pointer">add your KML<input id="kml" type="file" accept=".kml" hidden></label>
+  <a class="chip" href="index/active.kml" download>download KML</a>
 </div>
 <ul class="list" id="list"></ul>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
@@ -57,14 +59,15 @@
   const sel = document.getElementById('series');
   [...new Set(W.map(w => w.series))].sort().forEach(s => sel.append(new Option(s, s)));
 
-  const map = L.map('map', { worldCopyJump: true }).setView([30, 0], 2);
+  const map = L.map('map', { worldCopyJump: true, preferCanvas: true }).setView([30, 0], 2);
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(map);
   let layer = L.layerGroup().addTo(map);
 
   function render() {
-    const q = document.getElementById('q').value.trim().toLowerCase();
+    const terms = document.getElementById('q').value.toLowerCase().split(',').map(t => t.trim()).filter(Boolean);
     const s = sel.value;
-    const rows = W.filter(w => (!s || w.series === s) && (!q || (w.id + ' ' + w.text).toLowerCase().includes(q)));
+    const rows = W.filter(w => (!s || w.series === s) &&
+      (!terms.length || terms.some(t => (w.id + ' ' + w.text).toLowerCase().includes(t))));
     document.getElementById('count').textContent = `${rows.length} shown`;
     document.getElementById('list').innerHTML = rows.map((w, i) => `
       <li class="w" data-i="${i}"><div class="head">
@@ -73,12 +76,21 @@
         <span class="subj">${esc(w.subject)}</span></div>
         <pre>${esc(w.text)}\n\n<a href="${w.url}" target="_blank" rel="noopener">source</a> · ${w.positions.length} positions</pre></li>`).join('');
     layer.clearLayers();
+    const red = { color: '#e0442b', weight: 1, fillOpacity: .15 };
     rows.forEach(w => {
-      if (!w.positions.length) return;
+      const ex = w.extra || {};
+      const popup = `<b>${w.id}</b><br>${esc(w.subject)}`;
+      (ex.circles || []).forEach(c => L.circle([c.lat, c.lon], { ...red, radius: c.radius_nm * 1852 }).bindPopup(popup).addTo(layer));
+      if (ex.circles && ex.circles.length) return;
+      if (!w.positions.length) {
+        if (ex.q_circle) L.circle([ex.q_circle.lat, ex.q_circle.lon], { ...red, dashArray: '4 4', fillOpacity: .05,
+          radius: ex.q_circle.radius_nm * 1852 }).bindPopup(popup + '<br><i>approximate area from the NOTAM Q line</i>').addTo(layer);
+        return;
+      }
       const pts = w.positions.map(p => L.latLng(p[0], p[1]));
+      if (ex.shape === 'polygon' && pts.length >= 3) { L.polygon(pts, red).bindPopup(popup).addTo(layer); return; }
       const area = /BOUND(?:ED)?\s+BY|AREA BOUNDED|WITHIN AREA/i.test(w.text);
       const line = /TRACKLINE|JOINING|ALONG|CABLE|PIPELINE|ROUTE/i.test(w.text);
-      const popup = `<b>${w.id}</b><br>${esc(w.subject)}`;
       if (area && pts.length >= 3) L.polygon(pts, { weight: 1, color: '#e0442b', fillOpacity: .15 }).bindPopup(popup).addTo(layer);
       else if (line && pts.length >= 2) L.polyline(pts, { weight: 2, color: '#e0442b' }).bindPopup(popup).addTo(layer);
       else pts.forEach(p => L.circleMarker(p, { radius: 4, color: '#e0442b', fillOpacity: .6 }).bindPopup(popup).addTo(layer));
@@ -89,6 +101,25 @@
     const li = e.target.closest('li.w'); if (li && !e.target.closest('a')) li.classList.toggle('open');
   });
   document.getElementById('q').addEventListener('input', render);
+  // overlay a KML from your own computer (e.g. a flight track); it stays in this browser only
+  const own = L.layerGroup().addTo(map);
+  document.getElementById('kml').addEventListener('change', async e => {
+    const f = e.target.files[0]; if (!f) return;
+    const doc = new DOMParser().parseFromString(await f.text(), 'application/xml');
+    const blue = { color: '#1f6feb', weight: 2, fillOpacity: .1 };
+    doc.querySelectorAll('Placemark').forEach(pm => {
+      const name = esc(pm.querySelector('name')?.textContent || f.name);
+      pm.querySelectorAll('coordinates').forEach(c => {
+        const pts = c.textContent.trim().split(/\s+/).map(t => t.split(',').map(Number)).filter(p => p.length >= 2 && !isNaN(p[0]))
+          .map(p => L.latLng(p[1], p[0]));
+        const kind = c.parentElement.tagName;
+        const g = kind === 'Point' ? L.circleMarker(pts[0], { ...blue, radius: 5 })
+          : kind === 'LinearRing' ? L.polygon(pts, blue) : L.polyline(pts, blue);
+        g.bindPopup(name).addTo(own);
+      });
+    });
+    try { map.fitBounds(L.featureGroup(own.getLayers()).getBounds(), { maxZoom: 8 }); } catch (_) {}
+  });
   sel.addEventListener('change', render);
   render();
 })();

@@ -47,11 +47,19 @@ Enable GitHub Pages on the main branch (root) to publish `index.html`.
 | ukho | NAVAREA I, UK coastal (WZ) | server-rendered HTML |
 | kystverket | NAVAREA XIX | simple report page |
 | amsa | NAVAREA X, AUSCOAST areas A-H | one page, full text; rig and special-vessel tables kept raw only |
+| faa_notam | aviation NOTAMs, any FIR (Russia, Turkey ...) | hand-fed: FAA NOTAM Search export dropped in `inbox/faa_notam/` |
+| prip | Russian PRIP coastal warnings | hand-fed: Cyrillic text pasted into `inbox/prip/` |
 | ccg | Canadian coastal series only (NAVAREA XVII/XVIII are not on this site) | ~35 HTML pages per run |
 | nga_daily | NAVAREA IV, XII | NGA text bulletins; flagged stale when NGA stops updating |
 
 A source is marked stale when its newest warning is older than its expected cadence; its warnings
 stay on disk but drop out of `active.json` until it recovers.
+
+## Map
+
+`index.html` searches several comma-separated terms at once, overlays a KML from your computer
+(it never leaves your browser), and links `index/active.kml`, every warning in force for Google Earth or QGIS.
+Warnings that a later warning cancels or replaces drop off the map automatically.
 
 ## Adding a source
 

@@ -35,7 +35,7 @@ def iter_records():
             yield json.load(f)
 
 
-def upsert(warnings: list[Warning], source_name: str, now: str) -> dict:
+def upsert(warnings: list[Warning], source_name: str, now: str, withdraw: bool = True) -> dict:
     """Returns counts {new, updated, withdrawn}."""
     seen, stats = set(), {"new": 0, "updated": 0, "withdrawn": 0}
     for w in warnings:
@@ -55,7 +55,7 @@ def upsert(warnings: list[Warning], source_name: str, now: str) -> dict:
             old.pop("withdrawn_at", None)
             rec = old
         save(rec)
-    for rec in iter_records():
+    for rec in (iter_records() if withdraw else ()):
         if rec.get("status") == "active" and rec.get("source", {}).get("name") == source_name and rec["id"] not in seen:
             rec.update(status="withdrawn", withdrawn_at=now)
             save(rec)

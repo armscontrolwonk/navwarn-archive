@@ -4,7 +4,7 @@ import importlib, json, os, sys, traceback
 from .http import now_iso
 from . import store
 
-SOURCES = ["ukho", "kystverket", "amsa", "nga_daily", "ccg"]
+SOURCES = ["ukho", "kystverket", "amsa", "nga_daily", "ccg", "faa_notam", "prip"]
 STATUS_PATH = os.path.join("index", "sources.json")
 
 
@@ -21,7 +21,13 @@ def main(argv: list[str]) -> int:
         entry = status.get(name, {})
         try:
             warnings = mod.run()
-            stats = store.upsert(warnings, name, now)
+            if not warnings and getattr(mod, "CADENCE_DAYS", 7) is None:
+                # hand-fed source with an empty inbox: nothing happened, keep the last ingest's numbers
+                entry.update(last_ok=now, last_error=None, cadence_days=None)
+                print(f"[{name}] inbox empty")
+                status[name] = entry
+                continue
+            stats = store.upsert(warnings, name, now, withdraw=getattr(mod, "WITHDRAW_MISSING", True))
             newest = max((w.issued_at for w in warnings if w.issued_at), default=None)
             entry.update(last_ok=now, last_error=None, count=len(warnings), newest_issued_at=newest,
                          cadence_days=getattr(mod, "CADENCE_DAYS", 7), **{f"last_{k}": v for k, v in stats.items()})
