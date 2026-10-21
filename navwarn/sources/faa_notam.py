@@ -16,7 +16,7 @@ from ..model import Warning
 NAME = "faa_notam"
 CADENCE_DAYS = None          # hand-fed: never flagged stale
 WITHDRAW_MISSING = False     # an export only covers the FIRs searched; absence means nothing
-PARSER_VERSION = 1
+PARSER_VERSION = 2          # v2: extra.starts_at from B)
 
 M = "{http://schemas.openxmlformats.org/spreadsheetml/2006/main}"
 
@@ -141,6 +141,8 @@ def parse_notam(loc: str, number: str, issue: str, text: str, raw_path: str, fet
     if len(positions) >= 3 and not circles:
         extra["shape"] = "polygon"
     b, c = B_RE.search(text), C_RE.search(text)
+    if b:
+        extra["starts_at"] = _yymmddhhmm(b.group(1))
     return Warning(
         id=f"{series}/{year}/{letter}{n}", series=series, number=f"{letter}{n}", year=year,
         issued_at=_faa_date(issue) or (_yymmddhhmm(b.group(1)) if b else None),

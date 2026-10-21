@@ -3,126 +3,262 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Navigational Warnings Archive</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<title>Warnings Map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
 <style>
-  :root { --bg:#fff; --fg:#111; --muted:#666; --line:#e3e3e3; --accent:#0b5fff; --chip:#eef3ff; }
-  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg:#121417; --fg:#e8e8e8; --muted:#9a9a9a; --line:#2a2e34; --accent:#7aa2ff; --chip:#1b2434; } }
-  :root[data-theme="dark"] { --bg:#121417; --fg:#e8e8e8; --muted:#9a9a9a; --line:#2a2e34; --accent:#7aa2ff; --chip:#1b2434; }
-  * { box-sizing:border-box }
-  body { margin:0; background:var(--bg); color:var(--fg); font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif }
-  header { padding:14px 16px; border-bottom:1px solid var(--line); display:flex; gap:14px; flex-wrap:wrap; align-items:baseline }
-  header h1 { font-size:18px; margin:0 }
-  header .meta { color:var(--muted); font-size:13px }
-  #map { height:42vh; min-height:260px; border-bottom:1px solid var(--line) }
-  .tools { padding:10px 16px; display:flex; gap:10px; flex-wrap:wrap; align-items:center; border-bottom:1px solid var(--line) }
-  .tools input, .tools select { font:inherit; padding:6px 8px; border:1px solid var(--line); border-radius:6px; background:var(--bg); color:var(--fg) }
-  .tools input { flex:1; min-width:160px }
-  .chip { background:var(--chip); border-radius:999px; padding:2px 9px; font-size:12px; white-space:nowrap }
-  .chip.stale { background:#ffe9d6; color:#7a3b00 }
-  ul.list { list-style:none; margin:0; padding:0 16px 40px }
-  li.w { border-bottom:1px solid var(--line); padding:10px 0 }
-  li.w .head { display:flex; gap:10px; flex-wrap:wrap; align-items:baseline; cursor:pointer }
-  li.w .id { font-weight:600 }
-  li.w .when { color:var(--muted); font-size:13px }
-  li.w .subj { flex:1 1 100%; }
-  li.w pre { display:none; white-space:pre-wrap; font:13px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace; background:var(--chip); padding:10px; border-radius:6px; margin:8px 0 0 }
-  li.w.open pre { display:block }
-  a { color:var(--accent) }
+  :root { --panel:#ffffff; --fg:#151515; --muted:#666; --line:#e2e2e2; --accent:#0b5fff; --chip:#eef2f8; --stale:#ffe6cc; --stalefg:#7a3b00; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --panel:#16191d; --fg:#e8e8e8; --muted:#9aa0a6; --line:#2c3138; --accent:#7aa2ff; --chip:#222831; --stale:#4a2f12; --stalefg:#ffcf99; } }
+  :root[data-theme="dark"] { --panel:#16191d; --fg:#e8e8e8; --muted:#9aa0a6; --line:#2c3138; --accent:#7aa2ff; --chip:#222831; --stale:#4a2f12; --stalefg:#ffcf99; }
+  html, body { margin:0; height:100%; background:#0e1013; font:13px/1.4 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; }
+  #map { position:absolute; inset:0; }
+  #panel { position:absolute; top:10px; left:54px; z-index:1000; width:300px; max-height:calc(100% - 20px); display:flex; flex-direction:column;
+           background:var(--panel); color:var(--fg); border-radius:8px; box-shadow:0 2px 12px rgba(0,0,0,.35); }
+  #panel header { display:flex; align-items:baseline; gap:8px; padding:10px 12px 0; }
+  #panel h1 { font-size:15px; margin:0; flex:1; }
+  #toggle { border:0; background:none; color:var(--muted); cursor:pointer; font-size:12px; padding:0; }
+  #body { padding:6px 12px 12px; overflow:auto; }
+  #panel.collapsed #body { display:none; }
+  .meta { color:var(--muted); font-size:12px; }
+  .row { margin-top:10px; }
+  label.h { display:block; font-weight:600; font-size:12px; margin-bottom:4px; }
+  input[type=text], input[type=date] { width:100%; box-sizing:border-box; padding:6px 8px; font:inherit; color:var(--fg); background:transparent;
+           border:1px solid var(--line); border-radius:5px; }
+  .dates { display:flex; gap:6px; }
+  .btns { display:flex; gap:6px; flex-wrap:wrap; }
+  button, .btn { font:inherit; font-size:12px; padding:5px 9px; border:1px solid var(--line); border-radius:5px; background:var(--chip); color:var(--fg);
+           cursor:pointer; text-decoration:none; }
+  .chips { display:flex; flex-wrap:wrap; gap:4px; margin-top:6px; }
+  .chip { background:var(--chip); border-radius:999px; padding:1px 8px; font-size:11px; }
+  .chip.stale { background:var(--stale); color:var(--stalefg); }
+  #count { font-weight:600; margin-top:10px; }
+  #list { list-style:none; margin:6px 0 0; padding:0; border-top:1px solid var(--line); }
+  #list li { padding:6px 0; border-bottom:1px solid var(--line); cursor:pointer; }
+  #list li:hover .id { color:var(--accent); }
+  #list .id { font-weight:600; font-size:12px; }
+  #list .sub { color:var(--muted); font-size:12px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .swatch { display:inline-block; width:9px; height:9px; border-radius:2px; margin-right:5px; vertical-align:baseline; }
+  .leaflet-popup-content { font-size:12px; line-height:1.35; width:320px !important; }
+  .leaflet-popup-content pre { white-space:pre-wrap; max-height:240px; overflow:auto; font:11px/1.35 ui-monospace,SFMono-Regular,Menlo,monospace; margin:6px 0; }
+  .glyph { font-size:18px; line-height:20px; text-align:center; filter:drop-shadow(0 0 2px #000); }
+  @media (max-width: 600px) { #panel { left:10px; right:10px; width:auto; top:auto; bottom:30px; max-height:55%; } }
 </style>
 </head>
 <body>
-<header>
-  <h1>Navigational Warnings Archive</h1>
-  <span class="meta" id="meta">loading…</span>
-  <span id="sources"></span>
-</header>
 <div id="map"></div>
-<div class="tools">
-  <input id="q" placeholder="search; separate terms with commas, e.g. rocket, danger area, ракетные">
-  <select id="series"><option value="">all series</option></select>
-  <span class="meta" id="count"></span>
-  <label class="chip" style="cursor:pointer">add your KML<input id="kml" type="file" accept=".kml" hidden></label>
-  <a class="chip" href="index/active.kml" download>download KML</a>
+<div id="panel">
+  <header><h1>Warnings Map</h1><button id="toggle" aria-expanded="true">hide</button></header>
+  <div id="body">
+    <div class="meta" id="meta">loading…</div>
+    <div class="chips" id="sources"></div>
+
+    <div class="row">
+      <label class="h" for="q">Search</label>
+      <input type="text" id="q" placeholder="any of: rocket, UNL, danger | ракетные">
+      <div class="meta">Separate terms with commas or |. A warning matches if it contains any of them.</div>
+    </div>
+
+    <div class="row">
+      <label class="h">In force during</label>
+      <div class="dates"><input type="date" id="start" aria-label="from"><input type="date" id="end" aria-label="to"></div>
+    </div>
+
+    <div class="row btns">
+      <button id="clear">Clear filters</button>
+      <button onclick="location.reload()">Refresh</button>
+      <label class="btn" style="cursor:pointer">Add your KML<input id="kml" type="file" accept=".kml,.geojson,.json" hidden></label>
+      <a class="btn" href="index/active.kml" download>Download KML</a>
+    </div>
+
+    <div id="count"></div>
+    <ul id="list"></ul>
+  </div>
 </div>
-<ul class="list" id="list"></ul>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
 <script>
+// Flight regions treated as "Russian" for the NOTAM layers (ICAO codes).
+const RU_FIRS = new Set(('UHWW USPP UEEE USUU UEMH UENN UESS UESU UEVV UGEE UHBI UHHH UHMI UHMM UHMP UHNN UHPT UHPU UHSH UIII UIKB UIKK ' +
+  'ULLL ULOL UMKK UNKL UNLL UNNT UOTT URFV URRV USDK USHB USHH USSV USTV UUWV UUYW UUYY UWOO UWWW UUUU URRR USSS USRR UUDD ULAA UMMS ' +
+  'UUBW UUDL USRK UHPP UHSM UHMD ULAM UUEE UUWW UWKD').split(' '));
+// Boundaries: VATSIM VATSpy data project, CC BY-SA 4.0, pinned to one commit.
+const FIR_URL = 'https://cdn.jsdelivr.net/gh/vatsimnetwork/vatspy-data-project@e2b3e80ed5eda2e31f4d91fb58174badb900e39f/Boundaries.geojson';
+
+const CATS = {
+  ru:   { label: 'Russian NOTAMs',       color: '#ff3b30' },
+  int:  { label: 'International NOTAMs', color: '#d64bd4' },
+  sea:  { label: 'Maritime warnings',    color: '#3aa0ff' },
+};
+const esc = s => (s || '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const NM = 1852;
+
+// ---------- map and base layers ----------
+const map = L.map('map', { worldCopyJump: true, preferCanvas: true, zoomControl: true }).setView([45, 40], 3);
+L.control.scale({ imperial: false }).addTo(map);
+map.createPane('labels'); map.getPane('labels').style.zIndex = 450; map.getPane('labels').style.pointerEvents = 'none';
+const bases = {
+  // Esri canvas tiles need no key (CARTO's now do); labels come from a separate reference layer
+  'Dark': L.layerGroup([
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', { attribution: 'Tiles © Esri — Esri, HERE, Garmin, © OpenStreetMap contributors', maxZoom: 16 }),
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}', { maxZoom: 16, pane: 'labels', opacity: .8 })]),
+  'Light': L.layerGroup([
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', { attribution: 'Tiles © Esri — Esri, HERE, Garmin, © OpenStreetMap contributors', maxZoom: 16 }),
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}', { maxZoom: 16, pane: 'labels', opacity: .8 })]),
+  'Street': L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap', maxZoom: 19 }),
+  'Satellite': L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { attribution: 'Tiles © Esri — Esri, Maxar, Earthstar Geographics, and the GIS User Community', maxZoom: 19 }),
+  'Topographic': L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap contributors, SRTM | © OpenTopoMap (CC-BY-SA)', maxZoom: 17 }),
+};
+bases['Dark'].addTo(map);
+
+const groups = {}, overlays = {};
+for (const [k, c] of Object.entries(CATS)) {
+  groups[k] = { shapes: L.layerGroup().addTo(map),
+                points: L.markerClusterGroup({ maxClusterRadius: 60, disableClusteringAtZoom: 9, spiderfyOnMaxZoom: true, chunkedLoading: true }).addTo(map) };
+  const sw = `<span class="swatch" style="background:${c.color}"></span>`;
+  overlays[`${sw}${c.label}: areas`] = groups[k].shapes;
+  overlays[`${sw}${c.label}: points`] = groups[k].points;
+}
+const firLayer = L.geoJSON(null, { interactive: false, style: { color: '#2aa198', weight: .6, fillColor: '#888', fillOpacity: .04 } });
+overlays['Flight region boundaries'] = firLayer;
+const control = L.control.layers(bases, overlays, { collapsed: window.innerWidth < 900 }).addTo(map);
+map.attributionControl.addAttribution('Boundaries: <a href="https://github.com/vatsimnetwork/vatspy-data-project">VATSpy data</a> (CC BY-SA 4.0)');
+
+// ---------- geometry ----------
+function unwrap(pts) {   // keep shapes that cross 180° in one piece
+  const lons = pts.map(p => p[1]);
+  if (Math.max(...lons) - Math.min(...lons) <= 180) return pts;
+  return pts.map(([a, b]) => [a, b < 0 ? b + 360 : b]);
+}
+function category(w) {
+  if (!w.series.startsWith('notam-')) return 'sea';
+  const ex = w.extra || {};
+  return RU_FIRS.has(ex.fir) || RU_FIRS.has(ex.location) ? 'ru' : 'int';
+}
+function build(w) {
+  const ex = w.extra || {}, color = CATS[w.cat].color;
+  const st = { color, weight: 1, fillColor: color, fillOpacity: .18 };
+  const shapes = [], points = [];
+  (ex.circles || []).forEach(c => shapes.push(L.circle([c.lat, c.lon], { ...st, radius: c.radius_nm * NM })));
+  const pos = w.positions || [];
+  if (!shapes.length && pos.length) {
+    const pts = unwrap(pos);
+    const area = ex.shape === 'polygon' || (/BOUND(?:ED)?\s+BY|AREA BOUNDED|WITHIN AREA|РАЙОНЕ/i.test(w.text) && pts.length >= 3);
+    const line = !area && /TRACKLINE|JOINING|ALONG|CABLE|PIPELINE|ROUTE/i.test(w.text) && pts.length >= 2;
+    if (area) shapes.push(L.polygon(pts, st));
+    else if (line) shapes.push(L.polyline(pts, { color, weight: 2 }));
+    else pts.forEach(p => points.push(L.circleMarker(p, { radius: 5, color, weight: 1, fillColor: color, fillOpacity: .8 })));
+  }
+  if (!shapes.length && !points.length && ex.q_circle) {
+    const q = ex.q_circle;
+    shapes.push(L.circle([q.lat, q.lon], { ...st, dashArray: '4 4', fillOpacity: .05, radius: q.radius_nm * NM }));
+  }
+  const html = popup(w);
+  [...shapes, ...points].forEach(l => l.bindPopup(html, { maxWidth: 340 }));
+  return { shapes, points };
+}
+function popup(w) {
+  const ex = w.extra || {};
+  const from = ex.starts_at || w.issued_at || '';
+  const vert = ex.lower || ex.upper ? `<br>${esc(ex.lower || '?')} to ${esc(ex.upper || '?')}` : '';
+  const approx = !(w.positions || []).length && !(ex.circles || []).length && ex.q_circle ? '<br><i>Approximate area from the NOTAM Q line.</i>' : '';
+  const link = w.url ? ` · <a href="${esc(w.url)}" target="_blank" rel="noopener">source</a>` : '';
+  return `<b>${esc(w.id)}</b> <span class="meta">${esc(w.source)}${link}</span><br>` +
+         `${esc(from.replace('T', ' ').replace(':00Z', 'Z'))} to ${esc((w.expires_at || 'until cancelled').replace('T', ' ').replace(':00Z', 'Z'))}${vert}${approx}` +
+         `<pre>${esc(w.text)}</pre>`;
+}
+
+// ---------- data ----------
+let W = [];
 (async () => {
   const [active, sources] = await Promise.all([
     fetch('index/active.json').then(r => r.json()),
     fetch('index/sources.json').then(r => r.json())]);
-  const W = active.warnings;
-  document.getElementById('meta').textContent = `${W.length} in force · generated ${active.generated}`;
-  document.getElementById('sources').innerHTML = Object.entries(sources.sources).map(([n, s]) =>
-    `<span class="chip ${s.stale ? 'stale' : ''}" title="newest ${s.newest_issued_at || '?'} · last ok ${s.last_ok || 'never'}">${n}${s.stale ? ' · stale' : ''}</span>`).join(' ');
-  const sel = document.getElementById('series');
-  [...new Set(W.map(w => w.series))].sort().forEach(s => sel.append(new Option(s, s)));
+  W = active.warnings.map(w => { w.cat = category(w); w.hay = (w.id + ' ' + w.text).toLowerCase(); Object.assign(w, build(w));
+    w.t0 = Date.parse((w.extra || {}).starts_at || w.issued_at || '') || -Infinity;
+    w.t1 = Date.parse(w.expires_at || '') || Infinity; return w; });
+  document.getElementById('meta').textContent = `${W.length} warnings in force · updated ${active.generated.replace('T', ' ').slice(0, 16)}Z`;
+  document.getElementById('sources').innerHTML = Object.entries(sources.sources).sort().map(([n, s]) =>
+    `<span class="chip ${s.stale ? 'stale' : ''}" title="newest ${s.newest_issued_at || '?'} · last ok ${s.last_ok || 'never'}">${esc(n)}${s.stale ? ' · stale' : ''}</span>`).join('');
+  apply();
+})();
 
-  const map = L.map('map', { worldCopyJump: true, preferCanvas: true }).setView([30, 0], 2);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(map);
-  let layer = L.layerGroup().addTo(map);
+fetch(FIR_URL).then(r => r.json()).then(d => { firLayer.addData(d); firLayer.addTo(map); firLayer.bringToBack(); }).catch(() => {});
 
-  function render() {
-    const terms = document.getElementById('q').value.toLowerCase().split(',').map(t => t.trim()).filter(Boolean);
-    const s = sel.value;
-    const rows = W.filter(w => (!s || w.series === s) &&
-      (!terms.length || terms.some(t => (w.id + ' ' + w.text).toLowerCase().includes(t))));
-    document.getElementById('count').textContent = `${rows.length} shown`;
-    document.getElementById('list').innerHTML = rows.map((w, i) => `
-      <li class="w" data-i="${i}"><div class="head">
-        <span class="id">${w.id}</span><span class="when">${w.issued_at || ''}${w.expires_at ? ' → ' + w.expires_at : ''}</span>
-        <span class="chip">${w.source}</span>
-        <span class="subj">${esc(w.subject)}</span></div>
-        <pre>${esc(w.text)}\n\n<a href="${w.url}" target="_blank" rel="noopener">source</a> · ${w.positions.length} positions</pre></li>`).join('');
-    layer.clearLayers();
-    const red = { color: '#e0442b', weight: 1, fillOpacity: .15 };
-    rows.forEach(w => {
-      const ex = w.extra || {};
-      const popup = `<b>${w.id}</b><br>${esc(w.subject)}`;
-      (ex.circles || []).forEach(c => L.circle([c.lat, c.lon], { ...red, radius: c.radius_nm * 1852 }).bindPopup(popup).addTo(layer));
-      if (ex.circles && ex.circles.length) return;
-      if (!w.positions.length) {
-        if (ex.q_circle) L.circle([ex.q_circle.lat, ex.q_circle.lon], { ...red, dashArray: '4 4', fillOpacity: .05,
-          radius: ex.q_circle.radius_nm * 1852 }).bindPopup(popup + '<br><i>approximate area from the NOTAM Q line</i>').addTo(layer);
-        return;
-      }
-      const pts = w.positions.map(p => L.latLng(p[0], p[1]));
-      if (ex.shape === 'polygon' && pts.length >= 3) { L.polygon(pts, red).bindPopup(popup).addTo(layer); return; }
-      const area = /BOUND(?:ED)?\s+BY|AREA BOUNDED|WITHIN AREA/i.test(w.text);
-      const line = /TRACKLINE|JOINING|ALONG|CABLE|PIPELINE|ROUTE/i.test(w.text);
-      if (area && pts.length >= 3) L.polygon(pts, { weight: 1, color: '#e0442b', fillOpacity: .15 }).bindPopup(popup).addTo(layer);
-      else if (line && pts.length >= 2) L.polyline(pts, { weight: 2, color: '#e0442b' }).bindPopup(popup).addTo(layer);
-      else pts.forEach(p => L.circleMarker(p, { radius: 4, color: '#e0442b', fillOpacity: .6 }).bindPopup(popup).addTo(layer));
-    });
+// Optional point layers: drop GeoJSON files in layers/ (see layers/README.md). Missing files are skipped.
+[['layers/launch-sites.geojson', 'Launch sites', '🚀'], ['layers/nuclear-sites.geojson', 'Nuclear sites', '☢️']].forEach(([url, name, g]) =>
+  fetch(url).then(r => r.ok ? r.json() : Promise.reject()).then(d => {
+    const lyr = L.geoJSON(d, { pointToLayer: (f, ll) => L.marker(ll, { icon: L.divIcon({ className: 'glyph', html: g, iconSize: [20, 20], iconAnchor: [10, 10] }) })
+      .bindPopup(`<b>${esc(f.properties.name)}</b><br>${esc([f.properties.country, f.properties.type || f.properties.code].filter(Boolean).join(' · '))}`) });
+    control.addOverlay(lyr, `${g} ${name}`);
+  }).catch(() => {}));
+
+// ---------- filtering ----------
+const $ = id => document.getElementById(id);
+let timer;
+function apply() {
+  const terms = $('q').value.toLowerCase().split(/[,|]/).map(t => t.trim()).filter(Boolean);
+  const s = $('start').value ? Date.parse($('start').value + 'T00:00:00Z') : null;
+  const e = $('end').value ? Date.parse($('end').value + 'T23:59:59Z') : null;
+  const hits = W.filter(w => (!terms.length || terms.some(t => w.hay.includes(t))) &&
+                             (s === null || w.t1 >= s) && (e === null || w.t0 <= e));
+  for (const k of Object.keys(CATS)) {
+    const mine = hits.filter(w => w.cat === k);
+    groups[k].shapes.clearLayers(); mine.forEach(w => w.shapes.forEach(l => groups[k].shapes.addLayer(l)));
+    groups[k].points.clearLayers(); groups[k].points.addLayers(mine.flatMap(w => w.points));
   }
-  const esc = s => (s || '').replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
-  document.getElementById('list').addEventListener('click', e => {
-    const li = e.target.closest('li.w'); if (li && !e.target.closest('a')) li.classList.toggle('open');
-  });
-  document.getElementById('q').addEventListener('input', render);
-  // overlay a KML from your own computer (e.g. a flight track); it stays in this browser only
-  const own = L.layerGroup().addTo(map);
-  document.getElementById('kml').addEventListener('change', async e => {
-    const f = e.target.files[0]; if (!f) return;
-    const doc = new DOMParser().parseFromString(await f.text(), 'application/xml');
-    const blue = { color: '#1f6feb', weight: 2, fillOpacity: .1 };
+  const byCat = Object.keys(CATS).map(k => `${hits.filter(w => w.cat === k).length} ${CATS[k].label.toLowerCase()}`).join(' · ');
+  $('count').textContent = `${hits.length} shown — ${byCat}`;
+  const MAX = 300;
+  $('list').innerHTML = hits.slice(0, MAX).map((w, i) =>
+    `<li data-i="${W.indexOf(w)}"><div class="id"><span class="swatch" style="background:${CATS[w.cat].color}"></span>${esc(w.id)}</div>` +
+    `<div class="sub">${esc(w.subject)}</div></li>`).join('') +
+    (hits.length > MAX ? `<li class="meta">and ${hits.length - MAX} more; narrow the search to list them</li>` : '');
+}
+const later = () => { clearTimeout(timer); timer = setTimeout(apply, 150); };
+$('q').addEventListener('input', later);
+$('start').addEventListener('change', apply);
+$('end').addEventListener('change', apply);
+$('clear').addEventListener('click', () => { $('q').value = ''; $('start').value = ''; $('end').value = ''; apply(); });
+$('list').addEventListener('click', ev => {
+  const li = ev.target.closest('li[data-i]'); if (!li) return;
+  const w = W[+li.dataset.i]; const l = w.shapes[0] || w.points[0]; if (!l) return;
+  if (l.getBounds) map.fitBounds(l.getBounds(), { maxZoom: 9, padding: [40, 40] }); else map.setView(l.getLatLng(), Math.max(map.getZoom(), 8));
+  setTimeout(() => (w.points[0] && groups[w.cat].points.zoomToShowLayer ? groups[w.cat].points.zoomToShowLayer(w.points[0], () => w.points[0].openPopup()) : l.openPopup()), 350);
+});
+$('toggle').addEventListener('click', () => {
+  const c = $('panel').classList.toggle('collapsed'); $('toggle').textContent = c ? 'show' : 'hide'; $('toggle').setAttribute('aria-expanded', !c);
+});
+if (window.innerWidth < 600) $('toggle').click();
+
+// ---------- your own KML or GeoJSON (stays in this browser) ----------
+$('kml').addEventListener('change', async ev => {
+  const f = ev.target.files[0]; if (!f) return;
+  const text = await f.text(), blue = { color: '#ffd400', weight: 2, fillOpacity: .1 };
+  let lyr;
+  if (/\.(geo)?json$/i.test(f.name)) {
+    lyr = L.geoJSON(JSON.parse(text), { style: blue, pointToLayer: (_, ll) => L.circleMarker(ll, { ...blue, radius: 5 }),
+      onEachFeature: (ft, l) => l.bindPopup(esc((ft.properties || {}).name || f.name)) });
+  } else {
+    lyr = L.featureGroup();
+    const doc = new DOMParser().parseFromString(text, 'application/xml');
     doc.querySelectorAll('Placemark').forEach(pm => {
       const name = esc(pm.querySelector('name')?.textContent || f.name);
       pm.querySelectorAll('coordinates').forEach(c => {
-        const pts = c.textContent.trim().split(/\s+/).map(t => t.split(',').map(Number)).filter(p => p.length >= 2 && !isNaN(p[0]))
-          .map(p => L.latLng(p[1], p[0]));
-        const kind = c.parentElement.tagName;
-        const g = kind === 'Point' ? L.circleMarker(pts[0], { ...blue, radius: 5 })
-          : kind === 'LinearRing' ? L.polygon(pts, blue) : L.polyline(pts, blue);
-        g.bindPopup(name).addTo(own);
+        const pts = c.textContent.trim().split(/\s+/).map(t => t.split(',').map(Number))
+          .filter(p => p.length >= 2 && !isNaN(p[0]) && !isNaN(p[1])).map(p => [p[1], p[0]]);
+        if (!pts.length) return;
+        const kind = c.parentElement.localName;
+        (kind === 'Point' ? L.circleMarker(pts[0], { ...blue, radius: 5 }) : kind === 'LinearRing' ? L.polygon(pts, blue) : L.polyline(pts, blue))
+          .bindPopup(name).addTo(lyr);
       });
     });
-    try { map.fitBounds(L.featureGroup(own.getLayers()).getBounds(), { maxZoom: 8 }); } catch (_) {}
-  });
-  sel.addEventListener('change', render);
-  render();
-})();
+  }
+  lyr.addTo(map); control.addOverlay(lyr, `Your file: ${esc(f.name)}`);
+  try { map.fitBounds(lyr.getBounds(), { maxZoom: 9 }); } catch (_) {}
+  ev.target.value = '';
+});
 </script>
 </body>
 </html>

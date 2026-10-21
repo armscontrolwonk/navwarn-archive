@@ -57,9 +57,17 @@ stay on disk but drop out of `active.json` until it recovers.
 
 ## Map
 
-`index.html` searches several comma-separated terms at once, overlays a KML from your computer
-(it never leaves your browser), and links `index/active.kml`, every warning in force for Google Earth or QGIS.
+`index.html` is modelled on Púca's (Daithi O'Miadhaigh's) NOTAM viewer: a full-screen map with
+switchable base maps (dark, light, street, satellite, topographic), toggleable layers for Russian
+NOTAMs, international NOTAMs and maritime warnings (areas and clustered points), flight region
+boundaries, and optional launch-site and nuclear-site layers from `layers/`.
+Search matches any of several terms separated by commas or `|`. The date window shows warnings in
+force at any point in the range. You can overlay a KML or GeoJSON from your computer; it never
+leaves your browser. `index/active.kml` has every warning in force for Google Earth or QGIS.
 Warnings that a later warning cancels or replaces drop off the map automatically.
+
+Boundaries come from the [VATSpy data project](https://github.com/vatsimnetwork/vatspy-data-project)
+(CC BY-SA 4.0), loaded at view time from a pinned commit.
 
 ## Adding a source
 
