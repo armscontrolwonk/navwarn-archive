@@ -26,12 +26,14 @@ python -m navwarn.run                 # all sources
 python -m navwarn.run ukho            # one source
 python -m navwarn.build_index         # rebuild index/*.json
 python -m http.server 8000            # then open http://localhost:8000
-python -m navwarn.nga_archive         # one-time, ~100k historical records
+python -m navwarn.nga_archive         # one-time history pull; retried daily in CI while NGA is down
 ```
 
 ## Run in the cloud
 
 `.github/workflows/scrape.yml` runs every 6 hours on GitHub Actions and commits whatever changed.
+`.github/workflows/nga-archive.yml` retries NGA's 1977-2024 history pull daily until all five series
+are saved. NGA's portal has answered 503 (maintenance) since about March 2026.
 Enable GitHub Pages on the main branch (root) to publish `index.html`.
 
 ## Sources (v1)

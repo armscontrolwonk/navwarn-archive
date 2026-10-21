@@ -1,0 +1,30 @@
+name: nga-archive
+# NGA's portal has been in maintenance since ~March 2026. Retry the one-time history pull daily;
+# each series is skipped once saved, so after success this job finishes in seconds.
+on:
+  schedule:
+    - cron: "41 3 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: scrape          # never overlaps the 6-hourly scrape (both commit to main)
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: python -m navwarn.nga_archive
+        env:
+          NAVWARN_UA: "navwarn-archive/0.1 (+https://github.com/${{ github.repository }}; one-time history pull)"
+      - name: commit if changed
+        run: |
+          git config user.name "navwarn-bot"
+          git config user.email "navwarn-bot@users.noreply.github.com"
+          git add -A archive raw/nga_archive
+          git diff --cached --quiet && exit 0
+          git commit -m "nga archive $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase -q origin main
+          git push
