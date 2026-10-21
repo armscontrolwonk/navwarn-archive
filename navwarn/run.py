@@ -4,7 +4,7 @@ import importlib, json, os, sys, traceback
 from .http import now_iso
 from . import store
 
-SOURCES = ["ukho", "kystverket", "nga_daily", "ccg"]
+SOURCES = ["ukho", "kystverket", "amsa", "nga_daily", "ccg"]
 STATUS_PATH = os.path.join("index", "sources.json")
 
 

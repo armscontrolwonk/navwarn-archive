@@ -30,7 +30,7 @@ SELF_CANCEL_RE = re.compile(r"CANCEL\s+THIS\s+(?:MSG|MESSAGE)\s+(\d{6}Z?\s*(?:UT
 
 # "CANCEL NAVAREA I 220/26"  "CANCEL NAVAREA XIX 106/26"  "CANCEL HYDROPAC 1234/26"
 CANCEL_REF_RE = re.compile(
-    r"CANCEL\s+(?:NAVAREA\s+([IVX]+|\d+)|(HYDROPAC|HYDROLANT|HYDROARC|WZ))\s*(\d{1,4})/(\d{2})", re.I)
+    r"CANCEL\s+(?:NAVAREA\s+([IVX]+|\d+)|(HYDROPAC|HYDROLANT|HYDROARC|WZ|AUSCOAST)(?:\s+WARNING)?)\s*(\d{1,4})/(\d{2})", re.I)
 
 ROMAN = {"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5, "VI": 6, "VII": 7, "VIII": 8, "IX": 9, "X": 10,
          "XI": 11, "XII": 12, "XIII": 13, "XIV": 14, "XV": 15, "XVI": 16, "XVII": 17, "XVIII": 18,
@@ -48,7 +48,7 @@ def parse_cancels(text: str) -> list[str]:
     out = []
     for m in CANCEL_REF_RE.finditer(text or ""):
         area, other, num, yy = m.groups()
-        series = navarea_series(area) if area else {"WZ": "uk-wz"}.get(other.upper(), other.lower())
+        series = navarea_series(area) if area else {"WZ": "uk-wz", "AUSCOAST": "auscoast"}.get(other.upper(), other.lower())
         out.append(f"{series}/{2000 + int(yy)}/{int(num)}")
     return out
 

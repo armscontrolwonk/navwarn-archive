@@ -19,6 +19,10 @@ index.html             static site (GitHub Pages, repo root)
 
 ## Run locally
 
+The GitHub job owns `raw/`, `warnings/` and `index/`. Data you generate locally is for testing;
+discard it (`git checkout -- raw warnings index && git clean -fd raw warnings index`) rather than
+committing it, and `git pull` before you change code.
+
 Python 3.11+, standard library only.
 
 ```bash
@@ -42,6 +46,7 @@ Enable GitHub Pages on the main branch (root) to publish `index.html`.
 |---|---|---|
 | ukho | NAVAREA I, UK coastal (WZ) | server-rendered HTML |
 | kystverket | NAVAREA XIX | simple report page |
+| amsa | NAVAREA X, AUSCOAST areas A-H | one page, full text; rig and special-vessel tables kept raw only |
 | ccg | NAVAREA XVII/XVIII + all Canadian coastal series | ~35 HTML pages per run |
 | nga_daily | NAVAREA IV, XII | NGA text bulletins; flagged stale when NGA stops updating |
 
