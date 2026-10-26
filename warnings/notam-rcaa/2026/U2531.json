@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-01T12:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.1333,
+   "lon": 120.3167,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "schedule": "0100-1200",
+  "shape": "polygon",
+  "starts_at": "2026-10-12T01:00:00Z",
+  "upper": "2300FT AMSL",
+  "upper_fl": 23
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2531",
+ "issued_at": "2026-10-05T02:53:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2531",
+ "positions": [
+  [
+   23.165,
+   120.28333
+  ],
+  [
+   23.17389,
+   120.33972
+  ],
+  [
+   23.11583,
+   120.35972
+  ],
+  [
+   23.1,
+   120.30694
+  ],
+  [
+   23.165,
+   120.28333
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2531/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/023/2308N12019E003\nA) RCAA\nB) 2610120100 C) 2612011200\nD) 0100-1200\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260917001501\n2.LCA:SHANHUA DISTRICT, TAINAN CITY\n3.THE AREA OVERLAPS PART OF GUEIREN MIL TRAINING AREA AND \n  PART OF VFR CORRIDOR C35, ACFT ARE CTN ADZ.\n4.COOR TEL:0929-633377, 0928-729004\n5.AREA AS FLW:\n230954N 1201700E\n231026N 1202023E\n230657N 1202135E\n230600N 1201825E\n230954N 1201700E\nF) SFC G) 2300FT AMSL",
+ "year": 2026
+}

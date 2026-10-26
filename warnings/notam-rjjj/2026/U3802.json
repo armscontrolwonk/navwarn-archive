@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-12T08:07:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.0333,
+   "lon": 138.35,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/0807",
+  "shape": "polygon",
+  "starts_at": "2026-10-18T23:00:00Z",
+  "upper": "8137FT AMSL",
+  "upper_fl": 82
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3802",
+ "issued_at": "2026-10-15T16:48:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3802",
+ "positions": [
+  [
+   36.02583,
+   138.33194
+  ],
+  [
+   36.02639,
+   138.33806
+  ],
+  [
+   36.02778,
+   138.35028
+  ],
+  [
+   36.02889,
+   138.35556
+  ],
+  [
+   36.02944,
+   138.3575
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3802/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/082/3602N13821E002\nA)RJJJ B)2610182300 C)2701120807\nD)2300/0807\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: 70M EITHER SIDE OF A LINE 360133N1381955E - 360135N1382017E -\n360140N1382101E - 360144N1382120E - 360146N1382127E \n(CHINO-SHI IN NAGANO)\nWT: 95KG\nFLT TIME: 2300/SS\nCONTACT INFORMATION: 090-9389-1457\nF)SFC G)8137FT AMSL",
+ "year": 2026
+}

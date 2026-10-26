@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.1,
+   "lon": 141.6333,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/0700",
+  "shape": "polygon",
+  "starts_at": "2026-09-30T23:00:00Z",
+  "upper": "1346FT AMSL",
+  "upper_fl": 14
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3206",
+ "issued_at": "2026-09-11T03:12:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3206",
+ "positions": [
+  [
+   43.11972,
+   141.58611
+  ],
+  [
+   43.06639,
+   141.63639
+  ],
+  [
+   43.09222,
+   141.6925
+  ],
+  [
+   43.13056,
+   141.6575
+  ],
+  [
+   43.1225,
+   141.64111
+  ],
+  [
+   43.13917,
+   141.62667
+  ],
+  [
+   43.11972,
+   141.58611
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3206/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/014/4306N14138E004\nA)RJJJ B)2609302300 C)2611300700\nD)2300/0700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n430711N1413510E - 430359N1413811E - 430532N1414133E - 430750N1413927E\n- 430721N1413828E - 430821N1413736E - 430711N1413510E \n(EBETSU-SHI,SORACHI-GUN IN HOKKAIDO)\nWT: 1.2KG\n\nRMK: THIS AREA IS INCLUDED IN HK11-1\nF)SFC G)1346FT AMSL",
+ "year": 2026
+}

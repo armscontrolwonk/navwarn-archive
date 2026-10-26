@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T12:00:00Z",
+ "extra": {
+  "fir": "UACN",
+  "kind": "other",
+  "location": "UACN",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 52.15,
+   "lon": 61.2167,
+   "radius_nm": 3
+  },
+  "qcode": "QWHLW",
+  "queried_fir": "UACN",
+  "schedule": "02 09 16 23 30 0700-1200",
+  "shape": "polygon",
+  "starts_at": "2026-10-02T07:00:00Z",
+  "upper": "2800FT AMSL",
+  "upper_fl": 28
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uacn/2026/K2827",
+ "issued_at": "2026-09-30T06:31:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "K2827",
+ "positions": [
+  [
+   52.11194,
+   61.17778
+  ],
+  [
+   52.1275,
+   61.17778
+  ],
+  [
+   52.18222,
+   61.21833
+  ],
+  [
+   52.18944,
+   61.245
+  ],
+  [
+   52.1125,
+   61.26
+  ],
+  [
+   52.11194,
+   61.17778
+  ]
+ ],
+ "series": "notam-uacn",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BLASTING WILL TAKE PLACE",
+ "text": "K2827/26 NOTAMN\nQ) UACN/QWHLW/IV/M  /W /000/028/5209N06113E003\nA) UACN B) 2610020700 C) 2610301200\nD) 02 09 16 23 30 0700-1200\nE) BLASTING WILL TAKE PLACE\nAREA BOUNDED BY:\n520643N 0611040E - 520739N 0611040E - 521056N 0611306E - \n521122N 0611442E - 520645N 0611536E - 520643N 0611040E.\nF) GND G) 2800FT AMSL",
+ "year": 2026
+}

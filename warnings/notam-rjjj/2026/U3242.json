@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T07:41:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.0833,
+   "lon": 140.0167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2205/0741",
+  "shape": "polygon",
+  "starts_at": "2026-09-24T22:05:00Z",
+  "upper": "6562FT AMSL",
+  "upper_fl": 66
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3242",
+ "issued_at": "2026-09-14T04:57:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3242",
+ "positions": [
+  [
+   39.09,
+   140.01472
+  ],
+  [
+   39.08694,
+   140.01917
+  ],
+  [
+   39.08333,
+   140.01306
+  ],
+  [
+   39.08472,
+   140.01111
+  ],
+  [
+   39.09,
+   140.01472
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3242/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/066/3905N14001E002\nA)RJJJ B)2609242205 C)2610310741\nD)2205/0741\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n390524N1400053E - 390513N1400109E - 390500N1400047E - 390505N1400040E\n- 390524N1400053E \n(AKUMI-GUN IN YAMAGATA)\nWT: 0.7KG\nFLT TIME:2205/SS\nF)SFC G)6562FT AMSL",
+ "year": 2026
+}

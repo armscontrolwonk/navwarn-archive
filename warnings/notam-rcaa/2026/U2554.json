@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-22T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.1167,
+   "lon": 119.75,
+   "radius_nm": 6
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T16:00:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2554",
+ "issued_at": "2026-10-05T05:09:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2554",
+ "positions": [
+  [
+   23.08806,
+   119.84667
+  ],
+  [
+   23.09556,
+   119.65833
+  ],
+  [
+   23.12861,
+   119.65806
+  ],
+  [
+   23.12167,
+   119.84667
+  ],
+  [
+   23.08806,
+   119.84667
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2554/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/100/2307N11945E006\nA) RCAA\nB) 2610271600 C) 2701221600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:M260922000502\n2.LCA:ANNAN DISTRICT, TAINAN CITY\n3.COOR TEL:0972-808655, 0980-757215, 0965-036786\n4.AREA AS FLW:\n230517N 1195048E\n230544N 1193930E\n230743N 1193929E\n230718N 1195048E\n230517N 1195048E\nF) SFC G) 10000FT AMSL",
+ "year": 2026
+}

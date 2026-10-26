@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.2,
+   "lon": 136.4167,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0800",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T00:00:00Z",
+  "upper": "2953FT AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3979",
+ "issued_at": "2026-10-23T13:07:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3979",
+ "positions": [
+  [
+   35.20806,
+   136.39278
+  ],
+  [
+   35.19972,
+   136.38944
+  ],
+  [
+   35.18778,
+   136.45306
+  ],
+  [
+   35.20111,
+   136.45278
+  ],
+  [
+   35.20806,
+   136.39278
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3979/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/030/3512N13625E003\nA)RJJJ B)2610270000 C)2610280800\nD)0000/0800\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n351229N1362334E - 351159N1362322E - 351116N1362711E - 351204N1362710E\n- 351229N1362334E \n(INABE-SHI IN MIE,INUKAMI-GUN IN SHIGA)\nWT: 2.1KG\nCONTACT INFORMATION: 06-6351-7828\nF)SFC G)2953FT AMSL",
+ "year": 2026
+}

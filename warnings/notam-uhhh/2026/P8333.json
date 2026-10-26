@@ -1,0 +1,103 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T08:00:00Z",
+ "extra": {
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.9167,
+   "lon": 132.3333,
+   "radius_nm": 20
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "schedule": "DAILY 2200-0800",
+  "shape": "polygon",
+  "starts_at": "2026-10-25T22:00:00Z",
+  "upper": "1400M AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uhhh/2026/P8333",
+ "issued_at": "2026-10-23T08:49:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P8333",
+ "positions": [
+  [
+   42.89028,
+   132.30306
+  ],
+  [
+   42.8775,
+   132.28833
+  ],
+  [
+   42.84167,
+   132.31833
+  ],
+  [
+   42.84444,
+   132.32944
+  ],
+  [
+   42.85833,
+   132.32972
+  ],
+  [
+   42.89028,
+   132.30306
+  ],
+  [
+   43.06306,
+   132.28083
+  ],
+  [
+   43.14306,
+   132.06722
+  ],
+  [
+   42.76833,
+   131.93917
+  ],
+  [
+   42.64167,
+   132.1
+  ],
+  [
+   42.705,
+   132.60028
+  ],
+  [
+   42.83861,
+   132.54333
+  ],
+  [
+   42.84111,
+   132.34667
+  ],
+  [
+   42.915,
+   132.285
+  ],
+  [
+   43.06306,
+   132.28083
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P8333/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/050/4255N13220E020\nA)UHHH B)2610252200 C)2610310800\nD)DAILY 2200-0800\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 425325N1321811E-425239N1321718E-425030N1321906E-\n         425040N1321946E-425130N1321947E-425325N1321811E\n   SFC-500M AMSL.\n2. AREA: 430347N1321651E-430835N1320402E-424606N1315621E-\n         423830N1320600E-424218N1323601E-425019N1323236E-\n         425028N1322048E-425454N1321706E-430347N1321651E\n   500M AMSL-1400M AMSL.\nF)SFC  G)1400M AMSL",
+ "year": 2026
+}

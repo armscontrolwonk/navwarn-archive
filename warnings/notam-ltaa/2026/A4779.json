@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T17:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.1833,
+   "lon": 30.3833,
+   "radius_nm": 7
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LTAA",
+  "schedule": "0300-1700",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T03:00:00Z",
+  "upper": "51000FT AMSL",
+  "upper_fl": 510
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4779",
+ "issued_at": "2026-10-22T07:44:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4779",
+ "positions": [
+  [
+   36.29139,
+   30.35
+  ],
+  [
+   36.13778,
+   30.26639
+  ],
+  [
+   36.13028,
+   30.5
+  ],
+  [
+   36.21944,
+   30.5
+  ],
+  [
+   36.21944,
+   30.41917
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "GUN FIRING WILL TAKE PLACE WI ANTALYA TMA",
+ "text": "A4779/26 NOTAMN\nQ) LTAA/QWMLW/IV/BO /W /000/510/3611N03023E007\nA) LTAA B) 2610270300 C) 2610281700\nD) 0300-1700\nE) GUN FIRING WILL TAKE PLACE WI ANTALYA TMA\nAREA: 361729N0302100E 360816N0301559E 360749N0303000E \n361310N0303000E 361310N0302509E\nF) SFC G) 51000FT AMSL",
+ "year": 2026
+}

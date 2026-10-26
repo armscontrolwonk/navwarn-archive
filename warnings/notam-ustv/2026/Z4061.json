@@ -1,0 +1,84 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-26T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 60.92944,
+    "lon": 69.76639,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "USTV",
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 60.8833,
+   "lon": 69.5333,
+   "radius_nm": 19
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USTV",
+  "starts_at": "2026-10-21T00:00:00Z",
+  "upper": "450M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ustv/2026/Z4061",
+ "issued_at": "2026-10-19T05:59:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "Z4061",
+ "positions": [
+  [
+   61.075,
+   70.04528
+  ],
+  [
+   61.01111,
+   70.0575
+  ],
+  [
+   60.89611,
+   70.00722
+  ],
+  [
+   60.78667,
+   69.90278
+  ],
+  [
+   60.70333,
+   69.75417
+  ],
+  [
+   60.69972,
+   69.03694
+  ],
+  [
+   60.84528,
+   69.17556
+  ],
+  [
+   61.075,
+   70.04528
+  ],
+  [
+   60.92944,
+   69.76639
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z4061/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/020/6053N06932E019\nA)USTV B)2610210000 C)2610262359\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 610430N0700243E-610040N0700327E-605346N0700026E-\n         604712N0695410E-604212N0694515E-604159N0690213E-\n         605043N0691032E-610430N0700243E\n   350M AMSL-450M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 605546N0694559E\n   GND-450M AMSL.\nF)GND  G)450M AMSL",
+ "year": 2026
+}

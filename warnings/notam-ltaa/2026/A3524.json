@@ -1,0 +1,74 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-11T23:59:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "drone",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.3167,
+   "lon": 40.2667,
+   "radius_nm": 24
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-08-11T00:01:00Z",
+  "upper": "5000FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A3524",
+ "issued_at": "2026-08-10T12:20:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3524",
+ "positions": [
+  [
+   37.53222,
+   39.86944
+  ],
+  [
+   37.28222,
+   39.94417
+  ],
+  [
+   36.93667,
+   40.26972
+  ],
+  [
+   37.02028,
+   40.41639
+  ],
+  [
+   37.10139,
+   40.66806
+  ],
+  [
+   37.27778,
+   40.40806
+  ],
+  [
+   37.52778,
+   40.2175
+  ],
+  [
+   37.53222,
+   39.86944
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL TAKE PLACE WI DIYARBAKIR MIL TMA AND MARDIN ",
+ "text": "A3524/26 NOTAMN\nQ) LTAA/QWULW/IV/BO /W /000/050/3719N04016E024\nA) LTAA B) 2608110001 C) 2611112359\nE) UNMANNED ACFT WILL TAKE PLACE WI DIYARBAKIR MIL TMA AND MARDIN \nCTR:\n373156N0395210E 371656N0395639E 365612N0401611E 370113N0402459E \n370605N0404005E 371640N0402429E 373140N0401303E 373156N0395210E\nF) SFC G) 5000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,87 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T08:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.0667,
+   "lon": 139.75,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2034/0830",
+  "shape": "polygon",
+  "starts_at": "2026-09-30T20:34:00Z",
+  "upper": "1313FT AMSL",
+  "upper_fl": 14
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3205",
+ "issued_at": "2026-09-11T03:06:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3205",
+ "positions": [
+  [
+   36.06139,
+   139.73972
+  ],
+  [
+   36.06194,
+   139.74
+  ],
+  [
+   36.0625,
+   139.74056
+  ],
+  [
+   36.06444,
+   139.74278
+  ],
+  [
+   36.06389,
+   139.74361
+  ],
+  [
+   36.06361,
+   139.74472
+  ],
+  [
+   36.06139,
+   139.74361
+  ],
+  [
+   36.06111,
+   139.74361
+  ],
+  [
+   36.06056,
+   139.7425
+  ],
+  [
+   36.06056,
+   139.74222
+  ],
+  [
+   36.06139,
+   139.73972
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3205/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/014/3604N13945E001\nA)RJJJ B)2609302034 C)2610280830\nD)2034/0830\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n360341N1394423E - 360343N1394424E - 360345N1394426E - 360352N1394434E\n- 360350N1394437E - 360349N1394441E - 360341N1394437E -\n360340N1394437E - 360338N1394433E - 360338N1394432E - 360341N1394423E\n(SATTE-SHI IN SAITAMA)\nWT: 1.5KG\nFLT TIME:HJ\nRMK: THIS AREA IS INCLUDED IN KK4-4\nTHIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)1313FT AMSL",
+ "year": 2026
+}

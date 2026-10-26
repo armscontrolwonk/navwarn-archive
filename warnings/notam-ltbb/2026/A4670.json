@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-24T10:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "drone",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.9333,
+   "lon": 26.6167,
+   "radius_nm": 14
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTBB",
+  "shape": "polygon",
+  "starts_at": "2026-10-25T10:00:00Z",
+  "upper": "8000FT AMSL",
+  "upper_fl": 80
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A4670",
+ "issued_at": "2026-10-16T11:09:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4670",
+ "positions": [
+  [
+   40.88472,
+   26.89111
+  ],
+  [
+   40.85972,
+   26.35444
+  ],
+  [
+   40.94639,
+   26.375
+  ],
+  [
+   41.01028,
+   26.38056
+  ],
+  [
+   41.01861,
+   26.89111
+  ],
+  [
+   40.88472,
+   26.89111
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "VTOL UNMANNED ACFT WILL TAKE PLACE.",
+ "text": "A4670/26 NOTAMN\nQ) LTBB/QWULW/IV/BO /W /000/080/4056N02637E014\nA) LTBB B) 2610251000 C) 2701241000\nE) VTOL UNMANNED ACFT WILL TAKE PLACE.\nAREA: 405305N0265328E 405135N0262116E 405647N0262230E \n410037N0262250E 410107N0265328E 405305N0265328E\nF) SFC G) 8000FT AMSL",
+ "year": 2026
+}

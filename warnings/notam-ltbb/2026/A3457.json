@@ -1,0 +1,65 @@
+{
+ "cancels": [
+  "notam-ltbb/2026/A1788"
+ ],
+ "expires_at": "2026-11-03T11:30:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "exercise",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 40.4833,
+   "lon": 30.2,
+   "radius_nm": 10
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTBB",
+  "schedule": "SR-SS",
+  "shape": "polygon",
+  "starts_at": "2026-08-03T11:30:00Z",
+  "upper": "5500FT AMSL",
+  "upper_fl": 55
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A3457",
+ "issued_at": "2026-08-03T11:45:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3457",
+ "positions": [
+  [
+   40.45806,
+   30.00889
+  ],
+  [
+   40.50861,
+   30.29028
+  ],
+  [
+   40.49972,
+   30.39889
+  ],
+  [
+   40.41139,
+   30.34722
+  ],
+  [
+   40.45806,
+   30.00889
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TRAINING FLIGHT WILL TAKE PLACE WITHIN PAMUKOVA TRAINING AREA.",
+ "text": "A3457/26 NOTAMR A1788/26\nQ) LTBB/QWELW/IV/BO /W /000/055/4029N03012E010\nA) LTBB B) 2608031130 C) 2611031130EST\nD) SR-SS\nE) TRAINING FLIGHT WILL TAKE PLACE WITHIN PAMUKOVA TRAINING AREA.\nLTPMKV1: 402729N0300032E 403031N0301725E 402959N0302356E \n402441N0302050E 402729N0300032E\nREF SUP 04/25\nF) SFC G) 5500FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T16:00:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "exercise",
+  "location": "RPHI",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 15.6333,
+   "lon": 120.55,
+   "radius_nm": 11
+  },
+  "qcode": "QWELW",
+  "queried_fir": "RPHI",
+  "schedule": "2200-1600",
+  "shape": "polygon",
+  "starts_at": "2026-09-30T22:00:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rphi/2026/B5109",
+ "issued_at": "2026-09-28T07:53:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "B5109",
+ "positions": [
+  [
+   15.68944,
+   120.39167
+  ],
+  [
+   15.78417,
+   120.61778
+  ],
+  [
+   15.61361,
+   120.70889
+  ],
+  [
+   15.46778,
+   120.54694
+  ],
+  [
+   15.68944,
+   120.39167
+  ]
+ ],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL EXER WILL TAKE PLACE WI:",
+ "text": "B5109/26 NOTAMN\nQ) RPHI/QWELW/IV/BO /W /000/100/1538N12033E011\nA) RPHI B) 2609302200 C) 2612311600\nD) 2200-1600\nE) MIL EXER WILL TAKE PLACE WI:\n154122N 1202330E -\n154703N 1203704E -\n153649N 1204232E -\n152804N 1203249E -\n154122N 1202330E\n(TARLAC).\nF) SFC G) 10000FT AMSL",
+ "year": 2026
+}

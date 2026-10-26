@@ -1,0 +1,47 @@
+{
+ "cancels": [
+  "notam-lggg/2026/A1223"
+ ],
+ "expires_at": "2026-10-30T23:59:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "drone",
+  "location": "LGGG",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 37.8167,
+   "lon": 23.8333,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "LGGG",
+  "starts_at": "2026-07-29T06:01:00Z",
+  "upper": "700FT AMSL",
+  "upper_fl": 7
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lggg/2026/A2632",
+ "issued_at": "2026-07-29T06:01:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A2632",
+ "positions": [
+  [
+   37.81694,
+   23.83083
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW: ",
+ "text": "A2632/26 NOTAMR A1223/26\nQ) LGGG/QRTCA/IV/BO /W /000/007/3749N02350E001\nA) LGGG B) 2607290601 C) 2610302359\nE) A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW: \n1. AREA: CIRCLE CENTERED ON 374901N 0234951E RADIUS 0.3 NM \nATHINAI CTR AFFECTED \n2. TYPE OF RESTRICTION: UAV FLT\n3. REMARKS:  \n3.1 OTHER UAV FLT ARE SUSPENDED.\n3.2 OPERATOR SHALL CALL ATH APP TEL NUMBER 2109972261 OR 2109972250 \nPRIOR AND AFTER ACTIVITY AND REMAIN IN CONTACT DURING ACTIVITY.\n3.3 ACTIVITY SHALL BE ENDED IF REQUIRED BY ATH APP\nF) SFC G) 700FT AMSL",
+ "year": 2026
+}

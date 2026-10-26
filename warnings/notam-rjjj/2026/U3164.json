@@ -1,0 +1,91 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T08:42:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.3833,
+   "lon": 139.7333,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2026/0842",
+  "shape": "polygon",
+  "starts_at": "2026-09-20T20:26:00Z",
+  "upper": "4922FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3164",
+ "issued_at": "2026-09-09T05:45:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3164",
+ "positions": [
+  [
+   37.395,
+   139.7525
+  ],
+  [
+   37.39333,
+   139.75667
+  ],
+  [
+   37.38889,
+   139.75
+  ],
+  [
+   37.37861,
+   139.74861
+  ],
+  [
+   37.37056,
+   139.74417
+  ],
+  [
+   37.36472,
+   139.73306
+  ],
+  [
+   37.36083,
+   139.725
+  ],
+  [
+   37.35944,
+   139.71639
+  ],
+  [
+   37.37083,
+   139.715
+  ],
+  [
+   37.38389,
+   139.73444
+  ],
+  [
+   37.39111,
+   139.74694
+  ],
+  [
+   37.395,
+   139.7525
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U3164/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/050/3723N13944E003\nA)RJJJ B)2609202026 C)2611300842\nD)2026/0842\nE)UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n372342N1394509E - 372336N1394524E - 372320N1394500E - 372243N1394455E\n- 372214N1394439E - 372153N1394359E - 372139N1394330E -\n372134N1394259E - 372215N1394254E - 372302N1394404E - 372328N1394449E\n- 372342N1394509E \n(KAWANUMA-GUN,OONUMA-GUN IN FUKUSHIMA)\nWT: 11KG\nFLT TIME: HJ\nF)SFC G)4922FT AMSL",
+ "year": 2026
+}

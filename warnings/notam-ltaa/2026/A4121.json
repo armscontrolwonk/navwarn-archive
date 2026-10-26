@@ -1,0 +1,74 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T23:59:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "drone",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.7833,
+   "lon": 42.85,
+   "radius_nm": 41
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-10-01T00:00:00Z",
+  "upper": "12000FT AMSL",
+  "upper_fl": 120
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4121",
+ "issued_at": "2026-09-18T08:51:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4121",
+ "positions": [
+  [
+   37.79333,
+   42.01944
+  ],
+  [
+   37.90139,
+   43.10444
+  ],
+  [
+   37.85806,
+   43.66583
+  ],
+  [
+   37.37639,
+   43.44
+  ],
+  [
+   37.41472,
+   42.81972
+  ],
+  [
+   37.27111,
+   42.61667
+  ],
+  [
+   37.33944,
+   42.2325
+  ],
+  [
+   37.51889,
+   42.09861
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "VTOL UNMANNED ACFT WILL TAKE PLACE WI SIRNAK TMA AND SIIRT CTR: ",
+ "text": "A4121/26 NOTAMN\nQ) LTAA/QWULW/IV/BO /W /000/120/3747N04251E041\nA) LTAA B) 2610010000 C) 2612312359\nE) VTOL UNMANNED ACFT WILL TAKE PLACE WI SIRNAK TMA AND SIIRT CTR: \n374736N0420110E 375405N0430616E 375129N0433957E \n372235N0432624E 372453N0424911E 371616N0423700E 372022N0421357E \n373108N0420555E\nF) SFC G) 12000FT AMSL",
+ "year": 2026
+}

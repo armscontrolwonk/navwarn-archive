@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-08T13:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 25.0,
+   "lon": 121.5,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "schedule": "2100-1300",
+  "shape": "polygon",
+  "starts_at": "2026-09-09T21:00:00Z",
+  "upper": "2100FT AMSL",
+  "upper_fl": 21
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2243",
+ "issued_at": "2026-09-04T03:27:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2243",
+ "positions": [
+  [
+   25.00139,
+   121.48111
+  ],
+  [
+   25.00833,
+   121.48167
+  ],
+  [
+   25.00722,
+   121.50472
+  ],
+  [
+   24.98444,
+   121.50444
+  ],
+  [
+   24.98333,
+   121.48194
+  ],
+  [
+   25.00139,
+   121.48111
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2243/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/021/2500N12130E002\nA) RCAA\nB) 2609092100 C) 2611081300\nD) 2100-1300\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260819000801\n2.LCA:ZHONGHE DISTRICT, NEW TAIPEI CITY\n3.THE AREA OVERLAPS PART OF SHUANG HO HOSPITAL HELIPORT AND PART\nOF VFR CORRIDOR C10, \nACFT ARE CTN ADZ.\n4.COOR TEL:0901-335732, 0917-337567\n5.AREA AS FLW:\n250005N 1212852E\n250030N 1212854E\n250026N 1213017E\n245904N 1213016E\n245900N 1212855E\n250005N 1212852E\nF) SFC G) 2100FT AMSL",
+ "year": 2026
+}

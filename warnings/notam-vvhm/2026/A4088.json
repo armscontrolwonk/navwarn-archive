@@ -1,0 +1,99 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T04:00:00Z",
+ "extra": {
+  "fir": "VVHM",
+  "kind": "firing",
+  "location": "VVHM",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 10.7833,
+   "lon": 107.5333,
+   "radius_nm": 9
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "VVHM",
+  "schedule": "17 18 0000-0900 19 25 0000-0400",
+  "shape": "polygon",
+  "starts_at": "2026-11-17T00:00:00Z",
+  "upper": "6700FT AMSL",
+  "upper_fl": 67
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-vvhm/2026/A4088",
+ "issued_at": "2026-10-24T10:37:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4088",
+ "positions": [
+  [
+   10.87083,
+   107.44583
+  ],
+  [
+   10.85833,
+   107.44583
+  ],
+  [
+   10.8125,
+   107.5125
+  ],
+  [
+   10.75417,
+   107.5375
+  ],
+  [
+   10.77083,
+   107.65417
+  ],
+  [
+   10.72917,
+   107.66389
+  ],
+  [
+   10.69444,
+   107.61667
+  ],
+  [
+   10.7,
+   107.5375
+  ],
+  [
+   10.75833,
+   107.43333
+  ],
+  [
+   10.80833,
+   107.40556
+  ],
+  [
+   10.81667,
+   107.40833
+  ],
+  [
+   10.82917,
+   107.425
+  ],
+  [
+   10.86944,
+   107.42778
+  ],
+  [
+   10.87083,
+   107.44583
+  ]
+ ],
+ "series": "notam-vvhm",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG WILL TAKE PLACE WI: ",
+ "text": "A4088/26 NOTAMN \nQ) VVHM/QWMLW/IV/BO/W/000/067/1047N10732E009\nA) VVHM B) 2611170000 C) 2611250400 \nD) 17 18 0000-0900\n19 25 0000-0400\nE) FRNG WILL TAKE PLACE WI: \n105215N1072645E - 105130N1072645E - 104845N1073045E - \n104515N1073215E - 104615N1073915E - 104345N1073950E - \n104140N1073700E - 104200N1073215E - 104530N1072600E - \n104830N1072420E - 104900N1072430E - 104945N1072530E - \n105210N1072540E - 105215N1072645E\nBRG: SE \n- ALL FLIGHTS ARE PROHIBITED WITHIN THIS AREA.\nF) GND G) 6700FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T16:00:00Z",
+ "extra": {
+  "fir": "UGGG",
+  "kind": "restricted",
+  "location": "UGGG",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.6333,
+   "lon": 44.6,
+   "radius_nm": 6
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UGGG",
+  "schedule": "12-16 26-30 0400-1600, 19-23 1700-0100",
+  "shape": "polygon",
+  "starts_at": "2026-10-12T04:00:00Z",
+  "upper": "7000FT AMSL",
+  "upper_fl": 70
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uggg/2026/G0642",
+ "issued_at": "2026-10-09T07:10:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "G0642",
+ "positions": [
+  [
+   41.68528,
+   44.4975
+  ],
+  [
+   41.67167,
+   44.72139
+  ],
+  [
+   41.60583,
+   44.70556
+  ],
+  [
+   41.60694,
+   44.49083
+  ],
+  [
+   41.68528,
+   44.4975
+  ]
+ ],
+ "series": "notam-uggg",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO RESTRICTED AREA ESTABLISHED WI COORD:",
+ "text": "G0642/26 NOTAMN\nQ) UGGG/QRTCA/IV/BO /W /000/070/4138N04436E006\nA) UGGG B) 2610120400 C) 2610301600\nD) 12-16 26-30 0400-1600, 19-23 1700-0100\nE) TEMPO RESTRICTED AREA ESTABLISHED WI COORD:\n414107N 0442951E - 414018N 0444317E - 413621N 0444220E - 413625N \n0442927E - 414107N 0442951E.\nF) GND G) 7000FT AMSL",
+ "year": 2026
+}

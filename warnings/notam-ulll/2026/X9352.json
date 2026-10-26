@@ -1,0 +1,125 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-02T21:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 67.50444,
+    "lon": 56.93556,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 67.6667,
+   "lon": 57.4,
+   "radius_nm": 20
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "DAILY 0400-2100",
+  "starts_at": "2026-10-28T04:00:00Z",
+  "upper": "450M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ulll/2026/X9352",
+ "issued_at": "2026-10-22T07:43:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "X9352",
+ "positions": [
+  [
+   67.47278,
+   56.73222
+  ],
+  [
+   67.61139,
+   57.10806
+  ],
+  [
+   67.74444,
+   57.44639
+  ],
+  [
+   67.89083,
+   57.85333
+  ],
+  [
+   67.88361,
+   58.00833
+  ],
+  [
+   67.84944,
+   58.08778
+  ],
+  [
+   67.80056,
+   58.08111
+  ],
+  [
+   67.74139,
+   57.99056
+  ],
+  [
+   67.68056,
+   57.86278
+  ],
+  [
+   67.64694,
+   57.77222
+  ],
+  [
+   67.62361,
+   57.66361
+  ],
+  [
+   67.61611,
+   57.50028
+  ],
+  [
+   67.56167,
+   57.21333
+  ],
+  [
+   67.515,
+   57.07472
+  ],
+  [
+   67.43889,
+   56.84167
+  ],
+  [
+   67.44306,
+   56.84444
+  ],
+  [
+   67.4625,
+   56.81
+  ],
+  [
+   67.47278,
+   56.73222
+  ],
+  [
+   67.50444,
+   56.93556
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "X9352/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/020/6740N05724E020\nA)ULLL B)2610280400 C)2611022100\nD)DAILY 0400-2100\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 672822N0564356E-673641N0570629E-674440N0572647E-\n         675327N0575112E-675301N0580030E-675058N0580516E-\n         674802N0580452E-674429N0575926E-674050N0575146E-\n         673849N0574620E-673725N0573949E-673658N0573001E-\n         673342N0571248E-673054N0570429E-672620N0565030E-\n         672635N0565040E-672745N0564836E-672822N0564356E\n   220M AMSL-450M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 673016N0565608E\n   SFC-450M AMSL.\nF)SFC  G)450M AMSL",
+ "year": 2026
+}

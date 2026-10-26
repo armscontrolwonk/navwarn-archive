@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T13:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "drone",
+  "location": "LTAA",
+  "lower": "14000FT AMSL",
+  "lower_fl": 140,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.3,
+   "lon": 30.85,
+   "radius_nm": 6
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTAA",
+  "schedule": "0600-1300 EXC SAT SUN",
+  "starts_at": "2026-10-19T06:00:00Z",
+  "upper": "18000FT AMSL",
+  "upper_fl": 180
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4611",
+ "issued_at": "2026-10-13T07:23:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4611",
+ "positions": [
+  [
+   38.29806,
+   30.84333
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL TAKE PLACE.",
+ "text": "A4611/26 NOTAMN\nQ) LTAA/QWULW/IV/BO /W /140/180/3818N03051E006\nA) LTAA B) 2610190600 C) 2611191300EST\nD) 0600-1300 EXC SAT SUN\nE) UNMANNED ACFT WILL TAKE PLACE.\nAREA: CENTERED ON 381753N0305036E WITH RADIUS 5.4NM\nF) 14000FT AMSL G) 18000FT AMSL",
+ "year": 2026
+}

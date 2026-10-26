@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T16:00:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "drone",
+  "location": "VABF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 18.7167,
+   "lon": 73.3833,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "VABF",
+  "schedule": "1400-1600",
+  "shape": "polygon",
+  "starts_at": "2026-10-30T14:00:00Z",
+  "upper": "394FT AGL",
+  "upper_fl": 26
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-vabf/2026/A1661",
+ "issued_at": "2026-10-21T11:56:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A1661",
+ "positions": [
+  [
+   18.72247,
+   73.37883
+  ],
+  [
+   18.72264,
+   73.37844
+  ],
+  [
+   18.72239,
+   73.37833
+  ],
+  [
+   18.72222,
+   73.37869
+  ],
+  [
+   18.72247,
+   73.37883
+  ]
+ ],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "DRONE LIGHT SHOW WILL BE CARRIED OUT",
+ "text": "A1661/26 NOTAMN\nQ) VABF/QWULW/IV/BO/W/000/026/1843N07323E001\nA) VABF B) 2610301400 C) 2610311600\nD) 1400-1600\nE) DRONE LIGHT SHOW WILL BE CARRIED OUT\n   IN THE AREA BOUNDED BY THE COORDINATES:\n   184320.9N 0732243.8E - 184321.5N 0732242.4E - \n   184320.6N 0732242.0E - 184320.0N 0732243.3E -\n   184320.9N 0732243.8E\nF) GND G) 394FT AGL",
+ "year": 2026
+}

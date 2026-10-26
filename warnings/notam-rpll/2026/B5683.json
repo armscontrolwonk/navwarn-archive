@@ -1,0 +1,40 @@
+{
+ "cancels": [
+  "notam-rpll/2026/B5660"
+ ],
+ "expires_at": "2026-11-15T23:59:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "exercise",
+  "location": "RPLL",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 14.5167,
+   "lon": 121.0167,
+   "radius_nm": 5
+  },
+  "qcode": "QMOHW",
+  "queried_fir": "RPLL",
+  "starts_at": "2026-10-21T02:32:00Z",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rpll/2026/B5683",
+ "issued_at": "2026-10-21T02:32:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "B5683",
+ "positions": [],
+ "series": "notam-rpll",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "STOP BAR LGT TWY C, E1, E2, E4, E5, F5, H1, H2,",
+ "text": "B5683/26 NOTAMR B5660/26\nQ) RPHI/QMOHW/IV/BO /A /000/999/1431N12101E005\nA) RPLL B) 2610210232 C) 2611152359\nE) STOP BAR LGT TWY C, E1, E2, E4, E5, F5, H1, H2,\nRAPID EXIT TWY R1, R2, R3 AND R4 WIP (SYSTEM TESTING).\n\nRMK: EXER CTN WHEN TAX AND FLW ATC INSTRUCTION.",
+ "year": 2026
+}

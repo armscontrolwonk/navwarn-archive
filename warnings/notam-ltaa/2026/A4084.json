@@ -1,0 +1,86 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T05:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "drone",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.9,
+   "lon": 43.55,
+   "radius_nm": 44
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-09-17T05:01:00Z",
+  "upper": "15000FT AMSL",
+  "upper_fl": 150
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4084",
+ "issued_at": "2026-09-16T13:10:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4084",
+ "positions": [
+  [
+   38.09917,
+   42.69028
+  ],
+  [
+   38.00444,
+   42.66028
+  ],
+  [
+   38.00222,
+   42.74583
+  ],
+  [
+   37.78611,
+   42.88694
+  ],
+  [
+   37.805,
+   44.0375
+  ],
+  [
+   37.73306,
+   44.20083
+  ],
+  [
+   37.77694,
+   44.44167
+  ],
+  [
+   37.88694,
+   44.21667
+  ],
+  [
+   37.96611,
+   44.22806
+  ],
+  [
+   38.04806,
+   44.28
+  ],
+  [
+   38.09917,
+   42.69028
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL TAKE PLACE WI YUKSEKOVA TMA: 380557N0424125E ",
+ "text": "A4084/26 NOTAMN\nQ) LTAA/QWULW/IV/BO /W /000/150/3754N04333E044\nA) LTAA B) 2609170501 C) 2612310500\nE) UNMANNED ACFT WILL TAKE PLACE WI YUKSEKOVA TMA: 380557N0424125E \n380016N0423937E 380008N0424445E 374710N0425313E 374818N0440215E \n374359N0441203E 374637N0442630E 375313N0441300E 375758N0441341E \n380253N0441648E 380557N0424125E\nF) SFC G) 15000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-23T23:59:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "drone",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.0833,
+   "lon": 32.7833,
+   "radius_nm": 14
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-09-23T07:00:00Z",
+  "upper": "7500FT AMSL",
+  "upper_fl": 75
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4201",
+ "issued_at": "2026-09-22T11:27:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4201",
+ "positions": [
+  [
+   36.25222,
+   32.67611
+  ],
+  [
+   36.195,
+   33.02361
+  ],
+  [
+   35.955,
+   32.9925
+  ],
+  [
+   35.98361,
+   32.52806
+  ],
+  [
+   36.25222,
+   32.67611
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT FLT WILL TAKE PLACE WI ANTALYA TMA: 361508N0324034E ",
+ "text": "A4201/26 NOTAMN\nQ) LTAA/QWULW/IV/BO /W /000/075/3605N03247E014\nA) LTAA B) 2609230700 C) 2612232359\nE) UNMANNED ACFT FLT WILL TAKE PLACE WI ANTALYA TMA: 361508N0324034E \n361142N0330125E 355718N0325933E 355901N0323141E 361508N0324034E\nF) SFC G) 7500FT AMSL",
+ "year": 2026
+}

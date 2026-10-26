@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T10:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 56.7,
+    "lon": 124.58333,
+    "radius_nm": 2.7
+   }
+  ],
+  "fir": "UEEE",
+  "kind": "restricted",
+  "location": "UEEE",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.7,
+   "lon": 124.5833,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UEEE",
+  "schedule": "DAILY 0300-1000",
+  "starts_at": "2026-10-25T03:00:00Z",
+  "upper": "2400M AMSL",
+  "upper_fl": 80
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ueee/2026/P8249",
+ "issued_at": "2026-10-22T04:45:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P8249",
+ "positions": [
+  [
+   56.7,
+   124.58333
+  ]
+ ],
+ "series": "notam-ueee",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 5KM CENTRE 564200N1243500E.",
+ "text": "P8249/26 NOTAMN\nQ)UEEE/QRTCA/IV/BO/W/000/080/5642N12435E003\nA)UEEE B)2610250300 C)2610301000\nD)DAILY 0300-1000\nE)AIRSPACE CLSD WI CIRCLE RADIUS 5KM CENTRE 564200N1243500E.\nF)SFC  G)2400M AMSL",
+ "year": 2026
+}

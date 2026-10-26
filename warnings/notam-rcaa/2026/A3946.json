@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T09:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "exercise",
+  "location": "RCAA",
+  "lower": "500FT AMSL",
+  "lower_fl": 5,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.8667,
+   "lon": 121.6167,
+   "radius_nm": 33
+  },
+  "qcode": "QWELW",
+  "queried_fir": "RCAA",
+  "schedule": "NOV 18 0200-0300 0400-0900, NOV 19 0000-0900",
+  "shape": "polygon",
+  "starts_at": "2026-11-18T02:00:00Z",
+  "upper": "FL200",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/A3946",
+ "issued_at": "2026-10-22T04:56:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3946",
+ "positions": [
+  [
+   24.31694,
+   121.70306
+  ],
+  [
+   24.31444,
+   121.92139
+  ],
+  [
+   23.41639,
+   121.63389
+  ],
+  [
+   23.41528,
+   121.30389
+  ],
+  [
+   23.49778,
+   121.19944
+  ],
+  [
+   24.31694,
+   121.70306
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIR EXER WILL TAKE PLACE:",
+ "text": "A3946/26 NOTAMN\nQ) RCAA/QWELW/IV/BO/W/005/200/2352N12137E033\nA) RCAA\nB) 2611180200 C) 2611190900\nD) NOV 18 0200-0300 0400-0900,\nNOV 19 0000-0900\nE) AIR EXER WILL TAKE PLACE:\n1.LIAISON OFFICER AT KAOHSIUNG APP AND TAIPEI APP, \n  TFC CONCERNED KEEP CLOSE CTC WITH KAOHSIUNG APP AND \n  TAIPEI APP.\n2.AIR EXER WILL BE SUSPENDED BY KNOWN TFC OR EMERG.\n3.OPR TEL: 03-8563479\n4.AREA AS FLW:\n241901N 1214211E\n241852N 1215517E\n232459N 1213802E\n232455N 1211814E\n232952N 1211158E\n241901N 1214211E\nF) 500FT AMSL G) FL200",
+ "year": 2026
+}

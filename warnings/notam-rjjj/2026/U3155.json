@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T09:20:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.4667,
+   "lon": 133.6667,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2044/0920",
+  "shape": "polygon",
+  "starts_at": "2026-09-09T20:44:00Z",
+  "upper": "680FT AMSL",
+  "upper_fl": 7
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3155",
+ "issued_at": "2026-09-08T10:16:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3155",
+ "positions": [
+  [
+   34.48667,
+   133.62972
+  ],
+  [
+   34.48722,
+   133.68333
+  ],
+  [
+   34.47333,
+   133.715
+  ],
+  [
+   34.43167,
+   133.71556
+  ],
+  [
+   34.43028,
+   133.63167
+  ],
+  [
+   34.48667,
+   133.62972
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3155/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/007/3428N13340E004\nA)RJJJ B)2609092044 C)2611300920\nD)2044/0920\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n342912N1333747E - 342914N1334100E - 342824N1334254E - 342554N1334256E\n- 342549N1333754E - 342912N1333747E \n(KURASHIKI-SHI IN OKAYAMA)\nWT: 95KG\nFLT TIME: HJ\nCONTACT INFORMATION: 0859-44-0935\nF)SFC G)680FT AMSL",
+ "year": 2026
+}

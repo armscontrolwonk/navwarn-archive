@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.9667,
+   "lon": 122.05,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-09-30T16:00:00Z",
+  "upper": "FL200",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2113",
+ "issued_at": "2026-08-25T03:32:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2113",
+ "positions": [
+  [
+   24.00833,
+   122.04278
+  ],
+  [
+   24.00833,
+   122.10167
+  ],
+  [
+   23.91667,
+   122.07139
+  ],
+  [
+   23.91667,
+   122.0125
+  ],
+  [
+   24.00833,
+   122.04278
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2113/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/200/2358N12203E004\nA) RCAA\nB) 2609301600 C) 2611301600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:M260820001201\n2.LCA:HUALIEN CITY, HUALIEN COUNTY\n3.COOR TEL:04-27023051, 0985-304927\n4.AREA AS FLW:\n240030N 1220234E\n240030N 1220606E\n235500N 1220417E\n235500N 1220045E\n240030N 1220234E\nF) SFC G) FL200",
+ "year": 2026
+}

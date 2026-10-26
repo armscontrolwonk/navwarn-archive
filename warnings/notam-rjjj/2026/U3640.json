@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T08:19:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.8167,
+   "lon": 140.8,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2118/0819",
+  "shape": "polygon",
+  "starts_at": "2026-10-08T21:18:00Z",
+  "upper": "5499FT AMSL",
+  "upper_fl": 55
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3640",
+ "issued_at": "2026-10-08T04:05:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3640",
+ "positions": [
+  [
+   42.8525,
+   140.75139
+  ],
+  [
+   42.86528,
+   140.84556
+  ],
+  [
+   42.79556,
+   140.86278
+  ],
+  [
+   42.79611,
+   140.75611
+  ],
+  [
+   42.8525,
+   140.75139
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3640/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/055/4249N14048E004\nA)RJJJ B)2610082118 C)2612310819\nD)2118/0819\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n425109N1404505E - 425155N1405044E - 424744N1405146E - 424746N1404522E\n- 425109N1404505E \n(ABUTA-GUN IN HOKKAIDO)\nWT: 1.1KG\nFLT TIME: HJ\nRMK: THIS AREA IS INCLUDED IN HK12-1\nF)SFC G)5499FT AMSL",
+ "year": 2026
+}

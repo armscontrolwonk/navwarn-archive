@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T16:00:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "exercise",
+  "location": "RPHI",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 14.3,
+   "lon": 120.8333,
+   "radius_nm": 8
+  },
+  "qcode": "QWELW",
+  "queried_fir": "RPHI",
+  "schedule": "2200-1600",
+  "shape": "polygon",
+  "starts_at": "2026-09-30T22:00:00Z",
+  "upper": "1000FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rphi/2026/B4315",
+ "issued_at": "2026-08-24T11:36:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "B4315",
+ "positions": [
+  [
+   14.38472,
+   120.8825
+  ],
+  [
+   14.30111,
+   120.95389
+  ],
+  [
+   14.18444,
+   120.79139
+  ],
+  [
+   14.28611,
+   120.70222
+  ],
+  [
+   14.38472,
+   120.8825
+  ]
+ ],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL EXER WILL TAKE PLACE WI:",
+ "text": "B4315/26 NOTAMN\nQ) RPHI/QWELW/IV/BO /W /000/010/1418N12050E008\nA) RPHI B) 2609302200 C) 2612311600\nD) 2200-1600\nE) MIL EXER WILL TAKE PLACE WI:\n142305N 1205257E -\n141804N 1205714E -\n141104N 1204729E -\n141710N 1204208E -\n142305N 1205257E\n(CAVITE AREA).\nF) SFC G) 1000FT AMSL",
+ "year": 2026
+}

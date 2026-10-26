@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-29T17:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "drone",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.7167,
+   "lon": 32.9667,
+   "radius_nm": 14
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTAA",
+  "schedule": "AUG 31- SEP 02 0300-2059, SEP 03- NOV 29 0300-1700",
+  "shape": "polygon",
+  "starts_at": "2026-08-31T03:00:00Z",
+  "upper": "5000FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A3547",
+ "issued_at": "2026-08-13T06:34:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3547",
+ "positions": [
+  [
+   39.61667,
+   32.85
+  ],
+  [
+   39.75,
+   33.25
+  ],
+  [
+   39.78306,
+   33.25
+  ],
+  [
+   39.73472,
+   32.72778
+  ],
+  [
+   39.63306,
+   32.7
+  ],
+  [
+   39.61667,
+   32.85
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT AND PARAMOTOR TRAINING FLIGHT WILL TAKE PLACE WI ",
+ "text": "A3547/26 NOTAMN\nQ) LTAA/QWULW/IV/BO /W /000/050/3943N03258E014\nA) LTAA B) 2608310300 C) 2611291700\nD) AUG 31- SEP 02 0300-2059, SEP 03- NOV 29 0300-1700\nE) UNMANNED ACFT AND PARAMOTOR TRAINING FLIGHT WILL TAKE PLACE WI \nANKARA TMA: 393700N0325100E 394500N0331500E 394659N0331500E \n394405N0324340E 393759N0324200E 393700N0325100E\nF) SFC G) 5000FT AMSL",
+ "year": 2026
+}

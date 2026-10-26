@@ -1,0 +1,91 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-13T17:30:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.5,
+   "lon": 43.0667,
+   "radius_nm": 4
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LTAA",
+  "schedule": "OCT 28-31 NOV 02-07 09-13 0500-1730",
+  "shape": "polygon",
+  "starts_at": "2026-10-28T05:00:00Z",
+  "upper": "21000FT AMSL",
+  "upper_fl": 210
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4615",
+ "issued_at": "2026-10-13T13:31:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4615",
+ "positions": [
+  [
+   40.55722,
+   43.06861
+  ],
+  [
+   40.52389,
+   43.08417
+  ],
+  [
+   40.51333,
+   43.08083
+  ],
+  [
+   40.50056,
+   43.09139
+  ],
+  [
+   40.48222,
+   43.11444
+  ],
+  [
+   40.47806,
+   43.10667
+  ],
+  [
+   40.47111,
+   43.11194
+  ],
+  [
+   40.45944,
+   43.06056
+  ],
+  [
+   40.48556,
+   43.03833
+  ],
+  [
+   40.49,
+   43.0225
+  ],
+  [
+   40.53833,
+   43.02556
+  ],
+  [
+   40.55722,
+   43.06861
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "GUN FIRING WILL TAKE PLACE WI KARS TMA",
+ "text": "A4615/26 NOTAMN\nQ) LTAA/QWMLW/IV/BO /W /000/210/4030N04304E004\nA) LTAA B) 2610280500 C) 2611131730\nD) OCT 28-31 NOV 02-07 09-13 0500-1730\nE) GUN FIRING WILL TAKE PLACE WI KARS TMA\nAREA: 403326N0430407E 403126N0430503E 403048N0430451E \n403002N0430529E 402856N0430652E 402841N0430624E 402816N0430643E \n402734N0430338E 402908N0430218E 402924N0430121E 403218N0430132E \n403326N0430407E\nF) SFC G) 21000FT AMSL",
+ "year": 2026
+}

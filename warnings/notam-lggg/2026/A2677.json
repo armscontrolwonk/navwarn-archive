@@ -1,0 +1,65 @@
+{
+ "cancels": [
+  "notam-lggg/2026/A1343"
+ ],
+ "expires_at": "2026-10-31T23:59:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "drone",
+  "location": "LGGG",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 38.2167,
+   "lon": 26.0167,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "LGGG",
+  "schedule": "JUL 31-OCT 31 H24",
+  "shape": "polygon",
+  "starts_at": "2026-07-31T05:35:00Z",
+  "upper": "900FT AMSL",
+  "upper_fl": 9
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lggg/2026/A2677",
+ "issued_at": "2026-07-31T05:37:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A2677",
+ "positions": [
+  [
+   38.21583,
+   26.01278
+  ],
+  [
+   38.21722,
+   26.01
+  ],
+  [
+   38.21528,
+   26.00833
+  ],
+  [
+   38.21417,
+   26.01139
+  ],
+  [
+   38.21583,
+   26.01278
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW: ",
+ "text": "A2677/26 NOTAMR A1343/26\nQ) LGGG/QRTCA/IV/BO /W /000/009/3813N02601E001\nA) LGGG B) 2607310535 C) 2610312359\nD) JUL 31-OCT 31 H24\nE) A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW: \n1. AREA: 381257N 0260046E - 381302N 0260036E - 381255N 0260030E - \n381251N 0260041E -381257N 0260046E\n    CHIOS/OMIROS CTR AFFECTED \n2. TYPE OF RESTRICTION: UAV FLT\n3. REMARKS:  \n3.1 OTHER UAV FLT ARE SUSPENDED.\n3.2 FLT OF STATE ACFT/UAV, HOSP, OPERATING IFR IN CONTACT WITH \nAPPROPRIATE ATC UNIT, ARE NOT AFFECTED\n3.3 OPERATOR SHALL CALL CHIOS APP TEL NUMBER 22710-81424 PRIOR AND \nAFTER ACTIVITY AND REMAIN IN CONTACT DURING ACTIVITY OR TEL NUMBER \nOF ATHINAI FIC 210-9972604 WHEN CHIOS AIRPORT IS CLOSED\n3.4 ACTIVITY SHALL BE ENDED IF REQUIRED BY CHIOS APP\nF) SFC G) 900FT AMSL",
+ "year": 2026
+}

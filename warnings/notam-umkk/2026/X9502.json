@@ -1,0 +1,87 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T23:00:00Z",
+ "extra": {
+  "fir": "UMKK",
+  "kind": "restricted",
+  "location": "UMKK",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 54.7833,
+   "lon": 19.9333,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UMKK",
+  "schedule": "DAILY 0600-2300",
+  "shape": "polygon",
+  "starts_at": "2026-10-26T06:00:00Z",
+  "upper": "3000M AGL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-umkk/2026/X9502",
+ "issued_at": "2026-10-24T05:49:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "X9502",
+ "positions": [
+  [
+   54.78333,
+   19.88333
+  ],
+  [
+   54.78333,
+   19.95
+  ],
+  [
+   54.75,
+   19.95
+  ],
+  [
+   54.76667,
+   19.86667
+  ],
+  [
+   54.78333,
+   19.88333
+  ],
+  [
+   54.78333,
+   19.95
+  ],
+  [
+   54.78333,
+   20.01667
+  ],
+  [
+   54.75,
+   20.0
+  ],
+  [
+   54.73333,
+   19.95
+  ],
+  [
+   54.75,
+   19.95
+  ],
+  [
+   54.78333,
+   19.95
+  ]
+ ],
+ "series": "notam-umkk",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "X9502/26 NOTAMN\nQ)UMKK/QRTCA/IV/BO/W/000/999/5447N01956E003\nA)UMKK B)2610260600 C)2610312300\nD)DAILY 0600-2300\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 544700N0195300E-544700N0195700E-544500N0195700E-\n         544600N0195200E-544700N0195300E\n2. AREA: 544700N0195700E-544700N0200100E-544500N0200000E-\n         544400N0195700E-544500N0195700E-544700N0195700E.\nF)GND  G)3000M AGL",
+ "year": 2026
+}

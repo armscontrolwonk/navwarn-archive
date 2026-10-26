@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": null,
+ "extra": {
+  "fir": "LTBB",
+  "kind": "restricted",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.3167,
+   "lon": 30.0833,
+   "radius_nm": 1
+  },
+  "qcode": "QRDCS",
+  "queried_fir": "LTBB",
+  "shape": "polygon",
+  "starts_at": "2025-09-29T09:30:00Z",
+  "upper": "3000FT AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2025/A4383",
+ "issued_at": "2025-09-29T09:39:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4383",
+ "positions": [
+  [
+   40.31778,
+   30.07972
+  ],
+  [
+   40.31611,
+   30.08083
+  ],
+  [
+   40.31306,
+   30.07972
+  ],
+  [
+   40.31361,
+   30.07778
+  ],
+  [
+   40.31583,
+   30.07861
+  ],
+  [
+   40.31694,
+   30.07833
+  ],
+  [
+   40.31778,
+   30.07972
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "DANGER AREA 'LTD42'  INSTALLED WITH THE FOLLOWING PROPERTIES.",
+ "text": "A4383/25 NOTAMN\nQ) LTBB/QRDCS/IV/BO /W /000/030/4019N03005E001\nA) LTBB B) 2509290930 C) PERM\nE) DANGER AREA 'LTD42'  INSTALLED WITH THE FOLLOWING PROPERTIES.\nIDENTIFICATION: LTD42 \nNAME : OSMANELI\nLATERAL LIMITS: 401904N0300447E 401858N0300451E 401847N0300447E \n401849N0300440E 401857N0300443E 401901N0300442E 401904N0300447E\nUPPER/ LOWER LIMIT: 3000FT AMSL/SFC\nREMARKS: TAYRAS BASE OIL REFINERY\nREF AIP ENR 5.1\nF) SFC G) 3000FT AMSL",
+ "year": 2025
+}

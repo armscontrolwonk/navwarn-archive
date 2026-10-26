@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T16:00:00Z",
+ "extra": {
+  "fir": "OPKR",
+  "kind": "restricted",
+  "location": "OPKR",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 25.3333,
+   "lon": 66.5833,
+   "radius_nm": 10
+  },
+  "qcode": "QRRCA",
+  "queried_fir": "OPKR",
+  "schedule": "01-31 0130-1000 1300-1600",
+  "shape": "polygon",
+  "starts_at": "2026-10-01T01:30:00Z",
+  "upper": "FL260",
+  "upper_fl": 260
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-opkr/2026/A0557",
+ "issued_at": "2026-09-30T09:48:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A0557",
+ "positions": [
+  [
+   25.19,
+   66.72611
+  ],
+  [
+   25.34167,
+   66.55944
+  ],
+  [
+   25.36417,
+   66.63083
+  ],
+  [
+   25.19194,
+   66.75083
+  ]
+ ],
+ "series": "notam-opkr",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ARMY PROOF RANGE SONMIANI ACT WI FLW COORD.",
+ "text": "A0557/26 NOTAMN\nQ) OPKR/QRRCA/IV/BO/W/000/260/2520N06635E010\nA) OPKR\nB) 2610010130 C) 2610311600\nD) 01-31  0130-1000 1300-1600\nE) ARMY PROOF RANGE SONMIANI ACT WI FLW COORD.\n251124N 0664334E\n252030N 0663334E\n252151N 0663751E\n251131N 0664503E\nF) GND G) FL260",
+ "year": 2026
+}

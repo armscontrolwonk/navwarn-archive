@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T23:59:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "drone",
+  "location": "LGGG",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.9333,
+   "lon": 24.3833,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "LGGG",
+  "shape": "polygon",
+  "starts_at": "2026-08-14T00:00:00Z",
+  "upper": "400FT AGL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lggg/2026/A2797",
+ "issued_at": "2026-08-07T09:18:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A2797",
+ "positions": [
+  [
+   40.93583,
+   24.38389
+  ],
+  [
+   40.93611,
+   24.38833
+  ],
+  [
+   40.94,
+   24.38694
+  ],
+  [
+   40.93778,
+   24.38361
+  ],
+  [
+   40.93583,
+   24.38389
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW:",
+ "text": "A2797/26 NOTAMN\nQ) LGGG/QRTCA/IV/BO /W /000/020/4056N02423E001\nA) LGGG B) 2608140000 C) 2610312359\nE) TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW:\n1. AREA: 405609N 0242302E - 405610N 0242318E - 405624N 0242313E - \n405616N 0242301E - 405609N 0242302E\nKAVALA/MEGAS ALEXANDROS CTR AFFECTED.\n2. TYPE OF RESTRICTION: UAV PATROL\n3. REMARKS:\n3.1 OTHER UAV FLT ARE SUSPENDED.\n3.2 OTHER FLT IN CONTACT WITH KAVALA APP, ARE NOT AFFECTED \n3.3 OPERATOR SHALL CALL KAVALA APP TEL NUMBER 2591440041 PRIOR AND \nAFTER ACTIVITY AND REMAIN IN CONTACT DURING ACTIVITY.\n3.4 ACTIVITY SHALL BE ENDED IF REQUIRED BY KAVALA APP.\nF) GND G) 400FT AGL",
+ "year": 2026
+}

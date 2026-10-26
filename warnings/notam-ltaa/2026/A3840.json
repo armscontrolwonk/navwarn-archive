@@ -1,0 +1,64 @@
+{
+ "cancels": [
+  "notam-ltaa/2026/A3396"
+ ],
+ "expires_at": "2026-11-27T23:59:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "drone",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 37.4667,
+   "lon": 40.5167,
+   "radius_nm": 13
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-08-31T11:00:00Z",
+  "upper": "5000FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A3840",
+ "issued_at": "2026-08-31T11:56:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3840",
+ "positions": [
+  [
+   37.48778,
+   40.25139
+  ],
+  [
+   37.61806,
+   40.69806
+  ],
+  [
+   37.45528,
+   40.77806
+  ],
+  [
+   37.31861,
+   40.38778
+  ],
+  [
+   37.48778,
+   40.25139
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL TAKE PLACE WI DIYARBAKIR MILITARY TMA: ",
+ "text": "A3840/26 NOTAMR A3396/26\nQ) LTAA/QWULW/IV/BO /W /000/050/3728N04031E013\nA) LTAA B) 2608311100 C) 2611272359\nE) UNMANNED ACFT WILL TAKE PLACE WI DIYARBAKIR MILITARY TMA: \n372916N0401505E 373705N0404153E 372719N0404641E 371907N0402316E \n372916N0401505E\nF) SFC G) 5000FT AMSL",
+ "year": 2026
+}

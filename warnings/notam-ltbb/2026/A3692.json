@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-24T14:00:00Z",
+ "extra": {
+  "fir": "LTXX",
+  "kind": "exercise",
+  "location": "LTBB",
+  "lower": "2500FT AMSL",
+  "lower_fl": 25,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.7667,
+   "lon": 31.4167,
+   "radius_nm": 28
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTBB",
+  "schedule": "0700-1400 EXC SAT SUN",
+  "shape": "polygon",
+  "starts_at": "2026-08-24T07:00:00Z",
+  "upper": "20000FT AMSL",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A3692",
+ "issued_at": "2026-08-21T08:30:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3692",
+ "positions": [
+  [
+   41.71667,
+   30.83333
+  ],
+  [
+   41.71806,
+   31.99583
+  ],
+  [
+   42.14389,
+   31.73056
+  ],
+  [
+   41.71667,
+   30.83333
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEST FLT WILL TAKE PLACE WI: ",
+ "text": "A3692/26 NOTAMN\nQ) LTXX/QWELW/IV/BO /W /025/200/4146N03125E028\nA) LTBB LTAA B) 2608240700 C) 2611241400\nD) 0700-1400 EXC SAT SUN\nE) TEST FLT WILL TAKE PLACE WI: \n414300N0305000E 414305N0315945E 420838N0314350E 414300N0305000E\nF) 2500FT AMSL G) 20000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T08:10:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.6833,
+   "lon": 138.9,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2049/0810",
+  "shape": "polygon",
+  "starts_at": "2026-10-12T20:49:00Z",
+  "upper": "1654FT AMSL",
+  "upper_fl": 17
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3574",
+ "issued_at": "2026-10-05T01:49:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3574",
+ "positions": [
+  [
+   37.68111,
+   138.88417
+  ],
+  [
+   37.67472,
+   138.90583
+  ],
+  [
+   37.6875,
+   138.9125
+  ],
+  [
+   37.69333,
+   138.88972
+  ],
+  [
+   37.68111,
+   138.88417
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3574/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/017/3741N13854E002\nA)RJJJ B)2610122049 C)2611250810\nD)2049/0810\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n374052N1385303E - 374029N1385421E - 374115N1385445E - 374136N1385323E\n- 374052N1385303E \n(TSUBAME-SHI IN NIIGATA)\nWT: 1.1KG\nFLT TIME: HJ\nRMK: THIS AREA IS INCLUDED IN KK2-1\nTHIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)1654FT AMSL",
+ "year": 2026
+}

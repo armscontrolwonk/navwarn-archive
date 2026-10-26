@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T13:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.3,
+   "lon": 138.8333,
+   "radius_nm": 1
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/1300",
+  "shape": "polygon",
+  "starts_at": "2026-10-26T22:00:00Z",
+  "upper": "13900FT AMSL",
+  "upper_fl": 139
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/P5188",
+ "issued_at": "2026-10-19T16:10:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P5188",
+ "positions": [
+  [
+   35.30111,
+   138.82278
+  ],
+  [
+   35.295,
+   138.8525
+  ],
+  [
+   35.29722,
+   138.82222
+  ],
+  [
+   35.30111,
+   138.82278
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG:",
+ "text": "P5188/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/139/3518N13850E001\nA)RJJJ B)2610262200 C)2610291300\nD)2200/1300\nE)FRNG:\n1.WEAPON: 81MORTAR\n2.AREA  : BOUNDED BY FLW POINTS\n351804N1384922E - 351742N1385109E - 351750N1384920E - 351804N1384922E\nR-114(HIGASHIFUJI MANEUVERING AREA)\n(GOTENBA-SHI IN SHIZUOKA)\n3.RMK   : SOURCE/JSDF-G(RJAT)\nF)SFC G)13900FT AMSL",
+ "year": 2026
+}

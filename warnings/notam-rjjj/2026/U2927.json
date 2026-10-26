@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-12T20:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.95,
+   "lon": 135.95,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "1100/2000",
+  "shape": "polygon",
+  "starts_at": "2026-08-31T11:00:00Z",
+  "upper": "506FT AMSL",
+  "upper_fl": 6
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U2927",
+ "issued_at": "2026-08-25T11:04:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2927",
+ "positions": [
+  [
+   34.94972,
+   135.93778
+  ],
+  [
+   34.95444,
+   135.94389
+  ],
+  [
+   34.95056,
+   135.94944
+  ],
+  [
+   34.94611,
+   135.94417
+  ],
+  [
+   34.94972,
+   135.93778
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U2927/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/006/3457N13557E002\nA)RJJJ B)2608311100 C)2611122000\nD)1100/2000\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n345659N1355616E - 345716N1355638E - 345702N1355658E - 345646N1355639E\n- 345659N1355616E \n(OTSU-SHI IN SHIGA)\nWT: 2.1KG\nCONTACT INFORMATION: 077-500-8450\nF)SFC G)506FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T08:10:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.6167,
+   "lon": 138.6833,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2104/0810",
+  "shape": "polygon",
+  "starts_at": "2026-10-30T21:04:00Z",
+  "upper": "2995FT AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3581",
+ "issued_at": "2026-10-05T02:02:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3581",
+ "positions": [
+  [
+   35.61306,
+   138.68806
+  ],
+  [
+   35.61083,
+   138.69028
+  ],
+  [
+   35.60806,
+   138.68278
+  ],
+  [
+   35.61083,
+   138.68139
+  ],
+  [
+   35.61306,
+   138.68806
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3581/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/030/3537N13841E001\nA)RJJJ B)2610302104 C)2611250810\nD)2104/0810\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n353647N1384117E - 353639N1384125E - 353629N1384058E - 353639N1384053E\n- 353647N1384117E \n(FUEFUKI-SHI IN YAMANASHI)\nWT: 1KG\nFLT TIME:HJ\nRMK: THIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)2995FT AMSL",
+ "year": 2026
+}

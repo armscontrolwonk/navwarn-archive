@@ -1,0 +1,58 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T09:00:00Z",
+ "extra": {
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "10M AMSL",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 50.2833,
+   "lon": 127.5,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "shape": "polygon",
+  "starts_at": "2026-10-28T07:00:00Z",
+  "upper": "250M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uhhh/2026/P8510",
+ "issued_at": "2026-10-26T13:04:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P8510",
+ "positions": [
+  [
+   50.26917,
+   127.50167
+  ],
+  [
+   50.27917,
+   127.50389
+  ],
+  [
+   50.28389,
+   127.49861
+  ],
+  [
+   50.28472,
+   127.4975
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI 0.1KM EITHER SIDE OF LINE JOINING POINTS:",
+ "text": "P8510/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/010/5017N12730E001\nA)UHHH B)2610280700 C)2610280900\nE)AIRSPACE CLSD WI 0.1KM EITHER SIDE OF LINE JOINING POINTS:\n501609N1273006E-501645N1273014E-501702N1272955E-501705N1272951E\nF)10M AMSL  G)250M AMSL",
+ "year": 2026
+}

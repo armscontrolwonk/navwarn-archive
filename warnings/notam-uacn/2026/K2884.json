@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T19:00:00Z",
+ "extra": {
+  "fir": "UACN",
+  "kind": "restricted",
+  "location": "UACN",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 49.5333,
+   "lon": 73.2167,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UACN",
+  "schedule": "DAILY 0400-1900",
+  "shape": "polygon",
+  "starts_at": "2026-10-02T04:00:00Z",
+  "upper": "FL140",
+  "upper_fl": 140
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uacn/2026/K2884",
+ "issued_at": "2026-10-01T16:01:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "K2884",
+ "positions": [
+  [
+   49.55833,
+   73.22778
+  ],
+  [
+   49.54167,
+   73.17222
+  ],
+  [
+   49.52222,
+   73.16944
+  ],
+  [
+   49.50361,
+   73.23583
+  ],
+  [
+   49.53056,
+   73.28056
+  ],
+  [
+   49.55833,
+   73.22778
+  ]
+ ],
+ "series": "notam-uacn",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPORARY RESTRICTED AREA ACTIVATED",
+ "text": "K2884/26 NOTAMN\nQ) UACN/QRTCA/IV/BO /W /000/140/4932N07313E003\nA) UACN B) 2610020400 C) 2610311900\nD) DAILY 0400-1900\nE) TEMPORARY RESTRICTED AREA ACTIVATED\nAREA BOUNDED BY:\n493330N 0731340E - 493230N 0731020E - 493120N 0731010E - 493013N \n0731409E - 493150N 0731650E - 493330N 0731340E\nF) GND G) FL140",
+ "year": 2026
+}

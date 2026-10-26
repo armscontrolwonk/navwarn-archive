@@ -1,0 +1,43 @@
+{
+ "cancels": [
+  "notam-urrv/2026/V7616"
+ ],
+ "expires_at": "2026-10-31T00:44:00Z",
+ "extra": {
+  "fir": "URRV",
+  "kind": "route",
+  "location": "URRV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 46.6667,
+   "lon": 44.2,
+   "radius_nm": 90
+  },
+  "qcode": "QARLC",
+  "queried_fir": "URRV",
+  "schedule": "DAILY 0044-0600 1600-0044",
+  "starts_at": "2026-10-22T16:00:00Z",
+  "upper": "UNL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-urrv/2026/V7985",
+ "issued_at": "2026-10-22T16:28:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "V7985",
+ "positions": [],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FLW ATS RTE SEGMENTS CLSD:",
+ "text": "V7985/26 NOTAMR V7616/26\nQ)URRV/QARLC/IV/NBO/E/000/999/4640N04412E090\nA)URRV B)2610221600 C)2610310044\nD)DAILY 0044-0600 1600-0044\nE)FLW ATS RTE SEGMENTS CLSD:\n  A964 ELISTA VORDME (ELI)-NOKLI,\n  G481 ZUZGU-ELISTA VORDME (ELI),\n  N82  IKZAL-ADOSU.\nF)SFC  G)UNL",
+ "year": 2026
+}

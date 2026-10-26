@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-26T20:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 55.66194,
+    "lon": 36.14222,
+    "radius_nm": 0.7
+   },
+   {
+    "lat": 55.66194,
+    "lon": 36.13694,
+    "radius_nm": 0.7
+   }
+  ],
+  "fir": "UUWV",
+  "kind": "restricted",
+  "location": "UUWV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.6667,
+   "lon": 36.1333,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UUWV",
+  "schedule": "21-26 0600-2000",
+  "starts_at": "2026-10-21T06:00:00Z",
+  "upper": "900M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uuwv/2026/H0204",
+ "issued_at": "2026-10-16T07:32:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "H0204",
+ "positions": [
+  [
+   55.66194,
+   36.14222
+  ],
+  [
+   55.66194,
+   36.13694
+  ]
+ ],
+ "series": "notam-uuwv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "H0204/26 NOTAMN\nQ)UUWV/QRTCA/IV/BO/W/000/030/5540N03608E001\nA)UUWV B)2610210600 C)2610262000\nD)21-26 0600-2000\nE)AIRSPACE CLSD AS FLW:\n1. WI SECTOR BTN AZM 340-140 DEG RADIUS 1.3KM CENTRE\n553943N0360832E.\n2. WI SECTOR BTN AZM 165-320 DEG RADIUS 1.3KM CENTRE\n553943N0360813E.\nF)SFC  G)900M AMSL",
+ "year": 2026
+}

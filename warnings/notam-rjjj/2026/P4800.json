@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-08T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.0167,
+   "lon": 135.3333,
+   "radius_nm": 27
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-06T22:00:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/P4800",
+ "issued_at": "2026-09-28T08:33:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P4800",
+ "positions": [
+  [
+   37.00306,
+   134.99722
+  ],
+  [
+   37.36972,
+   135.66361
+  ],
+  [
+   37.03639,
+   135.66361
+  ],
+  [
+   36.66972,
+   134.99722
+  ],
+  [
+   37.00306,
+   134.99722
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG EXER",
+ "text": "P4800/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/100/3701N13520E027\nA)RJJJ B)2611062200 C)2611080800\nD)2200/0800\nE)FRNG EXER\nAREA: BOUNDED BY FLW POINTS\n370011N1345950E - 372211N1353949E - 370211N1353949E -\n364011N1345950E - 370011N1345950E\n(N OF WAKASA-WAN/THE-HIGH-SEAS)\nF)SFC G)10000FT AMSL",
+ "year": 2026
+}

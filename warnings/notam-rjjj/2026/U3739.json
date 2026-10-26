@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-23T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.5833,
+   "lon": 139.35,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/0800",
+  "shape": "polygon",
+  "starts_at": "2026-10-20T23:00:00Z",
+  "upper": "1270FT AMSL",
+  "upper_fl": 13
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3739",
+ "issued_at": "2026-10-13T23:54:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3739",
+ "positions": [
+  [
+   35.58528,
+   139.35306
+  ],
+  [
+   35.58528,
+   139.35528
+  ],
+  [
+   35.58278,
+   139.355
+  ],
+  [
+   35.58389,
+   139.35278
+  ],
+  [
+   35.58528,
+   139.35306
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3739/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/013/3535N13921E001\nA)RJJJ B)2610202300 C)2612230800\nD)2300/0800\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n353507N1392111E - 353507N1392119E - 353458N1392118E - 353502N1392110E\n- 353507N1392111E \n(SAGAMIHARA-SHI IN KANAGAWA)\nWT: 0.7KG\nRMK: THIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)1270FT AMSL",
+ "year": 2026
+}

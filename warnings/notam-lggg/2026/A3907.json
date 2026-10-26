@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T21:00:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "exercise",
+  "location": "LGGG",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.75,
+   "lon": 23.9833,
+   "radius_nm": 29
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LGGG",
+  "shape": "polygon",
+  "starts_at": "2026-11-02T05:00:00Z",
+  "upper": "6000FT AMSL",
+  "upper_fl": 60
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lggg/2026/A3907",
+ "issued_at": "2026-10-21T06:48:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3907",
+ "positions": [
+  [
+   35.0,
+   23.5
+  ],
+  [
+   35.0,
+   24.46667
+  ],
+  [
+   34.5,
+   24.46667
+  ],
+  [
+   34.5,
+   23.5
+  ],
+  [
+   35.0,
+   23.5
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "HAF TRAINING FLIGHTS WILL TAKE PLACE WITHIN ATHINAI FIR AS ",
+ "text": "A3907/26 NOTAMN\nQ) LGGG/QWELW/IV/BO /W /000/060/3445N02359E029\nA) LGGG B) 2611020500 C) 2612312100\nE) HAF TRAINING FLIGHTS WILL TAKE PLACE WITHIN ATHINAI FIR AS \nFOLLOWS:\n1. -AREA:\n350000N 0233000E - 350000N 0242800E - 343000N 0242800E -\n343000N 0233000E - 350000N 0233000E\n-SOUDA/I.DASKALOGIANNIS TMA AFFECTED.\n2. -DATES AND TIMES:\nNOV:02 06 09 13 16 20 23 27 30 0500-1300. \nNOV:03 04 05 10 11 12 17 18 19 24 25 26 0500-1300 AND 1600-2100.\nDEC:01 02 03 08 09 10 15 16 17 22 23 24 29 \n30 31 0500-1300 AND 1600-2100.\nDEC:04 07 11 14 18 21 28 0500-1300.\nF) SFC G) 6000FT AMSL",
+ "year": 2026
+}

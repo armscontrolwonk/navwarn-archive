@@ -1,0 +1,79 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-13T08:16:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.0,
+   "lon": 139.2333,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2100/0816",
+  "shape": "polygon",
+  "starts_at": "2026-09-13T21:00:00Z",
+  "upper": "985FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U2766",
+ "issued_at": "2026-08-14T02:47:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2766",
+ "positions": [
+  [
+   38.01944,
+   139.23389
+  ],
+  [
+   37.99778,
+   139.21944
+  ],
+  [
+   37.99417,
+   139.21944
+  ],
+  [
+   37.99472,
+   139.22889
+  ],
+  [
+   37.9925,
+   139.23111
+  ],
+  [
+   37.99278,
+   139.2475
+  ],
+  [
+   38.00222,
+   139.26111
+  ],
+  [
+   38.01944,
+   139.24778
+  ],
+  [
+   38.01944,
+   139.23389
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U2766/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/010/3800N13914E002\nA)RJJJ B)2609132100 C)2611130816\nD)2100/0816\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n380110N1391402E - 375952N1391310E - 375939N1391310E - 375941N1391344E\n- 375933N1391352E - 375934N1391451E - 380008N1391540E -\n380110N1391452E - 380110N1391402E \n(KITAKANBARA-GUN IN NIIGATA)\nWT: 1.1KG\nFLT TIME: HJ\nF)SFC G)985FT AMSL",
+ "year": 2026
+}

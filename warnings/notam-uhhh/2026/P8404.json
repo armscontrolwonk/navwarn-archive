@@ -1,0 +1,98 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T09:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 47.99194,
+    "lon": 135.04111,
+    "radius_nm": 0.81
+   },
+   {
+    "lat": 47.95278,
+    "lon": 135.28056,
+    "radius_nm": 0.81
+   }
+  ],
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 47.9667,
+   "lon": 135.1,
+   "radius_nm": 9
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "schedule": "25 2200-2359, 26-29 0000-0900 2200-2359, 30 0000-0900",
+  "starts_at": "2026-10-25T22:00:00Z",
+  "upper": "1100M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uhhh/2026/P8404",
+ "issued_at": "2026-10-24T15:28:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P8404",
+ "positions": [
+  [
+   47.99306,
+   135.30556
+  ],
+  [
+   47.975,
+   135.19056
+  ],
+  [
+   48.00639,
+   135.04194
+  ],
+  [
+   47.9875,
+   134.91694
+  ],
+  [
+   47.95139,
+   134.90667
+  ],
+  [
+   47.92083,
+   135.06333
+  ],
+  [
+   47.91833,
+   135.19361
+  ],
+  [
+   47.92667,
+   135.30194
+  ],
+  [
+   47.99306,
+   135.30556
+  ],
+  [
+   47.99194,
+   135.04111
+  ],
+  [
+   47.95278,
+   135.28056
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P8404/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/040/4758N13506E009\nA)UHHH B)2610252200 C)2610300900\nD)25 2200-2359, 26-29 0000-0900 2200-2359, 30 0000-0900\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 475935N1351820E-475830N1351126E-480023N1350231E-\n         475915N1345501E-475705N1345424E-475515N1350348E-\n         475506N1351137E-475536N1351807E-475935N1351820E\n   450M AMSL-1100M AMSL.\n2. WI CIRCLE RADIUS 1.5KM CENTRE 475931N1350228E\n   SFC-450M AMSL.\n3. WI CIRCLE RADIUS 1.5KM CENTRE 475710N1351650E\n   SFC-450M AMSL.\nF)SFC  G)1100M AMSL",
+ "year": 2026
+}

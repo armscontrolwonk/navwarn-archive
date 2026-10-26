@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T08:28:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.45,
+   "lon": 133.0333,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "19-21 26-28 0000/0828",
+  "shape": "polygon",
+  "starts_at": "2026-10-19T00:00:00Z",
+  "upper": "575FT AMSL",
+  "upper_fl": 6
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3808",
+ "issued_at": "2026-10-15T22:23:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3808",
+ "positions": [
+  [
+   35.47,
+   133.04417
+  ],
+  [
+   35.47,
+   133.05583
+  ],
+  [
+   35.43944,
+   133.04222
+  ],
+  [
+   35.42889,
+   133.00361
+  ],
+  [
+   35.44083,
+   133.005
+  ],
+  [
+   35.47,
+   133.04417
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3808/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/006/3527N13302E003\nA)RJJJ B)2610190000 C)2610280828\nD)19-21 26-28 0000/0828\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n352812N1330239E - 352812N1330321E - 352622N1330232E - 352544N1330013E\n- 352627N1330018E - 352812N1330239E \n(MATSUE-SHI IN SHIMANE)\nWT: 25KG\nFLT TIME: 0000/SS\nCONTACT INFORMATION: 050-1722-1348\nF)SFC G)575FT AMSL",
+ "year": 2026
+}

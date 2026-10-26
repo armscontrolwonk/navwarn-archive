@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T08:28:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.75,
+   "lon": 140.7667,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2043/0828",
+  "shape": "polygon",
+  "starts_at": "2026-10-12T20:43:00Z",
+  "upper": "3117FT AMSL",
+  "upper_fl": 32
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3653",
+ "issued_at": "2026-10-09T00:20:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3653",
+ "positions": [
+  [
+   39.76028,
+   140.74389
+  ],
+  [
+   39.76611,
+   140.75139
+  ],
+  [
+   39.76056,
+   140.76222
+  ],
+  [
+   39.75889,
+   140.7775
+  ],
+  [
+   39.75389,
+   140.77778
+  ],
+  [
+   39.75639,
+   140.75833
+  ],
+  [
+   39.76028,
+   140.74389
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3653/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/032/3945N14046E002\nA)RJJJ B)2610122043 C)2610300828\nD)2043/0828\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n394537N1404438E - 394558N1404505E - 394538N1404544E - 394532N1404639E\n- 394514N1404640E - 394523N1404530E - 394537N1404438E \n(SENBOKU-SHI IN AKITA)\nWT: 1.1KG\nFLT TIME: HJ\nF)SFC G)3117FT AMSL",
+ "year": 2026
+}

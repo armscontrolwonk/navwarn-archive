@@ -1,0 +1,109 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-04T18:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 57.26056,
+    "lon": 40.44056,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "UUWV",
+  "kind": "restricted",
+  "location": "UUWV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 57.1667,
+   "lon": 40.5833,
+   "radius_nm": 13
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UUWV",
+  "schedule": "DAILY 0600-1800",
+  "starts_at": "2026-10-30T06:00:00Z",
+  "upper": "900M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uuwv/2026/H1057",
+ "issued_at": "2026-10-26T11:44:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "H1057",
+ "positions": [
+  [
+   57.32722,
+   40.34889
+  ],
+  [
+   57.3125,
+   40.40361
+  ],
+  [
+   57.19306,
+   40.5825
+  ],
+  [
+   57.14917,
+   40.59917
+  ],
+  [
+   57.01389,
+   40.82222
+  ],
+  [
+   57.0225,
+   40.77056
+  ],
+  [
+   57.02806,
+   40.77111
+  ],
+  [
+   57.03528,
+   40.75556
+  ],
+  [
+   57.03,
+   40.72194
+  ],
+  [
+   57.03417,
+   40.6975
+  ],
+  [
+   57.13528,
+   40.53694
+  ],
+  [
+   57.1775,
+   40.51722
+  ],
+  [
+   57.27389,
+   40.37611
+  ],
+  [
+   57.32722,
+   40.34889
+  ],
+  [
+   57.26056,
+   40.44056
+  ]
+ ],
+ "series": "notam-uuwv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "H1057/26 NOTAMN\nQ)UUWV/QRTCA/IV/BO/W/000/030/5710N04035E013\nA)UUWV B)2610300600 C)2611041800\nD)DAILY 0600-1800\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 571938N0402056E-571845N0402413E-571135N0403457E-\n         570857N0403557E-570050N0404920E-570121N0404614E-\n         570141N0404616E-570207N0404520E-570148N0404319E-\n         570203N0404151E-570807N0403213E-571039N0403102E-\n         571626N0402234E-571938N0402056E\n   500M AMSL-900M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 571538N0402626E\n   GND-900M AMSL.\nF)GND  G)900M AMSL",
+ "year": 2026
+}

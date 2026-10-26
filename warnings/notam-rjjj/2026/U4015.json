@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T07:41:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.7333,
+   "lon": 139.4667,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2102/0741",
+  "shape": "polygon",
+  "starts_at": "2026-10-28T21:02:00Z",
+  "upper": "8393FT AMSL",
+  "upper_fl": 84
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U4015",
+ "issued_at": "2026-10-26T06:51:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U4015",
+ "positions": [
+  [
+   36.73667,
+   139.51778
+  ],
+  [
+   36.72611,
+   139.48639
+  ],
+  [
+   36.77889,
+   139.45056
+  ],
+  [
+   36.74806,
+   139.42222
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4015/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/084/3644N13928E004\nA)RJJJ B)2610282102 C)2611060741\nD)2102/0741\nE)UNMANNED ACFT:\n(1)AREA: RADIUS 1498M CENTER 364412N1393104E \n(2)AREA: RADIUS 2013M CENTER 364334N1392911E \n(3)AREA: RADIUS 997M CENTER 364644N1392702E \n(4)AREA: RADIUS 995M CENTER 364453N1392520E \n(NIKKO-SHI IN TOCHIGI)\nWT: 0.8KG\nFLT TIME: HJ\nF)SFC G)8393FT AMSL",
+ "year": 2026
+}

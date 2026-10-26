@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-27T03:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.0667,
+   "lon": 136.5833,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T00:00:00Z",
+  "upper": "1106FT AMSL",
+  "upper_fl": 12
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U4022",
+ "issued_at": "2026-10-26T14:32:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U4022",
+ "positions": [
+  [
+   35.07583,
+   136.585
+  ],
+  [
+   35.07472,
+   136.58472
+  ],
+  [
+   35.07417,
+   136.58583
+  ],
+  [
+   35.07278,
+   136.58528
+  ],
+  [
+   35.0725,
+   136.58694
+  ],
+  [
+   35.07556,
+   136.5875
+  ],
+  [
+   35.07583,
+   136.585
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4022/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/012/3504N13635E001\nA)RJJJ B)2610270000 C)2610270300\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n350433N1363506E - 350429N1363505E - 350427N1363509E - 350422N1363507E\n- 350421N1363513E - 350432N1363515E - 350433N1363506E \n(INABE-GUN IN MIE)\nWT: 1KG\nRMK: THIS AREA IS INCLUDED IN CK1-3\nF)SFC G)1106FT AMSL",
+ "year": 2026
+}

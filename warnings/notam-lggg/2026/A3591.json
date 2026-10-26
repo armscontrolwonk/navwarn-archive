@@ -1,0 +1,69 @@
+{
+ "cancels": [
+  "notam-lggg/2026/A2219"
+ ],
+ "expires_at": "2026-12-31T17:00:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "drone",
+  "location": "LGGG",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 35.0667,
+   "lon": 24.6,
+   "radius_nm": 9
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "LGGG",
+  "schedule": "DAILY 0600-1700",
+  "shape": "polygon",
+  "starts_at": "2026-09-30T06:07:00Z",
+  "upper": "500FT AMSL",
+  "upper_fl": 5
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lggg/2026/A3591",
+ "issued_at": "2026-09-30T06:08:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3591",
+ "positions": [
+  [
+   35.10861,
+   24.44528
+  ],
+  [
+   35.07111,
+   24.74611
+  ],
+  [
+   35.01556,
+   24.75833
+  ],
+  [
+   35.04917,
+   24.43861
+  ],
+  [
+   35.10861,
+   24.44528
+  ],
+  [
+   35.06361,
+   24.76611
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW:",
+ "text": "A3591/26 NOTAMR A2219/26\nQ) LGGG/QRTCA/IV/BO /W /000/005/3504N02436E009\nA) LGGG B) 2609300607 C) 2612311700\nD) DAILY 0600-1700\nE) A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW:\n1. AREA: 350631N0242643E - 350416N0244446E - 350056N0244530E - \n350257N0242619E - 350631N0242643E EXCLUDING AREA: RADIUS 3NM \nCENTERED ON 350349N 0244558E.\n SOUDA MTMA AND LGD69 AFFECTED.\n2. TYPE OF RESTRICTION: UAV FLIGHT\n3. REMARKS:\n3.1 OTHER UAV FLT ARE SUSPENDED.\n3.2 FLT OF STATE ACFT/UAV, HOSP FLT AND FLT OPR IFR, IN CONTACT WITH \nAPPROPRIATE ATC UNIT, ARE NOT AFFECTED \n3.3 OPERATOR SHALL CALL SOUDA APP TEL NUMBER 2821005656 PRIOR. AFTER \nAND DURING ACTIVITY \n3.4 ACTIVITY SHALL BE ENDED IF REQUIRED BY SOUDA APP.\nF) SFC G) 500FT AMSL",
+ "year": 2026
+}

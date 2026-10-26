@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-05T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.3833,
+   "lon": 135.9833,
+   "radius_nm": 3
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T23:00:00Z",
+  "upper": "3011FT AMSL",
+  "upper_fl": 31
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/P5348",
+ "issued_at": "2026-10-26T09:08:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P5348",
+ "positions": [
+  [
+   35.38583,
+   135.95972
+  ],
+  [
+   35.38917,
+   135.97167
+  ],
+  [
+   35.38472,
+   135.9625
+  ],
+  [
+   35.38583,
+   135.95972
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG WILL BE CONDUCTED WITHIN R-101 AEBANO",
+ "text": "P5348/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/031/3523N13559E003\nA)RJJJ B)2611032300 C)2611050800\nD)2300/0800\nE)FRNG WILL BE CONDUCTED WITHIN R-101 AEBANO\nWEAPON: 60MORTAR\nAREA: BOUNDED BY FLW POINTS\n352309N1355735E - 352321N1355818E - 352305N1355745E - 352309N1355735E\n(TAKASHIMA-SHI IN SHIGA)\nRMK: (1)REF AIP PAGE ENR5.1-4\n(2)SOURCE/JSDF-G(RJOY)\nF)SFC G)3011FT AMSL",
+ "year": 2026
+}

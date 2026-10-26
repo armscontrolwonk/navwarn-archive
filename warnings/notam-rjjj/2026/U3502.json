@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-03T13:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.3667,
+   "lon": 139.2667,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/1300",
+  "shape": "polygon",
+  "starts_at": "2026-10-31T23:00:00Z",
+  "upper": "952FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3502",
+ "issued_at": "2026-09-30T05:58:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3502",
+ "positions": [
+  [
+   35.36333,
+   139.27333
+  ],
+  [
+   35.36333,
+   139.27611
+  ],
+  [
+   35.3625,
+   139.27611
+  ],
+  [
+   35.3625,
+   139.27333
+  ],
+  [
+   35.36333,
+   139.27333
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3502/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/010/3522N13916E001\nA)RJJJ B)2610312300 C)2611031300\nD)2300/1300\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n352148N1391624E - 352148N1391634E - 352145N1391634E - 352145N1391624E\n- 352148N1391624E \n(HIRATSUKA-SHI IN KANAGAWA)\nWT: 0.6KG\nNUMBER: 400\nF)SFC G)952FT AMSL",
+ "year": 2026
+}

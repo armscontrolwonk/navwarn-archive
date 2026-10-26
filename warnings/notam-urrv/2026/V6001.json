@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T19:00:00Z",
+ "extra": {
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.8167,
+   "lon": 47.7,
+   "radius_nm": 1
+  },
+  "qcode": "QRRCA",
+  "queried_fir": "URRV",
+  "schedule": "DAILY 0500-1900",
+  "starts_at": "2026-10-01T05:00:00Z",
+  "upper": "100M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-urrv/2026/V6001",
+ "issued_at": "2026-09-23T16:07:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "V6001",
+ "positions": [],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "RESTRICTED AREA ACT: URR591.",
+ "text": "V6001/26 NOTAMN\nQ)URRV/QRRCA/IV/BO/W/000/010/4249N04742E001\nA)URRV B)2610010500 C)2610311900\nD)DAILY 0500-1900\nE)RESTRICTED AREA ACT: URR591.\nF)GND  G)100M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,91 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T15:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "restricted",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 25.9333,
+   "lon": 128.6,
+   "radius_nm": 105
+  },
+  "qcode": "QRACA",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/1500",
+  "shape": "polygon",
+  "starts_at": "2026-10-25T23:00:00Z",
+  "upper": "FL600",
+  "upper_fl": 600
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/P5146",
+ "issued_at": "2026-10-17T01:56:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P5146",
+ "positions": [
+  [
+   25.89306,
+   128.5
+  ],
+  [
+   25.81028,
+   129.03861
+  ],
+  [
+   25.7375,
+   129.43111
+  ],
+  [
+   25.74583,
+   130.40361
+  ],
+  [
+   25.73972,
+   130.50028
+  ],
+  [
+   24.66389,
+   129.66528
+  ],
+  [
+   24.39111,
+   129.46028
+  ],
+  [
+   25.51861,
+   128.16472
+  ],
+  [
+   25.89306,
+   128.5
+  ],
+  [
+   25.51861,
+   128.16472
+  ],
+  [
+   25.89306,
+   128.5
+  ],
+  [
+   26.20833,
+   127.64278
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MULTIPLE U.S. MIL ACT WILL BE CONDUCTED WI FUKUOKA FIR AS FLW,",
+ "text": "P5146/26 NOTAMN\nQ)RJJJ/QRACA/IV/NBO/W/000/600/2556N12836E105\nA)RJJJ B)2610252300 C)2610311500\nD)2300/1500\nE)MULTIPLE U.S. MIL ACT WILL BE CONDUCTED WI FUKUOKA FIR AS FLW,\nAREA: BOUNDED BY FLW POINTS\n255335N1283000E - 254837N1290219E - 254415N1292552E - 254445N1302413E\n- 254423N1303001E - 243950N1293955E - 242328N1292737E -\n253107N1280953E - 255335N1283000E,\nTHE LINE CONNECTING 253107N1280953E TO 255335N1283000E IS THE MINOR\nARC WITH A RADIUS OF 50NM FM 261230N1273834E.\nATC WILL NOT CLEAR NON-PARTICIPATING IFR FLT THRU THIS AREA.\nRMK: MISSION NAME EAGLE-CENTER\nF)SFC G)FL600",
+ "year": 2026
+}

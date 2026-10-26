@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T15:45:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.4833,
+   "lon": 120.5833,
+   "radius_nm": 6
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "schedule": "1615-1545",
+  "shape": "polygon",
+  "starts_at": "2026-10-13T16:15:00Z",
+  "upper": "2900FT AMSL",
+  "upper_fl": 29
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2562",
+ "issued_at": "2026-10-06T03:55:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2562",
+ "positions": [
+  [
+   22.41417,
+   120.50667
+  ],
+  [
+   22.47028,
+   120.53472
+  ],
+  [
+   22.54083,
+   120.66278
+  ],
+  [
+   22.52556,
+   120.66583
+  ],
+  [
+   22.45139,
+   120.59444
+  ],
+  [
+   22.40667,
+   120.52333
+  ],
+  [
+   22.41417,
+   120.50667
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2562/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/029/2229N12035E006\nA) RCAA\nB) 2610131615 C) 2611101545\nD) 1615-1545\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260820003401\n2.LCA:LAIYI TOWNSHIP, PINGTUNG COUNTY\n3.THE AREA OVERLAPS RCR6, PART OF VFR CORRIDOR C9 AND C35, \n  ACFT ARE CTN ADZ.\n4.COOR TEL:0915-782037, 0976-708993\n5.AREA AS FLW:\n222451N 1203024E\n222813N 1203205E\n223227N 1203946E\n223132N 1203957E\n222705N 1203540E\n222424N 1203124E\n222451N 1203024E\nF) SFC G) 2900FT AMSL",
+ "year": 2026
+}

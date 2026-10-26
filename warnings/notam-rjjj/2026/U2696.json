@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-04T06:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.5833,
+   "lon": 140.0167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0600",
+  "shape": "polygon",
+  "starts_at": "2026-08-10T00:00:00Z",
+  "upper": "1385FT AMSL",
+  "upper_fl": 14
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U2696",
+ "issued_at": "2026-08-05T07:11:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2696",
+ "positions": [
+  [
+   36.58778,
+   140.01222
+  ],
+  [
+   36.59139,
+   140.01611
+  ],
+  [
+   36.59417,
+   140.02194
+  ],
+  [
+   36.59417,
+   140.02417
+  ],
+  [
+   36.58972,
+   140.02667
+  ],
+  [
+   36.58667,
+   140.01306
+  ],
+  [
+   36.58778,
+   140.01222
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U2696/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/014/3635N14001E002\nA)RJJJ B)2608100000 C)2611040600\nD)0000/0600\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n363516N1400044E - 363529N1400058E - 363539N1400119E - 363539N1400127E\n- 363523N1400136E - 363512N1400047E - 363516N1400044E \n(SHIOYA-GUN IN TOCHIGI)\nWT: 1.1KG\nF)SFC G)1385FT AMSL",
+ "year": 2026
+}

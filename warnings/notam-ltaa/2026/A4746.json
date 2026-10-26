@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-27T08:30:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.5667,
+   "lon": 35.7667,
+   "radius_nm": 27
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T06:30:00Z",
+  "upper": "25000FT AMSL",
+  "upper_fl": 250
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4746",
+ "issued_at": "2026-10-20T13:16:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4746",
+ "positions": [
+  [
+   36.9,
+   35.43333
+  ],
+  [
+   36.9,
+   36.06667
+  ],
+  [
+   36.21667,
+   36.1
+  ],
+  [
+   36.21667,
+   35.51667
+  ],
+  [
+   36.9,
+   35.43333
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TRAINING FLT WILL TAKE PLACE WI ADANA MIL TMA:",
+ "text": "A4746/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /000/250/3634N03546E027\nA) LTAA B) 2610270630 C) 2610270830\nE) TRAINING FLT WILL TAKE PLACE WI ADANA MIL TMA:\n365400N0352600E 365400N0360400E 361300N0360600E \n361300N0353100E 365400N0352600E\nRMK: AIR TRAFFIC FLOW REGULATION NOTAM SHALL BE ISSUED.\nF) SFC G) 25000FT AMSL",
+ "year": 2026
+}

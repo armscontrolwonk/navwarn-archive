@@ -1,0 +1,65 @@
+{
+ "cancels": [
+  "notam-rphi/2026/B4505"
+ ],
+ "expires_at": "2026-11-09T10:00:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "other",
+  "location": "RPHI",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 14.8833,
+   "lon": 120.45,
+   "radius_nm": 5
+  },
+  "qcode": "QWYLW",
+  "queried_fir": "RPHI",
+  "schedule": "2200-1000",
+  "shape": "polygon",
+  "starts_at": "2026-10-07T03:32:00Z",
+  "upper": "4000FT AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rphi/2026/B5355",
+ "issued_at": "2026-10-07T03:32:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "B5355",
+ "positions": [
+  [
+   14.95694,
+   120.45722
+  ],
+  [
+   14.92583,
+   120.50611
+  ],
+  [
+   14.8125,
+   120.43389
+  ],
+  [
+   14.84361,
+   120.385
+  ],
+  [
+   14.95694,
+   120.45722
+  ]
+ ],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AERIAL SURVEY ACT WILL TAKE PLACE WI:",
+ "text": "B5355/26 NOTAMR B4505/26\nQ) RPHI/QWYLW/IV/M  /W /000/040/1453N12027E005\nA) RPHI B) 2610070332 C) 2611091000\nD) 2200-1000\nE) AERIAL SURVEY ACT WILL TAKE PLACE WI:\n145725N 1202726E -\n145533N 1203022E -\n144845N 1202602E -\n145037N 1202306E -\n145725N 1202726E\n(DINALUPIHAN, BATAAN).\nF) SFC G) 4000FT AMSL",
+ "year": 2026
+}

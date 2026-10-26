@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T16:00:00Z",
+ "extra": {
+  "fir": "LCCC",
+  "kind": "drone",
+  "location": "LCCC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.2667,
+   "lon": 32.8833,
+   "radius_nm": 23
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LCCC",
+  "schedule": "0500 - 1600",
+  "shape": "polygon",
+  "starts_at": "2026-10-28T05:00:00Z",
+  "upper": "2000FT AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lccc/2026/A1188",
+ "issued_at": "2026-10-26T13:49:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A1188",
+ "positions": [
+  [
+   34.21306,
+   32.43917
+  ],
+  [
+   34.43278,
+   32.59833
+  ],
+  [
+   34.34889,
+   32.99361
+  ],
+  [
+   34.42722,
+   33.28111
+  ],
+  [
+   34.25472,
+   33.32667
+  ],
+  [
+   34.08667,
+   32.85194
+  ],
+  [
+   34.21306,
+   32.43917
+  ]
+ ],
+ "series": "notam-lccc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "SMALL TACTICAL UAS WILL BE PERFORMING BEYOND VISUAL LINE OF SIGHT",
+ "text": "A1188/26 NOTAMN\nQ) LCCC/QWULW/IV/BO /W /000/020/3416N03253E023\nA) LCCC B) 2610280500 C) 2610301600\nD) 0500 - 1600\nE) SMALL TACTICAL UAS WILL BE PERFORMING BEYOND VISUAL LINE OF SIGHT\nFLIGHTS FOR MARITIME SURVEILLANCE IN AREA:\n341247N 0322621E - 342558N 0323554E - 342056N 0325937E - \n342538N 0331652E - 341517N 0331936E - 340512N 0325107E - \n341247N 0322621E/AREA 4\nTHE AREA WILL BE ACTIVATED IN REAL TIME THROUGH FULL TACTICAL\nCOORDINATION BETWEEN UAS OPERATOR AND LARNAKA ATC. \nUAS SSR MODE C CODE: 0047\nTHE AREA INCLUDES 1000FT VERTICAL BUFFER ONLY.\nF) SFC G) 2000FT AMSL",
+ "year": 2026
+}

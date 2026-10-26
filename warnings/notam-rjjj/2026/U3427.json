@@ -1,0 +1,94 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T15:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 32.0,
+   "lon": 130.7833,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-10-09T15:00:00Z",
+  "upper": "1312FT AMSL",
+  "upper_fl": 14
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3427",
+ "issued_at": "2026-09-25T03:08:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3427",
+ "positions": [
+  [
+   32.01333,
+   130.79639
+  ],
+  [
+   32.00722,
+   130.80083
+  ],
+  [
+   32.00417,
+   130.80667
+  ],
+  [
+   31.99194,
+   130.81
+  ],
+  [
+   31.99222,
+   130.80222
+  ],
+  [
+   31.98722,
+   130.79472
+  ],
+  [
+   31.98389,
+   130.79278
+  ],
+  [
+   31.98333,
+   130.78861
+  ],
+  [
+   31.98583,
+   130.78389
+  ],
+  [
+   31.98083,
+   130.77333
+  ],
+  [
+   31.98583,
+   130.76944
+  ],
+  [
+   31.9975,
+   130.77417
+  ],
+  [
+   32.01333,
+   130.79639
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U3427/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/014/3200N13047E002\nA)RJJJ B)2610091500 C)2610291500\nE)UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n320048N1304747E - 320026N1304803E - 320015N1304824E - 315931N1304836E\n- 315932N1304808E - 315914N1304741E - 315902N1304734E -\n315900N1304719E - 315909N1304702E - 315851N1304624E - 315909N1304610E\n- 315951N1304627E - 320048N1304747E \n(EBINO-SHI IN MIYAZAKI, AIRA-GUN IN KAGOSHIMA)\n(KIRISHIMA MANEUVERING AREA)\nWT: 5.5KG\nNUMBER: 5\nRMK: SOURCE/JSDF-G(RJFT)\nF)SFC G)1312FT AMSL",
+ "year": 2026
+}

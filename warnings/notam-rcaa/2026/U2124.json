@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-09T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 24.9333,
+   "lon": 121.2833,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-09-09T16:00:00Z",
+  "upper": "2900FT AMSL",
+  "upper_fl": 29
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2124",
+ "issued_at": "2026-08-26T02:20:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2124",
+ "positions": [
+  [
+   24.93694,
+   121.27417
+  ],
+  [
+   24.93167,
+   121.2975
+  ],
+  [
+   24.92028,
+   121.29306
+  ],
+  [
+   24.92056,
+   121.26611
+  ],
+  [
+   24.93694,
+   121.27417
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2124/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/029/2456N12117E002\nA) RCAA\nB) 2609091600 C) 2611091600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260817001401\n2.LCA:BADE DISTRICT, TAOYUAN CITY\n3.THE AREA OVERLAPS PART OF LONGTAN MIL TRAINING AREA,\n  PART OF VFR CORRIDOR C33 AND PART OF VFR HEL RTE H2,\n  ACFT ARE CTN ADZ.\n4.COOR TEL:0965-157897, 0912-218136\n5.AREA AS FLW:\n245613N 1211627E\n245554N 1211751E\n245513N 1211735E\n245514N 1211558E\n245613N 1211627E\nF) SFC G) 2900FT AMSL",
+ "year": 2026
+}

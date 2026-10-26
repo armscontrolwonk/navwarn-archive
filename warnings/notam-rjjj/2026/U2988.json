@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.05,
+   "lon": 140.7167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2330/0700",
+  "shape": "polygon",
+  "starts_at": "2026-08-31T23:30:00Z",
+  "upper": "3774FT AMSL",
+  "upper_fl": 38
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U2988",
+ "issued_at": "2026-08-28T07:50:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2988",
+ "positions": [
+  [
+   39.06111,
+   140.71722
+  ],
+  [
+   39.06056,
+   140.70667
+  ],
+  [
+   39.04306,
+   140.70778
+  ],
+  [
+   39.04333,
+   140.71833
+  ],
+  [
+   39.06111,
+   140.71722
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U2988/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/038/3903N14043E002\nA)RJJJ B)2608312330 C)2610310700\nD)2330/0700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n390340N1404302E - 390338N1404224E - 390235N1404228E - 390236N1404306E\n- 390340N1404302E \n(OGACHI-GUN IN AKITA)\nWT: 150KG\nF)SFC G)3774FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T07:23:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.45,
+   "lon": 142.6667,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "1943/0723",
+  "shape": "polygon",
+  "starts_at": "2026-08-23T19:43:00Z",
+  "upper": "8203FT AMSL",
+  "upper_fl": 83
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U2802",
+ "issued_at": "2026-08-17T08:22:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2802",
+ "positions": [
+  [
+   43.47806,
+   142.63833
+  ],
+  [
+   43.48389,
+   142.6525
+  ],
+  [
+   43.44222,
+   142.71778
+  ],
+  [
+   43.40806,
+   142.69
+  ],
+  [
+   43.41917,
+   142.66722
+  ],
+  [
+   43.47667,
+   142.63611
+  ],
+  [
+   43.47806,
+   142.63833
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U2802/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/083/4327N14240E004\nA)RJJJ B)2608231943 C)2610310723\nD)1943/0723\nE)UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n432841N1423818E - 432902N1423909E - 432632N1424304E - 432429N1424124E\n- 432509N1424002E - 432836N1423810E - 432841N1423818E \n(KAMIKAWA-GUN, SORACHI-GUN IN HOKKAIDO)\nWT: 24KG\nNUMBER: 2\nFLT TIME: HJ\nF)SFC G)8203FT AMSL",
+ "year": 2026
+}

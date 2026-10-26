@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.6,
+   "lon": 121.0167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-09-30T16:00:00Z",
+  "upper": "6000FT AMSL",
+  "upper_fl": 60
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2195",
+ "issued_at": "2026-09-02T02:18:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2195",
+ "positions": [
+  [
+   22.6,
+   120.99722
+  ],
+  [
+   22.61111,
+   121.01944
+  ],
+  [
+   22.58333,
+   121.01944
+  ],
+  [
+   22.58333,
+   121.0
+  ],
+  [
+   22.6,
+   120.99722
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2195/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/060/2236N12101E002\nA) RCAA\nB) 2609301600 C) 2611301600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:M260820001401\n2.LCA:TAIMALI TOWNSHIP, TAITUNG COUNTY\n3.THE AREA OVERLAPS RCR41 AND PART OF VFR CORRIDOR C8, \n  ACFT ARE CTN ADZ.\n4.COOR TEL:04-27023051, 0985-304927\n5.AREA AS FLW:\n223600N 1205950E\n223640N 1210110E\n223500N 1210110E\n223500N 1210000E\n223600N 1205950E\nF) SFC G) 6000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,51 @@
+{
+ "cancels": [
+  "notam-ltbb/2026/A2824"
+ ],
+ "expires_at": "2026-12-29T23:59:00Z",
+ "extra": {
+  "fir": "LTXX",
+  "kind": "drone",
+  "location": "LTBB",
+  "lower": "13000FT AMSL",
+  "lower_fl": 130,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 41.85,
+   "lon": 30.9667,
+   "radius_nm": 16
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTBB",
+  "starts_at": "2026-09-30T13:32:00Z",
+  "upper": "15000FT AMSL",
+  "upper_fl": 150
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A4375",
+ "issued_at": "2026-09-30T13:33:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4375",
+ "positions": [
+  [
+   41.59472,
+   30.94806
+  ],
+  [
+   42.09917,
+   30.98194
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL TAKE PLACE",
+ "text": "A4375/26 NOTAMR A2824/26\nQ) LTXX/QWULW/IV/BO /W /130/150/4151N03058E016\nA) LTBB LTAA B) 2609301332 C) 2612292359\nE) UNMANNED ACFT WILL TAKE PLACE\nROUTE: 413541N0305653E 420557N0305855E\n1.5NM EITHER SIDE OF A LINE \nWITHIN ISTANBUL TMA\nF) 13000FT AMSL G) 15000FT AMSL",
+ "year": 2026
+}

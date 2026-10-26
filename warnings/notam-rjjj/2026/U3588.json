@@ -1,0 +1,83 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-07T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.0,
+   "lon": 140.5167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0700",
+  "shape": "polygon",
+  "starts_at": "2026-11-06T00:00:00Z",
+  "upper": "1018FT AMSL",
+  "upper_fl": 11
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3588",
+ "issued_at": "2026-10-05T07:01:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3588",
+ "positions": [
+  [
+   43.00056,
+   140.52111
+  ],
+  [
+   42.99611,
+   140.52278
+  ],
+  [
+   42.99361,
+   140.52444
+  ],
+  [
+   42.99222,
+   140.53056
+  ],
+  [
+   42.99917,
+   140.53472
+  ],
+  [
+   43.01139,
+   140.535
+  ],
+  [
+   43.01722,
+   140.535
+  ],
+  [
+   43.01722,
+   140.49778
+  ],
+  [
+   43.00056,
+   140.49778
+  ],
+  [
+   43.00056,
+   140.52111
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3588/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/011/4300N14031E002\nA)RJJJ B)2611060000 C)2611070700\nD)0000/0700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n430002N1403116E - 425946N1403122E - 425937N1403128E - 425932N1403150E\n- 425957N1403205E - 430041N1403206E - 430102N1403206E -\n430102N1402952E - 430002N1402952E - 430002N1403116E \n(IWANAI-GUN IN HOKKAIDO)\nWT: 41KG\nF)SFC G)1018FT AMSL",
+ "year": 2026
+}

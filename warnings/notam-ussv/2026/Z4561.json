@@ -1,0 +1,109 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-02T13:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 57.98333,
+    "lon": 60.23333,
+    "radius_nm": 2.7
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 58.3167,
+   "lon": 59.8833,
+   "radius_nm": 38
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0400-1300",
+  "starts_at": "2026-10-28T04:00:00Z",
+  "upper": "6000M AMSL",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ussv/2026/Z4561",
+ "issued_at": "2026-10-23T10:05:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "Z4561",
+ "positions": [
+  [
+   57.98333,
+   60.23333
+  ],
+  [
+   58.01667,
+   60.2
+  ],
+  [
+   58.75,
+   59.0
+  ],
+  [
+   58.01667,
+   60.2
+  ],
+  [
+   57.98333,
+   60.23333
+  ],
+  [
+   57.98333,
+   60.3
+  ],
+  [
+   57.9,
+   60.41667
+  ],
+  [
+   57.91667,
+   60.73333
+  ],
+  [
+   57.88333,
+   60.75
+  ],
+  [
+   57.86667,
+   60.23333
+  ],
+  [
+   57.88333,
+   60.23333
+  ],
+  [
+   57.9,
+   60.41667
+  ],
+  [
+   57.98333,
+   60.3
+  ],
+  [
+   57.98333,
+   60.23333
+  ],
+  [
+   57.98333,
+   60.23333
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z4561/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/200/5819N05953E038\nA)USSV B)2610280400 C)2611021300\nD)DAILY 0400-1300\nE)AIRSPACE CLSD AS FLW:\n1. WI 5KM EITHER SIDE OF LINE JOINING POINTS:\n   575900N0601400E-580100N0601200E-584500N0590000E-580100N0601200E-\n   575900N0601400E-575900N0601800E-575400N0602500E-575500N0604400E-\n   575300N0604500E-575200N0601400E-575300N0601400E-575400N0602500E-\n   575900N0601800E-575900N0601400E.\n   1000M AMSL-6000M AMSL.\n2. WI CIRCLE RADIUS 5KM CENTRE 575900N0601400E\n   GND-5700M AMSL.\nF)GND  G)6000M AMSL",
+ "year": 2026
+}

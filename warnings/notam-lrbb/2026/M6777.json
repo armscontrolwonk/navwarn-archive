@@ -1,0 +1,45 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-26T21:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "exercise",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 46.5167,
+   "lon": 26.9167,
+   "radius_nm": 15
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LRBB",
+  "starts_at": "2026-10-26T05:00:00Z",
+  "upper": "FL105",
+  "upper_fl": 105
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lrbb/2026/M6777",
+ "issued_at": "2026-10-25T12:56:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "M6777",
+ "positions": [
+  [
+   46.52194,
+   26.91028
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "NAVIGATION WARNING.",
+ "text": "M6777/26 NOTAMN\nQ) LRBB/QWELW/IV/BO /W /000/105/4631N02655E015\nA) LRBB B) 2610260500 C) 2610262100\nE) NAVIGATION WARNING.\n   MIL FLT WILL TAKE PLACE INTO A CIRCLE CENTERED ON POINT OF\n   COORD 463119N0265437E WITH 15NM RADIUS\n   FLT WILL BE COOR BTN CIV AND MIL ATC\nF) GND G) FL105",
+ "year": 2026
+}

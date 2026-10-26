@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T07:30:00Z",
+ "extra": {
+  "fir": "VOMF",
+  "kind": "firing",
+  "location": "VOMF",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 15.3333,
+   "lon": 73.7,
+   "radius_nm": 7
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "VOMF",
+  "shape": "polygon",
+  "starts_at": "2026-10-30T03:30:00Z",
+  "upper": "23500FT AMSL",
+  "upper_fl": 235
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-vomf/2026/A3231",
+ "issued_at": "2026-10-22T10:15:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3231",
+ "positions": [
+  [
+   15.26389,
+   73.61667
+  ],
+  [
+   15.41667,
+   73.61667
+  ],
+  [
+   15.41667,
+   73.7925
+  ],
+  [
+   15.26389,
+   73.7925
+  ],
+  [
+   15.26389,
+   73.61667
+  ]
+ ],
+ "series": "notam-vomf",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG PRACTICE WILL TAKE PLACE AT NCB MORMUGAO BOUNDED BY COORD:",
+ "text": "A3231/26 NOTAMN\nQ) VOMF/QWMLW/IV/BO/W/000/235/1520N07342E007\nA) VOMF B) 2610300330 C) 2610300730\nE) FRNG PRACTICE WILL TAKE PLACE AT NCB MORMUGAO BOUNDED BY COORD:\n151550N0733700E - 152500N0733700E - 152500N0734733E - \n151550N0734733E - 151550N0733700E\n\nTHE FLW ATS ROUTES/SEGMENTS NOT AVBL/REROUTED:\n1. W15 NOT AVBL BTN UDULO AND KADMI. NO ALTN RTE\nF) SFC G) 23500FT AMSL",
+ "year": 2026
+}

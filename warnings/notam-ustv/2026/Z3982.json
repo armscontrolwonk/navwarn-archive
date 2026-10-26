@@ -1,0 +1,85 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-27T13:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 61.56167,
+    "lon": 72.72889,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "USTV",
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 61.6,
+   "lon": 72.45,
+   "radius_nm": 11
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USTV",
+  "schedule": "DAILY 0300-1300",
+  "starts_at": "2026-10-22T03:00:00Z",
+  "upper": "700M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ustv/2026/Z3982",
+ "issued_at": "2026-10-18T11:28:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "Z3982",
+ "positions": [
+  [
+   61.64639,
+   72.25583
+  ],
+  [
+   61.64,
+   72.59472
+  ],
+  [
+   61.56611,
+   72.80611
+  ],
+  [
+   61.52528,
+   72.74222
+  ],
+  [
+   61.60472,
+   72.52583
+  ],
+  [
+   61.62583,
+   72.10833
+  ],
+  [
+   61.63194,
+   72.1075
+  ],
+  [
+   61.64639,
+   72.25583
+  ],
+  [
+   61.56167,
+   72.72889
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z3982/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/030/6136N07227E011\nA)USTV B)2610220300 C)2610271300\nD)DAILY 0300-1300\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 613847N0721521E-613824N0723541E-613358N0724822E-\n         613131N0724432E-613617N0723133E-613733N0720630E-\n         613755N0720627E-613847N0721521E\n   310M AMSL-700M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 613342N0724344E\n   SFC-700M AMSL.\nF)SFC  G)700M AMSL",
+ "year": 2026
+}

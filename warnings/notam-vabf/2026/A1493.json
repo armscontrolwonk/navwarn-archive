@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T11:30:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "firing",
+  "location": "VABF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 20.55,
+   "lon": 72.5667,
+   "radius_nm": 10
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "VABF",
+  "schedule": "05 08 09 12 14 15 16 21 23 28 30 0230-1130",
+  "shape": "polygon",
+  "starts_at": "2026-10-05T02:30:00Z",
+  "upper": "5000FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-vabf/2026/A1493",
+ "issued_at": "2026-09-30T06:11:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A1493",
+ "positions": [
+  [
+   20.43333,
+   72.45
+  ],
+  [
+   20.43333,
+   72.66666
+  ],
+  [
+   20.66639,
+   72.66639
+  ],
+  [
+   20.66666,
+   72.45
+  ],
+  [
+   20.43333,
+   72.45
+  ]
+ ],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AERIAL FRNG PRACTICE BY INDIAN COAST GUARD ACFT WILL BE ",
+ "text": "A1493/26 NOTAMN\nQ) VABF/QWMLW/IV/BO/W/000/050/2033N07234E010\nA) VABF B) 2610050230 C) 2610301130\nD) 05 08 09 12 14 15 16 21 23 28 30 0230-1130\nE) AERIAL FRNG PRACTICE BY INDIAN COAST GUARD ACFT WILL BE \n   CARRIED OUT WI THE AREA BOUNDED BY COORD: \n   202559.99N 0722659.99E-202559.98N 0723959.97E-\n   203959.00N 0723959.00E-203959.97N 0722659.99E-\n   202559.99N 0722659.99E\nF) GND G) 5000FT AMSL",
+ "year": 2026
+}

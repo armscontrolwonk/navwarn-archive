@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T08:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "restricted",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 4.5833,
+   "lon": 100.0667,
+   "radius_nm": 21
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "WMFC",
+  "schedule": "0200 - 0800",
+  "starts_at": "2026-10-29T02:00:00Z",
+  "upper": "20000FT AMSL",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wmfc/2026/A4193",
+ "issued_at": "2026-10-23T02:19:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4193",
+ "positions": [],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "WMD421 ACT",
+ "text": "A4193/26 NOTAMN\nQ) WMFC/QRDCA/IV/BO /W /000/200/0435N10004E021\nA) WMFC B) 2610290200 C) 2610290800 \nD)0200 - 0800\nE)WMD421 ACT   \nF) SFC                             G) 20000FT AMSL",
+ "year": 2026
+}

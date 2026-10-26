@@ -1,0 +1,82 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-01T14:59:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.85,
+   "lon": 141.4667,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-10-25T15:00:00Z",
+  "upper": "1385FT AMSL",
+  "upper_fl": 14
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3977",
+ "issued_at": "2026-10-23T11:54:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3977",
+ "positions": [
+  [
+   42.8525,
+   141.42528
+  ],
+  [
+   42.84667,
+   141.42222
+  ],
+  [
+   42.83972,
+   141.47944
+  ],
+  [
+   42.84917,
+   141.50417
+  ],
+  [
+   42.85222,
+   141.5025
+  ],
+  [
+   42.85,
+   141.48917
+  ],
+  [
+   42.84528,
+   141.4775
+  ],
+  [
+   42.84944,
+   141.4575
+  ],
+  [
+   42.84917,
+   141.44111
+  ],
+  [
+   42.8525,
+   141.42528
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3977/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/014/4251N14128E003\nA)RJJJ B)2610251500 C)2701011459\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n425109N1412531E - 425048N1412520E - 425023N1412846E - 425057N1413015E\n- 425108N1413009E - 425100N1412921E - 425043N1412839E -\n425058N1412727E - 425057N1412628E - 425109N1412531E \n(ENIWA-SHI IN HOKKAIDO)\nWT: 2.5G\nCONTACT INFORMATION: 03-4485-1606\nF)SFC G)1385FT AMSL",
+ "year": 2026
+}

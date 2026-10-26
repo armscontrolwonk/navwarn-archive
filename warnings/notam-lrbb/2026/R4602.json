@@ -1,0 +1,45 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-26T21:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "restricted",
+  "location": "LRBB",
+  "lower": "FL075",
+  "lower_fl": 75,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 46.5,
+   "lon": 23.8833,
+   "radius_nm": 6
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "LRBB",
+  "starts_at": "2026-10-26T04:00:00Z",
+  "upper": "FL280",
+  "upper_fl": 280
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lrbb/2026/R4602",
+ "issued_at": "2026-10-25T12:53:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "R4602",
+ "positions": [
+  [
+   46.5025,
+   23.88611
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPORARY RESERVED AREA ACTIVATED.",
+ "text": "R4602/26 NOTAMN\nQ) LRBB/QRTCA/IV/BO /W /075/280/4630N02353E006\nA) LRBB B) 2610260400 C) 2610262100\nE) TEMPORARY RESERVED AREA ACTIVATED.\n   MIL FLT WILL TAKE PLACE INTO A CIRCLE CENTERED ON POINT OF\n   COORD 463009N0235310E WITH 6NM RADIUS\n   FLT WILL BE COOR BTN CIV AND MIL ATC\n   EXPECT RADAR VECTORING\nF) FL075 G) FL280",
+ "year": 2026
+}

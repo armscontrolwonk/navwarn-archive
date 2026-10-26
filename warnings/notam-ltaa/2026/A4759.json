@@ -1,0 +1,39 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T16:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "route",
+  "location": "LTAA",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.3333,
+   "lon": 35.3,
+   "radius_nm": 76
+  },
+  "qcode": "QARLC",
+  "queried_fir": "LTAA",
+  "schedule": "30 1000-1600, 31 0700-1600",
+  "starts_at": "2026-10-30T10:00:00Z",
+  "upper_fl": 250
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4759",
+ "issued_at": "2026-10-21T09:13:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4759",
+ "positions": [],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "SEE NOTAM: A4756/26",
+ "text": "A4759/26 NOTAMN\nQ) LTAA/QARLC/IV/NBO/E /000/250/4220N03518E076\nA) LTAA B) 2610301000 C) 2610311600\nD) 30 1000-1600, 31 0700-1600\nE) SEE NOTAM: A4756/26\nATS ROUTES AND SEGMENTS AFFECTED DURING TEST FIRING AS FLW:\n\n1- AWY W96 ODIRA-SIN SEGMENT CLSD.\n2- AWY W90 INB-SIN SEGMENT CLSD.\n3- AWY W86 SIN-BAFRA SEGMENT CLSD.\n4- AWY W99 ODIRA-DETOS SEGMENT CLSD.\n\nVERTICAL LIMITS: SFC-25000FT AMSL",
+ "year": 2026
+}

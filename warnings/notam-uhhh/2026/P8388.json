@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T11:00:00Z",
+ "extra": {
+  "fir": "UHHH",
+  "kind": "route",
+  "location": "UHHH",
+  "lower": "300M AMSL",
+  "lower_fl": 10,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 46.65,
+   "lon": 142.8167,
+   "radius_nm": 8
+  },
+  "qcode": "QARLC",
+  "queried_fir": "UHHH",
+  "schedule": "DAILY 0000-1100",
+  "starts_at": "2026-10-26T00:00:00Z",
+  "upper": "600M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uhhh/2026/P8388",
+ "issued_at": "2026-10-24T06:39:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P8388",
+ "positions": [],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENT CLSD:",
+ "text": "P8388/26 NOTAMN\nQ)UHHH/QARLC/IV/NBO/E/010/020/4639N14249E008\nA)UHHH B)2610260000 C)2610311100\nD)DAILY 0000-1100\nE)ATS RTE SEGMENT CLSD:\nKR477 OBATI-PESUM.\nF)300M AMSL  G)600M AMSL",
+ "year": 2026
+}

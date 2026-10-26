@@ -1,0 +1,49 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T14:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "drone",
+  "location": "LTBB",
+  "lower": "7000FT AMSL",
+  "lower_fl": 70,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.95,
+   "lon": 27.6,
+   "radius_nm": 10
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTBB",
+  "starts_at": "2026-07-31T14:01:00Z",
+  "upper": "7000FT AMSL",
+  "upper_fl": 70
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A3198",
+ "issued_at": "2026-07-21T08:00:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3198",
+ "positions": [
+  [
+   41.07639,
+   27.72111
+  ],
+  [
+   40.82139,
+   27.48778
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT TEST WILL TAKE PLACE",
+ "text": "A3198/26 NOTAMN\nQ) LTBB/QWULW/IV/BO /W /070/070/4057N02736E010\nA) LTBB B) 2607311401 C) 2610311400\nE) UNMANNED ACFT TEST WILL TAKE PLACE\nROUTE: 410435N0274316E 404917N0272916E \n0.5NM EITHER SIDE OF A LINE\nF) 7000FT AMSL G) 7000FT AMSL",
+ "year": 2026
+}

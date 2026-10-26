@@ -1,0 +1,94 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-04T23:59:00Z",
+ "extra": {
+  "fir": "UUWV",
+  "kind": "restricted",
+  "location": "UUWV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.95,
+   "lon": 38.15,
+   "radius_nm": 15
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UUWV",
+  "shape": "polygon",
+  "starts_at": "2026-11-01T00:00:00Z",
+  "upper": "FL100",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uuwv/2026/H1058",
+ "issued_at": "2026-10-26T11:44:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "H1058",
+ "positions": [
+  [
+   56.08861,
+   37.81306
+  ],
+  [
+   55.88,
+   38.06333
+  ],
+  [
+   55.82417,
+   38.49722
+  ],
+  [
+   55.74167,
+   38.26667
+  ],
+  [
+   55.85,
+   37.96667
+  ],
+  [
+   55.95,
+   37.8
+  ],
+  [
+   56.08861,
+   37.81306
+  ],
+  [
+   55.82417,
+   38.49722
+  ],
+  [
+   55.88,
+   38.06333
+  ],
+  [
+   55.72028,
+   38.40556
+  ],
+  [
+   55.72028,
+   38.30222
+  ],
+  [
+   55.74167,
+   38.26667
+  ],
+  [
+   55.82417,
+   38.49722
+  ]
+ ],
+ "series": "notam-uuwv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI:",
+ "text": "H1058/26 NOTAMN\nQ)UUWV/QRTCA/IV/BO/W/000/100/5557N03809E015\nA)UUWV B)2611010000 C)2611042359\nE)AIRSPACE CLSD WI:\n1. 560519N0374847E - CLOCKWISE ARC (28KM RADIUS CENTRE D ON\n   555248N0380348E) - 554927N0382950E - 554430N0381600E -\n   555100N0375800E - 555700N0374800E - 560519N0374847E\n   GND-FL100.\n2. 554927N0382950E - CLOCKWISE ARC (28KM RADIUS CENTRED ON\n   555248N0380348E) - 554313N0382420E - 554313N0381808E -\n   554430N0381600E - 554927N0382950E\n   GND-FL030.\nF)GND  G)FL100",
+ "year": 2026
+}

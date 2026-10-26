@@ -1,0 +1,95 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-27T07:30:00Z",
+ "extra": {
+  "fir": "WSXX",
+  "kind": "drone",
+  "location": "WSJC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 1.1667,
+   "lon": 104.0667,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WSJC",
+  "schedule": "JUL 30-31 0230-0730, AUG 01-31 0230-0730, SEP 01-30 0230-0730, OCT 01-27 0230-0730",
+  "shape": "polygon",
+  "starts_at": "2026-07-30T02:30:00Z",
+  "upper": "886FT AMSL",
+  "upper_fl": 9
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wsjc/2026/A2275",
+ "issued_at": "2026-07-25T03:28:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A2275",
+ "positions": [
+  [
+   1.16917,
+   104.0625
+  ],
+  [
+   1.19028,
+   104.06667
+  ],
+  [
+   1.20917,
+   104.095
+  ],
+  [
+   1.18722,
+   104.10611
+  ],
+  [
+   1.17139,
+   104.08417
+  ],
+  [
+   1.15944,
+   104.09778
+  ],
+  [
+   1.13556,
+   104.105
+  ],
+  [
+   1.11722,
+   104.07333
+  ],
+  [
+   1.13056,
+   104.04056
+  ],
+  [
+   1.15083,
+   104.04111
+  ],
+  [
+   1.17667,
+   104.01972
+  ],
+  [
+   1.18806,
+   104.03
+  ],
+  [
+   1.16917,
+   104.0625
+  ]
+ ],
+ "series": "notam-wsjc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA VEHICLE ACT WILL TAKE PLACE WI COORD AS FLW:",
+ "text": "A2275/26 NOTAMN\nQ)WSXX/QWULW/IV/BO/W/000/009/0110N10404E004\nA)WSJC B)2607300230 C)2610270730\nD)JUL 30-31 0230-0730, AUG 01-31 0230-0730, SEP 01-30 0230-0730, OCT\n01-27 0230-0730\nE)UA VEHICLE ACT WILL TAKE PLACE WI COORD AS FLW:\n011009N1040345E-011125N1040400E-011233N1040542E-\n011114N1040622E-011017N1040503E-010934N1040552E-\n010808N1040618E-010702N1040424E-010750N1040226E-\n010903N1040228E-011036N1040111E-011117N1040148E-\n011009N1040345E\nRMK: ALL TFC SUBJ ATC CLR\nF)SFC G)886FT AMSL",
+ "year": 2026
+}

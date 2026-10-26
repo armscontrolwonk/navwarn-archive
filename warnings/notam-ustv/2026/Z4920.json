@@ -1,0 +1,79 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-07T11:00:00Z",
+ "extra": {
+  "fir": "USTV",
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 71.0167,
+   "lon": 73.8667,
+   "radius_nm": 4
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USTV",
+  "schedule": "DAILY 0400-1100",
+  "shape": "polygon",
+  "starts_at": "2026-11-02T04:00:00Z",
+  "upper": "140M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ustv/2026/Z4920",
+ "issued_at": "2026-10-26T13:56:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "Z4920",
+ "positions": [
+  [
+   71.03333,
+   73.73333
+  ],
+  [
+   71.05,
+   74.0
+  ],
+  [
+   71.0,
+   74.0
+  ],
+  [
+   70.97361,
+   73.88194
+  ],
+  [
+   70.98833,
+   73.8525
+  ],
+  [
+   70.98639,
+   73.84139
+  ],
+  [
+   71.00083,
+   73.80222
+  ],
+  [
+   71.01667,
+   73.83333
+  ],
+  [
+   71.03333,
+   73.73333
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "Z4920/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/010/7101N07352E004\nA)USTV B)2611020400 C)2611071100\nD)DAILY 0400-1100\nE)AIRSPACE CLSD WI AREA:\n710200N0734400E-710300N0740000E-710000N0740000E-705825N0735255E-\n705918N0735109E-705911N0735029E-710003N0734808E-710100N0735000E-\n710200N0734400E.\nF)SFC  G)140M AMSL",
+ "year": 2026
+}

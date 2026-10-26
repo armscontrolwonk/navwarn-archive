@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T08:27:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.6167,
+   "lon": 138.5,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2112/0827",
+  "shape": "polygon",
+  "starts_at": "2026-10-01T21:12:00Z",
+  "upper": "2504FT AMSL",
+  "upper_fl": 26
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3322",
+ "issued_at": "2026-09-18T01:38:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3322",
+ "positions": [
+  [
+   35.61583,
+   138.50417
+  ],
+  [
+   35.61583,
+   138.50917
+  ],
+  [
+   35.62611,
+   138.50889
+  ],
+  [
+   35.62583,
+   138.50444
+  ],
+  [
+   35.61583,
+   138.50417
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3322/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/026/3537N13830E002\nA)RJJJ B)2610012112 C)2610310827\nD)2112/0827\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n353657N1383015E - 353657N1383033E - 353734N1383032E - 353733N1383016E\n- 353657N1383015E \n(MINAMI-ALPS-SHI,CHUO-SHI IN YAMANASHI)\nWT: 15.8KG\nFLT TIME: HJ\nF)SFC G)2504FT AMSL",
+ "year": 2026
+}

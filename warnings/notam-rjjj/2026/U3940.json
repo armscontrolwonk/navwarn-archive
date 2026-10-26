@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.4833,
+   "lon": 140.8167,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/0800",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T22:00:00Z",
+  "upper": "2000FT AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3940",
+ "issued_at": "2026-10-22T01:32:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3940",
+ "positions": [
+  [
+   38.51167,
+   140.78806
+  ],
+  [
+   38.50972,
+   140.84
+  ],
+  [
+   38.48889,
+   140.85222
+  ],
+  [
+   38.47889,
+   140.77361
+  ],
+  [
+   38.51167,
+   140.78806
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U3940/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/020/3829N14049E003\nA)RJJJ B)2610272200 C)2610300800\nD)2200/0800\nE)UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n383042N1404717E - 383035N1405024E - 382920N1405108E - 382844N1404625E\n- 383042N1404717E \nR-127(OJOJI-HARA MANEUVERING AREA)\n(KUROKAWA-GUN, KAMI-GUN IN MIYAGI)\nWT: 21KG\nRMK: SOURCE/JSDF-G(RJSU)\nF)SFC G)2000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,109 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-02T15:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 44.19806,
+    "lon": 45.54278,
+    "radius_nm": 1.08
+   }
+  ],
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.15,
+   "lon": 45.7,
+   "radius_nm": 29
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "URRV",
+  "schedule": "DAILY 0600-1500",
+  "starts_at": "2026-10-28T06:00:00Z",
+  "upper": "450M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-urrv/2026/V8026",
+ "issued_at": "2026-10-23T10:34:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "V8026",
+ "positions": [
+  [
+   44.17028,
+   45.12
+  ],
+  [
+   44.15444,
+   45.0825
+  ],
+  [
+   44.21361,
+   45.05333
+  ],
+  [
+   44.22806,
+   45.09083
+  ],
+  [
+   44.21472,
+   45.09778
+  ],
+  [
+   44.21889,
+   45.18917
+  ],
+  [
+   44.23472,
+   45.48444
+  ],
+  [
+   44.18528,
+   45.73333
+  ],
+  [
+   44.1575,
+   46.28583
+  ],
+  [
+   44.0925,
+   46.35111
+  ],
+  [
+   44.09917,
+   45.97306
+  ],
+  [
+   44.13056,
+   45.75667
+  ],
+  [
+   44.19056,
+   45.48028
+  ],
+  [
+   44.17028,
+   45.12
+  ],
+  [
+   44.19806,
+   45.54278
+  ]
+ ],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "V8026/26 NOTAMN\nQ)URRV/QRTCA/IV/BO/W/000/020/4409N04542E029\nA)URRV B)2610280600 C)2611021500\nD)DAILY 0600-1500\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 441013N0450712E-440916N0450457E-441249N0450312E-\n         441341N0450527E-441253N0450552E-441308N0451121E-\n         441405N0452904E-441107N0454400E-440927N0461709E-\n         440533N0462104E-440557N0455823E-440750N0454524E-\n         441126N0452849E-441013N0450712E\n   350M AMSL-450M AMSL.\n2. WI CIRCLE RADIUS 2KM CENTRE 441153N0453234E\n   GND-450M AMSL.\nF)GND  G)450M AMSL",
+ "year": 2026
+}

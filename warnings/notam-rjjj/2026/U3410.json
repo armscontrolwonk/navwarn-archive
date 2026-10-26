@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T04:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.2167,
+   "lon": 139.5667,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0200/0400",
+  "starts_at": "2026-10-02T02:00:00Z",
+  "upper": "878FT AMSL",
+  "upper_fl": 9
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3410",
+ "issued_at": "2026-09-24T08:32:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3410",
+ "positions": [
+  [
+   36.21167,
+   139.57472
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3410/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/009/3613N13934E001\nA)RJJJ B)2610020200 C)2610300400\nD)0200/0400\nE)UNMANNED ACFT:\nAREA: RADIUS 191M CENTER 361242N1393429E \n(ORA-GUN IN GUNMA)\nWT: 0.3KG\n\nRMK: THIS AREA IS INCLUDED IN KK4-6\nF)SFC G)878FT AMSL",
+ "year": 2026
+}

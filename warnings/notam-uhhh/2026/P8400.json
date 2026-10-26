@@ -1,0 +1,85 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-01T08:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 47.53333,
+    "lon": 134.8,
+    "radius_nm": 0.11
+   }
+  ],
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 47.7667,
+   "lon": 135.0833,
+   "radius_nm": 21
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "schedule": "DAILY 0000-0800",
+  "starts_at": "2026-10-27T00:00:00Z",
+  "upper": "400M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uhhh/2026/P8400",
+ "issued_at": "2026-10-24T09:28:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P8400",
+ "positions": [
+  [
+   48.08167,
+   135.15639
+  ],
+  [
+   48.08694,
+   135.30083
+  ],
+  [
+   47.8125,
+   135.18917
+  ],
+  [
+   47.45528,
+   134.87556
+  ],
+  [
+   47.5275,
+   134.71972
+  ],
+  [
+   47.71333,
+   134.93389
+  ],
+  [
+   47.84583,
+   135.0375
+  ],
+  [
+   48.08167,
+   135.15639
+  ],
+  [
+   47.53333,
+   134.8
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P8400/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/020/4746N13505E021\nA)UHHH B)2610270000 C)2611010800\nD)DAILY 0000-0800\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 480454N1350923E-480513N1351803E-474845N1351121E-\n         472719N1345232E-473139N1344311E-474248N1345602E-\n         475045N1350215E-480454N1350923E\n   110M AMSL-400M AMSL.\n2. WI CIRCLE RADIUS 0.2KM CENTRE 473200N1344800E\n   SFC-400M AMSL.\nF)SFC  G)400M AMSL",
+ "year": 2026
+}

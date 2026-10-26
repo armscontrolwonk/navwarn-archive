@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-27T03:00:00Z",
+ "extra": {
+  "fir": "UHMM",
+  "kind": "restricted",
+  "location": "UHMM",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 53.05,
+   "lon": 158.8667,
+   "radius_nm": 4
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHMM",
+  "shape": "polygon",
+  "starts_at": "2026-10-26T22:00:00Z",
+  "upper": "1000M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uhmm/2026/P8446",
+ "issued_at": "2026-10-25T21:51:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P8446",
+ "positions": [
+  [
+   53.00639,
+   158.78944
+  ],
+  [
+   53.00028,
+   158.80528
+  ],
+  [
+   53.08,
+   158.94167
+  ],
+  [
+   53.08917,
+   158.92667
+  ],
+  [
+   53.00639,
+   158.78944
+  ]
+ ],
+ "series": "notam-uhmm",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "P8446/26 NOTAMN\nQ)UHMM/QRTCA/IV/BO/W/000/040/5303N15852E004\nA)UHMM B)2610262200 C)2610270300\nE)AIRSPACE CLSD WI AREA:\n530023N1584722E-530001N1584819E-530448N1585630E-\n530521N1585536E-530023N1584722E.\nF)GND  G)1000M AMSL",
+ "year": 2026
+}

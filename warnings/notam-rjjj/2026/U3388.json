@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T15:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.7833,
+   "lon": 139.7,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-10-21T15:00:00Z",
+  "upper": "1064FT AMSL",
+  "upper_fl": 11
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3388",
+ "issued_at": "2026-09-24T02:57:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3388",
+ "positions": [
+  [
+   35.77667,
+   139.69556
+  ],
+  [
+   35.77917,
+   139.69444
+  ],
+  [
+   35.78,
+   139.69694
+  ],
+  [
+   35.77889,
+   139.69833
+  ],
+  [
+   35.77833,
+   139.69889
+  ],
+  [
+   35.77667,
+   139.69556
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3388/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/011/3547N13942E001\nA)RJJJ B)2610211500 C)2610291500\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n354636N1394144E - 354645N1394140E - 354648N1394149E - 354644N1394154E\n- 354642N1394156E - 354636N1394144E \n(ITABASHI-KU IN TOKYO)\nWT: 4.3KG\nF)SFC G)1064FT AMSL",
+ "year": 2026
+}

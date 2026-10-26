@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T10:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 24.7,
+   "lon": 121.6833,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "schedule": "2200-1000",
+  "shape": "polygon",
+  "starts_at": "2026-09-06T22:00:00Z",
+  "upper": "5300FT AMSL",
+  "upper_fl": 53
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2189",
+ "issued_at": "2026-09-02T02:12:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2189",
+ "positions": [
+  [
+   24.70111,
+   121.70861
+  ],
+  [
+   24.69222,
+   121.65194
+  ],
+  [
+   24.7,
+   121.64778
+  ],
+  [
+   24.70833,
+   121.66333
+  ],
+  [
+   24.71,
+   121.67417
+  ],
+  [
+   24.70722,
+   121.71
+  ],
+  [
+   24.70111,
+   121.70861
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2189/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/053/2442N12141E003\nA) RCAA\nB) 2609062200 C) 2611101000\nD) 2200-1000\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:M260610008401\n2.LCA:SANXING TOWNSHIP, YILAN COUNTY\n3.COOR TEL:0985-401748\n4.AREA AS FLW:\n244204N 1214231E\n244132N 1213907E\n244200N 1213852E\n244230N 1213948E\n244236N 1214027E\n244226N 1214236E\n244204N 1214231E\nF) SFC G) 5300FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 24.2667,
+   "lon": 122.15,
+   "radius_nm": 5
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-30T16:00:00Z",
+  "upper": "FL200",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2118",
+ "issued_at": "2026-08-25T03:38:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2118",
+ "positions": [
+  [
+   24.33333,
+   122.13722
+  ],
+  [
+   24.33333,
+   122.16667
+  ],
+  [
+   24.20639,
+   122.16667
+  ],
+  [
+   24.20639,
+   122.13722
+  ],
+  [
+   24.33333,
+   122.13722
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2118/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/200/2416N12209E005\nA) RCAA\nB) 2611301600 C) 2612311600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:M260820001203\n2.LCA:NANAO TOWNSHIP, YILAN COUNTY\n3.COOR TEL:04-27023051, 0985-304927\n4.AREA AS FLW:\n242000N 1220814E\n242000N 1221000E\n241223N 1221000E\n241223N 1220814E\n242000N 1220814E\nF) SFC G) FL200",
+ "year": 2026
+}

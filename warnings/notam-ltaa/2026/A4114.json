@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T20:59:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "29000FT AMSL",
+  "lower_fl": 290,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.3667,
+   "lon": 40.8333,
+   "radius_nm": 47
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-09-30T21:00:00Z",
+  "upper": "30000FT AMSL",
+  "upper_fl": 300
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4114",
+ "issued_at": "2026-09-17T13:33:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4114",
+ "positions": [
+  [
+   38.0,
+   40.0
+  ],
+  [
+   38.0,
+   41.66667
+  ],
+  [
+   38.75,
+   41.66667
+  ],
+  [
+   38.75,
+   40.0
+  ],
+  [
+   38.0,
+   40.0
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRBORNE WARNING AND CONTROL FLIGHT WILL TAKE PLACE( TRA T9 ) ",
+ "text": "A4114/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /290/300/3822N04050E047\nA) LTAA B) 2609302100 C) 2612312059\nE) AIRBORNE WARNING AND CONTROL FLIGHT WILL TAKE PLACE( TRA T9 ) \nAREA: 380000N0400000E 380000N0414000E 384500N0414000E \n384500N0400000E 380000N0400000E\nF) 29000FT AMSL G) 30000FT AMSL",
+ "year": 2026
+}

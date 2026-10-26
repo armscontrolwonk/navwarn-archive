@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 21.9833,
+   "lon": 120.0167,
+   "radius_nm": 28
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-10-01T16:00:00Z",
+  "upper": "6000FT AMSL",
+  "upper_fl": 60
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2450",
+ "issued_at": "2026-09-22T06:47:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2450",
+ "positions": [
+  [
+   21.73333,
+   120.43333
+  ],
+  [
+   21.65,
+   120.06667
+  ],
+  [
+   22.21667,
+   119.6
+  ],
+  [
+   22.21667,
+   120.01667
+  ],
+  [
+   21.73333,
+   120.43333
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2450/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/060/2159N12001E028\nA) RCAA\nB) 2610011600 C) 2612311600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.DOCUMENT NR: 1140037274\n2.THE AREA OVERLAPS A4 AND A5 MIL TRAINING AREA, ACFT ARE CTN ADZ.\n3.COOR TEL: 0980-910717, 0987-118993\n4.AREA AS FLW:\n214400N 1202600E\n213900N 1200400E\n221300N 1193600E\n221300N 1200100E\n214400N 1202600E\nF) SFC G) 6000FT AMSL",
+ "year": 2026
+}

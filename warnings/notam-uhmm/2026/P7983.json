@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-26T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 68.08972,
+    "lon": 166.74972,
+    "radius_nm": 1.08
+   }
+  ],
+  "fir": "UHMM",
+  "kind": "drone",
+  "location": "UHMM",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 68.0833,
+   "lon": 166.7333,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHMM",
+  "starts_at": "2026-10-21T00:00:00Z",
+  "upper": "1000M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uhmm/2026/P7983",
+ "issued_at": "2026-10-18T10:25:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P7983",
+ "positions": [
+  [
+   68.08972,
+   166.74972
+  ]
+ ],
+ "series": "notam-uhmm",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 2KM CENTRE 680523N1664459E.",
+ "text": "P7983/26 NOTAMN\nQ)UHMM/QRTCA/IV/BO/W/000/040/6805N16644E002\nA)UHMM B)2610210000 C)2610262359\nE)AIRSPACE CLSD WI CIRCLE RADIUS 2KM CENTRE 680523N1664459E.\nRESTRICTION NOT AFFECT MANNED ACFT.\nUNMANNED ACFT ACTIVITY REQUIRE 24HR CONFIRMATION WITH LOCAL ATS\nBEFORE PLANNED USE OF AIRSPACE.\nF)GND  G)1000M AMSL",
+ "year": 2026
+}

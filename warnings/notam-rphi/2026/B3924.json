@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-02T23:59:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "drone",
+  "location": "RPHI",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 5.5167,
+   "lon": 119.2,
+   "radius_nm": 17
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RPHI",
+  "shape": "polygon",
+  "starts_at": "2026-09-03T00:00:00Z",
+  "upper": "7000FT AMSL",
+  "upper_fl": 70
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rphi/2026/B3924",
+ "issued_at": "2026-08-03T10:42:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "B3924",
+ "positions": [
+  [
+   5.52056,
+   118.94194
+  ],
+  [
+   5.76917,
+   119.26472
+  ],
+  [
+   5.52889,
+   119.47444
+  ],
+  [
+   5.30778,
+   119.27917
+  ],
+  [
+   5.43139,
+   119.27639
+  ],
+  [
+   5.52056,
+   118.94194
+  ]
+ ],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UAS FLT OPS WILL TAKE PLACE WI:",
+ "text": "B3924/26 NOTAMN\nQ) RPHI/QWULW/IV/BO /W /000/070/0531N11912E017\nA) RPHI B) 2609030000 C) 2612022359\nE) UAS FLT OPS WILL TAKE PLACE WI:\n053114N 1185631E -\n054609N 1191553E -\n053144N 1192828E -\n051828N 1191645E -\n052553N 1191635E -\n053114N 1185631E\n(31NM NORTHWEST OF BONGAO, TAWI-TAWI)\nF) SFC G) 7000FT AMSL",
+ "year": 2026
+}

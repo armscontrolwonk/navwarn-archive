@@ -1,0 +1,74 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T23:59:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "restricted",
+  "location": "LTAA",
+  "lower": "FL110",
+  "lower_fl": 110,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.95,
+   "lon": 35.45,
+   "radius_nm": 6
+  },
+  "qcode": "QRPCA",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2025-12-24T08:13:00Z",
+  "upper": "FL450",
+  "upper_fl": 450
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2025/A5860",
+ "issued_at": "2025-12-24T08:14:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A5860",
+ "positions": [
+  [
+   36.97944,
+   35.38167
+  ],
+  [
+   37.00639,
+   35.4025
+  ],
+  [
+   37.00417,
+   35.52611
+  ],
+  [
+   36.9625,
+   35.51694
+  ],
+  [
+   36.92417,
+   35.47694
+  ],
+  [
+   36.90667,
+   35.42444
+  ],
+  [
+   36.89944,
+   35.35917
+  ],
+  [
+   36.97944,
+   35.38167
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIR DEFENCE ZONE ESTABLISHED WITH THE FOLLOWING COORDINATES:",
+ "text": "A5860/25 NOTAMN\nQ) LTAA/QRPCA/IV/NBO/W /110/450/3657N03527E006\nA) LTAA B) 2512240813 C) 2612312359\nE) AIR DEFENCE ZONE ESTABLISHED WITH THE FOLLOWING COORDINATES:\nAREA: 365846N0352254E 370023N0352409E 370015N0353134E \n365745N0353101E 365527N0352837E 365424N0352528E 365358N0352133E\n365846N0352254E\nNOTE: AIR TRAFFIC FLOW REGULATIONS AND ALTERNATIVE ROUTES NOTAMS \nSHALL BE ISSUED.\nF) FL110 G) FL450",
+ "year": 2025
+}

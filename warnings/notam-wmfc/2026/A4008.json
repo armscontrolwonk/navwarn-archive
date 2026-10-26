@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T09:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 3.0667,
+   "lon": 101.8,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "DLY 0000-0900",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T00:00:00Z",
+  "upper": "400FT AGL",
+  "upper_fl": 14
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wmfc/2026/A4008",
+ "issued_at": "2026-10-12T07:34:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4008",
+ "positions": [
+  [
+   3.08639,
+   101.79833
+  ],
+  [
+   3.09111,
+   101.80694
+  ],
+  [
+   3.08806,
+   101.82222
+  ],
+  [
+   3.06861,
+   101.81361
+  ],
+  [
+   3.06861,
+   101.79833
+  ],
+  [
+   3.08639,
+   101.79833
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI COORD : ",
+ "text": "A4008/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/014/0304N10148E001\nA) WMFC B) 2610270000 C) 2610290900 \nD)DLY 0000-0900\nE)UA ACT WILL TAKE PLACE WI COORD : \n\n030511.00N 1014754.00E - 030528.00N 1014825.00E -\n030517.00N 1014920.00E - 030407.00N 1014849.00E -\n030407.00N 1014754.00E - 030511.00N 1014754.00E\n\n(MAHKOTA CHERAS,SELANGOR)\nF) SFC                             G) 400FT AGL",
+ "year": 2026
+}

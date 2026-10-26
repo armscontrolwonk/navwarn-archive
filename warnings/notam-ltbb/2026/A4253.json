@@ -1,0 +1,90 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-01T06:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "drone",
+  "location": "LTBB",
+  "lower": "10000FT AMSL",
+  "lower_fl": 100,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.3167,
+   "lon": 26.6167,
+   "radius_nm": 31
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTBB",
+  "shape": "polygon",
+  "starts_at": "2026-10-01T06:01:00Z",
+  "upper": "17000FT AMSL",
+  "upper_fl": 170
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A4253",
+ "issued_at": "2026-09-24T13:07:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4253",
+ "positions": [
+  [
+   41.78139,
+   26.88806
+  ],
+  [
+   41.76944,
+   26.41111
+  ],
+  [
+   41.65278,
+   26.59861
+  ],
+  [
+   41.38778,
+   26.69333
+  ],
+  [
+   41.27389,
+   26.63306
+  ],
+  [
+   41.23472,
+   26.47028
+  ],
+  [
+   41.16639,
+   26.38806
+  ],
+  [
+   40.92167,
+   26.41972
+  ],
+  [
+   40.85972,
+   26.35444
+  ],
+  [
+   40.87111,
+   26.60389
+  ],
+  [
+   41.21972,
+   26.85972
+  ],
+  [
+   41.78139,
+   26.88806
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT FLT WILL TAKE PLACE.",
+ "text": "A4253/26 NOTAMN\nQ) LTBB/QWULW/IV/BO /W /100/170/4119N02637E031\nA) LTBB B) 2610010601 C) 2701010600\nE) UNMANNED ACFT FLT WILL TAKE PLACE.\nAREA: 414653N0265317E 414610N0262440E 413910N0263555E \n412316N0264136E 411626N0263759E 411405N0262813E 410959N0262317E \n405518N0262511E 405135N0262116E 405216N0263614E 411311N0265135E \n414653N0265317E\nF) 10000FT AMSL G) 17000FT AMSL",
+ "year": 2026
+}

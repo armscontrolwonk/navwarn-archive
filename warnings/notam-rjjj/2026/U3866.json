@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T07:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.3833,
+   "lon": 140.95,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/0730",
+  "shape": "polygon",
+  "starts_at": "2026-10-25T23:00:00Z",
+  "upper": "2386FT AMSL",
+  "upper_fl": 24
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3866",
+ "issued_at": "2026-10-19T16:17:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3866",
+ "positions": [
+  [
+   40.39861,
+   140.94833
+  ],
+  [
+   40.38778,
+   140.93028
+  ],
+  [
+   40.3775,
+   140.93417
+  ],
+  [
+   40.38,
+   140.94917
+  ],
+  [
+   40.38583,
+   140.95139
+  ],
+  [
+   40.39306,
+   140.95778
+  ],
+  [
+   40.39861,
+   140.94833
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3866/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/024/4023N14057E002\nA)RJJJ B)2610252300 C)2610280730\nD)2300/0730\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n402355N1405654E - 402316N1405549E - 402239N1405603E - 402248N1405657E\n- 402309N1405705E - 402335N1405728E - 402355N1405654E \n(KAZUNO-SHI IN AKITA)\nWT: 9.2KG\nCONTACT INFORMATION: 080-2806-6960\nF)SFC G)2386FT AMSL",
+ "year": 2026
+}

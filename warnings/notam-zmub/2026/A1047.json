@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-05T10:00:00Z",
+ "extra": {
+  "fir": "ZMUB",
+  "kind": "drone",
+  "location": "ZMUB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 47.9333,
+   "lon": 106.95,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "ZMUB",
+  "schedule": "MON-FRI 0100-1000",
+  "shape": "polygon",
+  "starts_at": "2026-10-05T01:00:00Z",
+  "upper": "120M AGL",
+  "upper_fl": 146
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-zmub/2026/A1047",
+ "issued_at": "2026-10-01T10:33:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A1047",
+ "positions": [
+  [
+   47.95694,
+   106.91583
+  ],
+  [
+   47.95667,
+   106.92833
+  ],
+  [
+   47.92389,
+   106.93972
+  ],
+  [
+   47.92333,
+   106.98083
+  ],
+  [
+   47.92167,
+   106.97167
+  ],
+  [
+   47.91278,
+   106.96333
+  ],
+  [
+   47.91306,
+   106.9325
+  ]
+ ],
+ "series": "notam-zmub",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA (DRONE) WILL TAKE PLACE WI AREA: ",
+ "text": "A1047/26 NOTAMN\nQ) ZMUB/QWULW/IV/BO /W /000/146/4756N10657E001\nA) ZMUB B) 2610050100 C) 2701051000\nD) MON-FRI 0100-1000\nE) UA (DRONE) WILL TAKE PLACE WI AREA: \n475725N1065457E-475724N1065542E-475526N1065623E-475524N1065851E-47551\n8N1065849E-475518N1065818E-475446N1065748E-475447N1065557E-475725N106\n5457E\nF) GND G) 120M AGL",
+ "year": 2026
+}

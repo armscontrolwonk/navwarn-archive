@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T07:42:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.1,
+   "lon": 138.2667,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2105/0742",
+  "shape": "polygon",
+  "starts_at": "2026-10-28T21:05:00Z",
+  "upper": "6671FT AMSL",
+  "upper_fl": 67
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3918",
+ "issued_at": "2026-10-21T05:52:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3918",
+ "positions": [
+  [
+   36.09889,
+   138.25361
+  ],
+  [
+   36.09861,
+   138.25778
+  ],
+  [
+   36.09028,
+   138.26528
+  ],
+  [
+   36.08889,
+   138.25972
+  ],
+  [
+   36.09056,
+   138.25417
+  ],
+  [
+   36.09889,
+   138.25361
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3918/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/067/3606N13816E002\nA)RJJJ B)2610282105 C)2612310742\nD)2105/0742\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n360556N1381513E - 360555N1381528E - 360525N1381555E - 360520N1381535E\n- 360526N1381515E - 360556N1381513E \n(CHINO-SHI, KITASAKU-GUN IN NAGANO)\nWT: 9KG\nFLT TIME: HJ\nF)SFC G)6671FT AMSL",
+ "year": 2026
+}

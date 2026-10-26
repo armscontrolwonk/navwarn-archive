@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-20T12:30:00Z",
+ "extra": {
+  "fir": "VOMF",
+  "kind": "other",
+  "location": "VOMF",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 14.9833,
+   "lon": 74.0667,
+   "radius_nm": 57
+  },
+  "qcode": "QWYLW",
+  "queried_fir": "VOMF",
+  "schedule": "0100-1230",
+  "shape": "polygon",
+  "starts_at": "2026-10-23T01:00:00Z",
+  "upper": "265FT AGL",
+  "upper_fl": 35
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-vomf/2026/A3220",
+ "issued_at": "2026-10-22T04:40:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3220",
+ "positions": [
+  [
+   14.10853,
+   74.08899
+  ],
+  [
+   15.63756,
+   73.35639
+  ],
+  [
+   15.64117,
+   74.19881
+  ],
+  [
+   15.19663,
+   74.40331
+  ],
+  [
+   15.13023,
+   74.51979
+  ],
+  [
+   14.38001,
+   74.61142
+  ],
+  [
+   14.10853,
+   74.08899
+  ]
+ ],
+ "series": "notam-vomf",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "GEOPHYSICAL SURVEY WILL BE CARRIED OUT",
+ "text": "A3220/26 NOTAMN\nQ) VOMF/QWYLW/IV/BO/W/000/035/1459N07404E057\nA) VOMF B) 2610230100 C) 2701201230\nD) 0100-1230\nE) GEOPHYSICAL SURVEY WILL BE CARRIED OUT\nWI THE AREA BOUNDED BY THE FLW COORD:\n140630.72N0740520.36E-\n153815.20N0732123.02E-\n153828.23N0741155.73E-\n151147.85N0742411.91E-\n150748.81N0743111.23E-\n142248.02N0743641.11E-\n140630.72N0740520.36E\nF) SFC G) 265FT AGL",
+ "year": 2026
+}

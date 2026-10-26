@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T15:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "restricted",
+  "location": "RJJJ",
+  "lower": "FL280",
+  "lower_fl": 280,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 26.0167,
+   "lon": 129.9667,
+   "radius_nm": 35
+  },
+  "qcode": "QRACA",
+  "queried_fir": "RJJJ",
+  "schedule": "2100/1500",
+  "shape": "polygon",
+  "starts_at": "2026-10-25T21:00:00Z",
+  "upper": "FL290",
+  "upper_fl": 290
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/P5158",
+ "issued_at": "2026-10-17T02:43:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P5158",
+ "positions": [
+  [
+   26.30028,
+   129.42972
+  ],
+  [
+   25.7375,
+   129.43111
+  ],
+  [
+   25.74583,
+   130.40361
+  ],
+  [
+   25.73972,
+   130.50028
+  ],
+  [
+   26.20944,
+   130.51861
+  ],
+  [
+   26.30028,
+   129.42972
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MULTIPLE U.S. MIL ACT WILL BE CONDUCTED WI FUKUOKA FIR AS FLW,",
+ "text": "P5158/26 NOTAMN\nQ)RJJJ/QRACA/IV/NBO/W/280/290/2601N12958E035\nA)RJJJ B)2610252100 C)2610311500\nD)2100/1500\nE)MULTIPLE U.S. MIL ACT WILL BE CONDUCTED WI FUKUOKA FIR AS FLW,\nAREA: BOUNDED BY FLW POINTS\n261801N1292547E - 254415N1292552E - 254445N1302413E - 254423N1303001E\n- 261234N1303107E - 261801N1292547E \nATC WILL NOT CLEAR NON-PARTICIPATING IFR FLT THRU THIS AREA.\nRMK: MISSION NAME : TYBEE-EAST\nF)FL280 G)FL290",
+ "year": 2026
+}

@@ -1,0 +1,201 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T20:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 56.41389,
+    "lon": 53.34028,
+    "radius_nm": 0.27
+   },
+   {
+    "lat": 56.44111,
+    "lon": 53.33722,
+    "radius_nm": 0.49
+   },
+   {
+    "lat": 56.36667,
+    "lon": 53.1,
+    "radius_nm": 0.7
+   },
+   {
+    "lat": 56.46028,
+    "lon": 53.32111,
+    "radius_nm": 0.27
+   },
+   {
+    "lat": 56.43583,
+    "lon": 53.40861,
+    "radius_nm": 0.27
+   },
+   {
+    "lat": 56.40833,
+    "lon": 53.19444,
+    "radius_nm": 3.24
+   },
+   {
+    "lat": 56.44056,
+    "lon": 52.78389,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 56.46056,
+    "lon": 53.46667,
+    "radius_nm": 1.35
+   },
+   {
+    "lat": 56.46667,
+    "lon": 53.24583,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 56.46806,
+    "lon": 53.15194,
+    "radius_nm": 0.27
+   },
+   {
+    "lat": 56.30944,
+    "lon": 53.09639,
+    "radius_nm": 0.65
+   },
+   {
+    "lat": 56.31278,
+    "lon": 53.03167,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 56.36278,
+    "lon": 53.0225,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "UWWW",
+  "kind": "restricted",
+  "location": "UWWW",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.3833,
+   "lon": 53.15,
+   "radius_nm": 15
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UWWW",
+  "schedule": "DAILY 0400-2000",
+  "starts_at": "2026-10-25T04:00:00Z",
+  "upper": "800M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uwww/2026/V7967",
+ "issued_at": "2026-10-22T09:47:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "V7967",
+ "positions": [
+  [
+   56.44861,
+   52.72972
+  ],
+  [
+   56.45,
+   52.75306
+  ],
+  [
+   56.45222,
+   52.79194
+  ],
+  [
+   56.45444,
+   52.82944
+  ],
+  [
+   56.45778,
+   52.88833
+  ],
+  [
+   56.47306,
+   53.16
+  ],
+  [
+   56.49306,
+   53.53444
+  ],
+  [
+   56.28333,
+   53.33333
+  ],
+  [
+   56.28333,
+   52.78333
+  ],
+  [
+   56.44861,
+   52.72972
+  ],
+  [
+   56.41389,
+   53.34028
+  ],
+  [
+   56.44111,
+   53.33722
+  ],
+  [
+   56.36667,
+   53.1
+  ],
+  [
+   56.46028,
+   53.32111
+  ],
+  [
+   56.43583,
+   53.40861
+  ],
+  [
+   56.40833,
+   53.19444
+  ],
+  [
+   56.44056,
+   52.78389
+  ],
+  [
+   56.46056,
+   53.46667
+  ],
+  [
+   56.46667,
+   53.24583
+  ],
+  [
+   56.46806,
+   53.15194
+  ],
+  [
+   56.30944,
+   53.09639
+  ],
+  [
+   56.31278,
+   53.03167
+  ],
+  [
+   56.36278,
+   53.0225
+  ]
+ ],
+ "series": "notam-uwww",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI: ",
+ "text": "V7967/26 NOTAMN \nQ)UWWW/QRTCA/IV/BO/W/000/030/5623N05309E015 \nA)UWWW B)2610250400 C)2610302000 \nD)DAILY 0400-2000 E) AIRSPACE CLSD WI: \n1. AREA: 562655N0524347E-562700N0524511E-562708N0524731E- \n 562716N0524946E-562728N0525318E-562823N0530936E- \n 562935N0533204E-561700N0532000E-561700N0524700E- \n 562655N0524347E \n 600M AMSL-800M AMSL. \n2. CIRCLE RADIUS 0.5KM CENTRE 562450N0532025E \n GND-800M AMSL. \n3. CIRCLE RADIUS 0.9KM CENTRE 562628N0532014E \n GND-800M AMSL. \n4. CIRCLE RADIUS 1.3KM CENTRE 562200N0530600E \n GND-800M AMSL. \n5. CIRCLE RADIUS 0.5KM CENTRE 562737N0531916E \n GND-800M AMSL. \n6. CIRCLE RADIUS 0.5KM CENTRE 562609N0532431E \n GND-800M AMSL. \n7. CIRCLE RADIUS 6KM CENTRE 562430N0531140E \n GND-800M AMSL. \n8. CIRCLE RADIUS 1KM CENTRE 562626N0524702E \n GND-800M AMSL. \n9. CIRCLE RADIUS 2.5KM CENTRE 562738N0532800E \n GND-800M AMSL. \n10. CIRCLE RADIUS 1KM CENTRE 562800N0531445E \n GND-800M AMSL. \n11. CIRCLE RADIUS 0.5KM CENTRE 562805N0530907E \n GND-800M AMSL. \n12. CIRCLE RADIUS 1.2KM CENTRE 561834N0530547E \n GND-800M AMSL. \nF)GND G)800M AMSL 13. CIRCLE RADIUS 1KM CENTRE 561846N0530154E \n GND-800M AMSL. \n14. CIRCLE RADIUS 1KM CENTRE 562146N0530121E \n GND-800M AMSL. \nF)GND G)800M AMSL",
+ "year": 2026
+}

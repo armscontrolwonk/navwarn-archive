@@ -1,0 +1,65 @@
+{
+ "cancels": [
+  "notam-wmfc/2026/A3408"
+ ],
+ "expires_at": "2026-11-30T06:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 3.0667,
+   "lon": 101.5333,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "SEP 3 0330-0600 SEP 4 - NOV 30 0200-0600",
+  "shape": "polygon",
+  "starts_at": "2026-09-03T03:30:00Z",
+  "upper": "150FT AGL",
+  "upper_fl": 2
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wmfc/2026/A3431",
+ "issued_at": "2026-09-03T03:26:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3431",
+ "positions": [
+  [
+   3.07694,
+   101.53944
+  ],
+  [
+   3.0875,
+   101.53944
+  ],
+  [
+   3.0875,
+   101.55083
+  ],
+  [
+   3.07583,
+   101.55083
+  ],
+  [
+   3.07694,
+   101.53944
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI THE FLW COORD:",
+ "text": "A3431/26 NOTAMR A3408/26\nQ) WMFC/QWULW/IV/BO /W /000/002/0304N10132E001\nA) WMFC B) 2609030330 C) 2611300600 \nD) SEP 3 0330-0600\n   SEP 4 - NOV 30 0200-0600\nE) UA ACT WILL TAKE PLACE WI THE FLW COORD:\n\n   030437.00N 1013222.00E - 030515.00N 1013222.00E -\n   030515.00N 1013303.00E - 030433.00N 1013303.00E -\n   030437.00N 1013222.00E\n\n   (STADIUM SHAH ALAM)\nF) SFC                             G) 150FT AGL",
+ "year": 2026
+}

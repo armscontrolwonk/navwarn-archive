@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-22T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.9333,
+   "lon": 137.8667,
+   "radius_nm": 6
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-10-01T00:00:00Z",
+  "upper": "2461FT AMSL",
+  "upper_fl": 25
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3465",
+ "issued_at": "2026-09-28T10:05:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3465",
+ "positions": [
+  [
+   34.85556,
+   137.81028
+  ],
+  [
+   34.88889,
+   137.8125
+  ],
+  [
+   34.90611,
+   137.8525
+  ],
+  [
+   35.01194,
+   137.88583
+  ],
+  [
+   35.00611,
+   137.92111
+  ],
+  [
+   34.89806,
+   137.88444
+  ],
+  [
+   34.85556,
+   137.81028
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3465/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/025/3456N13752E006\nA)RJJJ B)2610010000 C)2612220800\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n345120N1374837E - 345320N1374845E - 345422N1375109E - 350043N1375309E\n- 350022N1375516E - 345353N1375304E - 345120N1374837E \n(HAMAMATSU-SHI IN SHIZUOKA)\nWT: 10.2KG\nCONTACT INFORMATION: 080-4375-5066\nF)SFC G)2461FT AMSL",
+ "year": 2026
+}

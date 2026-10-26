@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T16:00:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "restricted",
+  "location": "RPHI",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 10.45,
+   "lon": 119.4667,
+   "radius_nm": 30
+  },
+  "qcode": "QRMCA",
+  "queried_fir": "RPHI",
+  "schedule": "2200-1600",
+  "starts_at": "2026-09-30T22:00:00Z",
+  "upper": "FL250",
+  "upper_fl": 250
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rphi/2026/B5112",
+ "issued_at": "2026-09-28T08:12:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "B5112",
+ "positions": [],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "IMTA 7 ACT.",
+ "text": "B5112/26 NOTAMN\nQ) RPHI/QRMCA/IV/BO /W /000/250/1027N11928E030\nA) RPHI B) 2609302200 C) 2612311600\nD) 2200-1600\nE) IMTA 7 ACT.\nF) SFC G) FL250",
+ "year": 2026
+}

@@ -1,0 +1,79 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T05:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.9167,
+   "lon": 141.9,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0500",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T00:00:00Z",
+  "upper": "1854FT AMSL",
+  "upper_fl": 19
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3920",
+ "issued_at": "2026-10-21T06:02:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3920",
+ "positions": [
+  [
+   39.90806,
+   141.90167
+  ],
+  [
+   39.90944,
+   141.90222
+  ],
+  [
+   39.91083,
+   141.90167
+  ],
+  [
+   39.91222,
+   141.90028
+  ],
+  [
+   39.91194,
+   141.89833
+  ],
+  [
+   39.91139,
+   141.89694
+  ],
+  [
+   39.90944,
+   141.89694
+  ],
+  [
+   39.90833,
+   141.89861
+  ],
+  [
+   39.90806,
+   141.90167
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3920/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/019/3955N14154E001\nA)RJJJ B)2610270000 C)2611270500\nD)0000/0500\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n395429N1415406E - 395434N1415408E - 395439N1415406E - 395444N1415401E\n- 395443N1415354E - 395441N1415349E - 395434N1415349E -\n395430N1415355E - 395429N1415406E \n(SHIMOHEI-GUN IN IWATE)\nWT: 0.9KG\nF)SFC G)1854FT AMSL",
+ "year": 2026
+}

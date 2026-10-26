@@ -1,0 +1,95 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.1667,
+   "lon": 140.2,
+   "radius_nm": 7
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/0800",
+  "shape": "polygon",
+  "starts_at": "2026-08-16T23:00:00Z",
+  "upper": "2297FT AMSL",
+  "upper_fl": 23
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U2770",
+ "issued_at": "2026-08-14T07:04:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2770",
+ "positions": [
+  [
+   39.11278,
+   140.30167
+  ],
+  [
+   39.07806,
+   140.23083
+  ],
+  [
+   39.20917,
+   140.19722
+  ],
+  [
+   39.25222,
+   140.18472
+  ],
+  [
+   39.24861,
+   140.18194
+  ],
+  [
+   39.26556,
+   140.16111
+  ],
+  [
+   39.2675,
+   140.16361
+  ],
+  [
+   39.25222,
+   140.18472
+  ],
+  [
+   39.26861,
+   140.21194
+  ],
+  [
+   39.2675,
+   140.21278
+  ],
+  [
+   39.27028,
+   140.22333
+  ],
+  [
+   39.27222,
+   140.22222
+  ],
+  [
+   39.26861,
+   140.21194
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U2770/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/023/3910N14012E007\nA)RJJJ B)2608162300 C)2610310800\nD)2300/0800\nE)UNMANNED ACFT:\n(1)AREA: RADIUS 542M CENTER 390646N1401806E \n(2)AREA: RADIUS 954M CENTER 390441N1401351E \n(3)AREA: RADIUS 593M CENTER 391233N1401150E \n(4)AREA: BOUNDED BY FLW POINTS\n391508N1401105E - 391455N1401055E - 391556N1400940E - 391603N1400949E\n- 391508N1401105E \n(5)AREA: BOUNDED BY FLW POINTS\n391607N1401243E - 391603N1401246E - 391613N1401324E - 391620N1401320E\n- 391607N1401243E \n(YURIHONJO-SHI IN AKITA)\nWT: 9KG\nF)SFC G)2297FT AMSL",
+ "year": 2026
+}

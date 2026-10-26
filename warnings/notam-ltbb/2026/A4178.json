@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-25T14:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "exercise",
+  "location": "LTBB",
+  "lower": "9000FT AMSL",
+  "lower_fl": 90,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.85,
+   "lon": 26.8,
+   "radius_nm": 11
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTBB",
+  "schedule": "0500-1400 EXC SAT SUN",
+  "shape": "polygon",
+  "starts_at": "2026-09-28T05:00:00Z",
+  "upper": "22000FT AMSL",
+  "upper_fl": 220
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A4178",
+ "issued_at": "2026-09-21T12:04:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4178",
+ "positions": [
+  [
+   39.02556,
+   26.75972
+  ],
+  [
+   38.97167,
+   26.96389
+  ],
+  [
+   38.83056,
+   26.84417
+  ],
+  [
+   38.7,
+   26.68333
+  ],
+  [
+   38.8,
+   26.58333
+  ],
+  [
+   39.02556,
+   26.75972
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXERCISE(SUPERSONIC SPEED) WILL TAKE PLACE WI IZMIR ",
+ "text": "A4178/26 NOTAMN\nQ) LTBB/QWELW/IV/BO /W /090/220/3851N02648E011\nA) LTBB B) 2609280500 C) 2612251400\nD) 0500-1400 EXC SAT SUN\nE) EXERCISE(SUPERSONIC SPEED) WILL TAKE PLACE WI IZMIR \nTMA: 390132N0264535E 385818N0265750E 384950N0265039E \n384200N0264100E 384800N0263500E 390132N0264535E\nF) 9000FT AMSL G) 22000FT AMSL",
+ "year": 2026
+}

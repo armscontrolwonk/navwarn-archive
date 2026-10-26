@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-18T23:59:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "drone",
+  "location": "LGGG",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.9167,
+   "lon": 23.4167,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LGGG",
+  "schedule": "17 1200-2359, SEP 18-DEC 18 0000-0500 1200-2359",
+  "shape": "polygon",
+  "starts_at": "2026-09-17T12:00:00Z",
+  "upper": "400FT AMSL",
+  "upper_fl": 4
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lggg/2026/B1422",
+ "issued_at": "2026-09-17T08:47:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "B1422",
+ "positions": [
+  [
+   37.92833,
+   23.41444
+  ],
+  [
+   37.92833,
+   23.41611
+  ],
+  [
+   37.92111,
+   23.41583
+  ],
+  [
+   37.91889,
+   23.40944
+  ],
+  [
+   37.92056,
+   23.41
+  ],
+  [
+   37.92194,
+   23.41444
+  ],
+  [
+   37.92833,
+   23.41444
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UAV FLIGHTS WILL TAKE PLACE WI ATHINAI FIR AS FLW:",
+ "text": "B1422/26 NOTAMN\nQ) LGGG/QWULW/IV/BO /W /000/004/3755N02325E001\nA) LGGG B) 2609171200 C) 2612182359\nD) 17 1200-2359, SEP 18-DEC 18 0000-0500 1200-2359\nE) UAV FLIGHTS WILL TAKE PLACE WI ATHINAI FIR AS FLW:\n1. AREA: 375542N 0232452E - 375542N 0232458E - 375516N 0232457E - \n375508N 0232434E - 375514N 0232436E - 375519N 0232452E - 375542N \n0232452E\n - ELEFSIS CTR AFFECTED\n2. REMARKS:\n2.1 OPERATOR SHALL BE IN CONTACT WITH ATH APP TEL. NUMBER 2109972250 \nOR 2109972261 BEFORE, AFTER AND DURING THE ACTIVITY.\n2.2 ACTIVITY SHALL BE ENDED IF REQUIRED BY ATH APP.\nF) SFC G) 400FT AMSL",
+ "year": 2026
+}

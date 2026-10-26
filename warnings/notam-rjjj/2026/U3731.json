@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-13T08:15:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.0833,
+   "lon": 138.1,
+   "radius_nm": 9
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0815",
+  "shape": "polygon",
+  "starts_at": "2026-10-14T00:00:00Z",
+  "upper": "3288FT AMSL",
+  "upper_fl": 33
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3731",
+ "issued_at": "2026-10-13T08:35:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3731",
+ "positions": [
+  [
+   35.18194,
+   138.12306
+  ],
+  [
+   35.18333,
+   138.19306
+  ],
+  [
+   34.98167,
+   138.11
+  ],
+  [
+   34.98333,
+   138.01972
+  ],
+  [
+   35.18194,
+   138.12306
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3731/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/033/3505N13806E009\nA)RJJJ B)2610140000 C)2612130815\nD)0000/0815\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n351055N1380723E - 351100N1381135E - 345854N1380636E - 345900N1380111E\n- 351055N1380723E \n(HAMAMATSU-SHI, SHIMADA-SHI, HAIBARA-GUN IN SHIZUOKA)\nWT: 24.9KG\nNUMBER: 3\nFLT TIME: 0000/SS\nCONTACT INFORMATION: 050-1722-1348\nF)SFC G)3288FT AMSL",
+ "year": 2026
+}

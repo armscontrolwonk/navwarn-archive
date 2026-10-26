@@ -1,0 +1,83 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T09:03:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.5,
+   "lon": 143.4667,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "1949/0903",
+  "shape": "polygon",
+  "starts_at": "2026-08-31T19:49:00Z",
+  "upper": "3281FT AMSL",
+  "upper_fl": 33
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U2984",
+ "issued_at": "2026-08-28T07:45:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2984",
+ "positions": [
+  [
+   42.51806,
+   143.47083
+  ],
+  [
+   42.53,
+   143.44278
+  ],
+  [
+   42.49278,
+   143.40861
+  ],
+  [
+   42.47889,
+   143.43444
+  ],
+  [
+   42.51806,
+   143.47083
+  ],
+  [
+   42.51806,
+   143.47083
+  ],
+  [
+   42.47917,
+   143.435
+  ],
+  [
+   42.45944,
+   143.47889
+  ],
+  [
+   42.50083,
+   143.51222
+  ],
+  [
+   42.51806,
+   143.47083
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U2984/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/033/4230N14328E004\nA)RJJJ B)2608311949 C)2611190903\nD)1949/0903\nE)UNMANNED ACFT(FIXED WING):\n(1)AREA: BOUNDED BY FLW POINTS\n423105N1432815E - 423148N1432634E - 422934N1432431E - 422844N1432604E\n- 423105N1432815E \n(2)AREA: BOUNDED BY FLW POINTS\n423105N1432815E - 422845N1432606E - 422734N1432844E - 423003N1433044E\n- 423105N1432815E \n(HIROO-GUN IN HOKKAIDO)\nWT: 55KG\nFLT TIME: HJ\nRMK: THIS AREA IS INCLUDED IN HK2-11\nF)SFC G)3281FT AMSL",
+ "year": 2026
+}

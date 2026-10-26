@@ -1,0 +1,106 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-27T16:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "exercise",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 47.7,
+   "lon": 24.0667,
+   "radius_nm": 49
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T05:00:00Z",
+  "upper": "8500FT AMSL",
+  "upper_fl": 85
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lrbb/2026/M6820",
+ "issued_at": "2026-10-26T17:10:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "M6820",
+ "positions": [
+  [
+   47.70528,
+   22.88639
+  ],
+  [
+   47.79028,
+   22.8925
+  ],
+  [
+   47.77139,
+   23.91083
+  ],
+  [
+   47.94389,
+   23.91833
+  ],
+  [
+   47.96361,
+   23.96083
+  ],
+  [
+   47.965,
+   24.01083
+  ],
+  [
+   47.9525,
+   24.06167
+  ],
+  [
+   47.91694,
+   24.1225
+  ],
+  [
+   47.92083,
+   24.31639
+  ],
+  [
+   47.96972,
+   24.43444
+  ],
+  [
+   47.96167,
+   24.60806
+  ],
+  [
+   47.84056,
+   24.77278
+  ],
+  [
+   47.73639,
+   25.00917
+  ],
+  [
+   47.75972,
+   25.13
+  ],
+  [
+   47.65278,
+   25.23472
+  ],
+  [
+   47.70528,
+   22.88639
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "NAVIGATION WARNING.",
+ "text": "M6820/26 NOTAMN\nQ) LRBB/QWELW/IV/BO /W /000/085/4742N02404E049\nA) LRBB B) 2610270500 C) 2610271600\nE) NAVIGATION WARNING.\n   FOX VACCINATION FLT WILL TAKE PLACE INTO THE FLW AREA:\n   474219N0225311E-474725N0225333E-474617N0235439E-475638N0235506E\n   475749N0235739E-475754N0240039E-475709N0240342E-475501N0240721E\n   475515N0241859E-475811N0242604E-475742N0243629E-475026N0244622E\n   474411N0250033E-474535N0250748E-473910N0251405E-474219N0225311E\n   EXCEPT LVIV FIR\nF) GND G) 8500FT AMSL",
+ "year": 2026
+}

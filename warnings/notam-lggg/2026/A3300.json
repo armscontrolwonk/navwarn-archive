@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T16:00:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "drone",
+  "location": "LGGG",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.4333,
+   "lon": 26.85,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCS",
+  "queried_fir": "LGGG",
+  "schedule": "SEP 16 - OCT 31 0400-1600",
+  "shape": "polygon",
+  "starts_at": "2026-09-16T04:00:00Z",
+  "upper": "400FT AGL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lggg/2026/A3300",
+ "issued_at": "2026-09-09T10:54:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3300",
+ "positions": [
+  [
+   35.43194,
+   26.82083
+  ],
+  [
+   35.44222,
+   26.84222
+  ],
+  [
+   35.44583,
+   26.86778
+  ],
+  [
+   35.4425,
+   26.87361
+  ],
+  [
+   35.43083,
+   26.8775
+  ],
+  [
+   35.42861,
+   26.85917
+  ],
+  [
+   35.42833,
+   26.82417
+  ],
+  [
+   35.43194,
+   26.82083
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW:",
+ "text": "A3300/26 NOTAMN\nQ) LGGG/QRTCS/IV/BO /W /000/020/3526N02651E002\nA) LGGG B) 2609160400 C) 2610311600\nD) SEP 16 - OCT 31 0400-1600\nE) A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW:\n1. AREA: 352555N 0264915E - 352632N 0265032E - 352645N 0265204E -\n352633N 0265225E - 352551N 0265239E - 352543N 0265133E - 352542N\n0264927E - 352555N 0264915E (KASOS ARMATHIA)\n- KARPATHOS CTR , KASOS ATZ AFFECTED\n2. TYPE OF RESTRICTION: UAV FLT \n3. REMARKS:  \n3.1 OTHER UAV FLT ARE SUSPENDED.\n3.2 OPERATOR SHALL CALL APPROPRIATE ATS UNIT PRIOR AND AFTER ACTIVITY\nAND KEEP IN CONTACT DURING OPS.\n3.3 ACTIVITY SHALL BE ENDED IF REQUIRED.\nF) GND G) 400FT AGL",
+ "year": 2026
+}

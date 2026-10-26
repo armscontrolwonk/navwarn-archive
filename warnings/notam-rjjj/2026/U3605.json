@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-30T23:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 32.9667,
+   "lon": 132.9,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2104/2330",
+  "shape": "polygon",
+  "starts_at": "2026-10-06T21:04:00Z",
+  "upper": "165FT AMSL",
+  "upper_fl": 2
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3605",
+ "issued_at": "2026-10-06T06:48:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3605",
+ "positions": [
+  [
+   32.97222,
+   132.90306
+  ],
+  [
+   32.97111,
+   132.90417
+  ],
+  [
+   32.97194,
+   132.90611
+  ],
+  [
+   32.97278,
+   132.90472
+  ],
+  [
+   32.97222,
+   132.90306
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3605/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/002/3258N13254E001\nA)RJJJ B)2610062104 C)2612302330\nD)2104/2330\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n325820N1325411E - 325816N1325415E - 325819N1325422E - 325822N1325417E\n- 325820N1325411E \n(SHIMANTO-SHI IN KOCHI)\nWT: 9KG\nFLT TIME: SR/2330\nCONTACT INFORMATION: 0880-37-1883\nF)SFC G)165FT AMSL",
+ "year": 2026
+}

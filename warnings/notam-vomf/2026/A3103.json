@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T08:00:00Z",
+ "extra": {
+  "fir": "VOMF",
+  "kind": "firing",
+  "location": "VOMF",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 10.6,
+   "lon": 75.3,
+   "radius_nm": 22
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "VOMF",
+  "schedule": "15 16 21-23 26-30 0230-0800",
+  "shape": "polygon",
+  "starts_at": "2026-10-15T02:30:00Z",
+  "upper": "4000FT AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-vomf/2026/A3103",
+ "issued_at": "2026-10-13T04:36:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3103",
+ "positions": [
+  [
+   10.83333,
+   75.58333
+  ],
+  [
+   10.33333,
+   75.58333
+  ],
+  [
+   10.33333,
+   75.0
+  ],
+  [
+   10.83333,
+   75.0
+  ],
+  [
+   10.83333,
+   75.58333
+  ]
+ ],
+ "series": "notam-vomf",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "INDIAN COAST GUARD DORNIER ACFT WILL CARRY ",
+ "text": "A3103/26 NOTAMN\nQ) VOMF/QWMLW/IV/BO/W/000/040/1036N07518E022\nA) VOMF B) 2610150230 C) 2610300800\nD) 15 16 21-23 26-30 0230-0800\nE) INDIAN COAST GUARD DORNIER ACFT WILL CARRY \nOUT FRNG WI DANGER AREA BOUNDED BY COORD:\n1050N07535E - 1020N07535E - 1020N07500E - \n1050N07500E - 1050N07535E\nF) SFC G) 4000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T10:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.5333,
+   "lon": 120.9,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "schedule": "2200-1000",
+  "shape": "polygon",
+  "starts_at": "2026-09-14T22:00:00Z",
+  "upper": "11000FT AMSL",
+  "upper_fl": 110
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2318",
+ "issued_at": "2026-09-09T05:27:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2318",
+ "positions": [
+  [
+   23.565,
+   120.88278
+  ],
+  [
+   23.575,
+   120.88778
+  ],
+  [
+   23.57806,
+   120.89833
+  ],
+  [
+   23.56611,
+   120.91667
+  ],
+  [
+   23.51167,
+   120.92361
+  ],
+  [
+   23.51111,
+   120.9
+  ],
+  [
+   23.565,
+   120.88278
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2318/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/110/2332N12054E003\nA) RCAA\nB) 2609142200 C) 2610291000\nD) 2200-1000\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260820000702\n2.LCA:XINYI TOWNSHIP, NANTOU COUNTY\n3.COOR TEL:04-23827879 EXTENSION 28, \n           0972-350871, 0912-218136\n4.AREA AS FLW:\n233354N 1205258E\n233430N 1205316E\n233441N 1205354E\n233358N 1205500E\n233042N 1205525E\n233040N 1205400E\n233354N 1205258E\nF) SFC G) 11000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-18T16:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "firing",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.1333,
+   "lon": 26.85,
+   "radius_nm": 2
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LTBB",
+  "schedule": "0600-1600",
+  "starts_at": "2026-11-16T06:00:00Z",
+  "upper": "1500FT AMSL",
+  "upper_fl": 15
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A4761",
+ "issued_at": "2026-10-21T09:42:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4761",
+ "positions": [
+  [
+   38.13472,
+   26.85111
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MISSILE FIRING WILL TAKE PLACE WI IZMIR TMA",
+ "text": "A4761/26 NOTAMN\nQ) LTBB/QWMLW/IV/BO /W /000/015/3808N02651E002\nA) LTBB B) 2611160600 C) 2611181600\nD) 0600-1600\nE) MISSILE FIRING WILL TAKE PLACE WI IZMIR TMA\nCENTERED ON 380805N0265104E WITH RADIUS 1NM\nF) SFC G) 1500FT AMSL",
+ "year": 2026
+}

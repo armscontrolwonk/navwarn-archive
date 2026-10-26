@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-16T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.1833,
+   "lon": 121.25,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-09-22T16:00:00Z",
+  "upper": "2300FT AMSL",
+  "upper_fl": 23
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2391",
+ "issued_at": "2026-09-17T03:58:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2391",
+ "positions": [
+  [
+   23.19639,
+   121.25111
+  ],
+  [
+   23.1875,
+   121.26583
+  ],
+  [
+   23.16056,
+   121.25083
+  ],
+  [
+   23.16639,
+   121.23861
+  ],
+  [
+   23.17833,
+   121.23417
+  ],
+  [
+   23.18972,
+   121.24056
+  ],
+  [
+   23.19639,
+   121.25111
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2391/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/023/2311N12115E002\nA) RCAA\nB) 2609221600 C) 2611161600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260902001003\n2.LCA:FULI TOWNSHIP, HUALIEN COUNTY\n3.THE AREA OVERLAPS PART OF ULM AIRSPACE HUATUNG AREAS \n  AND PART OF VFR CORRIDOR C12, ACFT ARE CTN ADZ.\n4.COOR TEL:0910-551384, 0965-454118\n5.AREA AS FLW:\n231147N 1211504E\n231115N 1211557E\n230938N 1211503E\n230959N 1211419E\n231042N 1211403E\n231123N 1211426E\n231147N 1211504E\nF) SFC G) 2300FT AMSL",
+ "year": 2026
+}

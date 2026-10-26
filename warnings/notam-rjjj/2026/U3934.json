@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T08:19:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.0,
+   "lon": 138.3667,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2129/0819",
+  "shape": "polygon",
+  "starts_at": "2026-10-22T21:29:00Z",
+  "upper": "9843FT AMSL",
+  "upper_fl": 99
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3934",
+ "issued_at": "2026-10-22T00:52:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3934",
+ "positions": [
+  [
+   36.02583,
+   138.32917
+  ],
+  [
+   36.00889,
+   138.32611
+  ],
+  [
+   35.96611,
+   138.32639
+  ],
+  [
+   35.96472,
+   138.40028
+  ],
+  [
+   36.02639,
+   138.39944
+  ],
+  [
+   36.02583,
+   138.32917
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3934/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/099/3600N13822E004\nA)RJJJ B)2610222129 C)2612310819\nD)2129/0819\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n360133N1381945E - 360032N1381934E - 355758N1381935E - 355753N1382401E\n- 360135N1382358E - 360133N1381945E \n(HOKUTO-SHI IN YAMANASHI, CHINO-SHI, MINAMISAKU-GUN, SUWA-GUN IN\nNAGANO)\nWT: 9KG\nFLT TIME: HJ\nF)SFC G)9843FT AMSL",
+ "year": 2026
+}

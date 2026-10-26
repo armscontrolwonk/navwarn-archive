@@ -1,0 +1,83 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T16:00:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "drone",
+  "location": "LGGG",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.75,
+   "lon": 27.1833,
+   "radius_nm": 6
+  },
+  "qcode": "QRTCS",
+  "queried_fir": "LGGG",
+  "schedule": "SEP 16 - OCT 31 0400-1600",
+  "shape": "polygon",
+  "starts_at": "2026-09-16T04:00:00Z",
+  "upper": "400FT AGL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lggg/2026/A3314",
+ "issued_at": "2026-09-10T05:21:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3314",
+ "positions": [
+  [
+   35.73083,
+   27.15667
+  ],
+  [
+   35.80444,
+   27.16333
+  ],
+  [
+   35.83111,
+   27.20917
+  ],
+  [
+   35.8275,
+   27.24028
+  ],
+  [
+   35.79389,
+   27.23139
+  ],
+  [
+   35.76861,
+   27.21389
+  ],
+  [
+   35.72583,
+   27.22056
+  ],
+  [
+   35.66528,
+   27.17694
+  ],
+  [
+   35.67389,
+   27.12083
+  ],
+  [
+   35.73083,
+   27.15667
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW:",
+ "text": "A3314/26 NOTAMN\nQ) LGGG/QRTCS/IV/BO /W /000/020/3545N02711E006\nA) LGGG B) 2609160400 C) 2610311600\nD) SEP 16 - OCT 31 0400-1600\nE) A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW:\n1. AREA: 354351N 0270924E - 354816N 0270948E - 354952N 0271233E -\n354939N 0271425E - 354738N 0271353E - 354607N 0271250E - 354333N\n0271314E - 353955N 0271037E - 354026N 0270715E - 354351N 0270924E\n(KARPATHOS OLYMPOS)\n2. TYPE OF RESTRICTION: UAV FLT \n3. REMARKS:  \n3.1 OTHER UAV FLT ARE SUSPENDED.\n3.2 OPERATOR SHALL CALL APPROPRIATE ATS UNIT PRIOR AND AFTER ACTIVITY\nAND KEEP IN CONTACT DURING OPS.\n3.3 ACTIVITY SHALL BE ENDED IF REQUIRED.\nF) GND G) 400FT AGL",
+ "year": 2026
+}

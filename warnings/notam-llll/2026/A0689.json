@@ -1,0 +1,40 @@
+{
+ "cancels": [
+  "notam-llll/2026/A0592"
+ ],
+ "expires_at": "2026-10-31T23:59:00Z",
+ "extra": {
+  "fir": "LLLL",
+  "kind": "route",
+  "location": "LLLL",
+  "lower_fl": 50,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 30.9333,
+   "lon": 35.0333,
+   "radius_nm": 53
+  },
+  "qcode": "QANLC",
+  "queried_fir": "LLLL",
+  "starts_at": "2026-08-26T09:57:00Z",
+  "upper_fl": 370
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-llll/2026/A0689",
+ "issued_at": "2026-08-26T09:57:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A0689",
+ "positions": [],
+ "series": "notam-llll",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE Q30 CLSD BTN BEXOM-NURIT.",
+ "text": "A0689/26 NOTAMR A0592/26\nQ) LLLL/QANLC/I /NBO/E /050/370/3056N03502E053\nA) LLLL B) 2608260957 C) 2610312359\nE) ATS RTE Q30 CLSD BTN BEXOM-NURIT.",
+ "year": 2026
+}

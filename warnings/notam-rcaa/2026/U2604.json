@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "1000FT AMSL",
+  "lower_fl": 10,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 25.3333,
+   "lon": 121.0,
+   "radius_nm": 6
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-10-19T16:00:00Z",
+  "upper": "6000FT AMSL",
+  "upper_fl": 60
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2604",
+ "issued_at": "2026-10-07T07:10:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2604",
+ "positions": [
+  [
+   25.26556,
+   120.93333
+  ],
+  [
+   25.27861,
+   120.91889
+  ],
+  [
+   25.39917,
+   121.0725
+  ],
+  [
+   25.38694,
+   121.08722
+  ],
+  [
+   25.26556,
+   120.93333
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2604/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/010/060/2520N12100E006\nA) RCAA\nB) 2610191600 C) 2611201600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:M260911000305\n2.LCA:ZHUBEI CITY, HSINCHU COUNTY\n3.COOR TEL:0908-156005, 0925-230382, 0915-571113\n4.AREA AS FLW:\n251556N 1205600E\n251643N 1205508E\n252357N 1210421E\n252313N 1210514E\n251556N 1205600E\nF) 1000FT AMSL G) 6000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T13:00:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "drone",
+  "location": "LGGG",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.9167,
+   "lon": 23.8667,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCS",
+  "queried_fir": "LGGG",
+  "schedule": "DAILY 0500-1300",
+  "shape": "polygon",
+  "starts_at": "2026-10-21T05:00:00Z",
+  "upper": "150FT AGL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lggg/2026/A3791",
+ "issued_at": "2026-10-14T09:27:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3791",
+ "positions": [
+  [
+   37.94222,
+   23.82306
+  ],
+  [
+   37.94778,
+   23.91139
+  ],
+  [
+   37.90083,
+   23.88083
+  ],
+  [
+   37.88611,
+   23.8375
+  ],
+  [
+   37.94222,
+   23.82306
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW:",
+ "text": "A3791/26 NOTAMN\nQ) LGGG/QRTCS/IV/BO /W /000/020/3755N02352E003\nA) LGGG B) 2610210500 C) 2610311300\nD) DAILY 0500-1300\nE) A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW:\n1. AREA:375632N 0234923E - 375652N 0235441E - 375403N 0235251E -\n375310N 0235015E - 375632N 0234923E (KROPIA)\nATHINAI CTR/ATZ AFFECTED\n2.-TYPE OF RESTRICTION: UAV INSPECTION OF ELECTRICITY NETWORK\n3. REMARKS:  \n3.1-OTHER UAV FLT ARE SUSPENDED.\n3.2-OTHER FLT IN CONTACT WITH ATHINAI ATC, ARE NOT AFFECTED\n3.3-OPERATOR SHALL CALL ATHINAI ATC, PRIOR AND AFTER ACTIVITY AND\nREMAIN IN CONTACT DURING ACTIVITY.\n3.4-ACTIVITY SHALL BE ENDED IF REQUIRED BY ATHINAI ATC.\nF) GND G) 150FT AGL",
+ "year": 2026
+}

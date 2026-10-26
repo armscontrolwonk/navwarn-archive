@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T11:30:00Z",
+ "extra": {
+  "fir": "VIDF",
+  "kind": "exercise",
+  "location": "VIDF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 25.2,
+   "lon": 78.4,
+   "radius_nm": 50
+  },
+  "qcode": "QCAXX",
+  "queried_fir": "VIDF",
+  "schedule": "DLY 0430-0630 0930-1130",
+  "starts_at": "2026-10-28T04:30:00Z",
+  "upper": "FL100",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-vidf/2026/A2506",
+ "issued_at": "2026-10-22T10:50:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A2506",
+ "positions": [
+  [
+   25.20557,
+   78.4075
+  ]
+ ],
+ "series": "notam-vidf",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "JAMMING EXERCISE PLANNED AROUND 50NM RADIUS AROUND COORDINATE",
+ "text": "A2506/26 NOTAMN\nQ) VIDF/QCAXX/IV/BO/AE/000/100/2512N07824E050\nA) VIDF B) 2610280430 C) 2610311130\nD) DLY 0430-0630 0930-1130\nE) JAMMING EXERCISE PLANNED AROUND 50NM RADIUS AROUND COORDINATE\n251220.04N 0782427.00E.\nF) GND G) FL100",
+ "year": 2026
+}

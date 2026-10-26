@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.3833,
+   "lon": 141.0333,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-01T22:00:00Z",
+  "upper": "2035FT AMSL",
+  "upper_fl": 21
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3398",
+ "issued_at": "2026-09-24T03:32:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3398",
+ "positions": [
+  [
+   39.3825,
+   141.03417
+  ],
+  [
+   39.38111,
+   141.04278
+  ],
+  [
+   39.36944,
+   141.03833
+  ],
+  [
+   39.37167,
+   141.02972
+  ],
+  [
+   39.3825,
+   141.03417
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U3398/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/021/3923N14102E002\nA)RJJJ B)2611012200 C)2611300800\nD)2200/0800\nE)UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n392257N1410203E - 392252N1410234E - 392210N1410218E - 392218N1410147E\n- 392257N1410203E \n(HANAMAKI-SHI IN IWATE)\nWT: 6KG\n\nRMK: RMK: THIS AREA IS INCLUDED IN TH3-2\nF)SFC G)2035FT AMSL",
+ "year": 2026
+}

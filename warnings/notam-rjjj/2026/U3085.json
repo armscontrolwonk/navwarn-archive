@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-02T08:45:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.1833,
+   "lon": 143.5833,
+   "radius_nm": 5
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "1958/0845",
+  "shape": "polygon",
+  "starts_at": "2026-09-14T19:58:00Z",
+  "upper": "1447FT AMSL",
+  "upper_fl": 15
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3085",
+ "issued_at": "2026-09-03T11:35:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3085",
+ "positions": [
+  [
+   43.23139,
+   143.54472
+  ],
+  [
+   43.23972,
+   143.56611
+  ],
+  [
+   43.12278,
+   143.63667
+  ],
+  [
+   43.11194,
+   143.61167
+  ],
+  [
+   43.23139,
+   143.54472
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3085/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/015/4311N14335E005\nA)RJJJ B)2609141958 C)2612020845\nD)1958/0845\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n431353N1433241E - 431423N1433358E - 430722N1433812E - 430643N1433642E\n- 431353N1433241E \n(ASHORO-GUN,NAKAGAWA-GUN IN HOKKAIDO)\nWT: 15.8KG\nFLT TIME: HJ\nCONTACT INFORMATION: 011-376-5488\nRMK: THIS AREA IS INCLUDED IN HK2-2,HK2-5,HK2-6\nF)SFC G)1447FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,82 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-26T20:00:00Z",
+ "extra": {
+  "fir": "UATT",
+  "kind": "restricted",
+  "location": "UATT",
+  "lower": "5000FT AMSL",
+  "lower_fl": 50,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 49.7,
+   "lon": 47.8833,
+   "radius_nm": 49
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UATT",
+  "shape": "polygon",
+  "starts_at": "2026-10-26T05:00:00Z",
+  "upper": "FL830",
+  "upper_fl": 830
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uatt/2026/C7335",
+ "issued_at": "2026-10-25T04:37:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "C7335",
+ "positions": [
+  [
+   49.11667,
+   47.03389
+  ],
+  [
+   49.33111,
+   46.78194
+  ],
+  [
+   49.86972,
+   46.9175
+  ],
+  [
+   50.10611,
+   47.33972
+  ],
+  [
+   50.3325,
+   47.32056
+  ],
+  [
+   50.46278,
+   47.55167
+  ],
+  [
+   49.80667,
+   48.42472
+  ],
+  [
+   49.90667,
+   48.66667
+  ],
+  [
+   49.08333,
+   48.66667
+  ],
+  [
+   49.11667,
+   47.03389
+  ]
+ ],
+ "series": "notam-uatt",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPORARY RESTRICTED AREA ACTIVATED",
+ "text": "C7335/26 NOTAMN\nQ) UATT/QRTCA/IV/BO /W /050/830/4942N04753E049\nA) UATT B) 2610260500 C) 2610262000\nE) TEMPORARY RESTRICTED AREA ACTIVATED\nAREA BOUNDED BY:\n490700N 0470202E - 491952N 0464655E - 495211N 0465503E - \n500622N 0472023E - 501957N 0471914E - 502746N 0473306E - \n494824N 0482529E - 495424N 0484000E - 490500N 0484000E - \n490700N 0470202E.\nF) 5000FT AMSL G) FL830",
+ "year": 2026
+}

@@ -1,0 +1,83 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T08:20:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.4333,
+   "lon": 137.15,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/0820",
+  "shape": "polygon",
+  "starts_at": "2026-10-12T22:00:00Z",
+  "upper": "1566FT AMSL",
+  "upper_fl": 16
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3697",
+ "issued_at": "2026-10-09T09:04:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3697",
+ "positions": [
+  [
+   35.43139,
+   137.14694
+  ],
+  [
+   35.43611,
+   137.14972
+  ],
+  [
+   35.44333,
+   137.14444
+  ],
+  [
+   35.44694,
+   137.16389
+  ],
+  [
+   35.44528,
+   137.165
+  ],
+  [
+   35.43333,
+   137.15917
+  ],
+  [
+   35.43111,
+   137.15278
+  ],
+  [
+   35.42833,
+   137.15167
+  ],
+  [
+   35.42889,
+   137.14806
+  ],
+  [
+   35.43139,
+   137.14694
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3697/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/016/3526N13709E002\nA)RJJJ B)2610122200 C)2610310820\nD)2200/0820\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n352553N1370849E - 352610N1370859E - 352636N1370840E - 352649N1370950E\n- 352643N1370954E - 352600N1370933E - 352552N1370910E -\n352542N1370906E - 352544N1370853E - 352553N1370849E \n(KANI-GUN IN GIFU)\nWT: 15.8KG\nFLT TIME: 2200/SS\nCONTACT INFORMATION: 080-2371-9378\nF)SFC G)1566FT AMSL",
+ "year": 2026
+}

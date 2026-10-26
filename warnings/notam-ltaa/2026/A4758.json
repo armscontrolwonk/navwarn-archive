@@ -1,0 +1,39 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T16:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.9,
+   "lon": 35.7,
+   "radius_nm": 91
+  },
+  "qcode": "QANLC",
+  "queried_fir": "LTAA",
+  "schedule": "30 1000-1600, 31 0700-1600",
+  "starts_at": "2026-10-30T10:00:00Z",
+  "upper_fl": 250
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4758",
+ "issued_at": "2026-10-21T09:01:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4758",
+ "positions": [],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "SEE NOTAM: A4756/26",
+ "text": "A4758/26 NOTAMN\nQ) LTAA/QANLC/I /NBO/E /000/250/4154N03542E091\nA) LTAA B) 2610301000 C) 2610311600\nD) 30 1000-1600, 31 0700-1600\nE) SEE NOTAM: A4756/26\nRNAV ROUTES AND SEGMENTS AFFECTED DURING TEST FIRING AS FLW:\n\n1- AWY N644 INB-KARDE SEGMENT CLSD.\nACFT THAT ARE GOING TO EXIT VIA ROLIN COULD FOLLOW \nMIMTO-DCT-CRM-DCT-ROLIN.\nACFT USING THIS ROUTE COULD FOLLOW VIA WESTBOUND FALAZ-DCT-CRM.\n2- AWY M859 RERVA-KARDE SEGMENT CLSD.\nACFT THAT ARE GOING TO EXIT VIA ROLIN COULD FOLLOW \nUDROS-DCT-CRM-DCT-ROLIN. \nACFT THAT ARE GOING TO EXIT VIA REBLO AND NOLGA COULD FOLLOW \nUDROS-DCT-CRM-M11-TBN.\n3- AWY N743 GAKSU-ODIRA SEGMENT CLSD.\nINSTEAD OF THIS ROUTE ALL ACFT COULD FOLLOW AWY G901 BALUM-CRM \nBIDIRECTIONALLY.\n4- AWY M10 OLUPO-GOKPA SEGMENT CLSD.\nINSTEAD OF THIS ROUTE ALL ACFT COULD FOLLOW SARPI-OLUPO-DCT-CRM.\n5- AWY L851 KUGOS-KARDE SEGMENT CLSD.\n6- AWY T310 SIN-GAKSU SEGMENT CLSD.\n\nVERTICAL LIMITS: SFC-25000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T17:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.2,
+   "lon": 30.3,
+   "radius_nm": 18
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LTAA",
+  "schedule": "26-27 0300-0400, 28 0300-1700",
+  "shape": "polygon",
+  "starts_at": "2026-10-26T03:00:00Z",
+  "upper": "51000FT AMSL",
+  "upper_fl": 510
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4777",
+ "issued_at": "2026-10-22T07:38:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4777",
+ "positions": [
+  [
+   36.33333,
+   30.0
+  ],
+  [
+   36.06028,
+   30.0
+  ],
+  [
+   36.06028,
+   30.59389
+  ],
+  [
+   36.23139,
+   30.58833
+  ],
+  [
+   36.33528,
+   30.4925
+  ],
+  [
+   36.33333,
+   30.0
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "GUN FIRING WILL TAKE PLACE WI AREA:",
+ "text": "A4777/26 NOTAMN\nQ) LTAA/QWMLW/IV/BO /W /000/510/3612N03018E018\nA) LTAA B) 2610260300 C) 2610281700\nD) 26-27 0300-0400, 28 0300-1700\nE) GUN FIRING WILL TAKE PLACE WI AREA:\n362000N0300000E 360337N0300000E 360337N0303538E \n361353N0303518E 362007N0302933E 362000N0300000E\nF) SFC G) 51000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-23T11:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 43.25111,
+    "lon": 140.47278,
+    "radius_nm": 8.64
+   }
+  ],
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.25,
+   "lon": 140.4667,
+   "radius_nm": 10
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "1800/1100",
+  "starts_at": "2026-10-21T18:00:00Z",
+  "upper": "4922FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3927",
+ "issued_at": "2026-10-21T07:00:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3927",
+ "positions": [
+  [
+   43.25111,
+   140.47278
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3927/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/050/4315N14028E010\nA)RJJJ B)2610211800 C)2612231100\nD)1800/1100\nE)UNMANNED ACFT:\nAREA: RADIUS 16KM CENTER 431504N1402822E \n(SHAKOTAN-GUN,FURUU-GUN,FURUBIRA-GUN IN HOKKAIDO)\nWT: 0.7KG\nRMK: THIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)4922FT AMSL",
+ "year": 2026
+}

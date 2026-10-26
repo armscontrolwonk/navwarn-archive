@@ -1,0 +1,109 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T08:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 43.35333,
+    "lon": 132.78694,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.4833,
+   "lon": 132.8667,
+   "radius_nm": 11
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "schedule": "DAILY 2300-0800",
+  "starts_at": "2026-10-27T23:00:00Z",
+  "upper": "1600M AMSL",
+  "upper_fl": 60
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uhhh/2026/P8508",
+ "issued_at": "2026-10-26T12:04:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P8508",
+ "positions": [
+  [
+   43.34972,
+   132.90639
+  ],
+  [
+   43.36,
+   132.84472
+  ],
+  [
+   43.37472,
+   132.8525
+  ],
+  [
+   43.48139,
+   132.84056
+  ],
+  [
+   43.53194,
+   132.81694
+  ],
+  [
+   43.59306,
+   132.8525
+  ],
+  [
+   43.64944,
+   132.82167
+  ],
+  [
+   43.53139,
+   132.76361
+  ],
+  [
+   43.46778,
+   132.79194
+  ],
+  [
+   43.38361,
+   132.80722
+  ],
+  [
+   43.36583,
+   132.77306
+  ],
+  [
+   43.34194,
+   132.77278
+  ],
+  [
+   43.31667,
+   132.89833
+  ],
+  [
+   43.34972,
+   132.90639
+  ],
+  [
+   43.35333,
+   132.78694
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P8508/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/060/4329N13252E011\nA)UHHH B)2610272300 C)2610280800\nD)DAILY 2300-0800\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 432059N1325423E-432136N1325041E-432229N1325109E-\n         432853N1325026E-433155N1324901E-433535N1325109E-\n         433858N1324918E-433153N1324549E-432804N1324731E-\n         432301N1324826E-432157N1324623E-432031N1324622E-\n         431900N1325354E-432059N1325423E,\n   700M AMSL-1600M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 432112N1324713E,\n   GND-1600M AMSL.\nF)GND  G)1600M AMSL",
+ "year": 2026
+}

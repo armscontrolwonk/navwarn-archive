@@ -1,0 +1,142 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-01T20:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 65.09639,
+    "lon": 57.28472,
+    "radius_nm": 0.43
+   },
+   {
+    "lat": 65.15,
+    "lon": 57.36667,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 65.35,
+   "lon": 57.4667,
+   "radius_nm": 20
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "DAILY 0600-2000",
+  "starts_at": "2026-10-31T06:00:00Z",
+  "upper": "550M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ulll/2026/X9548",
+ "issued_at": "2026-10-24T12:09:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "X9548",
+ "positions": [
+  [
+   65.09639,
+   57.28472
+  ],
+  [
+   65.15,
+   57.36667
+  ],
+  [
+   65.2,
+   57.6
+  ],
+  [
+   65.32778,
+   57.91667
+  ],
+  [
+   65.4,
+   57.96667
+  ],
+  [
+   65.51667,
+   57.88333
+  ],
+  [
+   65.58694,
+   57.87417
+  ],
+  [
+   65.61806,
+   57.86917
+  ],
+  [
+   65.07083,
+   57.07167
+  ],
+  [
+   65.07889,
+   57.1
+  ],
+  [
+   65.08333,
+   57.19444
+  ],
+  [
+   65.05556,
+   57.30778
+  ],
+  [
+   65.09139,
+   57.28861
+  ],
+  [
+   65.05556,
+   57.30778
+  ],
+  [
+   65.06417,
+   57.325
+  ],
+  [
+   65.075,
+   57.38333
+  ],
+  [
+   65.1,
+   57.4
+  ],
+  [
+   65.12306,
+   57.37111
+  ],
+  [
+   65.13806,
+   57.37417
+  ],
+  [
+   65.15139,
+   57.37
+  ],
+  [
+   65.16667,
+   57.41111
+  ],
+  [
+   65.20083,
+   57.59972
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "X9548/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/020/6521N05728E020\nA)ULLL B)2610310600 C)2611012000\nD)DAILY 0600-2000\nE)AIRSPACE CLSD AS FLW:\n1. WI CIRCLE RADIUS 0.8KM CENTRE 650547N0571705E,\n   SFC-550M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 650900N0572200E,\n   SFC-550M AMSL.\n3. WI 1.5KM EITHER SIDE OF LINE JOINING POINTS:\n   651200N0573600E-651940N0575500E-652400N0575800E-\n   653100N0575300E-653513N0575227E-653705N0575209E,\n   350M AMSL-550M AMSL.\n4. WI 1.5KM EITHER SIDE OF LINE JOINING POINTS:\n   650415N0570418E-650444N0570600E-650500N0571140E-650320N0571828E-\n   650529N0571719E-650320N0571828E-650351N0571930E-650430N0572300E-\n   650600N0572400E-650723N0572216E-650817N0572227E-650905N0572212E-\n   651000N0572440E-651203N0573559E,\n   350M AMSL-550M AMSL.\nF)SFC  G)550M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-02T08:00:00Z",
+ "extra": {
+  "fir": "WSJC",
+  "kind": "firing",
+  "location": "WSJC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 7.9,
+   "lon": 112.8667,
+   "radius_nm": 4
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "WSJC",
+  "schedule": "NOV 02 0000-0045 0700-0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-02T00:00:00Z",
+  "upper": "FL220",
+  "upper_fl": 220
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wsjc/2026/A3047",
+ "issued_at": "2026-10-09T04:43:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3047",
+ "positions": [
+  [
+   7.89278,
+   112.92111
+  ],
+  [
+   7.89083,
+   112.92111
+  ],
+  [
+   7.85417,
+   112.84472
+  ],
+  [
+   7.94972,
+   112.84167
+  ],
+  [
+   7.89278,
+   112.92111
+  ]
+ ],
+ "series": "notam-wsjc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG WILL TAKE PLACE WI 075334N1125516E-075327N1125516E-",
+ "text": "A3047/26 NOTAMN\nQ)WSJC/QWMLW/IV/BO/W/000/220/0754N11252E004\nA)WSJC B)2611020000 C)2611020800\nD)NOV 02 0000-0045 0700-0800\nE)FRNG WILL TAKE PLACE WI 075334N1125516E-075327N1125516E-\n075115N1125041E-075659N1125030E-075334N1125516E.\nF)SFC G)FL220",
+ "year": 2026
+}

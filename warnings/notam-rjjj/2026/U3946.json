@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.4833,
+   "lon": 134.0833,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0800",
+  "shape": "polygon",
+  "starts_at": "2026-10-26T00:00:00Z",
+  "upper": "985FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3946",
+ "issued_at": "2026-10-22T15:34:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3946",
+ "positions": [
+  [
+   33.46333,
+   134.04444
+  ],
+  [
+   33.48778,
+   134.07278
+  ],
+  [
+   33.51361,
+   134.12111
+  ],
+  [
+   33.50583,
+   134.12667
+  ],
+  [
+   33.485,
+   134.08417
+  ],
+  [
+   33.45556,
+   134.07556
+  ],
+  [
+   33.45722,
+   134.05028
+  ],
+  [
+   33.46333,
+   134.04444
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3946/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/010/3329N13405E004\nA)RJJJ B)2610260000 C)2611060800\nD)0000/0800\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n332748N1340240E - 332916N1340422E - 333049N1340716E - 333021N1340736E\n- 332906N1340503E - 332720N1340432E - 332726N1340301E -\n332748N1340240E \n(AKI-GUN IN KOCHI)\nWT: 25KG\nCONTACT INFORMATION: 03-6824-7020\nF)SFC G)985FT AMSL",
+ "year": 2026
+}

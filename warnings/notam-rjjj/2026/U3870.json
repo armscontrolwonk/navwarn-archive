@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-15T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.6833,
+   "lon": 130.85,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-12T23:00:00Z",
+  "upper": "1969FT AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3870",
+ "issued_at": "2026-10-19T18:05:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3870",
+ "positions": [
+  [
+   33.66806,
+   130.84694
+  ],
+  [
+   33.66917,
+   130.84694
+  ],
+  [
+   33.67111,
+   130.84889
+  ],
+  [
+   33.67417,
+   130.84944
+  ],
+  [
+   33.67639,
+   130.85083
+  ],
+  [
+   33.67778,
+   130.84667
+  ],
+  [
+   33.68389,
+   130.8425
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3870/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/020/3341N13051E002\nA)RJJJ B)2611122300 C)2611150800\nD)2300/0800\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: 70M EITHER SIDE OF A LINE 334005N1305049E - 334009N1305049E -\n334016N1305056E - 334027N1305058E - 334035N1305103E - 334040N1305048E\n- 334102N1305033E \n(TAGAWA-GUN IN FUKUOKA)\nWT: 1.7KG\nCONTACT INFORMATION: 052-588-4601\nF)SFC G)1969FT AMSL",
+ "year": 2026
+}

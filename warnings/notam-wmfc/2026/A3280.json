@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T18:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 2.8833,
+   "lon": 103.5833,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "DLY 2300-1800",
+  "shape": "polygon",
+  "starts_at": "2026-09-09T23:00:00Z",
+  "upper": "1000FT AGL",
+  "upper_fl": 11
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wmfc/2026/A3280",
+ "issued_at": "2026-08-24T03:35:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3280",
+ "positions": [
+  [
+   2.84449,
+   103.46074
+  ],
+  [
+   2.87288,
+   103.44948
+  ],
+  [
+   3.13662,
+   103.52521
+  ],
+  [
+   3.06702,
+   103.64444
+  ],
+  [
+   2.94374,
+   103.72723
+  ],
+  [
+   2.79345,
+   103.74886
+  ],
+  [
+   2.65814,
+   103.70681
+  ],
+  [
+   2.84061,
+   103.46359
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI THE FLW COORDS:",
+ "text": "A3280/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/011/0253N10335E001\nA) WMFC B) 2609092300 C) 2611301800 \nD) DLY 2300-1800\nE)   UA ACT WILL TAKE PLACE WI THE FLW COORDS:\n\n   025040.16N 1032738.68E - 025222.35N 1032658.13E -\n   030811.84N 1033130.74E - 030401.27N 1033840.00E -\n   025637.47N 1034338.04E - 024736.41N 1034455.89E -\n   023929.32N 1034224.53E - 025026.18N 1032748.92E\n\n   (VILLEA ROMPIN,PAHANG) \nF) SFC                             G) 1000FT AGL",
+ "year": 2026
+}

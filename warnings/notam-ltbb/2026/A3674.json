@@ -1,0 +1,88 @@
+{
+ "cancels": [
+  "notam-ltbb/2026/A2188"
+ ],
+ "expires_at": "2026-11-21T23:59:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "drone",
+  "location": "LTBB",
+  "lower": "15000FT AMSL",
+  "lower_fl": 150,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 37.8833,
+   "lon": 27.5167,
+   "radius_nm": 70
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTBB",
+  "shape": "polygon",
+  "starts_at": "2026-08-20T11:28:00Z",
+  "upper": "20000FT AMSL",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A3674",
+ "issued_at": "2026-08-20T11:28:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3674",
+ "positions": [
+  [
+   38.93306,
+   26.9975
+  ],
+  [
+   38.66639,
+   26.75
+  ],
+  [
+   38.42917,
+   26.71111
+  ],
+  [
+   38.42694,
+   26.43778
+  ],
+  [
+   38.26333,
+   26.29056
+  ],
+  [
+   38.08694,
+   26.70556
+  ],
+  [
+   38.05444,
+   27.06
+  ],
+  [
+   37.73167,
+   27.22889
+  ],
+  [
+   37.08472,
+   27.36139
+  ],
+  [
+   36.80889,
+   27.6625
+  ],
+  [
+   36.81778,
+   28.01139
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL TAKE PLACE WI IZMIR TMA AND MILAS TMA",
+ "text": "A3674/26 NOTAMR A2188/26\nQ) LTBB/QWULW/IV/BO /W /150/200/3753N02731E070\nA) LTBB B) 2608201128 C) 2611212359\nE) UNMANNED ACFT WILL TAKE PLACE WI IZMIR TMA AND MILAS TMA\nROUTE: 385559N0265951E 383959N0264500E 382545N0264240E \n382537N0262616E 381548N0261726E 380513N0264220E 380316N0270336E \n374354N0271344E 370505N0272141E 364832N0273945E 364904N0280041E\n0.1NM EITHER SIDE OF A LINE\nF) 15000FT AMSL G) 20000FT AMSL",
+ "year": 2026
+}

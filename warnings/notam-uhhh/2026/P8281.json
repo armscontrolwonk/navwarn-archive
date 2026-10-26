@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T08:00:00Z",
+ "extra": {
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 49.3667,
+   "lon": 140.0167,
+   "radius_nm": 8
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "schedule": "DAILY 0000-0800",
+  "shape": "polygon",
+  "starts_at": "2026-10-24T00:00:00Z",
+  "upper": "400M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uhhh/2026/P8281",
+ "issued_at": "2026-10-22T17:38:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P8281",
+ "positions": [
+  [
+   49.475,
+   139.96694
+  ],
+  [
+   49.45611,
+   139.98306
+  ],
+  [
+   49.425,
+   139.98472
+  ],
+  [
+   49.4175,
+   140.00333
+  ],
+  [
+   49.37361,
+   140.02528
+  ],
+  [
+   49.33472,
+   140.03083
+  ],
+  [
+   49.30139,
+   140.06556
+  ],
+  [
+   49.24861,
+   140.07972
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI 0.1KM EITHER SIDE OF LINE JOINING POINTS:",
+ "text": "P8281/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/020/4922N14001E008\nA)UHHH B)2610240000 C)2610290800\nD)DAILY 0000-0800\nE)AIRSPACE CLSD WI 0.1KM EITHER SIDE OF LINE JOINING POINTS:\n492830N1395801E-492722N1395859E-492530N1395905E-492503N1400012E-\n492225N1400131E-492005N1400151E-491805N1400356E-491455N1400447E.\nF)SFC  G)400M AMSL",
+ "year": 2026
+}

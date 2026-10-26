@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T07:53:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.7,
+   "lon": 138.1833,
+   "radius_nm": 11
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2025/0753",
+  "shape": "polygon",
+  "starts_at": "2026-09-09T20:25:00Z",
+  "upper": "11999FT AMSL",
+  "upper_fl": 120
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3166",
+ "issued_at": "2026-09-09T06:08:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3166",
+ "positions": [
+  [
+   35.78722,
+   138.04583
+  ],
+  [
+   35.79944,
+   138.32361
+  ],
+  [
+   35.625,
+   138.35444
+  ],
+  [
+   35.61361,
+   138.01667
+  ],
+  [
+   35.78722,
+   138.04583
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3166/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/120/3542N13811E011\nA)RJJJ B)2609092025 C)2610310753\nD)2025/0753\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n354714N1380245E - 354758N1381925E - 353730N1382116E - 353649N1380100E\n- 354714N1380245E \n(KOMAGANE-SHI,INA-SHI ,SUWA-GUN,KAMIINA-GUN,SHIMOINA-GUN IN\nNAGANO,HOKUTO-SHI,NIRASAKI-SHI,MINAMI ALPS-SHI,MINAMIKOMA-GUN IN\nYAMANASHI,SHIZUOKA-SHI)\nWT: 1KG\nFLT TIME:  HJ\nF)SFC G)11999FT AMSL",
+ "year": 2026
+}

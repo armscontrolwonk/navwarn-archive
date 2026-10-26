@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-10T21:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "10000FT AMSL",
+  "lower_fl": 100,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.2,
+   "lon": 34.6833,
+   "radius_nm": 34
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "schedule": "MON-FRI 0500-2100",
+  "shape": "polygon",
+  "starts_at": "2026-10-10T05:00:00Z",
+  "upper": "28000FT AMSL",
+  "upper_fl": 280
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4474",
+ "issued_at": "2026-10-05T09:59:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4474",
+ "positions": [
+  [
+   36.47917,
+   34.62667
+  ],
+  [
+   36.21667,
+   35.36667
+  ],
+  [
+   36.0,
+   35.23333
+  ],
+  [
+   36.0,
+   34.19611
+  ],
+  [
+   36.1875,
+   34.00667
+  ],
+  [
+   36.47917,
+   34.62667
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TRAINING FLIGHT WILL TAKE PLACE WI ADANA MILITARY TMA:",
+ "text": "A4474/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /100/280/3612N03441E034\nA) LTAA B) 2610100500 C) 2701102100\nD) MON-FRI 0500-2100\nE) TRAINING FLIGHT WILL TAKE PLACE WI ADANA MILITARY TMA:\n362845N0343736E 361300N0352200E 360000N0351400E \n360000N0341146E 361115N0340024E 362845N0343736E\nF) 10000FT AMSL G) 28000FT AMSL",
+ "year": 2026
+}

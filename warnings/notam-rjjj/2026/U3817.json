@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T15:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.95,
+   "lon": 138.2,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-06T15:00:00Z",
+  "upper": "2200FT AMSL",
+  "upper_fl": 22
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3817",
+ "issued_at": "2026-10-16T05:08:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3817",
+ "positions": [
+  [
+   36.96417,
+   138.19361
+  ],
+  [
+   36.95972,
+   138.19833
+  ],
+  [
+   36.95361,
+   138.19611
+  ],
+  [
+   36.94583,
+   138.20861
+  ],
+  [
+   36.93806,
+   138.19667
+  ],
+  [
+   36.95056,
+   138.17861
+  ],
+  [
+   36.96417,
+   138.19361
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3817/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/022/3657N13812E002\nA)RJJJ B)2611061500 C)2611201500\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n365751N1381137E - 365735N1381154E - 365713N1381146E - 365645N1381231E\n- 365617N1381148E - 365702N1381043E - 365751N1381137E \n(MYOKO-SHI, JOETSU-SHI IN NIIGATA)\n(SEKIYAMA MANEUVERING AREA)\nWT: 0.5KG\nNUMBER: 2\nCONTACT INFORMATION: 0279-54-2011(EXTENSION 2576)\nRMK: SOURCE/JSDF-G(RJTS)\nF)SFC G)2200FT AMSL",
+ "year": 2026
+}

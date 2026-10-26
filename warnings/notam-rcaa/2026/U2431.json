@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-17T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 24.9833,
+   "lon": 121.4333,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-09-29T16:00:00Z",
+  "upper": "2500FT AMSL",
+  "upper_fl": 25
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2431",
+ "issued_at": "2026-09-22T02:18:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2431",
+ "positions": [
+  [
+   24.97722,
+   121.38583
+  ],
+  [
+   25.00139,
+   121.42639
+  ],
+  [
+   24.98222,
+   121.475
+  ],
+  [
+   24.95389,
+   121.44833
+  ],
+  [
+   24.9425,
+   121.41
+  ],
+  [
+   24.97722,
+   121.38583
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2431/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/025/2459N12126E003\nA) RCAA\nB) 2609291600 C) 2611171600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260902001202\n2.LCA:TUCHENG DISTRICT, NEW TAIPEI CITY\n3.THE AREA OVERLAPS PART OF FAR EASTERN MEMORIAL \n  HOSPITAL HELIPORT, PART OF VFR CORRIDOR C10 AND \n  PART OF VFR HEL RTE H2, ACFT ARE CTN ADZ.\n4.UAS WILL NOT ENTER FAR EASTERN MEMORIAL HOSPITAL HELIPORT.\n5.COOR TEL:0931-038686, 0912-218136\n6.AREA AS FLW:\n245838N 1212309E\n250005N 1212535E\n245856N 1212830E\n245714N 1212654E\n245633N 1212436E\n245838N 1212309E\nF) SFC G) 2500FT AMSL",
+ "year": 2026
+}

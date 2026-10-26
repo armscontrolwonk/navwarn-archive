@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-03T14:16:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "other",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.7167,
+   "lon": 32.8,
+   "radius_nm": 13
+  },
+  "qcode": "QWTLW",
+  "queried_fir": "LTAA",
+  "schedule": "SR-SS",
+  "shape": "polygon",
+  "starts_at": "2026-09-03T03:15:00Z",
+  "upper": "5500FT AMSL",
+  "upper_fl": 55
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A3878",
+ "issued_at": "2026-09-02T09:09:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3878",
+ "positions": [
+  [
+   42.63333,
+   32.55694
+  ],
+  [
+   42.79528,
+   32.55694
+  ],
+  [
+   42.79139,
+   33.03333
+  ],
+  [
+   42.63333,
+   33.03333
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MASS MOVEMENT OF ACFT WILL TAKE PLACE",
+ "text": "A3878/26 NOTAMN\nQ) LTAA/QWTLW/IV/M  /W /000/055/4243N03248E013\nA) LTAA B) 2609030315 C) 2612031416\nD) SR-SS\nE) MASS MOVEMENT OF ACFT WILL TAKE PLACE\nAREA: 423800N0323325E 424743N0323325E 424729N0330200E 423800N0330200E\nF) SFC G) 5500FT AMSL",
+ "year": 2026
+}

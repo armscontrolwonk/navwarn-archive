@@ -1,0 +1,86 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T23:59:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "drone",
+  "location": "RPHI",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 7.8167,
+   "lon": 125.8,
+   "radius_nm": 145
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RPHI",
+  "shape": "polygon",
+  "starts_at": "2026-10-01T00:00:00Z",
+  "upper": "7000FT AMSL",
+  "upper_fl": 70
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rphi/2026/B5127",
+ "issued_at": "2026-09-29T02:35:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "B5127",
+ "positions": [
+  [
+   8.25278,
+   124.01917
+  ],
+  [
+   8.81556,
+   124.01639
+  ],
+  [
+   10.10944,
+   125.37889
+  ],
+  [
+   10.11417,
+   126.32444
+  ],
+  [
+   5.63056,
+   126.26083
+  ],
+  [
+   5.50278,
+   125.29222
+  ],
+  [
+   7.29028,
+   125.15194
+  ],
+  [
+   7.29556,
+   124.49806
+  ],
+  [
+   8.25361,
+   124.49
+  ],
+  [
+   8.25278,
+   124.01917
+  ],
+  [
+   7.06056,
+   124.37806
+  ]
+ ],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UAS FLT OPS WILL TAKE PLACE WI:",
+ "text": "B5127/26 NOTAMN\nQ) RPHI/QWULW/IV/BO /W /000/070/0749N12548E145\nA) RPHI B) 2610010000 C) 2612312359\nE) UAS FLT OPS WILL TAKE PLACE WI:\n081510N 1240109E - \n084856N 1240059E - \n100634N 1252244E - \n100651N 1261928E - \n053750N 1261539E - \n053010N 1251732E - \n071725N 1250907E - \n071744N 1242953E - \n081513N 1242924E -  \n081510N 1240109E\n(EASTERN MINDANAO).\n\nRMK: 070338N 1242241E (LOST LINK TRANSITION POINT).\n     UTILIZED FOR BILATERAL KAPIT-BISIG OPS\n     NON-PARTICIPATING ACFT EXER CTN.\nF) SFC G) 7000FT AMSL",
+ "year": 2026
+}

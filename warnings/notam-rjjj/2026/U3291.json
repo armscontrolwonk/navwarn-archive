@@ -1,0 +1,83 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-23T12:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 45.0667,
+   "lon": 142.3167,
+   "radius_nm": 11
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "1800/1200",
+  "shape": "polygon",
+  "starts_at": "2026-09-24T18:00:00Z",
+  "upper": "2986FT AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3291",
+ "issued_at": "2026-09-16T06:14:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3291",
+ "positions": [
+  [
+   45.15528,
+   142.16028
+  ],
+  [
+   45.08083,
+   142.18028
+  ],
+  [
+   44.99278,
+   142.14389
+  ],
+  [
+   44.95556,
+   142.17139
+  ],
+  [
+   45.01333,
+   142.29222
+  ],
+  [
+   44.97917,
+   142.39667
+  ],
+  [
+   44.99778,
+   142.51389
+  ],
+  [
+   45.06222,
+   142.525
+  ],
+  [
+   45.22222,
+   142.28667
+  ],
+  [
+   45.15528,
+   142.16028
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3291/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/030/4504N14219E011\nA)RJJJ B)2609241800 C)2611231200\nD)1800/1200\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n450919N1420937E - 450451N1421049E - 445934N1420838E - 445720N1421017E\n- 450048N1421732E - 445845N1422348E - 445952N1423050E -\n450344N1423130E - 451320N1421712E - 450919N1420937E \n(ESASHI-GUN IN HOKKAIDO)\n(EXC SOYA-GUN, TESHIO-GUN IN HOKKAIDO)\nWT: 2.1KG\nNUMBER: 2\nCONTACT INFORMATION: 01634-9-2501\nF)SFC G)2986FT AMSL",
+ "year": 2026
+}

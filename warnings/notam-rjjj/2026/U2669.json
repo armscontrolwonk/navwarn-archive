@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-27T08:49:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.2333,
+   "lon": 145.2833,
+   "radius_nm": 13
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2033/0849",
+  "shape": "polygon",
+  "starts_at": "2026-08-06T20:33:00Z",
+  "upper": "1641FT AMSL",
+  "upper_fl": 17
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U2669",
+ "issued_at": "2026-08-03T04:43:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2669",
+ "positions": [
+  [
+   44.14389,
+   145.03056
+  ],
+  [
+   44.03722,
+   145.24194
+  ],
+  [
+   44.33861,
+   145.53028
+  ],
+  [
+   44.42972,
+   145.32444
+  ],
+  [
+   44.14389,
+   145.03056
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U2669/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/017/4414N14517E013\nA)RJJJ B)2608062033 C)2610270849\nD)2033/0849\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n440838N1450150E - 440214N1451431E - 442019N1453149E - 442547N1451928E\n- 440838N1450150E \n(SHARI-GUN,MENASHI-GUN IN HOKKAIDO)\nWT: 1.0KG\nNUMBER: 3\nFLT TIME: HJ\nF)SFC G)1641FT AMSL",
+ "year": 2026
+}

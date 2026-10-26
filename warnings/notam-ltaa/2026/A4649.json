@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T14:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "10000FT AMSL",
+  "lower_fl": 100,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.0333,
+   "lon": 34.55,
+   "radius_nm": 47
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-10-28T09:00:00Z",
+  "upper": "20000FT AMSL",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4649",
+ "issued_at": "2026-10-15T11:01:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4649",
+ "positions": [
+  [
+   40.66667,
+   34.0
+  ],
+  [
+   39.41667,
+   34.0
+  ],
+  [
+   39.41667,
+   35.08333
+  ],
+  [
+   40.16667,
+   35.08333
+  ],
+  [
+   40.66667,
+   34.58333
+  ],
+  [
+   40.66667,
+   34.0
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TRAINING FLIGHT WILL TAKE PLACE WI AREA: 404000N0340000E ",
+ "text": "A4649/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /100/200/4002N03433E047\nA) LTAA B) 2610280900 C) 2610281400\nE) TRAINING FLIGHT WILL TAKE PLACE WI AREA: 404000N0340000E \n392500N0340000E 392500N0350500E 401000N0350500E 404000N0343500E \n404000N0340000E\nF) 10000FT AMSL G) 20000FT AMSL",
+ "year": 2026
+}

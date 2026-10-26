@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T15:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "firing",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.5667,
+   "lon": 26.7167,
+   "radius_nm": 9
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LTBB",
+  "schedule": "0300-1500",
+  "shape": "polygon",
+  "starts_at": "2026-10-26T03:00:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A4784",
+ "issued_at": "2026-10-22T09:46:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4784",
+ "positions": [
+  [
+   38.66583,
+   26.73472
+  ],
+  [
+   38.67694,
+   26.59083
+  ],
+  [
+   38.46889,
+   26.68667
+  ],
+  [
+   38.46889,
+   26.82556
+  ],
+  [
+   38.61639,
+   26.76389
+  ],
+  [
+   38.66583,
+   26.73472
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "GUN FIRING WILL TAKE PLACE WI IZMIR TMA:",
+ "text": "A4784/26 NOTAMN\nQ) LTBB/QWMLW/IV/BO /W /000/100/3834N02643E009\nA) LTBB B) 2610260300 C) 2610281500\nD) 0300-1500\nE) GUN FIRING WILL TAKE PLACE WI IZMIR TMA:\n383957N0264405E 384037N0263527E 382808N0264112E \n382808N0264932E 383659N0264550E 383957N0264405E\nF) SFC G) 10000FT AMSL",
+ "year": 2026
+}

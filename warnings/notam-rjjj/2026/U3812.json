@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T11:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.3,
+   "lon": 131.2833,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-10-24T23:00:00Z",
+  "upper": "4000FT AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3812",
+ "issued_at": "2026-10-16T00:47:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3812",
+ "positions": [
+  [
+   33.30861,
+   131.22444
+  ],
+  [
+   33.31528,
+   131.23194
+  ],
+  [
+   33.32361,
+   131.29111
+  ],
+  [
+   33.31611,
+   131.32806
+  ],
+  [
+   33.29056,
+   131.32444
+  ],
+  [
+   33.28306,
+   131.26167
+  ],
+  [
+   33.30861,
+   131.22444
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3812/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/040/3318N13117E004\nA)RJJJ B)2610242300 C)2610301100\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n331831N1311328E - 331855N1311355E - 331925N1311728E - 331858N1311941E\n- 331726N1311928E - 331659N1311542E - 331831N1311328E \nR-91(HIJUDAI MANEUVERING AREA)\n(YUFU-SHI, KUSU-GUN IN OITA)\nWT: 3.0KG\nNUMBER: 21\nRMK: SOURCE/JSDF-G(RJDM)\nF)SFC G)4000FT AMSL",
+ "year": 2026
+}

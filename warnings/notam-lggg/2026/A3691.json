@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T16:00:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "drone",
+  "location": "LGGG",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.9333,
+   "lon": 23.9833,
+   "radius_nm": 5
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "LGGG",
+  "schedule": "13-31 0300-1600",
+  "shape": "polygon",
+  "starts_at": "2026-10-13T03:00:00Z",
+  "upper": "100FT AGL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lggg/2026/A3691",
+ "issued_at": "2026-10-06T11:29:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3691",
+ "positions": [
+  [
+   38.01,
+   23.95444
+  ],
+  [
+   38.00417,
+   24.00778
+  ],
+  [
+   37.86528,
+   24.03417
+  ],
+  [
+   37.89611,
+   23.95333
+  ],
+  [
+   37.92139,
+   23.98056
+  ],
+  [
+   37.97056,
+   24.00056
+  ],
+  [
+   37.98278,
+   23.93972
+  ],
+  [
+   38.01,
+   23.95444
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW:",
+ "text": "A3691/26 NOTAMN\nQ) LGGG/QRTCA/IV/BO /W /000/020/3756N02359E005\nA) LGGG B) 2610130300 C) 2610311600\nD) 13-31 0300-1600\nE) A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW:\n1. AREA: 380036N 0235716E - 380015N 0240028E - 375155N 0240203E - \n375346N 0235712E - 375517N 0235850E - 375814N 0240002E - 375858N \n0235623E - 380036N 0235716E (ARTEMIDA)\nATHINAI CTR/ATZ AFFECTED\n2.-TYPE OF RESTRICTION: UAV INSPECTION OF ELECTRICITY NETWORK\n3. REMARKS:  \n3.1-OTHER UAV FLT ARE SUSPENDED.\n3.2-OTHER FLT IN CONTACT WITH ATHINAI ATC, ARE NOT AFFECTED\n3.3-OPERATOR SHALL CALL ATHINAI ATC, PRIOR AND AFTER ACTIVITY AND \nREMAIN IN CONTACT DURING ACTIVITY.\n3.4-ACTIVITY SHALL BE ENDED IF REQUIRED BY ATHINAI ATC.\nF) GND G) 100FT AGL",
+ "year": 2026
+}

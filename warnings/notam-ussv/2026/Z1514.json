@@ -1,0 +1,50 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T18:00:00Z",
+ "extra": {
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 57.0,
+   "lon": 59.9667,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0200-1800",
+  "starts_at": "2026-10-27T02:00:00Z",
+  "upper": "450M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ussv/2026/Z1514",
+ "issued_at": "2026-10-01T06:50:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "Z1514",
+ "positions": [
+  [
+   56.98333,
+   59.96667
+  ],
+  [
+   57.01667,
+   59.96667
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI 1.5KM EITHER SIDE OF LINE JOINING POINTS:",
+ "text": "Z1514/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/020/5700N05958E002\nA)USSV B)2610270200 C)2610311800\nD)DAILY 0200-1800\nE)AIRSPACE CLSD WI 1.5KM EITHER SIDE OF LINE JOINING POINTS:\n565900N0595800E-570100N0595800E\nF)GND  G)450M AMSL",
+ "year": 2026
+}

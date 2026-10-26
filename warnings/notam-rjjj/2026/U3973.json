@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-03T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.85,
+   "lon": 141.0833,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T04:00:00Z",
+  "upper": "1700FT AMSL",
+  "upper_fl": 17
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3973",
+ "issued_at": "2026-10-23T11:28:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3973",
+ "positions": [
+  [
+   39.85861,
+   141.07667
+  ],
+  [
+   39.85639,
+   141.08806
+  ],
+  [
+   39.85056,
+   141.08528
+  ],
+  [
+   39.85278,
+   141.07472
+  ],
+  [
+   39.85861,
+   141.07667
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3973/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/017/3951N14105E002\nA)RJJJ B)2611030400 C)2611030700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n395131N1410436E - 395123N1410517E - 395102N1410507E - 395110N1410429E\n- 395131N1410436E \n(IWATESAN MANEUVERING AREA)\n(TAKIZAWA-SHI IN IWATE)\nWT: 0.5KG\nRMK: SOURCE/JSDF-G(RJSH)\nF)SFC G)1700FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,108 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-02T15:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 44.09389,
+    "lon": 43.49889,
+    "radius_nm": 1.08
+   },
+   {
+    "lat": 44.01389,
+    "lon": 43.78528,
+    "radius_nm": 1.08
+   },
+   {
+    "lat": 44.03389,
+    "lon": 43.76306,
+    "radius_nm": 1.08
+   },
+   {
+    "lat": 43.99,
+    "lon": 43.66417,
+    "radius_nm": 1.08
+   }
+  ],
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.0667,
+   "lon": 43.6833,
+   "radius_nm": 12
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "URRV",
+  "schedule": "DAILY 0400-1500",
+  "starts_at": "2026-10-28T04:00:00Z",
+  "upper": "630M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-urrv/2026/V8177",
+ "issued_at": "2026-10-26T05:27:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "V8177",
+ "positions": [
+  [
+   44.15028,
+   43.43
+  ],
+  [
+   44.10111,
+   43.86111
+  ],
+  [
+   44.03639,
+   43.94806
+  ],
+  [
+   43.99333,
+   43.86861
+  ],
+  [
+   43.94722,
+   43.62889
+  ],
+  [
+   44.10083,
+   43.41167
+  ],
+  [
+   44.15028,
+   43.43
+  ],
+  [
+   44.09389,
+   43.49889
+  ],
+  [
+   44.01389,
+   43.78528
+  ],
+  [
+   44.03389,
+   43.76306
+  ],
+  [
+   43.99,
+   43.66417
+  ]
+ ],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "V8177/26 NOTAMN\nQ)URRV/QRTCA/IV/BO/W/000/030/4404N04341E012\nA)URRV B)2610280400 C)2611021500\nD)DAILY 0400-1500\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 440901N0432548E-440604N0435140E-440211N0435653E-\n         435936N0435207E-435650N0433744E-440603N0432442E-\n         440901N0432548E\n   500M AMSL-630M AMSL.\n2. WI CIRCLE RADIUS 2KM CENTRE 440538N0432956E\n   GND-630M AMSL.\n3. WI CIRCLE RADIUS 2KM CENTRE 440050N0434707E\n   GND-630M AMSL.\n4. WI CIRCLE RADIUS 2KM CENTRE 440202N0434547E\n   GND-630M AMSL.\n5. WI CIRCLE RADIUS 2KM CENTRE 435924N0433951E\n   GND-630M AMSL.\nF)GND  G)630M AMSL",
+ "year": 2026
+}

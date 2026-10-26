@@ -1,0 +1,45 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-02T23:59:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "restricted",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.0,
+   "lon": 35.4333,
+   "radius_nm": 15
+  },
+  "qcode": "QRTLP",
+  "queried_fir": "LTAA",
+  "starts_at": "2026-10-02T09:00:00Z",
+  "upper": "UNL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4409",
+ "issued_at": "2026-10-02T07:24:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4409",
+ "positions": [
+  [
+   37.00167,
+   35.42556
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "RESTRICTED AREA WI ADANA MIL TMA ",
+ "text": "A4409/26 NOTAMN\nQ) LTAA/QRTLP/IV/BO /W /000/999/3700N03526E015\nA) LTAA B) 2610020900 C) 2701022359\nE) RESTRICTED AREA WI ADANA MIL TMA \nAREA: CENTERED ON 370006N0352532E WITH RADIUS 14NM\n\nVERTICAL LIMITS: SFC-80000FT AMSL\n\nNOTE 1: WHEN AIR DEFENCE SYSTEMS ARE IN NORMAL STATUS, ALL MIL/CIV \nTFCS WILL NOT BE AFFECTED.\nNOTE 2: WHEN AIR DEFENCE SYSTEMS BECOME ACTIVE, ALL TFCS WI (10NM) \nOF INCIRLIK AD, CUKUROVA INTERNATIONAL AD, SAKIRPASA AD AND HUR AD \nWILL BE SEQUENCED FOR LDG BY INCIRLIK APCH.\nTFCS OUTSIDE (10NM) WILL BE PUT ON HOLD AT APPROPRIATE POINTS NORTH \nOF THE AREA. DEP TFCS FROM THE AFFECTED AERODROMES WILL NOT BE \nPERMITTED.\nNOTE 3: DUE TO THE REQUIREMENT FOR TWO-WAY COMMUNICATION, CONTINUOUS \nAND REAL-TIME RTF CONTACT WITH ANKARA ACC OR INCIRLIK ATC IS \nESSENTIAL. CONTINUOUS MONITORING OF THE GUARD FREQ IS REQUIRED.\nF) SFC G) UNL",
+ "year": 2026
+}

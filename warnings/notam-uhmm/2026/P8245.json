@@ -1,0 +1,93 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T07:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 59.57361,
+    "lon": 150.80917,
+    "radius_nm": 0.11
+   }
+  ],
+  "fir": "UHMM",
+  "kind": "restricted",
+  "location": "UHMM",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 59.5667,
+   "lon": 150.8167,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHMM",
+  "schedule": "28 29 0000-0700",
+  "starts_at": "2026-10-28T00:00:00Z",
+  "upper": "400M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uhmm/2026/P8245",
+ "issued_at": "2026-10-22T03:54:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P8245",
+ "positions": [
+  [
+   59.57083,
+   150.78194
+  ],
+  [
+   59.55806,
+   150.79556
+  ],
+  [
+   59.56528,
+   150.805
+  ],
+  [
+   59.56694,
+   150.80167
+  ],
+  [
+   59.56861,
+   150.80417
+  ],
+  [
+   59.5675,
+   150.80778
+  ],
+  [
+   59.58417,
+   150.82806
+  ],
+  [
+   59.58667,
+   150.81722
+  ],
+  [
+   59.58472,
+   150.80528
+  ],
+  [
+   59.57083,
+   150.78194
+  ],
+  [
+   59.57361,
+   150.80917
+  ]
+ ],
+ "series": "notam-uhmm",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P8245/26 NOTAMN\nQ)UHMM/QRTCA/IV/BO/W/000/020/5934N15049E001\nA)UHMM B)2610280000 C)2610290700\nD)28 29 0000-0700\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 593415N1504655E-593329N1504744E-593355N1504818E-\n         593401N1504806E-593407N1504815E-593403N1504828E-\n         593503N1504941E-593512N1504902E-593505N1504819E-\n         593415N1504655E\n   150M AMSL-400M AMSL.\n2. WI CIRCLE RADIUS 0.2KM CENTRE 593425N1504833E\n   GND-150M AMSL.\nF)GND  G)400M AMSL",
+ "year": 2026
+}

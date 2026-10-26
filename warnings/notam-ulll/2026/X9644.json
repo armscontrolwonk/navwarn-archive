@@ -1,0 +1,121 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T16:50:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 59.84972,
+    "lon": 31.7,
+    "radius_nm": 1.35
+   },
+   {
+    "lat": 59.85,
+    "lon": 34.01667,
+    "radius_nm": 1.35
+   },
+   {
+    "lat": 59.86667,
+    "lon": 32.38361,
+    "radius_nm": 1.35
+   },
+   {
+    "lat": 59.86667,
+    "lon": 32.9,
+    "radius_nm": 1.35
+   },
+   {
+    "lat": 59.83333,
+    "lon": 35.1,
+    "radius_nm": 1.35
+   }
+  ],
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 59.85,
+   "lon": 33.4,
+   "radius_nm": 52
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "27-30 0730-1650",
+  "starts_at": "2026-10-27T07:30:00Z",
+  "upper": "5500M AMSL",
+  "upper_fl": 190
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ulll/2026/X9644",
+ "issued_at": "2026-10-26T06:19:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "X9644",
+ "positions": [
+  [
+   59.84972,
+   31.7
+  ],
+  [
+   59.85,
+   34.01667
+  ],
+  [
+   59.86667,
+   32.38361
+  ],
+  [
+   59.86667,
+   32.9
+  ],
+  [
+   59.83333,
+   35.1
+  ],
+  [
+   59.86667,
+   32.38333
+  ],
+  [
+   59.86667,
+   32.9
+  ],
+  [
+   59.86667,
+   32.9
+  ],
+  [
+   59.85,
+   34.01667
+  ],
+  [
+   59.85,
+   31.7
+  ],
+  [
+   59.86667,
+   32.38333
+  ],
+  [
+   59.85,
+   34.01667
+  ],
+  [
+   59.83333,
+   35.1
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "X9644/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/190/5951N03324E052\nA)ULLL B)2610270730 C)2610301650\nD)27-30 0730-1650\nE)AIRSPACE CLSD AS FLW:\n1. WI CIRCLE RADIUS 2.5KM CENTRE 595059N0314200E\n   GND-900M AMSL.\n2. WI CIRCLE RADIUS 2.5KM CENTRE 595100N0340100E\n   GND-5500M AMSL.\n3. WI CIRCLE RADIUS 2.5KM CENTRE 595200N0322301E\n   GND-2500M AMSL.\n4. WI CIRCLE RADIUS 2.5KM CENTRE 595200N0325400E\n   GND-5500M AMSL.\n5. WI CIRCLE RADIUS 2.5KM CENTRE 595000N0350600E\n   GND-4500M AMSL.\n6. WI 2KM EITHER SIDE OF LINE JOINING POINTS:\n   595200N0322300E-595200N0325400E.\n   1200M AMSL-2500M AMSL.\n7. WI 2KM EITHER SIDE OF LINE JOINING POINTS:\n   595200N0325400E-595100N0340100E.\n   2200M AMSL-5500M AMSL.\n8. WI 2KM EITHER SIDE OF LINE JOINING POINTS:\n   595100N0314200E-595200N0322300E.\n   900M AMSL-1250M AMSL.\n9. WI 2KM EITHER SIDE OF LINE JOINING POINTS:\n   595100N0340100E-595000N0350600E.\n   2500M AMSL-4500M AMSL.\nF)GND  G)5500M AMSL",
+ "year": 2026
+}

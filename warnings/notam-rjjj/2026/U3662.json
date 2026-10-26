@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-06T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.0,
+   "lon": 141.55,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0800",
+  "shape": "polygon",
+  "starts_at": "2026-10-21T00:00:00Z",
+  "upper": "1477FT AMSL",
+  "upper_fl": 15
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3662",
+ "issued_at": "2026-10-09T02:18:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3662",
+ "positions": [
+  [
+   42.99833,
+   141.56111
+  ],
+  [
+   42.98333,
+   141.55556
+  ],
+  [
+   42.98639,
+   141.53806
+  ],
+  [
+   43.00111,
+   141.54472
+  ],
+  [
+   42.99833,
+   141.56111
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3662/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/015/4300N14133E002\nA)RJJJ B)2610210000 C)2701060800\nD)0000/0800\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n425954N1413340E - 425900N1413320E - 425911N1413217E - 430004N1413241E\n- 425954N1413340E \n(KITAHIROSHIMA-SHI IN HOKKAIDO)\nWT: 15.8KG\nF)SFC G)1477FT AMSL",
+ "year": 2026
+}

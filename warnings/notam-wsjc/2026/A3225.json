@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-23T12:00:00Z",
+ "extra": {
+  "fir": "WSJC",
+  "kind": "drone",
+  "location": "WSJC",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 1.35,
+   "lon": 103.9667,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WSJC",
+  "shape": "polygon",
+  "starts_at": "2026-11-22T23:30:00Z",
+  "upper": "160FT AMSL",
+  "upper_fl": 2
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wsjc/2026/A3225",
+ "issued_at": "2026-10-26T02:46:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3225",
+ "positions": [
+  [
+   1.36111,
+   103.97222
+  ],
+  [
+   1.35972,
+   103.97611
+  ],
+  [
+   1.35222,
+   103.97389
+  ],
+  [
+   1.35417,
+   103.96861
+  ],
+  [
+   1.36111,
+   103.97222
+  ]
+ ],
+ "series": "notam-wsjc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TETHERED UA OPS WILL TAKE PLACE WI",
+ "text": "A3225/26 NOTAMN\nQ)WSJC/QWULW/IV/BO/W/000/002/0121N10358E001\nA)WSJC B)2611222330 C)2611231200\nE)TETHERED UA OPS WILL TAKE PLACE WI\n012140N1035820E-012135N1035834E-012108N1035826E-012115N1035807E-01212\n7N1035810E-012140N1035820E(WI WSSS CTR)\nF)GND G)160FT AMSL",
+ "year": 2026
+}

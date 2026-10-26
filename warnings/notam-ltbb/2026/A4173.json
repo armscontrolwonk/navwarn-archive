@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-25T14:00:00Z",
+ "extra": {
+  "fir": "LTXX",
+  "kind": "exercise",
+  "location": "LTBB",
+  "lower": "12000FT AMSL",
+  "lower_fl": 120,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.4167,
+   "lon": 30.65,
+   "radius_nm": 24
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTBB",
+  "schedule": "0500-1400 EXC SAT SUN",
+  "shape": "polygon",
+  "starts_at": "2026-09-28T05:00:00Z",
+  "upper": "25000FT AMSL",
+  "upper_fl": 250
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A4173",
+ "issued_at": "2026-09-21T11:07:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4173",
+ "positions": [
+  [
+   39.65,
+   30.25
+  ],
+  [
+   39.58333,
+   30.91667
+  ],
+  [
+   39.38333,
+   31.03333
+  ],
+  [
+   39.16667,
+   31.03333
+  ],
+  [
+   39.05,
+   30.66667
+  ],
+  [
+   39.65,
+   30.25
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "SUPERSONIC FLIGHT EXERCISE WILL TAKE PLACE WI ESKISEHIR MILITARY ",
+ "text": "A4173/26 NOTAMN\nQ) LTXX/QWELW/IV/BO /W /120/250/3925N03039E024\nA) LTBB LTAA B) 2609280500 C) 2612251400\nD) 0500-1400 EXC SAT SUN\nE) SUPERSONIC FLIGHT EXERCISE WILL TAKE PLACE WI ESKISEHIR MILITARY \nTMA \nAREA: 393900N0301500E 393500N0305500E 392300N0310200E \n391000N0310200E 390300N0304000E 393900N0301500E\nF) 12000FT AMSL G) 25000FT AMSL",
+ "year": 2026
+}

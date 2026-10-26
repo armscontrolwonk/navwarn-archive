@@ -1,0 +1,45 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T20:30:00Z",
+ "extra": {
+  "fir": "OIIX",
+  "kind": "drone",
+  "location": "OIIX",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 30.4333,
+   "lon": 55.2,
+   "radius_nm": 5
+  },
+  "qcode": "QWULW",
+  "queried_fir": "OIIX",
+  "starts_at": "2026-10-06T20:30:00Z",
+  "upper": "6500 FT AMSL",
+  "upper_fl": 65
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-oiix/2026/B0509",
+ "issued_at": "2026-10-06T09:48:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "B0509",
+ "positions": [
+  [
+   30.42528,
+   55.20222
+  ]
+ ],
+ "series": "notam-oiix",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "RPA ACT WILL TAKE PLACE WI A CIRCLE RADIUS 5 NM, CENTERED AT: ",
+ "text": "B0509/26 NOTAMN\nQ)OIIX/QWULW/IV/BO/W/000/065/3026N05512E005\nA)OIIX B)2610062030 C)2611062030\nE)RPA ACT WILL TAKE PLACE WI A CIRCLE RADIUS 5 NM, CENTERED AT: \n302531N 0551208E .\nF)GND G)6500 FT AMSL",
+ "year": 2026
+}

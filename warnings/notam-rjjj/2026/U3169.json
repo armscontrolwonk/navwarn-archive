@@ -1,0 +1,91 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-08T08:09:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.45,
+   "lon": 142.6667,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2001/0809",
+  "shape": "polygon",
+  "starts_at": "2026-09-09T20:01:00Z",
+  "upper": "7547FT AMSL",
+  "upper_fl": 76
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3169",
+ "issued_at": "2026-09-09T08:01:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3169",
+ "positions": [
+  [
+   43.47778,
+   142.63889
+  ],
+  [
+   43.485,
+   142.65583
+  ],
+  [
+   43.43194,
+   142.69278
+  ],
+  [
+   43.42083,
+   142.67806
+  ],
+  [
+   43.42556,
+   142.67222
+  ],
+  [
+   43.43306,
+   142.68222
+  ],
+  [
+   43.47667,
+   142.65194
+  ],
+  [
+   43.47444,
+   142.64306
+  ],
+  [
+   43.47611,
+   142.63972
+  ],
+  [
+   43.47778,
+   142.63889
+  ],
+  [
+   43.47694,
+   142.63944
+  ],
+  [
+   43.42333,
+   142.67528
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3169/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/076/4327N14240E003\nA)RJJJ B)2609092001 C)2612080809\nD)2001/0809\nE)UNMANNED ACFT:\n(1)AREA: BOUNDED BY FLW POINTS\n432840N1423820E - 432906N1423921E - 432555N1424134E - 432515N1424041E\n- 432532N1424020E - 432559N1424056E - 432836N1423907E -\n432828N1423835E - 432834N1423823E - 432840N1423820E \n(2)AREA: RADIUS 100M CENTER 432837N1423822E \n(3)AREA: RADIUS 350M CENTER 432524N1424031E \n(KAMIKAWA-GUN,SORACHI-GUN IN HOKKAIDO)\nWT: 110KG\nFLT TIME: 2230/SS\nF)SFC G)7547FT AMSL",
+ "year": 2026
+}

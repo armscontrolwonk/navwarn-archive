@@ -1,0 +1,79 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T10:00:00Z",
+ "extra": {
+  "fir": "UAAA",
+  "kind": "restricted",
+  "location": "UAAA",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 46.1667,
+   "lon": 72.9833,
+   "radius_nm": 27
+  },
+  "qcode": "QRPCA",
+  "queried_fir": "UAAA",
+  "schedule": "DAILY 0400-1000",
+  "shape": "polygon",
+  "starts_at": "2026-10-29T04:00:00Z",
+  "upper": "UNL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uaaa/2026/A6879",
+ "issued_at": "2026-10-15T09:26:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A6879",
+ "positions": [
+  [
+   46.49583,
+   72.87972
+  ],
+  [
+   46.35194,
+   72.42972
+  ],
+  [
+   46.06889,
+   72.39667
+  ],
+  [
+   45.83667,
+   72.75194
+  ],
+  [
+   45.77361,
+   73.11278
+  ],
+  [
+   45.83583,
+   73.38556
+  ],
+  [
+   46.29111,
+   73.57889
+  ],
+  [
+   46.46389,
+   73.30167
+  ],
+  [
+   46.49583,
+   72.87972
+  ]
+ ],
+ "series": "notam-uaaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "PROHIBITED AREA ACTIVATED",
+ "text": "A6879/26 NOTAMN\nQ) UAAA/QRPCA/IV/NBO/W /000/999/4610N07259E027\nA) UAAA B) 2610290400 C) 2610301000\nD) DAILY 0400-1000\nE) PROHIBITED AREA ACTIVATED\nAREA BOUNDED BY:\n462945N 0725247E - 462107N 0722547E - 460408N 0722348E - \n455012N 0724507E - 454625N 0730646E - 455009N 0732308E - \n461728N 0733444E - 462750N 0731806E - 462945N 0725247E.\nF) GND G) UNL",
+ "year": 2026
+}

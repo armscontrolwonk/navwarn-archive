@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T12:00:00Z",
+ "extra": {
+  "fir": "UEEE",
+  "kind": "restricted",
+  "location": "UEEE",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 63.9,
+   "lon": 143.4333,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UEEE",
+  "schedule": "DAILY 0200-1200",
+  "shape": "polygon",
+  "starts_at": "2026-10-26T02:00:00Z",
+  "upper": "1550M AMSL",
+  "upper_fl": 60
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ueee/2026/P8386",
+ "issued_at": "2026-10-24T06:30:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P8386",
+ "positions": [
+  [
+   63.90333,
+   143.43361
+  ],
+  [
+   63.90139,
+   143.43861
+  ],
+  [
+   63.89694,
+   143.42889
+  ],
+  [
+   63.89917,
+   143.42389
+  ],
+  [
+   63.90333,
+   143.43361
+  ]
+ ],
+ "series": "notam-ueee",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "P8386/26 NOTAMN\nQ)UEEE/QRTCA/IV/BO/W/000/060/6354N14326E001\nA)UEEE B)2610260200 C)2610311200\nD)DAILY 0200-1200\nE)AIRSPACE CLSD WI AREA:\n635412N1432601E-635405N1432619E-635349N1432544E-\n635357N1432526E-635412N1432601E.\nF)SFC  G)1550M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,64 @@
+{
+ "cancels": [
+  "notam-ltbb/2026/A3412"
+ ],
+ "expires_at": "2026-10-31T17:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "drone",
+  "location": "LTBB",
+  "lower": "8000FT AMSL",
+  "lower_fl": 80,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 41.85,
+   "lon": 27.2833,
+   "radius_nm": 14
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTBB",
+  "shape": "polygon",
+  "starts_at": "2026-08-16T18:19:00Z",
+  "upper": "15000FT AMSL",
+  "upper_fl": 150
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A3581",
+ "issued_at": "2026-08-16T18:21:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3581",
+ "positions": [
+  [
+   41.81528,
+   27.51806
+  ],
+  [
+   41.80667,
+   27.01417
+  ],
+  [
+   41.99139,
+   27.41056
+  ],
+  [
+   41.89556,
+   27.56694
+  ],
+  [
+   41.81528,
+   27.51806
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL TAKE PLACE WI AREA: 414855N0273105E ",
+ "text": "A3581/26 NOTAMR A3412/26\nQ) LTBB/QWULW/IV/BO /W /080/150/4151N02717E014\nA) LTBB B) 2608161819 C) 2610311700\nE) UNMANNED ACFT WILL TAKE PLACE WI AREA: 414855N0273105E \n414824N0270051E 415929N0272438E 415344N0273401E 414855N0273105E\nF) 8000FT AMSL G) 15000FT AMSL",
+ "year": 2026
+}

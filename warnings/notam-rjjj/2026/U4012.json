@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.5667,
+   "lon": 134.3,
+   "radius_nm": 5
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "26 0730/0800 27-29 0000/0800",
+  "shape": "polygon",
+  "starts_at": "2026-10-26T07:30:00Z",
+  "upper": "2136FT AMSL",
+  "upper_fl": 22
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U4012",
+ "issued_at": "2026-10-26T05:17:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U4012",
+ "positions": [
+  [
+   33.56361,
+   134.29472
+  ],
+  [
+   33.55806,
+   134.23583
+  ],
+  [
+   33.56833,
+   134.21917
+  ],
+  [
+   33.63972,
+   134.29417
+  ],
+  [
+   33.57972,
+   134.38139
+  ],
+  [
+   33.53917,
+   134.3325
+  ],
+  [
+   33.56361,
+   134.29472
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4012/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/022/3334N13418E005\nA)RJJJ B)2610260730 C)2610290800\nD)26 0730/0800 27-29 0000/0800\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n333349N1341741E - 333329N1341409E - 333406N1341309E - 333823N1341739E\n- 333447N1342253E - 333221N1341957E - 333349N1341741E \n(KAIFU-GUN IN TOKUSHIMA)\nWT: 2.5KG\nNUMBER: 2\nCONTACT INFORMATION: 03-4485-1606\nF)SFC G)2136FT AMSL",
+ "year": 2026
+}

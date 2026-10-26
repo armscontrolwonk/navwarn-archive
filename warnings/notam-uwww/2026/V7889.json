@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 55.81417,
+    "lon": 49.06139,
+    "radius_nm": 8.64
+   }
+  ],
+  "fir": "UWWW",
+  "kind": "restricted",
+  "location": "UWWW",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.8,
+   "lon": 49.05,
+   "radius_nm": 9
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UWWW",
+  "starts_at": "2026-10-23T00:00:00Z",
+  "upper": "3050M AGL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uwww/2026/V7889",
+ "issued_at": "2026-10-21T07:07:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "V7889",
+ "positions": [
+  [
+   55.81417,
+   49.06139
+  ]
+ ],
+ "series": "notam-uwww",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 16KM CENTRE 554851N0490341E.",
+ "text": "V7889/26 NOTAMN\nQ)UWWW/QRTCA/IV/BO/W/000/999/5548N04903E009\nA)UWWW B)2610230000 C)2610282359\nE)AIRSPACE CLSD WI CIRCLE RADIUS 16KM CENTRE 554851N0490341E.\nCLOSURE NOT AFFECT:\n- VIP FLTS AND ACFT FOR THEIR SUPPORT.\n- INTL AND DOM FLTS VIA ATS RTE.\nF)GND  G)3050M AGL",
+ "year": 2026
+}

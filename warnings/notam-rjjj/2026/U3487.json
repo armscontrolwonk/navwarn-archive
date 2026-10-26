@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T08:09:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.6333,
+   "lon": 138.55,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2048/0809",
+  "shape": "polygon",
+  "starts_at": "2026-10-11T20:48:00Z",
+  "upper": "9187FT AMSL",
+  "upper_fl": 92
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3487",
+ "issued_at": "2026-09-30T02:07:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3487",
+ "positions": [
+  [
+   36.66917,
+   138.53306
+  ],
+  [
+   36.64167,
+   138.50472
+  ],
+  [
+   36.62028,
+   138.51389
+  ],
+  [
+   36.59917,
+   138.53306
+  ],
+  [
+   36.59917,
+   138.57361
+  ],
+  [
+   36.64861,
+   138.57083
+  ],
+  [
+   36.65528,
+   138.56639
+  ],
+  [
+   36.66917,
+   138.53306
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3487/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/092/3638N13833E004\nA)RJJJ B)2610112048 C)2611300809\nD)2048/0809\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n364009N1383159E - 363830N1383017E - 363713N1383050E - 363557N1383159E\n- 363557N1383425E - 363855N1383415E - 363919N1383359E -\n364009N1383159E \n(KAMITAKAI-GUN,SHIMOTAKAI-GUN IN NAGANO,AGATSUMA-GUN IN GUNMA\nWT: 15.8KG\nNUMBER: 2\nFLT TIME: HJ\nF)SFC G)9187FT AMSL",
+ "year": 2026
+}

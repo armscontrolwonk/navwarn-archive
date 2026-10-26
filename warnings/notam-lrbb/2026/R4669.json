@@ -1,0 +1,45 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-27T19:30:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "firing",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.3333,
+   "lon": 28.6833,
+   "radius_nm": 1
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "LRBB",
+  "starts_at": "2026-10-27T13:00:00Z",
+  "upper": "2400FT AMSL",
+  "upper_fl": 24
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lrbb/2026/R4669",
+ "issued_at": "2026-10-25T14:01:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "R4669",
+ "positions": [
+  [
+   44.33611,
+   28.68472
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "DANGER AREA ACTIVATED.",
+ "text": "R4669/26 NOTAMN\nQ) LRBB/QRDCA/IV/BO /W /000/024/4420N02841E001\nA) LRBB B) 2610271300 C) 2610271930\nE) DANGER AREA ACTIVATED.\n   FRNG WILL TAKE PLACE INTO A CIRCLE CENTERED ON POINT OF\n   COORD 442010N0284105E WITH 1NM RADIUS\nF) GND G) 2400FT AMSL",
+ "year": 2026
+}

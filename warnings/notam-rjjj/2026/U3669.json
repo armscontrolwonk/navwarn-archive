@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-14T10:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.9167,
+   "lon": 139.35,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "12-13 1100/1230 14 0900/1030",
+  "shape": "polygon",
+  "starts_at": "2026-11-12T11:00:00Z",
+  "upper": "786FT AMSL",
+  "upper_fl": 8
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3669",
+ "issued_at": "2026-10-09T03:18:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3669",
+ "positions": [
+  [
+   35.91139,
+   139.34194
+  ],
+  [
+   35.91083,
+   139.3425
+  ],
+  [
+   35.91056,
+   139.34222
+  ],
+  [
+   35.91083,
+   139.34139
+  ],
+  [
+   35.91139,
+   139.34194
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3669/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/008/3555N13921E001\nA)RJJJ B)2611121100 C)2611141030\nD)12-13 1100/1230 14 0900/1030\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n355441N1392031E - 355439N1392033E - 355438N1392032E - 355439N1392029E\n- 355441N1392031E \n(HIDAKA-SHI IN SAITAMA)\nWT: 0.6KG\nNUMBER: 300\nF)SFC G)786FT AMSL",
+ "year": 2026
+}

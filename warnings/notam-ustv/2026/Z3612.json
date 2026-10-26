@@ -1,0 +1,156 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-26T23:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 63.94056,
+    "lon": 73.99361,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 64.03333,
+    "lon": 74.98333,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 63.91667,
+    "lon": 73.98333,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 63.76083,
+    "lon": 73.5875,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "USTV",
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 63.9,
+   "lon": 74.2667,
+   "radius_nm": 35
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USTV",
+  "schedule": "DAILY 0400-2300",
+  "starts_at": "2026-10-21T04:00:00Z",
+  "upper": "530M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ustv/2026/Z3612",
+ "issued_at": "2026-10-15T08:26:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "Z3612",
+ "positions": [
+  [
+   64.2,
+   74.16667
+  ],
+  [
+   64.2,
+   74.86667
+  ],
+  [
+   64.3,
+   74.81667
+  ],
+  [
+   64.36667,
+   75.01667
+  ],
+  [
+   64.33333,
+   75.13333
+  ],
+  [
+   63.93333,
+   75.1
+  ],
+  [
+   63.88167,
+   74.91333
+  ],
+  [
+   64.03333,
+   74.45
+  ],
+  [
+   63.84083,
+   74.39528
+  ],
+  [
+   63.83472,
+   74.38306
+  ],
+  [
+   63.85,
+   74.11667
+  ],
+  [
+   63.66667,
+   73.95
+  ],
+  [
+   63.65,
+   73.65
+  ],
+  [
+   63.43333,
+   73.58333
+  ],
+  [
+   63.45,
+   73.41667
+  ],
+  [
+   63.75,
+   73.35
+  ],
+  [
+   64.03333,
+   73.5
+  ],
+  [
+   64.06667,
+   73.78333
+  ],
+  [
+   64.2,
+   74.16667
+  ],
+  [
+   63.94056,
+   73.99361
+  ],
+  [
+   64.03333,
+   74.98333
+  ],
+  [
+   63.91667,
+   73.98333
+  ],
+  [
+   63.76083,
+   73.5875
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z3612/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/020/6354N07416E035\nA)USTV B)2610210400 C)2610262300\nD)DAILY 0400-2300\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 641200N0741000E-641200N0745200E-641800N0744900E-\n         642200N0750100E-642000N0750800E-635600N0750600E-\n         635254N0745448E-640200N0742700E-635027N0742343E-\n         635005N0742259E-635100N0740700E-634000N0735700E-\n         633900N0733900E-632600N0733500E-632700N0732500E-\n         634500N0732100E-640200N0733000E-640400N0734700E-\n         641200N0741000E\n   310M AMSL-530M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 635626N0735937E\n   SFC-530M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 640200N0745900E\n   SFC-530M AMSL.\n4. WI CIRCLE RADIUS 1KM CENTRE 635500N0735900E\n   SFC-530M AMSL.\n5. WI CIRCLE RADIUS 1KM CENTRE 634539N0733515E\n   SFC-530M AMSL.\nF)SFC  G)530M AMSL",
+ "year": 2026
+}

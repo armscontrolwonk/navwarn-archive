@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T16:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "14000FT AMSL",
+  "lower_fl": 140,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.0167,
+   "lon": 33.65,
+   "radius_nm": 16
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "schedule": "0600-1600",
+  "shape": "polygon",
+  "starts_at": "2026-09-01T06:00:00Z",
+  "upper": "18000FT AMSL",
+  "upper_fl": 180
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A3806",
+ "issued_at": "2026-08-28T08:10:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3806",
+ "positions": [
+  [
+   42.07972,
+   33.32556
+  ],
+  [
+   42.07972,
+   33.97889
+  ],
+  [
+   41.96306,
+   33.97889
+  ],
+  [
+   41.96306,
+   33.32556
+  ],
+  [
+   42.07972,
+   33.32556
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXERCISE WILL TAKE PLACE WI: 420447N0331932E 420447N0335844E ",
+ "text": "A3806/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /140/180/4201N03339E016\nA) LTAA B) 2609010600 C) 2611301600\nD) 0600-1600\nE) EXERCISE WILL TAKE PLACE WI: 420447N0331932E 420447N0335844E \n415747N0335844E 415747N0331932E 420447N0331932E\nF) 14000FT AMSL G) 18000FT AMSL",
+ "year": 2026
+}

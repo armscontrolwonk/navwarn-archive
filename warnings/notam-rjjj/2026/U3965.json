@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-27T04:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.4667,
+   "lon": 137.2167,
+   "radius_nm": 9
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T00:00:00Z",
+  "upper": "2035FT AMSL",
+  "upper_fl": 21
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3965",
+ "issued_at": "2026-10-23T06:35:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3965",
+ "positions": [
+  [
+   37.48528,
+   137.07028
+  ],
+  [
+   37.345,
+   137.23444
+  ],
+  [
+   37.44806,
+   137.37167
+  ],
+  [
+   37.52278,
+   137.36056
+  ],
+  [
+   37.55444,
+   137.28389
+  ],
+  [
+   37.48528,
+   137.07028
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3965/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/021/3728N13713E009\nA)RJJJ B)2610270000 C)2610270400\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n372907N1370413E - 372042N1371404E - 372653N1372218E - 373122N1372138E\n- 373316N1371702E - 372907N1370413E \n(WAJIMA-SHI, SUZU-SHI, HOSU-GUN IN ISHIKAWA)\nWT: 2.5KG\nNUMBER: 12\nCONTACT INFORMATION: 03-4485-1606\nF)SFC G)2035FT AMSL",
+ "year": 2026
+}

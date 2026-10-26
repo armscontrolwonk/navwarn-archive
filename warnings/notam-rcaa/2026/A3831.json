@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T03:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "exercise",
+  "location": "RCAA",
+  "lower": "FL150",
+  "lower_fl": 150,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.7,
+   "lon": 120.2,
+   "radius_nm": 17
+  },
+  "qcode": "QWELW",
+  "queried_fir": "RCAA",
+  "schedule": "0200-0300",
+  "shape": "polygon",
+  "starts_at": "2026-10-28T02:00:00Z",
+  "upper": "FL150",
+  "upper_fl": 150
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/A3831",
+ "issued_at": "2026-10-13T08:29:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3831",
+ "positions": [
+  [
+   23.9,
+   120.4
+  ],
+  [
+   23.42889,
+   120.18333
+  ],
+  [
+   23.5,
+   120.0
+  ],
+  [
+   23.9,
+   120.4
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIR EXER WILL TAKE PLACE:",
+ "text": "A3831/26 NOTAMN\nQ) RCAA/QWELW/IV/BO/W/150/150/2342N12012E017\nA) RCAA\nB) 2610280200 C) 2610300300\nD) 0200-0300\nE) AIR EXER WILL TAKE PLACE:\n1.TFC CONCERNED KEEP CLOSE CTC WITH KAOHSIUNG APP.\n2.OPR TEL: 03-4712201 EXTENSION 357748, 355531, \n  0918-010682, 0971-766573\n3.AREA AS FLW:\n235400N 1202400E\n232544N 1201100E\n233000N 1200000E\n235400N 1202400E\nF) FL150 G) FL150",
+ "year": 2026
+}

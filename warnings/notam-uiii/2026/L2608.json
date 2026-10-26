@@ -1,0 +1,101 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-01T14:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 53.42583,
+    "lon": 102.65,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "UIII",
+  "kind": "restricted",
+  "location": "UIII",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 53.45,
+   "lon": 102.6167,
+   "radius_nm": 4
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UIII",
+  "schedule": "DAILY 0000-1400",
+  "starts_at": "2026-10-27T00:00:00Z",
+  "upper": "1300M AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uiii/2026/L2608",
+ "issued_at": "2026-10-22T11:45:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "L2608",
+ "positions": [
+  [
+   53.48167,
+   102.53778
+  ],
+  [
+   53.46972,
+   102.56417
+  ],
+  [
+   53.48833,
+   102.60083
+  ],
+  [
+   53.4975,
+   102.58278
+  ],
+  [
+   53.49944,
+   102.59
+  ],
+  [
+   53.49056,
+   102.61444
+  ],
+  [
+   53.45278,
+   102.64972
+  ],
+  [
+   53.41361,
+   102.70028
+  ],
+  [
+   53.38667,
+   102.62222
+  ],
+  [
+   53.40944,
+   102.57111
+  ],
+  [
+   53.45028,
+   102.52972
+  ],
+  [
+   53.48167,
+   102.53778
+  ],
+  [
+   53.42583,
+   102.65
+  ]
+ ],
+ "series": "notam-uiii",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "L2608/26 NOTAMN\nQ)UIII/QRTCA/IV/BO/W/000/050/5327N10237E004\nA)UIII B)2610270000 C)2611011400\nD)DAILY 0000-1400\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 532854N1023216E-532811N1023351E-532918N1023603E-\n         532951N1023458E-532958N1023524E-532926N1023652E-\n         532710N1023859E-532449N1024201E-532312N1023720E-\n         532434N1023416E-532701N1023147E-532854N1023216E\n   750M AMSL-1300M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 532533N1023900E\n   SFC-1300M AMSL.\nF)SFC  G)1300M AMSL",
+ "year": 2026
+}

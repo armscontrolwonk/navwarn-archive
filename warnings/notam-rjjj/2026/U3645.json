@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-01T06:55:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.0667,
+   "lon": 139.8167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2225/0655",
+  "shape": "polygon",
+  "starts_at": "2026-10-11T22:25:00Z",
+  "upper": "1346FT AMSL",
+  "upper_fl": 14
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3645",
+ "issued_at": "2026-10-08T04:28:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3645",
+ "positions": [
+  [
+   36.07056,
+   139.80583
+  ],
+  [
+   36.06028,
+   139.81389
+  ],
+  [
+   36.0625,
+   139.81778
+  ],
+  [
+   36.0725,
+   139.80972
+  ],
+  [
+   36.07056,
+   139.80583
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U3645/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/014/3604N13949E002\nA)RJJJ B)2610112225 C)2701010655\nD)2225/0655\nE)UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n360414N1394821E - 360337N1394850E - 360345N1394904E - 360421N1394835E\n- 360414N1394821E \n(SASHIMA-GUN IN IBARAKI,NODA-SHI IN CHIBA)\nWT: 15KG\nNUMBER: 2\n\nRMK: THIS AREA IS INCLUDED IN KK4-4,KK4-7\nF)SFC G)1346FT AMSL",
+ "year": 2026
+}

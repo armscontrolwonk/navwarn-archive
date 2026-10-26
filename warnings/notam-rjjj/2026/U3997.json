@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-15T14:59:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.3333,
+   "lon": 141.1,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-07T15:00:00Z",
+  "upper": "3446FT AMSL",
+  "upper_fl": 35
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3997",
+ "issued_at": "2026-10-26T00:11:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3997",
+ "positions": [
+  [
+   41.31889,
+   141.10639
+  ],
+  [
+   41.3325,
+   141.10667
+  ],
+  [
+   41.33222,
+   141.07833
+  ],
+  [
+   41.31861,
+   141.07861
+  ],
+  [
+   41.31889,
+   141.10639
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3997/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/035/4120N14106E002\nA)RJJJ B)2611071500 C)2611151459\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n411908N1410623E - 411957N1410624E - 411956N1410442E - 411907N1410443E\n- 411908N1410623E \n(MUTSU-SHI IN AOMORI)\nWT: 16KG\nF)SFC G)3446FT AMSL",
+ "year": 2026
+}

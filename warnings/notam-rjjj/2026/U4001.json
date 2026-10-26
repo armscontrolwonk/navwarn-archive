@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-11T06:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.85,
+   "lon": 138.0,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0630",
+  "shape": "polygon",
+  "starts_at": "2026-11-30T00:00:00Z",
+  "upper": "5079FT AMSL",
+  "upper_fl": 51
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U4001",
+ "issued_at": "2026-10-26T00:47:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U4001",
+ "positions": [
+  [
+   36.84889,
+   137.99611
+  ],
+  [
+   36.84806,
+   137.99639
+  ],
+  [
+   36.84778,
+   137.99417
+  ],
+  [
+   36.86611,
+   137.99083
+  ],
+  [
+   36.86722,
+   137.99056
+  ],
+  [
+   36.8675,
+   137.99278
+  ],
+  [
+   36.84889,
+   137.99611
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4001/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/051/3651N13800E002\nA)RJJJ B)2611300000 C)2612110630\nD)0000/0630\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n365056N1375946E - 365053N1375947E - 365052N1375939E - 365158N1375927E\n- 365202N1375926E - 365203N1375934E - 365056N1375946E \n(KITAAZUMI-GUN IN NAGANO)\nWT: 4KG\nF)SFC G)5079FT AMSL",
+ "year": 2026
+}

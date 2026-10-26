@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T08:30:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "firing",
+  "location": "VABF",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 21.4333,
+   "lon": 69.1833,
+   "radius_nm": 16
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "VABF",
+  "schedule": "MON WED 0330-0830",
+  "shape": "polygon",
+  "starts_at": "2026-10-12T03:30:00Z",
+  "upper": "3000FT AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-vabf/2026/A1484",
+ "issued_at": "2026-09-29T05:51:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A1484",
+ "positions": [
+  [
+   21.53333,
+   69.4
+  ],
+  [
+   21.28333,
+   69.4
+  ],
+  [
+   21.28333,
+   69.1
+  ],
+  [
+   21.53333,
+   68.93333
+  ],
+  [
+   21.53333,
+   69.4
+  ]
+ ],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG SORTIES BY INDIAN COAST GUARD DORNIER ACFT",
+ "text": "A1484/26 NOTAMN\nQ) VABF/QWMLW/IV/BO/W/000/030/2126N06911E016\nA) VABF B) 2610120330 C) 2610280830\nD) MON WED 0330-0830\nE) FRNG SORTIES BY INDIAN COAST GUARD DORNIER ACFT\n   WILL BE CARRIED OUT WI THE AREA BOUNDED BY COORD: \n   2132N 06924E- 2117N 06924E-\n   2117N 06906E- 2132N 06856E-\n   2132N 06924E\nF) SFC G) 3000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-17T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.7167,
+   "lon": 140.0667,
+   "radius_nm": 1
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "schedule": "11 15 16 2300/0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-11T23:00:00Z",
+  "upper": "820FT AMSL",
+  "upper_fl": 9
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/P5202",
+ "issued_at": "2026-10-20T08:18:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P5202",
+ "positions": [
+  [
+   39.71056,
+   140.06639
+  ],
+  [
+   39.71056,
+   140.06944
+  ],
+  [
+   39.70806,
+   140.06944
+  ],
+  [
+   39.70806,
+   140.06639
+  ],
+  [
+   39.71056,
+   140.06639
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG EXER",
+ "text": "P5202/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/009/3943N14004E001\nA)RJJJ B)2611112300 C)2611170800\nD)11 15 16 2300/0800\nE)FRNG EXER\n1.WEAPON: 81MORTAR\n2.AREA  : BOUNDED BY FLW POINTS\n394238N1400359E - 394238N1400410E - 394229N1400410E - 394229N1400359E\n- 394238N1400359E\n(AKITA-SHI)\n(ARAYA MANEUVERING AREA)\n3.RMK   : (1)THIS AREA IS INCLUDED IN TH2-2\n(2)SOURCE/JSDF-G(RJSC)\nF)SFC G)820FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.6833,
+   "lon": 120.4833,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-10-31T16:00:00Z",
+  "upper": "800FT AMSL",
+  "upper_fl": 8
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2555",
+ "issued_at": "2026-10-06T03:21:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2555",
+ "positions": [
+  [
+   22.68472,
+   120.47639
+  ],
+  [
+   22.68778,
+   120.48917
+  ],
+  [
+   22.67667,
+   120.4925
+  ],
+  [
+   22.67472,
+   120.47917
+  ],
+  [
+   22.68472,
+   120.47639
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2555/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/008/2241N12029E001\nA) RCAA\nB) 2610311600 C) 2612311600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260708004301\n2.LCA:PINGTUNG CITY, PINGTUNG COUNTY\n3.COOR TEL:0953-311088, 0986-197958, 0912-218136\n4.AREA AS FLW:\n224105N 1202835E\n224116N 1202921E\n224036N 1202933E\n224029N 1202845E\n224105N 1202835E\nF) SFC G) 800FT AMSL",
+ "year": 2026
+}

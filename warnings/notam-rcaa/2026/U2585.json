@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-22T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.3667,
+   "lon": 120.7333,
+   "radius_nm": 9
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T16:00:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2585",
+ "issued_at": "2026-10-07T06:49:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2585",
+ "positions": [
+  [
+   22.32972,
+   120.73028
+  ],
+  [
+   22.46944,
+   120.77639
+  ],
+  [
+   22.46944,
+   120.80972
+  ],
+  [
+   22.31444,
+   120.7625
+  ],
+  [
+   22.24889,
+   120.66361
+  ],
+  [
+   22.2825,
+   120.65194
+  ],
+  [
+   22.32972,
+   120.73028
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2585/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/100/2222N12044E009\nA) RCAA\nB) 2610271600 C) 2701221600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:M260922000302\n2.LCA:PINGTUNG CITY, PINGTUNG COUNTY\n3.THE AREA OVERLAPS PART OF VFR CORRIDOR C9, ACFT ARE CTN ADZ.\n4.COOR TEL:0972-808655, 0980-757215, 0965-036786\n5.AREA AS FLW:\n221947N 1204349E\n222810N 1204635E\n222810N 1204835E\n221852N 1204545E\n221456N 1203949E\n221657N 1203907E\n221947N 1204349E\nF) SFC G) 10000FT AMSL",
+ "year": 2026
+}

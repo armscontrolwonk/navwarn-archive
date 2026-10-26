@@ -1,0 +1,58 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T23:59:00Z",
+ "extra": {
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 49.75,
+   "lon": 144.4667,
+   "radius_nm": 48
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "shape": "polygon",
+  "starts_at": "2026-10-26T00:00:00Z",
+  "upper": "FL330",
+  "upper_fl": 330
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uhhh/2026/P8373",
+ "issued_at": "2026-10-24T05:32:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P8373",
+ "positions": [
+  [
+   50.5,
+   144.08333
+  ],
+  [
+   50.5,
+   144.83333
+  ],
+  [
+   49.0,
+   144.83333
+  ],
+  [
+   50.5,
+   144.08333
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO DANGER AREA ACT:",
+ "text": "P8373/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/330/4945N14428E048\nA)UHHH B)2610260000 C)2610312359\nE)TEMPO DANGER AREA ACT:\n503000N1440500E-503000N1445000E-490000N1445000E-503000N1440500E.\nF)GND  G)FL330",
+ "year": 2026
+}

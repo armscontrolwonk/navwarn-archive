@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T23:59:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "drone",
+  "location": "RPHI",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 7.15,
+   "lon": 120.0667,
+   "radius_nm": 102
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RPHI",
+  "shape": "polygon",
+  "starts_at": "2026-10-01T00:00:00Z",
+  "upper": "7000FT AMSL",
+  "upper_fl": 70
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rphi/2026/B5135",
+ "issued_at": "2026-09-29T03:12:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "B5135",
+ "positions": [
+  [
+   7.02583,
+   121.71222
+  ],
+  [
+   6.83528,
+   121.71417
+  ],
+  [
+   7.21194,
+   118.615
+  ],
+  [
+   7.44333,
+   118.41306
+  ],
+  [
+   7.02583,
+   121.71222
+  ]
+ ],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UAS FLT OPS WILL TAKE PLACE WI:",
+ "text": "B5135/26 NOTAMN\nQ) RPHI/QWULW/IV/BO /W /000/070/0709N12004E102\nA) RPHI B) 2610010000 C) 2612312359\nE) UAS FLT OPS WILL TAKE PLACE WI:\n070133N 1214244E -\n065007N 1214251E -\n071243N 1183654E -\n072636N 1182447E - \n070133N 1214244E\n(ZAMBOANGA - BALABAK CORRIDOR).\n\nRMK: UTILIZED FOR BILATERAL KAPIT-BISIG OPS\n     NON-PARTICIPATING ACFT EXER CTN.\nF) SFC G) 7000FT AMSL",
+ "year": 2026
+}

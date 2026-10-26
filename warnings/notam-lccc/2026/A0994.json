@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T23:59:00Z",
+ "extra": {
+  "fir": "LCCC",
+  "kind": "restricted",
+  "location": "LCCC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.55,
+   "lon": 33.0,
+   "radius_nm": 10
+  },
+  "qcode": "QRACA",
+  "queried_fir": "LCCC",
+  "shape": "polygon",
+  "starts_at": "2026-10-01T00:00:00Z",
+  "upper": "3000FT AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lccc/2026/A0994",
+ "issued_at": "2026-09-16T11:43:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A0994",
+ "positions": [
+  [
+   34.57028,
+   33.19056
+  ],
+  [
+   34.65722,
+   32.87111
+  ],
+  [
+   34.51417,
+   32.81417
+  ],
+  [
+   34.595,
+   32.99083
+  ],
+  [
+   34.57028,
+   33.19056
+  ]
+ ],
+ "series": "notam-lccc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AKROTIRI AREA ACTIVATED AS DESCRIBED BELOW:",
+ "text": "A0994/26 NOTAMN\nQ) LCCC/QRACA/IV/NBO/W /000/030/3433N03300E010\nA) LCCC B) 2610010000 C) 2612312359\nE) AKROTIRI AREA ACTIVATED AS DESCRIBED BELOW:\n343413N0331126E - 343926N0325216E - 343051N0324851E THEN \nANTICLOCKWISE ARC WITH RADIUS 10NM CENTRED ON 343542N0325927E TO \n343413N0331126E/AH UK A1\nF) SFC G) 3000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,58 @@
+{
+ "cancels": [
+  "notam-rjjj/2026/P2666"
+ ],
+ "expires_at": "2026-12-05T14:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 26.40667,
+    "lon": 127.84528,
+    "radius_nm": 2.0
+   }
+  ],
+  "fir": "RJJJ",
+  "kind": "restricted",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 26.4,
+   "lon": 127.85,
+   "radius_nm": 2
+  },
+  "qcode": "QROXX",
+  "queried_fir": "RJJJ",
+  "starts_at": "2026-09-05T15:02:00Z",
+  "upper": "1000FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/P4422",
+ "issued_at": "2026-09-05T15:02:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P4422",
+ "positions": [
+  [
+   26.40667,
+   127.84528
+  ],
+  [
+   26.40278,
+   127.84722
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ALL SMALL VFR ACFT ARE STRONGLY REQUESTED TO AVOID FLYING THE FLW",
+ "text": "P4422/26 NOTAMR P2666/26\nQ)RJJJ/QROXX/IV/NBO/W/000/010/2624N12751E002\nA)RJJJ B)2609051502 C)2612051459EST\nE)ALL SMALL VFR ACFT ARE STRONGLY REQUESTED TO AVOID FLYING THE FLW\nAIRSPACE.\nAIRSPACE: RADIUS 2NM CENTER 262424N1275043E(WGS-84)\n262410N1275050E(TOKYO DATUM):TENGANSANBASHI IN URUMA-CITY\nEXCLUDING KADENA CTR (CONTROL ZONE)\nF)SFC G)1000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.7167,
+   "lon": 142.9333,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/0800",
+  "shape": "polygon",
+  "starts_at": "2026-09-15T23:00:00Z",
+  "upper": "5250FT AMSL",
+  "upper_fl": 53
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3179",
+ "issued_at": "2026-09-10T02:41:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3179",
+ "positions": [
+  [
+   43.71083,
+   142.94
+  ],
+  [
+   43.72139,
+   142.93
+  ],
+  [
+   43.71889,
+   142.92083
+  ],
+  [
+   43.70667,
+   142.91167
+  ],
+  [
+   43.70167,
+   142.92389
+  ],
+  [
+   43.70389,
+   142.92611
+  ],
+  [
+   43.71083,
+   142.94
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3179/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/053/4343N14256E002\nA)RJJJ B)2609152300 C)2611300800\nD)2300/0800\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n434239N1425624E - 434317N1425548E - 434308N1425515E - 434224N1425442E\n- 434206N1425526E - 434214N1425534E - 434239N1425624E \n(KAMIKAWA-GUN IN HOKKAIDO)\nWT: 1.1KG\nF)SFC G)5250FT AMSL",
+ "year": 2026
+}

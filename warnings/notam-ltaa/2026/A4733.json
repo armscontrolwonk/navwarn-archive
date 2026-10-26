@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T13:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.2167,
+   "lon": 35.55,
+   "radius_nm": 20
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "schedule": "23 30 0700-1300",
+  "shape": "polygon",
+  "starts_at": "2026-10-23T07:00:00Z",
+  "upper": "28000FT AMSL",
+  "upper_fl": 280
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4733",
+ "issued_at": "2026-10-20T08:26:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4733",
+ "positions": [
+  [
+   36.0,
+   35.25
+  ],
+  [
+   36.0,
+   35.83333
+  ],
+  [
+   36.43333,
+   35.83333
+  ],
+  [
+   36.43333,
+   35.48333
+  ],
+  [
+   36.435,
+   35.48222
+  ],
+  [
+   36.0,
+   35.25
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "SUPERSONIC TEST FLIGHT WILL TAKE PLACE WI ADANA MILITARY ",
+ "text": "A4733/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /000/280/3613N03533E020\nA) LTAA B) 2610230700 C) 2610301300\nD) 23 30 0700-1300\nE) SUPERSONIC TEST FLIGHT WILL TAKE PLACE WI ADANA MILITARY \nTMA:360000N0351500E 360000N0355000E 362600N0355000E \n362600N0352900E 362606N0352856E 360000N0351500E\nF) SFC G) 28000FT AMSL",
+ "year": 2026
+}

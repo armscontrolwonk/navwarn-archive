@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T14:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 24.8,
+   "lon": 122.0667,
+   "radius_nm": 7
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "schedule": "2200-1400",
+  "shape": "polygon",
+  "starts_at": "2026-10-17T22:00:00Z",
+  "upper": "2000FT AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2672",
+ "issued_at": "2026-10-14T01:58:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2672",
+ "positions": [
+  [
+   24.71306,
+   122.00778
+  ],
+  [
+   24.73444,
+   121.97889
+  ],
+  [
+   24.86722,
+   122.12861
+  ],
+  [
+   24.8375,
+   122.14583
+  ],
+  [
+   24.71306,
+   122.00778
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2672/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/020/2448N12204E007\nA) RCAA\nB) 2610172200 C) 2612311400\nD) 2200-1400\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:M260609003002\n2.LCA:SUAO TOWNSHIP, YILAN COUNTY\n3.COOR TEL:0905-567978, 0988-662034\n4.AREA AS FLW:\n244247N 1220028E\n244404N 1215844E\n245202N 1220743E\n245015N 1220845E\n244247N 1220028E\nF) SFC G) 2000FT AMSL",
+ "year": 2026
+}

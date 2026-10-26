@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T17:00:00Z",
+ "extra": {
+  "fir": "UUWV",
+  "kind": "restricted",
+  "location": "UUWV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 54.4,
+   "lon": 40.9833,
+   "radius_nm": 5
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UUWV",
+  "schedule": "DAILY 0500-1700",
+  "shape": "polygon",
+  "starts_at": "2026-10-25T05:00:00Z",
+  "upper": "650M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uuwv/2026/H0873",
+ "issued_at": "2026-10-23T20:22:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "H0873",
+ "positions": [
+  [
+   54.34028,
+   40.9225
+  ],
+  [
+   54.35806,
+   40.92306
+  ],
+  [
+   54.38861,
+   40.98194
+  ],
+  [
+   54.41972,
+   41.00611
+  ],
+  [
+   54.4625,
+   41.03
+  ]
+ ],
+ "series": "notam-uuwv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI 0.3KM EITHER SIDE OF LINE JOINING POINTS:",
+ "text": "H0873/26 NOTAMN\nQ)UUWV/QRTCA/IV/BO/W/000/030/5424N04059E005\nA)UUWV B)2610250500 C)2610301700\nD)DAILY 0500-1700\nE)AIRSPACE CLSD WI 0.3KM EITHER SIDE OF LINE JOINING POINTS:\n542025N0405521E-542129N0405523E-542319N0405855E-\n542511N0410022E-542745N0410148E.\nF)SFC  G)650M AMSL",
+ "year": 2026
+}

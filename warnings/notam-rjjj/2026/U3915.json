@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 31.6333,
+   "lon": 130.5333,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0400/0700",
+  "shape": "polygon",
+  "starts_at": "2026-10-23T04:00:00Z",
+  "upper": "3190FT AMSL",
+  "upper_fl": 32
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3915",
+ "issued_at": "2026-10-21T01:15:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3915",
+ "positions": [
+  [
+   31.64111,
+   130.53083
+  ],
+  [
+   31.64056,
+   130.53
+  ],
+  [
+   31.64,
+   130.53056
+  ],
+  [
+   31.64056,
+   130.53111
+  ],
+  [
+   31.64111,
+   130.53083
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3915/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/032/3138N13032E001\nA)RJJJ B)2610230400 C)2610310700\nD)0400/0700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n313828N1303151E - 313826N1303148E - 313824N1303150E - 313826N1303152E\n- 313828N1303151E \n(KAGOSHIMA-SHI)\nWT: 0.9KG\nF)SFC G)3190FT AMSL",
+ "year": 2026
+}

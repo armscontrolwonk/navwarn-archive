@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-02T08:23:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.4333,
+   "lon": 137.0333,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/0823",
+  "shape": "polygon",
+  "starts_at": "2026-10-09T23:00:00Z",
+  "upper": "525FT AMSL",
+  "upper_fl": 6
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3609",
+ "issued_at": "2026-10-06T09:45:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3609",
+ "positions": [
+  [
+   37.44583,
+   137.04972
+  ],
+  [
+   37.44833,
+   137.04528
+  ],
+  [
+   37.43556,
+   137.03028
+  ],
+  [
+   37.43278,
+   137.03389
+  ],
+  [
+   37.44583,
+   137.04972
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3609/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/006/3726N13702E002\nA)RJJJ B)2610092300 C)2701020823\nD)2300/0823\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n372645N1370259E - 372654N1370243E - 372608N1370149E - 372558N1370202E\n- 372645N1370259E \n(WAJIMA-SHI IN ISHIKAWA)\nWT: 2.1KG\nFLT TIME: 2300/SS\nCONTACT INFORMATION: 03-4485-1606\nF)SFC G)525FT AMSL",
+ "year": 2026
+}

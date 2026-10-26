@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-18T20:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "firing",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.6833,
+   "lon": 27.5167,
+   "radius_nm": 6
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LTBB",
+  "schedule": "0600-2000",
+  "shape": "polygon",
+  "starts_at": "2026-09-21T06:00:00Z",
+  "upper": "14000FT AMSL",
+  "upper_fl": 140
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A4074",
+ "issued_at": "2026-09-16T07:31:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4074",
+ "positions": [
+  [
+   41.71667,
+   27.42222
+  ],
+  [
+   41.71667,
+   27.61667
+  ],
+  [
+   41.63778,
+   27.61667
+  ],
+  [
+   41.63306,
+   27.55639
+  ],
+  [
+   41.6725,
+   27.41917
+  ],
+  [
+   41.71667,
+   27.42222
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "GUN FIRING WILL TAKE PLACE",
+ "text": "A4074/26 NOTAMN\nQ) LTBB/QWMLW/IV/BO /W /000/140/4141N02731E006\nA) LTBB B) 2609210600 C) 2612182000\nD) 0600-2000\nE) GUN FIRING WILL TAKE PLACE\nAREA: 414300N0272520E 414300N0273700E 413816N0273700E \n413759N0273323E 414021N0272509E 414300N0272520E \nWI ISTANBUL TMA ICINDE\nF) SFC G) 14000FT AMSL",
+ "year": 2026
+}

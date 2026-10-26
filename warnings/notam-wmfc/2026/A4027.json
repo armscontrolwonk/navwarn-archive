@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-20T09:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 2.7833,
+   "lon": 101.4,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "0100-0900",
+  "shape": "polygon",
+  "starts_at": "2026-10-22T01:00:00Z",
+  "upper": "400FT AGL",
+  "upper_fl": 5
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wmfc/2026/A4027",
+ "issued_at": "2026-10-13T04:42:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4027",
+ "positions": [
+  [
+   2.788,
+   101.41284
+  ],
+  [
+   2.77549,
+   101.40866
+  ],
+  [
+   2.78025,
+   101.40133
+  ],
+  [
+   2.7887,
+   101.39843
+  ],
+  [
+   2.79637,
+   101.40099
+  ],
+  [
+   2.79114,
+   101.41105
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI COORD:",
+ "text": "A4027/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/005/0247N10124E001\nA) WMFC B) 2610220100 C) 2701200900 \nD) 0100-0900\nE) UA ACT WILL TAKE PLACE WI COORD:\n  \n   024716.81N 1012446.21E - 024631.77N 1012431.18E -\n   024648.90N 1012404.78E - 024719.33N 1012354.35E -\n   024746.92N 1012403.57E - 024728.11N 1012439.79E\n  \n   (PANTAI KELANANG,PULAU CAREY,SELANGOR)\nF) SFC                             G) 400FT AGL",
+ "year": 2026
+}

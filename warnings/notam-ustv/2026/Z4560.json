@@ -1,0 +1,141 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T23:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 62.46056,
+    "lon": 79.7,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 61.50278,
+    "lon": 79.25333,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 61.27139,
+    "lon": 79.60361,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 62.37417,
+    "lon": 80.16444,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 61.70583,
+    "lon": 79.37639,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "USTV",
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 61.7667,
+   "lon": 79.85,
+   "radius_nm": 53
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USTV",
+  "schedule": "DAILY 0300-2300",
+  "starts_at": "2026-10-26T03:00:00Z",
+  "upper": "450M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ustv/2026/Z4560",
+ "issued_at": "2026-10-23T10:00:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "Z4560",
+ "positions": [
+  [
+   61.1,
+   79.02194
+  ],
+  [
+   61.35278,
+   78.96472
+  ],
+  [
+   61.48333,
+   79.0
+  ],
+  [
+   61.55639,
+   79.0
+  ],
+  [
+   61.72278,
+   78.91
+  ],
+  [
+   62.56139,
+   79.05
+  ],
+  [
+   62.53694,
+   80.45306
+  ],
+  [
+   62.40972,
+   80.52278
+  ],
+  [
+   61.95,
+   79.54611
+  ],
+  [
+   61.0,
+   79.77222
+  ],
+  [
+   60.99778,
+   79.28333
+  ],
+  [
+   61.04639,
+   79.04028
+  ],
+  [
+   61.1,
+   79.02194
+  ],
+  [
+   62.46056,
+   79.7
+  ],
+  [
+   61.50278,
+   79.25333
+  ],
+  [
+   61.27139,
+   79.60361
+  ],
+  [
+   62.37417,
+   80.16444
+  ],
+  [
+   61.70583,
+   79.37639
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z4560/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/020/6146N07951E053\nA)USTV B)2610260300 C)2610312300\nD)DAILY 0300-2300\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 610600N0790119E-612110N0785753E-612900N0790000E-\n         613323N0790000E-614322N0785436E-623341N0790300E-\n         623213N0802711E-622435N0803122E-615700N0793246E-\n         610000N0794620E-605952N0791700E-610247N0790225E-\n         610600N0790119E\n   320M AMSL-450M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 622738N0794200E\n   SFC-450M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 613010N0791512E\n   SFC-450M AMSL.\n4. WI CIRCLE RADIUS 1KM CENTRE 611617N0793613E\n   SFC-450M AMSL.\n5. WI CIRCLE RADIUS 1KM CENTRE 622227N0800952E\n   SFC-450M AMSL.\n6. WI CIRCLE RADIUS 1KM CENTRE 614221N0792235E\n   SFC-450M AMSL.\nF)SFC  G)450M AMSL",
+ "year": 2026
+}

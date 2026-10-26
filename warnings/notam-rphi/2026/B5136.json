@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T23:59:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "drone",
+  "location": "RPHI",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 8.3333,
+   "lon": 118.6667,
+   "radius_nm": 201
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RPHI",
+  "shape": "polygon",
+  "starts_at": "2026-10-01T00:00:00Z",
+  "upper": "7000FT AMSL",
+  "upper_fl": 70
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rphi/2026/B5136",
+ "issued_at": "2026-09-29T03:15:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "B5136",
+ "positions": [
+  [
+   10.35944,
+   116.0525
+  ],
+  [
+   7.57639,
+   121.79139
+  ],
+  [
+   7.12917,
+   121.70639
+  ],
+  [
+   7.02583,
+   121.71222
+  ],
+  [
+   7.10944,
+   121.06472
+  ],
+  [
+   9.605,
+   115.58889
+  ],
+  [
+   10.35944,
+   116.0525
+  ]
+ ],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UAS FLT OPS WILL TAKE PLACE WI:",
+ "text": "B5136/26 NOTAMN\nQ) RPHI/QWULW/IV/BO /W /000/070/0820N11840E201\nA) RPHI B) 2610010000 C) 2612312359\nE) UAS FLT OPS WILL TAKE PLACE WI:\n102134N 1160309E -\n073435N 1214729E -\n070745N 1214223E -\n070133N 1214244E -\n070634N 1210353E -\n093618N 1153520E -\n102134N 1160309E\n(ZAMBOANGA - BARKO NG REPUBLIKA NG PILIPINAS (BRP) \nSIERRA MADRE CORRIDOR).\n\nRMK: UTILIZED FOR BILATERAL KAPIT-BISIG OPS\n     NON-PARTICIPATING ACFT EXER CTN.\nF) SFC G) 7000FT AMSL",
+ "year": 2026
+}

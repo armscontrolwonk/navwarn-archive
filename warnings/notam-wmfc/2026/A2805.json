@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T15:59:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 1.35,
+   "lon": 104.1667,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "AUG 7,14,21,28 0000-1559 SEP 4,11,18,25 0000-1559 OCT 2,9,16,23,30 0000-1559",
+  "shape": "polygon",
+  "starts_at": "2026-08-07T00:00:00Z",
+  "upper": "400FT AGL",
+  "upper_fl": 4
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wmfc/2026/A2805",
+ "issued_at": "2026-07-17T02:48:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A2805",
+ "positions": [
+  [
+   1.35194,
+   104.16167
+  ],
+  [
+   1.35167,
+   104.17472
+  ],
+  [
+   1.34861,
+   104.16778
+  ],
+  [
+   1.34778,
+   104.15889
+  ],
+  [
+   1.34917,
+   104.15889
+  ],
+  [
+   1.35194,
+   104.16167
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI THE FLW COORD:",
+ "text": "A2805/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/004/0121N10410E001\nA) WMFC B) 2608070000 C) 2610301559 \nD)AUG 7,14,21,28   0000-1559\nSEP 4,11,18,25   0000-1559\nOCT 2,9,16,23,30 0000-1559\nE)UA ACT WILL TAKE PLACE WI THE FLW COORD:\n\n012107.00N 1040942.00E - 012106.00N 1041029.00E -\n012055.00N 1041004.00E - 012052.00N 1040932.00E -\n012057.00N 1040932.00E - 012107.00N 1040942.00E\n\n(SAMSUNG PHOENIX PENGERANG,JOHOR)\nF) SFC                             G) 400FT AGL",
+ "year": 2026
+}

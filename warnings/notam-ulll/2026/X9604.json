@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T16:00:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "route",
+  "location": "ULLL",
+  "lower": "FL265",
+  "lower_fl": 265,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 67.6167,
+   "lon": 41.7667,
+   "radius_nm": 148
+  },
+  "qcode": "QARLC",
+  "queried_fir": "ULLL",
+  "schedule": "DAILY 0700-1600",
+  "starts_at": "2026-10-27T07:00:00Z",
+  "upper": "FL540",
+  "upper_fl": 540
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ulll/2026/X9604",
+ "issued_at": "2026-10-25T10:42:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "X9604",
+ "positions": [],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FLW ATS RTE SEGMENTS CLSD:",
+ "text": "X9604/26 NOTAMN\nQ)ULLL/QARLC/IV/NBO/E/265/540/6737N04146E148\nA)ULLL B)2610270700 C)2610301600\nD)DAILY 0700-1600\nE)FLW ATS RTE SEGMENTS CLSD:\nM130 LURAM-ZUTNA FL265-FL540,\nN151 LEDBI-BEMRU FL275-FL540,\nN866 IFOMA-BEMRU FL275-FL540,\nT567 DAMNU-ODIMA FL265-FL540.\nF)FL265  G)FL540",
+ "year": 2026
+}

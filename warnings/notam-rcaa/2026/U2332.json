@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-15T13:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.6667,
+   "lon": 120.3,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "schedule": "2100-1300",
+  "shape": "polygon",
+  "starts_at": "2026-09-15T21:00:00Z",
+  "upper": "1600FT AMSL",
+  "upper_fl": 16
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2332",
+ "issued_at": "2026-09-11T01:37:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2332",
+ "positions": [
+  [
+   22.67278,
+   120.30028
+  ],
+  [
+   22.67917,
+   120.30722
+  ],
+  [
+   22.65861,
+   120.30694
+  ],
+  [
+   22.65722,
+   120.29583
+  ],
+  [
+   22.66694,
+   120.29
+  ],
+  [
+   22.67278,
+   120.30028
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2332/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/016/2240N12018E001\nA) RCAA\nB) 2609152100 C) 2611151300\nD) 2100-1300\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260827000401\n2.LCA:SANMIN DISTRICT, KAOHSIUNG CITY\n3.THE AREA OVERLAPS PART OF VFR CORRIDOR C9 AND C13, \n  ACFT ARE CTN ADZ.\n4.COOR TEL:0901-335732, 0917-337567\n5.AREA AS FLW:\n224022N 1201801E\n224045N 1201826E\n223931N 1201825E\n223926N 1201745E\n224001N 1201724E\n224022N 1201801E\nF) SFC G) 1600FT AMSL",
+ "year": 2026
+}

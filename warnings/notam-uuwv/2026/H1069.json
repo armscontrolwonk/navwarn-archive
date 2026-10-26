@@ -1,0 +1,74 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T23:59:00Z",
+ "extra": {
+  "fir": "UUWV",
+  "kind": "restricted",
+  "location": "UUWV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 54.65,
+   "lon": 39.5667,
+   "radius_nm": 22
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UUWV",
+  "shape": "polygon",
+  "starts_at": "2026-11-25T00:00:00Z",
+  "upper": "FL100",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uuwv/2026/H1069",
+ "issued_at": "2026-10-26T13:03:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "H1069",
+ "positions": [
+  [
+   54.61667,
+   38.96667
+  ],
+  [
+   54.66667,
+   39.03333
+  ],
+  [
+   54.8,
+   39.91667
+  ],
+  [
+   54.75,
+   40.0
+  ],
+  [
+   54.73333,
+   40.16667
+  ],
+  [
+   54.64167,
+   39.57167
+  ],
+  [
+   54.46667,
+   39.03333
+  ],
+  [
+   54.61667,
+   38.96667
+  ]
+ ],
+ "series": "notam-uuwv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "H1069/26 NOTAMN\nQ)UUWV/QRTCA/IV/BO/W/000/100/5439N03934E022\nA)UUWV B)2611250000 C)2611302359\nE)AIRSPACE CLSD WI AREA:\n543700N0385800E-544000N0390200E-544800N0395500E-544500N0400000E-\n544400N0401000E THEN CLOCKWISE ALONG ARC RADIUS 40KM\nCENTRE (543830N0393418E) TO 542800N0390200E-543700N0385800E.\nF)GND  G)FL100",
+ "year": 2026
+}

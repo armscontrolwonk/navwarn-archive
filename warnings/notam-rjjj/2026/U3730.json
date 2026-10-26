@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T15:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 30.5167,
+   "lon": 130.9,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-10-23T21:00:00Z",
+  "upper": "1000FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3730",
+ "issued_at": "2026-10-13T07:36:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3730",
+ "positions": [
+  [
+   30.52056,
+   130.91861
+  ],
+  [
+   30.49306,
+   130.89917
+  ],
+  [
+   30.495,
+   130.89556
+  ],
+  [
+   30.52361,
+   130.91556
+  ],
+  [
+   30.52056,
+   130.91861
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3730/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/010/3031N13054E002\nA)RJJJ B)2610232100 C)2610291500\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n303114N1305507E - 302935N1305357E - 302942N1305344E - 303125N1305456E\n- 303114N1305507E \n(KUMAGE-GUN IN KAGOSHIMA)\nWT: 5.5KG\nNUMBER: 2\nRMK: SOURCE/JSDF-G(RJFT)\nF)SFC G)1000FT AMSL",
+ "year": 2026
+}

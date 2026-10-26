@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "1000FT AMSL",
+  "lower_fl": 10,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.55,
+   "lon": 121.6167,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-30T16:00:00Z",
+  "upper": "FL200",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2310",
+ "issued_at": "2026-09-08T04:05:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2310",
+ "positions": [
+  [
+   22.56472,
+   121.57583
+  ],
+  [
+   22.565,
+   121.68222
+  ],
+  [
+   22.53333,
+   121.68222
+  ],
+  [
+   22.53333,
+   121.56167
+  ],
+  [
+   22.56472,
+   121.57583
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2310/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/010/200/2233N12137E004\nA) RCAA\nB) 2611301600 C) 2612311600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:M260824000203\n2.LCA:LUDAO TOWNSHIP, TAITUNG COUNTY\n3.COOR TEL:04-27023051, 0985-304927\n4.AREA AS FLW:\n223353N 1213433E\n223354N 1214056E\n223200N 1214056E\n223200N 1213342E\n223353N 1213433E\nF) 1000FT AMSL G) FL200",
+ "year": 2026
+}

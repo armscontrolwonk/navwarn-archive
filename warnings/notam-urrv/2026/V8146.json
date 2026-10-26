@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-27T15:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 44.4,
+    "lon": 40.18333,
+    "radius_nm": 3.78
+   }
+  ],
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.4,
+   "lon": 40.1833,
+   "radius_nm": 4
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "URRV",
+  "starts_at": "2026-10-27T07:00:00Z",
+  "upper": "600M AGL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-urrv/2026/V8146",
+ "issued_at": "2026-10-25T08:45:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "V8146",
+ "positions": [
+  [
+   44.4,
+   40.18333
+  ]
+ ],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 7KM CENTRE 442400N0401100E.",
+ "text": "V8146/26 NOTAMN\nQ)URRV/QRTCA/IV/BO/W/000/999/4424N04011E004\nA)URRV B)2610270700 C)2610271500\nE)AIRSPACE CLSD WI CIRCLE RADIUS 7KM CENTRE 442400N0401100E.\nF)GND  G)600M AGL",
+ "year": 2026
+}

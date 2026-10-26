@@ -1,0 +1,91 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T10:00:00Z",
+ "extra": {
+  "fir": "WRXX",
+  "kind": "restricted",
+  "location": "WIIF",
+  "lower": "8000FT AMSL",
+  "lower_fl": 80,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 0.9167,
+   "lon": 104.0833,
+   "radius_nm": 63
+  },
+  "qcode": "QRALW",
+  "queried_fir": "WSJC",
+  "schedule": "DAILY 2300-1000",
+  "shape": "polygon",
+  "starts_at": "2026-10-26T23:00:00Z",
+  "upper": "11000FT AMSL",
+  "upper_fl": 110
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wiif/2026/A4078",
+ "issued_at": "2026-10-23T19:18:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4078",
+ "positions": [
+  [
+   1.2375,
+   104.11861
+  ],
+  [
+   1.23639,
+   104.18528
+  ],
+  [
+   1.2375,
+   104.32083
+  ],
+  [
+   1.47083,
+   104.94333
+  ],
+  [
+   0.70972,
+   105.10528
+  ],
+  [
+   0.41722,
+   104.08028
+  ],
+  [
+   0.27917,
+   103.56556
+  ],
+  [
+   1.13444,
+   103.07694
+  ],
+  [
+   1.13194,
+   103.73917
+  ],
+  [
+   1.2125,
+   103.96
+  ],
+  [
+   1.23611,
+   104.05194
+  ],
+  [
+   1.2375,
+   104.11861
+  ]
+ ],
+ "series": "notam-wiif",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE RESERVATION FOR WEATHER MODIFICATION TECHNOLOGY FLT ",
+ "text": "A4078/26 NOTAMN\nQ) WRXX/QRALW/IV/NBO/W /080/110/0055N10405E063\nA) WIIF WSJC B) 2610262300 C) 2611301000\nD) DAILY 2300-1000\nE) AIRSPACE RESERVATION FOR WEATHER MODIFICATION TECHNOLOGY FLT \nWILL TAKE PLACE WI COORD AS FLW :\n011415N1040707E - 011411N1041107E - 011415N1041915E - \n012815N1045636E - 004235N1050619E - 002502N1040449E - \n001645N1033356E - 010804N1030437E - 010755N1034421E - \n011245N1035736E - 011410N1040307E - 011415N1040707E\nRMK : ALL TFC SUBJ ATC CLR\nF) 8000FT AMSL G) 11000FT AMSL",
+ "year": 2026
+}

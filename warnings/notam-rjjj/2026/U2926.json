@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-18T09:51:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 32.4833,
+   "lon": 130.0333,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2051/0951",
+  "shape": "polygon",
+  "starts_at": "2026-08-26T20:51:00Z",
+  "upper": "394FT AMSL",
+  "upper_fl": 4
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U2926",
+ "issued_at": "2026-08-25T08:34:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2926",
+ "positions": [
+  [
+   32.50333,
+   130.01694
+  ],
+  [
+   32.47667,
+   130.02111
+  ],
+  [
+   32.4725,
+   130.03722
+  ],
+  [
+   32.485,
+   130.045
+  ],
+  [
+   32.50056,
+   130.04361
+  ],
+  [
+   32.50333,
+   130.01694
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U2926/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/004/3229N13002E002\nA)RJJJ B)2608262051 C)2611180951\nD)2051/0951\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n323012N1300101E - 322836N1300116E - 322821N1300214E - 322906N1300242E\n- 323002N1300237E - 323012N1300101E \n(AMAKUSA-GUN IN KUMAMOTO)\nWT: 1.7KG\nFLT TIME: HJ\nCONTACT INFORMATION: 0969-35-1811\nF)SFC G)394FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "5000FT AMSL",
+  "lower_fl": 50,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.5333,
+   "lon": 121.6,
+   "radius_nm": 18
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-09-30T16:00:00Z",
+  "upper": "FL260",
+  "upper_fl": 260
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2223",
+ "issued_at": "2026-09-03T02:27:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2223",
+ "positions": [
+  [
+   23.25889,
+   121.48
+  ],
+  [
+   23.79944,
+   121.58556
+  ],
+  [
+   23.79944,
+   121.71667
+  ],
+  [
+   23.25889,
+   121.71722
+  ],
+  [
+   23.25889,
+   121.48
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2223/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/050/260/2332N12136E018\nA) RCAA\nB) 2609301600 C) 2611301600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:M260820001802\n2.LCA:XINCHENG TOWNSHIP, HUALIEN COUNTY\n3.THE AREA OVERLAPS PART OF VFR CORRIDOR C6, \n  ACFT ARE CTN ADZ.\n4.COOR TEL:04-27023051, 0917-761236\n5.AREA AS FLW:\n231532N 1212848E\n234758N 1213508E\n234758N 1214300E\n231532N 1214302E\n231532N 1212848E\nF) 5000FT AMSL G) FL260",
+ "year": 2026
+}

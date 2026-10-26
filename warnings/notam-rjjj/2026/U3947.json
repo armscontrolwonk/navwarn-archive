@@ -1,0 +1,79 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.4667,
+   "lon": 136.65,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0800",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T00:00:00Z",
+  "upper": "460FT AMSL",
+  "upper_fl": 5
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3947",
+ "issued_at": "2026-10-22T15:40:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3947",
+ "positions": [
+  [
+   35.48667,
+   136.65694
+  ],
+  [
+   35.48611,
+   136.65944
+  ],
+  [
+   35.47722,
+   136.65639
+  ],
+  [
+   35.46806,
+   136.64972
+  ],
+  [
+   35.45889,
+   136.64722
+  ],
+  [
+   35.45972,
+   136.64306
+  ],
+  [
+   35.47056,
+   136.64806
+  ],
+  [
+   35.47833,
+   136.65306
+  ],
+  [
+   35.48667,
+   136.65694
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3947/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/005/3528N13639E002\nA)RJJJ B)2610270000 C)2610290800\nD)0000/0800\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n352912N1363925E - 352910N1363934E - 352838N1363923E - 352805N1363859E\n- 352732N1363850E - 352735N1363835E - 352814N1363853E -\n352842N1363911E - 352912N1363925E \n(MOTOSU-SHI, IBI-GUN IN GIFU)\nWT: 10.2KG\nCONTACT INFORMATION: 080-2993-5034\nF)SFC G)460FT AMSL",
+ "year": 2026
+}

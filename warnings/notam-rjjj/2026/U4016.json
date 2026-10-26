@@ -1,0 +1,91 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T07:40:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.7333,
+   "lon": 139.5,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2102/0740",
+  "shape": "polygon",
+  "starts_at": "2026-10-29T21:02:00Z",
+  "upper": "5578FT AMSL",
+  "upper_fl": 56
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U4016",
+ "issued_at": "2026-10-26T06:52:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U4016",
+ "positions": [
+  [
+   36.72694,
+   139.475
+  ],
+  [
+   36.72694,
+   139.47944
+  ],
+  [
+   36.72083,
+   139.47833
+  ],
+  [
+   36.72444,
+   139.47278
+  ],
+  [
+   36.72694,
+   139.475
+  ],
+  [
+   36.73028,
+   139.5275
+  ],
+  [
+   36.73,
+   139.52556
+  ],
+  [
+   36.72889,
+   139.52583
+  ],
+  [
+   36.72778,
+   139.52139
+  ],
+  [
+   36.72667,
+   139.52083
+  ],
+  [
+   36.72833,
+   139.52806
+  ],
+  [
+   36.73028,
+   139.5275
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4016/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/056/3644N13930E003\nA)RJJJ B)2610292102 C)2611060740\nD)2102/0740\nE)UNMANNED ACFT:\n(1)AREA: BOUNDED BY FLW POINTS\n364337N1392830E - 364337N1392846E - 364315N1392842E - 364328N1392822E\n- 364337N1392830E \n(2)AREA: BOUNDED BY FLW POINTS\n364349N1393139E - 364348N1393132E - 364344N1393133E - 364340N1393117E\n- 364336N1393115E - 364342N1393141E - 364349N1393139E \n(NIKKO-SHI IN TOCHIGI)\nWT: 0.3KG\nFLT TIME: HJ\nF)SFC G)5578FT AMSL",
+ "year": 2026
+}

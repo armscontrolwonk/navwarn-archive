@@ -1,0 +1,40 @@
+{
+ "cancels": [
+  "notam-lrbb/2026/A3810"
+ ],
+ "expires_at": "2027-01-07T21:59:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "exercise",
+  "location": "LRBB",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 45.0167,
+   "lon": 25.5167,
+   "radius_nm": 234
+  },
+  "qcode": "QGWXX",
+  "queried_fir": "LRBB",
+  "starts_at": "2026-10-05T06:01:00Z",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lrbb/2026/A5413",
+ "issued_at": "2026-10-05T06:01:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A5413",
+ "positions": [],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "GNSS OUTAGE:",
+ "text": "A5413/26 NOTAMR A3810/26\nQ) LRBB/QGWXX/IV/NBO/E /000/999/4501N02531E234\nA) LRBB B) 2610050601 C) 2701072159\nE) GNSS OUTAGE:\n   OCCASIONALLY GNSS SIGNAL JAMMING AND/OR POSSIBLE SPOOFING\n   WERE ENCOUNTERED AND REPORTED BY ACFT OVERFLYING OR LANDING IN \n   BUCURESTI FIR. AIRCREWS SHALL EXERCISE CAUTION WHEN USING\n   FLIGHT NAVIGATION BASED ON THESE SENSORS IN DIFFERENT \n   PHASES OF THE FLIGHT. IN BUCURESTI FIR CONVENTIONAL NAVIGATION\n   INFRASTRUCTURE AVAILABLE. FOR MORE INFORMATION, ALSO CONSULT\n   EASA SIB NO. 2022-02R4",
+ "year": 2026
+}

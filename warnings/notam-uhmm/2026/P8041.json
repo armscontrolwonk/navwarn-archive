@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-26T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 52.98944,
+    "lon": 158.71639,
+    "radius_nm": 0.65
+   }
+  ],
+  "fir": "UHMM",
+  "kind": "restricted",
+  "location": "UHMM",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 52.9833,
+   "lon": 158.7,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHMM",
+  "starts_at": "2026-10-21T00:00:00Z",
+  "upper": "1000M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uhmm/2026/P8041",
+ "issued_at": "2026-10-19T06:39:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P8041",
+ "positions": [
+  [
+   52.98944,
+   158.71639
+  ]
+ ],
+ "series": "notam-uhmm",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 1.2KM CENTRE 525922N1584259E.",
+ "text": "P8041/26 NOTAMN\nQ)UHMM/QRTCA/IV/BO/W/000/040/5259N15842E001\nA)UHMM B)2610210000 C)2610262359\nE)AIRSPACE CLSD WI CIRCLE RADIUS 1.2KM CENTRE 525922N1584259E.\nRESTRICTION NOT APPLY TO MANNED ACFT.\nF)GND  G)1000M AMSL",
+ "year": 2026
+}

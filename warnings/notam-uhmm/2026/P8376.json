@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-01T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 52.53861,
+    "lon": 158.20167,
+    "radius_nm": 1.08
+   }
+  ],
+  "fir": "UHMM",
+  "kind": "restricted",
+  "location": "UHMM",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 52.5333,
+   "lon": 158.2,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHMM",
+  "starts_at": "2026-10-27T00:00:00Z",
+  "upper": "1000M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uhmm/2026/P8376",
+ "issued_at": "2026-10-24T05:37:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P8376",
+ "positions": [
+  [
+   52.53861,
+   158.20167
+  ]
+ ],
+ "series": "notam-uhmm",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 2KM CENTRE 523219N1581206E.",
+ "text": "P8376/26 NOTAMN\nQ)UHMM/QRTCA/IV/BO/W/000/040/5232N15812E002\nA)UHMM B)2610270000 C)2611012359\nE)AIRSPACE CLSD WI CIRCLE RADIUS 2KM CENTRE 523219N1581206E.\nMANNED ACFT NOT AFFECTED.\nF)GND  G)1000M AMSL",
+ "year": 2026
+}

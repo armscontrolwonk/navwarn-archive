@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-16T14:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "exercise",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.8,
+   "lon": 27.8167,
+   "radius_nm": 5
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTBB",
+  "schedule": "0500-1400",
+  "starts_at": "2026-10-16T05:00:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A4628",
+ "issued_at": "2026-10-14T13:02:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4628",
+ "positions": [
+  [
+   38.8,
+   27.81667
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TRAINING FLIGHT WILL TAKE PLACE",
+ "text": "A4628/26 NOTAMN\nQ) LTBB/QWELW/IV/BO /W /000/100/3848N02749E005\nA) LTBB B) 2610160500 C) 2701161400\nD) 0500-1400\nE) TRAINING FLIGHT WILL TAKE PLACE\nAREA: CENTERED 384800N0274900E WITH 5NM RADIUS\nWI IZMIR TMA AND AKHISAR CTR\nF) SFC G) 10000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T13:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 24.9833,
+   "lon": 121.45,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "schedule": "2100-1300",
+  "shape": "polygon",
+  "starts_at": "2026-10-04T21:00:00Z",
+  "upper": "1700FT AMSL",
+  "upper_fl": 17
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2487",
+ "issued_at": "2026-09-29T02:39:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2487",
+ "positions": [
+  [
+   24.98917,
+   121.44167
+  ],
+  [
+   24.98806,
+   121.45778
+  ],
+  [
+   24.9775,
+   121.45806
+  ],
+  [
+   24.97389,
+   121.43667
+  ],
+  [
+   24.98583,
+   121.43278
+  ],
+  [
+   24.98917,
+   121.44167
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2487/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/017/2459N12127E001\nA) RCAA\nB) 2610042100 C) 2610301300\nD) 2100-1300\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260810001202\n2.LCA:BANQIAO DISTRICT, NEW TAIPEI CITY\n3.THE AREA OVERLAPS PART OF VFR CORRIDOR C10 AND\n PART OF VFR HEL RTE H2, ACFT ARE CTN ADZ.\n4.COOR TEL:0901-335732, 0917-337567\n5.AREA AS FLW:\n245921N 1212630E\n245917N 1212728E\n245839N 1212729E\n245826N 1212612E\n245909N 1212558E\n245921N 1212630E\nF) SFC G) 1700FT AMSL",
+ "year": 2026
+}

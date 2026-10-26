@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-01T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 24.1,
+   "lon": 120.65,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-10-12T16:00:00Z",
+  "upper": "3300FT AMSL",
+  "upper_fl": 33
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2536",
+ "issued_at": "2026-10-05T04:00:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2536",
+ "positions": [
+  [
+   24.10556,
+   120.65528
+  ],
+  [
+   24.10556,
+   120.65667
+  ],
+  [
+   24.10472,
+   120.65722
+  ],
+  [
+   24.10417,
+   120.65583
+  ],
+  [
+   24.10556,
+   120.65528
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2536/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/033/2406N12039E001\nA) RCAA\nB) 2610121600 C) 2612011600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260916003004\n2.LCA:WURI DISTRICT, TAICHUNG CITY\n3.COOR TEL:0989-310732, 0953-830118\n4.AREA AS FLW:\n240620N 1203919E\n240620N 1203924E\n240617N 1203926E\n240615N 1203921E\n240620N 1203919E\nF) SFC G) 3300FT AMSL",
+ "year": 2026
+}

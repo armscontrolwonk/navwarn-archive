@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "1000FT AMSL",
+  "lower_fl": 10,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.85,
+   "lon": 119.0333,
+   "radius_nm": 22
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-08-31T16:00:00Z",
+  "upper": "6000FT AMSL",
+  "upper_fl": 60
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2008",
+ "issued_at": "2026-08-13T06:31:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2008",
+ "positions": [
+  [
+   22.85444,
+   118.64778
+  ],
+  [
+   23.18472,
+   119.18583
+  ],
+  [
+   22.85583,
+   119.42472
+  ],
+  [
+   22.74833,
+   119.23528
+  ],
+  [
+   22.85444,
+   118.64778
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2008/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/010/060/2251N11902E022\nA) RCAA\nB) 2608311600 C) 2610311600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB251211001004\n2.LCA:XIYU TOWNSHIP, PENGHU COUNTY\n3.COOR TEL:0926-329500, 0911-012182\n4.AREA AS FLW:\n225116N 1183852E\n231105N 1191109E\n225121N 1192529E\n224454N 1191407E\n225116N 1183852E\nF) 1000FT AMSL G) 6000FT AMSL",
+ "year": 2026
+}

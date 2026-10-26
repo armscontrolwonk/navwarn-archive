@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-11T10:00:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "restricted",
+  "location": "VABF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.1833,
+   "lon": 74.0667,
+   "radius_nm": 19
+  },
+  "qcode": "QRACA",
+  "queried_fir": "VABF",
+  "schedule": "0600-1000",
+  "shape": "polygon",
+  "starts_at": "2026-10-12T06:00:00Z",
+  "upper": "FL250",
+  "upper_fl": 250
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-vabf/2026/A1475",
+ "issued_at": "2026-09-28T09:49:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A1475",
+ "positions": [
+  [
+   22.40722,
+   74.14694
+  ],
+  [
+   22.10583,
+   73.78111
+  ],
+  [
+   21.90917,
+   74.00806
+  ],
+  [
+   22.24111,
+   74.38111
+  ],
+  [
+   22.40722,
+   74.14694
+  ]
+ ],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE RESERVATION DUE TEST FLT WI THE AREA BOUNDED BY",
+ "text": "A1475/26 NOTAMN\nQ) VABF/QRACA/IV/NBO/W/000/250/2211N07404E019\nA) VABF B) 2610120600 C) 2612111000\nD) 0600-1000\nE) AIRSPACE RESERVATION DUE TEST FLT WI THE AREA BOUNDED BY\n   COORD:\n   222426N 0740849E-220621N 0734652E-\n   215433N 0740029E-221428N 0742252E-\n   222426N 0740849E\nF) GND G) FL250",
+ "year": 2026
+}

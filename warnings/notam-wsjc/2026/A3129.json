@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T10:00:00Z",
+ "extra": {
+  "fir": "WSJC",
+  "kind": "drone",
+  "location": "WSJC",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 1.4667,
+   "lon": 103.9333,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WSJC",
+  "schedule": "OCT 26-31 0000-1000, NOV 01-30 0000-1000, DEC 01-31 0000-1000",
+  "shape": "polygon",
+  "starts_at": "2026-10-26T00:00:00Z",
+  "upper": "330FT AMSL",
+  "upper_fl": 4
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wsjc/2026/A3129",
+ "issued_at": "2026-10-15T10:31:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3129",
+ "positions": [
+  [
+   1.48506,
+   103.89691
+  ],
+  [
+   1.47353,
+   103.93494
+  ],
+  [
+   1.45189,
+   103.9423
+  ],
+  [
+   1.46052,
+   103.95928
+  ],
+  [
+   1.45502,
+   103.9801
+  ]
+ ],
+ "series": "notam-wsjc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE ALONG THE FLW COORD:",
+ "text": "A3129/26 NOTAMN\nQ)WSJC/QWULW/IV/BO/W/000/004/0128N10356E003\nA)WSJC B)2610260000 C)2612311000\nD)OCT 26-31 0000-1000, NOV 01-30 0000-1000, DEC 01-31 0000-1000\nE)UA ACT WILL TAKE PLACE ALONG THE FLW COORD:\n012906.22N1035348.86E-012824.69N1035605.78E-012706.79N1035632.28E-\n012737.87N1035733.39E-012718.07N1035848.36E.\nF)GND G)330FT AMSL",
+ "year": 2026
+}

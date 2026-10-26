@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-23T10:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 24.4333,
+   "lon": 121.0167,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "schedule": "2200-1000",
+  "shape": "polygon",
+  "starts_at": "2026-09-29T22:00:00Z",
+  "upper": "7500FT AMSL",
+  "upper_fl": 75
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2427",
+ "issued_at": "2026-09-22T02:09:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2427",
+ "positions": [
+  [
+   24.42833,
+   121.0125
+  ],
+  [
+   24.42972,
+   121.01583
+  ],
+  [
+   24.42361,
+   121.01611
+  ],
+  [
+   24.42417,
+   121.01222
+  ],
+  [
+   24.42833,
+   121.0125
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2427/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/075/2426N12101E001\nA) RCAA\nB) 2609292200 C) 2611231000\nD) 2200-1000\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260908001201\n2.LCA:TAIAN TOWNSHIP, MIAOLI COUNTY\n3.COOR TEL:0952-563743, 0975-013510\n4.AREA AS FLW:\n242542N 1210045E\n242547N 1210057E\n242525N 1210058E\n242527N 1210044E\n242542N 1210045E\nF) SFC G) 7500FT AMSL",
+ "year": 2026
+}

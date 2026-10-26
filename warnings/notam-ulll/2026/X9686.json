@@ -1,0 +1,69 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T16:55:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 60.01167,
+    "lon": 32.58111,
+    "radius_nm": 1.24
+   }
+  ],
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "900M AMSL",
+  "lower_fl": 30,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 60.0667,
+   "lon": 32.6833,
+   "radius_nm": 34
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "27-30 0705-1655",
+  "starts_at": "2026-10-27T07:05:00Z",
+  "upper": "3000M AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ulll/2026/X9686",
+ "issued_at": "2026-10-26T10:01:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "X9686",
+ "positions": [
+  [
+   60.01167,
+   32.58111
+  ],
+  [
+   60.0,
+   32.32472
+  ],
+  [
+   60.23333,
+   33.73806
+  ],
+  [
+   59.88194,
+   31.64333
+  ],
+  [
+   60.0,
+   32.32472
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "X9686/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/030/100/6004N03241E034\nA)ULLL B)2610270705 C)2610301655\nD)27-30 0705-1655\nE)AIRSPACE CLSD AS FLW:\n1. WI CIRCLE RADIUS 2.3KM CENTRE 600042N0323452E,\n   1650M AMSL-3000M AMSL.\n2. WI 1KM EITHER SIDE OF LINE JOINING POINTS:\n   600000N0321929E-601400N0334417E,\n   1650M AMSL-3000M AMSL.\n3. WI 1KM EITHER SIDE OF LINE JOINING POINTS:\n   595255N0313836E-600000N0321929E,\n   900M AMSL-1000M AMSL.\nF)900M AMSL  G)3000M AMSL",
+ "year": 2026
+}

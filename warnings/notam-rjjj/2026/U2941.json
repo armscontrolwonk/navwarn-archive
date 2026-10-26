@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.1,
+   "lon": 141.0833,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/0800",
+  "shape": "polygon",
+  "starts_at": "2026-08-31T22:00:00Z",
+  "upper": "2297FT AMSL",
+  "upper_fl": 23
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U2941",
+ "issued_at": "2026-08-26T03:06:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2941",
+ "positions": [
+  [
+   39.11972,
+   141.09306
+  ],
+  [
+   39.10417,
+   141.11167
+  ],
+  [
+   39.07444,
+   141.07694
+  ],
+  [
+   39.08861,
+   141.05778
+  ],
+  [
+   39.11972,
+   141.09306
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U2941/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/023/3906N14105E003\nA)RJJJ B)2608312200 C)2610310800\nD)2200/0800\nE)UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n390711N1410535E - 390615N1410642E - 390428N1410437E - 390519N1410328E\n- 390711N1410535E \n(OSHU-SHI IN IWATE)\nWT: 6KG\nF)SFC G)2297FT AMSL",
+ "year": 2026
+}

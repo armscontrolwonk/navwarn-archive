@@ -1,0 +1,76 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-27T10:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 60.85167,
+    "lon": 77.07194,
+    "radius_nm": 0.05
+   }
+  ],
+  "fir": "UNNT",
+  "kind": "restricted",
+  "location": "UNNT",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 60.85,
+   "lon": 77.0833,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNNT",
+  "starts_at": "2026-10-27T04:00:00Z",
+  "upper": "210M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-unnt/2026/L2852",
+ "issued_at": "2026-10-26T06:40:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "L2852",
+ "positions": [
+  [
+   60.85556,
+   77.05361
+  ],
+  [
+   60.86583,
+   77.08889
+  ],
+  [
+   60.85722,
+   77.1075
+  ],
+  [
+   60.85028,
+   77.09306
+  ],
+  [
+   60.84306,
+   77.0775
+  ],
+  [
+   60.85556,
+   77.05361
+  ],
+  [
+   60.85167,
+   77.07194
+  ]
+ ],
+ "series": "notam-unnt",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "L2852/26 NOTAMN\nQ)UNNT/QRTCA/IV/BO/W/000/010/6051N07705E001\nA)UNNT B)2610270400 C)2610271000\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 605120N0770313E-605157N0770520E-605126N0770627E-\n         605101N0770535E-605035N0770439E-605120N0770313E\n   80M AMSL-210M AMSL.\n2. WI CIRCLE RADIUS 0.1KM CENTRE 605106N0770419E\n   GND-210M AMSL.\nF)GND  G)210M AMSL",
+ "year": 2026
+}

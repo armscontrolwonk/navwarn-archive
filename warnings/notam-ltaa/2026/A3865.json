@@ -1,0 +1,77 @@
+{
+ "cancels": [
+  "notam-ltaa/2026/A2328"
+ ],
+ "expires_at": "2026-11-03T11:30:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 38.2667,
+   "lon": 32.8667,
+   "radius_nm": 12
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "schedule": "SR-SS",
+  "shape": "polygon",
+  "starts_at": "2026-09-02T06:20:00Z",
+  "upper": "5500FT AMSL",
+  "upper_fl": 55
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A3865",
+ "issued_at": "2026-09-02T06:22:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3865",
+ "positions": [
+  [
+   38.16667,
+   32.88333
+  ],
+  [
+   38.16667,
+   32.76667
+  ],
+  [
+   38.13333,
+   32.75
+  ],
+  [
+   38.11667,
+   32.85
+  ],
+  [
+   38.41667,
+   32.76667
+  ],
+  [
+   38.16667,
+   32.76667
+  ],
+  [
+   38.16667,
+   33.0
+  ],
+  [
+   38.41667,
+   33.0
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TRAINING FLIGHT WILL TAKE PLACE WITHIN TRAINING AREAS",
+ "text": "A3865/26 NOTAMR A2328/26\nQ) LTAA/QWELW/IV/BO /W /000/055/3816N03252E012\nA) LTAA B) 2609020620 C) 2611031130EST\nD) SR-SS\nE) TRAINING FLIGHT WILL TAKE PLACE WITHIN TRAINING AREAS\nKTOTA2: 381000N0325300E 381000N0324600E 380800N0324500E \n380700N0325100E\nKTOTA3: 382500N0324600E 381000N0324600E 381000N0330000E \n382500N0330000E\n\nREF SUP 21/25\nF) SFC G) 5500FT AMSL",
+ "year": 2026
+}

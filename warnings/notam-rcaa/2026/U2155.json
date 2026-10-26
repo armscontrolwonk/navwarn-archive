@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T10:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.3,
+   "lon": 120.5833,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "schedule": "0000-1000",
+  "shape": "polygon",
+  "starts_at": "2026-09-04T00:00:00Z",
+  "upper": "3000FT AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2155",
+ "issued_at": "2026-08-31T03:09:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2155",
+ "positions": [
+  [
+   23.29944,
+   120.58083
+  ],
+  [
+   23.30111,
+   120.58167
+  ],
+  [
+   23.29972,
+   120.58528
+  ],
+  [
+   23.29778,
+   120.58417
+  ],
+  [
+   23.29944,
+   120.58083
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2155/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/030/2318N12035E001\nA) RCAA\nB) 2609040000 C) 2610311000\nD) 0000-1000\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260814000702\n2.LCA:DAPU TOWNSHIP, CHIAYI COUNTY\n3.THE AREA OVERLAPS PART OF GUEIREN MIL TRAINING AREA, \n  ACFT ARE CTN ADZ.\n4.COOR TEL:0955-691626, 0958-399540, 0980-650541\n5.AREA AS FLW:\n231758N 1203451E\n231804N 1203454E\n231759N 1203507E\n231752N 1203503E\n231758N 1203451E\nF) SFC G) 3000FT AMSL",
+ "year": 2026
+}

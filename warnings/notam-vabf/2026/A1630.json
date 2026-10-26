@@ -1,0 +1,90 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-13T12:00:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "exercise",
+  "location": "VABF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 18.4667,
+   "lon": 73.7833,
+   "radius_nm": 16
+  },
+  "qcode": "QWELW",
+  "queried_fir": "VABF",
+  "shape": "polygon",
+  "starts_at": "2026-10-16T11:30:00Z",
+  "upper": "7000FT AGL",
+  "upper_fl": 36
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-vabf/2026/A1630",
+ "issued_at": "2026-10-16T11:25:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A1630",
+ "positions": [
+  [
+   18.45,
+   73.51667
+  ],
+  [
+   18.3,
+   73.61667
+  ],
+  [
+   18.36667,
+   73.73333
+  ],
+  [
+   18.35,
+   73.85
+  ],
+  [
+   18.41667,
+   73.88333
+  ],
+  [
+   18.48333,
+   73.85
+  ],
+  [
+   18.5,
+   73.83333
+  ],
+  [
+   18.45,
+   73.81667
+  ],
+  [
+   18.43333,
+   73.76667
+  ],
+  [
+   18.45,
+   73.61667
+  ],
+  [
+   18.45,
+   73.56667
+  ],
+  [
+   18.45,
+   73.51667
+  ]
+ ],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "NDA LOCAL FLYING ACT WILL BE CARRIED OUT WI ",
+ "text": "A1630/26 NOTAMN\nQ) VABF/QWELW/IV/NBO/E/000/036/1828N07347E016\nA) VABF B) 2610161130 C) 2701131200\nE) NDA LOCAL FLYING ACT WILL BE CARRIED OUT WI \n   AREA BOUNDED BY COORD\n\n   1827N07331E- 1818N07337E- 1822N07344E- \n   1821N07351E- 1825N07353E- 1829N07351E- \n   1830N07350E- 1827N07349E- 1826N07346E- \n   1827N07337E- 1827N07334E- 1827N07331E\n\n   WITH APPROX 16NM FM NDA ARP TO FACILITATE CADETS \n   TRAINING FLYING ACT AT NDA IN COORDINATION \n   WITH PUNE.CTN TO ALL ENROUTE TRAFFIC, WHILE \n   TRANSITING NDA LOCAL FLYING AREA.\nF) GND G) 7000FT AGL",
+ "year": 2026
+}

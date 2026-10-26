@@ -1,0 +1,105 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T16:55:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 60.55833,
+    "lon": 33.68167,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 60.6833,
+   "lon": 33.2167,
+   "radius_nm": 24
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "25-30 0701-1655",
+  "starts_at": "2026-10-25T07:01:00Z",
+  "upper": "5200M AMSL",
+  "upper_fl": 170
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ulll/2026/X9420",
+ "issued_at": "2026-10-23T06:51:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "X9420",
+ "positions": [
+  [
+   60.42,
+   33.80694
+  ],
+  [
+   60.32111,
+   32.94639
+  ],
+  [
+   60.40722,
+   32.64194
+  ],
+  [
+   60.70583,
+   32.75806
+  ],
+  [
+   60.88333,
+   32.78167
+  ],
+  [
+   60.90167,
+   33.71722
+  ],
+  [
+   60.97694,
+   33.75861
+  ],
+  [
+   60.96806,
+   33.79056
+  ],
+  [
+   60.87639,
+   33.80472
+  ],
+  [
+   60.77833,
+   33.81472
+  ],
+  [
+   60.65194,
+   33.80694
+  ],
+  [
+   60.49833,
+   33.76639
+  ],
+  [
+   60.42,
+   33.80694
+  ],
+  [
+   60.55833,
+   33.68167
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "X9420/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/170/6041N03313E024\nA)ULLL B)2610250701 C)2610301655\nD)25-30 0701-1655\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 602512N0334825E-601916N0325647E-602426N0323831E-\n         604221N0324529E-605300N0324654E-605406N0334302E-\n         605837N0334531E-605805N0334726E-605235N0334817E-\n         604642N0334853E-603907N0334825E-602954N0334559E-\n         602512N0334825E\n   850M AMSL-5200M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 603330N0334054E\n   GND-850M AMSL.\nF)GND  G)5200M AMSL",
+ "year": 2026
+}

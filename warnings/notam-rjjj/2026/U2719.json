@@ -1,0 +1,79 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-04T09:32:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.2,
+   "lon": 142.5167,
+   "radius_nm": 11
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "1934/0932",
+  "shape": "polygon",
+  "starts_at": "2026-08-18T19:34:00Z",
+  "upper": "2497FT AMSL",
+  "upper_fl": 25
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U2719",
+ "issued_at": "2026-08-06T16:32:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2719",
+ "positions": [
+  [
+   44.10694,
+   142.48639
+  ],
+  [
+   44.1625,
+   142.35694
+  ],
+  [
+   44.28,
+   142.32778
+  ],
+  [
+   44.28417,
+   142.34944
+  ],
+  [
+   44.17417,
+   142.37222
+  ],
+  [
+   44.12444,
+   142.47556
+  ],
+  [
+   44.11889,
+   142.71056
+  ],
+  [
+   44.0975,
+   142.69167
+  ],
+  [
+   44.10694,
+   142.48639
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U2719/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/025/4412N14231E011\nA)RJJJ B)2608181934 C)2611040932\nD)1934/0932\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n440625N1422911E - 440945N1422125E - 441648N1421940E - 441703N1422058E\n- 441027N1422220E - 440728N1422832E - 440708N1424238E -\n440551N1424130E - 440625N1422911E \n(SHIBETSU-SHI, NAYORO-SHI, KAMIKAWA-GUN IN HOKKAIDO)\nWT: 15.8KG\nFLT TIME: HJ\nCONTACT INFORMATION: 011-376-5488\nRMK: THIS AREA IS INCLUDED IN HK1-1,HK1-2,HK1-3\nF)SFC G)2497FT AMSL",
+ "year": 2026
+}

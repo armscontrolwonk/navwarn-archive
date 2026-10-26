@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-22T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.4667,
+   "lon": 120.3,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-10-22T16:00:00Z",
+  "upper": "2000FT AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2655",
+ "issued_at": "2026-10-13T02:06:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2655",
+ "positions": [
+  [
+   23.48028,
+   120.3
+  ],
+  [
+   23.48444,
+   120.31
+  ],
+  [
+   23.47861,
+   120.32222
+  ],
+  [
+   23.45889,
+   120.31694
+  ],
+  [
+   23.46389,
+   120.29417
+  ],
+  [
+   23.48028,
+   120.3
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2655/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/020/2328N12018E002\nA) RCAA\nB) 2610221600 C) 2612221600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260923002801\n2.LCA:TAIBAO CITY, CHIAYI COUNTY\n3.THE AREA OVERLAPS PART OF VFR CORRIDOR C13, \n  ACFT ARE CTN ADZ.\n4.COOR TEL:0952-123316, 0955-963530\n5.AREA AS FLW:\n232849N 1201800E\n232904N 1201836E\n232843N 1201920E\n232732N 1201901E\n232750N 1201739E\n232849N 1201800E\nF) SFC G) 2000FT AMSL",
+ "year": 2026
+}

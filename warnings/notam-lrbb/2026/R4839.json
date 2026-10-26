@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-27T17:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "firing",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.0167,
+   "lon": 28.4667,
+   "radius_nm": 2
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T07:00:00Z",
+  "upper": "8200FT AMSL",
+  "upper_fl": 82
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lrbb/2026/R4839",
+ "issued_at": "2026-10-26T15:36:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "R4839",
+ "positions": [
+  [
+   44.03333,
+   28.45
+  ],
+  [
+   44.03333,
+   28.5
+  ],
+  [
+   44.00833,
+   28.5
+  ],
+  [
+   44.00833,
+   28.43333
+  ],
+  [
+   44.03333,
+   28.45
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "DANGER AREA ACTIVATED.",
+ "text": "R4839/26 NOTAMN\nQ) LRBB/QRDCA/IV/BO /W /000/082/4401N02828E002\nA) LRBB B) 2610270700 C) 2610271700\nE) DANGER AREA ACTIVATED.\n   FRNG WILL TAKE PLACE INTO THE FLW AREA:\n   440200N0282700E-440200N0283000E-440030N0283000E-440030N0282600E\n   440200N0282700E\nF) GND G) 8200FT AMSL",
+ "year": 2026
+}

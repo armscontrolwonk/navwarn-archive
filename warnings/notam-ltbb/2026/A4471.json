@@ -1,0 +1,65 @@
+{
+ "cancels": [
+  "notam-ltbb/2026/A4245"
+ ],
+ "expires_at": "2026-10-31T12:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "drone",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 37.8833,
+   "lon": 27.2667,
+   "radius_nm": 5
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTBB",
+  "schedule": "0700-1200",
+  "shape": "polygon",
+  "starts_at": "2026-10-05T07:32:00Z",
+  "upper": "4000FT AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A4471",
+ "issued_at": "2026-10-05T07:33:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4471",
+ "positions": [
+  [
+   37.93889,
+   27.23167
+  ],
+  [
+   37.93278,
+   27.32056
+  ],
+  [
+   37.81944,
+   27.30556
+  ],
+  [
+   37.83167,
+   27.22611
+  ],
+  [
+   37.93889,
+   27.23167
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL TAKE PLACE",
+ "text": "A4471/26 NOTAMR A4245/26\nQ) LTBB/QWULW/IV/BO /W /000/040/3753N02716E005\nA) LTBB B) 2610050732 C) 2610311200\nD) 0700-1200\nE) UNMANNED ACFT WILL TAKE PLACE\nWI:IZMIR TMA AND EFES CTR \nAREA: 375620N0271354E 375558N0271914E 374910N0271820E \n374954N0271334E 375620N0271354E\nF) SFC G) 4000FT AMSL",
+ "year": 2026
+}

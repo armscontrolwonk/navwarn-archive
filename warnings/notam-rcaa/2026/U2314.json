@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.45,
+   "lon": 120.2833,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-30T16:00:00Z",
+  "upper": "5000FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2314",
+ "issued_at": "2026-09-08T04:09:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2314",
+ "positions": [
+  [
+   23.4575,
+   120.27028
+  ],
+  [
+   23.45417,
+   120.29
+  ],
+  [
+   23.44806,
+   120.28778
+  ],
+  [
+   23.45083,
+   120.28167
+  ],
+  [
+   23.45306,
+   120.26944
+  ],
+  [
+   23.4575,
+   120.27028
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2314/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/050/2327N12017E001\nA) RCAA\nB) 2611301600 C) 2612311600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:M260824000701\n2.LCA:PUZI CITY, CHIAYI COUNTY\n3.THE AREA OVERLAPS PART OF VFR CORRIDOR C13, ACFT ARE CTN ADZ.\n4.COOR TEL:04-27023051, 0937-787553, 0989-606983\n5.AREA AS FLW:\n232727N 1201613E\n232715N 1201724E\n232653N 1201716E\n232703N 1201654E\n232711N 1201610E\n232727N 1201613E\nF) SFC G) 5000FT AMSL",
+ "year": 2026
+}

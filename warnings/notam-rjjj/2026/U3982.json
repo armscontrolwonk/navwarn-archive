@@ -1,0 +1,78 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.7,
+   "lon": 136.15,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-10-31T00:00:00Z",
+  "upper": "2953FT AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3982",
+ "issued_at": "2026-10-24T00:18:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3982",
+ "positions": [
+  [
+   35.69972,
+   136.15528
+  ],
+  [
+   35.69694,
+   136.15667
+  ],
+  [
+   35.69472,
+   136.15583
+  ],
+  [
+   35.69333,
+   136.15333
+  ],
+  [
+   35.69389,
+   136.15028
+  ],
+  [
+   35.69444,
+   136.14944
+  ],
+  [
+   35.69528,
+   136.14944
+  ],
+  [
+   35.69806,
+   136.15
+  ],
+  [
+   35.69972,
+   136.15528
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3982/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/030/3542N13609E002\nA)RJJJ B)2610310000 C)2610310700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n354159N1360919E - 354149N1360924E - 354141N1360921E - 354136N1360912E\n- 354138N1360901E - 354140N1360858E - 354143N1360858E -\n354153N1360900E - 354159N1360919E \n(NAGAHAMA-SHI IN SHIGA, TSURUGA-SHI, NANJO-GUN IN FUKUI)\nWT: 2.1KG\nRMK: THIS AREA IS INCLUDED IN AREA 5\nF)SFC G)2953FT AMSL",
+ "year": 2026
+}

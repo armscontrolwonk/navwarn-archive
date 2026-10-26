@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T15:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.2333,
+   "lon": 137.5833,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-09-30T15:00:00Z",
+  "upper": "8859FT AMSL",
+  "upper_fl": 89
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3480",
+ "issued_at": "2026-09-30T00:11:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3480",
+ "positions": [
+  [
+   36.23722,
+   137.59639
+  ],
+  [
+   36.21889,
+   137.59639
+  ],
+  [
+   36.21889,
+   137.57917
+  ],
+  [
+   36.23722,
+   137.57917
+  ],
+  [
+   36.23722,
+   137.59639
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3480/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/089/3614N13735E002\nA)RJJJ B)2609301500 C)2611301500\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n361414N1373547E - 361308N1373547E - 361308N1373445E - 361414N1373445E\n- 361414N1373547E \n(MATSUMOTO-SHI IN NAGANO,TAKAYAMA-SHI IN GIFU)\nWT: 1.4KG\nNUMBER: 2\nF)SFC G)8859FT AMSL",
+ "year": 2026
+}

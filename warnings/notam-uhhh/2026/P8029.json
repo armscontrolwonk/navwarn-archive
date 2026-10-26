@@ -1,0 +1,89 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T11:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 46.54056,
+    "lon": 134.23417,
+    "radius_nm": 0.65
+   }
+  ],
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 46.5833,
+   "lon": 134.0667,
+   "radius_nm": 11
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "schedule": "27 2300-2359, 28 0000-0900 2100-2359, 29 0000-1100",
+  "starts_at": "2026-10-27T23:00:00Z",
+  "upper": "2000M AMSL",
+  "upper_fl": 70
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uhhh/2026/P8029",
+ "issued_at": "2026-10-19T05:50:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P8029",
+ "positions": [
+  [
+   46.54056,
+   134.23417
+  ],
+  [
+   46.43444,
+   134.16639
+  ],
+  [
+   46.55861,
+   134.26806
+  ],
+  [
+   46.68611,
+   134.26222
+  ],
+  [
+   46.6725,
+   134.03722
+  ],
+  [
+   46.62833,
+   134.0075
+  ],
+  [
+   46.58917,
+   133.91861
+  ],
+  [
+   46.46361,
+   133.86917
+  ],
+  [
+   46.41444,
+   133.94972
+  ],
+  [
+   46.43444,
+   134.16639
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P8029/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/070/4635N13404E011\nA)UHHH B)2610272300 C)2610291100\nD)27 2300-2359, 28 0000-0900 2100-2359, 29 0000-1100\nE)AIRSPACE CLSD AS FLW:\n1. WI CIRCLE RADIUS 1.2KM CENTRE 463226N1341403E\n   SFC-2000M AMSL.\n2. AREA: 462604N1340959E-463331N1341605E-464110N1341544E-\n         464021N1340214E-463742N1340027E-463521N1335507E-\n         462749N1335209E-462452N1335659E-462604N1340959E\n   400M AMSL-2000M AMSL.\nF)SFC  G)2000M AMSL",
+ "year": 2026
+}

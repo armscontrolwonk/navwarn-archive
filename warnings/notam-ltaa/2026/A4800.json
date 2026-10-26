@@ -1,0 +1,80 @@
+{
+ "cancels": [
+  "notam-ltaa/2026/A3283"
+ ],
+ "expires_at": "2026-11-30T20:59:00Z",
+ "extra": {
+  "fir": "LTXX",
+  "kind": "drone",
+  "location": "LTAA",
+  "lower": "FL180",
+  "lower_fl": 180,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 36.45,
+   "lon": 31.1167,
+   "radius_nm": 62
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTBB",
+  "shape": "polygon",
+  "starts_at": "2026-10-26T06:15:00Z",
+  "upper": "FL180",
+  "upper_fl": 180
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4800",
+ "issued_at": "2026-10-26T06:18:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4800",
+ "positions": [
+  [
+   36.24722,
+   32.34056
+  ],
+  [
+   36.29444,
+   31.40333
+  ],
+  [
+   36.38333,
+   30.50417
+  ],
+  [
+   36.38611,
+   29.89722
+  ],
+  [
+   36.63889,
+   29.89722
+  ],
+  [
+   36.24722,
+   32.34056
+  ],
+  [
+   36.24167,
+   32.76389
+  ],
+  [
+   36.24722,
+   32.34056
+  ],
+  [
+   36.625,
+   32.33889
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT FLIGHT WILL TAKE PLACE.",
+ "text": "A4800/26 NOTAMR A3283/26\nQ) LTXX/QWULW/IV/BO /W /180/180/3627N03107E062\nA) LTAA LTBB B) 2610260615 C) 2611302059\nE) UNMANNED ACFT FLIGHT WILL TAKE PLACE.\n\n1ST ROUTE: 361450N0322026E 361740N0312412E 362300N0303015E \n362310N0295350E 363820N0295350E 0.5NM EITHER SIDE OF A LINE\n\n2ND ROUTE: 361450N0322026E 361430N0324550E 0.5NM EITHER SIDE OF A \nLINE\n\n3RD ROUTE: 361450N0322026E 363730N0322020E 0.5NM EITHER SIDE OF A \nLINE\nF) FL180 G) FL180",
+ "year": 2026
+}

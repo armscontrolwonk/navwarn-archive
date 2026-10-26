@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T19:00:00Z",
+ "extra": {
+  "fir": "UACN",
+  "kind": "restricted",
+  "location": "UACN",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 52.45,
+   "lon": 76.8167,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UACN",
+  "schedule": "DAILY 0400-1900",
+  "starts_at": "2026-10-27T04:00:00Z",
+  "upper": "11000FT AMSL",
+  "upper_fl": 110
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uacn/2026/K3495",
+ "issued_at": "2026-10-25T07:24:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "K3495",
+ "positions": [
+  [
+   52.45,
+   76.81667
+  ]
+ ],
+ "series": "notam-uacn",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPORARY RESTRICTED AREA ACTIVATED WI 3 NM RADIUS",
+ "text": "K3495/26 NOTAMN\nQ) UACN/QRTCA/IV/BO /W /000/110/5227N07649E003\nA) UACN B) 2610270400 C) 2610311900\nD) DAILY 0400-1900\nE) TEMPORARY RESTRICTED AREA ACTIVATED WI 3 NM RADIUS\nCENTRED ON 522700N 0764900E.\nF) GND G) 11000FT AMSL",
+ "year": 2026
+}

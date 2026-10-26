@@ -1,0 +1,111 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T08:21:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.4167,
+   "lon": 140.4167,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/0821",
+  "shape": "polygon",
+  "starts_at": "2026-09-14T23:00:00Z",
+  "upper": "3866FT AMSL",
+  "upper_fl": 39
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3185",
+ "issued_at": "2026-09-10T08:44:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3185",
+ "positions": [
+  [
+   40.43111,
+   140.39389
+  ],
+  [
+   40.43111,
+   140.36194
+  ],
+  [
+   40.41861,
+   140.36194
+  ],
+  [
+   40.41194,
+   140.36222
+  ],
+  [
+   40.40917,
+   140.36222
+  ],
+  [
+   40.40417,
+   140.35389
+  ],
+  [
+   40.40333,
+   140.35361
+  ],
+  [
+   40.40583,
+   140.36667
+  ],
+  [
+   40.40583,
+   140.37056
+  ],
+  [
+   40.40583,
+   140.37861
+  ],
+  [
+   40.40583,
+   140.39444
+  ],
+  [
+   40.43111,
+   140.39389
+  ],
+  [
+   40.43528,
+   140.42889
+  ],
+  [
+   40.42111,
+   140.465
+  ],
+  [
+   40.39417,
+   140.44722
+  ],
+  [
+   40.40889,
+   140.41139
+  ],
+  [
+   40.43528,
+   140.42889
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3185/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/039/4025N14025E004\nA)RJJJ B)2609142300 C)2611060821\nD)2300/0821\nE)UNMANNED ACFT:\n(1)AREA: BOUNDED BY FLW POINTS\n402552N1402338E - 402552N1402143E - 402507N1402143E - 402443N1402144E\n- 402433N1402144E - 402415N1402114E - 402412N1402113E -\n402421N1402200E - 402421N1402214E - 402421N1402243E - 402421N1402340E\n- 402552N1402338E \n(2)AREA: BOUNDED BY FLW POINTS\n402607N1402544E - 402516N1402754E - 402339N1402650E - 402432N1402441E\n- 402607N1402544E \n(ODATE-SHI IN AKITA)\nWT: 15.8KG\nFLT TIME: 2300/SS\nRMK: THIS AREA IS INCLUDED IN TH2-1,TH2-4\nF)SFC G)3866FT AMSL",
+ "year": 2026
+}

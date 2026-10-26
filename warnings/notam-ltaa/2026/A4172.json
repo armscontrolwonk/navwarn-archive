@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-25T14:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "12000FT AMSL",
+  "lower_fl": 120,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.3833,
+   "lon": 31.35,
+   "radius_nm": 20
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "schedule": "0500-1400 EXC SAT SUN",
+  "shape": "polygon",
+  "starts_at": "2026-09-28T05:00:00Z",
+  "upper": "50000FT AMSL",
+  "upper_fl": 500
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4172",
+ "issued_at": "2026-09-21T11:03:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4172",
+ "positions": [
+  [
+   39.58333,
+   31.05
+  ],
+  [
+   39.58333,
+   31.66667
+  ],
+  [
+   39.41667,
+   31.75
+  ],
+  [
+   39.18333,
+   31.05
+  ],
+  [
+   39.58333,
+   31.05
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXERCISE(SUPERSONIC SPEED) WILL TAKE PLACE WI ESKISEHIR MILITARY ",
+ "text": "A4172/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /120/500/3923N03121E020\nA) LTAA B) 2609280500 C) 2612251400\nD) 0500-1400 EXC SAT SUN\nE) EXERCISE(SUPERSONIC SPEED) WILL TAKE PLACE WI ESKISEHIR MILITARY \nTMA: 393500N0310300E 393500N0314000E 392500N0314500E 391100N0310300E \n393500N0310300E\nF) 12000FT AMSL G) 50000FT AMSL",
+ "year": 2026
+}

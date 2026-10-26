@@ -1,0 +1,69 @@
+{
+ "cancels": [
+  "notam-ltbb/2026/A3383"
+ ],
+ "expires_at": "2026-11-10T14:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "exercise",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 40.65,
+   "lon": 29.3833,
+   "radius_nm": 9
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTBB",
+  "schedule": "0500-1400 EXC SAT SUN",
+  "shape": "polygon",
+  "starts_at": "2026-09-09T06:50:00Z",
+  "upper": "3500FT AMSL",
+  "upper_fl": 35
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A3958",
+ "issued_at": "2026-09-09T06:54:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3958",
+ "positions": [
+  [
+   40.62833,
+   29.19806
+  ],
+  [
+   40.65778,
+   29.19722
+  ],
+  [
+   40.71083,
+   29.33611
+  ],
+  [
+   40.72056,
+   29.49889
+  ],
+  [
+   40.675,
+   29.55833
+  ],
+  [
+   40.62833,
+   29.19806
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TRAINING FLIGHT WILL TAKE PLACE WI ISTANBUL TMA: 403742N0291153E ",
+ "text": "A3958/26 NOTAMR A3383/26\nQ) LTBB/QWELW/IV/BO /W /000/035/4039N02923E009\nA) LTBB B) 2609090650 C) 2611101400\nD) 0500-1400 EXC SAT SUN\nE) TRAINING FLIGHT WILL TAKE PLACE WI ISTANBUL TMA: 403742N0291153E \n403928N0291150E 404239N0292010E 404314N0292956E 404030N0293330E \n403742N0291153E\nF) SFC G) 3500FT AMSL",
+ "year": 2026
+}

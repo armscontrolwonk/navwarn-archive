@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-02T15:00:00Z",
+ "extra": {
+  "fir": "URRV",
+  "kind": "route",
+  "location": "URRV",
+  "lower": "350M AMSL",
+  "lower_fl": 10,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.35,
+   "lon": 46.1167,
+   "radius_nm": 25
+  },
+  "qcode": "QARLC",
+  "queried_fir": "URRV",
+  "schedule": "DAILY 0600-1500",
+  "starts_at": "2026-10-28T06:00:00Z",
+  "upper": "450M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-urrv/2026/V8179",
+ "issued_at": "2026-10-26T05:45:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "V8179",
+ "positions": [],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENT CLSD:",
+ "text": "V8179/26 NOTAMN\nQ)URRV/QARLC/IV/NBO/E/010/020/4421N04607E025\nA)URRV B)2610280600 C)2611021500\nD)DAILY 0600-1500\nE)ATS RTE SEGMENT CLSD:\nKR383 IRFON-VUNMI.\nF)350M AMSL  G)450M AMSL",
+ "year": 2026
+}

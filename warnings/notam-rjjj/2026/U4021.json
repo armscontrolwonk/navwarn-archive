@@ -1,0 +1,74 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T05:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.4333,
+   "lon": 132.4667,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-10-28T02:30:00Z",
+  "upper": "1664FT AMSL",
+  "upper_fl": 17
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U4021",
+ "issued_at": "2026-10-26T10:23:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U4021",
+ "positions": [
+  [
+   34.43722,
+   132.47
+  ],
+  [
+   34.44389,
+   132.47361
+  ],
+  [
+   34.44306,
+   132.47778
+  ],
+  [
+   34.43861,
+   132.47667
+  ],
+  [
+   34.43278,
+   132.47278
+  ],
+  [
+   34.4275,
+   132.46667
+  ],
+  [
+   34.43056,
+   132.46306
+  ],
+  [
+   34.43722,
+   132.47
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4021/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/017/3426N13228E002\nA)RJJJ B)2610280230 C)2610280500\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n342614N1322812E - 342638N1322825E - 342635N1322840E - 342619N1322836E\n- 342558N1322822E - 342539N1322800E - 342550N1322747E -\n342614N1322812E \n(HIROSHIMA-SHI)\nWT: 4.4KG\nF)SFC G)1664FT AMSL",
+ "year": 2026
+}

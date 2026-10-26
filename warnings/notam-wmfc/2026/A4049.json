@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T14:30:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 3.05,
+   "lon": 101.6833,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "29-30 0700-1500 31 1230-1430",
+  "shape": "polygon",
+  "starts_at": "2026-10-29T07:00:00Z",
+  "upper": "660FT AGL",
+  "upper_fl": 8
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wmfc/2026/A4049",
+ "issued_at": "2026-10-14T04:48:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4049",
+ "positions": [
+  [
+   3.05833,
+   101.69306
+  ],
+  [
+   3.05694,
+   101.69333
+  ],
+  [
+   3.05694,
+   101.69417
+  ],
+  [
+   3.05833,
+   101.69417
+  ],
+  [
+   3.05833,
+   101.69306
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI THE FLW COORD:",
+ "text": "A4049/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/008/0303N10141E001\nA) WMFC B) 2610290700 C) 2610311430 \nD) 29-30 0700-1500\n   31 1230-1430\nE) UA ACT WILL TAKE PLACE WI THE FLW COORD:\n\n   030330.00N 1014135.00E - 030325.00N 1014136.00E -\n   030325.00N 1014139.00E - 030330.00N 1014139.00E - \n   030330.00N 1014135.00E\n\n   (STADIUM BUKIT JALIL,KUALA LUMPUR)\nF) SFC                             G) 660FT AGL",
+ "year": 2026
+}

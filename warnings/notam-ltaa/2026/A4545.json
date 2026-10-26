@@ -1,0 +1,87 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T14:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "other",
+  "location": "LTAA",
+  "lower": "4000FT AMSL",
+  "lower_fl": 40,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.9833,
+   "lon": 35.3833,
+   "radius_nm": 15
+  },
+  "qcode": "QWYLW",
+  "queried_fir": "LTAA",
+  "schedule": "0600-1400",
+  "shape": "polygon",
+  "starts_at": "2026-10-08T12:00:00Z",
+  "upper": "5500FT AMSL",
+  "upper_fl": 55
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4545",
+ "issued_at": "2026-10-08T12:11:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4545",
+ "positions": [
+  [
+   37.075,
+   35.15583
+  ],
+  [
+   37.10083,
+   35.29306
+  ],
+  [
+   37.11028,
+   35.49889
+  ],
+  [
+   37.01944,
+   35.53111
+  ],
+  [
+   37.00889,
+   35.67472
+  ],
+  [
+   36.94972,
+   35.67139
+  ],
+  [
+   36.92194,
+   35.49083
+  ],
+  [
+   36.90694,
+   35.30056
+  ],
+  [
+   36.93806,
+   35.15556
+  ],
+  [
+   37.02833,
+   35.10917
+  ],
+  [
+   37.075,
+   35.15583
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AERIAL SURVEY WILL TAKE PLACE",
+ "text": "A4545/26 NOTAMN\nQ) LTAA/QWYLW/IV/M  /W /040/055/3659N03523E015\nA) LTAA B) 2610081200 C) 2610311400\nD) 0600-1400\nE) AERIAL SURVEY WILL TAKE PLACE\nAREA: 370430N0350921E 370603N0351735E 370637N0352956E 370110N0353152E\n370032N0354029E 365659N0354017E 365519N0352927E 365425N0351802E \n365617N0350920E 370142N0350633E 370430N0350921E\nF) 4000FT AMSL G) 5500FT AMSL",
+ "year": 2026
+}

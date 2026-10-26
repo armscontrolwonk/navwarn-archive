@@ -1,0 +1,91 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.25,
+   "lon": 140.2,
+   "radius_nm": 7
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/0800",
+  "shape": "polygon",
+  "starts_at": "2026-08-13T23:00:00Z",
+  "upper": "2461FT AMSL",
+  "upper_fl": 25
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U2727",
+ "issued_at": "2026-08-07T01:23:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2727",
+ "positions": [
+  [
+   39.31861,
+   140.29389
+  ],
+  [
+   39.32139,
+   140.29778
+  ],
+  [
+   39.31861,
+   140.30639
+  ],
+  [
+   39.31417,
+   140.30333
+  ],
+  [
+   39.31861,
+   140.29389
+  ],
+  [
+   39.31944,
+   140.25417
+  ],
+  [
+   39.32528,
+   140.17194
+  ],
+  [
+   39.32806,
+   140.17694
+  ],
+  [
+   39.33333,
+   140.16889
+  ],
+  [
+   39.33167,
+   140.16472
+  ],
+  [
+   39.32528,
+   140.17194
+  ],
+  [
+   39.2,
+   140.09639
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U2727/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/025/3915N14012E007\nA)RJJJ B)2608132300 C)2610310800\nD)2300/0800\nE)UNMANNED ACFT:\n(1)AREA: BOUNDED BY FLW POINTS\n391907N1401738E - 391917N1401752E - 391907N1401823E - 391851N1401812E\n- 391907N1401738E \n(2)AREA: RADIUS 335M CENTER 391910N1401515E \n(3)AREA: BOUNDED BY FLW POINTS\n391931N1401019E - 391941N1401037E - 392000N1401008E - 391954N1400953E\n- 391931N1401019E \n(4)AREA: RADIUS 421M CENTER 391200N1400547E \n(YURIHONJO-SHI IN AKITA)\nWT: 9KG\nF)SFC G)2461FT AMSL",
+ "year": 2026
+}

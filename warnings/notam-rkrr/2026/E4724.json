@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T14:59:00Z",
+ "extra": {
+  "fir": "RKRR",
+  "kind": "restricted",
+  "location": "RKRR",
+  "lower": "2000FT AGL",
+  "lower_fl": 20,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.95,
+   "lon": 127.6833,
+   "radius_nm": 21
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "RKRR",
+  "schedule": "SEP 30 1500-2359, OCT 01-31 0000-0900 1100-2359, NOV 01-30 0000-0900 1100-2359, DEC 01-30 0000-0900 1100-2359, 31 0000-0900 1100-1459",
+  "shape": "polygon",
+  "starts_at": "2026-09-30T15:00:00Z",
+  "upper": "6000FT AMSL",
+  "upper_fl": 60
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rkrr/2026/E4724",
+ "issued_at": "2026-09-30T09:16:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "E4724",
+ "positions": [
+  [
+   37.67444,
+   127.86694
+  ],
+  [
+   37.66667,
+   127.75
+  ],
+  [
+   37.88611,
+   127.69556
+  ],
+  [
+   37.93917,
+   127.60028
+  ],
+  [
+   38.21028,
+   127.45694
+  ],
+  [
+   38.22972,
+   127.48944
+  ]
+ ],
+ "series": "notam-rkrr",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO RESTRICTED AREA ACT AS FLW:",
+ "text": "E4724/26 NOTAMN  \nQ)RKRR/QRTCA/IV/BO/W/020/060/3757N12741E021\nA)RKRR B)2609301500 C)2612311459\nD)SEP 30 1500-2359, OCT 01-31 0000-0900 1100-2359, NOV 01-30 \n0000-0900 1100-2359, DEC 01-30 0000-0900 1100-2359, 31 0000-0900 \n1100-1459\nE)TEMPO RESTRICTED AREA ACT AS FLW:\n1NM EITHER SIDE OF LINE \n374028N1275201E-374000N1274500E-375310N1274144E-375621N1273601E-38014\n0N1272742E-381237N1272725E-381347N1272922E\nF)2000FT AGL G)6000FT AMSL",
+ "year": 2026
+}

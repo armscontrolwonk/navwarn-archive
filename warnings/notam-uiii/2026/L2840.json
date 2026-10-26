@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-03T10:35:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 51.8825,
+    "lon": 107.93417,
+    "radius_nm": 16.2
+   }
+  ],
+  "fir": "UIII",
+  "kind": "restricted",
+  "location": "UIII",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 51.8667,
+   "lon": 107.9333,
+   "radius_nm": 17
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UIII",
+  "schedule": "OCT 28 2115-2135, 29 2125-2145, 31 1000-1020, NOV 01 1005- 1025, 02 1010-1030, 03 1015-1035",
+  "starts_at": "2026-10-28T21:15:00Z",
+  "upper": "UNL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uiii/2026/L2840",
+ "issued_at": "2026-10-26T06:08:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "L2840",
+ "positions": [
+  [
+   51.8825,
+   107.93417
+  ]
+ ],
+ "series": "notam-uiii",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 30KM CENTRE 515257N1075603E.",
+ "text": "L2840/26 NOTAMN\nQ)UIII/QRTCA/IV/BO/W/000/999/5152N10756E017\nA)UIII B)2610282115 C)2611031035\nD)OCT 28 2115-2135, 29 2125-2145, 31 1000-1020, NOV 01 1005-\n  1025, 02 1010-1030, 03 1015-1035\nE)AIRSPACE CLSD WI CIRCLE RADIUS 30KM CENTRE 515257N1075603E.\nF)GND  G)UNL",
+ "year": 2026
+}

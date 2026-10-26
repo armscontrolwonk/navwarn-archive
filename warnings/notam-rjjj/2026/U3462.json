@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.2167,
+   "lon": 140.1667,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0800",
+  "shape": "polygon",
+  "starts_at": "2026-09-29T00:00:00Z",
+  "upper": "1411FT AMSL",
+  "upper_fl": 15
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3462",
+ "issued_at": "2026-09-28T08:18:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3462",
+ "positions": [
+  [
+   35.21194,
+   140.17472
+  ],
+  [
+   35.20833,
+   140.17861
+  ],
+  [
+   35.20583,
+   140.175
+  ],
+  [
+   35.20778,
+   140.17222
+  ],
+  [
+   35.20944,
+   140.17278
+  ],
+  [
+   35.21194,
+   140.17472
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3462/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/015/3513N14010E001\nA)RJJJ B)2609290000 C)2610300800\nD)0000/0800\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n351243N1401029E - 351230N1401043E - 351221N1401030E - 351228N1401020E\n- 351234N1401022E - 351243N1401029E \n(ISUMI-GUN IN CHIBA)\nWT: 110KG\nF)SFC G)1411FT AMSL",
+ "year": 2026
+}

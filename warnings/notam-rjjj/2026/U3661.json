@@ -1,0 +1,83 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T07:29:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.1833,
+   "lon": 139.6167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0729",
+  "shape": "polygon",
+  "starts_at": "2026-10-21T00:00:00Z",
+  "upper": "1379FT AMSL",
+  "upper_fl": 14
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3661",
+ "issued_at": "2026-10-09T02:13:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3661",
+ "positions": [
+  [
+   36.19139,
+   139.61556
+  ],
+  [
+   36.18972,
+   139.61389
+  ],
+  [
+   36.19139,
+   139.61167
+  ],
+  [
+   36.19306,
+   139.61333
+  ],
+  [
+   36.19139,
+   139.61556
+  ],
+  [
+   36.18611,
+   139.61833
+  ],
+  [
+   36.1875,
+   139.61556
+  ],
+  [
+   36.19028,
+   139.61722
+  ],
+  [
+   36.1875,
+   139.6225
+  ],
+  [
+   36.18611,
+   139.61833
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U3661/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/014/3611N13937E002\nA)RJJJ B)2610210000 C)2611250729\nD)0000/0729\nE)UNMANNED ACFT(FIXED WING):\n(1)AREA: BOUNDED BY FLW POINTS\n361129N1393656E - 361123N1393650E - 361129N1393642E - 361135N1393648E\n- 361129N1393656E \n(2)AREA: BOUNDED BY FLW POINTS\n361110N1393706E - 361115N1393656E - 361125N1393702E - 361115N1393721E\n- 361110N1393706E \n(KAZO-SHI IN SAITAMA)\nWT: 15KG\nNUMBER: 3\nFLT TIME: 0000/SS\nRMK: THIS AREA IS INCLUDED IN KK4-5\nTHIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)1379FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T16:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "exercise",
+  "location": "LTBB",
+  "lower": "14000FT AMSL",
+  "lower_fl": 140,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.1667,
+   "lon": 26.45,
+   "radius_nm": 10
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTBB",
+  "schedule": "DAILY 0600-1600",
+  "shape": "polygon",
+  "starts_at": "2026-09-01T06:00:00Z",
+  "upper": "14000FT AMSL",
+  "upper_fl": 140
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A3808",
+ "issued_at": "2026-08-28T09:10:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3808",
+ "positions": [
+  [
+   38.25194,
+   26.295
+  ],
+  [
+   38.24667,
+   26.615
+  ],
+  [
+   38.13583,
+   26.63333
+  ],
+  [
+   38.07528,
+   26.45139
+  ],
+  [
+   38.11694,
+   26.35389
+  ],
+  [
+   38.25194,
+   26.295
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "SAR EXERCISE WILL TAKE PLACE WI IZMIR TMA: 381507N0261742E ",
+ "text": "A3808/26 NOTAMN\nQ) LTBB/QWELW/IV/BO /W /140/140/3810N02627E010\nA) LTBB B) 2609010600 C) 2611301600\nD) DAILY 0600-1600\nE) SAR EXERCISE WILL TAKE PLACE WI IZMIR TMA: 381507N0261742E \n381448N0263654E 380809N0263800E 380431N0262705E 380701N0262114E \n381507N0261742E\nF) 14000FT AMSL G) 14000FT AMSL",
+ "year": 2026
+}

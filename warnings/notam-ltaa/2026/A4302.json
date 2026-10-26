@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T17:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.4333,
+   "lon": 37.0667,
+   "radius_nm": 3
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LTAA",
+  "schedule": "0500-1700",
+  "shape": "polygon",
+  "starts_at": "2026-10-01T05:00:00Z",
+  "upper": "16000FT AMSL",
+  "upper_fl": 160
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4302",
+ "issued_at": "2026-09-28T08:31:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4302",
+ "positions": [
+  [
+   37.46667,
+   37.08333
+  ],
+  [
+   37.43333,
+   37.11667
+  ],
+  [
+   37.4,
+   37.05
+  ],
+  [
+   37.43333,
+   37.01667
+  ],
+  [
+   37.46667,
+   37.08333
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "GUN FIRING WILL TAKE PLACE WI KAHRAMANMARAS TMA",
+ "text": "A4302/26 NOTAMN\nQ) LTAA/QWMLW/IV/BO /W /000/160/3726N03704E003\nA) LTAA B) 2610010500 C) 2610311700\nD) 0500-1700\nE) GUN FIRING WILL TAKE PLACE WI KAHRAMANMARAS TMA\nAREA: 372800N0370500E 372600N0370700E 372400N0370300E \n372600N0370100E 372800N0370500E\nF) SFC G) 16000FT AMSL",
+ "year": 2026
+}

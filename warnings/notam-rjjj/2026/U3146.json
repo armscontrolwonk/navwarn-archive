@@ -1,0 +1,79 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T08:33:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.0167,
+   "lon": 138.35,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2023/0833",
+  "shape": "polygon",
+  "starts_at": "2026-09-08T20:23:00Z",
+  "upper": "9843FT AMSL",
+  "upper_fl": 99
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3146",
+ "issued_at": "2026-09-08T01:22:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3146",
+ "positions": [
+  [
+   36.01028,
+   138.3275
+  ],
+  [
+   36.00972,
+   138.3275
+  ],
+  [
+   36.00944,
+   138.33639
+  ],
+  [
+   36.00306,
+   138.34333
+  ],
+  [
+   36.01417,
+   138.35944
+  ],
+  [
+   36.01472,
+   138.35917
+  ],
+  [
+   36.01722,
+   138.35611
+  ],
+  [
+   36.01056,
+   138.33583
+  ],
+  [
+   36.01028,
+   138.3275
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3146/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/099/3601N13821E002\nA)RJJJ B)2609082023 C)2611300833\nD)2023/0833\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n360037N1381939E - 360035N1381939E - 360034N1382011E - 360011N1382036E\n- 360051N1382134E - 360053N1382133E - 360102N1382122E -\n360038N1382009E - 360037N1381939E \n(CHINO-SHI IN NAGANO)\nWT: 150KG\nFLT TIME: HJ\nF)SFC G)9843FT AMSL",
+ "year": 2026
+}

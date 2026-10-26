@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T07:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.6833,
+   "lon": 136.85,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "26-29 NOV 01-05 2330/0730",
+  "shape": "polygon",
+  "starts_at": "2026-10-26T23:30:00Z",
+  "upper": "1411FT AMSL",
+  "upper_fl": 15
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U4010",
+ "issued_at": "2026-10-26T04:00:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U4010",
+ "positions": [
+  [
+   36.67944,
+   136.82444
+  ],
+  [
+   36.67056,
+   136.82889
+  ],
+  [
+   36.68389,
+   136.85944
+  ],
+  [
+   36.69306,
+   136.8575
+  ],
+  [
+   36.67944,
+   136.82444
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4010/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/015/3641N13651E002\nA)RJJJ B)2610262330 C)2611060730\nD)26-29 NOV 01-05 2330/0730\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n364046N1364928E - 364014N1364944E - 364102N1365134E - 364135N1365127E\n- 364046N1364928E \n(OYABE-SHI IN TOYAMA)\nWT: 1.5KG\nF)SFC G)1411FT AMSL",
+ "year": 2026
+}

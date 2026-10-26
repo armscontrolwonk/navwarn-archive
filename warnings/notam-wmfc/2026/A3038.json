@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-22T00:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 2.6333,
+   "lon": 102.0333,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "shape": "polygon",
+  "starts_at": "2026-08-24T00:00:00Z",
+  "upper": "500FT AMSL",
+  "upper_fl": 5
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wmfc/2026/A3038",
+ "issued_at": "2026-08-06T02:53:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3038",
+ "positions": [
+  [
+   2.655,
+   102.00556
+  ],
+  [
+   2.65528,
+   102.02333
+  ],
+  [
+   2.63667,
+   102.04278
+  ],
+  [
+   2.63222,
+   102.06194
+  ],
+  [
+   2.63333,
+   102.08361
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI THE FLW COORDS:",
+ "text": "A3038/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/005/0238N10202E001\nA) WMFC B) 2608240000 C) 2611220000 \nE)   UA ACT WILL TAKE PLACE WI THE FLW COORDS:\n\n   023918.00N 1020020.00E -\n   023919.00N 1020124.00E -\n   023812.00N 1020234.00E -\n   023756.00N 1020343.00E -\n   023800.00N 1020501.00E\n\n   (PEDAS MLL, NEGERI SEMBILAN) \nF) SFC                             G) 500FT AMSL",
+ "year": 2026
+}

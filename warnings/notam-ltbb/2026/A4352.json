@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T09:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "drone",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.5,
+   "lon": 27.1333,
+   "radius_nm": 11
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTBB",
+  "schedule": "0400-0900",
+  "shape": "polygon",
+  "starts_at": "2026-10-01T04:00:00Z",
+  "upper": "5000FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A4352",
+ "issued_at": "2026-09-30T09:41:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4352",
+ "positions": [
+  [
+   37.62722,
+   27.00639
+  ],
+  [
+   37.64028,
+   27.08972
+  ],
+  [
+   37.64194,
+   27.22417
+  ],
+  [
+   37.40528,
+   27.25222
+  ],
+  [
+   37.34528,
+   27.21778
+  ],
+  [
+   37.35556,
+   27.13417
+  ],
+  [
+   37.62722,
+   27.00639
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT FLT WILL TAKE PLACE WI MILAS TMA: 373738N0270023E ",
+ "text": "A4352/26 NOTAMN\nQ) LTBB/QWULW/IV/BO /W /000/050/3730N02708E011\nA) LTBB B) 2610010400 C) 2610310900\nD) 0400-0900\nE) UNMANNED ACFT FLT WILL TAKE PLACE WI MILAS TMA: 373738N0270023E \n373825N0270523E 373831N0271327E 372419N0271508E 372043N0271304E \n372120N0270803E 373738N0270023E\nF) SFC G) 5000FT AMSL",
+ "year": 2026
+}

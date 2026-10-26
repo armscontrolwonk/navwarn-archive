@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-27T12:00:00Z",
+ "extra": {
+  "fir": "USTV",
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 65.0167,
+   "lon": 78.1667,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USTV",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T04:00:00Z",
+  "upper": "700M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ustv/2026/Z4776",
+ "issued_at": "2026-10-25T10:42:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "Z4776",
+ "positions": [
+  [
+   65.02167,
+   78.17944
+  ],
+  [
+   65.01833,
+   78.19111
+  ],
+  [
+   65.00056,
+   78.16694
+  ],
+  [
+   65.00194,
+   78.14444
+  ],
+  [
+   65.00389,
+   78.14278
+  ],
+  [
+   65.005,
+   78.14389
+  ],
+  [
+   65.02167,
+   78.17944
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "Z4776/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/030/6501N07810E001\nA)USTV B)2610270400 C)2610271200\nE)AIRSPACE CLSD WI AREA:\n650118N0781046E-650106N0781128E-650002N0781001E-650007N0780840E-\n650014N0780834E-650018N0780838E-650118N0781046E\nF)SFC  G)700M AMSL",
+ "year": 2026
+}

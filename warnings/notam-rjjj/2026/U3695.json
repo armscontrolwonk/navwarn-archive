@@ -1,0 +1,95 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.5,
+   "lon": 138.5333,
+   "radius_nm": 10
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/0800",
+  "shape": "polygon",
+  "starts_at": "2026-10-20T22:00:00Z",
+  "upper": "7547FT AMSL",
+  "upper_fl": 76
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3695",
+ "issued_at": "2026-10-09T08:48:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3695",
+ "positions": [
+  [
+   36.63528,
+   138.50889
+  ],
+  [
+   36.63389,
+   138.50889
+  ],
+  [
+   36.63,
+   138.53972
+  ],
+  [
+   36.63278,
+   138.54222
+  ],
+  [
+   36.64139,
+   138.5375
+  ],
+  [
+   36.64278,
+   138.5325
+  ],
+  [
+   36.63528,
+   138.50889
+  ],
+  [
+   36.38139,
+   138.52139
+  ],
+  [
+   36.38139,
+   138.54361
+  ],
+  [
+   36.37583,
+   138.55917
+  ],
+  [
+   36.365,
+   138.54333
+  ],
+  [
+   36.375,
+   138.51694
+  ],
+  [
+   36.38139,
+   138.52139
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3695/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/076/3630N13832E010\nA)RJJJ B)2610202200 C)2610300800\nD)2200/0800\nE)UNMANNED ACFT:\n(1)AREA: BOUNDED BY FLW POINTS\n363807N1383032E - 363802N1383032E - 363748N1383223E - 363758N1383232E\n- 363829N1383215E - 363834N1383157E - 363807N1383032E \n(2)AREA: BOUNDED BY FLW POINTS\n362253N1383117E - 362253N1383237E - 362233N1383333E - 362154N1383236E\n- 362230N1383101E - 362253N1383117E \n(AGATSUMA-GUN IN GUNMA,KITASAKU-GUN IN NAGANO)\nWT: 150KG\nF)SFC G)7547FT AMSL",
+ "year": 2026
+}

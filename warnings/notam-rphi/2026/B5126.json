@@ -1,0 +1,74 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T23:59:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "drone",
+  "location": "RPHI",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 7.9667,
+   "lon": 122.8667,
+   "radius_nm": 87
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RPHI",
+  "shape": "polygon",
+  "starts_at": "2026-10-01T00:00:00Z",
+  "upper": "7000FT AMSL",
+  "upper_fl": 70
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rphi/2026/B5126",
+ "issued_at": "2026-09-29T02:29:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "B5126",
+ "positions": [
+  [
+   8.67722,
+   121.99778
+  ],
+  [
+   8.81556,
+   124.01639
+  ],
+  [
+   8.25278,
+   124.01917
+  ],
+  [
+   8.25639,
+   123.31222
+  ],
+  [
+   7.53111,
+   123.30139
+  ],
+  [
+   7.12056,
+   122.41861
+  ],
+  [
+   7.12917,
+   121.70639
+  ],
+  [
+   8.67722,
+   121.99778
+  ]
+ ],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UAS FLT OPS WILL TAKE PLACE WI:",
+ "text": "B5126/26 NOTAMN\nQ) RPHI/QWULW/IV/BO /W /000/070/0758N12252E087\nA) RPHI B) 2610010000 C) 2612312359\nE) UAS FLT OPS WILL TAKE PLACE WI:\n084038N 1215952E - \n084856N 1240059E - \n081510N 1240109E - \n081523N 1231844E - \n073152N 1231805E - \n070714N 1222507E - \n070745N 1214223E - \n084038N 1215952E\n(ZAMBOANGA PENINSULA).\n\nRMK: UTILIZED FOR BILATERAL KAPIT-BISIG OPS\n     NON-PARTICIPATING ACFT EXER CTN.\nF) SFC G) 7000FT AMSL",
+ "year": 2026
+}

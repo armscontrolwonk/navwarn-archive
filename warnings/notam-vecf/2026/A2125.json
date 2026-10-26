@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-14T18:29:00Z",
+ "extra": {
+  "fir": "VECF",
+  "kind": "firing",
+  "location": "VECF",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 18.45,
+   "lon": 85.2333,
+   "radius_nm": 30
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "VECF",
+  "schedule": "11 1831-2359 12 13 0000-2359 14 0000-1829",
+  "shape": "polygon",
+  "starts_at": "2026-11-11T18:31:00Z",
+  "upper": "20000FT AMSL",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-vecf/2026/A2125",
+ "issued_at": "2026-10-21T09:52:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A2125",
+ "positions": [
+  [
+   19.29454,
+   84.92011
+  ],
+  [
+   19.17911,
+   84.78968
+  ],
+  [
+   18.93388,
+   84.87736
+  ],
+  [
+   19.2055,
+   85.24864
+  ],
+  [
+   19.29454,
+   84.92011
+  ]
+ ],
+ "series": "notam-vecf",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "VED-50 ACT AND ARMY FLY ACT INPR WI COORD:",
+ "text": "A2125/26 NOTAMN\nQ) VECF/QWMLW/IV/BO/W/000/200/1827N08514E030\nA) VECF B) 2611111831 C) 2611141829\nD) 11 1831-2359 12 13 0000-2359 14 0000-1829\nE) VED-50 ACT AND ARMY FLY ACT INPR WI COORD:\nPOINT A 191740.33N 0845512.40E\nPOINT B 191044.80N 0844722.85E\nPOINT C 185601.96N 0845238.50E\nPOINT D 191219.81N 0851455.09E AND\nPOINT A 191740.33N 0845512.40E\nF) SFC G) 20000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,87 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T08:09:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.7167,
+   "lon": 140.9833,
+   "radius_nm": 14
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2050/0809",
+  "shape": "polygon",
+  "starts_at": "2026-10-25T20:50:00Z",
+  "upper": "985FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3831",
+ "issued_at": "2026-10-16T13:45:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3831",
+ "positions": [
+  [
+   35.90806,
+   140.88583
+  ],
+  [
+   35.84417,
+   140.90611
+  ],
+  [
+   35.77556,
+   140.91444
+  ],
+  [
+   35.70583,
+   140.91028
+  ],
+  [
+   35.62278,
+   140.88806
+  ],
+  [
+   35.55417,
+   140.84444
+  ],
+  [
+   35.5075,
+   140.95333
+  ],
+  [
+   35.68972,
+   141.03417
+  ],
+  [
+   35.85111,
+   141.0275
+  ],
+  [
+   35.9325,
+   141.00944
+  ],
+  [
+   35.90806,
+   140.88583
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3831/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/010/3543N14059E014\nA)RJJJ B)2610252050 C)2611300809\nD)2050/0809\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n355429N1405309E - 355039N1405422E - 354632N1405452E - 354221N1405437E\n- 353722N1405317E - 353315N1405040E - 353027N1405712E -\n354123N1410203E - 355104N1410139E - 355557N1410034E - 355429N1405309E\n(CHOSHI-SHI IN CHIBA)\nWT: 4.3KG\nFLT TIME:HJ\nF)SFC G)985FT AMSL",
+ "year": 2026
+}

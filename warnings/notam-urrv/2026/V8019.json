@@ -1,0 +1,98 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-01T15:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 44.79194,
+    "lon": 41.52306,
+    "radius_nm": 0.27
+   },
+   {
+    "lat": 44.78278,
+    "lon": 41.55583,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.7833,
+   "lon": 41.4833,
+   "radius_nm": 5
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "URRV",
+  "schedule": "OCT 28 31 NOV 01 0600-1500",
+  "starts_at": "2026-10-28T06:00:00Z",
+  "upper": "700M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-urrv/2026/V8019",
+ "issued_at": "2026-10-23T10:16:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "V8019",
+ "positions": [
+  [
+   44.82806,
+   41.40278
+  ],
+  [
+   44.79944,
+   41.47167
+  ],
+  [
+   44.8075,
+   41.48361
+  ],
+  [
+   44.78694,
+   41.5825
+  ],
+  [
+   44.75167,
+   41.56472
+  ],
+  [
+   44.79,
+   41.36944
+  ],
+  [
+   44.82333,
+   41.39139
+  ],
+  [
+   44.82167,
+   41.39639
+  ],
+  [
+   44.82806,
+   41.40278
+  ],
+  [
+   44.79194,
+   41.52306
+  ],
+  [
+   44.78278,
+   41.55583
+  ]
+ ],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "V8019/26 NOTAMN\nQ)URRV/QRTCA/IV/BO/W/000/030/4447N04129E005\nA)URRV B)2610280600 C)2611011500\nD)OCT 28 31 NOV 01 0600-1500\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 444941N0412410E-444758N0412818E-444827N0412901E-\n         444713N0413457E-444506N0413353E-444724N0412210E-\n         444924N0412329E-444918N0412347E-444941N0412410E\n   400M AMSL-700M AMSL.\n2. WI CIRCLE RADIUS 0.5KM CENTRE 444731N0413123E\n   GND-700M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 444658N0413321E\n   GND-700M AMSL.\nF)GND  G)700M AMSL",
+ "year": 2026
+}

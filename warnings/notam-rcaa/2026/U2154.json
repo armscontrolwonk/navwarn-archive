@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T10:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 24.8167,
+   "lon": 121.2667,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "schedule": "0000-1000",
+  "shape": "polygon",
+  "starts_at": "2026-09-04T00:00:00Z",
+  "upper": "3000FT AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2154",
+ "issued_at": "2026-08-31T03:08:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2154",
+ "positions": [
+  [
+   24.82,
+   121.26611
+  ],
+  [
+   24.82056,
+   121.26722
+  ],
+  [
+   24.81944,
+   121.26889
+  ],
+  [
+   24.81833,
+   121.26778
+  ],
+  [
+   24.82,
+   121.26611
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2154/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/030/2449N12116E001\nA) RCAA\nB) 2609040000 C) 2610311000\nD) 0000-1000\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260814000701\n2.LCA:DAXI DISTRICT, TAOYUAN CITY\n3.COOR TEL:0955-691626, 0958-399540, 0980-650541\n4.AREA AS FLW:\n244912N 1211558E\n244914N 1211602E\n244910N 1211608E\n244906N 1211604E\n244912N 1211558E\nF) SFC G) 3000FT AMSL",
+ "year": 2026
+}

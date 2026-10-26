@@ -1,0 +1,90 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T14:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 61.36667,
+    "lon": 76.60667,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 61.34944,
+    "lon": 76.57306,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "USTV",
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 61.25,
+   "lon": 76.4833,
+   "radius_nm": 11
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USTV",
+  "schedule": "DAILY 0300-1400",
+  "starts_at": "2026-10-24T03:00:00Z",
+  "upper": "210M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ustv/2026/Z4425",
+ "issued_at": "2026-10-22T05:41:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "Z4425",
+ "positions": [
+  [
+   61.11389,
+   76.28333
+  ],
+  [
+   61.15,
+   76.27083
+  ],
+  [
+   61.38667,
+   76.29278
+  ],
+  [
+   61.39694,
+   76.52
+  ],
+  [
+   61.37944,
+   76.7
+  ],
+  [
+   61.09028,
+   76.45
+  ],
+  [
+   61.11389,
+   76.28333
+  ],
+  [
+   61.36667,
+   76.60667
+  ],
+  [
+   61.34944,
+   76.57306
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z4425/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/010/6115N07629E011\nA)USTV B)2610240300 C)2610291400\nD)DAILY 0300-1400\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 610650N0761700E-610900N0761615E-612312N0761734E-\n         612349N0763112E-612246N0764200E-610525N0762700E-\n         610650N0761700E\n   190M AMSL-210M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 612200N0763624E\n   GND-210M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 612058N0763423E\n   GND-210M AMSL.\nF)GND  G)210M AMSL",
+ "year": 2026
+}

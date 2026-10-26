@@ -1,0 +1,73 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-01T11:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 69.32917,
+    "lon": 87.96639,
+    "radius_nm": 0.05
+   }
+  ],
+  "fir": "UNKL",
+  "kind": "restricted",
+  "location": "UNKL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 69.3333,
+   "lon": 87.9667,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNKL",
+  "schedule": "DAILY 0200-1100",
+  "starts_at": "2026-10-27T02:00:00Z",
+  "upper": "500M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-unkl/2026/L2815",
+ "issued_at": "2026-10-25T16:17:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "L2815",
+ "positions": [
+  [
+   69.33222,
+   87.96583
+  ],
+  [
+   69.32889,
+   87.97833
+  ],
+  [
+   69.32444,
+   87.96583
+  ],
+  [
+   69.32722,
+   87.95333
+  ],
+  [
+   69.33222,
+   87.96583
+  ],
+  [
+   69.32917,
+   87.96639
+  ]
+ ],
+ "series": "notam-unkl",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "L2815/26 NOTAMN\nQ)UNKL/QRTCA/IV/BO/W/000/020/6920N08758E001\nA)UNKL B)2610270200 C)2611011100\nD)DAILY 0200-1100\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 691956N0875757E-691944N0875842E-691928N0875757E-\n         691938N0875712E-691956N0875757E\n2. WI CIRCLE RADIUS 0.1KM CENTRE 691945N0875759E.\nF)GND  G)500M AMSL",
+ "year": 2026
+}

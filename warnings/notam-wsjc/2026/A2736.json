@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T10:00:00Z",
+ "extra": {
+  "fir": "WSXX",
+  "kind": "drone",
+  "location": "WSJC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 1.1167,
+   "lon": 104.0,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WSJC",
+  "schedule": "SEP 06-30 0100-1000, OCT 01-31 0100-1000, NOV 01-30 0100-1000",
+  "starts_at": "2026-09-06T01:00:00Z",
+  "upper": "600FT AMSL",
+  "upper_fl": 6
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wsjc/2026/A2736",
+ "issued_at": "2026-09-05T00:22:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A2736",
+ "positions": [
+  [
+   1.12139,
+   104.00528
+  ]
+ ],
+ "series": "notam-wsjc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA VEHICLE OPS WILL TAKE PLACE WI 0.06NM RADIUS CENTERED ON",
+ "text": "A2736/26 NOTAMN\nQ)WSXX/QWULW/IV/BO/W/000/006/0107N10400E002\nA)WSJC WIIF B)2609060100 C)2611301000\nD)SEP 06-30 0100-1000, OCT 01-31 0100-1000, NOV 01-30 0100-1000 \nE)UA VEHICLE OPS WILL TAKE PLACE WI 0.06NM RADIUS CENTERED ON\n010717N1040019E. RMK/ALL TFC SUBJ ATC CLR.\nF)SFC G)600FT AMSL",
+ "year": 2026
+}

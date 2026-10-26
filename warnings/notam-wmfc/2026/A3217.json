@@ -1,0 +1,58 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T10:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 1.85,
+   "lon": 103.0667,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "shape": "polygon",
+  "starts_at": "2026-08-20T00:00:00Z",
+  "upper": "100FT AGL",
+  "upper_fl": 2
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wmfc/2026/A3217",
+ "issued_at": "2026-08-19T10:30:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3217",
+ "positions": [
+  [
+   1.85694,
+   103.07583
+  ],
+  [
+   1.85694,
+   103.08306
+  ],
+  [
+   1.85278,
+   103.08306
+  ],
+  [
+   1.85278,
+   103.07583
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UAS ACT WILL TAKE PLACE AT FLW COORD :",
+ "text": "A3217/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/002/0151N10304E001\nA) WMFC B) 2608200000 C) 2611201000 \nE) UAS ACT WILL TAKE PLACE AT FLW COORD :\n   015125N1030433E - 015125N1030459E -\n   015110N1030459E - 015110N1030433E \n   (UNIVERSITI TUN HUSSEN ONN MALAYSIA, BATU PAHAT,JOHOR)\n\nF) SFC                             G) 100FT AGL",
+ "year": 2026
+}

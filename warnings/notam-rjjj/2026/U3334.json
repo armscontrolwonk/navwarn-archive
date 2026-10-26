@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.35,
+   "lon": 141.5,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0100/0700",
+  "shape": "polygon",
+  "starts_at": "2026-09-19T01:00:00Z",
+  "upper": "657FT AMSL",
+  "upper_fl": 7
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3334",
+ "issued_at": "2026-09-18T06:14:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3334",
+ "positions": [
+  [
+   43.35417,
+   141.4975
+  ],
+  [
+   43.35361,
+   141.49611
+  ],
+  [
+   43.35306,
+   141.49639
+  ],
+  [
+   43.35361,
+   141.49778
+  ],
+  [
+   43.35417,
+   141.4975
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3334/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/007/4321N14130E001\nA)RJJJ B)2609190100 C)2611300700\nD)0100/0700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n432115N1412951E - 432113N1412946E - 432111N1412947E - 432113N1412952E\n- 432115N1412951E \n(ISHIKARI-SHI IN HOKKAIDO)\nWT: 1.1KG\nRMK: THIS AREA IS INCLUDED IN HK11-3\nF)SFC G)657FT AMSL",
+ "year": 2026
+}

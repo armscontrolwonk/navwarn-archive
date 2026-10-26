@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T15:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "drone",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.3,
+   "lon": 33.4333,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTAA",
+  "schedule": "0900-1500",
+  "starts_at": "2026-08-05T09:00:00Z",
+  "upper": "3000FT AGL",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/C0397",
+ "issued_at": "2026-08-04T11:18:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "C0397",
+ "positions": [
+  [
+   38.30222,
+   33.43306
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT FLIGHT WILL TAKE PLACE WI",
+ "text": "C0397/26 NOTAMN\nQ) LTAA/QWULW/IV/BO /W /000/200/3818N03326E002\nA) LTAA B) 2608050900 C) 2610311500\nD) 0900-1500\nE) UNMANNED ACFT FLIGHT WILL TAKE PLACE WI\nAREA: CENTERED ON 381808N0332559E WITH RADIUS 1NM\nF) SFC G) 3000FT AGL",
+ "year": 2026
+}

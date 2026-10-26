@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-27T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.0333,
+   "lon": 138.45,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0700",
+  "shape": "polygon",
+  "starts_at": "2026-08-28T00:00:00Z",
+  "upper": "1198FT AMSL",
+  "upper_fl": 12
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U2865",
+ "issued_at": "2026-08-21T06:21:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2865",
+ "positions": [
+  [
+   38.02444,
+   138.44444
+  ],
+  [
+   38.03417,
+   138.44278
+  ],
+  [
+   38.03444,
+   138.445
+  ],
+  [
+   38.02472,
+   138.44694
+  ],
+  [
+   38.02444,
+   138.44444
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U2865/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/012/3802N13827E002\nA)RJJJ B)2608280000 C)2610270700\nD)0000/0700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n380128N1382640E - 380203N1382634E - 380204N1382642E - 380129N1382649E\n- 380128N1382640E \n(SADO-SHI IN NIIGATA)\nWT: 1.5KG\nF)SFC G)1198FT AMSL",
+ "year": 2026
+}

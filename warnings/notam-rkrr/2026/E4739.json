@@ -1,0 +1,60 @@
+{
+ "cancels": [
+  "notam-rkrr/2026/E3260"
+ ],
+ "expires_at": "2027-01-01T15:00:00Z",
+ "extra": {
+  "fir": "RKRR",
+  "kind": "restricted",
+  "location": "RKRR",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 36.05,
+   "lon": 128.2333,
+   "radius_nm": 4
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "RKRR",
+  "shape": "polygon",
+  "starts_at": "2026-10-01T01:28:00Z",
+  "upper": "FL196",
+  "upper_fl": 196
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rkrr/2026/E4739",
+ "issued_at": "2026-10-01T01:29:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "E4739",
+ "positions": [
+  [
+   36.02167,
+   128.17139
+  ],
+  [
+   36.04528,
+   128.22583
+  ],
+  [
+   36.06889,
+   128.28028
+  ],
+  [
+   36.04528,
+   128.22583
+  ]
+ ],
+ "series": "notam-rkrr",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO RESTRICTED AREA ACT AS FLW :",
+ "text": "E4739/26 NOTAMR E3260/26 \nQ)RKRR/QRTCA/IV/BO/W/000/196/3603N12814E004\nA)RKRR B)2610010128 C)2701011500EST\nE)TEMPO RESTRICTED AREA ACT AS FLW :\n1. AREA : A SEMICIRCLE, 360118N1281017E - A CLOCKWISE 3NM ARC\n   CENTERED ON 360243N1281333E-360408N1281649E TO THE BEGINNING\n   EXC A CIRCLE RADIUS 1.5NM CENTERED ON 360243N1281333E FM SFC TO\n   9500FT MSL.\n2. RMK : \n   -  THIS NOTAM APPLIES ONLY TO THE MIL ACFT EQUIPPED WITH EED\n      (ELECTRO EXPLOSIVE DEVICE). \n   -  REF AIP ENR 5.1-8\nF)SFC G)FL196",
+ "year": 2026
+}

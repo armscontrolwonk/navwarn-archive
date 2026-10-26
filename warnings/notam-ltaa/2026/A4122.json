@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-21T13:30:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.45,
+   "lon": 32.85,
+   "radius_nm": 20
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "schedule": "MON-FRI 0900-1000 1200-1330",
+  "shape": "polygon",
+  "starts_at": "2026-09-21T09:00:00Z",
+  "upper": "15000FT AMSL",
+  "upper_fl": 150
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4122",
+ "issued_at": "2026-09-18T09:23:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4122",
+ "positions": [
+  [
+   38.23333,
+   32.61667
+  ],
+  [
+   38.15,
+   33.01667
+  ],
+  [
+   38.7,
+   33.0
+  ],
+  [
+   38.73333,
+   32.68333
+  ],
+  [
+   38.23333,
+   32.61667
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TRAINING FLIGHT WILL TAKE PLACE",
+ "text": "A4122/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /000/150/3827N03251E020\nA) LTAA B) 2609210900 C) 2612211330\nD) MON-FRI 0900-1000 1200-1330\nE) TRAINING FLIGHT WILL TAKE PLACE\nAREA: 381400N0323700E 380900N0330100E 384200N0330000E \n384400N0324100E 381400N0323700E\nWI KONYA MILITARY TMA\nF) SFC G) 15000FT AMSL",
+ "year": 2026
+}

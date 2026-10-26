@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T06:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 32.0167,
+   "lon": 131.2333,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-10-28T04:00:00Z",
+  "upper": "1149FT AMSL",
+  "upper_fl": 12
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3960",
+ "issued_at": "2026-10-23T06:21:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3960",
+ "positions": [
+  [
+   32.0225,
+   131.22778
+  ],
+  [
+   32.02306,
+   131.22972
+  ],
+  [
+   32.02222,
+   131.23028
+  ],
+  [
+   32.02167,
+   131.22806
+  ],
+  [
+   32.0225,
+   131.22778
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3960/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/012/3201N13114E001\nA)RJJJ B)2610280400 C)2610280600\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n320121N1311340E - 320123N1311347E - 320120N1311349E - 320118N1311341E\n- 320121N1311340E \n(HIGASHIMOROKATA-GUN IN MIYAZAKI)\nWT: 1KG\nRMK: THIS AREA IS INCLUDED IN KS4-3-30\nF)SFC G)1149FT AMSL",
+ "year": 2026
+}

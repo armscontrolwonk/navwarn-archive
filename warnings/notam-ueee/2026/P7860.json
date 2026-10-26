@@ -1,0 +1,125 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-26T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 60.94028,
+    "lon": 112.09667,
+    "radius_nm": 1.08
+   },
+   {
+    "lat": 60.96,
+    "lon": 112.17667,
+    "radius_nm": 1.08
+   }
+  ],
+  "fir": "UEEE",
+  "kind": "restricted",
+  "location": "UEEE",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 61.3333,
+   "lon": 112.8667,
+   "radius_nm": 38
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UEEE",
+  "starts_at": "2026-10-21T00:00:00Z",
+  "upper": "1150M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ueee/2026/P7860",
+ "issued_at": "2026-10-16T06:20:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P7860",
+ "positions": [
+  [
+   60.91389,
+   111.92722
+  ],
+  [
+   61.39389,
+   112.54917
+  ],
+  [
+   61.34556,
+   112.79194
+  ],
+  [
+   61.34306,
+   112.79417
+  ],
+  [
+   61.34361,
+   112.7975
+  ],
+  [
+   61.34028,
+   112.80083
+  ],
+  [
+   61.34194,
+   112.80722
+  ],
+  [
+   61.34833,
+   112.80111
+  ],
+  [
+   61.34583,
+   112.79083
+  ],
+  [
+   61.39389,
+   112.54944
+  ],
+  [
+   61.54833,
+   112.75111
+  ],
+  [
+   61.87639,
+   113.5025
+  ],
+  [
+   61.75944,
+   113.82639
+  ],
+  [
+   61.30139,
+   113.46528
+  ],
+  [
+   60.80889,
+   112.18528
+  ],
+  [
+   60.91389,
+   111.92722
+  ],
+  [
+   60.94028,
+   112.09667
+  ],
+  [
+   60.96,
+   112.17667
+  ]
+ ],
+ "series": "notam-ueee",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P7860/26 NOTAMN\nQ)UEEE/QRTCA/IV/BO/W/000/040/6120N11252E038\nA)UEEE B)2610210000 C)2610262359\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 605450N1115538E-612338N1123257E-612044N1124731E-\n         612035N1124739E-612037N1124751E-612025N1124803E-\n         612031N1124826E-612054N1124804E-612045N1124727E-\n         612338N1123258E-613254N1124504E-615235N1133009E-\n         614534N1134935E-611805N1132755E-604832N1121107E-\n         605450N1115538E\n   650M AMSL-1150M AMSL.\n2. WI CIRCLE RADIUS 2KM CENTRE 605625N1120548E\n   SFC-1150M AMSL.\n3. WI CIRCLE RADIUS 2KM CENTRE 605736N1121036E\n   SFC-1150M AMSL.\nF)SFC  G)1150M AMSL",
+ "year": 2026
+}

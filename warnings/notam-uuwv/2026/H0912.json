@@ -1,0 +1,61 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T19:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 56.51472,
+    "lon": 34.9925,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "UUWV",
+  "kind": "restricted",
+  "location": "UUWV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.5167,
+   "lon": 35.1,
+   "radius_nm": 4
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UUWV",
+  "schedule": "26-31 0600-1900",
+  "starts_at": "2026-10-26T06:00:00Z",
+  "upper": "450M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uuwv/2026/H0912",
+ "issued_at": "2026-10-24T15:55:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "H0912",
+ "positions": [
+  [
+   56.51472,
+   34.9925
+  ],
+  [
+   56.51417,
+   34.99833
+  ],
+  [
+   56.5175,
+   35.22028
+  ]
+ ],
+ "series": "notam-uuwv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "H0912/26 NOTAMN\nQ)UUWV/QRTCA/IV/BO/W/000/020/5631N03506E004\nA)UUWV B)2610260600 C)2610311900\nD)26-31 0600-1900\nE)AIRSPACE CLSD AS FLW:\n1. WI CIRCLE RADIUS 1.0KM CENTRE 563053N0345933E\n2. WI 1.5KM EITHER SIDE OF LINE JOINING POINTS:\n   563051N0345954E-563103N0351313E.\nF)GND  G)450M AMSL",
+ "year": 2026
+}

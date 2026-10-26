@@ -1,0 +1,92 @@
+{
+ "cancels": [
+  "notam-ltbb/2026/A3287"
+ ],
+ "expires_at": "2026-11-30T20:59:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "drone",
+  "location": "LTBB",
+  "lower": "FL160",
+  "lower_fl": 160,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 40.25,
+   "lon": 26.9333,
+   "radius_nm": 35
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTBB",
+  "shape": "polygon",
+  "starts_at": "2026-10-26T06:40:00Z",
+  "upper": "FL160",
+  "upper_fl": 160
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A4804",
+ "issued_at": "2026-10-26T06:42:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4804",
+ "positions": [
+  [
+   40.75389,
+   26.63472
+  ],
+  [
+   40.36806,
+   26.22889
+  ],
+  [
+   40.52444,
+   26.59194
+  ],
+  [
+   40.39222,
+   26.68694
+  ],
+  [
+   40.5,
+   27.00111
+  ],
+  [
+   40.4725,
+   27.19806
+  ],
+  [
+   40.21806,
+   27.22278
+  ],
+  [
+   40.15056,
+   27.48111
+  ],
+  [
+   39.88806,
+   27.4875
+  ],
+  [
+   39.78444,
+   27.02583
+  ],
+  [
+   39.81389,
+   26.72028
+  ],
+  [
+   40.07028,
+   26.96361
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL TAKE PLACE:",
+ "text": "A4804/26 NOTAMR A3287/26\nQ) LTBB/QWULW/IV/BO /W /160/160/4015N02656E035\nA) LTBB B) 2610260640 C) 2611302059\nE) UNMANNED ACFT WILL TAKE PLACE:\n\nROUTE: 404514N0263805E 402205N0261344E 403128N0263531E \n402332N0264113E 403000N0270004E 402821N0271153E 401305N0271322E \n400902N0272852E 395317N0272915E 394704N0270133E 394850N0264313E \n400413N0265749E 0.5NM EITHER SIDE OF A LINE\nF) FL160 G) FL160",
+ "year": 2026
+}

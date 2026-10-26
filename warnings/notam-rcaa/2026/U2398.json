@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-07T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 24.8333,
+   "lon": 121.8167,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-09-22T16:00:00Z",
+  "upper": "1700FT AMSL",
+  "upper_fl": 17
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2398",
+ "issued_at": "2026-09-17T04:04:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2398",
+ "positions": [
+  [
+   24.80861,
+   121.79972
+  ],
+  [
+   24.86667,
+   121.81917
+  ],
+  [
+   24.85722,
+   121.84583
+  ],
+  [
+   24.83472,
+   121.83278
+  ],
+  [
+   24.80306,
+   121.8175
+  ],
+  [
+   24.80861,
+   121.79972
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2398/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/017/2450N12149E003\nA) RCAA\nB) 2609221600 C) 2611071600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260823000802\n2.LCA:TOUCHENG TOWNSHIP, YILAN COUNTY\n3.THE AREA OVERLAPS PART OF VFR CORRIDOR C2 AND C10,\n ACFT ARE CTN ADZ.\n4.COOR TEL:0910-551384, 0965-454118\n5.AREA AS FLW:\n244831N 1214759E\n245200N 1214909E\n245126N 1215045E\n245005N 1214958E\n244811N 1214903E\n244831N 1214759E\nF) SFC G) 1700FT AMSL",
+ "year": 2026
+}

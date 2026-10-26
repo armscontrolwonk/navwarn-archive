@@ -1,0 +1,83 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T15:08:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "drone",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.1333,
+   "lon": 28.6,
+   "radius_nm": 24
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTBB",
+  "schedule": "MON-FRI 0600-SS",
+  "shape": "polygon",
+  "starts_at": "2026-09-23T06:00:00Z",
+  "upper": "1050FT AGL",
+  "upper_fl": 96
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/C0503",
+ "issued_at": "2026-09-22T12:56:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "C0503",
+ "positions": [
+  [
+   40.27944,
+   29.04611
+  ],
+  [
+   40.28972,
+   29.05056
+  ],
+  [
+   40.26222,
+   28.94333
+  ],
+  [
+   40.25639,
+   28.70972
+  ],
+  [
+   40.27611,
+   28.51611
+  ],
+  [
+   40.19306,
+   28.35167
+  ],
+  [
+   40.06917,
+   28.24972
+  ],
+  [
+   40.02083,
+   28.20528
+  ],
+  [
+   39.96889,
+   28.16167
+  ],
+  [
+   39.96111,
+   28.16278
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT FLT WILL TAKE PLACE.",
+ "text": "C0503/26 NOTAMN\nQ) LTBB/QWULW/IV/BO /W /000/096/4008N02836E024\nA) LTBB B) 2609230600 C) 2610281508\nD) MON-FRI 0600-SS\nE) UNMANNED ACFT FLT WILL TAKE PLACE.\nROUTE: 401646N0290246E 401723N0290302E 401544N0285636E \n401523N0284235E 401634N0283058E 401135N0282106E 400409N0281459E \n400115N0281219E 395808N0280942E 395740N0280946E 0.25NM EITHER \nSIDE OF A LINE\nF) SFC G) 1050FT AGL",
+ "year": 2026
+}

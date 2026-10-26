@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2027-10-24T10:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 51.44694,
+    "lon": 56.64667,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "UWWW",
+  "kind": "restricted",
+  "location": "UWWW",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 51.4333,
+   "lon": 56.6333,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UWWW",
+  "schedule": "DAILY 0600-1000",
+  "starts_at": "2027-10-23T06:00:00Z",
+  "upper": "300M AGL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uwww/2026/V7886",
+ "issued_at": "2026-10-21T03:39:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "V7886",
+ "positions": [
+  [
+   51.44694,
+   56.64667
+  ]
+ ],
+ "series": "notam-uwww",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 1KM CENTRE 512649N0563848E.",
+ "text": "V7886/26 NOTAMN\nQ)UWWW/QRTCA/IV/BO/W/000/999/5126N05638E001\nA)UWWW B)2710230600 C)2710241000\nD)DAILY 0600-1000\nE)AIRSPACE CLSD WI CIRCLE RADIUS 1KM CENTRE 512649N0563848E.\nF)GND  G)300M AGL",
+ "year": 2026
+}

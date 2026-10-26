@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.8333,
+   "lon": 138.35,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/0800",
+  "shape": "polygon",
+  "starts_at": "2026-09-30T23:00:00Z",
+  "upper": "4266FT AMSL",
+  "upper_fl": 43
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3409",
+ "issued_at": "2026-09-24T08:32:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3409",
+ "positions": [
+  [
+   36.83583,
+   138.36028
+  ],
+  [
+   36.83389,
+   138.36389
+  ],
+  [
+   36.825,
+   138.35611
+  ],
+  [
+   36.82583,
+   138.35389
+  ],
+  [
+   36.83139,
+   138.35639
+  ],
+  [
+   36.83583,
+   138.36028
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3409/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/043/3650N13821E002\nA)RJJJ B)2609302300 C)2611250800\nD)2300/0800\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n365009N1382137E - 365002N1382150E - 364930N1382122E - 364933N1382114E\n- 364953N1382123E - 365009N1382137E \n(IIYAMA-SHI,NAKANO-SHI IN NAGANO)\nWT: 0.2KG\n\nRMK: THIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)4266FT AMSL",
+ "year": 2026
+}

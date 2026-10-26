@@ -1,0 +1,86 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-26T12:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "drone",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.5167,
+   "lon": 26.7,
+   "radius_nm": 35
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTBB",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T04:00:00Z",
+  "upper": "6500FT AMSL",
+  "upper_fl": 65
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A4815",
+ "issued_at": "2026-10-26T13:10:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4815",
+ "positions": [
+  [
+   41.89,
+   27.1825
+  ],
+  [
+   42.03083,
+   27.01306
+  ],
+  [
+   41.98083,
+   26.97111
+  ],
+  [
+   41.93389,
+   26.66139
+  ],
+  [
+   41.70306,
+   26.4525
+  ],
+  [
+   41.62472,
+   26.60361
+  ],
+  [
+   41.30722,
+   26.65861
+  ],
+  [
+   41.21528,
+   26.3625
+  ],
+  [
+   41.01028,
+   26.38056
+  ],
+  [
+   41.01861,
+   26.89111
+  ],
+  [
+   41.89,
+   27.1825
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "VTOL UNMANNED ACFT FLIGHT WILL TAKE PLACE. ",
+ "text": "A4815/26 NOTAMN\nQ) LTBB/QWULW/IV/BO /W /000/065/4131N02642E035\nA) LTBB B) 2610270400 C) 2701261200\nE) VTOL UNMANNED ACFT FLIGHT WILL TAKE PLACE. \nAREA:415324N0271057E 420151N0270047E 415851N0265816E 415602N0263941E \n414211N0262709E 413729N0263613E 411826N0263931E 411255N0262145E \n410037N0262250E 410107N0265328E 415324N0271057E\nWI ISTANBUL TMA\nF) SFC G) 6500FT AMSL",
+ "year": 2026
+}

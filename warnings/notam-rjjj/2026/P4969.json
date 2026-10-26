@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-28T12:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "exercise",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.0833,
+   "lon": 141.6667,
+   "radius_nm": 22
+  },
+  "qcode": "QWELW",
+  "queried_fir": "RJJJ",
+  "schedule": "NOV 30-DEC 03 06-10 13-17 20-24 27 2200/1200",
+  "shape": "polygon",
+  "starts_at": "2026-11-30T22:00:00Z",
+  "upper": "3000FT AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/P4969",
+ "issued_at": "2026-10-08T04:22:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P4969",
+ "positions": [
+  [
+   42.33583,
+   141.32944
+  ],
+  [
+   42.33583,
+   141.99611
+  ],
+  [
+   41.83583,
+   141.99611
+  ],
+  [
+   41.83583,
+   141.32944
+  ],
+  [
+   42.33583,
+   141.32944
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXER: SAR TRNG",
+ "text": "P4969/26 NOTAMN\nQ)RJJJ/QWELW/IV/BO/W/000/030/4205N14140E022\nA)RJJJ B)2611302200 C)2612281200\nD)NOV 30-DEC 03 06-10 13-17 20-24 27 2200/1200\nE)EXER: SAR TRNG\n1.AREA    : WI THE COORD OF\n            422009N1411946E - 422009N1415946E -\n            415009N1415946E - 415009N1411946E - 422009N1411946E\n            (ABT 30NM S FM TOMAKOMAI-SHI IN HOKKAIDO/THE-HIGH-SEAS)\n2.ACFT    : H60 X 3, H25B X 2\n3.WX COND : VMC ONLY\n4.RMK     : SOURCE/JSDF-A(RJCJ)\n            JAPAN AIR SELF DEFENSE FORCE\n            CHITOSE AIR RESCUE SQUADRON\n            TEL 0123-23-3101 (EXTENSION:4580)\nF)SFC G)3000FT AMSL",
+ "year": 2026
+}

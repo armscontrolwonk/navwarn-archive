@@ -1,0 +1,72 @@
+{
+ "cancels": [
+  "notam-ltbb/2026/A2868"
+ ],
+ "expires_at": "2026-12-29T23:59:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "exercise",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 41.0667,
+   "lon": 29.4,
+   "radius_nm": 13
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTBB",
+  "shape": "polygon",
+  "starts_at": "2026-09-30T13:28:00Z",
+  "upper": "1500FT AMSL",
+  "upper_fl": 15
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A4374",
+ "issued_at": "2026-09-30T13:28:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4374",
+ "positions": [
+  [
+   40.99389,
+   29.15139
+  ],
+  [
+   40.97111,
+   29.22167
+  ],
+  [
+   40.96306,
+   29.28306
+  ],
+  [
+   41.07028,
+   29.51
+  ],
+  [
+   41.12167,
+   29.6475
+  ],
+  [
+   41.22167,
+   29.22389
+  ],
+  [
+   40.99389,
+   29.15139
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TRAINING FLIGHT WILL TAKE PLACE WI ISTANBUL TMA AND SAMANDIRA ",
+ "text": "A4374/26 NOTAMR A2868/26\nQ) LTBB/QWELW/IV/BO /W /000/015/4104N02924E013\nA) LTBB B) 2609301328 C) 2612292359\nE) TRAINING FLIGHT WILL TAKE PLACE WI ISTANBUL TMA AND SAMANDIRA \nCTR: 405938N0290905E 405816N0291318E 405747N0291659E \n410413N0293036E 410718N0293851E 411318N0291326E 405938N0290905E\nF) SFC G) 1500FT AMSL",
+ "year": 2026
+}

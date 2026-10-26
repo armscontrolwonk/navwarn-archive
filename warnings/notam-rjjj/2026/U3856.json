@@ -1,0 +1,78 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-27T04:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.1,
+   "lon": 136.9333,
+   "radius_nm": 7
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T00:00:00Z",
+  "upper": "1205FT AMSL",
+  "upper_fl": 13
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3856",
+ "issued_at": "2026-10-19T07:24:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3856",
+ "positions": [
+  [
+   37.14111,
+   137.04083
+  ],
+  [
+   37.04833,
+   137.02917
+  ],
+  [
+   37.05833,
+   136.95139
+  ],
+  [
+   37.02222,
+   136.95361
+  ],
+  [
+   37.01556,
+   136.90028
+  ],
+  [
+   37.06306,
+   136.90056
+  ],
+  [
+   37.06278,
+   136.83611
+  ],
+  [
+   37.17083,
+   136.86417
+  ],
+  [
+   37.14111,
+   137.04083
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3856/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/013/3706N13656E007\nA)RJJJ B)2610270000 C)2610270400\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n370828N1370227E - 370254N1370145E - 370330N1365705E - 370120N1365713E\n- 370056N1365401E - 370347N1365402E - 370346N1365010E -\n371015N1365151E - 370828N1370227E \n(NANAO-SHI, KASHIMA-GUN IN ISHIKAWA)\nWT: 2.5KG\nNUMBER: 12\nCONTACT INFORMATION: 03-4485-1606\nF)SFC G)1205FT AMSL",
+ "year": 2026
+}

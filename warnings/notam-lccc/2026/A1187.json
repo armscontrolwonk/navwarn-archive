@@ -1,0 +1,83 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T16:00:00Z",
+ "extra": {
+  "fir": "LCCC",
+  "kind": "drone",
+  "location": "LCCC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.3667,
+   "lon": 31.6667,
+   "radius_nm": 60
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LCCC",
+  "schedule": "0500 - 1600",
+  "shape": "polygon",
+  "starts_at": "2026-10-28T05:00:00Z",
+  "upper": "4000FT AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lccc/2026/A1187",
+ "issued_at": "2026-10-26T13:46:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A1187",
+ "positions": [
+  [
+   34.21306,
+   32.43917
+  ],
+  [
+   34.40361,
+   32.01833
+  ],
+  [
+   34.6925,
+   31.88083
+  ],
+  [
+   35.03444,
+   32.03556
+  ],
+  [
+   35.12083,
+   30.90694
+  ],
+  [
+   34.85972,
+   30.73972
+  ],
+  [
+   34.12889,
+   31.10611
+  ],
+  [
+   33.6575,
+   31.9675
+  ],
+  [
+   33.60722,
+   32.40472
+  ],
+  [
+   34.21306,
+   32.43917
+  ]
+ ],
+ "series": "notam-lccc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "SMALL TACTICAL UAS WILL BE PERFORMING BEYOND VISUAL LINE OF SIGHT",
+ "text": "A1187/26 NOTAMN\nQ) LCCC/QWULW/IV/BO /W /000/040/3422N03140E060\nA) LCCC B) 2610280500 C) 2610301600\nD) 0500 - 1600\nE) SMALL TACTICAL UAS WILL BE PERFORMING BEYOND VISUAL LINE OF SIGHT\nFLIGHTS FOR MARITIME SURVEILLANCE IN AREA:\n341247N 0322621E - 342413N 0320106E - 344133N 0315251E -\n350204N 0320208E - 350715N 0305425E - 345135N 0304423E - \n340744N 0310622E - 333927N 0315803E - 333626N 0322417E - \n341247N 0322621E/AREA 3\nTHE AREA WILL BE ACTIVATED IN REAL TIME THROUGH FULL TACTICAL\nCOORDINATION BETWEEN UAS OPERATOR AND PAFOS ATC.\nUAS SSR MODE C CODE: 0047\nTHE AREA INCLUDES 1000FT VERTICAL BUFFER ONLY\nF) SFC G) 4000FT AMSL",
+ "year": 2026
+}

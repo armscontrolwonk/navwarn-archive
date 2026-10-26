@@ -1,0 +1,73 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T13:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 57.405,
+    "lon": 48.63778,
+    "radius_nm": 0.05
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 57.4167,
+   "lon": 48.6,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0500-1300",
+  "starts_at": "2026-10-23T05:00:00Z",
+  "upper": "600M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ussv/2026/Z4408",
+ "issued_at": "2026-10-22T04:10:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "Z4408",
+ "positions": [
+  [
+   57.43083,
+   48.5575
+  ],
+  [
+   57.43444,
+   48.63889
+  ],
+  [
+   57.39417,
+   48.64778
+  ],
+  [
+   57.3875,
+   48.56806
+  ],
+  [
+   57.43083,
+   48.5575
+  ],
+  [
+   57.405,
+   48.63778
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z4408/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/020/5725N04836E002\nA)USSV B)2610230500 C)2610281300\nD)DAILY 0500-1300\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 572551N0483327E-572604N0483820E-572339N0483852E-\n         572315N0483405E-572551N0483327E\n   200M AMSL-600M AMSL.\n2. WI CIRCLE RADIUS 0.1KM CENTRE 572418N0483816E\n   GND-200M AMSL.\nF)GND  G)600M AMSL",
+ "year": 2026
+}

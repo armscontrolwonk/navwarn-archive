@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-22T23:59:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "drone",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.8,
+   "lon": 34.6,
+   "radius_nm": 9
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-09-23T04:00:00Z",
+  "upper": "3000FT AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4188",
+ "issued_at": "2026-09-22T10:23:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4188",
+ "positions": [
+  [
+   36.84083,
+   34.48306
+  ],
+  [
+   36.89889,
+   34.73694
+  ],
+  [
+   36.80722,
+   34.77778
+  ],
+  [
+   36.7125,
+   34.45611
+  ],
+  [
+   36.84083,
+   34.48306
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT FLIGHT WILL TAKE PLACE WI ADANA MIL TMA: ",
+ "text": "A4188/26 NOTAMN\nQ) LTAA/QWULW/IV/BO /W /000/030/3648N03436E009\nA) LTAA B) 2609230400 C) 2612222359\nE) UNMANNED ACFT FLIGHT WILL TAKE PLACE WI ADANA MIL TMA: \n365027N0342859E 365356N0344413E 364826N0344640E 364245N0342722E \n365027N0342859E\nF) SFC G) 3000FT AMSL",
+ "year": 2026
+}

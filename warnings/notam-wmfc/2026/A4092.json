@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-31T14:30:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 5.0167,
+   "lon": 100.7333,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "EV FRI SAT AND SUN 1130-1230 1330-1430",
+  "shape": "polygon",
+  "starts_at": "2026-11-27T11:30:00Z",
+  "upper": "830FT AGL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wmfc/2026/A4092",
+ "issued_at": "2026-10-16T08:48:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4092",
+ "positions": [
+  [
+   3.14361,
+   101.71083
+  ],
+  [
+   3.14444,
+   101.71167
+  ],
+  [
+   3.14583,
+   101.71111
+  ],
+  [
+   3.145,
+   101.70972
+  ],
+  [
+   3.14361,
+   101.71083
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI:",
+ "text": "A4092/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/010/0501N10044E001\nA) WMFC B) 2611271130 C) 2701311430 \nD)EV FRI SAT AND SUN\n1130-1230 1330-1430\nE)UA ACT WILL TAKE PLACE WI:\n\n030837.00N 1014239.00E - 030840.00N 1014242.00E -\n030845.00N 1014240.00E - 030842.00N 1014235.00E -\n030837.00N 1014239.00E\n\n(SG WANG PLAZA,BUKIT BINTANG,KUALA LUMPUR)\nF) SFC                             G) 830FT AGL",
+ "year": 2026
+}

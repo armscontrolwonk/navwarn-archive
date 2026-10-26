@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T13:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 43.51194,
+    "lon": 142.12083,
+    "radius_nm": 6.48
+   }
+  ],
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.5167,
+   "lon": 142.1167,
+   "radius_nm": 8
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "1800/1300",
+  "starts_at": "2026-10-05T18:00:00Z",
+  "upper": "3938FT AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3590",
+ "issued_at": "2026-10-05T08:11:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3590",
+ "positions": [
+  [
+   43.51194,
+   142.12083
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3590/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/040/4331N14207E008\nA)RJJJ B)2610051800 C)2611251300\nD)1800/1300\nE)UNMANNED ACFT:\nAREA: RADIUS 12KM CENTER 433043N1420715E \n(AKABIRA-SHI,ASHIBETSU-SHI,SUNAGAWA-SHI,UTASHINAI-SHI,SORACHI-GUN IN\nHOKKAIDO)\nWT: 0.7KG\n\nRMK: THIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)3938FT AMSL",
+ "year": 2026
+}

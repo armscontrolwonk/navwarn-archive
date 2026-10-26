@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T15:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 30.5,
+   "lon": 130.9,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-10-21T15:00:00Z",
+  "upper": "1640FT AMSL",
+  "upper_fl": 17
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3723",
+ "issued_at": "2026-10-13T03:53:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3723",
+ "positions": [
+  [
+   30.52167,
+   130.91444
+  ],
+  [
+   30.5175,
+   130.92139
+  ],
+  [
+   30.49139,
+   130.89833
+  ],
+  [
+   30.49389,
+   130.89361
+  ],
+  [
+   30.52167,
+   130.91444
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT(FIXED WING):",
+ "text": "U3723/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/017/3030N13054E002\nA)RJJJ B)2610211500 C)2610281500\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n303118N1305452E - 303103N1305517E - 302929N1305354E - 302938N1305337E\n- 303118N1305452E \n(KUMAGE-GUN IN KAGOSHIMA)\nWT: 5.5KG\nNUMBER: 2\nCONTACT INFORMATION: 080-5488-6477\nRMK: SOURCE/JSDF-G(RJFT)\nF)SFC G)1640FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T09:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 24.8333,
+   "lon": 121.0167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "schedule": "2100-0900",
+  "shape": "polygon",
+  "starts_at": "2026-08-26T21:00:00Z",
+  "upper": "800FT AMSL",
+  "upper_fl": 8
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2086",
+ "issued_at": "2026-08-21T03:23:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2086",
+ "positions": [
+  [
+   24.85611,
+   121.0
+  ],
+  [
+   24.84917,
+   121.02333
+  ],
+  [
+   24.82361,
+   121.03833
+  ],
+  [
+   24.8075,
+   121.02278
+  ],
+  [
+   24.82611,
+   120.99194
+  ],
+  [
+   24.84389,
+   120.99222
+  ],
+  [
+   24.85611,
+   121.0
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2086/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/008/2450N12101E002\nA) RCAA\nB) 2608262100 C) 2610310900\nD) 2100-0900\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260611000901\n2.LCA:ZHUBEI CITY, HSINCHU COUNTY\n3.THE AREA OVERLAPS PART OF LONGTAN MIL TRAINING AREA, PART OF VFR\n  CORRIDOR C1 AND PART OF VFR HEL RTE H2, ACFT ARE CTN ADZ.\n4.COOR TEL:04-22522966 EXTENSION 207, 0925-919005, 0912-218330\n5.AREA AS FLW:\n245122N 1210000E\n245057N 1210124E\n244925N 1210218E\n244827N 1210122E\n244934N 1205931E\n245038N 1205932E\n245122N 1210000E\nF) SFC G) 800FT AMSL",
+ "year": 2026
+}

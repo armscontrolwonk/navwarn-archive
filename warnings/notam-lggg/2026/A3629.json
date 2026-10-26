@@ -1,0 +1,48 @@
+{
+ "cancels": [
+  "notam-lggg/2026/A2274"
+ ],
+ "expires_at": "2027-01-04T23:59:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "drone",
+  "location": "LGGG",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 37.8833,
+   "lon": 23.7333,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "LGGG",
+  "schedule": "OCT 02 0543-2359, OCT 03-JAN 04 H24",
+  "starts_at": "2026-10-02T05:43:00Z",
+  "upper": "400FT AMSL",
+  "upper_fl": 4
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lggg/2026/A3629",
+ "issued_at": "2026-10-02T05:43:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3629",
+ "positions": [
+  [
+   37.88972,
+   23.73472
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "A TEMPORARY RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW: ",
+ "text": "A3629/26 NOTAMR A2274/26\nQ) LGGG/QRTCA/IV/BO /W /000/004/3753N02344E001\nA) LGGG B) 2610020543 C) 2701042359\nD) OCT 02 0543-2359, OCT 03-JAN 04 H24\nE) A TEMPORARY RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW: \n1. LATERAL LIMITS: CENTERED ON 375323N 0234405E AND CIRCLE 1 NM \nRADIUS.\n- AFFECTED AREAS: LGR62 HELLINIKON.\n2. TYPE OF RESTRICTION: UAV FLT SECURITY\n3. REMARKS:\n3.1 OTHER UAV FLT ARE SUSPENDED.\n3.2 OPERATOR SHALL CALL ATH APP (TEL. NUMBER 2109972250 OR 210 \n9972488) PRIOR, AFTER ACTIVITY AND KEEP IN CONTACT DURING OPS.\n3.3 ACTIVITY SHALL BE ENDED IF REQ BY ATH APP.\nF) SFC G) 400FT AMSL",
+ "year": 2026
+}

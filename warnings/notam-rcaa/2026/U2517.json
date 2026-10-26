@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.5333,
+   "lon": 120.6333,
+   "radius_nm": 12
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-10-25T16:00:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2517",
+ "issued_at": "2026-10-01T01:52:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2517",
+ "positions": [
+  [
+   22.72361,
+   120.61111
+  ],
+  [
+   22.72361,
+   120.64444
+  ],
+  [
+   22.52028,
+   120.64944
+  ],
+  [
+   22.34278,
+   120.64861
+  ],
+  [
+   22.34278,
+   120.61139
+  ],
+  [
+   22.52028,
+   120.61611
+  ],
+  [
+   22.72361,
+   120.61111
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2517/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/100/2232N12038E012\nA) RCAA\nB) 2610251600 C) 2612311600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:M260708000601\n2.LCA:HENGCHUN TOWNSHIP, PINGTUNG COUNTY\n3.THE AREA OVERLAPS PART OF ULM AIRSPACE SAIJIA,\n  RCR6 AND PART OF VFR CORRIDOR C9, ACFT ARE CTN ADZ.\n4.COOR TEL:0972-808655, 0980-757215, 0965-036786\n5.AREA AS FLW:\n224325N 1203640E\n224325N 1203840E\n223113N 1203858E\n222034N 1203855E\n222034N 1203641E\n223113N 1203658E\n224325N 1203640E\nF) SFC G) 10000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,65 @@
+{
+ "cancels": [
+  "notam-lggg/2026/A1347"
+ ],
+ "expires_at": "2026-10-31T23:59:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "drone",
+  "location": "LGGG",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 40.7333,
+   "lon": 24.6667,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "LGGG",
+  "schedule": "JUL 31-OCT 31 H24",
+  "shape": "polygon",
+  "starts_at": "2026-07-31T05:39:00Z",
+  "upper": "4100FT AMSL",
+  "upper_fl": 41
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lggg/2026/A2678",
+ "issued_at": "2026-07-31T05:39:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A2678",
+ "positions": [
+  [
+   40.72861,
+   24.66361
+  ],
+  [
+   40.73306,
+   24.66472
+  ],
+  [
+   40.73389,
+   24.65833
+  ],
+  [
+   40.72917,
+   24.6575
+  ],
+  [
+   40.72861,
+   24.66361
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW:",
+ "text": "A2678/26 NOTAMR A1347/26\nQ) LGGG/QRTCA/IV/BO /W /000/041/4044N02440E001\nA) LGGG B) 2607310539 C) 2610312359\nD) JUL 31-OCT 31 H24\nE) A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW:\n1. AREA: 404343N 0243949E - 404359N 0243953E - 404402N 0243930E -\n404345N 0243927E -404343N 0243949E\n    KAVALA/MEGAS ALEXANDROS CTR AFFECTED \n2. TYPE OF RESTRICTION: UAV FLT\n3. REMARKS:  \n3.1 OTHER UAV FLT ARE SUSPENDED.\n3.2 FLT OF STATE ACFT/UAV, HOSP, OPERATING IFR IN CONTACT WITH\nAPPROPRIATE ATC UNIT, ARE NOT AFFECTED\n3.3 OPERATOR SHALL CALL KAVALA APP TEL NUMBER 2591440041 PRIOR AND\nAFTER ACTIVITY AND REMAIN IN CONTACT DURING ACTIVITY OR TEL NUMBER \nOF ATHINAI FIC 210-9972604 WHEN KAVALA AIRPORT IS CLOSED\n3.4 ACTIVITY SHALL BE ENDED IF REQUIRED BY KAVALA APP\nF) SFC G) 4100FT AMSL",
+ "year": 2026
+}

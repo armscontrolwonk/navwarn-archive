@@ -1,0 +1,39 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T13:30:00Z",
+ "extra": {
+  "fir": "LLLL",
+  "kind": "route",
+  "location": "LLLL",
+  "lower_fl": 30,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 32.5833,
+   "lon": 34.8,
+   "radius_nm": 18
+  },
+  "qcode": "QANLC",
+  "queried_fir": "LLLL",
+  "schedule": "0745-1030 1230-1330",
+  "starts_at": "2026-10-28T07:45:00Z",
+  "upper_fl": 120
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-llll/2026/A0849",
+ "issued_at": "2026-10-25T13:38:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A0849",
+ "positions": [],
+ "series": "notam-llll",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE CLSD:",
+ "text": "A0849/26 NOTAMN\nQ) LLLL/QANLC/I /NBO/E /030/120/3235N03448E018\nA) LLLL B) 2610280745 C) 2610281330\nD) 0745-1030 1230-1330\nE) ATS RTE CLSD:\n   P68 BTN GALIM-MERVA.\n   Q17 BTN ATLIT-ZAHAV.\n   J15 NAT-ATLIT.\n   Q28 GALIM-ATLIT.",
+ "year": 2026
+}

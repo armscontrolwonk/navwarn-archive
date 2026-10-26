@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-25T10:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.0833,
+   "lon": 120.7,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "schedule": "2200-1000",
+  "shape": "polygon",
+  "starts_at": "2026-10-28T22:00:00Z",
+  "upper": "4400FT AMSL",
+  "upper_fl": 44
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2737",
+ "issued_at": "2026-10-22T02:38:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2737",
+ "positions": [
+  [
+   23.055,
+   120.68333
+  ],
+  [
+   23.06444,
+   120.66667
+  ],
+  [
+   23.12333,
+   120.69667
+  ],
+  [
+   23.11444,
+   120.72139
+  ],
+  [
+   23.0975,
+   120.71306
+  ],
+  [
+   23.055,
+   120.68333
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2737/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/044/2305N12042E003\nA) RCAA\nB) 2610282200 C) 2612251000\nD) 2200-1000\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB261008000901\n2.LCA:LIUGUI DISTRICT, KAOHSIUNG CITY\n3.THE AREA OVERLAPS PART OF ULM AIRSPACE BULAO HOT SPRING,\n  ACFT ARE CTN ADZ.\n4.COOR TEL:06-3351068 EXTENSION 168, 0919-085537, 0983-662978\n5.AREA AS FLW:\n230318N 1204100E\n230352N 1204000E\n230724N 1204148E\n230652N 1204317E\n230551N 1204247E\n230318N 1204100E\nF) SFC G) 4400FT AMSL",
+ "year": 2026
+}

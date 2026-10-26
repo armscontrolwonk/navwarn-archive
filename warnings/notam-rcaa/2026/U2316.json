@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.5,
+   "lon": 120.1333,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-30T16:00:00Z",
+  "upper": "1000FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2316",
+ "issued_at": "2026-09-08T04:14:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2316",
+ "positions": [
+  [
+   23.525,
+   120.15889
+  ],
+  [
+   23.45861,
+   120.15833
+  ],
+  [
+   23.45833,
+   120.09167
+  ],
+  [
+   23.52528,
+   120.09167
+  ],
+  [
+   23.525,
+   120.15889
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2316/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/010/2330N12008E004\nA) RCAA\nB) 2611301600 C) 2612311600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:M260824000901\n2.LCA:DONGSHI TOWNSHIP, CHIAYI COUNTY\n3.THE AREA OVERLAPS PART OF AREA FIVE MIL TRAINING AREA \n  AND RCR38, ACFT ARE CTN ADZ.\n4.COOR TEL:04-27023051, 0921-829549\n5.AREA AS FLW:\n233130N 1200932E\n232731N 1200930E\n232730N 1200530E\n233131N 1200530E\n233130N 1200932E\nF) SFC G) 1000FT AMSL",
+ "year": 2026
+}

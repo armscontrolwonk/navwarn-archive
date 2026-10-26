@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.6,
+   "lon": 138.0833,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2330/0700",
+  "shape": "polygon",
+  "starts_at": "2026-09-13T23:30:00Z",
+  "upper": "6234FT AMSL",
+  "upper_fl": 63
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3163",
+ "issued_at": "2026-09-09T05:18:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3163",
+ "positions": [
+  [
+   35.59972,
+   138.07222
+  ],
+  [
+   35.60139,
+   138.07056
+  ],
+  [
+   35.61528,
+   138.07722
+  ],
+  [
+   35.61222,
+   138.08361
+  ],
+  [
+   35.59972,
+   138.07222
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3163/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/063/3536N13805E002\nA)RJJJ B)2609132330 C)2611300700\nD)2330/0700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n353559N1380420E - 353605N1380414E - 353655N1380438E - 353644N1380501E\n- 353559N1380420E \n(SHIMOINA-GUN IN NAGANO)\nWT: 9KG\nF)SFC G)6234FT AMSL",
+ "year": 2026
+}

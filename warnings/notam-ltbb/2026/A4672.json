@@ -1,0 +1,78 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-24T10:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "drone",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.9167,
+   "lon": 27.3167,
+   "radius_nm": 16
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTBB",
+  "shape": "polygon",
+  "starts_at": "2026-10-25T10:00:00Z",
+  "upper": "8000FT AMSL",
+  "upper_fl": 80
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A4672",
+ "issued_at": "2026-10-16T11:16:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4672",
+ "positions": [
+  [
+   42.03056,
+   27.01306
+  ],
+  [
+   42.07583,
+   27.05194
+  ],
+  [
+   42.04778,
+   27.14417
+  ],
+  [
+   42.05306,
+   27.22333
+  ],
+  [
+   42.0825,
+   27.24556
+  ],
+  [
+   41.88528,
+   27.57083
+  ],
+  [
+   41.78972,
+   27.58556
+  ],
+  [
+   41.89,
+   27.18222
+  ],
+  [
+   42.03056,
+   27.01306
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "VTOL UNMANNED ACFT WILL TAKE PLACE.",
+ "text": "A4672/26 NOTAMN\nQ) LTBB/QWULW/IV/BO /W /000/080/4155N02719E016\nA) LTBB B) 2610251000 C) 2701241000\nE) VTOL UNMANNED ACFT WILL TAKE PLACE.\nAREA: 420150N0270047E 420433N0270307E 420252N0270839E \n420311N0271324E 420457N0271444E 415307N0273415E 414723N0273508E \n415324N0271056E 420150N0270047E\nF) SFC G) 8000FT AMSL",
+ "year": 2026
+}

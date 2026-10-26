@@ -1,0 +1,79 @@
+{
+ "cancels": [],
+ "expires_at": "2027-03-31T04:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 6.4167,
+   "lon": 100.2,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "DLY 0100-0400",
+  "shape": "polygon",
+  "starts_at": "2027-01-04T01:00:00Z",
+  "upper": "400FT AGL",
+  "upper_fl": 5
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wmfc/2026/A4005",
+ "issued_at": "2026-10-12T07:12:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4005",
+ "positions": [
+  [
+   6.43778,
+   100.19056
+  ],
+  [
+   6.43778,
+   100.20667
+  ],
+  [
+   6.42667,
+   100.20694
+  ],
+  [
+   6.42639,
+   100.21139
+  ],
+  [
+   6.41028,
+   100.21139
+  ],
+  [
+   6.41028,
+   100.195
+  ],
+  [
+   6.42139,
+   100.195
+  ],
+  [
+   6.42167,
+   100.19056
+  ],
+  [
+   6.43778,
+   100.19056
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI FLW COORDS:",
+ "text": "A4005/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/005/0625N10012E001\nA) WMFC B) 2701040100 C) 2703310400 \nD)DLY 0100-0400\nE)UA ACT WILL TAKE PLACE WI FLW COORDS:\n\n062616.00N 1001126.00E - 062616.00N 1001224.00E -\n062536.00N 1001225.00E - 062535.00N 1001241.00E -\n062437.00N 1001241.00E - 062437.00N 1001142.00E -\n062517.00N 1001142.00E - 062518.00N 1001126.00E -\n062616.00N 1001126.00E\n\n(BANDAR KANGAR,PERLIS)\nF) SFC                             G) 400FT AGL",
+ "year": 2026
+}

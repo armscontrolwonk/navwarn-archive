@@ -1,0 +1,83 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T08:21:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.6667,
+   "lon": 138.8,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2131/0821",
+  "shape": "polygon",
+  "starts_at": "2026-10-25T21:31:00Z",
+  "upper": "3446FT AMSL",
+  "upper_fl": 35
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3903",
+ "issued_at": "2026-10-20T07:36:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3903",
+ "positions": [
+  [
+   36.66417,
+   138.79861
+  ],
+  [
+   36.66528,
+   138.80083
+  ],
+  [
+   36.66528,
+   138.80194
+  ],
+  [
+   36.66417,
+   138.80333
+  ],
+  [
+   36.66333,
+   138.80333
+  ],
+  [
+   36.66222,
+   138.80222
+  ],
+  [
+   36.66139,
+   138.80056
+  ],
+  [
+   36.66056,
+   138.79833
+  ],
+  [
+   36.66278,
+   138.79611
+  ],
+  [
+   36.66417,
+   138.79861
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3903/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/035/3640N13848E001\nA)RJJJ B)2610252131 C)2611060821\nD)2131/0821\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n363951N1384755E - 363955N1384803E - 363955N1384807E - 363951N1384812E\n- 363948N1384812E - 363944N1384808E - 363941N1384802E -\n363938N1384754E - 363946N1384746E - 363951N1384755E \n(AGATSUMA-GUN IN GUNMA)\nWT:1.5KG\nFLT TIME: HJ\nF)SFC G)3446FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T16:00:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "route",
+  "location": "ULLL",
+  "lower": "FL055",
+  "lower_fl": 55,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 65.65,
+   "lon": 41.65,
+   "radius_nm": 68
+  },
+  "qcode": "QARLC",
+  "queried_fir": "ULLL",
+  "schedule": "DAILY 0700-1600",
+  "starts_at": "2026-10-27T07:00:00Z",
+  "upper": "FL450",
+  "upper_fl": 450
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ulll/2026/X9606",
+ "issued_at": "2026-10-25T10:43:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "X9606",
+ "positions": [],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FLW ATS RTE SEGMENTS CLSD:",
+ "text": "X9606/26 NOTAMN\nQ)ULLL/QARLC/IV/NBO/E/055/450/6539N04139E068\nA)ULLL B)2610270700 C)2610301600\nD)DAILY 0700-1600\nE)FLW ATS RTE SEGMENTS CLSD:\nL168 BIBNA-ROKUT FL265-FL450\nL250 KOTID-UNARI FL265-FL450\nL93 KOTID-BIBNA FL055-FL450\nN151 LEDBI-BEMRU FL275-FL450\nN866 OSBUT-BEMRU FL275-FL450\nP35 ODMUL-SOTIS FL055-FL450\nP35 SOTIS-ROKUT FL265-FL450\nT822 PIBER-SOTIS FL265-FL450\nT822 SOTIS-BEMRU FL075-FL450\nT825 ARGIP-SOTIS FL055-FL450.\nF)FL055  G)FL450",
+ "year": 2026
+}

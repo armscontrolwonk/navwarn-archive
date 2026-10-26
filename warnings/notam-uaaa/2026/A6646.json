@@ -1,0 +1,105 @@
+{
+ "cancels": [
+  "notam-uaaa/2026/A6542"
+ ],
+ "expires_at": "2026-12-06T13:00:00Z",
+ "extra": {
+  "fir": "UAAA",
+  "kind": "restricted",
+  "location": "UAAA",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 49.7833,
+   "lon": 80.8833,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UAAA",
+  "schedule": "DAILY 0400-1300",
+  "shape": "polygon",
+  "starts_at": "2026-10-06T10:42:00Z",
+  "upper": "4400FT AMSL",
+  "upper_fl": 44
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uaaa/2026/A6646",
+ "issued_at": "2026-10-06T10:42:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A6646",
+ "positions": [
+  [
+   49.78722,
+   80.88167
+  ],
+  [
+   49.78778,
+   80.88333
+  ],
+  [
+   49.78389,
+   80.89056
+  ],
+  [
+   49.7825,
+   80.89194
+  ],
+  [
+   49.78278,
+   80.89806
+  ],
+  [
+   49.78083,
+   80.89889
+  ],
+  [
+   49.77889,
+   80.9
+  ],
+  [
+   49.77472,
+   80.8975
+  ],
+  [
+   49.77472,
+   80.89278
+  ],
+  [
+   49.7775,
+   80.88889
+  ],
+  [
+   49.77972,
+   80.88889
+  ],
+  [
+   49.78167,
+   80.88806
+  ],
+  [
+   49.78139,
+   80.88306
+  ],
+  [
+   49.785,
+   80.88139
+  ],
+  [
+   49.78722,
+   80.88167
+  ]
+ ],
+ "series": "notam-uaaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPORARY RESTRICTED AREA ACTIVATED",
+ "text": "A6646/26 NOTAMR A6542/26\nQ) UAAA/QRTCA/IV/BO /W /000/044/4947N08053E001\nA) UAAA B) 2610061042 C) 2612061300\nD) DAILY 0400-1300\nE) TEMPORARY RESTRICTED AREA ACTIVATED\nAREA BOUNDED BY:\n494714N 0805254E - 494716N 0805300E - 494702N 0805326E - 494657N \n0805331E - 494658N 0805353E - 494651N 0805356E - 494644N 0805400E - \n494629N 0805351E - 494629N 0805334E - 494639N 0805320E - 494647N \n0805320E - 494654N 0805317E - 494653N 0805259E - 494706N 0805253E - \n494714N 0805254E.\nF) GND G) 4400FT AMSL",
+ "year": 2026
+}

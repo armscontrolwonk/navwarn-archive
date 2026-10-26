@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-08T08:20:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.65,
+   "lon": 141.9667,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2118/0820",
+  "shape": "polygon",
+  "starts_at": "2026-10-08T21:18:00Z",
+  "upper": "5125FT AMSL",
+  "upper_fl": 52
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3648",
+ "issued_at": "2026-10-08T06:03:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3648",
+ "positions": [
+  [
+   43.66833,
+   141.95833
+  ],
+  [
+   43.66583,
+   141.97194
+  ],
+  [
+   43.65694,
+   141.98
+  ],
+  [
+   43.64556,
+   141.9525
+  ],
+  [
+   43.65056,
+   141.94972
+  ],
+  [
+   43.66833,
+   141.95833
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3648/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/052/4339N14158E002\nA)RJJJ B)2610082118 C)2611080820\nD)2118/0820\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n434006N1415730E - 433957N1415819E - 433925N1415848E - 433844N1415709E\n- 433902N1415659E - 434006N1415730E \n(TAKIKAWA-SHI,FUKAGAWA-SHI IN HOKKAIDO)\nWT: 1.1KG\nFLT TIME: HJ\nF)SFC G)5125FT AMSL",
+ "year": 2026
+}

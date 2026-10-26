@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-21T09:30:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 2.8333,
+   "lon": 101.8,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "DLY 0030-0930",
+  "shape": "polygon",
+  "starts_at": "2026-10-05T00:30:00Z",
+  "upper": "300FT AGL",
+  "upper_fl": 6
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wmfc/2026/A3712",
+ "issued_at": "2026-09-24T04:17:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3712",
+ "positions": [
+  [
+   2.8375,
+   101.81278
+  ],
+  [
+   2.83361,
+   101.81389
+  ],
+  [
+   2.83667,
+   101.81889
+  ],
+  [
+   2.83917,
+   101.81639
+  ],
+  [
+   2.8375,
+   101.81278
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI THE FLW COORD:",
+ "text": "A3712/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/006/0250N10148E001\nA) WMFC B) 2610050030 C) 2612210930 \nD) DLY 0030-0930\nE) UA ACT WILL TAKE PLACE WI THE FLW COORD:\n\n   025015.00N 1014846.00E - 025001.00N 1014850.00E -\n   025012.00N 1014908.00E - 025021.00N 1014859.00E -\n   025015.00N 1014846.00E\n\n   (NILAI IMPIAN,NEGERI SEMBILAN)\nF) SFC                             G) 300FT AGL",
+ "year": 2026
+}

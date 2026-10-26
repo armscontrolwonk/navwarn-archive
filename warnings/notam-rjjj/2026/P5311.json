@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-07T15:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "restricted",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 25.7,
+   "lon": 127.55,
+   "radius_nm": 82
+  },
+  "qcode": "QRACA",
+  "queried_fir": "RJJJ",
+  "schedule": "2100/1500",
+  "shape": "polygon",
+  "starts_at": "2026-11-01T21:00:00Z",
+  "upper": "FL600",
+  "upper_fl": 600
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/P5311",
+ "issued_at": "2026-10-24T02:46:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P5311",
+ "positions": [
+  [
+   25.4625,
+   128.06
+  ],
+  [
+   24.37972,
+   127.30611
+  ],
+  [
+   24.46528,
+   127.09528
+  ],
+  [
+   25.37611,
+   127.72639
+  ],
+  [
+   25.4625,
+   128.06
+  ],
+  [
+   25.37611,
+   127.72639
+  ],
+  [
+   25.4625,
+   128.06
+  ],
+  [
+   26.20833,
+   127.64278
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MULTIPLE U.S. MIL ACT WILL BE CONDUCTED WI FUKUOKA FIR AS FLW,",
+ "text": "P5311/26 NOTAMN\nQ)RJJJ/QRACA/IV/NBO/W/000/600/2542N12733E082\nA)RJJJ B)2611012100 C)2611071500\nD)2100/1500\nE)MULTIPLE U.S. MIL ACT WILL BE CONDUCTED WI FUKUOKA FIR AS FLW,\nAREA: BOUNDED BY FLW POINTS\n252745N1280336E - 242247N1271822E - 242755N1270543E - 252234N1274335E\n- 252745N1280336E,\nTHE LINE CONNECTING 252234N1274335E TO 252745N1280336E IS THE MINOR\nARC WITH A RADIUS OF 50NM FM 261230N1273834E.\nATC WILL NOT CLEAR NON-PARTICIPATING IFR FLT THRU THIS AREA.\nRMK: MISSION NAME : LION-WEST\nF)SFC G)FL600",
+ "year": 2026
+}

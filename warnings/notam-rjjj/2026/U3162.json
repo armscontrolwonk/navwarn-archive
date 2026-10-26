@@ -1,0 +1,58 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T15:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.2167,
+   "lon": 141.7667,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-09-13T15:00:00Z",
+  "upper": "1726FT AMSL",
+  "upper_fl": 18
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3162",
+ "issued_at": "2026-09-09T05:16:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3162",
+ "positions": [
+  [
+   40.21917,
+   141.76444
+  ],
+  [
+   40.21889,
+   141.76472
+  ],
+  [
+   40.21917,
+   141.765
+  ],
+  [
+   40.21917,
+   141.76444
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3162/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/018/4013N14146E001\nA)RJJJ B)2609131500 C)2610281500\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n401309N1414552E - 401308N1414553E - 401309N1414554E - 401309N1414552E\n(KUJI-SHI IN IWATE)\nWT: 0.9KG\n\nRMK: THIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)1726FT AMSL",
+ "year": 2026
+}

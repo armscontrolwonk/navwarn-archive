@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-22T07:30:00Z",
+ "extra": {
+  "fir": "RKRR",
+  "kind": "restricted",
+  "location": "RKRR",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.3833,
+   "lon": 128.2333,
+   "radius_nm": 7
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "RKRR",
+  "schedule": "SEP 12-13 19-20 24-27 0000-0730, OCT 03-05 09-11 17-18 24-25 31 0000-0730, NOV 01 07-08 14-15 21-22 0000-0730",
+  "shape": "polygon",
+  "starts_at": "2026-09-12T00:00:00Z",
+  "upper": "1000FT AGL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rkrr/2026/D2675",
+ "issued_at": "2026-09-09T04:23:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "D2675",
+ "positions": [
+  [
+   35.40972,
+   128.11444
+  ],
+  [
+   35.37,
+   128.17167
+  ],
+  [
+   35.35167,
+   128.29278
+  ],
+  [
+   35.36444,
+   128.3475
+  ],
+  [
+   35.43556,
+   128.22306
+  ],
+  [
+   35.40972,
+   128.11444
+  ]
+ ],
+ "series": "notam-rkrr",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO DANGER AREA ACT AS FLW",
+ "text": "D2675/26 NOTAMN  \nQ)RKRR/QRDCA/IV/BO/W/000/010/3523N12814E007\nA)RKRR B)2609120000 C)2611220730\nD)SEP 12-13 19-20 24-27 0000-0730, OCT 03-05 09-11 17-18 24-25 31 \n0000-0730, NOV 01 07-08 14-15 21-22 0000-0730\nE)TEMPO DANGER AREA ACT AS FLW\nAREA BOUNDED BY THE FOLLOWING\n352435N1280652E-352212N1281018E-352106N1281734E-352152N1282051E-\n352608N1281323E-352435N1280652E\nF)SFC G)1000FT AGL",
+ "year": 2026
+}

@@ -1,0 +1,102 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T06:00:00Z",
+ "extra": {
+  "fir": "LBSR",
+  "kind": "restricted",
+  "location": "LBSR",
+  "lower": "3000FT AMSL",
+  "lower_fl": 30,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.2667,
+   "lon": 28.65,
+   "radius_nm": 32
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "LBSR",
+  "shape": "polygon",
+  "starts_at": "2026-10-19T05:00:00Z",
+  "upper": "5000FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lbsr/2026/A1223",
+ "issued_at": "2026-10-16T08:50:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A1223",
+ "positions": [
+  [
+   43.69083,
+   28.86139
+  ],
+  [
+   43.48028,
+   28.88028
+  ],
+  [
+   43.37667,
+   28.81944
+  ],
+  [
+   43.26778,
+   28.71278
+  ],
+  [
+   43.17472,
+   28.55722
+  ],
+  [
+   43.15917,
+   28.28194
+  ],
+  [
+   42.99861,
+   28.18139
+  ],
+  [
+   42.8825,
+   28.17917
+  ],
+  [
+   42.87917,
+   28.44806
+  ],
+  [
+   42.97222,
+   28.45194
+  ],
+  [
+   43.03389,
+   28.75889
+  ],
+  [
+   43.22694,
+   29.00167
+  ],
+  [
+   43.45,
+   29.14056
+  ],
+  [
+   43.65194,
+   29.13194
+  ],
+  [
+   43.69083,
+   28.86139
+  ]
+ ],
+ "series": "notam-lbsr",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AD HOC DANGER AREA ESTABLISHED FOR GOVERNMENT ACFT SYSTEM FLT.",
+ "text": "A1223/26 NOTAMN\nQ)LBSR/QRDCA/IV/BO/W/030/050/4316N02839E032\nA)LBSR\nB)2610190500 C)2611300600\nE)AD HOC DANGER AREA ESTABLISHED FOR GOVERNMENT ACFT SYSTEM FLT.\n434127N 0285141E-432849N 0285249E-\n432236N 0284910E-431604N 0284246E-\n431029N 0283326E-430933N 0281655E-\n425955N 0281053E-425257N 0281045E-\n425245N 0282653E-425820N 0282707E-\n430202N 0284532E-431337N 0290006E-\n432700N 0290826E-433907N 0290755E-\n434127N 0285141E.\nSAFETY BUFFERS INCLUDED AS FLW:\n- HORIZONTAL LIMITS - 1KM\n- VERTICAL LIMITS - 1000FT.\nF)3000FT AMSL G)5000FT AMSL",
+ "year": 2026
+}

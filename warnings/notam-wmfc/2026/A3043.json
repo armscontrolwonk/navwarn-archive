@@ -1,0 +1,54 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T00:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 2.95,
+   "lon": 101.6667,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "shape": "polygon",
+  "starts_at": "2026-08-21T00:00:00Z",
+  "upper": "400FT AGL",
+  "upper_fl": 4
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wmfc/2026/A3043",
+ "issued_at": "2026-08-06T03:36:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3043",
+ "positions": [
+  [
+   2.9686,
+   101.682
+  ],
+  [
+   2.96097,
+   101.66105
+  ],
+  [
+   2.95651,
+   101.66085
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT FOR PIPELINE INSPECTION WILL TAKE PLACE ALONG THE FLW ",
+ "text": "A3043/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/004/0257N10140E001\nA) WMFC B) 2608210000 C) 2611190000 \nE)   UA ACT FOR PIPELINE INSPECTION WILL TAKE PLACE ALONG THE FLW \n   COORD:  \n \n   025806.95N 1014055.19E -\n   025739.48N 1013939.79E -\n   025723.42N 1013939.07E \n\n   (PUTRAJAYA)\nF) SFC                             G) 400FT AGL",
+ "year": 2026
+}

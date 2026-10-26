@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.2833,
+   "lon": 140.6333,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/0800",
+  "shape": "polygon",
+  "starts_at": "2026-08-19T23:00:00Z",
+  "upper": "2133FT AMSL",
+  "upper_fl": 22
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U2823",
+ "issued_at": "2026-08-19T01:55:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2823",
+ "positions": [
+  [
+   39.27972,
+   140.62528
+  ],
+  [
+   39.27778,
+   140.62528
+  ],
+  [
+   39.27917,
+   140.64694
+  ],
+  [
+   39.28639,
+   140.64361
+  ],
+  [
+   39.27972,
+   140.62528
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U2823/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/022/3917N14038E002\nA)RJJJ B)2608192300 C)2610310800\nD)2300/0800\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n391647N1403731E - 391640N1403731E - 391645N1403849E - 391711N1403837E\n- 391647N1403731E \n(YOKOTE-SHI IN AKITA)\nWT: 9KG\nF)SFC G)2133FT AMSL",
+ "year": 2026
+}

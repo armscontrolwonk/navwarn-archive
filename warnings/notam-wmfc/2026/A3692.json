@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T11:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 4.65,
+   "lon": 103.3667,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "DLY 2300-1100",
+  "shape": "polygon",
+  "starts_at": "2026-09-30T23:00:00Z",
+  "upper": "400FT AGL",
+  "upper_fl": 5
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wmfc/2026/A3692",
+ "issued_at": "2026-09-22T08:03:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3692",
+ "positions": [
+  [
+   4.65722,
+   103.36306
+  ],
+  [
+   4.66639,
+   103.36333
+  ],
+  [
+   4.66389,
+   103.37722
+  ],
+  [
+   4.65833,
+   103.38639
+  ],
+  [
+   4.64917,
+   103.37806
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE ALONG THE FLW COORDS:",
+ "text": "A3692/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/005/0439N10322E001\nA) WMFC B) 2609302300 C) 2612311100 \nD)DLY 2300-1100\nE)UA ACT WILL TAKE PLACE ALONG THE FLW COORDS:\n043926.00N 1032147.00E - 043959.00N 1032148.00E -\n043950.00N 1032238.00E - 043930.00N 1032311.00E -\n043857.00N 1032241.00E \n(PGB SANTONG,TERENGGANU)\nF) SFC                             G) 400FT AGL",
+ "year": 2026
+}

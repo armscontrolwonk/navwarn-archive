@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T23:59:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "exercise",
+  "location": "RPHI",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 10.4,
+   "lon": 123.9333,
+   "radius_nm": 3
+  },
+  "qcode": "QWELW",
+  "queried_fir": "RPHI",
+  "shape": "polygon",
+  "starts_at": "2026-10-01T00:00:00Z",
+  "upper": "2000FT AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rphi/2026/B4765",
+ "issued_at": "2026-09-11T07:55:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "B4765",
+ "positions": [
+  [
+   10.41861,
+   123.92111
+  ],
+  [
+   10.43083,
+   123.96222
+  ],
+  [
+   10.39583,
+   123.96694
+  ],
+  [
+   10.36833,
+   123.90417
+  ],
+  [
+   10.41861,
+   123.92111
+  ]
+ ],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL EXER WILL TAKE PLACE WI:",
+ "text": "B4765/26 NOTAMN\nQ) RPHI/QWELW/IV/BO /W /000/020/1024N12356E003\nA) RPHI B) 2610010000 C) 2612312359\nE) MIL EXER WILL TAKE PLACE WI:\n102507N 1235516E -\n102551N 1235744E -\n102345N 1235801E -\n102206N 1235415E -\n102507N 1235516E\n(CONSOLACION-TALAMBAN, CEBU).\nF) SFC G) 2000FT AMSL",
+ "year": 2026
+}

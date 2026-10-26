@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-02T16:00:00Z",
+ "extra": {
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.35,
+   "lon": 133.2667,
+   "radius_nm": 15
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "UHHH",
+  "schedule": "DAILY 2300-1600",
+  "starts_at": "2026-11-01T23:00:00Z",
+  "upper": "FL150",
+  "upper_fl": 150
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uhhh/2026/P8199",
+ "issued_at": "2026-10-21T08:05:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P8199",
+ "positions": [],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "DANGER AREA ACT: UHD413.",
+ "text": "P8199/26 NOTAMN\nQ)UHHH/QRDCA/IV/BO/W/000/150/4221N13316E015\nA)UHHH B)2611012300 C)2612021600\nD)DAILY 2300-1600\nE)DANGER AREA ACT: UHD413.\nF)GND  G)FL150",
+ "year": 2026
+}

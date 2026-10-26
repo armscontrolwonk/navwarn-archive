@@ -1,0 +1,57 @@
+{
+ "cancels": [
+  "notam-ltaa/2026/A3875"
+ ],
+ "expires_at": "2026-12-03T14:19:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "other",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 42.1833,
+   "lon": 32.35,
+   "radius_nm": 41
+  },
+  "qcode": "QWTLW",
+  "queried_fir": "LTAA",
+  "schedule": "SR-SS",
+  "shape": "polygon",
+  "starts_at": "2026-09-04T08:30:00Z",
+  "upper": "5500FT AMSL",
+  "upper_fl": 55
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A3899",
+ "issued_at": "2026-09-04T08:51:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3899",
+ "positions": [
+  [
+   41.58194,
+   32.06111
+  ],
+  [
+   42.18972,
+   31.69167
+  ],
+  [
+   42.75667,
+   32.72833
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "PERSONNEL/MATERIAL TRANSFER WILL TAKE PLACE.",
+ "text": "A3899/26 NOTAMR A3875/26\nQ) LTAA/QWTLW/IV/M  /W /000/055/4211N03221E041\nA) LTAA B) 2609040830 C) 2612031419\nD) SR-SS\nE) PERSONNEL/MATERIAL TRANSFER WILL TAKE PLACE.\nROUTE: 413455N0320340E 421123N0314130E 424524N0324342E WITHIN AREA \n2NM EITHER SIDE OF A LINE\nF) SFC G) 5500FT AMSL",
+ "year": 2026
+}

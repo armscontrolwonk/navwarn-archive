@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-26T04:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "firing",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.8,
+   "lon": 120.55,
+   "radius_nm": 5
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RCAA",
+  "schedule": "NOV 09 16 1000-1300, NOV 10 17 18 0000-0400 1000-1300, NOV 11-13 19 26 0000-0400",
+  "shape": "polygon",
+  "starts_at": "2026-11-09T10:00:00Z",
+  "upper": "3000FT AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/A3205",
+ "issued_at": "2026-09-03T09:36:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3205",
+ "positions": [
+  [
+   23.86611,
+   120.52528
+  ],
+  [
+   23.86667,
+   120.58333
+  ],
+  [
+   23.75,
+   120.58333
+  ],
+  [
+   23.74972,
+   120.52778
+  ],
+  [
+   23.86611,
+   120.52528
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "GUN FRNG WILL TAKE PLACE:",
+ "text": "A3205/26 NOTAMN\nQ) RCAA/QWMLW/IV/BO/W/000/030/2348N12033E005\nA) RCAA\nB) 2611091000 C) 2611260400\nD) NOV 09 16 1000-1300,\nNOV 10 17 18 0000-0400 1000-1300,\nNOV 11-13 19 26 0000-0400\nE) GUN FRNG WILL TAKE PLACE:\n1.AIRSPACE BLOCKED.\n2.OPR TEL: 05-5571700, 0970-379984, 0982-618357\n3.AREA AS FLW:\n235158N 1203131E\n235200N 1203500E\n234500N 1203500E\n234459N 1203140E\n235158N 1203131E\nF) SFC G) 3000FT AMSL",
+ "year": 2026
+}

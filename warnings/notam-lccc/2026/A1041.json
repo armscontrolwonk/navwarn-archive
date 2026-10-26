@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T18:00:00Z",
+ "extra": {
+  "fir": "LCCC",
+  "kind": "restricted",
+  "location": "LCCC",
+  "lower": "FL030",
+  "lower_fl": 30,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.1167,
+   "lon": 31.1333,
+   "radius_nm": 48
+  },
+  "qcode": "QRALW",
+  "queried_fir": "LCCC",
+  "schedule": "0500-1800",
+  "shape": "polygon",
+  "starts_at": "2026-10-01T05:00:00Z",
+  "upper": "FL280",
+  "upper_fl": 280
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lccc/2026/A1041",
+ "issued_at": "2026-09-23T08:38:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A1041",
+ "positions": [
+  [
+   33.5,
+   30.58333
+  ],
+  [
+   34.73194,
+   30.58167
+  ],
+  [
+   34.54306,
+   31.88333
+  ],
+  [
+   34.19639,
+   31.88333
+  ],
+  [
+   34.11667,
+   32.06667
+  ],
+  [
+   33.5,
+   31.41667
+  ],
+  [
+   33.5,
+   30.58333
+  ]
+ ],
+ "series": "notam-lccc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MILITARY TRAINING FLIGHTS WILL TAKE PLACE IN AREA:",
+ "text": "A1041/26 NOTAMN\nQ) LCCC/QRALW/IV/NBO/W /030/280/3407N03108E048\nA) LCCC B) 2610010500 C) 2610311800\nD) 0500-1800\nE) MILITARY TRAINING FLIGHTS WILL TAKE PLACE IN AREA:\n333000N 0303500E - 344355N 0303454E - 343235N 0315300E - \n341147N 0315300E - 340700N 0320400E - 333000N 0312500E - \n333000N 0303500E/ AH FR B2 / AREA GOLF\nTHE AREA WILL BE ACTIVATED IN REAL TIME THROUGH FULL COORDINATION\nBETWEEN THE USER AND NICOSIA ACC \nTHE AREA INCLUDES 2.5NM LATERAL AND 2000FT VERTICAL BUFFER\nF) FL030 G) FL280",
+ "year": 2026
+}

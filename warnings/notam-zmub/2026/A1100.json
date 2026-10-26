@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T10:00:00Z",
+ "extra": {
+  "fir": "ZMUB",
+  "kind": "restricted",
+  "location": "ZMUB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 47.7833,
+   "lon": 106.2333,
+   "radius_nm": 8
+  },
+  "qcode": "QRMCA",
+  "queried_fir": "ZMUB",
+  "schedule": "DAILY 0100-1000",
+  "starts_at": "2026-10-24T01:00:00Z",
+  "upper": "11900M AMSL",
+  "upper_fl": 391
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-zmub/2026/A1100",
+ "issued_at": "2026-10-16T04:47:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A1100",
+ "positions": [],
+ "series": "notam-zmub",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MOA ZMM806 ACT.",
+ "text": "A1100/26 NOTAMN\nQ) ZMUB/QRMCA/IV/BO /W /000/391/4747N10614E008\nA) ZMUB B) 2610240100 C) 2610281000\nD) DAILY 0100-1000\nE) MOA ZMM806 ACT.\nF) GND G) 11900M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 61.60444,
+    "lon": 34.63083,
+    "radius_nm": 2.7
+   }
+  ],
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 61.6,
+   "lon": 34.6167,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "26-30 0600-1600",
+  "starts_at": "2026-10-26T06:00:00Z",
+  "upper": "590M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ulll/2026/X9356",
+ "issued_at": "2026-10-22T08:11:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "X9356",
+ "positions": [
+  [
+   61.60444,
+   34.63083
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI SECTOR BTN AZM 050-235DEG RADIUS 5KM",
+ "text": "X9356/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/020/6136N03437E003\nA)ULLL B)2610260600 C)2610301600\nD)26-30 0600-1600\nE)AIRSPACE CLSD WI SECTOR BTN AZM 050-235DEG RADIUS 5KM\nCENTRE 613616N0343751E.\nF)SFC  G)590M AMSL",
+ "year": 2026
+}

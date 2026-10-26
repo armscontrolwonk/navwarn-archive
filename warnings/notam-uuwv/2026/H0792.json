@@ -1,0 +1,103 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T15:00:00Z",
+ "extra": {
+  "fir": "UUWV",
+  "kind": "restricted",
+  "location": "UUWV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.7,
+   "lon": 36.8333,
+   "radius_nm": 8
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UUWV",
+  "schedule": "26-30 0700-1500",
+  "shape": "polygon",
+  "starts_at": "2026-10-26T07:00:00Z",
+  "upper": "900M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uuwv/2026/H0792",
+ "issued_at": "2026-10-23T07:58:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "H0792",
+ "positions": [
+  [
+   56.71639,
+   36.81639
+  ],
+  [
+   56.76778,
+   36.9325
+  ],
+  [
+   56.69722,
+   36.93222
+  ],
+  [
+   56.69028,
+   36.81667
+  ],
+  [
+   56.71639,
+   36.81639
+  ],
+  [
+   56.62194,
+   36.72167
+  ],
+  [
+   56.62361,
+   37.01194
+  ],
+  [
+   56.67111,
+   37.01111
+  ],
+  [
+   56.65083,
+   36.75472
+  ],
+  [
+   56.62194,
+   36.72167
+  ],
+  [
+   56.6925,
+   36.85417
+  ],
+  [
+   56.65861,
+   36.85361
+  ],
+  [
+   56.66333,
+   36.91222
+  ],
+  [
+   56.69583,
+   36.91
+  ],
+  [
+   56.6925,
+   36.85417
+  ]
+ ],
+ "series": "notam-uuwv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "H0792/26 NOTAMN\nQ)UUWV/QRTCA/IV/BO/W/000/030/5642N03650E008\nA)UUWV B)2610260700 C)2610301500\nD)26-30 0700-1500\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 564259N0364859E-564604N0365557E-564150N0365556E-\n         564125N0364900E-564259N0364859E\n   GND-900M AMSL.\n2. AREA: 563719N0364318E-563725N0370043E-564016N0370040E-\n         563903N0364517E-563719N0364318E\n   GND-900M AMSL.\n3. AREA: 564133N0365115E-563931N0365113E-563948N0365444E-\n         564145N0365436E-564133N0365115E\n   650M AMSL-900M AMSL.\nF)GND  G)900M AMSL",
+ "year": 2026
+}

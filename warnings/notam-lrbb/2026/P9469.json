@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T23:59:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "restricted",
+  "location": "LRBB",
+  "lower": "FL220",
+  "lower_fl": 220,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 45.4833,
+   "lon": 26.8167,
+   "radius_nm": 139
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-10-01T00:00:00Z",
+  "upper": "FL260",
+  "upper_fl": 260
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lrbb/2026/P9469",
+ "issued_at": "2026-09-30T15:19:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P9469",
+ "positions": [
+  [
+   46.5,
+   23.88583
+  ],
+  [
+   46.04806,
+   25.08722
+  ],
+  [
+   46.99472,
+   26.68972
+  ],
+  [
+   45.6125,
+   27.51389
+  ],
+  [
+   44.9925,
+   28.73639
+  ],
+  [
+   44.41278,
+   29.61278
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPORARY RESERVED AREA ACTIVATED.",
+ "text": "P9469/26 NOTAMN\nQ) LRBB/QRTCA/IV/BO /W /220/260/4529N02649E139\nA) LRBB B) 2610010000 C) 2610312359\nE) TEMPORARY RESERVED AREA ACTIVATED.\n   MIL FLT WILL TAKE PLACE INTO AN AREA BOUNDED BY 5NM EITHER SIDE\n   OF A STRAIGHT LINE CONNECTING THE FLW POINT OF COORD:\n   463000N0235309E-460253N0250514E-465941N0264123E-453645N0273050E\n   445933N0284411E-442446N0293646E\n   FLT WILL BE COOR BTN CIV AND MIL ATC\n   EXPECT RADAR VECTORING\nF) FL220 G) FL260",
+ "year": 2026
+}

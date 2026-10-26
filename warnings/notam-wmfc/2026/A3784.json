@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T09:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 5.3333,
+   "lon": 100.3,
+   "radius_nm": 5
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "OCT 02 05 07 09 12 16 19 21 23 26 30 0001-0900 NOV 02 04 06 10 13 16 18 20 23 27 30 0001-0900 DEC 02 04 07 11 14 16 18 21 24 28 30 31 0001-0900",
+  "shape": "polygon",
+  "starts_at": "2026-10-02T00:01:00Z",
+  "upper": "400FT AMSL",
+  "upper_fl": 4
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wmfc/2026/A3784",
+ "issued_at": "2026-09-29T20:22:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3784",
+ "positions": [
+  [
+   5.41051,
+   100.33334
+  ],
+  [
+   5.34856,
+   100.30341
+  ],
+  [
+   5.32721,
+   100.27927
+  ],
+  [
+   5.31557,
+   100.28641
+  ],
+  [
+   5.29546,
+   100.26482
+  ],
+  [
+   5.27902,
+   100.25145
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UAS WILL TAKE PLACE AT FLW COORD:",
+ "text": "A3784/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/004/0520N10018E005\nA) WMFC B) 2610020001 C) 2612310900 \nD)OCT 02 05 07 09 12 16 19 21 23 26 30 0001-0900 \nNOV 02 04 06 10 13 16 18 20 23 27 30 0001-0900 \nDEC 02 04 07 11 14 16 18 21 24 28 30 31 0001-0900 \nE)UAS WILL TAKE PLACE AT FLW COORD:\n052437.85N 1002000.04E-\n052054.80N 1001812.26E-\n051937.97N 1001645.39E-\n051856.04N 1001711.06E-\n051743.64N 1001553.35E-\n051644.49N 1001505.23E \n(LALUAN TAPAK LANDASAN LRT PULAU PINANG)\n\nF) SFC                             G) 400FT AMSL",
+ "year": 2026
+}

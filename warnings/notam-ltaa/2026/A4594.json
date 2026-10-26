@@ -1,0 +1,58 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T12:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.2833,
+   "lon": 36.3333,
+   "radius_nm": 1
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-10-29T05:00:00Z",
+  "upper": "2000FT AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4594",
+ "issued_at": "2026-10-12T08:02:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4594",
+ "positions": [
+  [
+   41.29139,
+   36.33306
+  ],
+  [
+   41.29278,
+   36.33639
+  ],
+  [
+   41.28861,
+   36.34
+  ],
+  [
+   41.2875,
+   36.33639
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXERCISE WILL TAKE PLACE HELICOPTER FLIGHTS",
+ "text": "A4594/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /000/020/4117N03620E001\nA) LTAA B) 2610290500 C) 2610291200\nE) EXERCISE WILL TAKE PLACE HELICOPTER FLIGHTS\nSAHA:411729N0361959E 411734N0362011E  411719N0362024E \n411715N0362011E\nWITHIN CARSAMBA TMA\nF) SFC G) 2000FT AMSL",
+ "year": 2026
+}

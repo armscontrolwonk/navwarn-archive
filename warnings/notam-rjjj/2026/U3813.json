@@ -1,0 +1,78 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T15:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.3167,
+   "lon": 131.2833,
+   "radius_nm": 5
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-10-22T15:00:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3813",
+ "issued_at": "2026-10-16T01:18:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3813",
+ "positions": [
+  [
+   33.31056,
+   131.21778
+  ],
+  [
+   33.32472,
+   131.29417
+  ],
+  [
+   33.30944,
+   131.34778
+  ],
+  [
+   33.29278,
+   131.3275
+  ],
+  [
+   33.29306,
+   131.29917
+  ],
+  [
+   33.28111,
+   131.25917
+  ],
+  [
+   33.29167,
+   131.24861
+  ],
+  [
+   33.29222,
+   131.22528
+  ],
+  [
+   33.31056,
+   131.21778
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT(FIXED WING):",
+ "text": "U3813/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/100/3319N13117E005\nA)RJJJ B)2610221500 C)2610281500\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n331838N1311304E - 331929N1311739E - 331834N1312052E - 331734N1311939E\n- 331735N1311757E - 331652N1311533E - 331730N1311455E -\n331732N1311331E - 331838N1311304E \nR-91(HIJUDAI MANEUVERING AREA)\n(YUFU-SHI,KUSU-GUN IN OITA)\nWT  : 20KG\nRMK : SOURCE/JSDF-G(RJDM)\nCONTACT INFORMATION: 0877-62-2311 (EXTENSION 2126)\nF)SFC G)10000FT AMSL",
+ "year": 2026
+}

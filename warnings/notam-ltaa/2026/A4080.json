@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T17:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "drone",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.45,
+   "lon": 40.55,
+   "radius_nm": 40
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-10-01T05:00:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4080",
+ "issued_at": "2026-09-16T09:18:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4080",
+ "positions": [
+  [
+   38.74361,
+   41.15833
+  ],
+  [
+   38.42083,
+   39.72
+  ],
+  [
+   38.01583,
+   40.4575
+  ],
+  [
+   38.07389,
+   41.2
+  ],
+  [
+   38.30028,
+   41.18361
+  ],
+  [
+   38.48556,
+   41.37083
+  ],
+  [
+   38.74361,
+   41.15833
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT FLIGHT WILL TAKE PLACE WI BINGOL TMA AND DIYARBAKIR ",
+ "text": "A4080/26 NOTAMN\nQ) LTAA/QWULW/IV/BO /W /000/100/3827N04033E040\nA) LTAA B) 2610010500 C) 2612311700\nE) UNMANNED ACFT FLIGHT WILL TAKE PLACE WI BINGOL TMA AND DIYARBAKIR \nMILITARY TMA\nAREA: 384437N0410930E 382515N0394312E 380057N0402727E \n380426N0411200E 381801N0411101E 382908N0412215E 384437N0410930E\nF) SFC G) 10000FT AMSL",
+ "year": 2026
+}

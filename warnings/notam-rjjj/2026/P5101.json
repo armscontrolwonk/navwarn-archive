@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T12:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "exercise",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.5833,
+   "lon": 131.2167,
+   "radius_nm": 14
+  },
+  "qcode": "QWELW",
+  "queried_fir": "RJJJ",
+  "schedule": "23-24 27-28 0900/1200",
+  "shape": "polygon",
+  "starts_at": "2026-10-23T09:00:00Z",
+  "upper": "700FT AMSL",
+  "upper_fl": 7
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/P5101",
+ "issued_at": "2026-10-16T04:59:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "P5101",
+ "positions": [
+  [
+   34.79972,
+   131.12972
+  ],
+  [
+   34.37333,
+   131.17444
+  ],
+  [
+   34.42083,
+   131.40528
+  ],
+  [
+   34.79972,
+   131.12972
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNLIGHTED ACFT FLT EXER:",
+ "text": "P5101/26 NOTAMN\nQ)RJJJ/QWELW/IV/BO/W/000/007/3435N13113E014\nA)RJJJ B)2610230900 C)2610281200\nD)23-24 27-28  0900/1200\nE)UNLIGHTED ACFT FLT EXER:\n1. ACFT   : UH1 X 3\n2. AREA   : BOUNDED BY FLW POINTS\n            344759N1310747E - 342224N1311028E - 342515N1312419E -\n            344759N1310747E\n            (HAGI-SHI,NAGATO-SHI IN YAMAGUCHI)\n3. WX COND: VMC ONLY\n4. RMK    : SOURCE/JSDF-G(RJOF)\nF)SFC G)700FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,83 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T08:09:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.8,
+   "lon": 139.6333,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2042/0809",
+  "shape": "polygon",
+  "starts_at": "2026-10-09T20:42:00Z",
+  "upper": "1684FT AMSL",
+  "upper_fl": 17
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3672",
+ "issued_at": "2026-10-09T06:33:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3672",
+ "positions": [
+  [
+   35.79833,
+   139.64194
+  ],
+  [
+   35.8025,
+   139.63194
+  ],
+  [
+   35.80667,
+   139.62528
+  ],
+  [
+   35.80833,
+   139.62694
+  ],
+  [
+   35.80583,
+   139.63111
+  ],
+  [
+   35.80528,
+   139.63611
+  ],
+  [
+   35.80083,
+   139.64639
+  ],
+  [
+   35.79861,
+   139.64556
+  ],
+  [
+   35.79889,
+   139.64417
+  ],
+  [
+   35.79833,
+   139.64194
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3672/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/017/3548N13938E002\nA)RJJJ B)2610092042 C)2611300809\nD)2042/0809\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n354754N1393831E - 354809N1393755E - 354824N1393731E - 354830N1393737E\n- 354821N1393752E - 354819N1393810E - 354803N1393847E -\n354755N1393844E - 354756N1393839E - 354754N1393831E \n(WAKO-SHI,TODA-SHI IN SAITAMA)\nWT: 0.5KG\nFLT TIME: HJ\nF)SFC G)1684FT AMSL",
+ "year": 2026
+}

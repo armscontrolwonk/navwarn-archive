@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-01T05:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.7167,
+   "lon": 130.6833,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0100/0500",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T01:00:00Z",
+  "upper": "1401FT AMSL",
+  "upper_fl": 15
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U4014",
+ "issued_at": "2026-10-26T06:50:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U4014",
+ "positions": [
+  [
+   33.72111,
+   130.67972
+  ],
+  [
+   33.71861,
+   130.68389
+  ],
+  [
+   33.71417,
+   130.67944
+  ],
+  [
+   33.71667,
+   130.67528
+  ],
+  [
+   33.72111,
+   130.67972
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4014/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/015/3343N13041E002\nA)RJJJ B)2610270100 C)2611010500\nD)0100/0500\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n334316N1304047E - 334307N1304102E - 334251N1304046E - 334300N1304031E\n- 334316N1304047E \n(MIYAWAKA-SHI IN FUKUOKA)\nWT: 0.9KG\nF)SFC G)1401FT AMSL",
+ "year": 2026
+}

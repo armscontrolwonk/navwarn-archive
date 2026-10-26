@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-14T10:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.85,
+   "lon": 120.25,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "schedule": "2200-1000",
+  "shape": "polygon",
+  "starts_at": "2026-10-19T22:00:00Z",
+  "upper": "1700FT AMSL",
+  "upper_fl": 17
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2699",
+ "issued_at": "2026-10-15T03:51:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2699",
+ "positions": [
+  [
+   23.87861,
+   120.2275
+  ],
+  [
+   23.85389,
+   120.27194
+  ],
+  [
+   23.83444,
+   120.29361
+  ],
+  [
+   23.82222,
+   120.29
+  ],
+  [
+   23.82917,
+   120.26639
+  ],
+  [
+   23.85694,
+   120.20944
+  ],
+  [
+   23.87861,
+   120.2275
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2699/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/017/2351N12015E003\nA) RCAA\nB) 2610192200 C) 2612141000\nD) 2200-1000\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260930003801\n2.LCA:DACHENG TOWNSHIP, CHANGHUA COUNTY\n3.THE AREA OVERLAPS PART OF CHIAYI MIL TRAINING AREA,\n  PART OF AERA FOUR MIL TRAINING AREA AND PART OF \n  ULM AIRSPACE JHUOSHUEI RIVER, ACFT ARE CTN ADZ.\n4.COOR TEL:04-23827879 EXTENSION 28, 0913-960601, 0912-218136\n5.AREA AS FLW:\n235243N 1201339E\n235114N 1201619E\n235004N 1201737E\n234920N 1201724E\n234945N 1201559E\n235125N 1201234E\n235243N 1201339E\nF) SFC G) 1700FT AMSL",
+ "year": 2026
+}

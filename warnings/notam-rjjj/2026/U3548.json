@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T13:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 43.43611,
+    "lon": 143.14139,
+    "radius_nm": 10.8
+   }
+  ],
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.4333,
+   "lon": 143.1333,
+   "radius_nm": 12
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "1800/1300",
+  "starts_at": "2026-10-02T18:00:00Z",
+  "upper": "6891FT AMSL",
+  "upper_fl": 69
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3548",
+ "issued_at": "2026-10-02T08:18:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3548",
+ "positions": [
+  [
+   43.43611,
+   143.14139
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3548/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/069/4326N14308E012\nA)RJJJ B)2610021800 C)2611251300\nD)1800/1300\nE)UNMANNED ACFT:\nAREA: RADIUS 20KM CENTER 432610N1430829E \n(KATO-GUN,ASYORO-GUN,TOKORO-GUN,KAMIKAWA-GUN,KITAMI-SHI IN HOKKAIDO)\nWT: 0.7KG\nFLT TIME: HJ\nRMK: THIS AREA IS INCLUDED IN HK2-1,HK2-2,HK2-13\nTHIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)6891FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,43 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T23:59:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "exercise",
+  "location": "RPLL",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 14.5167,
+   "lon": 121.0167,
+   "radius_nm": 5
+  },
+  "qcode": "QMAXX",
+  "queried_fir": "RPLL",
+  "starts_at": "2026-10-05T06:03:00Z",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rpll/2026/B5306",
+ "issued_at": "2026-10-05T06:03:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "B5306",
+ "positions": [
+  [
+   14.5217,
+   121.00186
+  ]
+ ],
+ "series": "notam-rpll",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXER CTN WHEN OPR GA MOV AREA DUE PRESENCE OF POTHOLE AT COORD: ",
+ "text": "B5306/26 NOTAMN\nQ) RPHI/QMAXX/IV/BO /A /000/999/1431N12101E005\nA) RPLL B) 2610050603 C) 2610302359\nE) EXER CTN WHEN OPR GA MOV AREA DUE PRESENCE OF POTHOLE AT COORD: \n143118.11N 1210006.70E.",
+ "year": 2026
+}

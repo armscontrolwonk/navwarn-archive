@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-04T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 24.7,
+   "lon": 121.8,
+   "radius_nm": 5
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-10-13T16:00:00Z",
+  "upper": "3000FT AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2578",
+ "issued_at": "2026-10-07T06:42:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2578",
+ "positions": [
+  [
+   24.76667,
+   121.83306
+  ],
+  [
+   24.69889,
+   121.87972
+  ],
+  [
+   24.63194,
+   121.81667
+  ],
+  [
+   24.67972,
+   121.73861
+  ],
+  [
+   24.73417,
+   121.72944
+  ],
+  [
+   24.76667,
+   121.83306
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2578/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/030/2442N12148E005\nA) RCAA\nB) 2610131600 C) 2612041600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260918000301\n2.LCA:WUJIE TOWNSHIP, YILAN COUNTY\n3.THE AREA OVERLAPS RCR30, PART OF VFR CORRIDOR C2 AND C10, \n  ACFT ARE CTN ADZ.\n4.COOR TEL:0922-255524\n5.AREA AS FLW:\n244600N 1214959E\n244156N 1215247E\n243755N 1214900E\n244047N 1214419E\n244403N 1214346E\n244600N 1214959E\nF) SFC G) 3000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,125 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T16:55:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 58.87306,
+    "lon": 33.11861,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 59.2167,
+   "lon": 32.9333,
+   "radius_nm": 30
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "DAILY 0701-1655",
+  "starts_at": "2026-10-26T07:01:00Z",
+  "upper": "5500M AMSL",
+  "upper_fl": 190
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ulll/2026/X9470",
+ "issued_at": "2026-10-23T14:37:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "X9470",
+ "positions": [
+  [
+   59.04417,
+   33.40056
+  ],
+  [
+   59.18694,
+   33.5425
+  ],
+  [
+   59.3425,
+   33.67278
+  ],
+  [
+   59.35222,
+   33.2875
+  ],
+  [
+   59.12222,
+   33.15611
+  ],
+  [
+   58.90167,
+   32.59528
+  ],
+  [
+   58.73,
+   32.95083
+  ],
+  [
+   59.04417,
+   33.40056
+  ],
+  [
+   59.1225,
+   32.32722
+  ],
+  [
+   58.805,
+   33.02694
+  ],
+  [
+   58.7625,
+   32.96389
+  ],
+  [
+   59.09944,
+   32.20361
+  ],
+  [
+   59.1225,
+   32.32722
+  ],
+  [
+   59.35167,
+   33.33194
+  ],
+  [
+   59.10167,
+   33.19472
+  ],
+  [
+   59.34139,
+   32.74389
+  ],
+  [
+   59.36028,
+   32.75139
+  ],
+  [
+   59.35167,
+   33.33194
+  ],
+  [
+   58.87306,
+   33.11861
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "X9470/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/190/5913N03256E030\nA)ULLL B)2610260701 C)2610311655\nD)DAILY 0701-1655\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 590239N0332402E-591113N0333233E-592033N0334022E-\n         592108N0331715E-590720N0330922E-585406N0323543E-\n         584348N0325703E-590239N0332402E\n   SFC-1500M AMSL.\n2. AREA: 590721N0321938E-584818N0330137E-584545N0325750E-\n         590558N0321213E-590721N0321938E\n   1500M AMSL-5500M AMSL.\n3. AREA: 592106N0331955E-590606N0331141E-592029N0324438E-\n         592137N0324505E-592106N0331955E\n   750M AMSL-5500M AMSL.\n4. WI CIRCLE RADIUS 1KM CENTRE 585223N0330707E\n   SFC-1000M AMSL.\nF)SFC  G)5500M AMSL",
+ "year": 2026
+}

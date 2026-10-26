@@ -1,0 +1,43 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-30T23:59:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "exercise",
+  "location": "RPLL",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 14.5167,
+   "lon": 121.0167,
+   "radius_nm": 5
+  },
+  "qcode": "QOBCE",
+  "queried_fir": "RPLL",
+  "starts_at": "2026-10-10T10:00:00Z",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rpll/2026/B5377",
+ "issued_at": "2026-10-08T08:40:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "B5377",
+ "positions": [
+  [
+   14.527,
+   121.00127
+  ]
+ ],
+ "series": "notam-rpll",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "OBST (MOBILE CRANE) ERECTED WITH THE FLW DATA:",
+ "text": "B5377/26 NOTAMN\nQ) RPHI/QOBCE/IV/M  /A /000/999/1431N12101E005\nA) RPLL B) 2610101000 C) 2612302359\nE) OBST (MOBILE CRANE) ERECTED WITH THE FLW DATA:\n\n     OBST                 COORD           ELEV (FT AMSL)\nTS-029-26/MC-1   143137.19N 1210004.58E       60\n\nRMK: EXER EXTREME CTN DRG LDG/TKOF RWY 13/31\n     LCA OF OBST BARANGAY 191, PASAY CITY",
+ "year": 2026
+}

@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T07:31:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.0,
+   "lon": 139.1833,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2105/0731",
+  "shape": "polygon",
+  "starts_at": "2026-10-31T21:05:00Z",
+  "upper": "3281FT AMSL",
+  "upper_fl": 33
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3671",
+ "issued_at": "2026-10-09T05:16:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3671",
+ "positions": [
+  [
+   36.00889,
+   139.19056
+  ],
+  [
+   36.00944,
+   139.18722
+  ],
+  [
+   36.005,
+   139.18583
+  ],
+  [
+   36.00444,
+   139.18917
+  ],
+  [
+   36.00889,
+   139.19056
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U3671/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/033/3600N13911E001\nA)RJJJ B)2610312105 C)2611250731\nD)2105/0731\nE)UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n360032N1391126E - 360034N1391114E - 360018N1391109E - 360016N1391121E\n- 360032N1391126E \n(HIKI-GUN,CHICHIBU-GUN IN SAITAMA)\nWT:3.5KG\nNUMBER: 5\nFLT TIME:  HJ\nRMK: THIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)3281FT AMSL",
+ "year": 2026
+}

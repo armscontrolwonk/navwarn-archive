@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-27T10:30:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "firing",
+  "location": "VABF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 19.85,
+   "lon": 73.7333,
+   "radius_nm": 7
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "VABF",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T02:30:00Z",
+  "upper": "6000FT AMSL",
+  "upper_fl": 60
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-vabf/2026/A1691",
+ "issued_at": "2026-10-26T06:51:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A1691",
+ "positions": [
+  [
+   19.73333,
+   73.71667
+  ],
+  [
+   19.73333,
+   73.76667
+  ],
+  [
+   19.95,
+   73.76667
+  ],
+  [
+   19.95,
+   73.71667
+  ],
+  [
+   19.73333,
+   73.71667
+  ]
+ ],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "DEVLALI FIELD FIRING RANGE PRACTICE WILL BE CARRIED OUT",
+ "text": "A1691/26 NOTAMN\nQ) VABF/QWMLW/IV/BO/W/000/060/1951N07344E007\nA) VABF B) 2610270230 C) 2610271030\nE) DEVLALI FIELD FIRING RANGE PRACTICE WILL BE CARRIED OUT\n   NEAR VAD 16 WI THE AREA BOUNDED BY COORDINATES:\n   1944N07343E- 1944N07346E-\n   1957N07346E- 1957N07343E-\n   1944N07343E\n   SAFE FLYING HEIGHT 8000 FEET\nF) GND G) 6000FT AMSL",
+ "year": 2026
+}

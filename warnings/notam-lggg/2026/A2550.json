@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T23:59:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "drone",
+  "location": "LGGG",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.65,
+   "lon": 22.8667,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "LGGG",
+  "schedule": "JUL 30 - OCT 31 0000-0300,1900-2359",
+  "shape": "polygon",
+  "starts_at": "2026-07-30T00:00:00Z",
+  "upper": "400FT AMSL",
+  "upper_fl": 4
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lggg/2026/A2550",
+ "issued_at": "2026-07-23T08:47:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A2550",
+ "positions": [
+  [
+   40.64861,
+   22.8575
+  ],
+  [
+   40.64889,
+   22.86083
+  ],
+  [
+   40.65333,
+   22.86083
+  ],
+  [
+   40.65333,
+   22.85778
+  ],
+  [
+   40.64861,
+   22.8575
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW:",
+ "text": "A2550/26 NOTAMN\nQ) LGGG/QRTCA/IV/BO /W /000/004/4039N02252E001\nA) LGGG B) 2607300000 C) 2610312359\nD) JUL 30 - OCT 31 0000-0300,1900-2359\nE) A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW:\n1. AREA: 403855N 0225127E - 403856N 0225139E - 403912N 0225139E - \n403912N 0225128E - 403855N 0225127E (KALOCHORIO)\n- THESSALONIKI/MAKEDONIA CTR AFFECTED\n2. TYPE OF RESTRICTION: UAV PATROL\n3. REMARKS: \n3.1 OTHER UAV FLT ARE SUSPENDED.\n3.2 OTHER FLT IN CONTACT WITH THESSALONIKI APP, ARE NOT AFFECTED\n3.3 ACTIVITY SHALL BE ENDED IF REQUIRED BY ATC.\nF) GND G) 400FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-16T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.4833,
+   "lon": 121.5,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-09-22T16:00:00Z",
+  "upper": "2000FT AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2390",
+ "issued_at": "2026-09-17T03:57:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2390",
+ "positions": [
+  [
+   23.50583,
+   121.49861
+  ],
+  [
+   23.50583,
+   121.51139
+  ],
+  [
+   23.48222,
+   121.51694
+  ],
+  [
+   23.44694,
+   121.49861
+  ],
+  [
+   23.46,
+   121.48611
+  ],
+  [
+   23.48389,
+   121.49694
+  ],
+  [
+   23.50583,
+   121.49861
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2390/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/020/2329N12130E003\nA) RCAA\nB) 2609221600 C) 2611161600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260902001002\n2.LCA:FENGBIN TOWNSHIP, HUALIEN COUNTY\n3.THE AREA OVERLAPS PART OF VFR CORRIDOR C6, ACFT ARE CTN ADZ.\n4.COOR TEL:0910-551384, 0965-454118\n5.AREA AS FLW:\n233021N 1212955E\n233021N 1213041E\n232856N 1213101E\n232649N 1212955E\n232736N 1212910E\n232902N 1212949E\n233021N 1212955E\nF) SFC G) 2000FT AMSL",
+ "year": 2026
+}

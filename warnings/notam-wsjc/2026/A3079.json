@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-15T14:00:00Z",
+ "extra": {
+  "fir": "WSJC",
+  "kind": "drone",
+  "location": "WSJC",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 1.2833,
+   "lon": 103.85,
+   "radius_nm": 1
+  },
+  "qcode": "QWYLW",
+  "queried_fir": "WSJC",
+  "schedule": "OCT 31 2200-2359, NOV 01 0000-1400, 06 2200-2359, 07 0000-1400 2200-2359, 08 0000-1400 2200-2359, 09 0000-1400, 13 2200-2359, 14 0000-1400 2200-2359, 15 0000-1400",
+  "starts_at": "2026-10-31T22:00:00Z",
+  "upper": "1000FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wsjc/2026/A3079",
+ "issued_at": "2026-10-12T10:08:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3079",
+ "positions": [
+  [
+   1.28583,
+   103.85444
+  ]
+ ],
+ "series": "notam-wsjc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AERIAL ACT BY UAS WILL TAKE PLACE AT 011709N1035116E (WI WSAP CTR).",
+ "text": "A3079/26 NOTAMN\nQ)WSJC/QWYLW/IV/BO/W/000/010/0117N10351E001\nA)WSJC B)2610312200 C)2611151400\nD)OCT 31 2200-2359, NOV 01 0000-1400, 06 2200-2359, 07 0000-1400\n2200-2359, 08 0000-1400 2200-2359, 09 0000-1400, 13 2200-2359, 14\n0000-1400 2200-2359, 15 0000-1400\nE)AERIAL ACT BY UAS WILL TAKE PLACE AT 011709N1035116E (WI WSAP CTR).\nF)GND G)1000FT AMSL",
+ "year": 2026
+}

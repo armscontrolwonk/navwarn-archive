@@ -1,0 +1,90 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-27T22:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "exercise",
+  "location": "LRBB",
+  "lower": "1500FT AGL",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 45.4333,
+   "lon": 26.2167,
+   "radius_nm": 123
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T05:00:00Z",
+  "upper": "FL105",
+  "upper_fl": 105
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lrbb/2026/M6810",
+ "issued_at": "2026-10-26T14:00:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "M6810",
+ "positions": [
+  [
+   44.39222,
+   27.72667
+  ],
+  [
+   44.29917,
+   27.90417
+  ],
+  [
+   44.39222,
+   27.72667
+  ],
+  [
+   45.51444,
+   26.68806
+  ],
+  [
+   45.32139,
+   27.87028
+  ],
+  [
+   45.23778,
+   27.63833
+  ],
+  [
+   45.21667,
+   26.96667
+  ],
+  [
+   46.51667,
+   26.9
+  ],
+  [
+   46.5,
+   23.88333
+  ],
+  [
+   44.95194,
+   26.14556
+  ],
+  [
+   44.36417,
+   28.48417
+  ],
+  [
+   44.39222,
+   27.72667
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "NAVIGATION WARNING.   ",
+ "text": "M6810/26 NOTAMN\nQ) LRBB/QWELW/IV/BO /W /000/105/4526N02613E123\nA) LRBB B) 2610270500 C) 2610272200\nE) NAVIGATION WARNING.   \n   MIL FLT WILL TAKE PLACE INTO AN AREA BOUNDED BY 5NM EITHER SIDE\n   OF A STRAIGHT LINE CONNECTING THE FLW POINTS OF COORD:\n   442332N0274336E-441757N0275415E-442332N0274336E-453052N0264117E\n   451917N0275213E-451416N0273818E-451300N0265800E-463100N0265400E\n   463000N0235300E-445707N0260844E-442151N0282903E-442332N0274336E\n   FLT WILL BE COOR BTN CIV AND MIL ATC\nF) 1500FT AGL G) FL105",
+ "year": 2026
+}

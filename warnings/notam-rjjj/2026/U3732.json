@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-13T08:08:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.7333,
+   "lon": 138.9667,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0808",
+  "shape": "polygon",
+  "starts_at": "2026-10-14T00:00:00Z",
+  "upper": "3364FT AMSL",
+  "upper_fl": 34
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3732",
+ "issued_at": "2026-10-13T08:48:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3732",
+ "positions": [
+  [
+   35.76361,
+   138.92722
+  ],
+  [
+   35.71417,
+   138.99278
+  ],
+  [
+   35.76333,
+   138.98806
+  ],
+  [
+   35.76361,
+   138.92722
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3732/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/034/3544N13858E003\nA)RJJJ B)2610140000 C)2612130808\nD)0000/0808\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n354549N1385538E - 354251N1385934E - 354548N1385917E - 354549N1385538E\n(KITATSURU-GUN IN YAMANASHI)\nWT: 24.9KG\nNUMBER: 3\nFLT TIME: 0000/SS\nCONTACT INFORMATION: 050-1722-1348\nF)SFC G)3364FT AMSL",
+ "year": 2026
+}

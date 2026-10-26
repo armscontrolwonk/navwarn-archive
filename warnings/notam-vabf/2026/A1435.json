@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-21T16:30:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "drone",
+  "location": "VABF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 19.1333,
+   "lon": 72.9167,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "VABF",
+  "schedule": "0030-1630",
+  "shape": "polygon",
+  "starts_at": "2026-09-22T00:30:00Z",
+  "upper": "500FT AMSL",
+  "upper_fl": 5
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-vabf/2026/A1435",
+ "issued_at": "2026-09-21T09:43:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A1435",
+ "positions": [
+  [
+   19.14028,
+   72.89639
+  ],
+  [
+   19.14222,
+   72.92028
+  ],
+  [
+   19.12528,
+   72.92
+  ],
+  [
+   19.12333,
+   72.90806
+  ],
+  [
+   19.12694,
+   72.90278
+  ],
+  [
+   19.14028,
+   72.89639
+  ]
+ ],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "DRONE OPS NEAR VABB AP IN THE VCY OF",
+ "text": "A1435/26 NOTAMN\nQ) VABF/QWULW/IV/BO/W/000/005/1908N07255E001\nA) VABF B) 2609220030 C) 2612211630\nD) 0030-1630\nE) DRONE OPS NEAR VABB AP IN THE VCY OF\n   INDIAN INSTITUTE OF TECHNOLOGY BOMBAY\n   WI AREA BOUNDED BY COORD:\n   190825N 0725347E-190832N 0725513E-\n   190731N 0725512E-190724N 0725429E-\n   190737N 0725410E-190825N 0725347E\nF) GND G) 500FT AMSL",
+ "year": 2026
+}

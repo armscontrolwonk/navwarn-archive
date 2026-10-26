@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T10:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 1.4333,
+   "lon": 103.6167,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "0100-1000",
+  "shape": "polygon",
+  "starts_at": "2026-10-06T01:00:00Z",
+  "upper": "150FT AGL",
+  "upper_fl": 3
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wmfc/2026/C0204",
+ "issued_at": "2026-10-05T02:37:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "C0204",
+ "positions": [
+  [
+   1.44614,
+   103.61782
+  ],
+  [
+   1.44384,
+   103.62206
+  ],
+  [
+   1.43948,
+   103.62092
+  ],
+  [
+   1.44289,
+   103.61631
+  ],
+  [
+   1.44614,
+   103.61782
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI FOLOWING COOR :",
+ "text": "C0204/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/003/0126N10337E001\nA) WMFC B) 2610060100 C) 2610301000 \nD)0100-1000\nE)UA ACT WILL TAKE PLACE WI FOLOWING COOR :\n   012646.10N 1033704.14E - 012637.83N 1033719.41E -\n   012622.11N 1033715.32E - 012634.40N 1033658.72E -\n   012646.10N 1033704.14E\n   (ECO BOTANI, JOHOR)\n  \n   RMK: ACT SUBJ ATC\n      \nF) SFC                             G) 150FT AGL",
+ "year": 2026
+}

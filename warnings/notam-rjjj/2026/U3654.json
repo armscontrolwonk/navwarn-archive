@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-06T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.9667,
+   "lon": 141.3667,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0800",
+  "shape": "polygon",
+  "starts_at": "2026-10-20T00:00:00Z",
+  "upper": "2494FT AMSL",
+  "upper_fl": 25
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3654",
+ "issued_at": "2026-10-09T00:37:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3654",
+ "positions": [
+  [
+   42.96472,
+   141.3675
+  ],
+  [
+   42.96417,
+   141.35972
+  ],
+  [
+   42.96111,
+   141.36056
+  ],
+  [
+   42.96167,
+   141.36833
+  ],
+  [
+   42.96472,
+   141.3675
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3654/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/025/4258N14122E001\nA)RJJJ B)2610200000 C)2701060800\nD)0000/0800\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n425753N1412203E - 425751N1412135E - 425740N1412138E - 425742N1412206E\n- 425753N1412203E \n(SAPPORO-SHI IN HOKKAIDO)\nWT: 9KG\nF)SFC G)2494FT AMSL",
+ "year": 2026
+}

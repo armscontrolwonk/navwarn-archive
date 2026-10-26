@@ -1,0 +1,43 @@
+{
+ "cancels": [
+  "notam-urrv/2026/V7622"
+ ],
+ "expires_at": "2026-10-31T00:44:00Z",
+ "extra": {
+  "fir": "URRV",
+  "kind": "route",
+  "location": "URRV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 44.3333,
+   "lon": 39.15,
+   "radius_nm": 31
+  },
+  "qcode": "QARLC",
+  "queried_fir": "URRV",
+  "schedule": "DAILY 0044-0500 2000-0044",
+  "starts_at": "2026-10-22T20:00:00Z",
+  "upper": "UNL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-urrv/2026/V7989",
+ "issued_at": "2026-10-22T20:04:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "V7989",
+ "positions": [],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FLW ATS RTE SEGMENTS CLSD:",
+ "text": "V7989/26 NOTAMR V7622/26\nQ)URRV/QARLC/IV/NBO/E/000/999/4420N03909E031\nA)URRV B)2610222000 C)2610310044\nD)DAILY 0044-0500 2000-0044\nE)FLW ATS RTE SEGMENTS CLSD:\nB549 IPVIR-AGOY NDB (AG),\nB949 MOBIT-SMOLENSKAYA NDB (SM),\nB950 SMOLENSKAYA NDB (SM)-AGOY NDB (AG).\nF)SFC  G)UNL",
+ "year": 2026
+}

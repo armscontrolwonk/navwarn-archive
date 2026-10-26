@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-23T08:14:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.3,
+   "lon": 139.5333,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2056/0814",
+  "shape": "polygon",
+  "starts_at": "2026-10-22T20:56:00Z",
+  "upper": "1864FT AMSL",
+  "upper_fl": 19
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3741",
+ "issued_at": "2026-10-13T23:56:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3741",
+ "positions": [
+  [
+   38.31417,
+   139.54139
+  ],
+  [
+   38.3175,
+   139.52583
+  ],
+  [
+   38.29444,
+   139.51694
+  ],
+  [
+   38.29083,
+   139.53333
+  ],
+  [
+   38.31417,
+   139.54139
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3741/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/019/3818N13932E002\nA)RJJJ B)2610222056 C)2612230814\nD)2056/0814\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n381851N1393229E - 381903N1393133E - 381740N1393101E - 381727N1393200E\n- 381851N1393229E \n(MURAKAMI-SHI IN NIIGATA)\nWT: 1.1KG\nFLT TIME: HJ\nRMK: THIS AREA IS INCLUDED IN KK1-2\nTHIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)1864FT AMSL",
+ "year": 2026
+}

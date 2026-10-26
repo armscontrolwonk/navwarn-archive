@@ -1,0 +1,88 @@
+{
+ "cancels": [
+  "notam-ltaa/2026/A3285"
+ ],
+ "expires_at": "2026-11-30T20:59:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "drone",
+  "location": "LTAA",
+  "lower": "FL180",
+  "lower_fl": 180,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 37.0,
+   "lon": 34.7833,
+   "radius_nm": 98
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-10-26T06:25:00Z",
+  "upper": "FL180",
+  "upper_fl": 180
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4802",
+ "issued_at": "2026-10-26T06:27:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4802",
+ "positions": [
+  [
+   37.28167,
+   34.76722
+  ],
+  [
+   37.01778,
+   34.45972
+  ],
+  [
+   36.42778,
+   33.8025
+  ],
+  [
+   36.21667,
+   33.02417
+  ],
+  [
+   37.36972,
+   34.94194
+  ],
+  [
+   37.41194,
+   35.27528
+  ],
+  [
+   37.69583,
+   35.45556
+  ],
+  [
+   37.78472,
+   35.93778
+  ],
+  [
+   37.31111,
+   36.75472
+  ],
+  [
+   37.06194,
+   36.57194
+  ],
+  [
+   36.30417,
+   36.01361
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL TAKE PLACE.",
+ "text": "A4802/26 NOTAMR A3285/26\nQ) LTAA/QWULW/IV/BO /W /180/180/3700N03447E098\nA) LTAA B) 2610260625 C) 2611302059\nE) UNMANNED ACFT WILL TAKE PLACE.\n\n1ST ROUTE: 371654N0344602E 370104N0342735E 362540N0334809E \n361300N0330127E 0.5NM EITHER SIDE OF A LINE \n\n2ND ROUTE: 372211N0345631E 372443N0351631E 374145N0352720E \n374705N0355616E 371840N0364517E 370343N0363419E 361815N0360049E \n0.5NM EITHER SIDE OF A LINE\nF) FL180 G) FL180",
+ "year": 2026
+}

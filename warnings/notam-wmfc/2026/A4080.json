@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T10:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 2.0333,
+   "lon": 103.3,
+   "radius_nm": 44
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "0000-1000",
+  "shape": "polygon",
+  "starts_at": "2026-10-26T00:00:00Z",
+  "upper": "330FT AMSL",
+  "upper_fl": 4
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wmfc/2026/A4080",
+ "issued_at": "2026-10-16T03:20:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4080",
+ "positions": [
+  [
+   1.50889,
+   103.83861
+  ],
+  [
+   1.58667,
+   103.77917
+  ],
+  [
+   1.59083,
+   103.65889
+  ],
+  [
+   2.46222,
+   102.95944
+  ],
+  [
+   2.465,
+   102.78694
+  ],
+  [
+   2.57694,
+   102.79944
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE ALONG THE PETRONAS GAS PIPELINE FM :",
+ "text": "A4080/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/004/0202N10318E044\nA) WMFC B) 2610260000 C) 2612311000 \nD)0000-1000\nE)UA ACT WILL TAKE PLACE ALONG THE PETRONAS GAS PIPELINE FM :\n\n013032.00N 1035019.00E - 013512.00N 1034645.00E -\n013527.00N 1033932.00E - 022744.00N 1025734.00E -\n022754.00N 1024713.00E - 023437.00N 1024758.00E\n\n(PASIR GUDANG,JOHOR)\n \nF) GND                             G) 330FT AMSL",
+ "year": 2026
+}

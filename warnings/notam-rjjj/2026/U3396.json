@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.2167,
+   "lon": 141.1333,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/0800",
+  "shape": "polygon",
+  "starts_at": "2026-10-31T22:00:00Z",
+  "upper": "1444FT AMSL",
+  "upper_fl": 15
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3396",
+ "issued_at": "2026-09-24T03:29:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3396",
+ "positions": [
+  [
+   39.22111,
+   141.11944
+  ],
+  [
+   39.22278,
+   141.12139
+  ],
+  [
+   39.21444,
+   141.13056
+  ],
+  [
+   39.21306,
+   141.12833
+  ],
+  [
+   39.22111,
+   141.11944
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U3396/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/015/3913N14108E002\nA)RJJJ B)2610312200 C)2611300800\nD)2200/0800\nE)UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n391316N1410710E - 391322N1410717E - 391252N1410750E - 391247N1410742E\n- 391316N1410710E \n(ISAWA-GUN IN IWATE)\nWT: 6KG\n\nRMK: THIS AREA IS INCLUDED IN TH3-2\nF)SFC G)1444FT AMSL",
+ "year": 2026
+}

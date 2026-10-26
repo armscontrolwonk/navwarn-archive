@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T09:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.45,
+   "lon": 141.0167,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2050/0900",
+  "shape": "polygon",
+  "starts_at": "2026-08-30T20:50:00Z",
+  "upper": "1313FT AMSL",
+  "upper_fl": 14
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U2917",
+ "issued_at": "2026-08-25T04:54:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2917",
+ "positions": [
+  [
+   37.47083,
+   141.05361
+  ],
+  [
+   37.47056,
+   141.01167
+  ],
+  [
+   37.45917,
+   140.99278
+  ],
+  [
+   37.43861,
+   140.99278
+  ],
+  [
+   37.43972,
+   141.00389
+  ],
+  [
+   37.45167,
+   141.02444
+  ],
+  [
+   37.45167,
+   141.05333
+  ],
+  [
+   37.47083,
+   141.05361
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U2917/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/014/3727N14101E003\nA)RJJJ B)2608302050 C)2610300900\nD)2050/0900\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n372815N1410313E - 372814N1410042E - 372733N1405934E - 372619N1405934E\n- 372623N1410014E - 372706N1410128E - 372706N1410312E -\n372815N1410313E \n(FUTABA-GUN IN FUKUSHIMA)\nWT: 1KG\nF)SFC G)1313FT AMSL",
+ "year": 2026
+}

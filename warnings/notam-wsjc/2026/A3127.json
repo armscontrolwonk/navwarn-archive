@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T03:00:00Z",
+ "extra": {
+  "fir": "WSJC",
+  "kind": "drone",
+  "location": "WSJC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 1.3333,
+   "lon": 104.2,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WSJC",
+  "schedule": "OCT 29-31 0100-0300, NOV 01-30 0100-0300",
+  "shape": "polygon",
+  "starts_at": "2026-10-29T01:00:00Z",
+  "upper": "400FT AMSL",
+  "upper_fl": 4
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wsjc/2026/A3127",
+ "issued_at": "2026-10-15T06:19:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3127",
+ "positions": [
+  [
+   1.3327,
+   104.19551
+  ],
+  [
+   1.33272,
+   104.19714
+  ],
+  [
+   1.3321,
+   104.19723
+  ],
+  [
+   1.33201,
+   104.19556
+  ],
+  [
+   1.3327,
+   104.19551
+  ]
+ ],
+ "series": "notam-wsjc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI",
+ "text": "A3127/26 NOTAMN\nQ)WSJC/QWULW/IV/BO/W/000/004/0120N10412E001\nA)WSJC B)2610290100 C)2611300300\nD)OCT 29-31 0100-0300, NOV 01-30 0100-0300\nE)UA ACT WILL TAKE PLACE WI\n011957.73N1041143.82E-011957.78N1041149.72E-\n011955.57N1041150.04E-011955.23N1041144.00E-011957.73N1041143.82E\nF)SFC G)400FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,106 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 56.63083,
+    "lon": 54.25222,
+    "radius_nm": 1.08
+   },
+   {
+    "lat": 56.62528,
+    "lon": 54.39,
+    "radius_nm": 1.08
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.5833,
+   "lon": 54.2,
+   "radius_nm": 10
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0400-1600",
+  "starts_at": "2026-10-27T04:00:00Z",
+  "upper": "950M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ussv/2026/Z4458",
+ "issued_at": "2026-10-22T10:43:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "Z4458",
+ "positions": [
+  [
+   56.55306,
+   53.94389
+  ],
+  [
+   56.55778,
+   54.09611
+  ],
+  [
+   56.58528,
+   54.12
+  ],
+  [
+   56.70111,
+   54.0575
+  ],
+  [
+   56.71917,
+   54.1175
+  ],
+  [
+   56.66028,
+   54.25778
+  ],
+  [
+   56.65472,
+   54.48111
+  ],
+  [
+   56.57833,
+   54.44944
+  ],
+  [
+   56.53056,
+   54.11194
+  ],
+  [
+   56.52306,
+   53.92639
+  ],
+  [
+   56.55306,
+   53.94389
+  ],
+  [
+   56.63083,
+   54.25222
+  ],
+  [
+   56.62528,
+   54.39
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z4458/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/040/5635N05412E010\nA)USSV B)2610270400 C)2610311600\nD)DAILY 0400-1600\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 563311N0535638E-563328N0540546E-563507N0540712E-\n         564204N0540327E-564309N0540703E-563937N0541528E-\n         563917N0542852E-563442N0542658E-563150N0540643E-\n         563123N0535535E-563311N0535638E\n   450M AMSL-950M AMSL.\n2. WI CIRCLE RADIUS 2KM CENTRE 563751N0541508E\n   GND-950M AMSL.\n3. WI CIRCLE RADIUS 2KM CENTRE 563731N0542324E\n   GND-950M AMSL.\nF)GND  G)950M AMSL",
+ "year": 2026
+}

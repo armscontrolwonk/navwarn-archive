@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T09:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 24.7,
+   "lon": 120.9167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "schedule": "2100-0900",
+  "shape": "polygon",
+  "starts_at": "2026-09-30T21:00:00Z",
+  "upper": "1000FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2365",
+ "issued_at": "2026-09-15T03:51:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2365",
+ "positions": [
+  [
+   24.7125,
+   120.93806
+  ],
+  [
+   24.67694,
+   120.93722
+  ],
+  [
+   24.67639,
+   120.9325
+  ],
+  [
+   24.68583,
+   120.91583
+  ],
+  [
+   24.705,
+   120.89
+  ],
+  [
+   24.71806,
+   120.91139
+  ],
+  [
+   24.7125,
+   120.93806
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2365/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/010/2442N12055E002\nA) RCAA\nB) 2609302100 C) 2610310900\nD) 2100-0900\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260611001001\n2.LCA:TOUFEN CITY, MIAOLI COUNTY\n3.THE AREA OVERLAPS PART OF LONGTAN MIL TRAINING AREA, PART OF \n  VFR CORRIDOR C3 AND C33, ACFT ARE CTN ADZ.\n4.COOR TEL:04-22522966 EXTENSION 207, 0925-919005, 0912-218330\n5.AREA AS FLW:\n244245N 1205617E\n244037N 1205614E\n244035N 1205557E\n244109N 1205457E\n244218N 1205324E\n244305N 1205441E\n244245N 1205617E\nF) SFC G) 1000FT AMSL",
+ "year": 2026
+}

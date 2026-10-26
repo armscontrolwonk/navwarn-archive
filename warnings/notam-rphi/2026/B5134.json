@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T23:59:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "drone",
+  "location": "RPHI",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 6.8333,
+   "lon": 118.5833,
+   "radius_nm": 97
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RPHI",
+  "shape": "polygon",
+  "starts_at": "2026-10-01T00:00:00Z",
+  "upper": "7000FT AMSL",
+  "upper_fl": 70
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rphi/2026/B5134",
+ "issued_at": "2026-09-29T03:09:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "B5134",
+ "positions": [
+  [
+   5.52889,
+   119.47444
+  ],
+  [
+   7.50278,
+   117.77139
+  ],
+  [
+   7.82111,
+   117.40528
+  ],
+  [
+   8.13111,
+   117.69472
+  ],
+  [
+   7.75306,
+   118.14222
+  ],
+  [
+   5.86694,
+   119.78111
+  ],
+  [
+   5.52889,
+   119.47444
+  ]
+ ],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UAS FLT OPS WILL TAKE PLACE WI:",
+ "text": "B5134/26 NOTAMN\nQ) RPHI/QWULW/IV/BO /W /000/070/0650N11835E097\nA) RPHI B) 2610010000 C) 2612312359\nE) UAS FLT OPS WILL TAKE PLACE WI:\n053144N 1192828E -\n073010N 1174617E -\n074916N 1172419E -\n080752N 1174141E -\n074511N 1180832E -\n055201N 1194652E -\n053144N 1192828E \n(BALABAK).\n\nRMK: UTILIZED FOR BILATERAL KAPIT-BISIG OPS\n     NON-PARTICIPATING ACFT EXER CTN.\nF) SFC G) 7000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-01T20:59:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "31000FT AMSL",
+  "lower_fl": 310,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.4333,
+   "lon": 32.3333,
+   "radius_nm": 43
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-10-01T21:00:00Z",
+  "upper": "31000FT AMSL",
+  "upper_fl": 310
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4310",
+ "issued_at": "2026-09-28T13:14:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4310",
+ "positions": [
+  [
+   36.02167,
+   33.00528
+  ],
+  [
+   36.73556,
+   33.08972
+  ],
+  [
+   36.86583,
+   31.66194
+  ],
+  [
+   36.12139,
+   31.5775
+  ],
+  [
+   36.02167,
+   33.00528
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRBORNE EARLY WARNING AND CONTROL FLIGHT WILL TAKE PLACE.",
+ "text": "A4310/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /310/310/3626N03220E043\nA) LTAA B) 2610012100 C) 2701012059\nE) AIRBORNE EARLY WARNING AND CONTROL FLIGHT WILL TAKE PLACE.\nAREA: 360118N0330019E 364408N0330523E 365157N0313943E \n360717N0313439E 360118N0330019E\nF) 31000FT AMSL G) 31000FT AMSL",
+ "year": 2026
+}

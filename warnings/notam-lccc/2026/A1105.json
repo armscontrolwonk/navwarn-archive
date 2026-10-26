@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T23:59:00Z",
+ "extra": {
+  "fir": "LCCC",
+  "kind": "restricted",
+  "location": "LCCC",
+  "lower": "FL050",
+  "lower_fl": 50,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 32.7,
+   "lon": 34.0,
+   "radius_nm": 18
+  },
+  "qcode": "QRALW",
+  "queried_fir": "LCCC",
+  "shape": "polygon",
+  "starts_at": "2026-10-10T00:00:00Z",
+  "upper": "FL110",
+  "upper_fl": 110
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lccc/2026/A1105",
+ "issued_at": "2026-10-08T09:10:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A1105",
+ "positions": [
+  [
+   32.97306,
+   33.87083
+  ],
+  [
+   32.85889,
+   34.265
+  ],
+  [
+   32.43861,
+   34.12556
+  ],
+  [
+   32.54278,
+   33.75472
+  ],
+  [
+   32.97306,
+   33.87083
+  ]
+ ],
+ "series": "notam-lccc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MILITARY ACTIVITIES WILL TAKE PLACE IN AREA:",
+ "text": "A1105/26 NOTAMN\nQ) LCCC/QRALW/IV/NBO/W /050/110/3242N03400E018\nA) LCCC B) 2610100000 C) 2611102359\nE) MILITARY ACTIVITIES WILL TAKE PLACE IN AREA:\n325823N 0335215E - 325132N 0341554E - 322619N 0340732E - 323234N\n0334517E - 325823N 0335215E/GOLD AREA\nTHE AREA WILL BE ACTIVATED IN REAL TIME THROUGH FULL TACTICAL\nCOORDINATION BETWEEN THE USER AND NICOSIA ACC.\nTHE AREA INCLUDES LATERAL AND 1000FT VERTICAL BUFFER ZONE.\nPILOTS TO EXERCISE CAUTION, MONITOR THE EMERGENCY FREQUENCY AND\nMAINTAIN CONTINUOUS RADIO CONTACT WITH NICOSIA ACC OR TEL AVIV ACC\nWHEN TRANSPASSING THE AREA.\nF) FL050 G) FL110",
+ "year": 2026
+}

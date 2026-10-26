@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-23T13:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.4833,
+   "lon": 142.6333,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "1800/1300",
+  "shape": "polygon",
+  "starts_at": "2026-10-21T18:00:00Z",
+  "upper": "4922FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3919",
+ "issued_at": "2026-10-21T05:58:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3919",
+ "positions": [
+  [
+   43.51444,
+   142.60222
+  ],
+  [
+   43.48806,
+   142.57444
+  ],
+  [
+   43.43889,
+   142.64861
+  ],
+  [
+   43.47639,
+   142.69278
+  ],
+  [
+   43.51444,
+   142.60222
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3919/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/050/4329N14238E004\nA)RJJJ B)2610211800 C)2612231300\nD)1800/1300\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n433052N1423608E - 432917N1423428E - 432620N1423855E - 432835N1424134E\n- 433052N1423608E \n(KAMIKAWA-GUN, SORACHI-GUN IN HOKKAIDO)\nWT: 0.7KG\nRMK: THIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)4922FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,65 @@
+{
+ "cancels": [
+  "notam-rjjj/2026/U2367"
+ ],
+ "expires_at": "2026-10-31T14:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 38.2833,
+   "lon": 140.2,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "17 0233/1400 18-OCT 30 1900/1400",
+  "shape": "polygon",
+  "starts_at": "2026-08-17T02:33:00Z",
+  "upper": "2113FT AMSL",
+  "upper_fl": 22
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U2789",
+ "issued_at": "2026-08-17T02:33:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2789",
+ "positions": [
+  [
+   38.29417,
+   140.20333
+  ],
+  [
+   38.29056,
+   140.21083
+  ],
+  [
+   38.27778,
+   140.19917
+  ],
+  [
+   38.28139,
+   140.1925
+  ],
+  [
+   38.29417,
+   140.20333
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U2789/26 NOTAMR U2367/26\nQ)RJJJ/QWULW/IV/BO/W/000/022/3817N14012E002\nA)RJJJ B)2608170233 C)2610311400\nD)17 0233/1400 18-OCT 30 1900/1400\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n381739N1401212E - 381726N1401239E - 381640N1401157E - 381653N1401133E\n- 381739N1401212E \n(HIGASHIMURAYAMA-GUN IN YAMAGATA)\nWT: 2.1KG\nCONTACT INFORMATION: 023-652-0181\nF)SFC G)2113FT AMSL",
+ "year": 2026
+}

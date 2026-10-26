@@ -1,0 +1,43 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-06T23:59:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "exercise",
+  "location": "RPLL",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 14.5167,
+   "lon": 121.0167,
+   "radius_nm": 5
+  },
+  "qcode": "QMXXX",
+  "queried_fir": "RPLL",
+  "starts_at": "2026-10-19T21:01:00Z",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rpll/2026/B5632",
+ "issued_at": "2026-10-19T12:50:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "B5632",
+ "positions": [
+  [
+   14.52229,
+   121.00725
+  ]
+ ],
+ "series": "notam-rpll",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXER CTN WHEN TAX PORTION OF TWY D (BTN TWY G11 AND G12) AND F1 ",
+ "text": "B5632/26 NOTAMN\nQ) RPHI/QMXXX/IV/M  /A /000/999/1431N12101E005\nA) RPLL B) 2610192101 C) 2612062359\nE) EXER CTN WHEN TAX PORTION OF TWY D (BTN TWY G11 AND G12) AND F1 \nDUE WIP (CONST OF TWY AT COORD: 143120.24N 1210026.09E).\n\nRMK: ALLOWED FOR ACFT CODE C TOWING OPS ONLY.\n     ACFT CODE B AND BLW ALLOWED FOR TAX PWR.",
+ "year": 2026
+}

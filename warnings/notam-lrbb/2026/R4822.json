@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-27T15:30:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "restricted",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 45.6833,
+   "lon": 25.55,
+   "radius_nm": 3
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T06:00:00Z",
+  "upper": "FL130",
+  "upper_fl": 130
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lrbb/2026/R4822",
+ "issued_at": "2026-10-26T14:49:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "R4822",
+ "positions": [
+  [
+   45.71889,
+   25.54806
+  ],
+  [
+   45.68222,
+   25.51083
+  ],
+  [
+   45.65583,
+   25.56306
+  ],
+  [
+   45.69139,
+   25.60139
+  ],
+  [
+   45.71889,
+   25.54806
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "DANGER AREA ACTIVATED.",
+ "text": "R4822/26 NOTAMN\nQ) LRBB/QRDCA/IV/BO /W /000/130/4541N02533E003\nA) LRBB B) 2610270600 C) 2610271530\nE) DANGER AREA ACTIVATED.\n   SPORT FLT AND PJE WILL TAKE PLACE INTO THE FLW AREA:\n   454308N0253253E-454056N0253039E-453921N0253347E-454129N0253605E\n   454308N0253253E\n   RESERVED AREA SPORTS ACT OF ACFT AND PJE CONTACT ON 135.210\n   EXPECT RADAR VECTORING\nF) GND G) FL130",
+ "year": 2026
+}

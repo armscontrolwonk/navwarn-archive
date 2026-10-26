@@ -1,0 +1,82 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T23:59:00Z",
+ "extra": {
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 46.7667,
+   "lon": 48.1833,
+   "radius_nm": 31
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "URRV",
+  "shape": "polygon",
+  "starts_at": "2026-10-23T00:00:00Z",
+  "upper": "500M AGL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-urrv/2026/V7671",
+ "issued_at": "2026-10-17T09:59:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "V7671",
+ "positions": [
+  [
+   46.71667,
+   48.91667
+  ],
+  [
+   46.83333,
+   48.58333
+  ],
+  [
+   46.93333,
+   48.35
+  ],
+  [
+   46.98333,
+   48.1
+  ],
+  [
+   47.0,
+   47.93333
+  ],
+  [
+   46.95,
+   47.78333
+  ],
+  [
+   46.9,
+   47.71667
+  ],
+  [
+   46.9,
+   47.55
+  ],
+  [
+   46.88333,
+   47.5
+  ],
+  [
+   46.8,
+   47.43333
+  ]
+ ],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI 1KM EITHER SIDE OF LINE JOINING POINTS:",
+ "text": "V7671/26 NOTAMN\nQ)URRV/QRTCA/IV/BO/W/000/999/4646N04811E031\nA)URRV B)2610230000 C)2610282359\nE)AIRSPACE CLSD WI 1KM EITHER SIDE OF LINE JOINING POINTS:\n464300N0485500E-465000N0483500E-465600N0482100E-465900N0480600E-\n470000N0475600E-465700N0474700E-465400N0474300E-465400N0473300E-\n465300N0473000E-464800N0472600E\nF)GND  G)500M AGL",
+ "year": 2026
+}

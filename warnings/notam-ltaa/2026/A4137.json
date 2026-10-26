@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T20:59:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.6,
+   "lon": 43.3667,
+   "radius_nm": 74
+  },
+  "qcode": "QANLC",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-09-30T21:00:00Z",
+  "upper_fl": 310
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4137",
+ "issued_at": "2026-09-18T12:24:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4137",
+ "positions": [
+  [
+   38.46611,
+   43.325
+  ],
+  [
+   37.83778,
+   43.95694
+  ],
+  [
+   37.54917,
+   44.2425
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "SEE NOTAM: A4131/26",
+ "text": "A4137/26 NOTAMN\nQ) LTAA/QANLC/I /NBO/E /000/310/3736N04322E074\nA) LTAA B) 2609302100 C) 2612312059\nE) SEE NOTAM: A4131/26\nRNAV ROUTE AND SEGMENTS AFFECTED DURING FIRING ACTIVITY AS FOLLOWS:\n1- AWY M/UM860 NINVA-SRT SEGMENT CLSD.\n2- AWY M/UM688 OTKEP-RATVO SEGMENT CLSD.\n3- AWY T/UT332 OTKEP-KABAN SEGMENT CLSD.\n4- AWY UT301 INLAP-LUMOM SEGMENT CLSD.\n5- AWY T301 INLAP-YKV SEGMENT CLSD.\nVERTICAL LIMITS FOR ABOVE ROUTES: SFC-FL310\n6- HAKKARI YUKSEKOVA SELAHADDIN EYYUBI AD (LTCW) PLANNING TKOF/LDG \nSHALL USE THE ROUTE WITH DETAILS PROVIDED BELOW, WHEN DEEMED \nNECESSARY BY ATC.\nROUTE: VAN VOR(382758N0431930E)-RUPOM(375016N0435725E)-\nYKV VOR(373257N0441433E)\nMAG TRACK: 137/317(VAN VOR-YKV VOR)\nDISTANCE: BTN VAN VOR-RUPOM 48.1NM\n          BTN RUPOM-YKV VOR 22.0NM\nFLIGHT LEVELS: BTN VAN VOR-RUPOM FL220\n               BTN RUPOM-YKV VOR MIN FL180",
+ "year": 2026
+}

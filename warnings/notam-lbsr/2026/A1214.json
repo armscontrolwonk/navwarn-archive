@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T16:00:00Z",
+ "extra": {
+  "fir": "LBSR",
+  "kind": "drone",
+  "location": "LBSR",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.9167,
+   "lon": 25.7167,
+   "radius_nm": 10
+  },
+  "qcode": "QRMCA",
+  "queried_fir": "LBSR",
+  "schedule": "0700-1600",
+  "shape": "polygon",
+  "starts_at": "2026-10-26T07:00:00Z",
+  "upper": "9500FT AMSL",
+  "upper_fl": 95
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lbsr/2026/A1214",
+ "issued_at": "2026-10-15T11:50:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A1214",
+ "positions": [
+  [
+   42.01722,
+   25.53833
+  ],
+  [
+   41.97889,
+   25.52417
+  ],
+  [
+   41.93722,
+   25.64278
+  ],
+  [
+   41.81444,
+   25.64194
+  ],
+  [
+   41.8225,
+   25.88111
+  ],
+  [
+   41.91444,
+   25.87833
+  ],
+  [
+   41.9925,
+   25.70639
+  ],
+  [
+   42.01722,
+   25.53833
+  ]
+ ],
+ "series": "notam-lbsr",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPORARY SEGREGATED AREA ESTABLISHED FOR",
+ "text": "A1214/26 NOTAMN\nQ)LBSR/QRMCA/IV/BO/W/000/095/4155N02543E010\nA)LBSR\nB)2610260700 C)2610301600\nD)0700-1600\nE)TEMPORARY SEGREGATED AREA ESTABLISHED FOR\nUNMANNED MIL ACFT SYSTEM FLT WI:\n420102N 0253218E-415844N 0253127E-\n415614N 0253834E-414852N 0253831E-\n414921N 0255252E-415452N 0255242E-\n415933N 0254223E-420102N 0253218E.\nSAFETY BUFFERS INCLUDED AS FLW:\n- HORIZONTAL - 1NM\n- VERTICAL   - 1000FT.\nF)GND G)9500FT AMSL",
+ "year": 2026
+}

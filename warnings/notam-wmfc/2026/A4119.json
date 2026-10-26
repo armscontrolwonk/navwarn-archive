@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-03T10:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "exercise",
+  "location": "WMFC",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 2.4667,
+   "lon": 103.6167,
+   "radius_nm": 5
+  },
+  "qcode": "QWELW",
+  "queried_fir": "WMFC",
+  "schedule": "DLY 0001-1000",
+  "starts_at": "2026-11-01T00:01:00Z",
+  "upper": "10000FT AGL",
+  "upper_fl": 101
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wmfc/2026/A4119",
+ "issued_at": "2026-10-18T07:17:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4119",
+ "positions": [
+  [
+   2.46833,
+   103.63306
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL EXER WILL TAKE PLACE WI 5NM RADIUS CENTERED ON 022806N1033759E",
+ "text": "A4119/26 NOTAMN\nQ) WMFC/QWELW/IV/BO /W /000/101/0228N10337E005\nA) WMFC B) 2611010001 C) 2611031000 \nD) DLY 0001-1000\nE) MIL EXER WILL TAKE PLACE WI 5NM RADIUS CENTERED ON 022806N1033759E\n  (PADANG SK TANAH ABANG,MERSING )\nF) GND                             G) 10000FT AGL",
+ "year": 2026
+}

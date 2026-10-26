@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-11T08:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 3.5167,
+   "lon": 101.1167,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "OCT 26 28 0100-0800 NOV 2 4 9 11 0100-0800",
+  "shape": "polygon",
+  "starts_at": "2026-10-26T01:00:00Z",
+  "upper": "100FT AGL",
+  "upper_fl": 2
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wmfc/2026/A4065",
+ "issued_at": "2026-10-15T08:34:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4065",
+ "positions": [
+  [
+   3.53028,
+   101.1225
+  ],
+  [
+   3.52778,
+   101.12417
+  ],
+  [
+   3.52417,
+   101.11889
+  ],
+  [
+   3.52667,
+   101.11722
+  ],
+  [
+   3.53028,
+   101.1225
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI THE FLW COORDS:",
+ "text": "A4065/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/002/0331N10107E001\nA) WMFC B) 2610260100 C) 2611110800 \nD)OCT 26 28    0100-0800\nNOV 2 4 9 11 0100-0800\nE)UA ACT WILL TAKE PLACE WI THE FLW COORDS:\n\n033149.00N 1010721.00E - 033140.00N 1010727.00E -\n033127.00N 1010708.00E - 033136.00N 1010702.00E -\n033149.00N 1010721.00E \n\n(SEKINCHAN,SELANGOR)\nF) SFC                             G) 100FT AGL",
+ "year": 2026
+}

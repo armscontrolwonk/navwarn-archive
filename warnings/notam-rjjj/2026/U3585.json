@@ -1,0 +1,78 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T15:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.7667,
+   "lon": 139.0667,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-10-06T15:00:00Z",
+  "upper": "4200FT AMSL",
+  "upper_fl": 42
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3585",
+ "issued_at": "2026-10-05T06:53:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3585",
+ "positions": [
+  [
+   36.77056,
+   139.06083
+  ],
+  [
+   36.76667,
+   139.06472
+  ],
+  [
+   36.76667,
+   139.06472
+  ],
+  [
+   36.76667,
+   139.06444
+  ],
+  [
+   36.77056,
+   139.06083
+  ],
+  [
+   36.775,
+   139.06
+  ],
+  [
+   36.775,
+   139.06
+  ],
+  [
+   36.775,
+   139.06028
+  ],
+  [
+   36.77056,
+   139.06083
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3585/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/042/3646N13904E001\nA)RJJJ B)2610061500 C)2612311500\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n364614N1390339E - 364600N1390353E - 364600N1390353E - 364600N1390352E\n- 364614N1390339E - 364630N1390336E - 364630N1390336E -\n364630N1390337E - 364614N1390339E \n(NUMATA-SHI IN GUNMA)\nWT: 0.7KG\nF)SFC G)4200FT AMSL",
+ "year": 2026
+}

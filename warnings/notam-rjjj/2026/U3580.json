@@ -1,0 +1,78 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T15:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.3,
+   "lon": 139.4833,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-10-16T15:00:00Z",
+  "upper": "1641FT AMSL",
+  "upper_fl": 17
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3580",
+ "issued_at": "2026-10-05T02:00:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3580",
+ "positions": [
+  [
+   35.29944,
+   139.47306
+  ],
+  [
+   35.30333,
+   139.46222
+  ],
+  [
+   35.28861,
+   139.46278
+  ],
+  [
+   35.28917,
+   139.50083
+  ],
+  [
+   35.3025,
+   139.49778
+  ],
+  [
+   35.2975,
+   139.48833
+  ],
+  [
+   35.29611,
+   139.4775
+  ],
+  [
+   35.29667,
+   139.47472
+  ],
+  [
+   35.29944,
+   139.47306
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3580/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/017/3518N13929E002\nA)RJJJ B)2610161500 C)2611251500\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n351758N1392823E - 351812N1392744E - 351719N1392746E - 351721N1393003E\n- 351809N1392952E - 351751N1392918E - 351746N1392839E -\n351748N1392829E - 351758N1392823E \n(FUJISAWA-SHI IN KANAGAWA)\nWT: 1.1KG\n\nRMK: THIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)1641FT AMSL",
+ "year": 2026
+}

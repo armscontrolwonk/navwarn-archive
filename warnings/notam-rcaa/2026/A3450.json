@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-26T09:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "firing",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 24.75,
+   "lon": 121.9,
+   "radius_nm": 7
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RCAA",
+  "schedule": "NOV 03-05 10-12 17-19 24-26 0500-0900",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T05:00:00Z",
+  "upper": "11000FT AMSL",
+  "upper_fl": 110
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/A3450",
+ "issued_at": "2026-09-18T13:08:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3450",
+ "positions": [
+  [
+   24.8,
+   121.81667
+  ],
+  [
+   24.83333,
+   121.83333
+  ],
+  [
+   24.83333,
+   121.91667
+  ],
+  [
+   24.66667,
+   121.91667
+  ],
+  [
+   24.7,
+   121.83333
+  ],
+  [
+   24.73333,
+   121.81667
+  ],
+  [
+   24.8,
+   121.81667
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "GUN FRNG WILL TAKE PLACE:",
+ "text": "A3450/26 NOTAMN\nQ) RCAA/QWMLW/IV/BO/W/000/110/2445N12154E007\nA) RCAA\nB) 2611030500 C) 2611260900\nD) NOV 03-05 10-12 17-19 24-26 0500-0900\nE) GUN FRNG WILL TAKE PLACE:\n1.TFC CONCERNED KEEP CLOSE CTC WITH TAIPEI APP.\n2.GUN FRNG WILL BE SUSPENDED BY KNOWN TFC.\n3.REF AIP ENR 5.1 FOR RCR30 TYPE OF RESTRICTION.\n4.OPR TEL: 03-9301734, 03-9308628\n5.AREA AS FLW:\n244800N 1214900E\n245000N 1215000E\n245000N 1215500E\n244000N 1215500E\n244200N 1215000E\n244400N 1214900E\n244800N 1214900E\nF) SFC G) 11000FT AMSL",
+ "year": 2026
+}

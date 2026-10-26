@@ -1,0 +1,87 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T11:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.95,
+   "lon": 139.4667,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0800/1100",
+  "shape": "polygon",
+  "starts_at": "2026-10-23T08:00:00Z",
+  "upper": "519FT AMSL",
+  "upper_fl": 6
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3700",
+ "issued_at": "2026-10-09T09:27:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3700",
+ "positions": [
+  [
+   35.95889,
+   139.46611
+  ],
+  [
+   35.95861,
+   139.46861
+  ],
+  [
+   35.95833,
+   139.46861
+  ],
+  [
+   35.95806,
+   139.46861
+  ],
+  [
+   35.95778,
+   139.46833
+  ],
+  [
+   35.9575,
+   139.46806
+  ],
+  [
+   35.9575,
+   139.46778
+  ],
+  [
+   35.9575,
+   139.46694
+  ],
+  [
+   35.9575,
+   139.46639
+  ],
+  [
+   35.95778,
+   139.46611
+  ],
+  [
+   35.95889,
+   139.46611
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3700/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/006/3557N13928E001\nA)RJJJ B)2610230800 C)2612311100\nD)0800/1100\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n355732N1392758E - 355731N1392807E - 355730N1392807E - 355729N1392807E\n- 355728N1392806E - 355727N1392805E - 355727N1392804E -\n355727N1392801E - 355727N1392759E - 355728N1392758E - 355732N1392758E\n(KAWAGOE-SHI IN SAITAMA)\nWT: 9KG\nF)SFC G)519FT AMSL",
+ "year": 2026
+}

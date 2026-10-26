@@ -1,0 +1,109 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 54.58639,
+    "lon": 31.56667,
+    "radius_nm": 2.7
+   },
+   {
+    "lat": 54.93833,
+    "lon": 31.73361,
+    "radius_nm": 2.7
+   }
+  ],
+  "fir": "UUWV",
+  "kind": "restricted",
+  "location": "UUWV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.6667,
+   "lon": 31.3833,
+   "radius_nm": 66
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UUWV",
+  "starts_at": "2026-10-24T00:00:00Z",
+  "upper": "10000M AMSL",
+  "upper_fl": 330
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uuwv/2026/H0658",
+ "issued_at": "2026-10-22T06:51:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "H0658",
+ "positions": [
+  [
+   55.50722,
+   31.22917
+  ],
+  [
+   55.7,
+   31.25
+  ],
+  [
+   55.7,
+   31.28333
+  ],
+  [
+   55.52611,
+   31.30417
+  ],
+  [
+   55.50722,
+   31.22917
+  ],
+  [
+   54.58639,
+   31.56667
+  ],
+  [
+   54.93833,
+   31.73361
+  ],
+  [
+   54.80417,
+   31.53333
+  ],
+  [
+   54.93083,
+   31.72944
+  ],
+  [
+   55.51667,
+   31.26667
+  ],
+  [
+   54.58639,
+   31.56667
+  ],
+  [
+   54.80417,
+   31.53333
+  ],
+  [
+   55.7,
+   31.26306
+  ],
+  [
+   56.74333,
+   31.18333
+  ]
+ ],
+ "series": "notam-uuwv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "H0658/26 NOTAMN\nQ)UUWV/QRTCA/IV/BO/W/000/330/5540N03123E066\nA)UUWV B)2610240000 C)2610292359\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 553026N0311345E-554200N0311500E-554200N0311700E-\n         553134N0311815E-553026N0311345E\n   2000M AMSL-5500M AMSL.\n2. WI CIRCLE RADIUS 5KM CENTRE 543511N0313400E\n   GND-7000M AMSL.\n3. WI CIRCLE RADIUS 5KM CENTRE 545618N0314401E\n   GND-10000M AMSL.\n4. WI 2.5KM EITHER SIDE OF LINE JOINING POINTS:\n   544815N0313200E-545551N0314346E-553100N0311600E.\n   450M AMSL-5500M AMSL.\n5. WI 2.5KM EITHER SIDE OF LINE JOINING POINTS:\n   543511N0313400E-544815N0313200E.\n   900M AMSL-5500M AMSL.\n6. WI 2KM EITHER SIDE OF LINE JOINING POINTS:\n   554200N0311547E-564436N0311100E.\n   3000M AMSL-5500M AMSL.\nF)GND  G)10000M AMSL",
+ "year": 2026
+}

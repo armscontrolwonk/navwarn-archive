@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-24T14:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.1167,
+   "lon": 32.25,
+   "radius_nm": 27
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "schedule": "MON-FRI 0700-1400",
+  "shape": "polygon",
+  "starts_at": "2026-08-24T07:00:00Z",
+  "upper": "20000FT AMSL",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A3689",
+ "issued_at": "2026-08-21T08:00:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3689",
+ "positions": [
+  [
+   42.14389,
+   31.73056
+  ],
+  [
+   41.71806,
+   31.99583
+  ],
+  [
+   41.71667,
+   32.25
+  ],
+  [
+   42.5,
+   32.5
+  ],
+  [
+   42.14389,
+   31.73056
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEST FLIGHT WILL TAKE PLACE WI: 420838N0314350E 414305N0315945E ",
+ "text": "A3689/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /000/200/4207N03215E027\nA) LTAA B) 2608240700 C) 2611241400\nD) MON-FRI 0700-1400\nE) TEST FLIGHT WILL TAKE PLACE WI: 420838N0314350E 414305N0315945E \n414300N0321500E 423000N0323000E 420838N0314350E\nF) SFC G) 20000FT AMSL",
+ "year": 2026
+}

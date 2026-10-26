@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T15:00:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "restricted",
+  "location": "LGGG",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.5833,
+   "lon": 24.1667,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "LGGG",
+  "schedule": "04 05 06 0600-1500",
+  "shape": "polygon",
+  "starts_at": "2026-11-04T06:00:00Z",
+  "upper": "3000FT AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lggg/2026/A3955",
+ "issued_at": "2026-10-26T11:21:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3955",
+ "positions": [
+  [
+   35.58778,
+   24.16444
+  ],
+  [
+   35.58861,
+   24.17028
+  ],
+  [
+   35.57028,
+   24.18472
+  ],
+  [
+   35.56694,
+   24.17611
+  ],
+  [
+   35.58778,
+   24.16444
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "A TEMPORARY RESTRICTED AREA IS ESTABLISHED WITHIN ATHINAI FIR ",
+ "text": "A3955/26 NOTAMN\nQ) LGGG/QRTCA/IV/BO /W /000/030/3535N02410E002\nA) LGGG B) 2611040600 C) 2611061500\nD) 04 05 06 0600-1500\nE) A TEMPORARY RESTRICTED AREA IS ESTABLISHED WITHIN ATHINAI FIR \nAS FLW:\nAREA: 353516N 0240952E - 353519N 0241013E - 353413N 0241105E -\n353401N 0241034E - 353516N 0240952E.\n- THE ABOVE AREA IS LOCATED WITHIN LGC 101 CRETAN SEA SECTOR A2 AND\nACTIVATED ON BEHALF OF PRIVATE COMPANY FOR CIVIL TEST FLIGHTS.\nF) SFC G) 3000FT AMSL",
+ "year": 2026
+}

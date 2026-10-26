@@ -1,0 +1,45 @@
+{
+ "cancels": [
+  "notam-rpll/2026/B5545"
+ ],
+ "expires_at": "2026-10-26T23:59:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "exercise",
+  "location": "RPLL",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 14.5167,
+   "lon": 121.0167,
+   "radius_nm": 5
+  },
+  "qcode": "QMXXX",
+  "queried_fir": "RPLL",
+  "starts_at": "2026-10-23T09:00:00Z",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rpll/2026/B5723",
+ "issued_at": "2026-10-23T09:00:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "B5723",
+ "positions": [
+  [
+   14.51783,
+   121.01681
+  ]
+ ],
+ "series": "notam-rpll",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXER CTN WHEN TAX PORTION OF TWY Y (AT COORD: 143104.2N ",
+ "text": "B5723/26 NOTAMR B5545/26\nQ) RPHI/QMXXX/IV/M  /A /000/999/1431N12101E005\nA) RPLL B) 2610230900 C) 2610262359\nE) EXER CTN WHEN TAX PORTION OF TWY Y (AT COORD: 143104.2N \n1210100.5E) DUE PRESENCE OF UNEVEN PAVEMENT SFC.",
+ "year": 2026
+}

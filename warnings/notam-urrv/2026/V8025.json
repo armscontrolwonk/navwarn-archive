@@ -1,0 +1,109 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-02T15:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 44.00722,
+    "lon": 44.64472,
+    "radius_nm": 1.08
+   }
+  ],
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.0167,
+   "lon": 44.6667,
+   "radius_nm": 20
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "URRV",
+  "schedule": "DAILY 0400-1500",
+  "starts_at": "2026-10-28T04:00:00Z",
+  "upper": "600M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-urrv/2026/V8025",
+ "issued_at": "2026-10-23T10:19:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "V8025",
+ "positions": [
+  [
+   43.87389,
+   44.29472
+  ],
+  [
+   43.85528,
+   44.40028
+  ],
+  [
+   44.04028,
+   44.445
+  ],
+  [
+   44.04333,
+   44.61167
+  ],
+  [
+   44.21333,
+   45.05306
+  ],
+  [
+   44.15361,
+   45.08222
+  ],
+  [
+   44.07528,
+   44.89778
+  ],
+  [
+   43.95194,
+   44.54694
+  ],
+  [
+   43.81528,
+   44.54028
+  ],
+  [
+   43.81611,
+   44.5075
+  ],
+  [
+   43.80917,
+   44.47278
+  ],
+  [
+   43.79222,
+   44.46889
+  ],
+  [
+   43.83528,
+   44.29389
+  ],
+  [
+   43.87389,
+   44.29472
+  ],
+  [
+   44.00722,
+   44.64472
+  ]
+ ],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "V8025/26 NOTAMN\nQ)URRV/QRTCA/IV/BO/W/000/020/4401N04440E020\nA)URRV B)2610280400 C)2611021500\nD)DAILY 0400-1500\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 435226N0441741E-435119N0442401E-440225N0442642E-\n         440236N0443642E-441248N0450311E-440913N0450456E-\n         440431N0445352E-435707N0443249E-434855N0443225E-\n         434858N0443027E-434833N0442822E-434732N0442808E-\n         435007N0441738E-435226N0441741E\n   400M AMSL-600M AMSL.\n2. WI CIRCLE RADIUS 2KM CENTRE 440026N0443841E\n   GND-600M AMSL.\nF)GND  G)600M AMSL",
+ "year": 2026
+}

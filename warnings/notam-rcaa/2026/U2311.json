@@ -1,0 +1,58 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "3000FT AMSL",
+  "lower_fl": 30,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 21.5833,
+   "lon": 121.65,
+   "radius_nm": 19
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-30T16:00:00Z",
+  "upper": "FL200",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2311",
+ "issued_at": "2026-09-08T04:06:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2311",
+ "positions": [
+  [
+   21.89444,
+   121.65
+  ],
+  [
+   21.56667,
+   121.93333
+  ],
+  [
+   21.28333,
+   121.65
+  ],
+  [
+   21.89444,
+   121.65
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2311/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/030/200/2135N12139E019\nA) RCAA\nB) 2611301600 C) 2612311600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:M260824000204\n2.LCA:LANYU TOWNSHIP, TAITUNG COUNTY\n3.THE AREA OVERLAPS RCR42, ACFT ARE CTN ADZ.\n4.COOR TEL:04-27023051, 0985-304927\n5.AREA AS FLW:\n215340N 1213900E\n213400N 1215600E\n211700N 1213900E\n215340N 1213900E\nF) 3000FT AMSL G) FL200",
+ "year": 2026
+}

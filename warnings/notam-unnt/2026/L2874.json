@@ -1,0 +1,117 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T17:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 55.795,
+    "lon": 70.18528,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 56.22389,
+    "lon": 70.5225,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 56.46028,
+    "lon": 70.67833,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 56.77167,
+    "lon": 70.55944,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 56.21083,
+    "lon": 70.49361,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "UNNT",
+  "kind": "restricted",
+  "location": "UNNT",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.1833,
+   "lon": 70.4,
+   "radius_nm": 41
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNNT",
+  "schedule": "DAILY 0400-1700",
+  "starts_at": "2026-10-28T04:00:00Z",
+  "upper": "750M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-unnt/2026/L2874",
+ "issued_at": "2026-10-26T08:24:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "L2874",
+ "positions": [
+  [
+   56.23472,
+   69.74056
+  ],
+  [
+   56.8625,
+   70.57611
+  ],
+  [
+   56.14861,
+   71.02111
+  ],
+  [
+   55.51583,
+   70.365
+  ],
+  [
+   55.51528,
+   70.22167
+  ],
+  [
+   56.16583,
+   69.67639
+  ],
+  [
+   56.23472,
+   69.74056
+  ],
+  [
+   55.795,
+   70.18528
+  ],
+  [
+   56.22389,
+   70.5225
+  ],
+  [
+   56.46028,
+   70.67833
+  ],
+  [
+   56.77167,
+   70.55944
+  ],
+  [
+   56.21083,
+   70.49361
+  ]
+ ],
+ "series": "notam-unnt",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "L2874/26 NOTAMN\nQ)UNNT/QRTCA/IV/BO/W/000/030/5611N07024E041\nA)UNNT B)2610280400 C)2610301700\nD)DAILY 0400-1700\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 561405N0694426E-565145N0703434E-560855N0710116E-\n         553057N0702154E-553055N0701318E-560957N0694035E-\n         561405N0694426E\n   400M AMSL-750M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 554742N0701107E\n   GND-750M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 561326N0703121E\n   GND-750M AMSL.\n4. WI CIRCLE RADIUS 1KM CENTRE 562737N0704042E\n   GND-750M AMSL.\n5. WI CIRCLE RADIUS 1KM CENTRE 564618N0703334E\n   GND-750M AMSL.\n6. WI CIRCLE RADIUS 1KM CENTRE 561239N0702937E\n   GND-750M AMSL.\nF)GND  G)750M AMSL",
+ "year": 2026
+}

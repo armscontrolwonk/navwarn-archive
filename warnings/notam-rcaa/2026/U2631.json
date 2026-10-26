@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 24.9833,
+   "lon": 121.35,
+   "radius_nm": 6
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-10-14T16:00:00Z",
+  "upper": "2400FT AMSL",
+  "upper_fl": 24
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2631",
+ "issued_at": "2026-10-08T02:48:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2631",
+ "positions": [
+  [
+   25.01944,
+   121.26278
+  ],
+  [
+   25.02389,
+   121.3275
+  ],
+  [
+   24.99944,
+   121.42778
+  ],
+  [
+   24.96167,
+   121.44861
+  ],
+  [
+   24.91361,
+   121.33389
+  ],
+  [
+   25.01944,
+   121.26278
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2631/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/024/2459N12121E006\nA) RCAA\nB) 2610141600 C) 2611201600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260903002201\n2.LCA:SANXIA DISTRICT, NEW TAIPEI CITY\n3.THE AREA OVERLAPS PART OF LONGTAN MIL TRAINING AREA,\n  PART OF VFR CORRIDOR C1, C10, C33 AND PART OF VFR HEL RTE H2,\n  ACFT ARE CTN ADZ.\n4.COOR TEL:0933-147693, 0912-218136\n5.AREA AS FLW:\n250110N 1211546E\n250126N 1211939E\n245958N 1212540E\n245742N 1212655E\n245449N 1212002E\n250110N 1211546E\nF) SFC G) 2400FT AMSL",
+ "year": 2026
+}

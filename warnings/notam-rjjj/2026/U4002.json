@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.75,
+   "lon": 133.55,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-10-28T01:00:00Z",
+  "upper": "2625FT AMSL",
+  "upper_fl": 27
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U4002",
+ "issued_at": "2026-10-26T01:47:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U4002",
+ "positions": [
+  [
+   33.75361,
+   133.55694
+  ],
+  [
+   33.7525,
+   133.55556
+  ],
+  [
+   33.75611,
+   133.54778
+  ],
+  [
+   33.75889,
+   133.55111
+  ],
+  [
+   33.75361,
+   133.55694
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4002/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/027/3345N13333E001\nA)RJJJ B)2610280100 C)2610280700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n334513N1333325E - 334509N1333320E - 334522N1333252E - 334532N1333304E\n- 334513N1333325E \n(NAGAOKA-GUN,TOSA-GUN IN KOCHI)\nWT: 1.5KG\nF)SFC G)2625FT AMSL",
+ "year": 2026
+}

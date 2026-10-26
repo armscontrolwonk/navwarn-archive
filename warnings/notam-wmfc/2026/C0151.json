@@ -1,0 +1,54 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-22T00:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 2.0,
+   "lon": 103.2833,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "shape": "polygon",
+  "starts_at": "2026-08-24T00:00:00Z",
+  "upper": "400FT AGL",
+  "upper_fl": 4
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wmfc/2026/C0151",
+ "issued_at": "2026-08-06T02:02:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "C0151",
+ "positions": [
+  [
+   2.01389,
+   103.27278
+  ],
+  [
+   1.99667,
+   103.28472
+  ],
+  [
+   1.98833,
+   103.29556
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UAV ACT WILL TAKE PLACE WI THE FLW COORDS:",
+ "text": "C0151/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/004/0200N10317E001\nA) WMFC B) 2608240000 C) 2611220000 \nE)   UAV ACT WILL TAKE PLACE WI THE FLW COORDS:\n\n   020050.00N 1031622.00E - 015948.00N 1031705.00E - 015918.00N \n   1031744.00E \n\n   (KLUANG CITY GATE, JOHOR)\nF) SFC                             G) 400FT AGL",
+ "year": 2026
+}

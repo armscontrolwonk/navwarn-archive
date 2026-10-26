@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-08T08:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 24.1333,
+   "lon": 120.7,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "schedule": "0000-0800",
+  "shape": "polygon",
+  "starts_at": "2026-09-09T00:00:00Z",
+  "upper": "1500FT AMSL",
+  "upper_fl": 15
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2187",
+ "issued_at": "2026-09-02T02:09:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2187",
+ "positions": [
+  [
+   24.13528,
+   120.68861
+  ],
+  [
+   24.14056,
+   120.68833
+  ],
+  [
+   24.14222,
+   120.69528
+  ],
+  [
+   24.13806,
+   120.69639
+  ],
+  [
+   24.13333,
+   120.69667
+  ],
+  [
+   24.13167,
+   120.68889
+  ],
+  [
+   24.13528,
+   120.68861
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2187/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/015/2408N12042E001\nA) RCAA\nB) 2609090000 C) 2611080800\nD) 0000-0800\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260820003101\n2.LCA:EAST DISTRICT, TAICHUNG CITY\n3.COOR TEL:0917-560879, 0908-619788\n4.AREA AS FLW:\n240807N 1204119E\n240826N 1204118E\n240832N 1204143E\n240817N 1204147E\n240800N 1204148E\n240754N 1204120E\n240807N 1204119E\nF) SFC G) 1500FT AMSL",
+ "year": 2026
+}

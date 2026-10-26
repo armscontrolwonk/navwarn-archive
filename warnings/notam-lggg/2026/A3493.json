@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T21:30:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "firing",
+  "location": "LGGG",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.4833,
+   "lon": 19.6667,
+   "radius_nm": 30
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LGGG",
+  "schedule": "OCT 01 05-08 12-15 19-22 0400-2030, OCT 26 27 29 NOV 02-05 09-12 16-19 23-26 30 0500-2130, OCT 02 09 16 23 0400-1200, OCT 30 NOV 06 13 20 27 0500-1300",
+  "shape": "polygon",
+  "starts_at": "2026-10-01T04:00:00Z",
+  "upper": "5000FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lggg/2026/A3493",
+ "issued_at": "2026-09-21T17:21:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3493",
+ "positions": [
+  [
+   38.83333,
+   19.25
+  ],
+  [
+   38.83333,
+   20.0
+  ],
+  [
+   38.15,
+   20.08333
+  ],
+  [
+   38.15,
+   19.25
+  ],
+  [
+   38.83333,
+   19.25
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXER MILITARY FLT WO FIRING WILL TAKE PLACE WI AREA AS FLW:",
+ "text": "A3493/26 NOTAMN\nQ) LGGG/QWELW/IV/BO /W /000/050/3829N01940E030\nA) LGGG B) 2610010400 C) 2611302130\nD) OCT 01 05-08 12-15 19-22 0400-2030, OCT 26 27 29 NOV 02-05 09-12  \n16-19 23-26 30 0500-2130, OCT 02 09 16 23 0400-1200, OCT 30 NOV 06  \n13 20 27 0500-1300\nE) EXER MILITARY FLT WO FIRING WILL TAKE PLACE WI AREA AS FLW:\n385000N 0191500E - 385000N 0200000E - 380900N 0200500E-\n380900N 0191500E - 385000N 0191500E.\n-PARTICIPATING ACFT WILL BE IN CONTACT WITH RADAR FREQ F310\nOR F312.\nF) SFC G) 5000FT AMSL",
+ "year": 2026
+}

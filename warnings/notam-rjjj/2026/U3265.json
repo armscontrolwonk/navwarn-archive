@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T08:56:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.0333,
+   "lon": 134.0,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2055/0856",
+  "shape": "polygon",
+  "starts_at": "2026-09-25T20:55:00Z",
+  "upper": "1510FT AMSL",
+  "upper_fl": 16
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3265",
+ "issued_at": "2026-09-15T04:41:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3265",
+ "positions": [
+  [
+   34.04389,
+   133.98917
+  ],
+  [
+   34.03889,
+   133.98917
+  ],
+  [
+   34.03889,
+   133.99861
+  ],
+  [
+   34.04389,
+   133.99861
+  ],
+  [
+   34.04389,
+   133.98917
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U3265/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/016/3402N13400E002\nA)RJJJ B)2609252055 C)2610280856\nD)2055/0856\nE)UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n340238N1335921E - 340220N1335921E - 340220N1335955E - 340238N1335955E\n- 340238N1335921E \n(MIYOSHI-SHI,MIYOSIH-GUN IN TOKUSHIMA)\nWT: 15KG\nNUMBER:8\nFLT TIME:HJ\nRMK: THIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)1510FT AMSL",
+ "year": 2026
+}

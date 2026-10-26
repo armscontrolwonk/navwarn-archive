@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-01T07:30:00Z",
+ "extra": {
+  "fir": "RKRR",
+  "kind": "restricted",
+  "location": "RKRR",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.75,
+   "lon": 128.4,
+   "radius_nm": 2
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "RKRR",
+  "schedule": "SEP 19-20 24-27 0000-0730, OCT 03-05 09-11 17-18 24-25 31 0000-0730, NOV 01 0000-0730",
+  "starts_at": "2026-09-19T00:00:00Z",
+  "upper": "755FT AGL",
+  "upper_fl": 8
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rkrr/2026/D2818",
+ "issued_at": "2026-09-18T08:59:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "D2818",
+ "positions": [
+  [
+   34.74583,
+   128.40528
+  ]
+ ],
+ "series": "notam-rkrr",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO DANGER AREA ACT AS FLW",
+ "text": "D2818/26 NOTAMN  \nQ)RKRR/QRDCA/IV/BO/W/000/008/3445N12824E002\nA)RKRR B)2609190000 C)2611010730\nD)SEP 19-20 24-27 0000-0730, OCT 03-05 09-11 17-18 24-25 31 \n0000-0730, NOV 01 0000-0730\nE)TEMPO DANGER AREA ACT AS FLW\nA CIRCLE RADIUS 1.07NM CENTERED ON 344445N1282419E\nF)SFC G)755FT AGL",
+ "year": 2026
+}

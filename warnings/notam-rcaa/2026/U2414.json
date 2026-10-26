@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-11T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.85,
+   "lon": 120.9333,
+   "radius_nm": 5
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-09-28T16:00:00Z",
+  "upper": "8000FT AMSL",
+  "upper_fl": 80
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2414",
+ "issued_at": "2026-09-21T03:25:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2414",
+ "positions": [
+  [
+   23.89722,
+   120.87944
+  ],
+  [
+   23.89833,
+   120.9725
+  ],
+  [
+   23.81167,
+   120.97194
+  ],
+  [
+   23.80583,
+   120.87944
+  ],
+  [
+   23.89722,
+   120.87944
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2414/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/080/2351N12056E005\nA) RCAA\nB) 2609281600 C) 2611111600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260825001901\n2.LCA:YUCHI TOWNSHIP, NANTOU COUNTY\n3.THE AREA OVERLAPS PART OF SINSHE MIL TRAINING AREA,\n  ACFT ARE CTN ADZ.\n4.COOR TEL:0953-950530, 0928-171279\n5.AREA AS FLW:\n235350N 1205246E\n235354N 1205821E\n234842N 1205819E\n234821N 1205246E\n235350N 1205246E\nF) SFC G) 8000FT AMSL",
+ "year": 2026
+}

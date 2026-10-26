@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-16T13:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.3333,
+   "lon": 139.6167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/1300",
+  "shape": "polygon",
+  "starts_at": "2026-10-31T22:00:00Z",
+  "upper": "2691FT AMSL",
+  "upper_fl": 27
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3975",
+ "issued_at": "2026-10-23T11:35:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3975",
+ "positions": [
+  [
+   37.34361,
+   139.60667
+  ],
+  [
+   37.34222,
+   139.605
+  ],
+  [
+   37.33694,
+   139.60444
+  ],
+  [
+   37.325,
+   139.62722
+  ],
+  [
+   37.335,
+   139.63167
+  ],
+  [
+   37.33861,
+   139.62444
+  ],
+  [
+   37.33639,
+   139.61806
+  ],
+  [
+   37.34361,
+   139.60667
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3975/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/027/3720N13937E002\nA)RJJJ B)2610312200 C)2611161300\nD)2200/1300\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n372037N1393624E - 372032N1393618E - 372013N1393616E - 371930N1393738E\n- 372006N1393754E - 372019N1393728E - 372011N1393705E -\n372037N1393624E \n(ONUMA-GUN IN FUKUSHIMA)\nWT: 2.5KG\nCONTACT INFORMATION: 080-9512-5642\nF)SFC G)2691FT AMSL",
+ "year": 2026
+}

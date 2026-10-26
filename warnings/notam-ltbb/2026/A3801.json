@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T16:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "exercise",
+  "location": "LTBB",
+  "lower": "14000FT AMSL",
+  "lower_fl": 140,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.9,
+   "lon": 27.5833,
+   "radius_nm": 16
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTBB",
+  "schedule": "0600-1600",
+  "shape": "polygon",
+  "starts_at": "2026-09-01T06:00:00Z",
+  "upper": "18000FT AMSL",
+  "upper_fl": 180
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A3801",
+ "issued_at": "2026-08-28T07:43:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3801",
+ "positions": [
+  [
+   37.01667,
+   27.33333
+  ],
+  [
+   36.68333,
+   27.71667
+  ],
+  [
+   36.75,
+   27.78333
+  ],
+  [
+   37.11667,
+   27.43333
+  ],
+  [
+   37.01667,
+   27.33333
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXERCISE WILL TAKE PLACE WI MILAS TMA: 370100N0272000E ",
+ "text": "A3801/26 NOTAMN\nQ) LTBB/QWELW/IV/BO /W /140/180/3654N02735E016\nA) LTBB B) 2609010600 C) 2611301600\nD) 0600-1600\nE) EXERCISE WILL TAKE PLACE WI MILAS TMA: 370100N0272000E \n364100N0274300E 364500N0274700E 370700N0272600E 370100N0272000E\nF) 14000FT AMSL G) 18000FT AMSL",
+ "year": 2026
+}

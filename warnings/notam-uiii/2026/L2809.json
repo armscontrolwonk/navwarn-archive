@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-01T10:00:00Z",
+ "extra": {
+  "fir": "UIII",
+  "kind": "restricted",
+  "location": "UIII",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 52.3833,
+   "lon": 104.0833,
+   "radius_nm": 7
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UIII",
+  "schedule": "DAILY 0200-1000",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T02:00:00Z",
+  "upper": "140M AGL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uiii/2026/L2809",
+ "issued_at": "2026-10-25T13:46:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "L2809",
+ "positions": [
+  [
+   52.46917,
+   103.97389
+  ],
+  [
+   52.42278,
+   104.00778
+  ],
+  [
+   52.36306,
+   104.10889
+  ],
+  [
+   52.29556,
+   104.20306
+  ],
+  [
+   52.27806,
+   104.14972
+  ]
+ ],
+ "series": "notam-uiii",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI 2.25KM EITHER SIDE OF LINE JOINING POINTS:",
+ "text": "L2809/26 NOTAMN\nQ)UIII/QRTCA/IV/BO/W/000/999/5223N10405E007\nA)UIII B)2610270200 C)2611011000\nD)DAILY 0200-1000\nE)AIRSPACE CLSD WI 2.25KM EITHER SIDE OF LINE JOINING POINTS:\n522809N1035826E-522522N1040028E-522147N1040632E-\n521744N1041211E-521641N1040859E\nF)GND  G)140M AGL",
+ "year": 2026
+}

@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.7833,
+   "lon": 120.5667,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-09-27T16:00:00Z",
+  "upper": "3000FT AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2336",
+ "issued_at": "2026-09-11T01:45:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2336",
+ "positions": [
+  [
+   22.76333,
+   120.58333
+  ],
+  [
+   22.78222,
+   120.53917
+  ],
+  [
+   22.78333,
+   120.53972
+  ],
+  [
+   22.78333,
+   120.55667
+  ],
+  [
+   22.77139,
+   120.59028
+  ],
+  [
+   22.76333,
+   120.58333
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2336/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/030/2247N12034E002\nA) RCAA\nB) 2609271600 C) 2611271600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260825001603\n2.LCA:LIGANG TOWNSHIP, PINGTUNG COUNTY\n3.COOR TEL:0983-634209, 0966-139225\n4.AREA AS FLW:\n224548N 1203500E\n224656N 1203221E\n224700N 1203223E\n224700N 1203324E\n224617N 1203525E\n224548N 1203500E\nF) SFC G) 3000FT AMSL",
+ "year": 2026
+}

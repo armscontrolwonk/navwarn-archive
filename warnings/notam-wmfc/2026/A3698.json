@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-27T11:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 4.65,
+   "lon": 103.3667,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "DLY 2300-1100",
+  "shape": "polygon",
+  "starts_at": "2026-09-29T23:00:00Z",
+  "upper": "400FT AGL",
+  "upper_fl": 5
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wmfc/2026/A3698",
+ "issued_at": "2026-09-23T06:34:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3698",
+ "positions": [
+  [
+   4.65806,
+   103.36417
+  ],
+  [
+   4.66361,
+   103.36389
+  ],
+  [
+   4.65861,
+   103.37528
+  ],
+  [
+   4.66194,
+   103.37722
+  ],
+  [
+   4.65806,
+   103.38472
+  ],
+  [
+   4.65139,
+   103.37889
+  ],
+  [
+   4.65806,
+   103.36417
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI THE FLW COORD:",
+ "text": "A3698/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/005/0439N10322E001\nA) WMFC B) 2609292300 C) 2612271100 \nD) DLY 2300-1100\nE) UA ACT WILL TAKE PLACE WI THE FLW COORD:\n   043929.00N 1032151.00E - 043949.00N 1032150.00E -\n   043931.00N 1032231.00E - 043943.00N 1032238.00E - \n   043929.00N 1032305.00E - 043905.00N 1032244.00E -\n   043929.00N 1032151.00E\n   (ECRO,KERTEH,TERENGGANU) \nF) SFC                             G) 400FT AGL",
+ "year": 2026
+}

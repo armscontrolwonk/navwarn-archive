@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-02T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 55.26083,
+    "lon": 61.29833,
+    "radius_nm": 10.8
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.25,
+   "lon": 61.2833,
+   "radius_nm": 11
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "starts_at": "2026-10-28T00:00:00Z",
+  "upper": "FL100",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ussv/2026/Z4915",
+ "issued_at": "2026-10-26T13:24:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "Z4915",
+ "positions": [
+  [
+   55.26083,
+   61.29833
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 20KM CENTRE 551539N0611754E.",
+ "text": "Z4915/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/100/5515N06117E011\nA)USSV B)2610280000 C)2611022359\nE)AIRSPACE CLSD WI CIRCLE RADIUS 20KM CENTRE 551539N0611754E.\nRESTRICTION NOT APPLY TO:\n1. VIP SPECIAL FLT AND FLT FOR THEIR SUPPORT.\n2. SKED INTL AND DOM FLT VIA ATS RTE.\n3. FLT TO/FM CHELYABINSK/BALANDINO AD.\nF)GND  G)FL100",
+ "year": 2026
+}

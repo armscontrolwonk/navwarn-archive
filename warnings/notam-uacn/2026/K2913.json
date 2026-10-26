@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T14:00:00Z",
+ "extra": {
+  "fir": "UACN",
+  "kind": "restricted",
+  "location": "UACN",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 51.6333,
+   "lon": 75.4167,
+   "radius_nm": 2
+  },
+  "qcode": "QRRCA",
+  "queried_fir": "UACN",
+  "schedule": "DAILY 0800-1400",
+  "starts_at": "2026-10-02T08:00:00Z",
+  "upper": "4200FT AMSL",
+  "upper_fl": 42
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uacn/2026/K2913",
+ "issued_at": "2026-10-02T05:59:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "K2913",
+ "positions": [],
+ "series": "notam-uacn",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "RESTRICTED AREA UAR117 ACTIVATED.",
+ "text": "K2913/26 NOTAMN\nQ) UACN/QRRCA/IV/BO /W /000/042/5138N07525E002\nA) UACN B) 2610020800 C) 2612311400\nD) DAILY 0800-1400\nE) RESTRICTED AREA UAR117 ACTIVATED.\nF) GND G) 4200FT AMSL",
+ "year": 2026
+}

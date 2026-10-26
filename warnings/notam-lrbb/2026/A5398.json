@@ -1,0 +1,40 @@
+{
+ "cancels": [
+  "notam-lrbb/2026/A5138"
+ ],
+ "expires_at": "2026-12-31T23:59:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "drone",
+  "location": "LRBB",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 45.0167,
+   "lon": 25.5167,
+   "radius_nm": 234
+  },
+  "qcode": "QAFXX",
+  "queried_fir": "LRBB",
+  "starts_at": "2026-10-04T06:17:00Z",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lrbb/2026/A5398",
+ "issued_at": "2026-10-04T06:17:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A5398",
+ "positions": [],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "DUE TO APPROACHING THE MAXIMUM NUMBER OF NOTAM MESSAGES IN SERIES",
+ "text": "A5398/26 NOTAMR A5138/26\nQ) LRBB/QAFXX/IV/NBO/E /000/999/4501N02531E234\nA) LRBB B) 2610040617 C) 2612312359\nE) DUE TO APPROACHING THE MAXIMUM NUMBER OF NOTAM MESSAGES IN SERIES\n   C PER YEAR, STARTING WITH 04 OCT 2026, 0900 UTC, INFORMATION\n   RELATING TO AIRSPACE RESERVATIONS (RESTRICTIONS),\n   EXCEPT DANGER AREAS AND UNMANNED AIRCRAFT FLIGHTS,\n   WILL BE ISSUED IN NOTAM SERIES R.",
+ "year": 2026
+}

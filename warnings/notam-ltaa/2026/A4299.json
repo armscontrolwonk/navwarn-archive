@@ -1,0 +1,64 @@
+{
+ "cancels": [
+  "notam-ltaa/2026/A2852"
+ ],
+ "expires_at": "2026-11-30T20:59:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "drone",
+  "location": "LTAA",
+  "lower": "3000FT AMSL",
+  "lower_fl": 30,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 41.4167,
+   "lon": 34.4333,
+   "radius_nm": 17
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-09-28T06:43:00Z",
+  "upper": "3000FT AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltaa/2026/A4299",
+ "issued_at": "2026-09-28T06:46:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4299",
+ "positions": [
+  [
+   41.65944,
+   34.315
+  ],
+  [
+   41.32861,
+   34.12278
+  ],
+  [
+   41.1625,
+   34.54889
+  ],
+  [
+   41.50444,
+   34.70222
+  ],
+  [
+   41.65944,
+   34.315
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT FLIGHT WILL TAKE PLACE.",
+ "text": "A4299/26 NOTAMR A2852/26\nQ) LTAA/QWULW/IV/BO /W /030/030/4125N03426E017\nA) LTAA B) 2609280643 C) 2611302059\nE) UNMANNED ACFT FLIGHT WILL TAKE PLACE.\n\nAREA: 413934N0341854E 411943N0340722E 410945N0343256E \n413016N0344208E 413934N0341854E\nF) 3000FT AMSL G) 3000FT AMSL",
+ "year": 2026
+}

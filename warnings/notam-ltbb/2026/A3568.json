@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-13T21:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "exercise",
+  "location": "LTBB",
+  "lower": "6000FT AMSL",
+  "lower_fl": 60,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.2,
+   "lon": 26.4667,
+   "radius_nm": 9
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTBB",
+  "schedule": "0400-2100",
+  "shape": "polygon",
+  "starts_at": "2026-08-17T04:00:00Z",
+  "upper": "9000FT AMSL",
+  "upper_fl": 90
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A3568",
+ "issued_at": "2026-08-14T09:14:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3568",
+ "positions": [
+  [
+   38.25,
+   26.3
+  ],
+  [
+   38.25,
+   26.61667
+  ],
+  [
+   38.13333,
+   26.63333
+  ],
+  [
+   38.06667,
+   26.45
+  ],
+  [
+   38.11667,
+   26.35
+  ],
+  [
+   38.25,
+   26.3
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TRAINING FLT WILL TAKE PLACE WI IZMIR TMA:",
+ "text": "A3568/26 NOTAMN\nQ) LTBB/QWELW/IV/BO /W /060/090/3812N02628E009\nA) LTBB B) 2608170400 C) 2611132100\nD) 0400-2100\nE) TRAINING FLT WILL TAKE PLACE WI IZMIR TMA:\n381500N0261800E 381500N0263700E 380800N0263800E \n380400N0262700E 380700N0262100E 381500N0261800E\nF) 6000FT AMSL G) 9000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,95 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.7833,
+   "lon": 137.9667,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0700",
+  "shape": "polygon",
+  "starts_at": "2026-09-16T00:00:00Z",
+  "upper": "3577FT AMSL",
+  "upper_fl": 36
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3193",
+ "issued_at": "2026-09-10T23:23:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3193",
+ "positions": [
+  [
+   35.77194,
+   137.96028
+  ],
+  [
+   35.7725,
+   137.96
+  ],
+  [
+   35.78778,
+   137.95278
+  ],
+  [
+   35.78889,
+   137.95556
+  ],
+  [
+   35.79,
+   137.95944
+  ],
+  [
+   35.78556,
+   137.96139
+  ],
+  [
+   35.78083,
+   137.96333
+  ],
+  [
+   35.77861,
+   137.96389
+  ],
+  [
+   35.77639,
+   137.96444
+  ],
+  [
+   35.775,
+   137.965
+  ],
+  [
+   35.77306,
+   137.96556
+  ],
+  [
+   35.77222,
+   137.96167
+  ],
+  [
+   35.77194,
+   137.96028
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3193/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/036/3547N13758E002\nA)RJJJ B)2609160000 C)2610310700\nD)0000/0700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n354619N1375737E - 354621N1375736E - 354716N1375710E - 354720N1375720E\n- 354724N1375734E - 354708N1375741E - 354651N1375748E -\n354643N1375750E - 354635N1375752E - 354630N1375754E - 354623N1375756E\n- 354620N1375742E - 354619N1375737E \n(INA-SHI,KOMAGANE-SHI,KAMIINA-GUN IN NAGANO)\nWT: 2.5KG\nNUMBER: 3\nF)SFC G)3577FT AMSL",
+ "year": 2026
+}

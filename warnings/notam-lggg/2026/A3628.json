@@ -1,0 +1,48 @@
+{
+ "cancels": [
+  "notam-lggg/2026/A2159"
+ ],
+ "expires_at": "2026-10-31T23:59:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "drone",
+  "location": "LGGG",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 36.4333,
+   "lon": 28.2167,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "LGGG",
+  "schedule": "OCT 02 0536-2359, 03-31 H24",
+  "starts_at": "2026-10-02T05:36:00Z",
+  "upper": "400FT AMSL",
+  "upper_fl": 4
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lggg/2026/A3628",
+ "issued_at": "2026-10-02T05:36:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3628",
+ "positions": [
+  [
+   36.44333,
+   28.22639
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW:",
+ "text": "A3628/26 NOTAMR A2159/26\nQ) LGGG/QRTCA/IV/BO /W /000/004/3626N02813E001\nA) LGGG B) 2610020536 C) 2610312359\nD) OCT 02 0536-2359, 03-31 H24\nE) A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW:\n1. AREA: CIRCLE RADIUS 0.3 NM CENTERED ON 362636N 0281335E\n- RODOS/DIAGORAS CTR AFFECTED\n2. TYPE OF RESTRICTION: UAV PATROL\n3. REMARKS:\n3.1 OTHER UAV FLT ARE SUSPENDED.\n3.2 ACTIVITY SHALL BE ENDED IF REQUIRED BY RHODOS ATC.\nF) SFC G) 400FT AMSL",
+ "year": 2026
+}

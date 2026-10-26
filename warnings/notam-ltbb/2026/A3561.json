@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-01T14:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "other",
+  "location": "LTBB",
+  "lower": "4000FT AMSL",
+  "lower_fl": 40,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.95,
+   "lon": 27.7167,
+   "radius_nm": 17
+  },
+  "qcode": "QWYLW",
+  "queried_fir": "LTBB",
+  "schedule": "0600-1400",
+  "shape": "polygon",
+  "starts_at": "2026-08-14T06:00:00Z",
+  "upper": "5000FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A3561",
+ "issued_at": "2026-08-13T11:03:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3561",
+ "positions": [
+  [
+   41.06556,
+   27.395
+  ],
+  [
+   41.06556,
+   28.0425
+  ],
+  [
+   40.95333,
+   28.00417
+  ],
+  [
+   40.95111,
+   27.52528
+  ],
+  [
+   40.84639,
+   27.48306
+  ],
+  [
+   40.84639,
+   27.39194
+  ],
+  [
+   41.06556,
+   27.395
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AERIAL SURVEY WILL TAKE PLACE WI: 410356N0272342E 410356N0280233E ",
+ "text": "A3561/26 NOTAMN\nQ) LTBB/QWYLW/IV/M  /W /040/050/4057N02743E017\nA) LTBB B) 2608140600 C) 2611011400\nD) 0600-1400\nE) AERIAL SURVEY WILL TAKE PLACE WI: 410356N0272342E 410356N0280233E \n405712N0280015E 405704N0273131E 405047N0272859E 405047N0272331E \n410356N0272342E\nF) 4000FT AMSL G) 5000FT AMSL",
+ "year": 2026
+}

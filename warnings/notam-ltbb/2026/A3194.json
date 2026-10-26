@@ -1,0 +1,54 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T13:30:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "drone",
+  "location": "LTBB",
+  "lower": "4500FT AMSL",
+  "lower_fl": 45,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.0667,
+   "lon": 27.4667,
+   "radius_nm": 12
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTBB",
+  "shape": "polygon",
+  "starts_at": "2026-07-31T13:31:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ltbb/2026/A3194",
+ "issued_at": "2026-07-21T07:35:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3194",
+ "positions": [
+  [
+   41.1,
+   27.71111
+  ],
+  [
+   41.07944,
+   27.33083
+  ],
+  [
+   41.01944,
+   27.25
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT FLIGHT WILL TAKE PLACE WITHIN ISTANBUL TMA. ",
+ "text": "A3194/26 NOTAMN\nQ) LTBB/QWULW/IV/BO /W /045/100/4104N02728E012\nA) LTBB B) 2607311331 C) 2610311330\nE) UNMANNED ACFT FLIGHT WILL TAKE PLACE WITHIN ISTANBUL TMA. \nROUTE: 410600N0274240E 410446N0271951E 410110N0271500E 1NM EITHER \nSIDE OF A LINE\nF) 4500FT AMSL G) 10000FT AMSL",
+ "year": 2026
+}

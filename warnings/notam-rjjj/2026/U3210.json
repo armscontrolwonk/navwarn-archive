@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T08:29:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.1833,
+   "lon": 139.6333,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2035/0829",
+  "shape": "polygon",
+  "starts_at": "2026-09-30T20:35:00Z",
+  "upper": "1411FT AMSL",
+  "upper_fl": 15
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3210",
+ "issued_at": "2026-09-11T04:49:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3210",
+ "positions": [
+  [
+   36.19722,
+   139.60889
+  ],
+  [
+   36.19083,
+   139.60472
+  ],
+  [
+   36.16889,
+   139.65806
+  ],
+  [
+   36.17472,
+   139.66167
+  ],
+  [
+   36.19722,
+   139.60889
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U3210/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/015/3611N13938E003\nA)RJJJ B)2609302035 C)2610280829\nD)2035/0829\nE)UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n361150N1393632E - 361127N1393617E - 361008N1393929E - 361029N1393942E\n- 361150N1393632E \n(KAZO-SHI,HANYU-SHI IN SAITAMA,ORA-GUN IN GUNMA)\nWT: 15KG\nNUMBER: 3\nFLT TIME: HJ\nRMK: THIS AREA IS INCLUDED IN KK4-5,KK4-6\nTHIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)1411FT AMSL",
+ "year": 2026
+}

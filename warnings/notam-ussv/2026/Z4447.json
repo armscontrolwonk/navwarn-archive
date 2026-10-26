@@ -1,0 +1,102 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T13:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 61.15917,
+    "lon": 61.74139,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 61.02139,
+    "lon": 62.01528,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 61.0667,
+   "lon": 61.7667,
+   "radius_nm": 28
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0400-1300",
+  "starts_at": "2026-10-24T04:00:00Z",
+  "upper": "800M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ussv/2026/Z4447",
+ "issued_at": "2026-10-22T07:47:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "Z4447",
+ "positions": [
+  [
+   60.88722,
+   61.54667
+  ],
+  [
+   61.07972,
+   62.47861
+  ],
+  [
+   61.15722,
+   62.68861
+  ],
+  [
+   61.28806,
+   62.38444
+  ],
+  [
+   61.32417,
+   62.34056
+  ],
+  [
+   61.18694,
+   61.55361
+  ],
+  [
+   60.95722,
+   60.85694
+  ],
+  [
+   60.92972,
+   60.89806
+  ],
+  [
+   60.9225,
+   61.51
+  ],
+  [
+   60.88722,
+   61.54667
+  ],
+  [
+   61.15917,
+   61.74139
+  ],
+  [
+   61.02139,
+   62.01528
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z4447/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/030/6104N06146E028\nA)USSV B)2610240400 C)2610291300\nD)DAILY 0400-1300\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 605314N0613248E-610447N0622843E-610926N0624119E-\n         611717N0622304E-611927N0622026E-611113N0613313E-\n         605726N0605125E-605547N0605353E-605521N0613036E-\n         605314N0613248E\n   550M AMSL-800M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 610933N0614429E\n   GND-800M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 610117N0620055E\n   GND-800M AMSL.\nF)GND  G)800M AMSL",
+ "year": 2026
+}

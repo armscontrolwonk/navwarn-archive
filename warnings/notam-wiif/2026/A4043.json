@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T15:59:00Z",
+ "extra": {
+  "fir": "WRXX",
+  "kind": "exercise",
+  "location": "WIIF",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 1.9833,
+   "lon": 105.45,
+   "radius_nm": 47
+  },
+  "qcode": "QWELW",
+  "queried_fir": "WSJC",
+  "shape": "polygon",
+  "starts_at": "2026-10-25T16:00:00Z",
+  "upper": "FL400",
+  "upper_fl": 400
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wiif/2026/A4043",
+ "issued_at": "2026-10-22T00:14:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4043",
+ "positions": [
+  [
+   2.5,
+   105.27464
+  ],
+  [
+   2.5,
+   106.0
+  ],
+  [
+   1.5,
+   106.0
+  ],
+  [
+   1.5,
+   104.872
+  ],
+  [
+   2.31056,
+   105.36806
+  ],
+  [
+   2.5,
+   105.27464
+  ]
+ ],
+ "series": "notam-wiif",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL TRAINING AND EXER WILL TAKE PLACE WI THE FLW COORD:",
+ "text": "A4043/26 NOTAMN\nQ) WRXX/QWELW/IV/BO /W /000/400/0159N10527E047\nA) WIIF WSJC B) 2610251600 C) 2610301559\nE) MIL TRAINING AND EXER WILL TAKE PLACE WI THE FLW COORD:\n023000.00N1051628.72E - 023000.00N1060000.00E -\n013000.00N1060000.00E - 013000.00N1045219.20E -\n021838.00N1052205.00E - 023000.00N1051628.72E\nRMK/ALL TRAFFIC ON THE AFFECTED ATS ROUTES WILL BE SUBJECT\nTO ATC CLEARANCE.\nF) SFC G) FL400",
+ "year": 2026
+}

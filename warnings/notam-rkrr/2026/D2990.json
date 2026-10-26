@@ -1,0 +1,47 @@
+{
+ "cancels": [
+  "notam-rkrr/2026/D1842"
+ ],
+ "expires_at": "2027-01-01T15:00:00Z",
+ "extra": {
+  "fir": "RKRR",
+  "kind": "restricted",
+  "location": "RKRR",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 36.05,
+   "lon": 128.2333,
+   "radius_nm": 2
+  },
+  "qcode": "QRPCA",
+  "queried_fir": "RKRR",
+  "starts_at": "2026-10-01T01:27:00Z",
+  "upper": "500FT AGL",
+  "upper_fl": 5
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rkrr/2026/D2990",
+ "issued_at": "2026-10-01T01:28:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "D2990",
+ "positions": [
+  [
+   36.04528,
+   128.22583
+  ]
+ ],
+ "series": "notam-rkrr",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO PROHIBITED AREA ACT AS FLW:",
+ "text": "D2990/26 NOTAMR D1842/26 \nQ)RKRR/QRPCA/IV/NBO/W/000/005/3603N12814E002\nA)RKRR B)2610010127 C)2701011500EST\nE)TEMPO PROHIBITED AREA ACT AS FLW:\n  1. AREA : A CIRCLE RADIUS 1.5NM CENTERED ON 360243N1281333E\n  2. RMK : \n     - EXC APPROVED TAKE-OFF/LDG FLT IN THIS AREA\n       (UNABLE PASSING FLIGHT)\n     - FLT APV INQUIRY : DSN (315) 784-2729, TEL. 050334-2729\nF)SFC G)500FT AGL",
+ "year": 2026
+}

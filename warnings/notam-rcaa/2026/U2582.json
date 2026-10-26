@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-22T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.8667,
+   "lon": 120.5167,
+   "radius_nm": 12
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T16:00:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/U2582",
+ "issued_at": "2026-10-07T06:46:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U2582",
+ "positions": [
+  [
+   22.72417,
+   120.61111
+  ],
+  [
+   22.90444,
+   120.46222
+  ],
+  [
+   23.00889,
+   120.40306
+  ],
+  [
+   23.00889,
+   120.43639
+  ],
+  [
+   22.90417,
+   120.49583
+  ],
+  [
+   22.72417,
+   120.64444
+  ],
+  [
+   22.72417,
+   120.61111
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2582/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/100/2252N12031E012\nA) RCAA\nB) 2610271600 C) 2701221600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:M260922000401\n2.LCA:GAOSHU TOWNSHIP, PINGTUNG COUNTY\n3.THE AREA OVERLAPS PART OF GUEIREN MIL TRAINING AREA, PART OF \n  ZUOYIN MIL TRAINING AREA, PART OF ULM AIRSPACE NANHUA, \n  PART OF ULM AIRSPACE SAIJIA AND PINGTUNG COUNTY \n  SANDIMEN TOWNSHIP SAIJIA AREA, ACFT ARE CTN ADZ.\n4.COOR TEL:0972-808655, 0980-757215, 0965-036786\n5.AREA AS FLW:\n224327N 1203640E\n225416N 1202744E\n230032N 1202411E\n230032N 1202611E\n225415N 1202945E\n224327N 1203840E\n224327N 1203640E\nF) SFC G) 10000FT AMSL",
+ "year": 2026
+}

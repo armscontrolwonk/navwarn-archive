@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T23:59:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "firing",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.55,
+   "lon": 121.0667,
+   "radius_nm": 11
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RCAA",
+  "schedule": "2100-2359",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T21:00:00Z",
+  "upper": "FL180",
+  "upper_fl": 180
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rcaa/2026/A3834",
+ "issued_at": "2026-10-13T09:27:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A3834",
+ "positions": [
+  [
+   22.71028,
+   121.08528
+  ],
+  [
+   22.65389,
+   121.2225
+  ],
+  [
+   22.40583,
+   121.07972
+  ],
+  [
+   22.44972,
+   120.92028
+  ],
+  [
+   22.71028,
+   121.08528
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "GUN FRNG WILL TAKE PLACE:",
+ "text": "A3834/26 NOTAMN\nQ) RCAA/QWMLW/IV/BO/W/000/180/2233N12104E011\nA) RCAA\nB) 2610272100 C) 2610292359\nD) 2100-2359\nE) GUN FRNG WILL TAKE PLACE:\n1.LIAISON OFFICER IN RCQS TWR AND KAOHSIUNG APP, \n  TFC CONCERNED KEEP CLOSE CTC WITH RCQS TWR AND KAOHSIUNG APP.\n2.UNMANNED ACFT WILL BE RELEASED.\n3.GUN FRNG WILL BE SUSPENDED BY KNOWN TFC OR EMERG.\n4.OPR TEL: 038-358100, 089-383921, 0935-204107, 0930-125801\n5.AREA AS FLW:\n224237N 1210507E\n223914N 1211321E\n222421N 1210447E\n222659N 1205513E\n224237N 1210507E\nF) SFC G) FL180",
+ "year": 2026
+}

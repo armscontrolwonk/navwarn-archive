@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-01T16:45:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "route",
+  "location": "ULLL",
+  "lower": "FL055",
+  "lower_fl": 55,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 60.9,
+   "lon": 29.4667,
+   "radius_nm": 36
+  },
+  "qcode": "QARLC",
+  "queried_fir": "ULLL",
+  "schedule": "DAILY 0800-1645",
+  "starts_at": "2026-10-27T08:00:00Z",
+  "upper": "FL150",
+  "upper_fl": 150
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ulll/2026/X9597",
+ "issued_at": "2026-10-25T10:23:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "X9597",
+ "positions": [],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FLW ATS RTE SEGMENTS CLSD:",
+ "text": "X9597/26 NOTAMN\nQ)ULLL/QARLC/IV/NBO/E/055/150/6054N02928E036\nA)ULLL B)2610270800 C)2611011645\nD)DAILY 0800-1645\nE)FLW ATS RTE SEGMENTS CLSD:\nL254 PETAP-VULEZ FL055-FL150\nP157 MASIS-RATLA FL055-FL150\nT562 VEKIL-RATLA FL055-FL150.\nF)FL055  G)FL150",
+ "year": 2026
+}

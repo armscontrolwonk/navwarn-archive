@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T06:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.65,
+   "lon": 140.2833,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/0600",
+  "shape": "polygon",
+  "starts_at": "2026-10-08T22:00:00Z",
+  "upper": "5749FT AMSL",
+  "upper_fl": 58
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3642",
+ "issued_at": "2026-10-08T04:09:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3642",
+ "positions": [
+  [
+   40.65889,
+   140.29361
+  ],
+  [
+   40.64944,
+   140.29806
+  ],
+  [
+   40.64722,
+   140.27417
+  ],
+  [
+   40.65639,
+   140.2725
+  ],
+  [
+   40.65889,
+   140.29361
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3642/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/058/4039N14017E002\nA)RJJJ B)2610082200 C)2610310600\nD)2200/0600\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n403932N1401737E - 403858N1401753E - 403850N1401627E - 403923N1401621E\n- 403932N1401737E \n(HIROSAKI-SHI, NISHITSUGARU-GUN IN AOMORI)\nWT: 4.3KG\nF)SFC G)5749FT AMSL",
+ "year": 2026
+}

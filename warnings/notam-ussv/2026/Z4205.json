@@ -1,0 +1,122 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T17:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 59.0975,
+    "lon": 59.88556,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 58.72222,
+    "lon": 59.98333,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 58.9167,
+   "lon": 59.8667,
+   "radius_nm": 28
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0300-1700",
+  "starts_at": "2026-10-23T03:00:00Z",
+  "upper": "900M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ussv/2026/Z4205",
+ "issued_at": "2026-10-20T07:05:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "Z4205",
+ "positions": [
+  [
+   58.74028,
+   59.17194
+  ],
+  [
+   59.00194,
+   59.51806
+  ],
+  [
+   59.21806,
+   60.00556
+  ],
+  [
+   59.34778,
+   60.15972
+  ],
+  [
+   59.06861,
+   60.29528
+  ],
+  [
+   59.08028,
+   60.58222
+  ],
+  [
+   59.04306,
+   60.57917
+  ],
+  [
+   59.01083,
+   60.24083
+  ],
+  [
+   58.65083,
+   60.02306
+  ],
+  [
+   58.65417,
+   59.91694
+  ],
+  [
+   59.03167,
+   60.08417
+  ],
+  [
+   59.03972,
+   59.84556
+  ],
+  [
+   58.96611,
+   59.615
+  ],
+  [
+   58.71583,
+   59.27111
+  ],
+  [
+   58.74028,
+   59.17194
+  ],
+  [
+   59.0975,
+   59.88556
+  ],
+  [
+   58.72222,
+   59.98333
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z4205/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/030/5855N05952E028\nA)USSV B)2610230300 C)2610281700\nD)DAILY 0300-1700\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 584425N0591019E-590007N0593105E-591305N0600020E-\n         592052N0600935E-590407N0601743E-590449N0603456E-\n         590235N0603445E-590039N0601427E-583903N0600123E-\n         583915N0595501E-590154N0600503E-590223N0595044E-\n         585758N0593654E-584257N0591616E-584425N0591019E\n   600M AMSL-900M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 590551N0595308E\n   GND-900M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 584320N0595900E\n   GND-900M AMSL.\nF)GND  G)900M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,79 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T10:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.2833,
+   "lon": 140.25,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "26 0500/1000 27-30 0000/1000",
+  "shape": "polygon",
+  "starts_at": "2026-10-26T05:00:00Z",
+  "upper": "1224FT AMSL",
+  "upper_fl": 13
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3972",
+ "issued_at": "2026-10-23T10:19:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3972",
+ "positions": [
+  [
+   40.31222,
+   140.2175
+  ],
+  [
+   40.31611,
+   140.245
+  ],
+  [
+   40.29472,
+   140.25556
+  ],
+  [
+   40.31,
+   140.28167
+  ],
+  [
+   40.30417,
+   140.29833
+  ],
+  [
+   40.24389,
+   140.2625
+  ],
+  [
+   40.2475,
+   140.2475
+  ],
+  [
+   40.31222,
+   140.2175
+  ],
+  [
+   40.31222,
+   140.2175
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3972/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/013/4017N14015E004\nA)RJJJ B)2610260500 C)2610301000\nD)26 0500/1000 27-30 0000/1000\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n401844N1401303E - 401858N1401442E - 401741N1401520E - 401836N1401654E\n- 401815N1401754E - 401438N1401545E - 401451N1401451E -\n401844N1401303E - 401844N1401303E \n(YAMAMOTO-GUN IN AKITA)\nWT: 24.9KG\nNUMBER: 2\nCONTACT INFORMATION: 050-1722-1348\nRMK: THIS AREA IS INCLUDED IN TH2-4\nF)SFC G)1224FT AMSL",
+ "year": 2026
+}

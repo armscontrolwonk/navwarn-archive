@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T10:00:00Z",
+ "extra": {
+  "fir": "UIII",
+  "kind": "restricted",
+  "location": "UIII",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 52.45,
+   "lon": 103.9333,
+   "radius_nm": 10
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UIII",
+  "schedule": "DAILY 0200-1000",
+  "shape": "polygon",
+  "starts_at": "2026-10-26T02:00:00Z",
+  "upper": "720M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uiii/2026/L2754",
+ "issued_at": "2026-10-24T13:14:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "L2754",
+ "positions": [
+  [
+   52.60556,
+   103.87472
+  ],
+  [
+   52.58444,
+   103.83
+  ],
+  [
+   52.48972,
+   103.77222
+  ],
+  [
+   52.36556,
+   104.015
+  ],
+  [
+   52.31028,
+   103.99722
+  ]
+ ],
+ "series": "notam-uiii",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI 2KM EITHER SIDE OF LINE JOINING POINTS:",
+ "text": "L2754/26 NOTAMN\nQ)UIII/QRTCA/IV/BO/W/000/030/5227N10356E010\nA)UIII B)2610260200 C)2610291000\nD)DAILY 0200-1000\nE)AIRSPACE CLSD WI 2KM EITHER SIDE OF LINE JOINING POINTS:\n523620N1035229E-523504N1034948E-522923N1034620E-522156N1040054E-\n521837N1035950E.\nF)GND  G)720M AMSL",
+ "year": 2026
+}

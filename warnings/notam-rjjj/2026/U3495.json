@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T13:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 43.6025,
+    "lon": 144.49583,
+    "radius_nm": 4.86
+   },
+   {
+    "lat": 43.61056,
+    "lon": 144.25556,
+    "radius_nm": 3.78
+   }
+  ],
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.6,
+   "lon": 144.3833,
+   "radius_nm": 11
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "1800/1300",
+  "starts_at": "2026-10-02T18:00:00Z",
+  "upper": "4922FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3495",
+ "issued_at": "2026-09-30T04:06:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3495",
+ "positions": [
+  [
+   43.6025,
+   144.49583
+  ],
+  [
+   43.61056,
+   144.25556
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3495/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/050/4336N14423E011\nA)RJJJ B)2610021800 C)2611251300\nD)1800/1300\nE)UNMANNED ACFT:\n(1)AREA: RADIUS 9KM CENTER 433609N1442945E \n(2)AREA: RADIUS 7KM CENTER 433638N1441520E \n(ABASHIRI-GUN, SHARI-GUN,SHIBETSU-GUN,KAWAKAMI-GUN IN HOKKAIDO)\nWT: 0.7KG\n\nRMK: THIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)4922FT AMSL",
+ "year": 2026
+}

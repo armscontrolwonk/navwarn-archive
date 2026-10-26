@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-04T11:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 1.6833,
+   "lon": 103.4833,
+   "radius_nm": 22
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "DLY 2300-1100",
+  "shape": "polygon",
+  "starts_at": "2026-08-05T23:00:00Z",
+  "upper": "900FT AGL",
+  "upper_fl": 9
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wmfc/2026/A2993",
+ "issued_at": "2026-08-03T05:05:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A2993",
+ "positions": [
+  [
+   1.51843,
+   103.76538
+  ],
+  [
+   1.54648,
+   103.70708
+  ],
+  [
+   1.50812,
+   103.73495
+  ],
+  [
+   1.62105,
+   103.6615
+  ],
+  [
+   1.37984,
+   103.59578
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE ALONG THE PLUS HIGHWAY FM ",
+ "text": "A2993/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/009/0141N10329E022\nA) WMFC B) 2608052300 C) 2611041100 \nD) DLY 2300-1100\nE)   UA ACT WILL TAKE PLACE ALONG THE PLUS HIGHWAY FM \n   \n   15302.48N 1031454.42E - 013106.34N 1034555.37E\n   (SIMPANG RENGAM - KEMPAS)\n   013247.33N 1034225.49E - 013029.24N 1034405.83E\n   (JALAN KEMPAS LAMA)\n   013715.78N 1033941.40E - 012247.43N 1033544.82E\n   (SENAI-TANJUNG KUPANG)\n   012830.74N 1033505.74E - 012939.61N 1034040.15E.\n   (NUSA JAYA-NUSA BESTARI)\nF) SFC                             G) 900FT AGL",
+ "year": 2026
+}

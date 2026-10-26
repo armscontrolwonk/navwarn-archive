@@ -1,0 +1,93 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T13:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 43.17,
+    "lon": 140.93556,
+    "radius_nm": 5.67
+   }
+  ],
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.8333,
+   "lon": 141.0167,
+   "radius_nm": 27
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "1800/1300",
+  "starts_at": "2026-10-02T18:00:00Z",
+  "upper": "4266FT AMSL",
+  "upper_fl": 43
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3494",
+ "issued_at": "2026-09-30T04:05:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3494",
+ "positions": [
+  [
+   42.89361,
+   141.33361
+  ],
+  [
+   42.55722,
+   141.41528
+  ],
+  [
+   42.42389,
+   141.14639
+  ],
+  [
+   42.88528,
+   141.30556
+  ],
+  [
+   42.89361,
+   141.33361
+  ],
+  [
+   42.86778,
+   141.44556
+  ],
+  [
+   42.57028,
+   141.45417
+  ],
+  [
+   42.55056,
+   141.41028
+  ],
+  [
+   42.89583,
+   141.33194
+  ],
+  [
+   42.86778,
+   141.44556
+  ],
+  [
+   43.17,
+   140.93556
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3494/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/043/4250N14101E027\nA)RJJJ B)2610021800 C)2611251300\nD)1800/1300\nE)UNMANNED ACFT:\n(1)AREA: BOUNDED BY FLW POINTS\n425337N1412001E - 423326N1412455E - 422526N1410847E - 425307N1411820E\n- 425337N1412001E \n(2)AREA: BOUNDED BY FLW POINTS\n425204N1412644E - 423413N1412715E - 423302N1412437E - 425345N1411955E\n- 425204N1412644E \n(3)AREA: RADIUS 10.5KM CENTER 431012N1405608E \n(CHITOSE-SHI,OTARU-SHI,SAPPORO-SHI,ENIWA-SHI,TOMAKOMAI-SHI,NOBORIBETS\nU-SHI,SHIRAOI-GUN,YOICHI-GUN IN HOKKAIDO)\nWT: 0.7KG\n\nRMK: THIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)4266FT AMSL",
+ "year": 2026
+}

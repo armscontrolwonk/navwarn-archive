@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-05T14:00:00Z",
+ "extra": {
+  "fir": "UGGG",
+  "kind": "restricted",
+  "location": "UGGG",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.1167,
+   "lon": 44.95,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UGGG",
+  "schedule": "DAILY 0430-1400",
+  "starts_at": "2026-11-04T04:30:00Z",
+  "upper": "6000FT AMSL",
+  "upper_fl": 60
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-uggg/2026/G0696",
+ "issued_at": "2026-10-23T11:59:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "G0696",
+ "positions": [
+  [
+   42.11167,
+   44.94778
+  ]
+ ],
+ "series": "notam-uggg",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO RESTRICTED AREA ESTABLISHED WI 1.5NM RADIUS CENTRED ON ",
+ "text": "G0696/26 NOTAMN\nQ) UGGG/QRTCA/IV/BO /W /000/060/4207N04457E003\nA) UGGG B) 2611040430 C) 2611051400\nD) DAILY 0430-1400\nE) TEMPO RESTRICTED AREA ESTABLISHED WI 1.5NM RADIUS CENTRED ON \n420642N 0445652E.\nF) GND G) 6000FT AMSL",
+ "year": 2026
+}

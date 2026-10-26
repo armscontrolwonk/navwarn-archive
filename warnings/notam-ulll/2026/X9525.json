@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T16:45:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "route",
+  "location": "ULLL",
+  "lower": "FL065",
+  "lower_fl": 65,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 61.85,
+   "lon": 32.0,
+   "radius_nm": 55
+  },
+  "qcode": "QARLC",
+  "queried_fir": "ULLL",
+  "schedule": "DAILY 0800-1645",
+  "starts_at": "2026-10-26T08:00:00Z",
+  "upper": "FL135",
+  "upper_fl": 135
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ulll/2026/X9525",
+ "issued_at": "2026-10-24T07:10:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "X9525",
+ "positions": [],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENTS CLSD:",
+ "text": "X9525/26 NOTAMN\nQ)ULLL/QARLC/IV/NBO/E/065/135/6151N03200E055\nA)ULLL B)2610260800 C)2610311645\nD)DAILY 0800-1645\nE)ATS RTE SEGMENTS CLSD:\nM854 KETOL-ROGID FL095-FL135,\nT457 OGTUM-LULOR FL065-FL135,\nT693 DISUP-TOBMA FL075-FL135.\nF)FL065  G)FL135",
+ "year": 2026
+}

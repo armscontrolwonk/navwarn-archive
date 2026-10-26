@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T08:30:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "firing",
+  "location": "VABF",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 21.4333,
+   "lon": 69.1833,
+   "radius_nm": 16
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "VABF",
+  "schedule": "MON WED 0330-0830",
+  "shape": "polygon",
+  "starts_at": "2026-11-02T03:30:00Z",
+  "upper": "3000 FEET AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-vabf/2026/A1554",
+ "issued_at": "2026-10-06T07:20:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A1554",
+ "positions": [
+  [
+   21.53333,
+   69.4
+  ],
+  [
+   21.28333,
+   69.4
+  ],
+  [
+   21.28333,
+   69.1
+  ],
+  [
+   21.53333,
+   68.93333
+  ],
+  [
+   21.53333,
+   69.4
+  ]
+ ],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FIRING SORTIES BY INDIAN COAST GUARD DORNIER AIRCRAFT",
+ "text": "A1554/26 NOTAMN\nQ) VABF/QWMLW/IV/BO/W/000/030/2126N06911E016\nA) VABF B) 2611020330 C) 2611250830\nD) MON WED 0330-0830\nE) FIRING SORTIES BY INDIAN COAST GUARD DORNIER AIRCRAFT\n   WILL BE CARRIED OUT WITHIN THE AREA BOUNDED\n   BY CO-ORDINATES:\n\n   2132N06924E- 2117N06924E-\n   2117N06906E- 2132N06856E-\n   2132N06924E\nF) SFC G) 3000 FEET AMSL",
+ "year": 2026
+}

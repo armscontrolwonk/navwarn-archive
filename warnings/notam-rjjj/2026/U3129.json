@@ -1,0 +1,91 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T10:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.4667,
+   "lon": 142.6333,
+   "radius_nm": 5
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/1000",
+  "shape": "polygon",
+  "starts_at": "2026-09-13T22:00:00Z",
+  "upper": "7078FT AMSL",
+  "upper_fl": 71
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3129",
+ "issued_at": "2026-09-07T13:46:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3129",
+ "positions": [
+  [
+   43.45556,
+   142.64306
+  ],
+  [
+   43.44278,
+   142.65333
+  ],
+  [
+   43.42639,
+   142.67806
+  ],
+  [
+   43.42167,
+   142.67778
+  ],
+  [
+   43.41667,
+   142.69556
+  ],
+  [
+   43.42833,
+   142.71194
+  ],
+  [
+   43.48,
+   142.64306
+  ],
+  [
+   43.52111,
+   142.58028
+  ],
+  [
+   43.51806,
+   142.57667
+  ],
+  [
+   43.47306,
+   142.63472
+  ],
+  [
+   43.46278,
+   142.63111
+  ],
+  [
+   43.45556,
+   142.64306
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3129/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/071/4328N14238E005\nA)RJJJ B)2609132200 C)2611301000\nD)2200/1000\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n432720N1423835E - 432634N1423912E - 432535N1424041E - 432518N1424040E\n- 432500N1424144E - 432542N1424243E - 432848N1423835E -\n433116N1423449E - 433105N1423436E - 432823N1423805E - 432746N1423752E\n- 432720N1423835E \n(KAMIKAWA-GUN IN HOKKAIDO)\nWT: 2.5KG\nCONTACT INFORMATION: 03-4485-1606\nRMK: THIS AREA IS INCLUDED IN HK2-1\nF)SFC G)7078FT AMSL",
+ "year": 2026
+}

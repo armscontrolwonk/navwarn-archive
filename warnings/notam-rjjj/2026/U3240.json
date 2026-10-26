@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-10T08:09:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.4833,
+   "lon": 138.4833,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2034/0809",
+  "shape": "polygon",
+  "starts_at": "2026-09-23T20:34:00Z",
+  "upper": "4102FT AMSL",
+  "upper_fl": 42
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3240",
+ "issued_at": "2026-09-14T04:53:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3240",
+ "positions": [
+  [
+   35.48194,
+   138.47972
+  ],
+  [
+   35.48167,
+   138.48
+  ],
+  [
+   35.48167,
+   138.48083
+  ],
+  [
+   35.48222,
+   138.48056
+  ],
+  [
+   35.48194,
+   138.47972
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3240/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/042/3529N13829E001\nA)RJJJ B)2609232034 C)2612100809\nD)2034/0809\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n352855N1382847E - 352854N1382848E - 352854N1382851E - 352856N1382850E\n- 352855N1382847E \n(MINAMIKOMA-GUN IN YAMANASHI)\nWT: 15KG\nFLT TIME: HJ\nF)SFC G)4102FT AMSL",
+ "year": 2026
+}

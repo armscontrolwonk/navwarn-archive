@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T08:28:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.7667,
+   "lon": 139.8833,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2021/0828",
+  "shape": "polygon",
+  "starts_at": "2026-09-15T20:21:00Z",
+  "upper": "5578FT AMSL",
+  "upper_fl": 56
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3238",
+ "issued_at": "2026-09-14T04:51:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3238",
+ "positions": [
+  [
+   37.795,
+   139.91472
+  ],
+  [
+   37.765,
+   139.91278
+  ],
+  [
+   37.74806,
+   139.88583
+  ],
+  [
+   37.73972,
+   139.87833
+  ],
+  [
+   37.74167,
+   139.855
+  ],
+  [
+   37.7775,
+   139.85722
+  ],
+  [
+   37.79139,
+   139.875
+  ],
+  [
+   37.795,
+   139.91472
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3238/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/056/3746N13953E003\nA)RJJJ B)2609152021 C)2610300828\nD)2021/0828\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n374742N1395453E - 374554N1395446E - 374453N1395309E - 374423N1395242E\n- 374430N1395118E - 374639N1395126E - 374729N1395230E -\n374742N1395453E \n(KITAKATA-SHI IN FUKUSHIMA)\nWT: 15.8KG\nFLT TIME:HJ\nF)SFC G)5578FT AMSL",
+ "year": 2026
+}

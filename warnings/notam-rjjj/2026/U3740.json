@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-23T08:14:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.7167,
+   "lon": 140.8833,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2054/0814",
+  "shape": "polygon",
+  "starts_at": "2026-10-22T20:54:00Z",
+  "upper": "2133FT AMSL",
+  "upper_fl": 22
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3740",
+ "issued_at": "2026-10-13T23:55:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3740",
+ "positions": [
+  [
+   40.71278,
+   140.88306
+  ],
+  [
+   40.70722,
+   140.88278
+  ],
+  [
+   40.70694,
+   140.88667
+  ],
+  [
+   40.71222,
+   140.88722
+  ],
+  [
+   40.71278,
+   140.88306
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3740/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/022/4043N14053E001\nA)RJJJ B)2610222054 C)2612230814\nD)2054/0814\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n404246N1405259E - 404226N1405258E - 404225N1405312E - 404244N1405314E\n- 404246N1405259E \n(AOMORI-SHI)\nWT: 1.1KG\nFLT TIME: HJ\nF)SFC G)2133FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T23:59:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "drone",
+  "location": "LGGG",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.8333,
+   "lon": 24.0167,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "LGGG",
+  "shape": "polygon",
+  "starts_at": "2026-08-26T00:00:00Z",
+  "upper": "400FT AGL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-lggg/2026/A2951",
+ "issued_at": "2026-08-19T08:29:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A2951",
+ "positions": [
+  [
+   37.83306,
+   24.01944
+  ],
+  [
+   37.83472,
+   24.02028
+  ],
+  [
+   37.83444,
+   24.02278
+  ],
+  [
+   37.8325,
+   24.02194
+  ],
+  [
+   37.83306,
+   24.01944
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW:",
+ "text": "A2951/26 NOTAMN\nQ) LGGG/QRTCA/IV/BO /W /000/020/3750N02401E001\nA) LGGG B) 2608260000 C) 2610312359\nE) A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW:\n1. AREA: 374959N 0240110E - 375005N 0240113E - 375004N 0240122E -\n374957N 0240119E - 374959N 0240110E (DASKALIO KERATEA)\n2. TYPE OF RESTRICTION: UAV PATROL\n3. REMARKS:\n3.1 UAV BLVOS OPERATIONS  \n3.2 OTHER UAV FLT ARE SUSPENDED.\n3.3 OPERATOR SHALL CALL ATHINAI APP, PRIOR AND AFTER ACTIVITY AND\nREMAIN IN CONTACT DURING ACTIVITY.\n3.4 ACTIVITY SHALL BE ENDED IF REQUIRED BY ATHINAI APP\nF) GND G) 400FT AGL",
+ "year": 2026
+}

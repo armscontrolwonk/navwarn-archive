@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T07:33:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.7,
+   "lon": 139.4,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2107/0733",
+  "shape": "polygon",
+  "starts_at": "2026-11-01T21:07:00Z",
+  "upper": "1969FT AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U4017",
+ "issued_at": "2026-10-26T06:53:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U4017",
+ "positions": [
+  [
+   37.70139,
+   139.39917
+  ],
+  [
+   37.70722,
+   139.4025
+  ],
+  [
+   37.70278,
+   139.41306
+  ],
+  [
+   37.69694,
+   139.40972
+  ],
+  [
+   37.70139,
+   139.39917
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4017/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/020/3742N13924E002\nA)RJJJ B)2611012107 C)2612310733\nD)2107/0733\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n374205N1392357E - 374226N1392409E - 374210N1392447E - 374149N1392435E\n- 374205N1392357E \n(HIGASHIKANBARA-GUN IN NIIGATA)\nWT: 9.2KG\nFLT TIME:HJ\nF)SFC G)1969FT AMSL",
+ "year": 2026
+}

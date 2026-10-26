@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-02T07:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.5,
+   "lon": 137.85,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2330/0730",
+  "shape": "polygon",
+  "starts_at": "2026-09-06T23:30:00Z",
+  "upper": "1802FT AMSL",
+  "upper_fl": 19
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3061",
+ "issued_at": "2026-09-02T07:55:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3061",
+ "positions": [
+  [
+   35.50694,
+   137.85056
+  ],
+  [
+   35.50361,
+   137.8625
+  ],
+  [
+   35.50139,
+   137.86194
+  ],
+  [
+   35.50278,
+   137.85944
+  ],
+  [
+   35.505,
+   137.85028
+  ],
+  [
+   35.50694,
+   137.85056
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U3061/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/019/3530N13751E002\nA)RJJJ B)2609062330 C)2612020730\nD)2330/0730\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n353025N1375102E - 353013N1375145E - 353005N1375143E - 353010N1375134E\n- 353018N1375101E - 353025N1375102E \n(IIDA-SHI IN NAGANO)\nWT: 34.9KG\nCONTACT INFORMATION: 0265-23-3000\nF)SFC G)1802FT AMSL",
+ "year": 2026
+}

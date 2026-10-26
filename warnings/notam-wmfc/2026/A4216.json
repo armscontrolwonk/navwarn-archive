@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T15:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "firing",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 2.0,
+   "lon": 103.9667,
+   "radius_nm": 16
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "WMFC",
+  "schedule": "0100-0400 0600-0900 1300-1500",
+  "shape": "polygon",
+  "starts_at": "2026-10-25T08:00:00Z",
+  "upper": "35000FT AMSL",
+  "upper_fl": 350
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wmfc/2026/A4216",
+ "issued_at": "2026-10-25T08:15:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A4216",
+ "positions": [
+  [
+   2.12556,
+   103.79722
+  ],
+  [
+   1.74583,
+   104.05
+  ],
+  [
+   1.82361,
+   104.16139
+  ],
+  [
+   2.26778,
+   103.96833
+  ],
+  [
+   2.12556,
+   103.79722
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL EXER GUN FIRING WILL TAKE PLACE WI THE FLW COORDS:",
+ "text": "A4216/26 NOTAMN\nQ) WMFC/QWMLW/IV/BO /W /000/350/0200N10358E016\nA) WMFC B) 2610250800 C) 2610281500 \nD)0100-0400 0600-0900 1300-1500\nE)MIL EXER GUN FIRING WILL TAKE PLACE WI THE FLW COORDS:\n  020732N 1034750E - 014445N 1040300E - 014925N 1040941E -\n  021604N 1035806E - 020732N 1034750E\n  (TANJONG LOGOK, JOHOR)\nF) SFC                             G) 35000FT AMSL",
+ "year": 2026
+}

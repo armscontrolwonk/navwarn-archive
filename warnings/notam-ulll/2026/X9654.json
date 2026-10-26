@@ -1,0 +1,86 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T16:55:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 60.0725,
+    "lon": 32.60722,
+    "radius_nm": 1.08
+   },
+   {
+    "lat": 60.01167,
+    "lon": 32.58111,
+    "radius_nm": 1.24
+   }
+  ],
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 60.0667,
+   "lon": 32.6833,
+   "radius_nm": 34
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "02-06 0705-1655",
+  "starts_at": "2026-11-02T07:05:00Z",
+  "upper": "1500M AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ulll/2026/X9654",
+ "issued_at": "2026-10-26T07:07:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "X9654",
+ "positions": [
+  [
+   60.0725,
+   32.60722
+  ],
+  [
+   60.01167,
+   32.58111
+  ],
+  [
+   59.88194,
+   31.64333
+  ],
+  [
+   60.0,
+   32.32472
+  ],
+  [
+   59.88194,
+   31.64333
+  ],
+  [
+   60.0,
+   32.32472
+  ],
+  [
+   60.0,
+   32.32472
+  ],
+  [
+   60.23333,
+   33.73806
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "X9654/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/050/6004N03241E034\nA)ULLL B)2611020705 C)2611061655\nD)02-06 0705-1655\nE)AIRSPACE CLSD AS FLW:\n1. WI CIRCLE RADIUS 2KM CENTRE 600421N0323626E\n   SFC-900M AMSL.\n2. WI CIRCLE RADIUS 2.3KM CENTRE 600042N0323452E\n   SFC-1500M AMSL.\n3. WI 1KM EITHER SIDE OF LINE JOINING POINTS:\n   595255N0313836E-600000N0321929E.\n   610M AMSL-900M AMSL.\n4. WI 0.4KM EITHER SIDE OF LINE JOINING POINTS:\n   595255N0313836E-600000N0321929E.\n   400M AMSL-610M AMSL.\n5. WI 1KM EITHER SIDE OF LINE JOINING POINTS:\n   600000N0321929E-601400N0334417E.\n   900M AMSL-1500M AMSL.\nF)SFC  G)1500M AMSL",
+ "year": 2026
+}

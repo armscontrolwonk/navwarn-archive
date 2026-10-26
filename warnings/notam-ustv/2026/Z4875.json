@@ -1,0 +1,117 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-03T13:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 67.82833,
+    "lon": 72.56444,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "USTV",
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 67.9,
+   "lon": 72.8833,
+   "radius_nm": 39
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USTV",
+  "schedule": "DAILY 0400-1300",
+  "starts_at": "2026-10-29T04:00:00Z",
+  "upper": "600M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-ustv/2026/Z4875",
+ "issued_at": "2026-10-26T07:38:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "Z4875",
+ "positions": [
+  [
+   67.81417,
+   72.47861
+  ],
+  [
+   68.48361,
+   72.96278
+  ],
+  [
+   68.49139,
+   73.56222
+  ],
+  [
+   67.80139,
+   72.57333
+  ],
+  [
+   67.81417,
+   72.47861
+  ],
+  [
+   67.82833,
+   72.56444
+  ],
+  [
+   68.07056,
+   72.33667
+  ],
+  [
+   67.87278,
+   72.9325
+  ],
+  [
+   67.78333,
+   72.68278
+  ],
+  [
+   67.76417,
+   72.65889
+  ],
+  [
+   67.39083,
+   72.39306
+  ],
+  [
+   67.31889,
+   72.34
+  ],
+  [
+   67.3,
+   72.24528
+  ],
+  [
+   67.40222,
+   72.10417
+  ],
+  [
+   67.68083,
+   72.39167
+  ],
+  [
+   67.99639,
+   72.07833
+  ],
+  [
+   68.07056,
+   72.33667
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z4875/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/020/6754N07253E039\nA)USTV B)2610290400 C)2611031300\nD)DAILY 0400-1300\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 674851N0722843E-682901N0725746E-682929N0733344E-\n         674805N0723424E-674851N0722843E\n   320M AMSL-600M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 674942N0723352E\n   SFC-600M AMSL.\n3. AREA: 680414N0722012E-675222N0725557E-674700N0724058E-\n         674551N0723932E-672327N0722335E-671908N0722024E-\n         671800N0721443E-672408N0720615E-674051N0722330E-\n         675947N0720442E-680414N0722012E\n   320M AMSL-600M AMSL.\nF)SFC  G)600M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-01T16:00:00Z",
+ "extra": {
+  "fir": "WSJC",
+  "kind": "drone",
+  "location": "WSJC",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 1.3167,
+   "lon": 103.95,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WSJC",
+  "shape": "polygon",
+  "starts_at": "2026-08-29T16:00:00Z",
+  "upper": "160FT AMSL",
+  "upper_fl": 2
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-wsjc/2026/A2623",
+ "issued_at": "2026-08-27T11:08:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "A2623",
+ "positions": [
+  [
+   1.31667,
+   103.9475
+  ],
+  [
+   1.31806,
+   103.95194
+  ],
+  [
+   1.31639,
+   103.9525
+  ],
+  [
+   1.315,
+   103.94806
+  ],
+  [
+   1.31667,
+   103.9475
+  ]
+ ],
+ "series": "notam-wsjc",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TETHERED UA OPS WILL PLACE WI 011900N1035651E-011905N1035707E-",
+ "text": "A2623/26 NOTAMN\nQ)WSJC/QWULW/IV/BO/W/000/002/0119N10357E001\nA)WSJC B)2608291600 C)2611011600\nE)TETHERED UA OPS WILL PLACE WI 011900N1035651E-011905N1035707E-\n011859N1035709E-011854N1035653E-011900N1035651E.\nF)GND G)160FT AMSL",
+ "year": 2026
+}

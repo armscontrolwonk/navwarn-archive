@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-08T07:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.85,
+   "lon": 137.5,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0730",
+  "shape": "polygon",
+  "starts_at": "2026-11-07T00:00:00Z",
+  "upper": "4758FT AMSL",
+  "upper_fl": 48
+ },
+ "first_seen": "2026-10-26T18:39:41Z",
+ "id": "notam-rjjj/2026/U3917",
+ "issued_at": "2026-10-21T01:36:00Z",
+ "last_seen": "2026-10-26T18:39:41Z",
+ "number": "U3917",
+ "positions": [
+  [
+   36.85083,
+   137.49778
+  ],
+  [
+   36.84833,
+   137.49639
+  ],
+  [
+   36.84861,
+   137.495
+  ],
+  [
+   36.85056,
+   137.49583
+  ],
+  [
+   36.85222,
+   137.49306
+  ],
+  [
+   36.85583,
+   137.49194
+  ],
+  [
+   36.85639,
+   137.49639
+  ],
+  [
+   36.85083,
+   137.49778
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T18:43:12Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U3917/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/048/3651N13730E002\nA)RJJJ B)2611070000 C)2611080730\nD)0000/0730\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n365103N1372952E - 365054N1372947E - 365055N1372942E - 365102N1372945E\n- 365108N1372935E - 365121N1372931E - 365123N1372947E -\n365103N1372952E \n(KUROBE-SHI IN TOYAMA)\nWT: 0.9KG\nF)SFC G)4758FT AMSL",
+ "year": 2026
+}
