@@ -47,7 +47,8 @@ Enable GitHub Pages on the main branch (root) to publish `index.html`.
 | ukho | NAVAREA I, UK coastal (WZ) | server-rendered HTML |
 | kystverket | NAVAREA XIX | simple report page |
 | amsa | NAVAREA X, AUSCOAST areas A-H | one page, full text; rig and special-vessel tables kept raw only |
-| faa_notam | aviation NOTAMs, any FIR (Russia, Turkey ...) | hand-fed: FAA NOTAM Search export dropped in `inbox/faa_notam/` |
+| daip | aviation NOTAMs for the regions in `navwarn/daip_firs.txt` (China and neighbours, Russia, Turkey and the Black Sea, Iran, India, Pakistan, Kazakhstan, North Korea) | DoD DAIP, ported from the China-Strategic scraper; every NOTAM kept raw in `raw/daip/notams.jsonl`, launch/firing/restricted/exercise/drone/route kinds normalized |
+| faa_notam | aviation NOTAMs, any FIR | hand-fed fallback: FAA NOTAM Search export dropped in `inbox/faa_notam/` |
 | prip | Russian PRIP coastal warnings | hand-fed: Cyrillic text pasted into `inbox/prip/` |
 | ccg | Canadian coastal series only (NAVAREA XVII/XVIII are not on this site) | ~35 HTML pages per run |
 | nga_daily | NAVAREA IV, XII | NGA text bulletins; flagged stale when NGA stops updating |

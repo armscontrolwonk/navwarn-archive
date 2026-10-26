@@ -60,6 +60,21 @@
     </div>
 
     <div class="row">
+      <label class="h" for="kind">NOTAM type</label>
+      <select id="kind" style="width:100%;padding:6px 8px;font:inherit;color:var(--fg);background:var(--panel);border:1px solid var(--line);border-radius:5px">
+        <option value="">all warnings and NOTAMs</option>
+        <option value="rocket">rocket, space, debris</option>
+        <option value="firing">firing, missiles</option>
+        <option value="route">route closures</option>
+        <option value="restricted">restricted, danger, prohibited areas</option>
+        <option value="exercise">exercises</option>
+        <option value="drone">drones</option>
+        <option value="other">other</option>
+      </select>
+      <div class="meta">Types apply to NOTAMs; choosing one hides maritime warnings.</div>
+    </div>
+
+    <div class="row">
       <label class="h">In force during</label>
       <div class="dates"><input type="date" id="start" aria-label="from"><input type="date" id="end" aria-label="to"></div>
     </div>
@@ -161,11 +176,12 @@ function build(w) {
 function popup(w) {
   const ex = w.extra || {};
   const from = ex.starts_at || w.issued_at || '';
+  const tags = [ex.kind, ex.attributed_to && `attributed to ${ex.attributed_to}`, ex.schedule && `daily ${ex.schedule}`].filter(Boolean);
   const vert = ex.lower || ex.upper ? `<br>${esc(ex.lower || '?')} to ${esc(ex.upper || '?')}` : '';
   const approx = !(w.positions || []).length && !(ex.circles || []).length && ex.q_circle ? '<br><i>Approximate area from the NOTAM Q line.</i>' : '';
   const link = w.url ? ` · <a href="${esc(w.url)}" target="_blank" rel="noopener">source</a>` : '';
   return `<b>${esc(w.id)}</b> <span class="meta">${esc(w.source)}${link}</span><br>` +
-         `${esc(from.replace('T', ' ').replace(':00Z', 'Z'))} to ${esc((w.expires_at || 'until cancelled').replace('T', ' ').replace(':00Z', 'Z'))}${vert}${approx}` +
+         `${esc(from.replace('T', ' ').replace(':00Z', 'Z'))} to ${esc((w.expires_at || 'until cancelled').replace('T', ' ').replace(':00Z', 'Z'))}${vert}${approx}${tags.length ? '<br>' + esc(tags.join(' · ')) : ''}` +
          `<pre>${esc(w.text)}</pre>`;
 }
 
@@ -201,7 +217,8 @@ function apply() {
   const terms = $('q').value.toLowerCase().split(/[,|]/).map(t => t.trim()).filter(Boolean);
   const s = $('start').value ? Date.parse($('start').value + 'T00:00:00Z') : null;
   const e = $('end').value ? Date.parse($('end').value + 'T23:59:59Z') : null;
-  const hits = W.filter(w => (!terms.length || terms.some(t => w.hay.includes(t))) &&
+  const kd = $('kind').value;
+  const hits = W.filter(w => (!kd || (w.extra || {}).kind === kd) && (!terms.length || terms.some(t => w.hay.includes(t))) &&
                              (s === null || w.t1 >= s) && (e === null || w.t0 <= e));
   for (const k of Object.keys(CATS)) {
     const mine = hits.filter(w => w.cat === k);
@@ -219,8 +236,9 @@ function apply() {
 const later = () => { clearTimeout(timer); timer = setTimeout(apply, 150); };
 $('q').addEventListener('input', later);
 $('start').addEventListener('change', apply);
+$('kind').addEventListener('change', apply);
 $('end').addEventListener('change', apply);
-$('clear').addEventListener('click', () => { $('q').value = ''; $('start').value = ''; $('end').value = ''; apply(); });
+$('clear').addEventListener('click', () => { $('kind').value = ''; $('q').value = ''; $('start').value = ''; $('end').value = ''; apply(); });
 $('list').addEventListener('click', ev => {
   const li = ev.target.closest('li[data-i]'); if (!li) return;
   const w = W[+li.dataset.i]; const l = w.shapes[0] || w.points[0]; if (!l) return;

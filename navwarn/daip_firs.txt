@@ -1,0 +1,20 @@
+# Flight information regions (and area control centres) queried on DoD DAIP, by group.
+# One run asks for all of them, 50 codes per request. Lines starting with # are ignored.
+# A code DAIP doesn't know just returns nothing; check index/sources.json -> daip -> extra.per_fir.
+
+# China (from the China-Strategic scraper)
+ZBPE ZSHA ZGZU ZJSA ZLHW ZWUQ ZPKM ZUUU ZYSH ZHWH
+# China's neighbours, where Chinese debris and fall areas land (China-Strategic)
+RPHI RCAA RJJJ RKRR VVHM VVHN RPLL WMFC WSJC UHHH ZMUB
+# North Korea
+ZKKP
+# Russia (Púca's list)
+UHWW USPP UEEE USUU UEMH UENN UESS UESU UEVV UGEE UGGG UHBI UHHH UHMI UHMM UHMP UHNN UHPT UHPU UHSH UIII UIKB UIKK ULLL ULOL UMKK UNKL UNLL UNNT UOTT URFV URRV USDK USHB USHH USSV USTV UUWV UUYW UUYY UWOO UWWW UUUU URRR USSS USRR UUDD ULAA UMMS UUBW UUDL UNKL USRK UHPP UHSM UHMD ULAM UUEE UUWW UWKD 
+# Turkey, Black Sea, Caucasus, eastern Mediterranean (Púca's list, for İğneada and Black Sea activity)
+LTAA LTBB UGGG UDDD UBBA LBSR LRBB LCCC LGGG LLLL OSTT
+# Iran
+OIIX
+# South Asia: India (Abdul Kalam Island, Sriharikota) and Pakistan (Sonmiani)
+VIDF VABF VECF VOMF OPKR OPLR
+# Kazakhstan (Baikonur, Sary Shagan)
+UAAA UACN UATT UAII
