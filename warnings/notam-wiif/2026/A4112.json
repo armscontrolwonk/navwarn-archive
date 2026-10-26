@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-05T06:30:00Z",
+ "extra": {
+  "fir": "WRXX",
+  "kind": "exercise",
+  "location": "WIIF",
+  "lower": "5000FT AMSL",
+  "lower_fl": 50,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 0.55,
+   "lon": 102.9833,
+   "radius_nm": 45
+  },
+  "qcode": "QWELW",
+  "queried_fir": "WSJC",
+  "schedule": "03-04 0200-0500, 05 0330-0630",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T02:00:00Z",
+  "upper": "FL240",
+  "upper_fl": 240
+ },
+ "first_seen": "2026-10-26T22:44:10Z",
+ "id": "notam-wiif/2026/A4112",
+ "issued_at": "2026-10-26T19:49:00Z",
+ "last_seen": "2026-10-26T22:44:10Z",
+ "number": "A4112",
+ "positions": [
+  [
+   0.3,
+   102.71667
+  ],
+  [
+   0.61667,
+   102.43333
+  ],
+  [
+   1.23333,
+   102.73333
+  ],
+  [
+   0.75,
+   103.2
+  ],
+  [
+   0.28333,
+   103.66667
+  ],
+  [
+   -0.16667,
+   103.16667
+  ],
+  [
+   0.3,
+   102.71667
+  ]
+ ],
+ "series": "notam-wiif",
+ "source": {
+  "fetched_at": "2026-10-26T22:46:49Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL TRAINING AND EXER WILL TAKE PLACE WI THE FLW COORD:",
+ "text": "A4112/26 NOTAMN\nQ) WRXX/QWELW/IV/BO /W /050/240/0033N10259E045\nA) WIIF WSJC B) 2611030200 C) 2611050630\nD) 03-04 0200-0500, 05 0330-0630\nE) MIL TRAINING AND EXER WILL TAKE PLACE WI THE FLW COORD:\nJTA 1:\n001800N1024300E - 003700N1022600E - 011400N1024400E - \n004500N1031200E - 001700N1034000E - 001000S1031000E - \n001800N1024300E\nRMK: ALL TFC SUBJ ATC CLR\nF) 5000FT AMSL G) FL240",
+ "year": 2026
+}

@@ -1,0 +1,74 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-27T03:00:00Z",
+ "extra": {
+  "fir": "UHMM",
+  "kind": "restricted",
+  "location": "UHMM",
+  "lower": "1200M AMSL",
+  "lower_fl": 40,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 59.35,
+   "lon": 151.4333,
+   "radius_nm": 25
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHMM",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T01:00:00Z",
+  "upper": "1200M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-10-26T22:44:10Z",
+ "id": "notam-uhmm/2026/P8520",
+ "issued_at": "2026-10-26T21:55:00Z",
+ "last_seen": "2026-10-26T22:44:10Z",
+ "number": "P8520",
+ "positions": [
+  [
+   59.45,
+   150.65
+  ],
+  [
+   59.3,
+   150.66667
+  ],
+  [
+   59.21667,
+   151.08333
+  ],
+  [
+   59.13333,
+   151.1
+  ],
+  [
+   59.18333,
+   151.43333
+  ],
+  [
+   59.16667,
+   152.08333
+  ],
+  [
+   59.23333,
+   152.21667
+  ],
+  [
+   59.3,
+   150.66667
+  ]
+ ],
+ "series": "notam-uhmm",
+ "source": {
+  "fetched_at": "2026-10-26T22:46:49Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI 2KM EITHER SIDE OF LINE JOINING POINTS:",
+ "text": "P8520/26 NOTAMN\nQ)UHMM/QRTCA/IV/BO/W/040/040/5921N15126E025\nA)UHMM B)2610270100 C)2610270300\nE)AIRSPACE CLSD WI 2KM EITHER SIDE OF LINE JOINING POINTS:\n592700N1503900E-591800N1504000E-591300N1510500E-590800N1510600E-\n591100N1512600E-591000N1520500E-591400N1521300E-591800N1504000E\nF)1200M AMSL  G)1200M AMSL",
+ "year": 2026
+}

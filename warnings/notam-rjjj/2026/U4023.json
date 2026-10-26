@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-05T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.5667,
+   "lon": 137.5167,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0700",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T00:00:00Z",
+  "upper": "8203FT AMSL",
+  "upper_fl": 83
+ },
+ "first_seen": "2026-10-26T22:44:10Z",
+ "id": "notam-rjjj/2026/U4023",
+ "issued_at": "2026-10-26T21:35:00Z",
+ "last_seen": "2026-10-26T22:44:10Z",
+ "number": "U4023",
+ "positions": [
+  [
+   36.59278,
+   137.49778
+  ],
+  [
+   36.56694,
+   137.48333
+  ],
+  [
+   36.55861,
+   137.55167
+  ],
+  [
+   36.56611,
+   137.56639
+  ],
+  [
+   36.58194,
+   137.55583
+  ],
+  [
+   36.59278,
+   137.49778
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-26T22:46:49Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4023/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/083/3634N13731E003\nA)RJJJ B)2611030000 C)2611050700\nD)0000/0700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n363534N1372952E - 363401N1372900E - 363331N1373306E - 363358N1373359E\n- 363455N1373321E - 363534N1372952E \n(NAKANIIKAWA-GUN IN TOYAMA)\nWT: 1.1KG\nF)SFC G)8203FT AMSL",
+ "year": 2026
+}
