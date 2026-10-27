@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T09:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 1.35,
+   "lon": 103.55,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "DLY 0100-0900",
+  "shape": "polygon",
+  "starts_at": "2026-10-28T01:00:00Z",
+  "upper": "390FT AGL",
+  "upper_fl": 4
+ },
+ "first_seen": "2026-10-27T05:13:32Z",
+ "id": "notam-wmfc/2026/C0217",
+ "issued_at": "2026-10-27T02:21:00Z",
+ "last_seen": "2026-10-27T05:13:32Z",
+ "number": "C0217",
+ "positions": [
+  [
+   1.37722,
+   103.53389
+  ],
+  [
+   1.38222,
+   103.55444
+  ],
+  [
+   1.34417,
+   103.57139
+  ],
+  [
+   1.32833,
+   103.57083
+  ],
+  [
+   1.32139,
+   103.55389
+  ],
+  [
+   1.37722,
+   103.53389
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-27T05:16:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI COORD:",
+ "text": "C0217/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/004/0121N10333E001\nA) WMFC B) 2610280100 C) 2610310900 \nD)DLY 0100-0900\nE)UA ACT WILL TAKE PLACE WI COORD:\n\n012238.00N 1033202.00E - 012256.00N 1033316.00E -\n012039.00N 1033417.00E - 011942.00N 1033415.00E -\n011917.00N 1033314.00E - 012238.00N 1033202.00E \n\n(PELABUHAN TANJUNG PELEPAS,JOHOR)\nF) SFC                             G) 390FT AGL",
+ "year": 2026
+}

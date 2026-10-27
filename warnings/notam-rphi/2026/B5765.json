@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-18T16:00:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "drone",
+  "location": "RPHI",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 14.55,
+   "lon": 120.9833,
+   "radius_nm": 10
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "RPHI",
+  "schedule": "2200-1600",
+  "starts_at": "2026-11-13T22:00:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-10-27T05:13:32Z",
+ "id": "notam-rphi/2026/B5765",
+ "issued_at": "2026-10-27T03:35:00Z",
+ "last_seen": "2026-10-27T05:13:32Z",
+ "number": "B5765",
+ "positions": [
+  [
+   14.55247,
+   120.9835
+  ]
+ ],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-10-27T05:16:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO RESTRICTED AREA WI:",
+ "text": "B5765/26 NOTAMN\nQ) RPHI/QRTCA/IV/BO /W /000/100/1433N12059E010\nA) RPHI B) 2611132200 C) 2611181600\nD) 2200-1600\nE) TEMPO RESTRICTED AREA WI:\n10NM RADIUS CENTERED ON 143308.89N 1205900.61E\n(PHILIPPINE INTL CONVENTION CENTER EXCLUDING RP-P1).\n\nRMK: ALLOWED FLT - ASSOCIATION OF SOUTHEAST ASIAN NATIONS (ASEAN) \n                   AIR OPS, MIL, COMMERCIAL AND EMERG RESPONSE FLT. \n     NOT ALLOWED FLT - GA ACFT AND UNMANNED AERIAL VEHICLES (UAV)\n                       UNLESS AUTH.\nF) SFC G) 10000FT AMSL",
+ "year": 2026
+}

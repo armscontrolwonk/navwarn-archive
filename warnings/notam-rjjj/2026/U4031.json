@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T10:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.1833,
+   "lon": 136.8833,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0800/1000",
+  "starts_at": "2026-10-27T08:00:00Z",
+  "upper": "985FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-27T05:13:32Z",
+ "id": "notam-rjjj/2026/U4031",
+ "issued_at": "2026-10-27T01:50:00Z",
+ "last_seen": "2026-10-27T05:13:32Z",
+ "number": "U4031",
+ "positions": [
+  [
+   35.175,
+   136.88778
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-27T05:16:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4031/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/010/3511N13653E001\nA)RJJJ B)2610270800 C)2610291000\nD)0800/1000\nE)UNMANNED ACFT:\nAREA: RADIUS 7M CENTER 351030N1365316E \n(NAGOYA-SHI IN AICHI)\nWT: 1.1KG\nF)SFC G)985FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T14:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 70.96778,
+    "lon": 74.72139,
+    "radius_nm": 1.73
+   }
+  ],
+  "fir": "USTV",
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 70.9667,
+   "lon": 74.7167,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USTV",
+  "schedule": "DAILY 0500-1400",
+  "starts_at": "2026-10-28T05:00:00Z",
+  "upper": "100M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-27T05:13:32Z",
+ "id": "notam-ustv/2026/Z4954",
+ "issued_at": "2026-10-27T03:58:00Z",
+ "last_seen": "2026-10-27T05:13:32Z",
+ "number": "Z4954",
+ "positions": [
+  [
+   70.96778,
+   74.72139
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-10-27T05:16:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 3.2KM CENTRE 705804N0744317E.",
+ "text": "Z4954/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/010/7058N07443E002\nA)USTV B)2610280500 C)2610301400\nD)DAILY 0500-1400\nE)AIRSPACE CLSD WI CIRCLE RADIUS 3.2KM CENTRE 705804N0744317E.\nF)SFC  G)100M AMSL",
+ "year": 2026
+}

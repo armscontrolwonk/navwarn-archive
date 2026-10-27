@@ -1,0 +1,124 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-05T09:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 52.94972,
+    "lon": 126.50333,
+    "radius_nm": 1.08
+   },
+   {
+    "lat": 53.09694,
+    "lon": 126.32222,
+    "radius_nm": 1.08
+   },
+   {
+    "lat": 53.47139,
+    "lon": 125.80889,
+    "radius_nm": 1.08
+   },
+   {
+    "lat": 53.155,
+    "lon": 126.32694,
+    "radius_nm": 0.81
+   }
+  ],
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 53.15,
+   "lon": 126.1167,
+   "radius_nm": 26
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "schedule": "DAILY 0000-0900",
+  "starts_at": "2026-10-31T00:00:00Z",
+  "upper": "1200M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-10-27T05:13:32Z",
+ "id": "notam-uhhh/2026/P8532",
+ "issued_at": "2026-10-27T04:20:00Z",
+ "last_seen": "2026-10-27T05:13:32Z",
+ "number": "P8532",
+ "positions": [
+  [
+   52.9575,
+   126.29472
+  ],
+  [
+   52.795,
+   126.36056
+  ],
+  [
+   52.79889,
+   126.52
+  ],
+  [
+   52.94639,
+   126.53028
+  ],
+  [
+   53.18194,
+   126.42861
+  ],
+  [
+   53.43306,
+   125.90333
+  ],
+  [
+   53.50361,
+   125.80611
+  ],
+  [
+   53.49028,
+   125.69222
+  ],
+  [
+   53.37917,
+   125.74528
+  ],
+  [
+   53.19083,
+   126.18444
+  ],
+  [
+   52.9575,
+   126.29472
+  ],
+  [
+   52.94972,
+   126.50333
+  ],
+  [
+   53.09694,
+   126.32222
+  ],
+  [
+   53.47139,
+   125.80889
+  ],
+  [
+   53.155,
+   126.32694
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-10-27T05:16:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P8532/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/040/5309N12607E026\nA)UHHH B)2610310000 C)2611050900\nD)DAILY 0000-0900\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 525727N1261741E-524742N1262138E-524756N1263112E-\n         525647N1263149E-531055N1262543E-532559N1255412E-\n         533013N1254822E-532925N1254132E-532245N1254443E-\n         531127N1261104E-525727N1261741E\n   700M AMSL-1200M AMSL.\n2. WI CIRCLE RADIUS 2KM CENTRE 525659N1263012E\n   SFC-1200M AMSL.\n3. WI CIRCLE RADIUS 2KM CENTRE 530549N1261920E\n   SFC-1200M AMSL.\n4. WI CIRCLE RADIUS 2KM CENTRE 532817N1254832E\n   SFC-1200M AMSL.\n5. WI CIRCLE RADIUS 1.5KM CENTRE 530918N1261937E\n   SFC-1200M AMSL.\nF)SFC  G)1200M AMSL",
+ "year": 2026
+}

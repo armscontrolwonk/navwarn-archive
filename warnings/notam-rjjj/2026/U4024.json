@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-27T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 31.9167,
+   "lon": 130.9167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T03:00:00Z",
+  "upper": "3938FT AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-10-27T05:13:32Z",
+ "id": "notam-rjjj/2026/U4024",
+ "issued_at": "2026-10-27T00:05:00Z",
+ "last_seen": "2026-10-27T05:13:32Z",
+ "number": "U4024",
+ "positions": [
+  [
+   31.9275,
+   130.90889
+  ],
+  [
+   31.92722,
+   130.91528
+  ],
+  [
+   31.92111,
+   130.91528
+  ],
+  [
+   31.92194,
+   130.90889
+  ],
+  [
+   31.9275,
+   130.90889
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-27T05:16:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4024/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/040/3155N13055E002\nA)RJJJ B)2610270300 C)2610270700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n315539N1305432E - 315538N1305455E - 315516N1305455E - 315519N1305432E\n- 315539N1305432E \n(KOBAYASHI-SHI IN MIYAZAKI)\nWT: 1.1KG\nF)SFC G)3938FT AMSL",
+ "year": 2026
+}

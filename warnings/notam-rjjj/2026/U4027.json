@@ -1,0 +1,86 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 31.8667,
+   "lon": 131.0333,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-10-28T23:00:00Z",
+  "upper": "3938FT AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-10-27T05:13:32Z",
+ "id": "notam-rjjj/2026/U4027",
+ "issued_at": "2026-10-27T00:24:00Z",
+ "last_seen": "2026-10-27T05:13:32Z",
+ "number": "U4027",
+ "positions": [
+  [
+   31.86639,
+   131.02917
+  ],
+  [
+   31.87028,
+   131.03667
+  ],
+  [
+   31.86806,
+   131.04111
+  ],
+  [
+   31.86333,
+   131.03806
+  ],
+  [
+   31.86111,
+   131.04167
+  ],
+  [
+   31.85833,
+   131.04056
+  ],
+  [
+   31.855,
+   131.03639
+  ],
+  [
+   31.85722,
+   131.03361
+  ],
+  [
+   31.86167,
+   131.0325
+  ],
+  [
+   31.86333,
+   131.03
+  ],
+  [
+   31.86639,
+   131.02917
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-27T05:16:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4027/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/040/3152N13102E002\nA)RJJJ B)2610282300 C)2610290700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n315159N1310145E - 315213N1310212E - 315205N1310228E - 315148N1310217E\n- 315140N1310230E - 315130N1310226E - 315118N1310211E -\n315126N1310201E - 315142N1310157E - 315148N1310148E - 315159N1310145E\n(MIYAKONOJO-SHI IN MIYAZAKI)\nWT: 1.1KG\nRMK: THIS AREA IS INCLUDED IN KS4-3-30, KS4-3-45\nF)SFC G)3938FT AMSL",
+ "year": 2026
+}

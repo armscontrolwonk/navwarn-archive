@@ -1,0 +1,86 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T02:00:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "restricted",
+  "location": "RPHI",
+  "lower": "FL460",
+  "lower_fl": 460,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 14.7,
+   "lon": 118.7667,
+   "radius_nm": 343
+  },
+  "qcode": "QRALW",
+  "queried_fir": "RPHI",
+  "shape": "polygon",
+  "starts_at": "2026-10-29T01:00:00Z",
+  "upper": "FL590",
+  "upper_fl": 590
+ },
+ "first_seen": "2026-10-27T05:13:32Z",
+ "id": "notam-rphi/2026/B5764",
+ "issued_at": "2026-10-27T03:08:00Z",
+ "last_seen": "2026-10-27T05:13:32Z",
+ "number": "B5764",
+ "positions": [
+  [
+   20.0,
+   117.65
+  ],
+  [
+   20.0,
+   120.75
+  ],
+  [
+   17.25167,
+   119.36528
+  ],
+  [
+   17.76444,
+   118.96361
+  ],
+  [
+   16.45194,
+   117.45139
+  ],
+  [
+   14.78333,
+   119.13333
+  ],
+  [
+   12.08333,
+   119.09111
+  ],
+  [
+   9.3,
+   117.16667
+  ],
+  [
+   10.48333,
+   114.95
+  ],
+  [
+   14.05,
+   114.88333
+  ],
+  [
+   20.0,
+   117.65
+  ]
+ ],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-10-27T05:16:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "SPECIAL OPS (STNR ALT RESERVATION (GIGANTE)) WILL TAKE PLACE WI:",
+ "text": "B5764/26 NOTAMN\nQ) RPHI/QRALW/IV/NBO/W /460/590/1442N11846E343\nA) RPHI B) 2610290100 C) 2610310200\nE) SPECIAL OPS (STNR ALT RESERVATION (GIGANTE)) WILL TAKE PLACE WI:\n200000N 1173900E -\n200000N 1204500E -\n171506N 1192155E -\n174552N 1185749E -\n162707N 1172705E -\n144700N 1190800E -\n120500N 1190528E -\n091800N 1171000E -\n102900N 1145700E -\n140300N 1145300E -\n200000N 1173900E.\nF) FL460 G) FL590",
+ "year": 2026
+}
