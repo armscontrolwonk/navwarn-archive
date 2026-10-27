@@ -1,0 +1,40 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-02T14:00:00Z",
+ "extra": {
+  "fir": "LTXX",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower": "28000FT AMSL",
+  "lower_fl": 280,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.3833,
+   "lon": 31.0833,
+   "radius_nm": 61
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTBB",
+  "starts_at": "2026-11-02T07:00:00Z",
+  "upper": "30000FT AMSL",
+  "upper_fl": 300
+ },
+ "first_seen": "2026-10-27T12:21:29Z",
+ "id": "notam-ltaa/2026/A4830",
+ "issued_at": "2026-10-27T10:20:00Z",
+ "last_seen": "2026-10-27T12:21:29Z",
+ "number": "A4830",
+ "positions": [],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-27T12:26:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEST FLIGHT(WO FRN",
+ "text": "A4830/26 NOTAMN\nQ) LTXX/QWELW/IV/BO /W /280/300/3923N03105E061\nA) LTAA LTBB B) 2611020700 C) 2611021400\nE) TEST FLIGHT(WO FRNG) WILL TAKE PLACE WI ESKISEHIR MIL TMA: \n394955N0300518E 401533N0302932E 390533N0320218E 383038N0313929E \n394955N0300518E\nF) 28000FT AMSL G) 30000FT AMSL",
+ "year": 2026
+}

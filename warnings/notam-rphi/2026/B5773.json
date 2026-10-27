@@ -1,0 +1,65 @@
+{
+ "cancels": [
+  "notam-rphi/2026/B5514"
+ ],
+ "expires_at": "2026-11-20T08:00:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "other",
+  "location": "RPHI",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 7.2667,
+   "lon": 125.7167,
+   "radius_nm": 49
+  },
+  "qcode": "QWYLW",
+  "queried_fir": "RPHI",
+  "schedule": "2200-0800",
+  "shape": "polygon",
+  "starts_at": "2026-10-27T08:40:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-10-27T12:21:29Z",
+ "id": "notam-rphi/2026/B5773",
+ "issued_at": "2026-10-27T08:40:00Z",
+ "last_seen": "2026-10-27T12:21:29Z",
+ "number": "B5773",
+ "positions": [
+  [
+   7.83,
+   125.15028
+  ],
+  [
+   7.97833,
+   126.04028
+  ],
+  [
+   6.72167,
+   126.29806
+  ],
+  [
+   6.56111,
+   125.40417
+  ],
+  [
+   7.83,
+   125.15028
+  ]
+ ],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-10-27T12:26:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AERIAL SURVEY ACT WILL TAKE PLACE WI:",
+ "text": "B5773/26 NOTAMR B5514/26\nQ) RPHI/QWYLW/IV/M  /W /000/100/0716N12543E049\nA) RPHI B) 2610270840 C) 2611200800\nD) 2200-0800\nE) AERIAL SURVEY ACT WILL TAKE PLACE WI:\n074948N 1250901E -\n075842N 1260225E -\n064318N 1261753E -\n063340N 1252415E -\n074948N 1250901E\n(DAVAO DEL NORTE AND DAVAO CITY).\nF) SFC G) 10000FT AMSL",
+ "year": 2026
+}

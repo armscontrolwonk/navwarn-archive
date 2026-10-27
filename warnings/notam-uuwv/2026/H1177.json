@@ -1,0 +1,97 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-15T17:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 51.27389,
+    "lon": 42.71861,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "UUWV",
+  "kind": "restricted",
+  "location": "UUWV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 51.2167,
+   "lon": 42.6,
+   "radius_nm": 7
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UUWV",
+  "schedule": "01 08 15 0500-1700",
+  "starts_at": "2026-11-01T05:00:00Z",
+  "upper": "900M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-27T12:21:29Z",
+ "id": "notam-uuwv/2026/H1177",
+ "issued_at": "2026-10-27T11:23:00Z",
+ "last_seen": "2026-10-27T12:21:29Z",
+ "number": "H1177",
+ "positions": [
+  [
+   51.15472,
+   42.4575
+  ],
+  [
+   51.15361,
+   42.54694
+  ],
+  [
+   51.16028,
+   42.58306
+  ],
+  [
+   51.25333,
+   42.64528
+  ],
+  [
+   51.2875,
+   42.725
+  ],
+  [
+   51.27,
+   42.735
+  ],
+  [
+   51.24167,
+   42.66833
+  ],
+  [
+   51.14528,
+   42.60444
+  ],
+  [
+   51.13583,
+   42.55111
+  ],
+  [
+   51.13528,
+   42.47083
+  ],
+  [
+   51.15472,
+   42.4575
+  ],
+  [
+   51.27389,
+   42.71861
+  ]
+ ],
+ "series": "notam-uuwv",
+ "source": {
+  "fetched_at": "2026-10-27T12:26:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "H1177/26 NOTAMN\nQ)UUWV/QRTCA/IV/BO/W/000/030/5113N04236E007\nA)UUWV B)2611010500 C)2611151700\nD)01 08 15 0500-1700\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 510917N0422727E-510913N0423249E-510937N0423459E-\n         511512N0423843E-511715N0424330E-511612N0424406E-\n         511430N0424006E-510843N0423616E-510809N0423304E-\n         510807N0422815E-510917N0422727E\n   450M AMSL-900M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 511626N0424307E\n   GND-900M AMSL.\nF)GND  G)900M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T11:30:00Z",
+ "extra": {
+  "fir": "VVHN",
+  "kind": "other",
+  "location": "VVHN",
+  "lower": "200M AGL",
+  "lower_fl": 6,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 20.25,
+   "lon": 106.4,
+   "radius_nm": 35
+  },
+  "qcode": "QWYLW",
+  "queried_fir": "VVHN",
+  "shape": "polygon",
+  "starts_at": "2026-10-28T00:00:00Z",
+  "upper": "3000M AGL",
+  "upper_fl": 99
+ },
+ "first_seen": "2026-10-27T12:21:29Z",
+ "id": "notam-vvhn/2026/A4142",
+ "issued_at": "2026-10-27T06:54:00Z",
+ "last_seen": "2026-10-27T12:21:29Z",
+ "number": "A4142",
+ "positions": [
+  [
+   20.735,
+   106.75694
+  ],
+  [
+   20.38139,
+   106.46139
+  ],
+  [
+   19.92917,
+   106.14917
+  ],
+  [
+   19.77833,
+   106.04556
+  ],
+  [
+   20.735,
+   106.75694
+  ]
+ ],
+ "series": "notam-vvhn",
+ "source": {
+  "fetched_at": "2026-10-27T12:26:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AERIAL SURVEY WILL TAKE PLACE WI: ",
+ "text": "A4142/26 NOTAMN \nQ) VVHN/QWYLW/IV/M/W/006/099/2015N10624E035\nA) VVHN B) 2610280000 C) 2610281130 \nE) AERIAL SURVEY WILL TAKE PLACE WI: \n204406N1064525E - 202253N1062741E - 195545N1060857E - \n194642N1060244E - 204406N1064525E\nF) 200M AGL G) 3000M AGL",
+ "year": 2026
+}

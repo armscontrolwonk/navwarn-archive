@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-11T23:50:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "firing",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.3167,
+   "lon": 121.25,
+   "radius_nm": 25
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RCAA",
+  "schedule": "2200-2350",
+  "shape": "polygon",
+  "starts_at": "2026-11-10T22:00:00Z",
+  "upper": "UNL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-27T12:21:29Z",
+ "id": "notam-rcaa/2026/A4006",
+ "issued_at": "2026-10-27T10:45:00Z",
+ "last_seen": "2026-10-27T12:21:29Z",
+ "number": "A4006",
+ "positions": [
+  [
+   22.41667,
+   120.93333
+  ],
+  [
+   22.53333,
+   121.63333
+  ],
+  [
+   22.1,
+   121.63333
+  ],
+  [
+   22.1,
+   120.86667
+  ],
+  [
+   22.41667,
+   120.93333
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-27T12:26:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "GUN FRNG WILL TAKE PLACE:",
+ "text": "A4006/26 NOTAMN\nQ) RCAA/QWMLW/IV/BO/W/000/999/2219N12115E025\nA) RCAA\nB) 2611102200 C) 2611112350\nD) 2200-2350\nE) GUN FRNG WILL TAKE PLACE:\n1.AIRSPACE BLOCKED.\n2.UNMANNED ACFT WILL BE RELEASED.\n3.TFC CONCERNED KEEP CLOSE CTC WITH KAOHSIUNG APP OR\n  TAIPEI ACC.\n4.OPR TEL: 03-4712201 EXTENSION 355531\n5.AREA AS FLW:\n222500N 1205600E\n223200N 1213800E\n220600N 1213800E\n220600N 1205200E\n222500N 1205600E\nF) SFC G) UNL",
+ "year": 2026
+}

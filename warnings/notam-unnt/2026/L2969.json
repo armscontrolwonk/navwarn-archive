@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T12:00:00Z",
+ "extra": {
+  "fir": "UNNT",
+  "kind": "restricted",
+  "location": "UNNT",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.1333,
+   "lon": 80.0833,
+   "radius_nm": 8
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNNT",
+  "schedule": "28 0630-1200, 29-30 0100-1200",
+  "shape": "polygon",
+  "starts_at": "2026-10-28T06:30:00Z",
+  "upper": "650M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-27T12:21:29Z",
+ "id": "notam-unnt/2026/L2969",
+ "issued_at": "2026-10-27T06:57:00Z",
+ "last_seen": "2026-10-27T12:21:29Z",
+ "number": "L2969",
+ "positions": [
+  [
+   55.20417,
+   80.26111
+  ],
+  [
+   55.21389,
+   80.18694
+  ],
+  [
+   55.15722,
+   79.91972
+  ],
+  [
+   55.05667,
+   79.89167
+  ],
+  [
+   55.07194,
+   80.21611
+  ],
+  [
+   55.20417,
+   80.26111
+  ]
+ ],
+ "series": "notam-unnt",
+ "source": {
+  "fetched_at": "2026-10-27T12:26:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "L2969/26 NOTAMN\nQ)UNNT/QRTCA/IV/BO/W/000/030/5508N08005E008\nA)UNNT B)2610280630 C)2610301200\nD)28 0630-1200, 29-30 0100-1200\nE)AIRSPACE CLSD WI AREA:\n551215N0801540E-551250N0801113E-550926N0795511E-\n550324N0795330E-550419N0801258E-551215N0801540E\nF)SFC  G)650M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,109 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T17:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 66.07222,
+    "lon": 76.87222,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "USTV",
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 66.05,
+   "lon": 76.9,
+   "radius_nm": 10
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USTV",
+  "schedule": "DAILY 0400-1700",
+  "starts_at": "2026-11-01T04:00:00Z",
+  "upper": "350M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-27T12:21:29Z",
+ "id": "notam-ustv/2026/Z4978",
+ "issued_at": "2026-10-27T05:14:00Z",
+ "last_seen": "2026-10-27T12:21:29Z",
+ "number": "Z4978",
+ "positions": [
+  [
+   66.06528,
+   76.74389
+  ],
+  [
+   66.07083,
+   76.75889
+  ],
+  [
+   66.06222,
+   76.78528
+  ],
+  [
+   66.05,
+   76.79611
+  ],
+  [
+   66.07056,
+   76.83333
+  ],
+  [
+   66.1275,
+   76.80833
+  ],
+  [
+   66.20417,
+   76.88861
+  ],
+  [
+   66.19444,
+   77.07556
+  ],
+  [
+   66.13556,
+   77.04889
+  ],
+  [
+   66.06972,
+   77.07806
+  ],
+  [
+   65.9825,
+   77.03694
+  ],
+  [
+   65.93083,
+   76.95444
+  ],
+  [
+   65.91083,
+   76.90833
+  ],
+  [
+   66.06528,
+   76.74389
+  ],
+  [
+   66.07222,
+   76.87222
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-10-27T12:26:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z4978/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/020/6603N07654E010\nA)USTV B)2611010400 C)2611061700\nD)DAILY 0400-1700\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 660355N0764438E-660415N0764532E-660344N0764707E-\n         660300N0764746E-660414N0765000E-660739N0764830E-\n         661215N0765319E-661140N0770432E-660808N0770256E-\n         660411N0770441E-655857N0770213E-655551N0765716E-\n         655439N0765430E-660355N0764438E\n   310M AMSL-350M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 660420N0765220E\n   SFC-350M AMSL.\nF)SFC  G)350M AMSL",
+ "year": 2026
+}

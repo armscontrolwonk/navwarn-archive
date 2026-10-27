@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T04:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.5833,
+   "lon": 137.5,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-10-28T00:00:00Z",
+  "upper": "4299FT AMSL",
+  "upper_fl": 43
+ },
+ "first_seen": "2026-10-27T12:21:29Z",
+ "id": "notam-rjjj/2026/U4037",
+ "issued_at": "2026-10-27T08:59:00Z",
+ "last_seen": "2026-10-27T12:21:29Z",
+ "number": "U4037",
+ "positions": [
+  [
+   36.58611,
+   137.48889
+  ],
+  [
+   36.58972,
+   137.4975
+  ],
+  [
+   36.58944,
+   137.50194
+  ],
+  [
+   36.5925,
+   137.50333
+  ],
+  [
+   36.59361,
+   137.49667
+  ],
+  [
+   36.58833,
+   137.48667
+  ],
+  [
+   36.58611,
+   137.48889
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-27T12:26:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4037/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/043/3635N13730E002\nA)RJJJ B)2610280000 C)2610280400\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n363510N1372920E - 363523N1372951E - 363522N1373007E - 363533N1373012E\n- 363537N1372948E - 363518N1372912E - 363510N1372920E \n(NAKANIIKAWA-GUN IN TOYAMA)\nWT: 4KG\nCONTACT INFORMATION: 076-432-9936\nF)SFC G)4299FT AMSL",
+ "year": 2026
+}

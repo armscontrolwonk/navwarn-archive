@@ -1,0 +1,97 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T15:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 59.45,
+    "lon": 29.46667,
+    "radius_nm": 0.16
+   }
+  ],
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 59.5333,
+   "lon": 29.4333,
+   "radius_nm": 9
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "26-31 0705-1500",
+  "starts_at": "2026-10-26T07:05:00Z",
+  "upper": "900M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-27T12:21:29Z",
+ "id": "notam-ulll/2026/Q0118",
+ "issued_at": "2026-10-27T09:38:00Z",
+ "last_seen": "2026-10-27T12:21:29Z",
+ "number": "Q0118",
+ "positions": [
+  [
+   59.65639,
+   29.32944
+  ],
+  [
+   59.65083,
+   29.36472
+  ],
+  [
+   59.655,
+   29.42139
+  ],
+  [
+   59.50333,
+   29.60444
+  ],
+  [
+   59.50111,
+   29.66528
+  ],
+  [
+   59.46667,
+   29.62833
+  ],
+  [
+   59.40417,
+   29.54583
+  ],
+  [
+   59.39889,
+   29.49833
+  ],
+  [
+   59.43444,
+   29.31083
+  ],
+  [
+   59.43806,
+   29.39083
+  ],
+  [
+   59.65639,
+   29.32944
+  ],
+  [
+   59.45,
+   29.46667
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-27T12:26:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Q0118/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/030/5932N02926E009\nA)ULLL B)2610260705 C)2610311500\nD)26-31 0705-1500\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 593923N0291946E-593903N0292153E-593918N0292517E-\n         593012N0293616E-593004N0293955E-592800N0293742E-\n         592415N0293245E-592356N0292954E-592604N0291839E-\n         592617N0292327E-593923N0291946E\n   350M AMSL-900M AMSL.\n2. WI CIRCLE RADIUS 0.3KM CENTRE 592700N0292800E\n   GND-350M AMSL.\nF)GND  G)900M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T09:00:00Z",
+ "extra": {
+  "fir": "USTV",
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 67.7667,
+   "lon": 76.9167,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USTV",
+  "shape": "polygon",
+  "starts_at": "2026-10-29T05:00:00Z",
+  "upper": "100M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-27T12:21:29Z",
+ "id": "notam-ustv/2026/Z4995",
+ "issued_at": "2026-10-27T06:25:00Z",
+ "last_seen": "2026-10-27T12:21:29Z",
+ "number": "Z4995",
+ "positions": [
+  [
+   67.78611,
+   76.95472
+  ],
+  [
+   67.77667,
+   76.96806
+  ],
+  [
+   67.76361,
+   76.88083
+  ],
+  [
+   67.77222,
+   76.87083
+  ],
+  [
+   67.78611,
+   76.95472
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-10-27T12:26:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "Z4995/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/010/6746N07655E002\nA)USTV B)2610290500 C)2610290900\nE)AIRSPACE CLSD WI AREA:\n674710N0765717E-674636N0765805E-674549N0765251E-674620N0765215E-\n674710N0765717E.\nF)SFC  G)100M AMSL",
+ "year": 2026
+}

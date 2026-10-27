@@ -1,0 +1,40 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T15:00:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "route",
+  "location": "ULLL",
+  "lower": "FL265",
+  "lower_fl": 265,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 71.5,
+   "lon": 36.45,
+   "radius_nm": 117
+  },
+  "qcode": "QARLC",
+  "queried_fir": "ULLL",
+  "starts_at": "2026-10-28T04:00:00Z",
+  "upper": "FL540",
+  "upper_fl": 540
+ },
+ "first_seen": "2026-10-27T12:21:29Z",
+ "id": "notam-ulll/2026/Q0245",
+ "issued_at": "2026-10-27T11:13:00Z",
+ "last_seen": "2026-10-27T12:21:29Z",
+ "number": "Q0245",
+ "positions": [],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-27T12:26:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENTS CLSD:",
+ "text": "Q0245/26 NOTAMN\nQ)ULLL/QARLC/IV/NBO/E/265/540/7130N03627E117\nA)ULLL B)2610280400 C)2610281500\nE)ATS RTE SEGMENTS CLSD:\nM745 ATKUP-LIMUS FL325-FL420\nT150 EVMUV-LIMUS FL325-FL420\nT570 NUTLA-BALUD FL265-FL540.\nF)FL265  G)FL540",
+ "year": 2026
+}

@@ -1,0 +1,103 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T15:00:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 58.5,
+   "lon": 32.4,
+   "radius_nm": 35
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "26-29 0710-1500",
+  "shape": "polygon",
+  "starts_at": "2026-10-26T07:10:00Z",
+  "upper": "300M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-27T12:21:29Z",
+ "id": "notam-ulll/2026/Q0121",
+ "issued_at": "2026-10-27T09:38:00Z",
+ "last_seen": "2026-10-27T12:21:29Z",
+ "number": "Q0121",
+ "positions": [
+  [
+   58.73139,
+   31.36972
+  ],
+  [
+   58.66639,
+   31.59778
+  ],
+  [
+   58.64639,
+   31.74889
+  ],
+  [
+   58.63667,
+   31.98222
+  ],
+  [
+   58.62639,
+   32.08306
+  ],
+  [
+   58.60722,
+   32.21333
+  ],
+  [
+   58.505,
+   32.90444
+  ],
+  [
+   58.48444,
+   33.01639
+  ],
+  [
+   58.42917,
+   33.16056
+  ],
+  [
+   58.41528,
+   33.19806
+  ],
+  [
+   58.39028,
+   33.23833
+  ],
+  [
+   58.35611,
+   33.29333
+  ],
+  [
+   58.30833,
+   33.39056
+  ],
+  [
+   58.29083,
+   33.40806
+  ],
+  [
+   58.27194,
+   33.41639
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-27T12:26:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Q0121/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/010/5830N03224E035\nA)ULLL B)2610260710 C)2610291500\nD)26-29 0710-1500\nE)AIRSPACE CLSD AS FLW:\n1. WI 0.25KM EITHER SIDE OF LINE JOINING POINTS:\n   584353N0312211E-583959N0313552E-583847N0314456E-\n   583812N0315856E-583735N0320459E-583626N0321248E.\n2. WI 0.25KM EITHER SIDE OF LINE JOINING POINTS:\n   583018N0325416E-582904N0330059E-582545N0330938E-582455N0331153E-\n   582325N0331418E-582122N0331736E-581830N0332326E-581727N0332429E-\n   581619N0332459E.\nF)SFC  G)300M AMSL",
+ "year": 2026
+}

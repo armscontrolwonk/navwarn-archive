@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T16:50:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "route",
+  "location": "ULLL",
+  "lower": "FL055",
+  "lower_fl": 55,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 60.3833,
+   "lon": 33.2167,
+   "radius_nm": 76
+  },
+  "qcode": "QARLC",
+  "queried_fir": "ULLL",
+  "schedule": "28-30 0730-1650",
+  "starts_at": "2026-10-28T07:30:00Z",
+  "upper": "FL180",
+  "upper_fl": 180
+ },
+ "first_seen": "2026-10-27T12:21:29Z",
+ "id": "notam-ulll/2026/Q0223",
+ "issued_at": "2026-10-27T09:43:00Z",
+ "last_seen": "2026-10-27T12:21:29Z",
+ "number": "Q0223",
+ "positions": [],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-27T12:26:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENTS CLSD:",
+ "text": "Q0223/26 NOTAMN\nQ)ULLL/QARLC/IV/NBO/E/055/180/6023N03313E076\nA)ULLL B)2610280730 C)2610301650\nD)28-30 0730-1650\nE)ATS RTE SEGMENTS CLSD:\nL255 KERIS-LEDBA FL055-FL180.\nL256 OBIBA-LEDBA FL055-FL180.\nP989 ORSUR-KERIS FL055-FL085.\nP989 KERIS-OBIBA FL055-FL180.\nP989 OBIBA-ASNAS FL070-FL180.\nP997 OBIBA-AKUGI FL055-FL180.\nT635 RIPUT-AKUGI FL055-FL180.\nT792 EGVOH-OKDON FL070-FL180.\nF)FL055  G)FL180",
+ "year": 2026
+}
