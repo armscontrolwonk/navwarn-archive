@@ -3,12 +3,12 @@ from __future__ import annotations
 import re
 from ..http import fetch_raw, now_iso
 from ..model import Warning
-from ..parse import parse_dtg, parse_positions, parse_cancels, parse_expiry, navarea_series, strip_html
+from ..parse import parse_dtg, parse_positions, parse_cancels, parse_expiry, navarea_series, strip_html, area_extra
 
 NAME = "ukho"
 URL = "https://msi.admiralty.co.uk/RadioNavigationalWarnings"
 CADENCE_DAYS = 8          # weekly in-force bulletin; stale if nothing newer than this
-PARSER_VERSION = 1
+PARSER_VERSION = 2          # v2: extra.areas
 
 ROW_RE = re.compile(
     r'<h2 id="Details_Reference_\d+"[^>]*>\s*(.*?)\s*</h2>\s*'
@@ -34,7 +34,8 @@ def parse(html: str, raw_path: str, fetched_at: str) -> list[Warning]:
             text=text, positions=parse_positions(text), cancels=parse_cancels(text),
             expires_at=parse_expiry(text),
             source={"name": NAME, "url": URL, "raw_path": raw_path, "fetched_at": fetched_at,
-                    "parser_version": PARSER_VERSION}))
+                    "parser_version": PARSER_VERSION},
+            extra=area_extra(text)))
     return out
 
 

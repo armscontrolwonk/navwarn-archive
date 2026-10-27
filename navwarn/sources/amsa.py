@@ -5,12 +5,12 @@ from __future__ import annotations
 import re
 from ..http import fetch_raw, now_iso
 from ..model import Warning
-from ..parse import parse_dtg, parse_positions, parse_cancels, parse_expiry, strip_html
+from ..parse import parse_dtg, parse_positions, parse_cancels, parse_expiry, strip_html, area_extra
 
 NAME = "amsa"
 URL = "https://www.operations.amsa.gov.au/AMSA.Web.MSIPublication/Home"
 CADENCE_DAYS = 8          # in-force summary is reissued weekly on Thursdays
-PARSER_VERSION = 1
+PARSER_VERSION = 2          # v2: extra.areas
 
 SECTION_RE = re.compile(r"<p>\s*(Part \d+\.[^<]*|AUSCOAST coastal warning - area ([A-Z])[^<]*)</p>", re.I)
 BLOCK_RE = re.compile(r"SECURITE(.*?)NNNN", re.S)
@@ -43,7 +43,7 @@ def parse(html: str, raw_path: str, fetched_at: str) -> list[Warning]:
             positions=parse_positions(body), cancels=parse_cancels(body), expires_at=parse_expiry(body),
             source={"name": NAME, "url": URL, "raw_path": raw_path, "fetched_at": fetched_at,
                     "parser_version": PARSER_VERSION},
-            extra={"auscoast_areas": [area]} if area else {}))
+            extra={**({"auscoast_areas": [area]} if area else {}), **area_extra(body)}))
     return list(out.values())
 
 
