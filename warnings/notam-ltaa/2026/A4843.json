@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-03T14:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.5,
+   "lon": 33.6167,
+   "radius_nm": 15
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T07:00:00Z",
+  "upper": "25000FT AMSL",
+  "upper_fl": 250
+ },
+ "first_seen": "2026-10-27T22:21:18Z",
+ "id": "notam-ltaa/2026/A4843",
+ "issued_at": "2026-10-27T13:51:00Z",
+ "last_seen": "2026-10-27T22:21:18Z",
+ "number": "A4843",
+ "positions": [
+  [
+   38.27222,
+   33.53333
+  ],
+  [
+   38.60556,
+   33.35
+  ],
+  [
+   38.59972,
+   33.77556
+  ],
+  [
+   38.45583,
+   33.90278
+  ],
+  [
+   38.27222,
+   33.53333
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-27T22:23:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEST FLT WILL TAKE PLACE WI: 381620N0333200E 383620N0332100E ",
+ "text": "A4843/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /000/250/3830N03337E015\nA) LTAA B) 2611030700 C) 2611031400\nE) TEST FLT WILL TAKE PLACE WI: 381620N0333200E 383620N0332100E \n383559N0334632E 382721N0335410E 381620N0333200E\nF) SFC G) 25000FT AMSL",
+ "year": 2026
+}

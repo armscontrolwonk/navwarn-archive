@@ -1,0 +1,86 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.9333,
+   "lon": 136.3833,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-10-28T00:00:00Z",
+  "upper": "2215FT AMSL",
+  "upper_fl": 23
+ },
+ "first_seen": "2026-10-27T22:21:18Z",
+ "id": "notam-rjjj/2026/U4041",
+ "issued_at": "2026-10-27T20:52:00Z",
+ "last_seen": "2026-10-27T22:21:18Z",
+ "number": "U4041",
+ "positions": [
+  [
+   35.94583,
+   136.36389
+  ],
+  [
+   35.94306,
+   136.37389
+  ],
+  [
+   35.93222,
+   136.38639
+  ],
+  [
+   35.91167,
+   136.39472
+  ],
+  [
+   35.91139,
+   136.39806
+  ],
+  [
+   35.90583,
+   136.39639
+  ],
+  [
+   35.90611,
+   136.38722
+  ],
+  [
+   35.90222,
+   136.38111
+  ],
+  [
+   35.90583,
+   136.37528
+  ],
+  [
+   35.91139,
+   136.3825
+  ],
+  [
+   35.94583,
+   136.36389
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-27T22:23:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4041/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/023/3556N13623E003\nA)RJJJ B)2610280000 C)2610280700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n355645N1362150E - 355635N1362226E - 355556N1362311E - 355442N1362341E\n- 355441N1362353E - 355421N1362347E - 355422N1362314E -\n355408N1362252E - 355421N1362231E - 355441N1362257E - 355645N1362150E\n(IMADATE-GUN IN FUKUI)\nWT: 0.8KG\nF)SFC G)2215FT AMSL",
+ "year": 2026
+}

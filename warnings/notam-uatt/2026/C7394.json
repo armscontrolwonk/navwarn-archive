@@ -1,0 +1,82 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T12:00:00Z",
+ "extra": {
+  "fir": "UATT",
+  "kind": "restricted",
+  "location": "UATT",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 50.5833,
+   "lon": 56.8833,
+   "radius_nm": 29
+  },
+  "qcode": "QRMCA",
+  "queried_fir": "UATT",
+  "shape": "polygon",
+  "starts_at": "2026-10-28T03:20:00Z",
+  "upper": "5000FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-10-27T22:21:18Z",
+ "id": "notam-uatt/2026/C7394",
+ "issued_at": "2026-10-27T12:28:00Z",
+ "last_seen": "2026-10-27T22:21:18Z",
+ "number": "C7394",
+ "positions": [
+  [
+   50.95917,
+   56.78472
+  ],
+  [
+   50.96667,
+   57.3
+  ],
+  [
+   50.78333,
+   57.46667
+  ],
+  [
+   50.71667,
+   57.5
+  ],
+  [
+   50.52806,
+   57.17694
+  ],
+  [
+   50.51944,
+   56.91361
+  ],
+  [
+   50.31694,
+   56.72083
+  ],
+  [
+   50.20889,
+   56.46111
+  ],
+  [
+   50.51167,
+   56.21028
+  ],
+  [
+   50.95917,
+   56.78472
+  ]
+ ],
+ "series": "notam-uatt",
+ "source": {
+  "fetched_at": "2026-10-27T22:23:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL OPR AREA ACTIVATED",
+ "text": "C7394/26 NOTAMN\nQ) UATT/QRMCA/IV/BO /W /000/050/5035N05653E029\nA) UATT B) 2610280320 C) 2610281200\nE) MIL OPR AREA ACTIVATED\nAREA BOUNDED BY:\n505733N 0564705E - 505800N 0571800E - 504700N 0572800E - \n504300N 0573000E - 503141N 0571037E - 503110N 0565449E - \n501901N 0564315E - 501232N 0562740E - 503042N 0561237E - \n505733N 0564705E.\nF) GND G) 5000FT AMSL",
+ "year": 2026
+}

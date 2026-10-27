@@ -1,0 +1,45 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T15:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "restricted",
+  "location": "LRBB",
+  "lower": "FL060",
+  "lower_fl": 60,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.3,
+   "lon": 25.9333,
+   "radius_nm": 6
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "LRBB",
+  "starts_at": "2026-10-28T07:30:00Z",
+  "upper": "FL130",
+  "upper_fl": 130
+ },
+ "first_seen": "2026-10-27T22:21:18Z",
+ "id": "notam-lrbb/2026/R5010",
+ "issued_at": "2026-10-27T13:44:00Z",
+ "last_seen": "2026-10-27T22:21:18Z",
+ "number": "R5010",
+ "positions": [
+  [
+   44.3,
+   25.93333
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-10-27T22:23:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "DANGER AREA ACTIVATED:",
+ "text": "R5010/26 NOTAMN\nQ) LRBB/QRDCA/IV/BO /W /060/130/4418N02556E006\nA) LRBB B) 2610280730 C) 2610281500\nE) DANGER AREA ACTIVATED:\n   SPORT FLT AND PJE WILL TAKE PLACE INTO A CIRCLE CENTERED\n   ON POINT OF COORD 441800N0255600E WITH 6NM RADIUS\n   RESERVED AREA CONTACT ON 128.305\n   SPORTS ACT OF ACFT AND PJE\n   EXPECT RADAR VECTORING\nF) FL060 G) FL130",
+ "year": 2026
+}

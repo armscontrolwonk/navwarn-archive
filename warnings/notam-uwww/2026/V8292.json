@@ -1,0 +1,104 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-05T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 55.94556,
+    "lon": 51.9825,
+    "radius_nm": 1.03
+   }
+  ],
+  "fir": "UWWW",
+  "kind": "restricted",
+  "location": "UWWW",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.8667,
+   "lon": 51.6667,
+   "radius_nm": 15
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UWWW",
+  "starts_at": "2026-10-31T00:00:00Z",
+  "upper": "1500M AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-10-27T22:21:18Z",
+ "id": "notam-uwww/2026/V8292",
+ "issued_at": "2026-10-27T15:24:00Z",
+ "last_seen": "2026-10-27T22:21:18Z",
+ "number": "V8292",
+ "positions": [
+  [
+   55.91194,
+   51.91222
+  ],
+  [
+   55.92333,
+   51.94806
+  ],
+  [
+   55.92639,
+   51.96556
+  ],
+  [
+   55.93,
+   52.00306
+  ],
+  [
+   55.93056,
+   52.01222
+  ],
+  [
+   55.92639,
+   52.07556
+  ],
+  [
+   55.96111,
+   52.02972
+  ],
+  [
+   55.97778,
+   51.96611
+  ],
+  [
+   55.94056,
+   51.91444
+  ],
+  [
+   55.93111,
+   51.90528
+  ],
+  [
+   55.80444,
+   51.25472
+  ],
+  [
+   55.79306,
+   51.28944
+  ],
+  [
+   55.91194,
+   51.91222
+  ],
+  [
+   55.94556,
+   51.9825
+  ]
+ ],
+ "series": "notam-uwww",
+ "source": {
+  "fetched_at": "2026-10-27T22:23:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "V8292/26 NOTAMN\nQ)UWWW/QRTCA/IV/BO/W/000/050/5552N05140E015\nA)UWWW B)2610310000 C)2611052359\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 555443N0515444E-555524N0515653E-555535N0515756E-\n         555548N0520011E-555550N0520044E-555535N0520432E-\n         555740N0520147E-555840N0515758E-555626N0515452E-\n         555552N0515419E-554816N0511517E-554735N0511722E-\n         555443N0515444E\n   500M AMSL-1500M AMSL.\n2. WI CIRCLE RADIUS 1.9KM CENTRE 555644N0515857E\n   GND-1500M AMSL.\nF)GND  G)1500M AMSL",
+ "year": 2026
+}
