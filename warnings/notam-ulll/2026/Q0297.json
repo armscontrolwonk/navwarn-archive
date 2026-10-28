@@ -1,0 +1,61 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-04T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 59.95,
+    "lon": 30.31667,
+    "radius_nm": 107.99
+   }
+  ],
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 58.85,
+   "lon": 27.5,
+   "radius_nm": 110
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "DAILY 0000-0700 1700-2359",
+  "starts_at": "2026-10-30T00:00:00Z",
+  "upper": "3050M AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-ulll/2026/Q0297",
+ "issued_at": "2026-10-28T07:37:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "Q0297",
+ "positions": [
+  [
+   58.8625,
+   27.50889
+  ],
+  [
+   61.73944,
+   29.985
+  ],
+  [
+   59.95,
+   30.31667
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA FROM GEOPOINT 585145N 0273032E ALONG STATE",
+ "text": "Q0297/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/100/5851N02730E110\nA)ULLL B)2610300000 C)2611042359\nD)DAILY 0000-0700 1700-2359\nE)AIRSPACE CLSD WI AREA FROM GEOPOINT 585145N 0273032E ALONG STATE\nBORDER TO GEOPOINT 614422N 0295906E THEN CLOCKWISE ALONG ARC\nRADIUS 200KM CENTRE 595700N 0301900E (SAINT PETERSBURG)\nTO GEOPOINT 585145N0273032E\nRESTRICTION NOT AFFECT:\n- SPECIAL FLT AND FLT FOR THEIR SUPPORT.\n- SKED INTL AND DOM FLT VIA ATS.\n- ACFT ARR TO/DEP FROM SANKT-PETERBURG/PULKOVO AD EXC\n  ACFT VFR OPS BELOW LOWER SAFETY LVL.\n- FLT OF ACFT WO CONTINUOUS TWO-WAY COM WITH ATS (AFTM) UNIT\n  PROHIBITED.\nF)GND  G)3050M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-04T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 53.10306,
+    "lon": 50.05861,
+    "radius_nm": 2.7
+   }
+  ],
+  "fir": "UWWW",
+  "kind": "restricted",
+  "location": "UWWW",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 53.1,
+   "lon": 50.05,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UWWW",
+  "starts_at": "2026-10-30T00:00:00Z",
+  "upper": "3050M AGL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-uwww/2026/V8339",
+ "issued_at": "2026-10-28T07:30:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "V8339",
+ "positions": [
+  [
+   53.10306,
+   50.05861
+  ]
+ ],
+ "series": "notam-uwww",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 5KM CENTRE 530611N0500331E.",
+ "text": "V8339/26 NOTAMN\nQ)UWWW/QRTCA/IV/BO/W/000/999/5306N05003E003\nA)UWWW B)2610300000 C)2611042359\nE)AIRSPACE CLSD WI CIRCLE RADIUS 5KM CENTRE 530611N0500331E.\nACFT FLT NOT AFFECTED:\n- VIP SPECIAL FLT AND ACFT FOR THEIR SUPPORT,\n- ACFT CARRYING OUT INTL AND DOM FLT ALONG ATS RTE.\n- ACFT ARR/DEP FROM/TO SAMARA/KURUMOCH AD.(UWWW)\nF)GND  G)3050M AGL",
+ "year": 2026
+}

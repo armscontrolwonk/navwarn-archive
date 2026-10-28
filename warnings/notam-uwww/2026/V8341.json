@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-04T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 51.47972,
+    "lon": 46.21333,
+    "radius_nm": 27.0
+   }
+  ],
+  "fir": "UWWW",
+  "kind": "restricted",
+  "location": "UWWW",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 51.4667,
+   "lon": 46.2,
+   "radius_nm": 27
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UWWW",
+  "starts_at": "2026-10-30T00:00:00Z",
+  "upper": "3050M AGL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-uwww/2026/V8341",
+ "issued_at": "2026-10-28T07:41:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "V8341",
+ "positions": [
+  [
+   51.47972,
+   46.21333
+  ]
+ ],
+ "series": "notam-uwww",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 50KM CENTRE 512847N0461248E.",
+ "text": "V8341/26 NOTAMN\nQ)UWWW/QRTCA/IV/BO/W/000/999/5128N04612E027\nA)UWWW B)2610300000 C)2611042359\nE)AIRSPACE CLSD WI CIRCLE RADIUS 50KM CENTRE 512847N0461248E.\nFLW FLT NOT AFFECTED:\n- VIP SPECIAL FLT AND ACFT FOR THEIR SUPPORT,\n- INTL AND DOM FLT ALONG ATS RTE,\n- FLT FROM/TO SARATOV/GAGARIN AD (UWSG).\nF)GND  G)3050M AGL",
+ "year": 2026
+}

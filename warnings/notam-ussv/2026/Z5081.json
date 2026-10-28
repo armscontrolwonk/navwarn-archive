@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-04T18:00:00Z",
+ "extra": {
+  "fir": "USSV",
+  "kind": "route",
+  "location": "USSV",
+  "lower": "FL065",
+  "lower_fl": 65,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.8333,
+   "lon": 53.2,
+   "radius_nm": 13
+  },
+  "qcode": "QARLC",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0500-1800",
+  "starts_at": "2026-10-30T05:00:00Z",
+  "upper": "FL070",
+  "upper_fl": 70
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-ussv/2026/Z5081",
+ "issued_at": "2026-10-28T06:37:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "Z5081",
+ "positions": [],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE CLSD WI SEGMENTS AS FLW",
+ "text": "Z5081/26 NOTAMN\nQ)USSV/QARLC/IV/NBO/E/065/070/5650N05312E013\nA)USSV B)2610300500 C)2611041800\nD)DAILY 0500-1800\nE)ATS RTE CLSD WI SEGMENTS AS FLW\nM864 INGEN-MOKNA,\nT765 GINOR-INGEN.\nF)FL065  G)FL070",
+ "year": 2026
+}

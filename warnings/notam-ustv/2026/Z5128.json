@@ -1,0 +1,105 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T17:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 64.65889,
+    "lon": 70.95056,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 64.76556,
+    "lon": 70.97722,
+    "radius_nm": 0.32
+   }
+  ],
+  "fir": "USTV",
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 64.7,
+   "lon": 70.6,
+   "radius_nm": 22
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USTV",
+  "starts_at": "2026-10-31T03:00:00Z",
+  "upper": "700M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-ustv/2026/Z5128",
+ "issued_at": "2026-10-28T10:03:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "Z5128",
+ "positions": [
+  [
+   64.37444,
+   70.21694
+  ],
+  [
+   64.39944,
+   70.40472
+  ],
+  [
+   64.63639,
+   70.95806
+  ],
+  [
+   64.88944,
+   71.15889
+  ],
+  [
+   65.02472,
+   70.99056
+  ],
+  [
+   64.92778,
+   70.97972
+  ],
+  [
+   64.83861,
+   70.86056
+  ],
+  [
+   64.73556,
+   70.69444
+  ],
+  [
+   64.51167,
+   70.37556
+  ],
+  [
+   64.44389,
+   70.10583
+  ],
+  [
+   64.37444,
+   70.21694
+  ],
+  [
+   64.65889,
+   70.95056
+  ],
+  [
+   64.76556,
+   70.97722
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z5128/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/030/6442N07036E022\nA)USTV B)2610310300 C)2610311700\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 642228N0701301E-642358N0702417E-643811N0705729E-\n         645322N0710932E-650129N0705926E-645540N0705847E-\n         645019N0705138E-644408N0704140E-643042N0702232E-\n         642638N0700621E-642228N0701301E\n   550M AMSL-700M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 643932N0705702E\n   SFC-700M AMSL.\n3. WI CIRCLE RADIUS 0.6KM CENTRE 644556N0705838E\n   SFC-700M AMSL.\nF)SFC  G)700M AMSL",
+ "year": 2026
+}

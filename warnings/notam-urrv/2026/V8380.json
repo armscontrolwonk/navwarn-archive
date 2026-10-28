@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T11:00:00Z",
+ "extra": {
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 46.25,
+   "lon": 38.4833,
+   "radius_nm": 14
+  },
+  "qcode": "QRRCA",
+  "queried_fir": "URRV",
+  "schedule": "29 30 0600-1500, 31 0600-1100",
+  "starts_at": "2026-10-29T06:00:00Z",
+  "upper": "FL165",
+  "upper_fl": 165
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-urrv/2026/V8380",
+ "issued_at": "2026-10-28T12:33:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "V8380",
+ "positions": [],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "RESTRICTED AREA ACT: URR515.",
+ "text": "V8380/26 NOTAMN\nQ)URRV/QRRCA/IV/BO/W/000/165/4615N03829E014\nA)URRV B)2610290600 C)2610311100\nD)29 30 0600-1500, 31 0600-1100\nE)RESTRICTED AREA ACT: URR515.\nF)GND  G)FL165",
+ "year": 2026
+}

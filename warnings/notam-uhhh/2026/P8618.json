@@ -1,0 +1,127 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-04T07:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 48.27361,
+    "lon": 135.49556,
+    "radius_nm": 0.27
+   },
+   {
+    "lat": 48.08861,
+    "lon": 136.07889,
+    "radius_nm": 0.27
+   },
+   {
+    "lat": 48.20306,
+    "lon": 136.12111,
+    "radius_nm": 0.27
+   }
+  ],
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 48.1833,
+   "lon": 135.75,
+   "radius_nm": 17
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "schedule": "DAILY 0000-0700",
+  "starts_at": "2026-10-30T00:00:00Z",
+  "upper": "500M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-uhhh/2026/P8618",
+ "issued_at": "2026-10-28T09:09:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "P8618",
+ "positions": [
+  [
+   48.3,
+   135.48333
+  ],
+  [
+   48.28333,
+   135.53333
+  ],
+  [
+   48.15,
+   135.51667
+  ],
+  [
+   48.11667,
+   135.76667
+  ],
+  [
+   48.15,
+   136.0
+  ],
+  [
+   48.23333,
+   136.11667
+  ],
+  [
+   48.21667,
+   136.16667
+  ],
+  [
+   48.05,
+   136.13333
+  ],
+  [
+   48.05,
+   135.75
+  ],
+  [
+   48.08333,
+   135.61667
+  ],
+  [
+   47.97722,
+   135.52694
+  ],
+  [
+   48.00333,
+   135.46722
+  ],
+  [
+   48.13333,
+   135.35
+  ],
+  [
+   48.3,
+   135.48333
+  ],
+  [
+   48.27361,
+   135.49556
+  ],
+  [
+   48.08861,
+   136.07889
+  ],
+  [
+   48.20306,
+   136.12111
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P8618/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/020/4811N13545E017\nA)UHHH B)2610300000 C)2611040700\nD)DAILY 0000-0700\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 481800N1352900E-481700N1353200E-480900N1353100E-\n         480700N1354600E-480900N1360000E-481400N1360700E-\n         481300N1361000E-480300N1360800E-480300N1354500E-\n         480500N1353700E-475838N1353137E-480012N1352802E-\n         480800N1352100E-481800N1352900E\n   250M AMSL-500M AMSL.\n2. WI CIRCLE RADIUS 0.5KM CENTRE 481625N1352944E\n   SFC-500M AMSL.\n3. WI CIRCLE RADIUS 0.5KM CENTRE 480519N1360444E\n   SFC-500M AMSL.\n4. WI CIRCLE RADIUS 0.5KM CENTRE 481211N1360716E\n   SFC-500M AMSL.\nF)SFC  G)500M AMSL",
+ "year": 2026
+}

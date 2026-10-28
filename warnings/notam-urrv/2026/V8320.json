@@ -1,0 +1,105 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T17:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 45.38944,
+    "lon": 42.41111,
+    "radius_nm": 1.08
+   }
+  ],
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 45.3667,
+   "lon": 42.4833,
+   "radius_nm": 17
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "URRV",
+  "schedule": "30 31 0600-1700",
+  "starts_at": "2026-10-30T06:00:00Z",
+  "upper": "960M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-urrv/2026/V8320",
+ "issued_at": "2026-10-28T07:00:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "V8320",
+ "positions": [
+  [
+   45.33917,
+   42.09194
+  ],
+  [
+   45.40889,
+   42.09194
+  ],
+  [
+   45.43028,
+   42.24694
+  ],
+  [
+   45.41667,
+   42.47389
+  ],
+  [
+   45.38222,
+   42.52194
+  ],
+  [
+   45.40028,
+   42.79667
+  ],
+  [
+   45.38639,
+   42.87778
+  ],
+  [
+   45.36389,
+   42.80972
+  ],
+  [
+   45.35333,
+   42.49861
+  ],
+  [
+   45.18917,
+   42.4875
+  ],
+  [
+   45.18806,
+   42.41917
+  ],
+  [
+   45.35972,
+   42.41556
+  ],
+  [
+   45.33917,
+   42.09194
+  ],
+  [
+   45.38944,
+   42.41111
+  ]
+ ],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "V8320/26 NOTAMN\nQ)URRV/QRTCA/IV/BO/W/000/040/4522N04229E017\nA)URRV B)2610300600 C)2610311700\nD)30 31 0600-1700\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 452021N0420531E-452432N0420531E-452549N0421449E-\n         452500N0422826E-452256N0423119E-452401N0424748E-\n         452311N0425240E-452150N0424835E-452112N0422955E-\n         451121N0422915E-451117N0422509E-452135N0422456E-\n         452021N0420531E\n   390M AMSL-960M AMSL.\n2. WI CIRCLE RADIUS 2KM CENTRE 452322N0422440E\n   GND-960M AMSL.\nF)GND  G)960M AMSL",
+ "year": 2026
+}

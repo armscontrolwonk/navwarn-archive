@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-09T21:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.5,
+   "lon": 33.5833,
+   "radius_nm": 11
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-10-31T21:00:00Z",
+  "upper": "45000FT AMSL",
+  "upper_fl": 450
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-ltaa/2026/A4850",
+ "issued_at": "2026-10-28T06:44:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "A4850",
+ "positions": [
+  [
+   38.655,
+   33.60111
+  ],
+  [
+   38.56556,
+   33.48472
+  ],
+  [
+   38.33389,
+   33.57611
+  ],
+  [
+   38.42306,
+   33.69222
+  ],
+  [
+   38.655,
+   33.60111
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEST FIRING WILL TAKE PLACE.",
+ "text": "A4850/26 NOTAMN\nQ) LTAA/QWMLW/IV/BO /W /000/450/3830N03335E011\nA) LTAA B) 2610312100 C) 2611092100\nE) TEST FIRING WILL TAKE PLACE.\nAREA: 383918N0333604E 383356N0332905E 382002N0333434E \n382523N0334132E 383918N0333604E\nF) SFC G) 45000FT AMSL",
+ "year": 2026
+}

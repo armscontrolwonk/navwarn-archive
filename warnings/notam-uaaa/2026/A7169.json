@@ -1,0 +1,45 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T09:00:00Z",
+ "extra": {
+  "fir": "UAAA",
+  "kind": "restricted",
+  "location": "UAAA",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 50.0667,
+   "lon": 79.0,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UAAA",
+  "starts_at": "2026-10-29T08:00:00Z",
+  "upper": "4200FT AMSL",
+  "upper_fl": 42
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-uaaa/2026/A7169",
+ "issued_at": "2026-10-28T12:08:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "A7169",
+ "positions": [
+  [
+   50.0625,
+   78.99556
+  ]
+ ],
+ "series": "notam-uaaa",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPORARY RESTRICTED AREA ACTIVATED",
+ "text": "A7169/26 NOTAMN\nQ) UAAA/QRTCA/IV/BO /W /000/042/5004N07900E003\nA) UAAA B) 2610290800 C) 2610290900\nE) TEMPORARY RESTRICTED AREA ACTIVATED\nWI 2 NM RADIUS CENTRED ON 500345N 0785944E.\nF) GND G) 4200FT AMSL",
+ "year": 2026
+}

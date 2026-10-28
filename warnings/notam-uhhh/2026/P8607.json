@@ -1,0 +1,104 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T10:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 46.64778,
+    "lon": 142.43056,
+    "radius_nm": 0.43
+   }
+  ],
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 46.65,
+   "lon": 142.4333,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "starts_at": "2026-10-30T00:00:00Z",
+  "upper": "300M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-uhhh/2026/P8607",
+ "issued_at": "2026-10-28T07:19:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "P8607",
+ "positions": [
+  [
+   46.64806,
+   142.45
+  ],
+  [
+   46.64972,
+   142.44694
+  ],
+  [
+   46.65083,
+   142.42444
+  ],
+  [
+   46.6475,
+   142.42222
+  ],
+  [
+   46.64639,
+   142.42472
+  ],
+  [
+   46.64611,
+   142.42778
+  ],
+  [
+   46.64222,
+   142.43444
+  ],
+  [
+   46.64167,
+   142.44278
+  ],
+  [
+   46.64306,
+   142.44444
+  ],
+  [
+   46.64639,
+   142.44611
+  ],
+  [
+   46.64639,
+   142.44806
+  ],
+  [
+   46.64667,
+   142.44972
+  ],
+  [
+   46.64806,
+   142.45
+  ],
+  [
+   46.64778,
+   142.43056
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P8607/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/010/4639N14226E001\nA)UHHH B)2610300000 C)2610301000\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 463853N1422700E-463859N1422649E-463903N1422528E-\n         463851N1422520E-463847N1422529E-463846N1422540E-\n         463832N1422604E-463830N1422634E-463835N1422640E-\n         463847N1422646E-463847N1422653E-463848N1422659E-\n         463853N1422700E\n   GND-300M AMSL.\n2. WI CIRCLE RADIUS 0.8KM CENTRE 463852N1422550E\n   GND-300M AMSL.\nF)GND  G)300M AMSL",
+ "year": 2026
+}

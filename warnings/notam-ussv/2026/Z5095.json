@@ -1,0 +1,102 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 55.62139,
+    "lon": 62.25194,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 55.53611,
+    "lon": 61.9575,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.6333,
+   "lon": 62.2,
+   "radius_nm": 14
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0300-1600",
+  "starts_at": "2026-11-01T03:00:00Z",
+  "upper": "950M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-ussv/2026/Z5095",
+ "issued_at": "2026-10-28T06:53:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "Z5095",
+ "positions": [
+  [
+   55.78944,
+   62.49333
+  ],
+  [
+   55.74278,
+   62.55583
+  ],
+  [
+   55.47056,
+   61.92056
+  ],
+  [
+   55.47889,
+   61.90611
+  ],
+  [
+   55.50389,
+   61.94778
+  ],
+  [
+   55.54528,
+   61.91194
+  ],
+  [
+   55.57,
+   61.97583
+  ],
+  [
+   55.54278,
+   62.01306
+  ],
+  [
+   55.7125,
+   62.30139
+  ],
+  [
+   55.78944,
+   62.49333
+  ],
+  [
+   55.62139,
+   62.25194
+  ],
+  [
+   55.53611,
+   61.9575
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z5095/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/040/5538N06212E014\nA)USSV B)2611010300 C)2611061600\nD)DAILY 0300-1600\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 554722N0622936E-554434N0623321E-552814N0615514E-\n         552844N0615422E-553014N0615652E-553243N0615443E-\n         553412N0615833E-553234N0620047E-554245N0621805E-\n         554722N0622936E\n   600M AMSL-950M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 553717N0621507E\n   GND-950M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 553210N0615727E\n   GND-950M AMSL.\nF)GND  G)950M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T18:00:00Z",
+ "extra": {
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.3333,
+   "lon": 131.9667,
+   "radius_nm": 15
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "UHHH",
+  "shape": "polygon",
+  "starts_at": "2026-10-30T14:01:00Z",
+  "upper": "3500M AMSL",
+  "upper_fl": 120
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-uhhh/2026/P8605",
+ "issued_at": "2026-10-28T06:38:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "P8605",
+ "positions": [
+  [
+   42.4,
+   132.25
+  ],
+  [
+   42.21667,
+   132.25
+  ],
+  [
+   42.25,
+   131.68333
+  ],
+  [
+   42.30833,
+   131.68333
+  ],
+  [
+   42.4,
+   132.25
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO DANGER AREA ACT:",
+ "text": "P8605/26 NOTAMN\nQ)UHHH/QRDCA/IV/BO/W/000/120/4220N13158E015\nA)UHHH B)2610301401 C)2610301800\nE)TEMPO DANGER AREA ACT:\n422400N1321500E-421300N1321500E-421500N1314100E-\n421830N1314100E-422400N1321500E.\nF)GND  G)3500M AMSL",
+ "year": 2026
+}

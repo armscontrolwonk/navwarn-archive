@@ -1,0 +1,91 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.4333,
+   "lon": 140.5333,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0700",
+  "shape": "polygon",
+  "starts_at": "2026-10-29T00:00:00Z",
+  "upper": "5004FT AMSL",
+  "upper_fl": 51
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-rjjj/2026/U4054",
+ "issued_at": "2026-10-28T07:51:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "U4054",
+ "positions": [
+  [
+   38.4475,
+   140.53028
+  ],
+  [
+   38.44639,
+   140.52639
+  ],
+  [
+   38.44306,
+   140.52389
+  ],
+  [
+   38.44194,
+   140.52417
+  ],
+  [
+   38.43861,
+   140.53278
+  ],
+  [
+   38.43806,
+   140.53778
+  ],
+  [
+   38.43778,
+   140.53917
+  ],
+  [
+   38.43944,
+   140.54194
+  ],
+  [
+   38.44222,
+   140.54
+  ],
+  [
+   38.44611,
+   140.53444
+  ],
+  [
+   38.4475,
+   140.53056
+  ],
+  [
+   38.4475,
+   140.53028
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4054/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/051/3826N14032E002\nA)RJJJ B)2610290000 C)2612310700\nD)0000/0700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n382651N1403149E - 382647N1403135E - 382635N1403126E - 382631N1403127E\n- 382619N1403158E - 382617N1403216E - 382616N1403221E -\n382622N1403231E - 382632N1403224E - 382646N1403204E - 382651N1403150E\n- 382651N1403149E \n(HIGASHINE-SHI IN YAMAGATA)\nWT: 1.1KG\nNUMBER: 2\nF)SFC G)5004FT AMSL",
+ "year": 2026
+}

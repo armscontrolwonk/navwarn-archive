@@ -1,0 +1,87 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T06:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.4667,
+   "lon": 140.9167,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/0600",
+  "shape": "polygon",
+  "starts_at": "2026-10-28T22:00:00Z",
+  "upper": "2734FT AMSL",
+  "upper_fl": 28
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-rjjj/2026/U4053",
+ "issued_at": "2026-10-28T07:49:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "U4053",
+ "positions": [
+  [
+   40.46778,
+   140.87278
+  ],
+  [
+   40.44222,
+   140.86333
+  ],
+  [
+   40.42444,
+   140.89278
+  ],
+  [
+   40.42639,
+   140.89722
+  ],
+  [
+   40.42611,
+   140.90778
+  ],
+  [
+   40.42472,
+   140.91306
+  ],
+  [
+   40.45861,
+   140.95889
+  ],
+  [
+   40.47639,
+   140.95389
+  ],
+  [
+   40.49167,
+   140.89611
+  ],
+  [
+   40.48917,
+   140.87806
+  ],
+  [
+   40.46778,
+   140.87278
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4053/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/028/4028N14055E004\nA)RJJJ B)2610282200 C)2611200600\nD)2200/0600\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n402804N1405222E - 402632N1405148E - 402528N1405334E - 402535N1405350E\n- 402534N1405428E - 402529N1405447E - 402731N1405732E -\n402835N1405714E - 402930N1405346E - 402921N1405241E - 402804N1405222E\n(TOWADA-SHI IN AOMORI)\nWT: 4.3KG\nF)SFC G)2734FT AMSL",
+ "year": 2026
+}

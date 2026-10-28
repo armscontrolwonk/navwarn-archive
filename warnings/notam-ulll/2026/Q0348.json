@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-28T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 61.51667,
+    "lon": 30.2,
+    "radius_nm": 1.35
+   }
+  ],
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 61.5167,
+   "lon": 30.2,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "starts_at": "2026-10-28T13:00:00Z",
+  "upper": "500M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-ulll/2026/Q0348",
+ "issued_at": "2026-10-28T13:03:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "Q0348",
+ "positions": [
+  [
+   61.51667,
+   30.2
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 2.5KM CENTRE 613100N0301200E.",
+ "text": "Q0348/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/020/6131N03012E002\nA)ULLL B)2610281300 C)2610281600\nE)AIRSPACE CLSD WI CIRCLE RADIUS 2.5KM CENTRE 613100N0301200E.\nF)SFC  G)500M AMSL",
+ "year": 2026
+}

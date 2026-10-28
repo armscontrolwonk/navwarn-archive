@@ -1,0 +1,118 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-07T20:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 58.47139,
+    "lon": 68.5175,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 58.89917,
+    "lon": 69.04056,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "USTV",
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 58.7333,
+   "lon": 69.1333,
+   "radius_nm": 35
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USTV",
+  "schedule": "DAILY 0300-2000",
+  "starts_at": "2026-11-02T03:00:00Z",
+  "upper": "700M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-ustv/2026/Z5137",
+ "issued_at": "2026-10-28T11:44:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "Z5137",
+ "positions": [
+  [
+   58.47417,
+   68.49861
+  ],
+  [
+   58.82111,
+   68.92333
+  ],
+  [
+   58.79528,
+   69.00833
+  ],
+  [
+   58.78306,
+   68.99194
+  ],
+  [
+   58.775,
+   69.01861
+  ],
+  [
+   58.78917,
+   69.02972
+  ],
+  [
+   58.82139,
+   68.92361
+  ],
+  [
+   58.90472,
+   69.02556
+  ],
+  [
+   59.23444,
+   69.63278
+  ],
+  [
+   59.14778,
+   69.87556
+  ],
+  [
+   58.30722,
+   68.66667
+  ],
+  [
+   58.30667,
+   68.52639
+  ],
+  [
+   58.30389,
+   68.40833
+  ],
+  [
+   58.47417,
+   68.49861
+  ],
+  [
+   58.47139,
+   68.5175
+  ],
+  [
+   58.89917,
+   69.04056
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z5137/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/030/5844N06908E035\nA)USTV B)2611020300 C)2611072000\nD)DAILY 0300-2000\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 582827N0682955E-584916N0685524E-584743N0690030E-\n         584659N0685931E-584630N0690107E-584721N0690147E-\n         584917N0685525E-585417N0690132E-591404N0693758E-\n         590852N0695232E-581826N0684000E-581824N0683135E-\n         581814N0682430E-582827N0682955E\n   450M AMSL-700M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 582817N0683103E\n   SFC-700M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 585357N0690226E\n   SFC-700M AMSL.\nF)SFC  G)700M AMSL",
+ "year": 2026
+}

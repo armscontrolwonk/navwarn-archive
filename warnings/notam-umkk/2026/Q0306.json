@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T18:00:00Z",
+ "extra": {
+  "fir": "UMKK",
+  "kind": "route",
+  "location": "UMKK",
+  "lower": "FL095",
+  "lower_fl": 95,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.3,
+   "lon": 19.7,
+   "radius_nm": 53
+  },
+  "qcode": "QARLC",
+  "queried_fir": "UMKK",
+  "schedule": "29-31 0600-1800",
+  "starts_at": "2026-10-29T06:00:00Z",
+  "upper": "FL590",
+  "upper_fl": 590
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-umkk/2026/Q0306",
+ "issued_at": "2026-10-28T07:59:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "Q0306",
+ "positions": [],
+ "series": "notam-umkk",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENTS CLSD:",
+ "text": "Q0306/26 NOTAMN\nQ)UMKK/QARLC/IV/NBO/E/095/590/5518N01942E053\nA)UMKK B)2610290600 C)2610311800\nD)29-31 0600-1800\nE)ATS RTE SEGMENTS CLSD:\nL32 TIGNU-PELUG FL095-FL590.\nL983 RANOK-TARUN FL095-FL590.\nL983 TARUN-IRBAD FL105-FL590.\nM997 LATMI-ASNIG FL095-FL590.\nP733 IPLIT-ABNAB FL095-FL590.\nF)FL095  G)FL590",
+ "year": 2026
+}

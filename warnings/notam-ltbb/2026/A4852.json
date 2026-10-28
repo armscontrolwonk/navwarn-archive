@@ -1,0 +1,99 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T23:59:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "drone",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.8333,
+   "lon": 28.2333,
+   "radius_nm": 17
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTBB",
+  "schedule": "0700-2359",
+  "shape": "polygon",
+  "starts_at": "2026-11-02T07:00:00Z",
+  "upper": "5000FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-ltbb/2026/A4852",
+ "issued_at": "2026-10-28T07:18:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "A4852",
+ "positions": [
+  [
+   37.04667,
+   28.11
+  ],
+  [
+   37.07389,
+   28.35333
+  ],
+  [
+   36.89,
+   28.32861
+  ],
+  [
+   36.765,
+   28.32111
+  ],
+  [
+   36.78306,
+   28.04167
+  ],
+  [
+   36.76639,
+   28.03
+  ],
+  [
+   36.73861,
+   28.27028
+  ],
+  [
+   36.57806,
+   28.10944
+  ],
+  [
+   36.68139,
+   27.95778
+  ],
+  [
+   36.81167,
+   27.90806
+  ],
+  [
+   36.78528,
+   28.2925
+  ],
+  [
+   37.02389,
+   28.31306
+  ],
+  [
+   37.0225,
+   28.10778
+  ],
+  [
+   37.04667,
+   28.11
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL TAKE PLACE WI MILAS TMA AND DALAMAN TMA",
+ "text": "A4852/26 NOTAMN\nQ) LTBB/QWULW/IV/BO /W /000/050/3650N02814E017\nA) LTBB B) 2611020700 C) 2611062359\nD) 0700-2359\nE) UNMANNED ACFT WILL TAKE PLACE WI MILAS TMA AND DALAMAN TMA\nAREA: 370248N0280636E 370426N0282112E 365324N0281943E \n364554N0281916E 364659N0280230E 364559N0280148E 364419N0281613E \n363441N0280634E 364053N0275728E 364842N0275429E 364707N0281733E \n370126N0281847E 370121N0280628E 370248N0280636E\nF) SFC G) 5000FT AMSL",
+ "year": 2026
+}

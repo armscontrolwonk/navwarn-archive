@@ -1,0 +1,90 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-09T10:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "exercise",
+  "location": "RJJJ",
+  "lower": "1000FT AMSL",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.2833,
+   "lon": 135.25,
+   "radius_nm": 132
+  },
+  "qcode": "QWELW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-09T08:20:00Z",
+  "upper": "9000FT AMSL",
+  "upper_fl": 90
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-rjjj/2026/P5389",
+ "issued_at": "2026-10-28T06:58:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "P5389",
+ "positions": [
+  [
+   40.0025,
+   135.32611
+  ],
+  [
+   40.00278,
+   136.99694
+  ],
+  [
+   39.00278,
+   136.99694
+  ],
+  [
+   38.50278,
+   137.99667
+  ],
+  [
+   38.06972,
+   137.99694
+  ],
+  [
+   37.38639,
+   136.49694
+  ],
+  [
+   36.58333,
+   136.5
+  ],
+  [
+   36.33639,
+   136.16667
+  ],
+  [
+   36.33639,
+   133.99722
+  ],
+  [
+   36.95,
+   133.07778
+  ],
+  [
+   38.00278,
+   132.99722
+  ],
+  [
+   40.0025,
+   135.32611
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNLIGHTED ACFT FLT EXER:",
+ "text": "P5389/26 NOTAMN\nQ)RJJJ/QWELW/IV/BO/W/000/090/3817N13515E132\nA)RJJJ B)2611090820 C)2611091030\nE)UNLIGHTED ACFT FLT EXER:\nACFT : H60 X 1\nAREA :BOUNDED BY FLW POINTS\n400009N1351934E - 400010N1365949E - 390010N1365949E -\n383010N1375948E - 380411N1375949E - 372311N1362949E -\n363500N1363000E - 362011N1361000E - 362011N1335950E -\n365700N1330440E - 380010N1325950E - 400009N1351934E\n(THE-HIGH-SEAS)\nWX COND :VMC ONLY\nRMK :SOURCE/JSDF-A(RJNK)\nF)1000FT AMSL G)9000FT AMSL",
+ "year": 2026
+}

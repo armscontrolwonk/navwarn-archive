@@ -1,0 +1,127 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-05T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 55.40917,
+    "lon": 51.49306,
+    "radius_nm": 0.81
+   },
+   {
+    "lat": 55.34306,
+    "lon": 51.27611,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 55.43278,
+    "lon": 51.45417,
+    "radius_nm": 1.35
+   }
+  ],
+  "fir": "UWWW",
+  "kind": "restricted",
+  "location": "UWWW",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.3833,
+   "lon": 51.3333,
+   "radius_nm": 8
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UWWW",
+  "schedule": "DAILY 0400-1600",
+  "starts_at": "2026-10-31T04:00:00Z",
+  "upper": "650M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-uwww/2026/V8353",
+ "issued_at": "2026-10-28T08:56:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "V8353",
+ "positions": [
+  [
+   55.35972,
+   51.14056
+  ],
+  [
+   55.3575,
+   51.19889
+  ],
+  [
+   55.42472,
+   51.27361
+  ],
+  [
+   55.46056,
+   51.44944
+  ],
+  [
+   55.45194,
+   51.48833
+  ],
+  [
+   55.40083,
+   51.52611
+  ],
+  [
+   55.39361,
+   51.49472
+  ],
+  [
+   55.39778,
+   51.38917
+  ],
+  [
+   55.33222,
+   51.29278
+  ],
+  [
+   55.33417,
+   51.26639
+  ],
+  [
+   55.31639,
+   51.2575
+  ],
+  [
+   55.29778,
+   51.2275
+  ],
+  [
+   55.30028,
+   51.17056
+  ],
+  [
+   55.35972,
+   51.14056
+  ],
+  [
+   55.40917,
+   51.49306
+  ],
+  [
+   55.34306,
+   51.27611
+  ],
+  [
+   55.43278,
+   51.45417
+  ]
+ ],
+ "series": "notam-uwww",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "V8353/26 NOTAMN\nQ)UWWW/QRTCA/IV/BO/W/000/030/5523N05120E008\nA)UWWW B)2610310400 C)2611051600\nD)DAILY 0400-1600\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 552135N0510826E-552127N0511156E-552529N0511625E-\n         552738N0512658E-552707N0512918E-552403N0513134E-\n         552337N0512941E-552352N0512321E-551956N0511734E-\n         552003N0511559E-551859N0511527E-551752N0511339E-\n         551801N0511014E-552135N0510826E\n   350M AMSL-650M AMSL.\n2. WI CIRCLE RADIUS 1.5KM CENTRE 552433N0512935E\n   GND-650M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 552035N0511634E\n   GND-650M AMSL.\n4. WI CIRCLE RADIUS 2.5KM CENTRE 552558N0512715E\n   GND-650M AMSL.\nF)GND  G)650M AMSL",
+ "year": 2026
+}

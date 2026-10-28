@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-04T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 64.94944,
+    "lon": 77.6225,
+    "radius_nm": 2.7
+   }
+  ],
+  "fir": "USTV",
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 64.9333,
+   "lon": 77.6167,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USTV",
+  "starts_at": "2026-10-30T00:00:00Z",
+  "upper": "3050M AGL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-ustv/2026/Z5103",
+ "issued_at": "2026-10-28T07:43:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "Z5103",
+ "positions": [
+  [
+   64.94944,
+   77.6225
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 5KM CENTRE 645658N0773721E.",
+ "text": "Z5103/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/999/6456N07737E003\nA)USTV B)2610300000 C)2611042359\nE)AIRSPACE CLSD WI CIRCLE RADIUS 5KM CENTRE 645658N0773721E.\nFLW FLT NOT AFFECTED:\n- VIP SPECIAL FLT AND ACFT FOR THEIR SUPPORT,\n- INTL AND DOM FLT ALONG ATS RTE,\n- FLT FROM/TO TARKO-SALE AD (USDS).\nF)GND  G)3050M AGL",
+ "year": 2026
+}

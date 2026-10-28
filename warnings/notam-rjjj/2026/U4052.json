@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.5667,
+   "lon": 133.4167,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0700",
+  "shape": "polygon",
+  "starts_at": "2026-11-02T00:00:00Z",
+  "upper": "2133FT AMSL",
+  "upper_fl": 22
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-rjjj/2026/U4052",
+ "issued_at": "2026-10-28T06:35:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "U4052",
+ "positions": [
+  [
+   33.57028,
+   133.38889
+  ],
+  [
+   33.58139,
+   133.43167
+  ],
+  [
+   33.57472,
+   133.44694
+  ],
+  [
+   33.56778,
+   133.44083
+  ],
+  [
+   33.56472,
+   133.39944
+  ],
+  [
+   33.565,
+   133.39028
+  ],
+  [
+   33.56528,
+   133.39
+  ],
+  [
+   33.57028,
+   133.38889
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4052/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/022/3334N13325E003\nA)RJJJ B)2611020000 C)2611060700\nD)0000/0700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n333413N1332320E - 333453N1332554E - 333429N1332649E - 333404N1332627E\n- 333353N1332358E - 333354N1332325E - 333355N1332324E -\n333413N1332320E \n(KOCHI-SHI, AGAWA-GUN IN KOCHI)\nWT: 149.9KG\nF)SFC G)2133FT AMSL",
+ "year": 2026
+}

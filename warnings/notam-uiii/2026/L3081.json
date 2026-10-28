@@ -1,0 +1,105 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-04T14:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 52.45083,
+    "lon": 103.79167,
+    "radius_nm": 0.81
+   }
+  ],
+  "fir": "UIII",
+  "kind": "restricted",
+  "location": "UIII",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 52.5333,
+   "lon": 103.8667,
+   "radius_nm": 10
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UIII",
+  "schedule": "DAILY 0000-1400",
+  "starts_at": "2026-10-30T00:00:00Z",
+  "upper": "1150M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-uiii/2026/L3081",
+ "issued_at": "2026-10-28T06:51:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "L3081",
+ "positions": [
+  [
+   52.62167,
+   103.66611
+  ],
+  [
+   52.46194,
+   103.73611
+  ],
+  [
+   52.37806,
+   103.89389
+  ],
+  [
+   52.42944,
+   104.07
+  ],
+  [
+   52.53472,
+   103.96278
+  ],
+  [
+   52.50389,
+   103.82139
+  ],
+  [
+   52.4675,
+   103.83306
+  ],
+  [
+   52.48417,
+   103.88417
+  ],
+  [
+   52.45889,
+   103.91889
+  ],
+  [
+   52.44278,
+   103.8875
+  ],
+  [
+   52.46667,
+   103.83306
+  ],
+  [
+   52.61778,
+   103.78389
+  ],
+  [
+   52.62167,
+   103.66611
+  ],
+  [
+   52.45083,
+   103.79167
+  ]
+ ],
+ "series": "notam-uiii",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "L3081/26 NOTAMN\nQ)UIII/QRTCA/IV/BO/W/000/040/5232N10352E010\nA)UIII B)2610300000 C)2611041400\nD)DAILY 0000-1400\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 523718N1033958E-522743N1034410E-522241N1035338E-\n         522546N1040412E-523205N1035746E-523014N1034917E-\n         522803N1034959E-522903N1035303E-522732N1035508E-\n         522634N1035315E-522800N1034959E-523704N1034702E-\n         523718N1033958E\n   700M AMSL-1150M AMSL.\n2. WI CIRCLE RADIUS 1.5KM CENTRE 522703N1034730E\n   GND-1150M AMSL.\nF)GND  G)1150M AMSL",
+ "year": 2026
+}

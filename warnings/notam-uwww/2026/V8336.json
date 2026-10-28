@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-04T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 52.97389,
+    "lon": 49.73028,
+    "radius_nm": 2.7
+   }
+  ],
+  "fir": "UWWW",
+  "kind": "restricted",
+  "location": "UWWW",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 52.9667,
+   "lon": 49.7167,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UWWW",
+  "starts_at": "2026-10-30T00:00:00Z",
+  "upper": "3050M AGL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-uwww/2026/V8336",
+ "issued_at": "2026-10-28T07:27:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "V8336",
+ "positions": [
+  [
+   52.97389,
+   49.73028
+  ]
+ ],
+ "series": "notam-uwww",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 5KM CENTRE 525826N0494349E.",
+ "text": "V8336/26 NOTAMN\nQ)UWWW/QRTCA/IV/BO/W/000/999/5258N04943E003\nA)UWWW B)2610300000 C)2611042359\nE)AIRSPACE CLSD WI CIRCLE RADIUS 5KM CENTRE 525826N0494349E.\nRESTRICTION NOT AFFECT:\n1. SPECIAL FLT AND FLT FOR THEIR SUPPORT.\n2. INTL AND DOM FLT VIA ATS RTE.\n3. FLIGHTS FROM/TO AD SAMARA/KURUMOCH (UWWW).\nF)GND  G)3050M AGL",
+ "year": 2026
+}

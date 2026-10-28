@@ -1,0 +1,102 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 56.185,
+    "lon": 56.93139,
+    "radius_nm": 2.16
+   },
+   {
+    "lat": 56.52389,
+    "lon": 57.235,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.5333,
+   "lon": 57.1333,
+   "radius_nm": 26
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0400-1600",
+  "starts_at": "2026-11-01T04:00:00Z",
+  "upper": "1100M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-10-28T13:06:56Z",
+ "id": "notam-ussv/2026/Z5091",
+ "issued_at": "2026-10-28T06:51:00Z",
+ "last_seen": "2026-10-28T13:06:56Z",
+ "number": "Z5091",
+ "positions": [
+  [
+   56.935,
+   57.13889
+  ],
+  [
+   56.93306,
+   57.31056
+  ],
+  [
+   56.50083,
+   57.34389
+  ],
+  [
+   56.32778,
+   57.09639
+  ],
+  [
+   56.13639,
+   57.00111
+  ],
+  [
+   56.12,
+   56.95611
+  ],
+  [
+   56.17306,
+   56.83583
+  ],
+  [
+   56.35667,
+   56.89167
+  ],
+  [
+   56.52639,
+   57.16917
+  ],
+  [
+   56.935,
+   57.13889
+  ],
+  [
+   56.185,
+   56.93139
+  ],
+  [
+   56.52389,
+   57.235
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-10-28T13:10:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z5091/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/040/5632N05708E026\nA)USSV B)2611010400 C)2611061600\nD)DAILY 0400-1600\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 565606N0570820E-565559N0571838E-563003N0572038E-\n         561940N0570547E-560811N0570004E-560712N0565722E-\n         561023N0565009E-562124N0565330E-563135N0571009E-\n         565606N0570820E\n   600M AMSL-1100M AMSL.\n2. WI CIRCLE RADIUS 4KM CENTRE 561106N0565553E\n   GND-1100M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 563126N0571406E\n   GND-1100M AMSL.\nF)GND  G)1100M AMSL",
+ "year": 2026
+}
