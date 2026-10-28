@@ -1,0 +1,45 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T15:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "drone",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 47.2,
+   "lon": 26.4167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LRBB",
+  "starts_at": "2026-10-29T07:00:00Z",
+  "upper": "1530FT AMSL",
+  "upper_fl": 16
+ },
+ "first_seen": "2026-10-28T22:40:11Z",
+ "id": "notam-lrbb/2026/R5206",
+ "issued_at": "2026-10-28T15:13:00Z",
+ "last_seen": "2026-10-28T22:40:11Z",
+ "number": "R5206",
+ "positions": [
+  [
+   47.20417,
+   26.41306
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-10-28T22:43:59Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "NAVIGATION WARNING.",
+ "text": "R5206/26 NOTAMN\nQ) LRBB/QWULW/IV/BO /W /000/016/4712N02625E002\nA) LRBB B) 2610290700 C) 2610291500\nE) NAVIGATION WARNING.\n   UNMANNED ACFT FLT WILL TAKE PLACE INTO A CIRCLE CENTERED ON\n   POINT OF COORD 471215N0262447E WITH 2KM RADIUS\nF) GND G) 1530FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,45 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T20:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "restricted",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.8167,
+   "lon": 28.5833,
+   "radius_nm": 2
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "LRBB",
+  "starts_at": "2026-10-29T08:00:00Z",
+  "upper": "FL080",
+  "upper_fl": 80
+ },
+ "first_seen": "2026-10-28T22:40:11Z",
+ "id": "notam-lrbb/2026/R5129",
+ "issued_at": "2026-10-28T13:55:00Z",
+ "last_seen": "2026-10-28T22:40:11Z",
+ "number": "R5129",
+ "positions": [
+  [
+   43.80944,
+   28.58778
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-10-28T22:43:59Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "DANGER AREA ACTIVATED.",
+ "text": "R5129/26 NOTAMN\nQ) LRBB/QRDCA/IV/BO /W /000/080/4349N02835E002\nA) LRBB B) 2610290800 C) 2610292000\nE) DANGER AREA ACTIVATED.\n   MIL FLT WILL TAKE PLACE INTO A CIRCLE CENTERED ON \n   POINT OF COORD 434834N0283516E WITH 2NM RADIUS\n   FLT WILL BE COOR BTN CIV AND MIL ATC\nF) GND G) FL080",
+ "year": 2026
+}

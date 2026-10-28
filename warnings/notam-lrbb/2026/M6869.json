@@ -1,0 +1,102 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T22:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "exercise",
+  "location": "LRBB",
+  "lower": "500FT AGL",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 45.8667,
+   "lon": 24.8667,
+   "radius_nm": 157
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-10-29T05:00:00Z",
+  "upper": "FL105",
+  "upper_fl": 105
+ },
+ "first_seen": "2026-10-28T22:40:11Z",
+ "id": "notam-lrbb/2026/M6869",
+ "issued_at": "2026-10-28T14:19:00Z",
+ "last_seen": "2026-10-28T22:40:11Z",
+ "number": "M6869",
+ "positions": [
+  [
+   44.39222,
+   27.72667
+  ],
+  [
+   44.64111,
+   27.77028
+  ],
+  [
+   45.21667,
+   26.96667
+  ],
+  [
+   45.57778,
+   25.93389
+  ],
+  [
+   46.16194,
+   24.35472
+  ],
+  [
+   46.50417,
+   23.88889
+  ],
+  [
+   47.24833,
+   21.85972
+  ],
+  [
+   46.50417,
+   23.88889
+  ],
+  [
+   46.38444,
+   24.96667
+  ],
+  [
+   46.08333,
+   25.36667
+  ],
+  [
+   46.16194,
+   24.35472
+  ],
+  [
+   45.57778,
+   25.93389
+  ],
+  [
+   45.21667,
+   26.96667
+  ],
+  [
+   44.64111,
+   27.77028
+  ],
+  [
+   44.39222,
+   27.72667
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-10-28T22:43:59Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "NAVIGATION WARNING.   ",
+ "text": "M6869/26 NOTAMN\nQ) LRBB/QWELW/IV/BO /W /000/105/4552N02452E157\nA) LRBB B) 2610290500 C) 2610292200\nE) NAVIGATION WARNING.   \n   MIL FLT WILL TAKE PLACE INTO AN AREA BOUNDED BY 5NM EITHER SIDE\n   OF A STRAIGHT LINE CONNECTING THE FLW POINTS OF COORD:\n   442332N0274336E-443828N0274613E-451300N0265800E-453440N0255602E\n   460943N0242117E-463015N0235320E-471454N0215135E-463015N0235320E\n   462304N0245800E-460500N0252200E-460943N0242117E-453440N0255602E\n   451300N0265800E-443828N0274613E-442332N0274336E\n   FLT WILL BE COOR BTN CIV AND MIL ATC\nF) 500FT AGL G) FL105",
+ "year": 2026
+}

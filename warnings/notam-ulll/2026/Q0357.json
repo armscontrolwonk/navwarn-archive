@@ -1,0 +1,121 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-07T18:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 57.03639,
+    "lon": 31.31833,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 57.1,
+   "lon": 31.3667,
+   "radius_nm": 7
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "DAILY 0500-1800",
+  "starts_at": "2026-11-02T05:00:00Z",
+  "upper": "750M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-28T22:40:11Z",
+ "id": "notam-ulll/2026/Q0357",
+ "issued_at": "2026-10-28T15:07:00Z",
+ "last_seen": "2026-10-28T22:40:11Z",
+ "number": "Q0357",
+ "positions": [
+  [
+   57.16389,
+   31.22722
+  ],
+  [
+   57.17472,
+   31.27583
+  ],
+  [
+   57.1725,
+   31.28056
+  ],
+  [
+   57.15111,
+   31.29083
+  ],
+  [
+   57.13056,
+   31.32778
+  ],
+  [
+   57.10167,
+   31.35528
+  ],
+  [
+   57.02056,
+   31.49083
+  ],
+  [
+   57.00694,
+   31.44806
+  ],
+  [
+   57.04639,
+   31.37306
+  ],
+  [
+   57.02417,
+   31.31556
+  ],
+  [
+   57.03694,
+   31.29333
+  ],
+  [
+   57.06833,
+   31.33833
+  ],
+  [
+   57.11667,
+   31.28611
+  ],
+  [
+   57.13333,
+   31.25306
+  ],
+  [
+   57.15917,
+   31.23694
+  ],
+  [
+   57.16167,
+   31.23167
+  ],
+  [
+   57.16389,
+   31.22722
+  ],
+  [
+   57.03639,
+   31.31833
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-28T22:43:59Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Q0357/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/030/5706N03122E007\nA)ULLL B)2611020500 C)2611071800\nD)DAILY 0500-1800\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 570950N0311338E-571029N0311633E-571021N0311650E-\n         570904N0311727E-570750N0311940E-570606N0312119E-\n         570114N0312927E-570025N0312653E-570247N0312223E-\n         570127N0311856E-570213N0311736E-570406N0312018E-\n         570700N0311710E-570800N0311511E-570933N0311413E-\n         570942N0311354E-570950N0311338E\n   250M AMSL-750M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 570211N0311906E\n   SFC-750M AMSL.\nF)SFC  G)750M AMSL",
+ "year": 2026
+}

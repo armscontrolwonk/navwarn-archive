@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-29T20:00:00Z",
+ "extra": {
+  "fir": "UATT",
+  "kind": "restricted",
+  "location": "UATT",
+  "lower": "5000FT AMSL",
+  "lower_fl": 50,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 49.25,
+   "lon": 48.8333,
+   "radius_nm": 13
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UATT",
+  "shape": "polygon",
+  "starts_at": "2026-10-29T05:00:00Z",
+  "upper": "FL830",
+  "upper_fl": 830
+ },
+ "first_seen": "2026-10-28T22:40:11Z",
+ "id": "notam-uatt/2026/C7423",
+ "issued_at": "2026-10-28T17:39:00Z",
+ "last_seen": "2026-10-28T22:40:11Z",
+ "number": "C7423",
+ "positions": [
+  [
+   49.4225,
+   49.0
+  ],
+  [
+   49.07639,
+   49.0
+  ],
+  [
+   49.08,
+   48.66667
+  ],
+  [
+   49.41889,
+   48.66667
+  ],
+  [
+   49.4225,
+   49.0
+  ]
+ ],
+ "series": "notam-uatt",
+ "source": {
+  "fetched_at": "2026-10-28T22:43:59Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPORARY RESTRICTED AREA ACTIVATED",
+ "text": "C7423/26 NOTAMN\nQ) UATT/QRTCA/IV/BO /W /050/830/4915N04850E013\nA) UATT B) 2610290500 C) 2610292000\nE) TEMPORARY RESTRICTED AREA ACTIVATED\nAREA BOUNDED BY:\n492521N 0490000E - 490435N 0490000E - 490448N 0484000E - \n492508N 0484000E - 492521N 0490000E.\nF) 5000FT AMSL G) FL830",
+ "year": 2026
+}

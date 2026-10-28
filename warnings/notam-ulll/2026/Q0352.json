@@ -1,0 +1,52 @@
+{
+ "cancels": [
+  "notam-ulll/2026/Q0154"
+ ],
+ "expires_at": "2026-10-30T16:00:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 65.5333,
+   "lon": 40.6833,
+   "radius_nm": 33
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "28 30 0700-1600",
+  "starts_at": "2026-10-28T07:00:00Z",
+  "upper": "FL450",
+  "upper_fl": 450
+ },
+ "first_seen": "2026-10-28T22:40:11Z",
+ "id": "notam-ulll/2026/Q0352",
+ "issued_at": "2026-10-28T14:01:00Z",
+ "last_seen": "2026-10-28T22:40:11Z",
+ "number": "Q0352",
+ "positions": [
+  [
+   65.02194,
+   40.30444
+  ],
+  [
+   66.05917,
+   41.06361
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-28T22:43:59Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI 20KM EITHER SIDE OF LINE JOINING POINTS:",
+ "text": "Q0352/26 NOTAMR Q0154/26\nQ)ULLL/QRTCA/IV/BO/W/000/450/6532N04041E033\nA)ULLL B)2610280700 C)2610301600\nD)28 30 0700-1600\nE)AIRSPACE CLSD WI 20KM EITHER SIDE OF LINE JOINING POINTS:\n650119N0401816E-660333N0410349E.\nF)GND  G)FL450",
+ "year": 2026
+}

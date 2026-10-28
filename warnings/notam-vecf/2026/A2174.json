@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-04T10:30:00Z",
+ "extra": {
+  "fir": "VECF",
+  "kind": "exercise",
+  "location": "VECF",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 21.1167,
+   "lon": 87.2167,
+   "radius_nm": 27
+  },
+  "qcode": "QWELW",
+  "queried_fir": "VECF",
+  "schedule": "03 0430-0630, 04 0430-0630 0830-1030",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T04:30:00Z",
+  "upper": "UNL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-28T22:40:11Z",
+ "id": "notam-vecf/2026/A2174",
+ "issued_at": "2026-10-28T13:05:00Z",
+ "last_seen": "2026-10-28T22:40:11Z",
+ "number": "A2174",
+ "positions": [
+  [
+   21.53472,
+   87.165
+  ],
+  [
+   21.05722,
+   87.65833
+  ],
+  [
+   20.67056,
+   87.24194
+  ],
+  [
+   20.99333,
+   86.90056
+  ],
+  [
+   21.53472,
+   87.165
+  ]
+ ],
+ "series": "notam-vecf",
+ "source": {
+  "fetched_at": "2026-10-28T22:43:59Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AERIAL ACT INPR WI AREA BOUNDED BY COORD:",
+ "text": "A2174/26 NOTAMN\nQ) VECF/QWELW/IV/BO/W/000/999/2107N08713E027\nA) VECF B) 2611030430 C) 2611041030\nD) 03 0430-0630, 04 0430-0630 0830-1030\nE) AERIAL ACT INPR WI AREA BOUNDED BY COORD:\nPOINT A-213205N 0870954E\nPOINT B-210326N 0873930E\nPOINT C-204014N 0871431E\nPOINT D-205936N 0865402E\nAND THEN ALONG COASTLINE TO\nPOINT A-213205N 0870954E EXC COMMON AREA OF VED53.\nNO OVER FLY ACT IS APPROVED WI THE ABV MENTIONED DNG AREA.\nDRG THE HR OF ACT, THE FLW ATS RTE/SEGMENTS ARE RERTE/NOT AVBL IN \nKOLKATA FIR:\n1. Q10 NOT AVBL BTN BUMRO AND PONOG.\n2. Q11 NOT AVBL BTN CEA AND MAVLA.\n3. A465 NOT AVBL BTN LEGOS AND KAKID. ALTN RTE:\nCEA-A465-LEGOS-DCT-BOKEV-DCT-BIXON-DCT-SADGU. (BIDIRECTIONAL)\n4. W41 NOT AVBL BTN LEGOS AND KAKID. ALTN RTE:\nCEA-W41-LEGOS-DCT-BOKEV-DCT-BIXON-DCT-MEPOL. (BIDIRECTIONAL)\nF) SFC G) UNL",
+ "year": 2026
+}
