@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-01T10:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.5167,
+   "lon": 135.6333,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-01T09:00:00Z",
+  "upper": "1038FT AMSL",
+  "upper_fl": 11
+ },
+ "first_seen": "2026-10-28T05:52:07Z",
+ "id": "notam-rjjj/2026/U4050",
+ "issued_at": "2026-10-28T05:43:00Z",
+ "last_seen": "2026-10-28T05:52:07Z",
+ "number": "U4050",
+ "positions": [
+  [
+   34.51222,
+   135.63083
+  ],
+  [
+   34.51194,
+   135.63111
+  ],
+  [
+   34.51139,
+   135.63028
+  ],
+  [
+   34.51167,
+   135.63
+  ],
+  [
+   34.51222,
+   135.63083
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-28T05:54:30Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4050/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/011/3431N13538E001\nA)RJJJ B)2611010900 C)2611011030\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n343044N1353751E - 343043N1353752E - 343041N1353749E - 343042N1353748E\n- 343044N1353751E \n(MINAMIKAWACHI-GUN IN OSAKA)\nWT: 1.1KG\nRMK: THIS AREA IS INCLUDED IN CK11-4\nF)SFC G)1038FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-12T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.7333,
+   "lon": 121.3167,
+   "radius_nm": 7
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-12T16:00:00Z",
+  "upper": "10800FT AMSL",
+  "upper_fl": 108
+ },
+ "first_seen": "2026-10-28T05:52:07Z",
+ "id": "notam-rcaa/2026/U2758",
+ "issued_at": "2026-10-28T02:17:00Z",
+ "last_seen": "2026-10-28T05:52:07Z",
+ "number": "U2758",
+ "positions": [
+  [
+   23.82833,
+   121.26611
+  ],
+  [
+   23.73833,
+   121.40972
+  ],
+  [
+   23.63194,
+   121.36389
+  ],
+  [
+   23.64722,
+   121.23944
+  ],
+  [
+   23.71556,
+   121.25056
+  ],
+  [
+   23.7875,
+   121.23667
+  ],
+  [
+   23.82833,
+   121.26611
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-28T05:54:30Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2758/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/108/2344N12119E007\nA) RCAA\nB) 2611121600 C) 2701121600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB261013001801\n2.LCA:WANRONG TOWNSHIP, HUALIEN COUNTY\n3.THE AREA OVERLAPS PART OF VFR CORRIDOR C12, ACFT ARE CTN ADZ.\n4.COOR TEL:0923-811020, 0902-359687\n5.AREA AS FLW:\n234942N 1211558E\n234418N 1212435E\n233755N 1212150E\n233850N 1211422E\n234256N 1211502E\n234715N 1211412E\n234942N 1211558E\nF) SFC G) 10800FT AMSL",
+ "year": 2026
+}

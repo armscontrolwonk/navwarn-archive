@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T15:59:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "restricted",
+  "location": "RPHI",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 19.9833,
+   "lon": 121.5667,
+   "radius_nm": 30
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "RPHI",
+  "shape": "polygon",
+  "starts_at": "2026-11-16T16:00:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-10-28T05:52:07Z",
+ "id": "notam-rphi/2026/B5784",
+ "issued_at": "2026-10-28T04:10:00Z",
+ "last_seen": "2026-10-28T05:52:07Z",
+ "number": "B5784",
+ "positions": [
+  [
+   20.33816,
+   121.46327
+  ],
+  [
+   20.08469,
+   122.06754
+  ],
+  [
+   19.52377,
+   121.66932
+  ],
+  [
+   19.88157,
+   121.06832
+  ],
+  [
+   20.33816,
+   121.46327
+  ]
+ ],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-10-28T05:54:30Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO RESTRICTED AREA ACT WI:",
+ "text": "B5784/26 NOTAMN\nQ) RPHI/QRTCA/IV/BO /W /000/100/1959N12134E030\nA) RPHI B) 2611161600 C) 2611271559\nE) TEMPO RESTRICTED AREA ACT WI:\n202017.38N 1212747.77E -\n200504.89N 1220403.14E -\n193125.57N 1214009.55E -\n195253.65N 1210405.95E -\n202017.38N 1212747.77E\n(SABTANG ISLAND, BATANES)\n\nRMK: LIVE FIRE EXER IN SUPPORT OF THE ARMED FORCES OF THE\n     PHILIPPINES (AFP) JOINT EXER DAGIT-PA 10-26. NON-PARTICIPATING  \n     ACFT NOT ALLOWED.\nF) SFC G) 10000FT AMSL",
+ "year": 2026
+}

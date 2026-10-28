@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T06:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.6333,
+   "lon": 138.8167,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0300/0600",
+  "shape": "polygon",
+  "starts_at": "2026-10-29T03:00:00Z",
+  "upper": "1641FT AMSL",
+  "upper_fl": 17
+ },
+ "first_seen": "2026-10-28T05:52:07Z",
+ "id": "notam-rjjj/2026/U4049",
+ "issued_at": "2026-10-28T03:30:00Z",
+ "last_seen": "2026-10-28T05:52:07Z",
+ "number": "U4049",
+ "positions": [
+  [
+   37.66333,
+   138.76417
+  ],
+  [
+   37.5925,
+   138.82861
+  ],
+  [
+   37.59861,
+   138.84861
+  ],
+  [
+   37.64694,
+   138.82528
+  ],
+  [
+   37.67917,
+   138.77167
+  ],
+  [
+   37.66333,
+   138.76417
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-28T05:54:30Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4049/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/017/3738N13849E004\nA)RJJJ B)2610290300 C)2610300600\nD)0300/0600\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n373948N1384551E - 373533N1384943E - 373555N1385055E - 373849N1384931E\n- 374045N1384618E - 373948N1384551E \n(NAGAOKA-SHI, TSUBAME-SHI IN NIIGATA)\nWT: 1.1KG\nRMK: THIS AREA IS INCLUDED IN KK2-1,KK2-2\nF)SFC G)1641FT AMSL",
+ "year": 2026
+}

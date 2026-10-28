@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-21T10:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "exercise",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 3.2667,
+   "lon": 102.45,
+   "radius_nm": 5
+  },
+  "qcode": "QWELW",
+  "queried_fir": "WMFC",
+  "schedule": "NOV 18 0800 - 1000 NOV 19 - 20 0700 - 0900 NOV 21 0800 - 1000",
+  "starts_at": "2026-11-18T08:00:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-10-28T05:52:07Z",
+ "id": "notam-wmfc/2026/C0220",
+ "issued_at": "2026-10-28T02:03:00Z",
+ "last_seen": "2026-10-28T05:52:07Z",
+ "number": "C0220",
+ "positions": [
+  [
+   3.27139,
+   102.45222
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-28T05:54:30Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL EXER WILL TAKE PLACE WI 05NM RADIUS CENTRED ON COORDS",
+ "text": "C0220/26 NOTAMN\nQ) WMFC/QWELW/IV/BO /W /000/100/0316N10227E005\nA) WMFC B) 2611180800 C) 2611211000 \nD) NOV 18       0800 - 1000\n   NOV 19 - 20  0700 - 0900\n   NOV 21       0800 - 1000\nE) MIL EXER WILL TAKE PLACE WI 05NM RADIUS CENTRED ON COORDS\n   031617N1022708E (PADANG AWAM MAJLIS DAERAH BERA, PAHANG)\nF) SFC                             G) 10000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-09T15:59:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "exercise",
+  "location": "RPHI",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 15.1667,
+   "lon": 119.1,
+   "radius_nm": 58
+  },
+  "qcode": "QWELW",
+  "queried_fir": "RPHI",
+  "shape": "polygon",
+  "starts_at": "2026-12-03T16:00:00Z",
+  "upper": "6000FT AMSL",
+  "upper_fl": 60
+ },
+ "first_seen": "2026-10-28T05:52:07Z",
+ "id": "notam-rphi/2026/B5790",
+ "issued_at": "2026-10-28T04:34:00Z",
+ "last_seen": "2026-10-28T05:52:07Z",
+ "number": "B5790",
+ "positions": [
+  [
+   15.91667,
+   118.5
+  ],
+  [
+   15.91667,
+   119.43333
+  ],
+  [
+   14.43333,
+   119.68333
+  ],
+  [
+   14.43333,
+   118.5
+  ],
+  [
+   15.91667,
+   118.5
+  ]
+ ],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-10-28T05:54:30Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL EXER WILL TAKE PLACE WI:",
+ "text": "B5790/26 NOTAMN\nQ) RPHI/QWELW/IV/BO /W /000/060/1510N11906E058\nA) RPHI B) 2612031600 C) 2612091559\nE) MIL EXER WILL TAKE PLACE WI:\n155500N 1183000E -\n155500N 1192600E -\n142600N 1194100E -\n142600N 1183000E -\n155500N 1183000E\n(40NM EAST OF BAJO DE MASINLOC EXLUDING IMTA-1 AND IMTA-1C)\nF) SFC G) 6000FT AMSL",
+ "year": 2026
+}

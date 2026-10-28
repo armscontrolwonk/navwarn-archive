@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T10:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 31.25093,
+    "lon": 131.08243,
+    "radius_nm": 0.7
+   }
+  ],
+  "fir": "RJJJ",
+  "kind": "rocket",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 31.25,
+   "lon": 131.0833,
+   "radius_nm": 2
+  },
+  "qcode": "QROXX",
+  "queried_fir": "RJJJ",
+  "starts_at": "2026-11-10T00:00:00Z",
+  "upper": "5000FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-10-28T05:52:07Z",
+ "id": "notam-rjjj/2026/P5375",
+ "issued_at": "2026-10-28T00:22:00Z",
+ "last_seen": "2026-10-28T05:52:07Z",
+ "number": "P5375",
+ "positions": [
+  [
+   31.25093,
+   131.08243
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-28T05:54:30Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ALL VFR ACFT ARE REQUESTED TO AVOID FLYING IN FLW AIRSPACE AS FAR",
+ "text": "P5375/26 NOTAMN\nQ)RJJJ/QROXX/IV/NBO/W/000/050/3115N13105E002\nA)RJJJ B)2611100000 C)2611101000\nE)ALL VFR ACFT ARE REQUESTED TO AVOID FLYING IN FLW AIRSPACE AS FAR\nAS POSSIBLE DUE TO ROCKET LAUNCH REHEARSAL\nAIRSPACE: RADIUS 1.3KM CENTER 311503.34N1310456.76E \n(KIMOTSUKI-GUN IN KAGOSHIMA)\nF)SFC G)5000FT AMSL",
+ "year": 2026
+}
