@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-23T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.3333,
+   "lon": 131.45,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "04-09 12-14 19-22 2300/0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-04T23:00:00Z",
+  "upper": "3600FT AMSL",
+  "upper_fl": 36
+ },
+ "first_seen": "2026-10-29T05:55:34Z",
+ "id": "notam-rjjj/2026/U4074",
+ "issued_at": "2026-10-29T01:47:00Z",
+ "last_seen": "2026-10-29T05:55:34Z",
+ "number": "U4074",
+ "positions": [
+  [
+   33.34611,
+   131.43111
+  ],
+  [
+   33.35056,
+   131.4475
+  ],
+  [
+   33.33639,
+   131.4575
+  ],
+  [
+   33.33444,
+   131.44417
+  ],
+  [
+   33.34611,
+   131.43111
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-29T05:58:30Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4074/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/036/3320N13127E002\nA)RJJJ B)2611042300 C)2611230800\nD)04-09 12-14 19-22 2300/0800\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n332046N1312552E - 332102N1312651E - 332011N1312727E - 332004N1312639E\n- 332046N1312552E \nR-92(JUMONJI MANEUVERING AREA)\n(BEPPU-SHI,HAYAMI-GUN IN OITA)\nWT: 3.0KG\nNUMBER: 15\nCONTACT INFORMATION: 092-591-1020 (EXTENSION 6533)\nRMK: SOURCE/JSDF-G(RJDM)\nF)SFC G)3600FT AMSL",
+ "year": 2026
+}

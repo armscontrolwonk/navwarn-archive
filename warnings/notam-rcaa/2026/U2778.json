@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "6000FT AMSL",
+  "lower_fl": 60,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 25.6667,
+   "lon": 122.5667,
+   "radius_nm": 27
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-10-31T16:00:00Z",
+  "upper": "FL200",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-10-29T05:55:34Z",
+ "id": "notam-rcaa/2026/U2778",
+ "issued_at": "2026-10-29T02:30:00Z",
+ "last_seen": "2026-10-29T05:55:34Z",
+ "number": "U2778",
+ "positions": [
+  [
+   25.25694,
+   122.43972
+  ],
+  [
+   26.09056,
+   122.63417
+  ],
+  [
+   26.09083,
+   122.67806
+  ],
+  [
+   25.25778,
+   122.48861
+  ],
+  [
+   25.25694,
+   122.43972
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-29T05:58:30Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2778/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/060/200/2540N12234E027\nA) RCAA\nB) 2610311600 C) 2612311600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:M261020000801\n2.LCA:XINCHENG TOWNSHIP, HUALIEN COUNTY\n3.THE AREA OVERLAPS PART OF A2 MIL TRAINING AREA, ACFT ARE CTN ADZ.\n4.COOR TEL:04-27023051, 0917-761236\n5.AREA AS FLW:\n251525N 1222623E\n260526N 1223803E\n260527N 1224041E\n251528N 1222919E\n251525N 1222623E\nF) 6000FT AMSL G) FL200",
+ "year": 2026
+}

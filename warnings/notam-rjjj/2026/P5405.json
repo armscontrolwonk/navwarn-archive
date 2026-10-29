@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T06:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 36.83333,
+    "lon": 136.5,
+    "radius_nm": 5.0
+   }
+  ],
+  "fir": "RJJJ",
+  "kind": "exercise",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.8333,
+   "lon": 136.5,
+   "radius_nm": 5
+  },
+  "qcode": "QWELW",
+  "queried_fir": "RJJJ",
+  "starts_at": "2026-10-30T00:00:00Z",
+  "upper": "985FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-29T05:55:34Z",
+ "id": "notam-rjjj/2026/P5405",
+ "issued_at": "2026-10-29T01:27:00Z",
+ "last_seen": "2026-10-29T05:55:34Z",
+ "number": "P5405",
+ "positions": [
+  [
+   36.83333,
+   136.5
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-29T05:58:30Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "SIGNAL FLARE:",
+ "text": "P5405/26 NOTAMN\nQ)RJJJ/QWELW/IV/BO/W/000/010/3650N13630E005\nA)RJJJ B)2610300000 C)2610300600\nE)SIGNAL FLARE:\nAREA: RADIUS 5NM CENTER 365000N1363000E\n(ON THE SEA OF KAHOKU-SHI IN ISHIKAWA)\nF)SFC G)985FT AMSL",
+ "year": 2026
+}

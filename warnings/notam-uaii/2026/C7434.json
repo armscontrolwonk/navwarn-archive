@@ -1,0 +1,45 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T14:00:00Z",
+ "extra": {
+  "fir": "UAII",
+  "kind": "drone",
+  "location": "UAII",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.8167,
+   "lon": 65.5,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "UAII",
+  "starts_at": "2026-10-30T04:00:00Z",
+  "upper": "1000FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-29T05:55:34Z",
+ "id": "notam-uaii/2026/C7434",
+ "issued_at": "2026-10-29T05:55:00Z",
+ "last_seen": "2026-10-29T05:55:34Z",
+ "number": "C7434",
+ "positions": [
+  [
+   44.82167,
+   65.50778
+  ]
+ ],
+ "series": "notam-uaii",
+ "source": {
+  "fetched_at": "2026-10-29T05:58:30Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL TAKE PLACE IN RADIUS 1.62 NM",
+ "text": "C7434/26 NOTAMN\nQ) UAII/QWULW/IV/BO /W /000/010/4449N06530E002\nA) UAII B) 2610300400 C) 2610301400\nE) UNMANNED ACFT WILL TAKE PLACE IN RADIUS 1.62 NM\nCENTRED ON 444918N 0653028E\nF) GND G) 1000FT AMSL",
+ "year": 2026
+}

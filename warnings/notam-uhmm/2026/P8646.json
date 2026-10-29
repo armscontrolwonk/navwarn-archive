@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T08:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 67.88583,
+    "lon": 166.32,
+    "radius_nm": 0.81
+   }
+  ],
+  "fir": "UHMM",
+  "kind": "restricted",
+  "location": "UHMM",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 67.8833,
+   "lon": 166.3167,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHMM",
+  "schedule": "DAILY 0000-0800",
+  "starts_at": "2026-10-30T00:00:00Z",
+  "upper": "800M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-29T05:55:34Z",
+ "id": "notam-uhmm/2026/P8646",
+ "issued_at": "2026-10-28T23:40:00Z",
+ "last_seen": "2026-10-29T05:55:34Z",
+ "number": "P8646",
+ "positions": [
+  [
+   67.88583,
+   166.32
+  ]
+ ],
+ "series": "notam-uhmm",
+ "source": {
+  "fetched_at": "2026-10-29T05:58:30Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 1.5KM CENTRE 675309N1661912E.",
+ "text": "P8646/26 NOTAMN\nQ)UHMM/QRTCA/IV/BO/W/000/030/6753N16619E001\nA)UHMM B)2610300000 C)2610310800\nD)DAILY 0000-0800\nE)AIRSPACE CLSD WI CIRCLE RADIUS 1.5KM CENTRE 675309N1661912E.\nF)GND  G)800M AMSL",
+ "year": 2026
+}

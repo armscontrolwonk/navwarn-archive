@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T05:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 50.39028,
+    "lon": 127.37833,
+    "radius_nm": 0.27
+   }
+  ],
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 50.3833,
+   "lon": 127.3667,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "starts_at": "2026-10-31T03:00:00Z",
+  "upper": "390M AGL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-29T05:55:34Z",
+ "id": "notam-uhhh/2026/P8674",
+ "issued_at": "2026-10-29T05:52:00Z",
+ "last_seen": "2026-10-29T05:55:34Z",
+ "number": "P8674",
+ "positions": [
+  [
+   50.39028,
+   127.37833
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-10-29T05:58:30Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 0.5KM CENTRE 502325N1272242E.",
+ "text": "P8674/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/999/5023N12722E001\nA)UHHH B)2610310300 C)2610310500\nE)AIRSPACE CLSD WI CIRCLE RADIUS 0.5KM CENTRE 502325N1272242E.\nF)GND  G)390M AGL",
+ "year": 2026
+}

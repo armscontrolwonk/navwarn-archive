@@ -1,0 +1,47 @@
+{
+ "cancels": [
+  "notam-rjjj/2026/R1905"
+ ],
+ "expires_at": "2026-10-29T06:14:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "aip",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 31.6,
+   "lon": 130.65,
+   "radius_nm": 120
+  },
+  "qcode": "QWWXX",
+  "queried_fir": "RJJJ",
+  "starts_at": "2026-10-29T00:22:00Z",
+  "upper": "FL090",
+  "upper_fl": 90
+ },
+ "first_seen": "2026-10-29T05:55:34Z",
+ "id": "notam-rjjj/2026/R1906",
+ "issued_at": "2026-10-29T00:22:00Z",
+ "last_seen": "2026-10-29T05:55:34Z",
+ "number": "R1906",
+ "positions": [
+  [
+   31.5925,
+   130.65667
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-29T05:58:30Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "VOLCANIC ACTIVITY INFO",
+ "text": "R1906/26 NOTAMR R1905/26\nQ)RJJJ/QWWXX/IV/NBO/W/000/090/3136N13039E120\nA)RJJJ B)2610290022 C)2610290614\nE)VOLCANIC ACTIVITY INFO\nSAKURAJIMA(AIRA CALDERA)(KAGOSHIMA-SHI)\nPSN/313533N1303924E(REF AIP ENR5.3)\nVA CLD OBS AT 2330\nWI N3134 E13041 - N3136 E13037 - N3147 E13043 -\nN3144 E13049 - N3134 E13041\nSFC/FL090\nF)SFC G)FL090",
+ "year": 2026
+}
