@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-04T15:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 3.15,
+   "lon": 101.7,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "2 NOV 1400-2100 4 NOV 1100-1500",
+  "shape": "polygon",
+  "starts_at": "2026-11-02T14:00:00Z",
+  "upper": "1000FT AGL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-29T13:12:54Z",
+ "id": "notam-wmfc/2026/A4265",
+ "issued_at": "2026-10-29T09:13:00Z",
+ "last_seen": "2026-10-29T13:12:54Z",
+ "number": "A4265",
+ "positions": [
+  [
+   3.15944,
+   101.70611
+  ],
+  [
+   3.15917,
+   101.70667
+  ],
+  [
+   3.16,
+   101.70722
+  ],
+  [
+   3.16028,
+   101.70694
+  ],
+  [
+   3.15944,
+   101.70611
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-29T13:17:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI THE FLW COORD:",
+ "text": "A4265/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/010/0309N10142E001\nA) WMFC B) 2611021400 C) 2611041500 \nD)2 NOV 1400-2100\n4 NOV 1100-1500\nE)UA ACT WILL TAKE PLACE WI THE FLW COORD:\n\n030934.00N 1014222.00E - 030933.00N 1014224.00E -\n030936.00N 1014226.00E - 030937.00N 1014225.00E -\n030934.00N 1014222.00E\n\n(PARK SAFE CARPARK JALAN AMPANG,KUALA LUMPUR)\nF) SFC                             G) 1000FT AGL",
+ "year": 2026
+}

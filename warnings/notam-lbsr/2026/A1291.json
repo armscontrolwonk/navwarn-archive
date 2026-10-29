@@ -1,0 +1,95 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-26T16:00:00Z",
+ "extra": {
+  "fir": "LBSR",
+  "kind": "drone",
+  "location": "LBSR",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.6333,
+   "lon": 24.7333,
+   "radius_nm": 11
+  },
+  "qcode": "QRMCA",
+  "queried_fir": "LBSR",
+  "schedule": "03-05 10-12 17-19 24-26 0700-1600",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T07:00:00Z",
+  "upper": "5600FT AMSL",
+  "upper_fl": 56
+ },
+ "first_seen": "2026-10-29T13:12:54Z",
+ "id": "notam-lbsr/2026/A1291",
+ "issued_at": "2026-10-29T09:14:00Z",
+ "last_seen": "2026-10-29T13:12:54Z",
+ "number": "A1291",
+ "positions": [
+  [
+   42.72611,
+   24.53639
+  ],
+  [
+   42.68833,
+   24.72833
+  ],
+  [
+   42.65778,
+   24.71417
+  ],
+  [
+   42.64333,
+   24.73417
+  ],
+  [
+   42.62278,
+   24.81472
+  ],
+  [
+   42.59806,
+   24.90833
+  ],
+  [
+   42.5725,
+   24.93472
+  ],
+  [
+   42.52806,
+   24.91917
+  ],
+  [
+   42.555,
+   24.8
+  ],
+  [
+   42.59194,
+   24.70806
+  ],
+  [
+   42.64528,
+   24.65056
+  ],
+  [
+   42.68222,
+   24.53139
+  ],
+  [
+   42.72611,
+   24.53639
+  ]
+ ],
+ "series": "notam-lbsr",
+ "source": {
+  "fetched_at": "2026-10-29T13:17:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPORARY SEGREGATED AREA ESTABLISHED FOR",
+ "text": "A1291/26 NOTAMN\nQ)LBSR/QRMCA/IV/BO/W/000/056/4238N02444E011\nA)LBSR\nB)2611030700 C)2611261600\nD)03-05 10-12 17-19 24-26 0700-1600\nE)TEMPORARY SEGREGATED AREA ESTABLISHED FOR\nUNMANNED MIL ACFT SYSTEM FLT WI:\n424334N 0243211E-424118N 0244342E-\n423928N 0244251E-423836N 0244403E-\n423722N 0244853E-423553N 0245430E-\n423421N 0245605E-423141N 0245509E-\n423318N 0244800E-423531N 0244229E-\n423843N 0243902E-424056N 0243153E-\n424334N 0243211E.\nSAFETY BUFFERS INCLUDED AS FLW:\n- HORIZONTAL - 300M\n- VERTICAL   - 300M /1000FT/.\nF)GND G)5600FT AMSL",
+ "year": 2026
+}

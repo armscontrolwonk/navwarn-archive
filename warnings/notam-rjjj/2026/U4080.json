@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T14:59:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.55,
+   "lon": 141.8333,
+   "radius_nm": 7
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/1459",
+  "shape": "polygon",
+  "starts_at": "2026-10-31T22:00:00Z",
+  "upper": "1411FT AMSL",
+  "upper_fl": 15
+ },
+ "first_seen": "2026-10-29T13:12:54Z",
+ "id": "notam-rjjj/2026/U4080",
+ "issued_at": "2026-10-29T07:07:00Z",
+ "last_seen": "2026-10-29T13:12:54Z",
+ "number": "U4080",
+ "positions": [
+  [
+   43.60028,
+   141.88611
+  ],
+  [
+   43.62778,
+   141.8575
+  ],
+  [
+   43.62806,
+   141.76694
+  ],
+  [
+   43.49861,
+   141.76861
+  ],
+  [
+   43.47306,
+   141.89389
+  ],
+  [
+   43.52528,
+   141.90806
+  ],
+  [
+   43.57778,
+   141.87889
+  ],
+  [
+   43.60028,
+   141.88611
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-29T13:17:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4080/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/015/4333N14150E007\nA)RJJJ B)2610312200 C)2611301459\nD)2200/1459\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n433601N1415310E - 433740N1415127E - 433741N1414601E - 432955N1414607E\n- 432823N1415338E - 433131N1415429E - 433440N1415244E -\n433601N1415310E \n(KABATO-GUN,SUNAGAWA-SHI,TAKIKAWA-SHI IN HOKKAIDO)\nWT: 2.5KG\nCONTACT INFORMATION: 03-4485-1606\nRMK: THIS AREA IS INCLUDED IN HK11-3\nF)SFC G)1411FT AMSL",
+ "year": 2026
+}

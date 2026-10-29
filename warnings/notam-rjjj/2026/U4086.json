@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T05:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.9,
+   "lon": 136.35,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-10-30T02:00:00Z",
+  "upper": "2363FT AMSL",
+  "upper_fl": 24
+ },
+ "first_seen": "2026-10-29T13:12:54Z",
+ "id": "notam-rjjj/2026/U4086",
+ "issued_at": "2026-10-29T09:13:00Z",
+ "last_seen": "2026-10-29T13:12:54Z",
+ "number": "U4086",
+ "positions": [
+  [
+   35.88833,
+   136.345
+  ],
+  [
+   35.89528,
+   136.35
+  ],
+  [
+   35.89889,
+   136.34361
+  ],
+  [
+   35.89194,
+   136.3375
+  ],
+  [
+   35.88833,
+   136.345
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-29T13:17:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4086/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/024/3554N13621E002\nA)RJJJ B)2610300200 C)2610300500\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n355318N1362042E - 355343N1362100E - 355356N1362037E - 355331N1362015E\n- 355318N1362042E \n(IMADATE-GUN IN FUKUI)\nWT: 0.9KG\nF)SFC G)2363FT AMSL",
+ "year": 2026
+}

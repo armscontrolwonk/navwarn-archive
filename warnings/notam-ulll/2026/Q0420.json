@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-05T23:59:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "route",
+  "location": "ULLL",
+  "lower": "FL055",
+  "lower_fl": 55,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 60.45,
+   "lon": 33.1667,
+   "radius_nm": 77
+  },
+  "qcode": "QARLC",
+  "queried_fir": "ULLL",
+  "schedule": "DAILY 0701-2359",
+  "starts_at": "2026-10-31T07:01:00Z",
+  "upper": "FL170",
+  "upper_fl": 170
+ },
+ "first_seen": "2026-10-29T13:12:54Z",
+ "id": "notam-ulll/2026/Q0420",
+ "issued_at": "2026-10-29T12:17:00Z",
+ "last_seen": "2026-10-29T13:12:54Z",
+ "number": "Q0420",
+ "positions": [],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-29T13:17:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE CLSD WI SEGMENTS:",
+ "text": "Q0420/26 NOTAMN\nQ)ULLL/QARLC/IV/NBO/E/055/170/6027N03310E077\nA)ULLL B)2610310701 C)2611052359\nD)DAILY 0701-2359\nE)ATS RTE CLSD WI SEGMENTS:\nN87 ROGID-OKDON FL125-FL170,\nP157 NUSLU-OKDON FL055-FL115,\nT792 EGVOH-OKDON FL055-FL170.\nF)FL055  G)FL170",
+ "year": 2026
+}

@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-03T15:00:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "10M AMSL",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 69.6833,
+   "lon": 45.1833,
+   "radius_nm": 47
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "ULLL",
+  "shape": "polygon",
+  "starts_at": "2026-10-31T07:00:00Z",
+  "upper": "FL280",
+  "upper_fl": 280
+ },
+ "first_seen": "2026-10-29T13:12:54Z",
+ "id": "notam-ulll/2026/Q0412",
+ "issued_at": "2026-10-29T11:55:00Z",
+ "last_seen": "2026-10-29T13:12:54Z",
+ "number": "Q0412",
+ "positions": [
+  [
+   68.96278,
+   44.45
+  ],
+  [
+   69.91056,
+   47.26139
+  ],
+  [
+   70.41167,
+   45.97722
+  ],
+  [
+   69.45083,
+   43.16
+  ],
+  [
+   68.96278,
+   44.45
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-29T13:17:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO DANGER AREA ACT: WI 25KM EITHER SIDE OF LINE JOINING POINTS:",
+ "text": "Q0412/26 NOTAMN\nQ)ULLL/QRDCA/IV/BO/W/000/280/6941N04511E047\nA)ULLL B)2610310700 C)2611031500\nE)TEMPO DANGER AREA ACT: WI 25KM EITHER SIDE OF LINE JOINING POINTS:\n685746N0442700E-695438N0471541E-702442N0455838E-692703N0430936E\n-685746N0442700E.\nF)10M AMSL  G)FL280",
+ "year": 2026
+}

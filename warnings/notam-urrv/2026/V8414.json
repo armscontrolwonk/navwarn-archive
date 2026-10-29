@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T15:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 45.19667,
+    "lon": 42.16444,
+    "radius_nm": 0.27
+   }
+  ],
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 45.1833,
+   "lon": 42.15,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "URRV",
+  "schedule": "30 31 0700-1500",
+  "starts_at": "2026-10-30T07:00:00Z",
+  "upper": "630M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-29T13:12:54Z",
+ "id": "notam-urrv/2026/V8414",
+ "issued_at": "2026-10-29T07:16:00Z",
+ "last_seen": "2026-10-29T13:12:54Z",
+ "number": "V8414",
+ "positions": [
+  [
+   45.19667,
+   42.16444
+  ]
+ ],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-10-29T13:17:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 0.5KM CENTRE 451148N0420952E.",
+ "text": "V8414/26 NOTAMN\nQ)URRV/QRTCA/IV/BO/W/000/030/4511N04209E001\nA)URRV B)2610300700 C)2610311500\nD)30 31 0700-1500\nE)AIRSPACE CLSD WI CIRCLE RADIUS 0.5KM CENTRE 451148N0420952E.\nF)GND  G)630M AMSL",
+ "year": 2026
+}

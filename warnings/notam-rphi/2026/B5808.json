@@ -1,0 +1,45 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T23:59:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "drone",
+  "location": "RPHI",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 12.9833,
+   "lon": 121.4167,
+   "radius_nm": 40
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RPHI",
+  "starts_at": "2026-11-01T00:00:00Z",
+  "upper": "6000FT AMSL",
+  "upper_fl": 60
+ },
+ "first_seen": "2026-10-29T13:12:54Z",
+ "id": "notam-rphi/2026/B5808",
+ "issued_at": "2026-10-29T06:53:00Z",
+ "last_seen": "2026-10-29T13:12:54Z",
+ "number": "B5808",
+ "positions": [
+  [
+   12.97615,
+   121.4241
+  ]
+ ],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-10-29T13:17:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UAS FLT OPS WILL TAKE PLACE WI:",
+ "text": "B5808/26 NOTAMN\nQ) RPHI/QWULW/IV/BO /W /000/060/1259N12125E040\nA) RPHI B) 2611010000 C) 2612312359\nE) UAS FLT OPS WILL TAKE PLACE WI:\n40NM RADIUS CENTERED ON 125834.14N 1212526.76E\n(PINAMALAYAN COMMUNITY AP).\nF) SFC G) 6000FT AMSL",
+ "year": 2026
+}

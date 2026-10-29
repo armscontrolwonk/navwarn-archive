@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-12T13:00:00Z",
+ "extra": {
+  "fir": "RKRR",
+  "kind": "restricted",
+  "location": "RKRR",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.65,
+   "lon": 125.8167,
+   "radius_nm": 8
+  },
+  "qcode": "QRRCA",
+  "queried_fir": "RKRR",
+  "schedule": "10 12 0300-1300",
+  "starts_at": "2026-11-10T03:00:00Z",
+  "upper": "5000FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-10-29T13:12:54Z",
+ "id": "notam-rkrr/2026/D3424",
+ "issued_at": "2026-10-29T10:12:00Z",
+ "last_seen": "2026-10-29T13:12:54Z",
+ "number": "D3424",
+ "positions": [],
+ "series": "notam-rkrr",
+ "source": {
+  "fetched_at": "2026-10-29T13:17:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "RESTRICTED AREA RK R154 ACT",
+ "text": "D3424/26 NOTAMN  \nQ)RKRR/QRRCA/IV/BO/W/000/050/3739N12549E008\nA)RKRR B)2611100300 C)2611121300\nD)10 12 0300-1300\nE)RESTRICTED AREA RK R154 ACT\nF)SFC G)5000FT AMSL",
+ "year": 2026
+}

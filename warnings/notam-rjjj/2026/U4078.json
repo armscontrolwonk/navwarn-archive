@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-03T07:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.65,
+   "lon": 137.05,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-02T23:30:00Z",
+  "upper": "919FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-29T13:12:54Z",
+ "id": "notam-rjjj/2026/U4078",
+ "issued_at": "2026-10-29T06:26:00Z",
+ "last_seen": "2026-10-29T13:12:54Z",
+ "number": "U4078",
+ "positions": [
+  [
+   36.65389,
+   137.05667
+  ],
+  [
+   36.65528,
+   137.05806
+  ],
+  [
+   36.655,
+   137.05861
+  ],
+  [
+   36.65389,
+   137.05806
+  ],
+  [
+   36.65389,
+   137.05667
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-29T13:17:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4078/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/010/3639N13703E001\nA)RJJJ B)2611022330 C)2611030730\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n363914N1370324E - 363919N1370329E - 363918N1370331E - 363914N1370329E\n- 363914N1370324E \n(IMIZU-SHI IN TOYAMA)\nWT: 1.5KG\nF)SFC G)919FT AMSL",
+ "year": 2026
+}

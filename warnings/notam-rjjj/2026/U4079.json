@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-13T07:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.4833,
+   "lon": 135.2667,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0730",
+  "shape": "polygon",
+  "starts_at": "2026-11-12T00:00:00Z",
+  "upper": "460FT AMSL",
+  "upper_fl": 5
+ },
+ "first_seen": "2026-10-29T13:12:54Z",
+ "id": "notam-rjjj/2026/U4079",
+ "issued_at": "2026-10-29T06:41:00Z",
+ "last_seen": "2026-10-29T13:12:54Z",
+ "number": "U4079",
+ "positions": [
+  [
+   35.51972,
+   135.28167
+  ],
+  [
+   35.46444,
+   135.27083
+  ],
+  [
+   35.44194,
+   135.25556
+  ],
+  [
+   35.43778,
+   135.26222
+  ],
+  [
+   35.45944,
+   135.28639
+  ],
+  [
+   35.51528,
+   135.29333
+  ],
+  [
+   35.51972,
+   135.28167
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-29T13:17:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4079/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/005/3529N13516E004\nA)RJJJ B)2611120000 C)2611130730\nD)0000/0730\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n353111N1351654E - 352752N1351615E - 352631N1351520E - 352616N1351544E\n- 352734N1351711E - 353055N1351736E - 353111N1351654E \n(MAIZURU-SHI, MIYAZU-SHI IN KYOTO)\nWT: 9.2KG\nCONTACT INFORMATION: 0773-23-9445\nF)SFC G)460FT AMSL",
+ "year": 2026
+}

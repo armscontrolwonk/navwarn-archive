@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T13:00:00Z",
+ "extra": {
+  "fir": "UACN",
+  "kind": "drone",
+  "location": "UACN",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 53.3333,
+   "lon": 63.35,
+   "radius_nm": 16
+  },
+  "qcode": "QWULW",
+  "queried_fir": "UACN",
+  "shape": "polygon",
+  "starts_at": "2026-10-30T08:00:00Z",
+  "upper": "5600FT AMSL",
+  "upper_fl": 56
+ },
+ "first_seen": "2026-10-29T13:12:54Z",
+ "id": "notam-uacn/2026/K3542",
+ "issued_at": "2026-10-29T08:54:00Z",
+ "last_seen": "2026-10-29T13:12:54Z",
+ "number": "K3542",
+ "positions": [
+  [
+   53.08167,
+   63.38833
+  ],
+  [
+   53.51,
+   63.0775
+  ],
+  [
+   53.59083,
+   63.30444
+  ],
+  [
+   53.14333,
+   63.62556
+  ],
+  [
+   53.08167,
+   63.38833
+  ]
+ ],
+ "series": "notam-uacn",
+ "source": {
+  "fetched_at": "2026-10-29T13:17:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL TAKE PLACE",
+ "text": "K3542/26 NOTAMN\nQ) UACN/QWULW/IV/BO /W /000/056/5320N06321E016\nA) UACN B) 2610300800 C) 2610301300\nE) UNMANNED ACFT WILL TAKE PLACE\nAREA BOUNDED BY:\n530454N 0632318E - 533036N 0630439E - 533527N 0631816E - 530836N \n0633732E - 530454N 0632318E.\nF) GND G) 5600FT AMSL",
+ "year": 2026
+}

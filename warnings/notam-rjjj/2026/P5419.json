@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-12T12:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.85,
+   "lon": 141.05,
+   "radius_nm": 2
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/1200",
+  "shape": "polygon",
+  "starts_at": "2026-11-10T22:00:00Z",
+  "upper": "5700FT AMSL",
+  "upper_fl": 57
+ },
+ "first_seen": "2026-10-29T13:12:54Z",
+ "id": "notam-rjjj/2026/P5419",
+ "issued_at": "2026-10-29T10:09:00Z",
+ "last_seen": "2026-10-29T13:12:54Z",
+ "number": "P5419",
+ "positions": [
+  [
+   39.86222,
+   141.04083
+  ],
+  [
+   39.86389,
+   141.06944
+  ],
+  [
+   39.83361,
+   141.07
+  ],
+  [
+   39.83278,
+   141.0575
+  ],
+  [
+   39.83278,
+   141.04472
+  ],
+  [
+   39.86222,
+   141.04083
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-29T13:17:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG:",
+ "text": "P5419/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/057/3951N14103E002\nA)RJJJ B)2611102200 C)2611121200\nD)2200/1200\nE)FRNG:\nWEAPON : 120MORTAR\nAREA : BOUNDED BY FLW POINTS\n395144N1410227E - 395150N1410410E -\n395001N1410412E - 394958N1410327E -\n394958N1410241E - 395144N1410227E\n(IWATESAN MANEUVERING AREA)\n(TAKIZAWA-SHI IN IWATE)\nRMK : SOURCE JSDF-G(RJSH)\nF)SFC G)5700FT AMSL",
+ "year": 2026
+}

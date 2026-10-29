@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T16:30:00Z",
+ "extra": {
+  "fir": "VIDF",
+  "kind": "drone",
+  "location": "VIDF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 28.5833,
+   "lon": 77.2333,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "VIDF",
+  "schedule": "29 1230-1430, 30 1430-1630",
+  "starts_at": "2026-10-29T12:30:00Z",
+  "upper": "01000FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-29T13:12:54Z",
+ "id": "notam-vidf/2026/A2575",
+ "issued_at": "2026-10-29T10:08:00Z",
+ "last_seen": "2026-10-29T13:12:54Z",
+ "number": "A2575",
+ "positions": [
+  [
+   28.58122,
+   77.23443
+  ]
+ ],
+ "series": "notam-vidf",
+ "source": {
+  "fetched_at": "2026-10-29T13:17:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "DRONE OPS AT COORD 283452.41N 0771403.96E [JLN STADIUM, NEW",
+ "text": "A2575/26 NOTAMN\nQ) VIDF/QWULW/IV/NBO/W/000/010/2835N07714E001\nA) VIDF B) 2610291230 C) 2610301630\nD) 29 1230-1430,\n30 1430-1630\nE) DRONE OPS AT COORD 283452.41N 0771403.96E [JLN STADIUM, NEW\nDELHI] WITH HORIZONTAL ENVELOPE OF 50M.\nDETAILS OF DRONE GIVEN BLW:\nDRONE CAT : NANO\nMODEL NR: BLBLAZE V3.0\nNR OF DRONES: 1000 DRONES\nWT OF DRONE: 250 GRAM WITH PAYLOAD (LED LIGHT)\nRESPONSIBLE PERSON: MAYANK PURUSHOTTAM 9910527967.\nF) GND G) 01000FT AMSL",
+ "year": 2026
+}

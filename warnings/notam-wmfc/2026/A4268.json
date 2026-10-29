@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2027-02-02T11:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 2.95,
+   "lon": 101.6667,
+   "radius_nm": 12
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "DLY 2300-1100",
+  "shape": "polygon",
+  "starts_at": "2026-11-04T23:00:00Z",
+  "upper": "300FT AGL",
+  "upper_fl": 4
+ },
+ "first_seen": "2026-10-29T13:12:54Z",
+ "id": "notam-wmfc/2026/A4268",
+ "issued_at": "2026-10-29T09:39:00Z",
+ "last_seen": "2026-10-29T13:12:54Z",
+ "number": "A4268",
+ "positions": [
+  [
+   3.08802,
+   101.55035
+  ],
+  [
+   2.84874,
+   101.78834
+  ],
+  [
+   2.92244,
+   101.60198
+  ],
+  [
+   2.92759,
+   101.66833
+  ],
+  [
+   2.84185,
+   101.68611
+  ],
+  [
+   2.85018,
+   101.69568
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-10-29T13:17:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE ALONG THE ELITE HIGHWAY FM ",
+ "text": "A4268/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/004/0257N10140E012\nA) WMFC B) 2611042300 C) 2702021100 \nD)DLY 2300-1100\nE)UA ACT WILL TAKE PLACE ALONG THE ELITE HIGHWAY FM \n\n030516.88N 1013301.27E - 025055.45N 1014718.04E\n \nAND FM \n025520.77N 1013607.12E - 025539.31N 1014006.00E \n\nAND FM \n025030.67N 1014110.00E - 025100.64N 1014144.45E\n   \n(C6 ELITE, C6 PUTRAJAYA AND C6 SERENIA) \nF) SFC                             G) 300FT AGL",
+ "year": 2026
+}
