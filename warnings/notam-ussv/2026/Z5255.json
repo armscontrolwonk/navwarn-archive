@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-04T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 56.85083,
+    "lon": 53.20056,
+    "radius_nm": 5.4
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.85,
+   "lon": 53.2,
+   "radius_nm": 6
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "starts_at": "2026-10-30T00:00:00Z",
+  "upper": "3050M AGL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-29T22:50:00Z",
+ "id": "notam-ussv/2026/Z5255",
+ "issued_at": "2026-10-29T14:37:00Z",
+ "last_seen": "2026-10-29T22:50:00Z",
+ "number": "Z5255",
+ "positions": [
+  [
+   56.85083,
+   53.20056
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-10-29T22:53:37Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 10KM CENTRE 565103N0531202E.",
+ "text": "Z5255/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/999/5651N05312E006\nA)USSV B)2610300000 C)2611042359\nE)AIRSPACE CLSD WI CIRCLE RADIUS 10KM CENTRE 565103N0531202E.\nRESTRICTION NOT AFFECT:\n- VIP FLT AND ACFT FOR THEIR SUPPORT,\n- INTL AND DOM FLT ALONG ATS RTE,\n- FLT FROM/TO USII AD.\nF)GND  G)3050M AGL",
+ "year": 2026
+}

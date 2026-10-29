@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-05T13:30:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "restricted",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.0333,
+   "lon": 24.2333,
+   "radius_nm": 2
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-11-05T06:30:00Z",
+  "upper": "13200FT AMSL",
+  "upper_fl": 132
+ },
+ "first_seen": "2026-10-29T22:50:00Z",
+ "id": "notam-lrbb/2026/R5442",
+ "issued_at": "2026-10-29T15:39:00Z",
+ "last_seen": "2026-10-29T22:50:00Z",
+ "number": "R5442",
+ "positions": [
+  [
+   44.05833,
+   24.25556
+  ],
+  [
+   44.01944,
+   24.24167
+  ],
+  [
+   44.02222,
+   24.21667
+  ],
+  [
+   44.06111,
+   24.22222
+  ],
+  [
+   44.05833,
+   24.25556
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-10-29T22:53:37Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "DANGER AREA ACTIVATED.",
+ "text": "R5442/26 NOTAMN\nQ) LRBB/QRDCA/IV/BO /W /000/132/4402N02414E002\nA) LRBB B) 2611050630 C) 2611051330\nE) DANGER AREA ACTIVATED.\n   DEMOLITION OF EXPLOSIVES WILL TAKE PLACE INTO THE FLW AREA:\n   440330N0241520E-440110N0241430E-440120N0241300E-440340N0241320E\n   440330N0241520E\n   EXPECT RADAR VECTORING\nF) GND G) 13200FT AMSL",
+ "year": 2026
+}

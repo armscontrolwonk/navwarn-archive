@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-30T22:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "exercise",
+  "location": "LRBB",
+  "lower": "300FT AGL",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 45.7833,
+   "lon": 27.3333,
+   "radius_nm": 32
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-10-30T05:00:00Z",
+  "upper": "2000FT AGL",
+  "upper_fl": 104
+ },
+ "first_seen": "2026-10-29T22:50:00Z",
+ "id": "notam-lrbb/2026/M6897",
+ "issued_at": "2026-10-29T14:28:00Z",
+ "last_seen": "2026-10-29T22:50:00Z",
+ "number": "M6897",
+ "positions": [
+  [
+   46.05222,
+   27.97083
+  ],
+  [
+   45.47639,
+   27.84444
+  ],
+  [
+   45.51444,
+   26.68806
+  ],
+  [
+   46.05,
+   26.82361
+  ],
+  [
+   46.05222,
+   27.97083
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-10-29T22:53:37Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "NAVIGATION WARNING.   ",
+ "text": "M6897/26 NOTAMN\nQ) LRBB/QWELW/IV/BO /W /000/104/4547N02720E032\nA) LRBB B) 2610300500 C) 2610302200\nE) NAVIGATION WARNING.   \n   MIL FLT WILL TAKE PLACE INTO THE FLW AREA:\n   460308N0275815E-452835N0275040E-453052N0264117E-460300N0264925E\n   460308N0275815E\n   FLT WILL BE COOR BTN CIV AND MIL ATC\nF) 300FT AGL G) 2000FT AGL",
+ "year": 2026
+}

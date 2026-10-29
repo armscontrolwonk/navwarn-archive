@@ -1,0 +1,99 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-05T07:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 48.67306,
+    "lon": 134.42944,
+    "radius_nm": 0.27
+   },
+   {
+    "lat": 48.84139,
+    "lon": 134.32944,
+    "radius_nm": 0.27
+   },
+   {
+    "lat": 48.58333,
+    "lon": 134.59333,
+    "radius_nm": 0.27
+   }
+  ],
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 48.75,
+   "lon": 134.4333,
+   "radius_nm": 14
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "schedule": "DAILY 0000-0700",
+  "starts_at": "2026-10-31T00:00:00Z",
+  "upper": "600M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-29T22:50:00Z",
+ "id": "notam-uhhh/2026/P8693",
+ "issued_at": "2026-10-29T15:40:00Z",
+ "last_seen": "2026-10-29T22:50:00Z",
+ "number": "P8693",
+ "positions": [
+  [
+   48.96667,
+   134.3
+  ],
+  [
+   48.96667,
+   134.4
+  ],
+  [
+   48.60972,
+   134.63583
+  ],
+  [
+   48.54972,
+   134.56083
+  ],
+  [
+   48.56667,
+   134.45
+  ],
+  [
+   48.76667,
+   134.2
+  ],
+  [
+   48.96667,
+   134.3
+  ],
+  [
+   48.67306,
+   134.42944
+  ],
+  [
+   48.84139,
+   134.32944
+  ],
+  [
+   48.58333,
+   134.59333
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-10-29T22:53:37Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P8693/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/020/4845N13426E014\nA)UHHH B)2610310000 C)2611050700\nD)DAILY 0000-0700\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 485800N1341800E-485800N1342400E-483635N1343809E-\n         483259N1343339E-483400N1342700E-484600N1341200E-\n         485800N1341800E\n   250M AMSL-600M AMSL.\n2. WI CIRCLE RADIUS 0.5KM CENTRE 484023N1342546E\n   SFC-600M AMSL.\n3. WI CIRCLE RADIUS 0.5KM CENTRE 485029N1341946E\n   SFC-600M AMSL.\n4. WI CIRCLE RADIUS 0.5KM CENTRE 483500N1343536E\n   SFC-600M AMSL.\nF)SFC  G)600M AMSL",
+ "year": 2026
+}

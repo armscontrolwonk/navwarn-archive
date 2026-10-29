@@ -1,0 +1,110 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-03T19:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 68.60139,
+    "lon": 80.10972,
+    "radius_nm": 0.27
+   },
+   {
+    "lat": 68.51167,
+    "lon": 80.33583,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "UNKL",
+  "kind": "restricted",
+  "location": "UNKL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 68.8833,
+   "lon": 80.9167,
+   "radius_nm": 29
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNKL",
+  "schedule": "DAILY 0400-1900",
+  "starts_at": "2026-10-30T04:00:00Z",
+  "upper": "290M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-29T22:50:00Z",
+ "id": "notam-unkl/2026/L3232",
+ "issued_at": "2026-10-29T17:33:00Z",
+ "last_seen": "2026-10-29T22:50:00Z",
+ "number": "L3232",
+ "positions": [
+  [
+   68.60139,
+   80.10972
+  ],
+  [
+   68.86722,
+   79.88861
+  ],
+  [
+   68.93,
+   80.76444
+  ],
+  [
+   68.80944,
+   80.85806
+  ],
+  [
+   68.89222,
+   81.93333
+  ],
+  [
+   68.555,
+   81.05528
+  ],
+  [
+   68.4925,
+   80.44722
+  ],
+  [
+   68.51028,
+   80.43194
+  ],
+  [
+   68.50472,
+   80.38361
+  ],
+  [
+   68.48694,
+   80.39639
+  ],
+  [
+   68.47417,
+   80.27806
+  ],
+  [
+   68.66833,
+   80.01222
+  ],
+  [
+   68.86722,
+   79.88861
+  ],
+  [
+   68.51167,
+   80.33583
+  ]
+ ],
+ "series": "notam-unkl",
+ "source": {
+  "fetched_at": "2026-10-29T22:53:37Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "L3232/26 NOTAMN\nQ)UNKL/QRTCA/IV/BO/W/000/010/6853N08055E029\nA)UNKL B)2610300400 C)2611031900\nD)DAILY 0400-1900\nE)AIRSPACE CLSD AS FLW:\n1. WI CIRCLE RADIUS 0.5KM CENTRE 683605N0800635E\n   GND-290M AMSL.\n2. AREA: 685202N0795319E-685548N0804552E-684834N0805129E-\n         685332N0815600E-683318N0810319E-682933N0802650E-\n         683037N0802555E-683017N0802301E-682913N0802347E-\n         682827N0801641E-684006N0800044E-685202N0795319E\n   250M AMSL-290M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 683042N0802009E\n   GND-290M AMSL.\nF)GND  G)290M AMSL",
+ "year": 2026
+}

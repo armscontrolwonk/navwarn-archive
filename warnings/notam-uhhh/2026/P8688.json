@@ -1,0 +1,123 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-01T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 46.65944,
+    "lon": 142.83472,
+    "radius_nm": 0.05
+   },
+   {
+    "lat": 46.84639,
+    "lon": 142.88917,
+    "radius_nm": 0.05
+   },
+   {
+    "lat": 46.71694,
+    "lon": 142.8875,
+    "radius_nm": 0.05
+   }
+  ],
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 46.7333,
+   "lon": 142.85,
+   "radius_nm": 8
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "schedule": "DAILY 0000-0700 2100-2359",
+  "starts_at": "2026-10-31T00:00:00Z",
+  "upper": "500M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-29T22:50:00Z",
+ "id": "notam-uhhh/2026/P8688",
+ "issued_at": "2026-10-29T14:44:00Z",
+ "last_seen": "2026-10-29T22:50:00Z",
+ "number": "P8688",
+ "positions": [
+  [
+   46.81167,
+   142.82806
+  ],
+  [
+   46.85833,
+   142.86722
+  ],
+  [
+   46.82583,
+   142.96667
+  ],
+  [
+   46.7975,
+   142.96333
+  ],
+  [
+   46.69861,
+   142.88667
+  ],
+  [
+   46.63167,
+   142.86028
+  ],
+  [
+   46.62167,
+   142.84111
+  ],
+  [
+   46.61944,
+   142.83306
+  ],
+  [
+   46.66,
+   142.80083
+  ],
+  [
+   46.68139,
+   142.81778
+  ],
+  [
+   46.71,
+   142.86556
+  ],
+  [
+   46.75028,
+   142.87444
+  ],
+  [
+   46.81167,
+   142.82806
+  ],
+  [
+   46.65944,
+   142.83472
+  ],
+  [
+   46.84639,
+   142.88917
+  ],
+  [
+   46.71694,
+   142.8875
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-10-29T22:53:37Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P8688/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/020/4644N14251E008\nA)UHHH B)2610310000 C)2611012359\nD)DAILY 0000-0700 2100-2359\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 464842N1424941E-465130N1425202E-464933N1425800E-\n         464751N1425748E-464155N1425312E-463754N1425137E-\n         463718N1425028E-463710N1424959E-463936N1424803E-\n         464053N1424904E-464236N1425156E-464501N1425228E-\n         464842N1424941E\n   100M AMSL-500M AMSL.\n2. WI CIRCLE RADIUS 0.1KM CENTRE 463934N1425005E\n   GND-500M AMSL.\n3. WI CIRCLE RADIUS 0.1KM CENTRE 465047N1425321E\n   GND-500M AMSL.\n4. WI CIRCLE RADIUS 0.1KM CENTRE 464301N1425315E\n   GND-500M AMSL.\nF)GND  G)500M AMSL",
+ "year": 2026
+}
