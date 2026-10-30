@@ -1,0 +1,102 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-01T06:00:00Z",
+ "extra": {
+  "fir": "UEEE",
+  "kind": "restricted",
+  "location": "UEEE",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.7167,
+   "lon": 125.0833,
+   "radius_nm": 15
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UEEE",
+  "shape": "polygon",
+  "starts_at": "2026-11-01T04:00:00Z",
+  "upper": "27000M AMSL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-30T22:27:07Z",
+ "id": "notam-ueee/2026/P8769",
+ "issued_at": "2026-10-30T13:33:00Z",
+ "last_seen": "2026-10-30T22:27:07Z",
+ "number": "P8769",
+ "positions": [
+  [
+   56.71667,
+   124.66667
+  ],
+  [
+   56.83333,
+   125.48333
+  ],
+  [
+   56.68333,
+   125.51667
+  ],
+  [
+   56.6,
+   124.68333
+  ],
+  [
+   56.71667,
+   124.66667
+  ],
+  [
+   56.71667,
+   124.66667
+  ],
+  [
+   56.60028,
+   124.68417
+  ],
+  [
+   56.61972,
+   124.88333
+  ],
+  [
+   56.74611,
+   124.87389
+  ],
+  [
+   56.71667,
+   124.66667
+  ],
+  [
+   56.79222,
+   125.19167
+  ],
+  [
+   56.65694,
+   125.24889
+  ],
+  [
+   56.68361,
+   125.51694
+  ],
+  [
+   56.83333,
+   125.48389
+  ],
+  [
+   56.79222,
+   125.19167
+  ]
+ ],
+ "series": "notam-ueee",
+ "source": {
+  "fetched_at": "2026-10-30T22:30:13Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P8769/26 NOTAMN\nQ)UEEE/QRTCA/IV/BO/W/000/999/5643N12505E015\nA)UEEE B)2611010400 C)2611010600\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 564300N1244000E-565000N1252900E-564100N1253100E-\n         563600N1244100E-564300N1244000E\n   10000M AMSL-27000M AMSL.\n2. AREA: 564300N1244000E-563601N1244103E-563711N1245300E-\n         564446N1245226E-564300N1244000E\n   GND-10000M AMSL.\n3. AREA: 564732N1251130E-563925N1251456E-564101N1253101E-\n         565000N1252902E-564732N1251130E\n   GND-10000M AMSL.\nF)GND  G)27000M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T12:00:00Z",
+ "extra": {
+  "fir": "VECF",
+  "kind": "other",
+  "location": "VECF",
+  "lower": "2300FT AGL",
+  "lower_fl": 20,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 27.1667,
+   "lon": 88.3167,
+   "radius_nm": 15
+  },
+  "qcode": "QWYLW",
+  "queried_fir": "VECF",
+  "schedule": "0130-1200",
+  "shape": "polygon",
+  "starts_at": "2026-10-31T01:30:00Z",
+  "upper": "11500FT AGL",
+  "upper_fl": 120
+ },
+ "first_seen": "2026-10-30T22:27:07Z",
+ "id": "notam-vecf/2026/A2200",
+ "issued_at": "2026-10-30T14:31:00Z",
+ "last_seen": "2026-10-30T22:27:07Z",
+ "number": "A2200",
+ "positions": [
+  [
+   27.32028,
+   88.12278
+  ],
+  [
+   27.35111,
+   88.34722
+  ],
+  [
+   27.16222,
+   88.3975
+  ],
+  [
+   27.15667,
+   88.53444
+  ],
+  [
+   27.02889,
+   88.53333
+  ],
+  [
+   27.04361,
+   88.17806
+  ],
+  [
+   27.32028,
+   88.12278
+  ]
+ ],
+ "series": "notam-vecf",
+ "source": {
+  "fetched_at": "2026-10-30T22:30:13Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AERIAL LIDAR SURVEY INPR WI COORD:",
+ "text": "A2200/26 NOTAMN\nQ) VECF/QWYLW/IV/NBO/W/020/120/2710N08819E015\nA) VECF B) 2610310130 C) 2611301200\nD) 0130-1200\nE) AERIAL LIDAR SURVEY INPR WI COORD:\nA.271913N 0880722E\nB.272104N 0882050E\nC.270944N 0882351E\nD.270924N 0883204E\nE.270144N 0883160E\nF.270237N 0881041E AND\nA.271913N 0880722E\nF) 2300FT AGL G) 11500FT AGL",
+ "year": 2026
+}

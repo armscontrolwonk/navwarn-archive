@@ -1,0 +1,45 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-05T15:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "restricted",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 45.25,
+   "lon": 26.6833,
+   "radius_nm": 1
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "LRBB",
+  "starts_at": "2026-11-05T06:00:00Z",
+  "upper": "4200FT AMSL",
+  "upper_fl": 42
+ },
+ "first_seen": "2026-10-30T22:27:07Z",
+ "id": "notam-lrbb/2026/R5565",
+ "issued_at": "2026-10-30T13:32:00Z",
+ "last_seen": "2026-10-30T22:27:07Z",
+ "number": "R5565",
+ "positions": [
+  [
+   45.24389,
+   26.69056
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-10-30T22:30:13Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "DANGER AREA ACTIVATED.",
+ "text": "R5565/26 NOTAMN\nQ) LRBB/QRDCA/IV/BO /W /000/042/4515N02641E001\nA) LRBB B) 2611050600 C) 2611051500\nE) DANGER AREA ACTIVATED.\n   DEMOLITION OF EXPLOSIVES WILL TAKE PLACE INTO A CIRCLE\n   CENTERED ON POINT OF COORD 451438N0264126E WITH 1NM RADIUS\nF) GND G) 4200FT AMSL",
+ "year": 2026
+}

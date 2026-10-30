@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T12:30:00Z",
+ "extra": {
+  "fir": "VECF",
+  "kind": "firing",
+  "location": "VECF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 20.4,
+   "lon": 83.3167,
+   "radius_nm": 1
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "VECF",
+  "schedule": "02-07 09-14 16-21 23 25-28 30 0230-1230",
+  "shape": "polygon",
+  "starts_at": "2026-11-02T02:30:00Z",
+  "upper": "3000FT AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-30T22:27:07Z",
+ "id": "notam-vecf/2026/A2201",
+ "issued_at": "2026-10-30T14:45:00Z",
+ "last_seen": "2026-10-30T22:27:07Z",
+ "number": "A2201",
+ "positions": [
+  [
+   20.39389,
+   83.30361
+  ],
+  [
+   20.39667,
+   83.30083
+  ],
+  [
+   20.40194,
+   83.315
+  ],
+  [
+   20.40472,
+   83.31222
+  ],
+  [
+   20.39389,
+   83.30361
+  ]
+ ],
+ "series": "notam-vecf",
+ "source": {
+  "fetched_at": "2026-10-30T22:30:13Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "DONGABAHAL PROOF RANGE ACT WI COORDS:",
+ "text": "A2201/26 NOTAMN\nQ) VECF/QWMLW/IV/BO/W/000/030/2024N08319E001\nA) VECF B) 2611020230 C) 2611301230\nD) 02-07 09-14 16-21 23 25-28 30 0230-1230\nE) DONGABAHAL PROOF RANGE ACT WI COORDS:\n202338N0831813E,202348N0831803E,202407N0831854E,202417N0831844E AND \n202338N0831813E\nF) GND G) 3000FT AMSL",
+ "year": 2026
+}

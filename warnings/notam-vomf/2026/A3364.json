@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-05T10:45:00Z",
+ "extra": {
+  "fir": "VOMF",
+  "kind": "exercise",
+  "location": "VOMF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 13.0667,
+   "lon": 80.3,
+   "radius_nm": 3
+  },
+  "qcode": "QWELW",
+  "queried_fir": "VOMF",
+  "schedule": "03 05 0930-1045",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T09:30:00Z",
+  "upper": "500FT AMSL",
+  "upper_fl": 5
+ },
+ "first_seen": "2026-10-30T22:27:07Z",
+ "id": "notam-vomf/2026/A3364",
+ "issued_at": "2026-10-30T14:57:00Z",
+ "last_seen": "2026-10-30T22:27:07Z",
+ "number": "A3364",
+ "positions": [
+  [
+   13.09,
+   80.34333
+  ],
+  [
+   13.1075,
+   80.31
+  ],
+  [
+   13.04861,
+   80.28806
+  ],
+  [
+   13.03056,
+   80.31556
+  ]
+ ],
+ "series": "notam-vomf",
+ "source": {
+  "fetched_at": "2026-10-30T22:30:13Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "NAVAL EXER WI AREA BOUNDED BY COORD:",
+ "text": "A3364/26 NOTAMN\nQ) VOMF/QWELW/IV/BO/W/000/005/1304N08018E003\nA) VOMF B) 2611030930 C) 2611051045\nD) 03 05 0930-1045\nE) NAVAL EXER WI AREA BOUNDED BY COORD:\n130524N0802036E-130627N0801836E-130255N0801717E-130150N0801856E-1305\n24N0802036E\nF) GND G) 500FT AMSL",
+ "year": 2026
+}

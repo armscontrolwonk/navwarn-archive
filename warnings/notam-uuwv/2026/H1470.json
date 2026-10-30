@@ -1,0 +1,114 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-09T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 56.73889,
+    "lon": 43.5525,
+    "radius_nm": 1.08
+   },
+   {
+    "lat": 57.0,
+    "lon": 43.75,
+    "radius_nm": 1.08
+   }
+  ],
+  "fir": "UUWV",
+  "kind": "restricted",
+  "location": "UUWV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.9167,
+   "lon": 43.4,
+   "radius_nm": 18
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UUWV",
+  "schedule": "DAILY 0600-1600",
+  "starts_at": "2026-11-04T06:00:00Z",
+  "upper": "700M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-30T22:27:07Z",
+ "id": "notam-uuwv/2026/H1470",
+ "issued_at": "2026-10-30T14:20:00Z",
+ "last_seen": "2026-10-30T22:27:07Z",
+ "number": "H1470",
+ "positions": [
+  [
+   56.71333,
+   43.50083
+  ],
+  [
+   56.83833,
+   43.5275
+  ],
+  [
+   57.00111,
+   43.72472
+  ],
+  [
+   57.03917,
+   43.72056
+  ],
+  [
+   57.11417,
+   43.18778
+  ],
+  [
+   57.16444,
+   43.22222
+  ],
+  [
+   57.09611,
+   43.66361
+  ],
+  [
+   57.11917,
+   43.80361
+  ],
+  [
+   57.08528,
+   43.8175
+  ],
+  [
+   56.94556,
+   43.76417
+  ],
+  [
+   56.83028,
+   43.59639
+  ],
+  [
+   56.68083,
+   43.57083
+  ],
+  [
+   56.71333,
+   43.50083
+  ],
+  [
+   56.73889,
+   43.5525
+  ],
+  [
+   57.0,
+   43.75
+  ]
+ ],
+ "series": "notam-uuwv",
+ "source": {
+  "fetched_at": "2026-10-30T22:30:13Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "H1470/26 NOTAMN\nQ)UUWV/QRTCA/IV/BO/W/000/030/5655N04324E018\nA)UUWV B)2611040600 C)2611091600\nD)DAILY 0600-1600\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 564248N0433003E-565018N0433139E-570004N0434329E-\n         570221N0434314E-570651N0431116E-570952N0431320E-\n         570546N0433949E-570709N0434813E-570507N0434903E-\n         565644N0434551E-564949N0433547E-564051N0433415E-\n         564248N0433003E,\n   350M AMSL-700M AMSL.\n2. WI CIRCLE RADIUS 2KM CENTRE 564420N0433309E,\n   GND-700M AMSL.\n3. WI CIRCLE RADIUS 2KM CENTRE 570000N0434500E,\n   GND-700M AMSL.\nF)GND  G)700M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,86 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T14:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "firing",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 45.1833,
+   "lon": 26.85,
+   "radius_nm": 1
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-11-06T06:00:00Z",
+  "upper": "12505FT AMSL",
+  "upper_fl": 126
+ },
+ "first_seen": "2026-10-30T22:27:07Z",
+ "id": "notam-lrbb/2026/R5552",
+ "issued_at": "2026-10-30T13:25:00Z",
+ "last_seen": "2026-10-30T22:27:07Z",
+ "number": "R5552",
+ "positions": [
+  [
+   45.18778,
+   26.84472
+  ],
+  [
+   45.18722,
+   26.845
+  ],
+  [
+   45.18639,
+   26.84528
+  ],
+  [
+   45.18583,
+   26.84528
+  ],
+  [
+   45.185,
+   26.84528
+  ],
+  [
+   45.18444,
+   26.845
+  ],
+  [
+   45.18361,
+   26.84444
+  ],
+  [
+   45.18472,
+   26.83889
+  ],
+  [
+   45.18722,
+   26.83861
+  ],
+  [
+   45.18861,
+   26.84417
+  ],
+  [
+   45.18778,
+   26.84472
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-10-30T22:30:13Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "DANGER AREA ACTIVATED.",
+ "text": "R5552/26 NOTAMN\nQ) LRBB/QRDCA/IV/BO /W /000/126/4511N02651E001\nA) LRBB B) 2611060600 C) 2611061400\nE) DANGER AREA ACTIVATED.\n   FRNG AND DEMOLITION OF EXPLOSIVES WILL TAKE PLACE INTO\n   THE FLW AREA:\n   451116N0265041E-451114N0265042E-451111N0265043E-451109N0265043E\n   451106N0265043E-451104N0265042E-451101N0265040E-451105N0265020E\n   451114N0265019E-451119N0265039E-451116N0265041E\n   EXPECT RADAR VECTORING\nF) GND G) 12505FT AMSL",
+ "year": 2026
+}

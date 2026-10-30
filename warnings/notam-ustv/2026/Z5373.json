@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-01T13:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 63.72139,
+    "lon": 66.66833,
+    "radius_nm": 0.38
+   }
+  ],
+  "fir": "USTV",
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 63.7167,
+   "lon": 66.6667,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USTV",
+  "starts_at": "2026-11-01T10:00:00Z",
+  "upper": "150M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-30T22:27:07Z",
+ "id": "notam-ustv/2026/Z5373",
+ "issued_at": "2026-10-30T14:20:00Z",
+ "last_seen": "2026-10-30T22:27:07Z",
+ "number": "Z5373",
+ "positions": [
+  [
+   63.72139,
+   66.66833
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-10-30T22:30:13Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 0.7KM CENTRE 634317N0664006E.",
+ "text": "Z5373/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/010/6343N06640E001\nA)USTV B)2611011000 C)2611011300\nE)AIRSPACE CLSD WI CIRCLE RADIUS 0.7KM CENTRE 634317N0664006E.\nF)SFC  G)150M AMSL",
+ "year": 2026
+}

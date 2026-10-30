@@ -1,0 +1,117 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-05T17:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 64.26722,
+    "lon": 71.01417,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "USTV",
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 64.4167,
+   "lon": 71.1667,
+   "radius_nm": 25
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USTV",
+  "schedule": "DAILY 0300-1700",
+  "starts_at": "2026-11-01T03:00:00Z",
+  "upper": "700M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-30T22:27:07Z",
+ "id": "notam-ustv/2026/Z5391",
+ "issued_at": "2026-10-30T18:27:00Z",
+ "last_seen": "2026-10-30T22:27:07Z",
+ "number": "Z5391",
+ "positions": [
+  [
+   64.37222,
+   70.22111
+  ],
+  [
+   64.29722,
+   70.34417
+  ],
+  [
+   64.21278,
+   70.92194
+  ],
+  [
+   64.40139,
+   72.07056
+  ],
+  [
+   64.45611,
+   72.12222
+  ],
+  [
+   64.53,
+   72.04306
+  ],
+  [
+   64.35389,
+   70.90861
+  ],
+  [
+   64.39778,
+   70.41083
+  ],
+  [
+   64.37222,
+   70.22111
+  ],
+  [
+   64.28944,
+   71.06417
+  ],
+  [
+   64.29333,
+   71.10861
+  ],
+  [
+   64.28639,
+   71.10639
+  ],
+  [
+   64.28194,
+   71.09583
+  ],
+  [
+   64.28139,
+   71.07944
+  ],
+  [
+   64.28472,
+   71.06972
+  ],
+  [
+   64.28944,
+   71.06417
+  ],
+  [
+   64.26722,
+   71.01417
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-10-30T22:30:13Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z5391/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/030/6425N07110E025\nA)USTV B)2611010300 C)2611051700\nD)DAILY 0300-1700\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 642220N0701316E-641750N0702039E-641246N0705519E-\n         642405N0720414E-642722N0720720E-643148N0720235E-\n         642114N0705431E-642352N0702439E-642220N0701316E\n   550M AMSL-700M AMSL.\n2. AREA: 641722N0710351E-641736N0710631E-641711N0710623E-\n         641655N0710545E-641653N0710446E-641705N0710411E-\n         641722N0710351E\n   SFC-700M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 641602N0710051E\n   SFC-700M AMSL.\nF)SFC  G)700M AMSL",
+ "year": 2026
+}

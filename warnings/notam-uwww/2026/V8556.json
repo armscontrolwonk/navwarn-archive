@@ -1,0 +1,151 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-07T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 55.11667,
+    "lon": 52.35,
+    "radius_nm": 0.27
+   },
+   {
+    "lat": 54.8,
+    "lon": 52.0,
+    "radius_nm": 0.27
+   },
+   {
+    "lat": 55.15,
+    "lon": 51.3,
+    "radius_nm": 0.27
+   }
+  ],
+  "fir": "UWWW",
+  "kind": "restricted",
+  "location": "UWWW",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.0,
+   "lon": 51.8,
+   "radius_nm": 27
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UWWW",
+  "schedule": "DAILY 0600-1600",
+  "starts_at": "2026-11-02T06:00:00Z",
+  "upper": "600M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-30T22:27:07Z",
+ "id": "notam-uwww/2026/V8556",
+ "issued_at": "2026-10-30T16:18:00Z",
+ "last_seen": "2026-10-30T22:27:07Z",
+ "number": "V8556",
+ "positions": [
+  [
+   55.21667,
+   51.41667
+  ],
+  [
+   55.03333,
+   51.9
+  ],
+  [
+   54.97944,
+   52.02611
+  ],
+  [
+   54.95,
+   52.08333
+  ],
+  [
+   54.93639,
+   52.13778
+  ],
+  [
+   54.91944,
+   52.13389
+  ],
+  [
+   54.90472,
+   52.1425
+  ],
+  [
+   54.89056,
+   52.15694
+  ],
+  [
+   54.88028,
+   52.18444
+  ],
+  [
+   54.87667,
+   52.21639
+  ],
+  [
+   54.88361,
+   52.26972
+  ],
+  [
+   54.85167,
+   52.34583
+  ],
+  [
+   54.84056,
+   52.40361
+  ],
+  [
+   54.66667,
+   52.31667
+  ],
+  [
+   54.66667,
+   51.91667
+  ],
+  [
+   54.75,
+   51.63333
+  ],
+  [
+   55.05,
+   51.13333
+  ],
+  [
+   55.33333,
+   51.26667
+  ],
+  [
+   55.31667,
+   51.46667
+  ],
+  [
+   55.21667,
+   51.41667
+  ],
+  [
+   55.11667,
+   52.35
+  ],
+  [
+   54.8,
+   52.0
+  ],
+  [
+   55.15,
+   51.3
+  ]
+ ],
+ "series": "notam-uwww",
+ "source": {
+  "fetched_at": "2026-10-30T22:30:13Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "V8556/26 NOTAMN\nQ)UWWW/QRTCA/IV/BO/W/000/020/5500N05148E027\nA)UWWW B)2611020600 C)2611071600\nD)DAILY 0600-1600\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 551300N0512500E-550200N0515400E-545846N0520134E-\n         545700N0520500E-545611N0520816E-545510N0520802E-\n         545417N0520833E-545326N0520925E-545249N0521104E-\n         545236N0521259E-545301N0521611E-545106N0522045E-\n         545026N0522413E-544000N0521900E-544000N0515500E-\n         544500N0513800E-550300N0510800E-552000N0511600E-\n         551900N0512800E-551300N0512500E\n   400M AMSL-600M AMSL.\n2. WI CIRCLE RADIUS 0.5KM CENTRE 550700N0522100E\n3. WI CIRCLE RADIUS 0.5KM CENTRE 544800N0520000E\n4. WI CIRCLE RADIUS 0.5KM CENTRE 550900N0511800E\n   GND-600M AMSL.\nF)GND  G)600M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,105 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-07T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 55.31667,
+    "lon": 53.53333,
+    "radius_nm": 0.27
+   }
+  ],
+  "fir": "UWWW",
+  "kind": "restricted",
+  "location": "UWWW",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.35,
+   "lon": 53.6167,
+   "radius_nm": 10
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UWWW",
+  "schedule": "DAILY 0600-1600",
+  "starts_at": "2026-11-02T06:00:00Z",
+  "upper": "400M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-30T22:27:07Z",
+ "id": "notam-uwww/2026/V8568",
+ "issued_at": "2026-10-30T18:28:00Z",
+ "last_seen": "2026-10-30T22:27:07Z",
+ "number": "V8568",
+ "positions": [
+  [
+   55.28083,
+   53.42167
+  ],
+  [
+   55.36667,
+   53.35
+  ],
+  [
+   55.45,
+   53.58333
+  ],
+  [
+   55.47944,
+   53.69861
+  ],
+  [
+   55.49472,
+   53.75917
+  ],
+  [
+   55.44111,
+   53.81222
+  ],
+  [
+   55.37083,
+   53.90694
+  ],
+  [
+   55.21639,
+   53.61361
+  ],
+  [
+   55.215,
+   53.51694
+  ],
+  [
+   55.22056,
+   53.5075
+  ],
+  [
+   55.21806,
+   53.485
+  ],
+  [
+   55.23111,
+   53.46583
+  ],
+  [
+   55.28083,
+   53.42167
+  ],
+  [
+   55.31667,
+   53.53333
+  ]
+ ],
+ "series": "notam-uwww",
+ "source": {
+  "fetched_at": "2026-10-30T22:30:13Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "V8568/26 NOTAMN\nQ)UWWW/QRTCA/IV/BO/W/000/020/5521N05337E010\nA)UWWW B)2611020600 C)2611071600\nD)DAILY 0600-1600\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 551651N0532518E-552200N0532100E-552700N0533500E-\n         552846N0534155E-552941N0534533E-552628N0534844E-\n         552215N0535425E-551259N0533649E-551254N0533101E-\n         551314N0533027E-551305N0532906E-551352N0532757E-\n         551651N0532518E\n   300M AMSL-400M AMSL.\n2. WI CIRCLE RADIUS 0.5KM CENTRE 551900N0533200E\n   GND-400M AMSL.\nF)GND  G)400M AMSL",
+ "year": 2026
+}
