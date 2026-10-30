@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-23T08:41:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 26.4833,
+   "lon": 128.0,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2142/0841",
+  "shape": "polygon",
+  "starts_at": "2026-11-09T21:42:00Z",
+  "upper": "1379FT AMSL",
+  "upper_fl": 14
+ },
+ "first_seen": "2026-10-30T05:57:36Z",
+ "id": "notam-rjjj/2026/U4096",
+ "issued_at": "2026-10-30T03:41:00Z",
+ "last_seen": "2026-10-30T05:57:36Z",
+ "number": "U4096",
+ "positions": [
+  [
+   26.48611,
+   127.99722
+  ],
+  [
+   26.48361,
+   128.00278
+  ],
+  [
+   26.48,
+   127.99917
+  ],
+  [
+   26.4825,
+   127.99639
+  ],
+  [
+   26.48611,
+   127.99722
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-30T06:01:01Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U4096/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/014/2629N12800E001\nA)RJJJ B)2611092142 C)2612230841\nD)2142/0841\nE)UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n262910N1275950E - 262901N1280010E - 262848N1275957E - 262857N1275947E\n- 262910N1275950E \n(KUNIGAMI-GUN IN OKINAWA)\nWT: 15KG\nNUMBER: 2\nFLT TIME: HJ\nRMK: THIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)1379FT AMSL",
+ "year": 2026
+}

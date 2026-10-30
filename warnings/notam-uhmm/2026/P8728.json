@@ -1,0 +1,74 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-07T23:59:00Z",
+ "extra": {
+  "fir": "UHMM",
+  "kind": "restricted",
+  "location": "UHMM",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 53.1833,
+   "lon": 159.65,
+   "radius_nm": 5
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHMM",
+  "shape": "polygon",
+  "starts_at": "2026-11-02T00:00:00Z",
+  "upper": "1000M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-10-30T05:57:36Z",
+ "id": "notam-uhmm/2026/P8728",
+ "issued_at": "2026-10-30T05:33:00Z",
+ "last_seen": "2026-10-30T05:57:36Z",
+ "number": "P8728",
+ "positions": [
+  [
+   53.20306,
+   159.74694
+  ],
+  [
+   53.14667,
+   159.72194
+  ],
+  [
+   53.10333,
+   159.66861
+  ],
+  [
+   53.15667,
+   159.54528
+  ],
+  [
+   53.22667,
+   159.63028
+  ],
+  [
+   53.21333,
+   159.69194
+  ],
+  [
+   53.22056,
+   159.71861
+  ],
+  [
+   53.20306,
+   159.74694
+  ]
+ ],
+ "series": "notam-uhmm",
+ "source": {
+  "fetched_at": "2026-10-30T06:01:01Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "P8728/26 NOTAMN\nQ)UHMM/QRTCA/IV/BO/W/000/040/5311N15939E005\nA)UHMM B)2611020000 C)2611072359\nE)AIRSPACE CLSD WI AREA:\n531211N1594449E-530848N1594319E-530612N1594007E-530924N1593243E-\n531336N1593749E-531248N1594131E-531314N1594307E-531211N1594449E.\nMANNED ACFT NOT AFFECTED.\nF)GND  G)1000M AMSL",
+ "year": 2026
+}

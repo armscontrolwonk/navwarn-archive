@@ -1,0 +1,91 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T12:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.85,
+   "lon": 140.9333,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0400/1200",
+  "shape": "polygon",
+  "starts_at": "2026-11-09T04:00:00Z",
+  "upper": "982FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-30T05:57:36Z",
+ "id": "notam-rjjj/2026/U4100",
+ "issued_at": "2026-10-30T04:38:00Z",
+ "last_seen": "2026-10-30T05:57:36Z",
+ "number": "U4100",
+ "positions": [
+  [
+   37.8425,
+   140.94556
+  ],
+  [
+   37.8425,
+   140.94528
+  ],
+  [
+   37.84583,
+   140.94417
+  ],
+  [
+   37.84611,
+   140.94444
+  ],
+  [
+   37.8425,
+   140.94556
+  ],
+  [
+   37.8425,
+   140.94417
+  ],
+  [
+   37.84222,
+   140.94417
+  ],
+  [
+   37.84889,
+   140.93639
+  ],
+  [
+   37.84917,
+   140.93639
+  ],
+  [
+   37.84917,
+   140.93667
+  ],
+  [
+   37.8425,
+   140.94417
+  ],
+  [
+   37.84194,
+   140.94583
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-30T06:01:01Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4100/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/010/3751N14056E002\nA)RJJJ B)2611090400 C)2611301200\nD)0400/1200\nE)UNMANNED ACFT:\n(1)AREA: BOUNDED BY FLW POINTS\n375033N1405644E - 375033N1405643E - 375045N1405639E - 375046N1405640E\n- 375033N1405644E \n(2)AREA: BOUNDED BY FLW POINTS\n375033N1405639E - 375032N1405639E - 375056N1405611E - 375057N1405611E\n- 375057N1405612E - 375033N1405639E \n(3)AREA: RADIUS 68M CENTER 375031N1405645E \n(SOMA-GUN IN FUKUSHIMA)\nWT: 1.0KG\nF)SFC G)982FT AMSL",
+ "year": 2026
+}

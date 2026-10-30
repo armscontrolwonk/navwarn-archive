@@ -1,0 +1,74 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-02T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.8167,
+   "lon": 137.45,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-02T00:00:00Z",
+  "upper": "2117FT AMSL",
+  "upper_fl": 22
+ },
+ "first_seen": "2026-10-30T05:57:36Z",
+ "id": "notam-rjjj/2026/U4097",
+ "issued_at": "2026-10-30T04:02:00Z",
+ "last_seen": "2026-10-30T05:57:36Z",
+ "number": "U4097",
+ "positions": [
+  [
+   34.82444,
+   137.45167
+  ],
+  [
+   34.8175,
+   137.45667
+  ],
+  [
+   34.81778,
+   137.46
+  ],
+  [
+   34.82306,
+   137.46139
+  ],
+  [
+   34.82333,
+   137.45917
+  ],
+  [
+   34.82417,
+   137.4575
+  ],
+  [
+   34.82528,
+   137.45694
+  ],
+  [
+   34.82444,
+   137.45167
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-30T06:01:01Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4097/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/022/3449N13727E001\nA)RJJJ B)2611020000 C)2611020700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n344928N1372706E - 344903N1372724E - 344904N1372736E - 344923N1372741E\n- 344924N1372733E - 344927N1372727E - 344931N1372725E -\n344928N1372706E \n(TOYOHASHI-SHI IN AICHI)\nWT: 1.5KG\nF)SFC G)2117FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,79 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-23T08:14:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.85,
+   "lon": 138.15,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2137/0814",
+  "shape": "polygon",
+  "starts_at": "2026-10-31T21:37:00Z",
+  "upper": "4364FT AMSL",
+  "upper_fl": 44
+ },
+ "first_seen": "2026-10-30T05:57:36Z",
+ "id": "notam-rjjj/2026/U4105",
+ "issued_at": "2026-10-30T05:34:00Z",
+ "last_seen": "2026-10-30T05:57:36Z",
+ "number": "U4105",
+ "positions": [
+  [
+   36.85639,
+   138.15472
+  ],
+  [
+   36.85861,
+   138.15667
+  ],
+  [
+   36.85889,
+   138.15694
+  ],
+  [
+   36.85861,
+   138.15722
+  ],
+  [
+   36.85861,
+   138.1575
+  ],
+  [
+   36.85778,
+   138.1575
+  ],
+  [
+   36.85667,
+   138.1575
+  ],
+  [
+   36.85556,
+   138.15667
+  ],
+  [
+   36.85639,
+   138.15472
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-30T06:01:01Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4105/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/044/3651N13809E001\nA)RJJJ B)2610312137 C)2612230814\nD)2137/0814\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n365123N1380917E - 365131N1380924E - 365132N1380925E - 365131N1380926E\n- 365131N1380927E - 365128N1380927E - 365124N1380927E -\n365120N1380924E - 365123N1380917E \n(MYOKO-SHI IN NIIGATA)\nWT: 4.0KG\nFLT TIME: HJ\nRMK: THIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)4364FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-07T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.5167,
+   "lon": 135.6,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-01T00:00:00Z",
+  "upper": "867FT AMSL",
+  "upper_fl": 9
+ },
+ "first_seen": "2026-10-30T05:57:36Z",
+ "id": "notam-rjjj/2026/U4102",
+ "issued_at": "2026-10-30T04:47:00Z",
+ "last_seen": "2026-10-30T05:57:36Z",
+ "number": "U4102",
+ "positions": [
+  [
+   33.52028,
+   135.56111
+  ],
+  [
+   33.50861,
+   135.55917
+  ],
+  [
+   33.50028,
+   135.59083
+  ],
+  [
+   33.49667,
+   135.63306
+  ],
+  [
+   33.51028,
+   135.63333
+  ],
+  [
+   33.52028,
+   135.56111
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-30T06:01:01Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4102/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/009/3331N13536E003\nA)RJJJ B)2611010000 C)2611070800\nD)0000/0800\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n333113N1353340E - 333031N1353333E - 333001N1353527E - 332948N1353759E\n- 333037N1353800E - 333113N1353340E \n(NISHIMURO-GUN IN WAKAYAMA)\nWT: 2.1KG\nCONTACT INFORMATION: 06-6351-7828\nF)SFC G)867FT AMSL",
+ "year": 2026
+}

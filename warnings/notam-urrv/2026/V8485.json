@@ -1,0 +1,118 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-02T15:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 43.60028,
+    "lon": 46.82917,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 43.59806,
+    "lon": 46.83806,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.5667,
+   "lon": 46.8,
+   "radius_nm": 25
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "URRV",
+  "schedule": "DAILY 0500-1500",
+  "starts_at": "2026-10-31T05:00:00Z",
+  "upper": "720M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-30T05:57:36Z",
+ "id": "notam-urrv/2026/V8485",
+ "issued_at": "2026-10-30T04:24:00Z",
+ "last_seen": "2026-10-30T05:57:36Z",
+ "number": "V8485",
+ "positions": [
+  [
+   43.94139,
+   46.75167
+  ],
+  [
+   43.96194,
+   46.86694
+  ],
+  [
+   43.92972,
+   46.88167
+  ],
+  [
+   43.57556,
+   46.9
+  ],
+  [
+   43.17972,
+   46.8325
+  ],
+  [
+   43.16167,
+   46.74917
+  ],
+  [
+   43.51583,
+   46.76417
+  ],
+  [
+   43.59417,
+   46.80056
+  ],
+  [
+   43.81111,
+   46.68417
+  ],
+  [
+   43.81917,
+   46.68389
+  ],
+  [
+   43.82556,
+   46.69889
+  ],
+  [
+   43.80583,
+   46.72778
+  ],
+  [
+   43.83333,
+   46.75917
+  ],
+  [
+   43.94139,
+   46.75167
+  ],
+  [
+   43.60028,
+   46.82917
+  ],
+  [
+   43.59806,
+   46.83806
+  ]
+ ],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-10-30T06:01:01Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "V8485/26 NOTAMN\nQ)URRV/QRTCA/IV/BO/W/000/030/4334N04648E025\nA)URRV B)2610310500 C)2611021500\nD)DAILY 0500-1500\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 435629N0464506E-435743N0465201E-435547N0465254E-\n         433432N0465400E-431047N0464957E-430942N0464457E-\n         433057N0464551E-433539N0464802E-434840N0464103E-\n         434909N0464102E-434932N0464156E-434821N0464340E-\n         435000N0464533E-435629N0464506E,\n   300M AMSL-720M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 433601N0464945E,\n   GND-720M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 433553N0465017E,\n   GND-720M AMSL.\nF)GND  G)720M AMSL",
+ "year": 2026
+}

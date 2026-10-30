@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 24.0,
+   "lon": 122.0,
+   "radius_nm": 10
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-08T16:00:00Z",
+  "upper": "FL200",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-10-30T05:57:36Z",
+ "id": "notam-rcaa/2026/U2803",
+ "issued_at": "2026-10-30T03:14:00Z",
+ "last_seen": "2026-10-30T05:57:36Z",
+ "number": "U2803",
+ "positions": [
+  [
+   24.01306,
+   121.82167
+  ],
+  [
+   24.01306,
+   122.175
+  ],
+  [
+   23.99806,
+   122.175
+  ],
+  [
+   23.99806,
+   121.82167
+  ],
+  [
+   24.01306,
+   121.82167
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-30T06:01:01Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2803/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/200/2400N12200E010\nA) RCAA\nB) 2611081600 C) 2612311600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:M261020000303\n2.LCA:HUALIEN CITY, HUALIEN COUNTY\n3.THE AREA OVERLAPS PART OF CK MIL TRAINING AREA, ACFT ARE CTN ADZ.\n4.COOR TEL:03-8221143, 0921-198668, 0920-300273\n5.AREA AS FLW:\n240047N 1214918E\n240047N 1221030E\n235953N 1221030E\n235953N 1214918E\n240047N 1214918E\nF) SFC G) FL200",
+ "year": 2026
+}

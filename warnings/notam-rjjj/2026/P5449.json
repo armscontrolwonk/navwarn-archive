@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-22T08:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 40.91917,
+    "lon": 139.08,
+    "radius_nm": 10.0
+   }
+  ],
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.9167,
+   "lon": 139.0833,
+   "radius_nm": 10
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/0800",
+  "starts_at": "2026-11-19T22:00:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-10-30T05:57:36Z",
+ "id": "notam-rjjj/2026/P5449",
+ "issued_at": "2026-10-30T02:10:00Z",
+ "last_seen": "2026-10-30T05:57:36Z",
+ "number": "P5449",
+ "positions": [
+  [
+   40.91917,
+   139.08
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-30T06:01:01Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG:",
+ "text": "P5449/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/100/4055N13905E010\nA)RJJJ B)2611192200 C)2611220800\nD)2200/0800\nE)FRNG:\nAREA : WI A RADIUS OF 10NM OF 405509N1390448E\n(W OF TSUGARU-KAIKYO/THE-HIGH-SEAS)\nF)SFC G)10000FT AMSL",
+ "year": 2026
+}
