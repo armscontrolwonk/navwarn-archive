@@ -1,0 +1,105 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-07T12:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 53.64306,
+    "lon": 87.91778,
+    "radius_nm": 0.01
+   }
+  ],
+  "fir": "UNNT",
+  "kind": "restricted",
+  "location": "UNNT",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 53.65,
+   "lon": 87.8833,
+   "radius_nm": 5
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNNT",
+  "schedule": "DAILY 0400-1200",
+  "starts_at": "2026-11-03T04:00:00Z",
+  "upper": "1520M AMSL",
+  "upper_fl": 60
+ },
+ "first_seen": "2026-10-30T13:05:25Z",
+ "id": "notam-unnt/2026/L3289",
+ "issued_at": "2026-10-30T08:48:00Z",
+ "last_seen": "2026-10-30T13:05:25Z",
+ "number": "L3289",
+ "positions": [
+  [
+   53.57806,
+   87.85889
+  ],
+  [
+   53.59194,
+   87.91583
+  ],
+  [
+   53.6225,
+   87.91139
+  ],
+  [
+   53.63583,
+   87.93778
+  ],
+  [
+   53.66028,
+   87.96639
+  ],
+  [
+   53.67222,
+   87.97583
+  ],
+  [
+   53.68667,
+   87.96222
+  ],
+  [
+   53.71556,
+   87.91861
+  ],
+  [
+   53.70361,
+   87.88889
+  ],
+  [
+   53.66361,
+   87.90028
+  ],
+  [
+   53.64472,
+   87.88472
+  ],
+  [
+   53.62222,
+   87.84139
+  ],
+  [
+   53.57806,
+   87.85889
+  ],
+  [
+   53.64306,
+   87.91778
+  ]
+ ],
+ "series": "notam-unnt",
+ "source": {
+  "fetched_at": "2026-10-30T13:09:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "L3289/26 NOTAMN\nQ)UNNT/QRTCA/IV/BO/W/000/060/5339N08753E005\nA)UNNT B)2611030400 C)2611071200\nD)DAILY 0400-1200\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 533441N0875132E-533531N0875457E-533721N0875441E-\n         533809N0875616E-533937N0875759E-534020N0875833E-\n         534112N0875744E-534256N0875507E-534213N0875320E-\n         533949N0875401E-533841N0875305E-533720N0875029E-\n         533441N0875132E\n   280M AMSL-1520M AMSL.\n2. WI CIRCLE RADIUS 0.02KM CENTRE 533835N0875504E\n   GND-460M AMSL.\nF)GND  G)1520M AMSL",
+ "year": 2026
+}

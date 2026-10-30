@@ -1,0 +1,78 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.5,
+   "lon": 136.65,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-10-30T22:30:00Z",
+  "upper": "1641FT AMSL",
+  "upper_fl": 17
+ },
+ "first_seen": "2026-10-30T13:05:25Z",
+ "id": "notam-rjjj/2026/U4118",
+ "issued_at": "2026-10-30T09:15:00Z",
+ "last_seen": "2026-10-30T13:05:25Z",
+ "number": "U4118",
+ "positions": [
+  [
+   35.5025,
+   136.64111
+  ],
+  [
+   35.49889,
+   136.64472
+  ],
+  [
+   35.50167,
+   136.65472
+  ],
+  [
+   35.50444,
+   136.65583
+  ],
+  [
+   35.50556,
+   136.65806
+  ],
+  [
+   35.50778,
+   136.65861
+  ],
+  [
+   35.50917,
+   136.65806
+  ],
+  [
+   35.50444,
+   136.64444
+  ],
+  [
+   35.5025,
+   136.64111
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-30T13:09:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4118/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/017/3530N13639E002\nA)RJJJ B)2610302230 C)2610310700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n353009N1363828E - 352956N1363841E - 353006N1363917E - 353016N1363921E\n- 353020N1363929E - 353028N1363931E - 353033N1363929E -\n353016N1363840E - 353009N1363828E \n(IBI-GUN IN GIFU)\nWT: 2.1KG\nF)SFC G)1641FT AMSL",
+ "year": 2026
+}

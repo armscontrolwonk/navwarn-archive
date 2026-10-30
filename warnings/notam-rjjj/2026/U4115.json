@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-03T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.4,
+   "lon": 140.5,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "03-05 08-12 15-19 23-26 29-DEC 02 2200/0700",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T22:00:00Z",
+  "upper": "1585FT AMSL",
+  "upper_fl": 16
+ },
+ "first_seen": "2026-10-30T13:05:25Z",
+ "id": "notam-rjjj/2026/U4115",
+ "issued_at": "2026-10-30T08:20:00Z",
+ "last_seen": "2026-10-30T13:05:25Z",
+ "number": "U4115",
+ "positions": [
+  [
+   37.41611,
+   140.47667
+  ],
+  [
+   37.40389,
+   140.47333
+  ],
+  [
+   37.39444,
+   140.48167
+  ],
+  [
+   37.39167,
+   140.5075
+  ],
+  [
+   37.40306,
+   140.5075
+  ],
+  [
+   37.4175,
+   140.50056
+  ],
+  [
+   37.42167,
+   140.48667
+  ],
+  [
+   37.41611,
+   140.47667
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-30T13:09:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4115/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/016/3724N14030E002\nA)RJJJ B)2611032200 C)2612030700\nD)03-05 08-12 15-19 23-26 29-DEC 02 2200/0700\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n372458N1402836E - 372414N1402824E - 372340N1402854E - 372330N1403027E\n- 372411N1403027E - 372503N1403002E - 372518N1402912E -\n372458N1402836E \n(TAMURA-GUN IN FUKUSHIMA)\nWT: 2.1KG\nCONTACT INFORMATION: 03-5822-7037\nF)SFC G)1585FT AMSL",
+ "year": 2026
+}

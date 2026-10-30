@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T03:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "drone",
+  "location": "LTBB",
+  "lower": "2500FT AMSL",
+  "lower_fl": 25,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.75,
+   "lon": 27.25,
+   "radius_nm": 5
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTBB",
+  "schedule": "NOV 01 1530-2100, NOV 02-DEC 30 0000-0300 1530-2100, DEC 31 0000-0300",
+  "shape": "polygon",
+  "starts_at": "2026-11-01T15:30:00Z",
+  "upper": "4000FT AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-10-30T13:05:25Z",
+ "id": "notam-ltbb/2026/A4868",
+ "issued_at": "2026-10-30T08:24:00Z",
+ "last_seen": "2026-10-30T13:05:25Z",
+ "number": "A4868",
+ "positions": [
+  [
+   37.82694,
+   27.22611
+  ],
+  [
+   37.81472,
+   27.30889
+  ],
+  [
+   37.76278,
+   27.32944
+  ],
+  [
+   37.67917,
+   27.22944
+  ],
+  [
+   37.7375,
+   27.18056
+  ],
+  [
+   37.82694,
+   27.22611
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-30T13:09:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MINI VTOL UNMANNED ACFT FLT WILL TAKE PLACE WI IZMIR TMA VE EFES ",
+ "text": "A4868/26 NOTAMN\nQ) LTBB/QWULW/IV/BO /W /025/040/3745N02715E005\nA) LTBB B) 2611011530 C) 2612310300\nD) NOV 01 1530-2100, NOV 02-DEC 30 0000-0300 1530-2100, DEC 31  \n0000-0300\nE) MINI VTOL UNMANNED ACFT FLT WILL TAKE PLACE WI IZMIR TMA VE EFES \nCTR.\nAREA: 374937N0271334E 374853N0271832E 374546N0271946E \n374045N0271346E 374415N0271050E 374937N0271334E\nF) 2500FT AMSL G) 4000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,39 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T16:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.6,
+   "lon": 36.8,
+   "radius_nm": 143
+  },
+  "qcode": "QANLC",
+  "queried_fir": "LTAA",
+  "schedule": "01 1000-1500, 02 1300-1600, 03 04 05 0700-1000 1300-1600, 06 1000-1500, 07 0700-1000 1300-1600, 08 09 1000-1500, 10 0700-1000 1300-1600",
+  "starts_at": "2026-11-01T10:00:00Z",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-30T13:05:25Z",
+ "id": "notam-ltaa/2026/A4867",
+ "issued_at": "2026-10-30T08:06:00Z",
+ "last_seen": "2026-10-30T13:05:25Z",
+ "number": "A4867",
+ "positions": [],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-30T13:09:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "SEE NOTAM: A4862/26",
+ "text": "A4867/26 NOTAMN\nQ) LTAA/QANLC/I /NBO/E /000/999/4136N03648E143\nA) LTAA B) 2611011000 C) 2611101600\nD) 01 1000-1500, 02 1300-1600, 03 04 05 0700-1000 1300-1600, 06    \n1000-1500, 07 0700-1000 1300-1600, 08 09 1000-1500, 10 0700-1000    \n1300-1600\nE) SEE NOTAM: A4862/26\nRNAV ROUTES AND SEGMENTS AFFECTED DURING FRNG TEST AS FLW:\n1. AWY L/UL851 KUGOS-TBN SEGMENT CLSD.\n2. AWY M/UM10 ATVAM-GOKPA SEGMENT CLSD.\n3. AWY M/UM859 RUVOM-KARDE SEGMENT CLSD.\nAIRCRAFT THAT ARE GOING TO EXIT VIA ROLIN COULD FOLLOW \nUDROS-DCT-CRM-M/UM11-W/UW71-TEMEL-DCT-ZERGE.\nAIRCRAFT THAT ARE GOING TO EXIT VIA REBLO AND NOLGA COULD FOLLOW \nUDROS-DCT-CRM-M/UM11-TBN .\n4. AWY UM860 KUGOS-CRM SEGMENT CLSD.\n5. AWY N/UN644 INB-FALAZ SEGMENT CLSD.\nAIRCRAFT THAT ARE GOING TO EXIT VIA ROLIN COULD FOLLOW \nMIMTO-DCT-CRM-M/UM11-W/UW71-TEMEL-DCT-ZERGE.\nAIRCRAFT USING THIS ROUTE COULD FOLLOW VIA WESTBOUND ROLIN-DCT-TBN.\n6. AWY T/UT310 OTKOT-SIN SEGMENT CLSD.\n7. AWY UT61 SIN-UVULU SEGMENT CLSD.\nVERTICAL LIMITS: SFC-160000FT AMSL",
+ "year": 2026
+}

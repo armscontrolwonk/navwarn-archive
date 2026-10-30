@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-13T13:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "10000FT AMSL",
+  "lower_fl": 100,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.85,
+   "lon": 32.15,
+   "radius_nm": 12
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "schedule": "02 03 04 1000-1300, 05 1530-1830, 06 09 1000-1300, 10 1000-1300 1530-1830, 11 12 1000-1300",
+  "shape": "polygon",
+  "starts_at": "2026-11-02T10:00:00Z",
+  "upper": "20000FT AMSL",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-10-30T13:05:25Z",
+ "id": "notam-ltaa/2026/A4870",
+ "issued_at": "2026-10-30T09:14:00Z",
+ "last_seen": "2026-10-30T13:05:25Z",
+ "number": "A4870",
+ "positions": [
+  [
+   37.97028,
+   31.99083
+  ],
+  [
+   37.97028,
+   32.32417
+  ],
+  [
+   37.72028,
+   32.32417
+  ],
+  [
+   37.72028,
+   31.99083
+  ],
+  [
+   37.97028,
+   31.99083
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-30T13:09:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXERCISE FLT WILL TAKE PLACE",
+ "text": "A4870/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /100/200/3751N03209E012\nA) LTAA B) 2611021000 C) 2611131300\nD) 02 03 04 1000-1300, 05 1530-1830, 06 09 1000-1300, 10 1000-1300  \n1530-1830, 11 12 1000-1300\nE) EXERCISE FLT WILL TAKE PLACE\nAREA: 375813N0315927E 375813N0321927E 374313N0321927E \n374313N0315927E 375813N0315927E\nWI KONYA MIL TMA\nF) 10000FT AMSL G) 20000FT AMSL",
+ "year": 2026
+}

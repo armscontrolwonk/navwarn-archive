@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T22:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "drone",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.0333,
+   "lon": 23.05,
+   "radius_nm": 9
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-10-31T00:00:00Z",
+  "upper": "1600FT AMSL",
+  "upper_fl": 16
+ },
+ "first_seen": "2026-10-30T13:05:25Z",
+ "id": "notam-lrbb/2026/R5529",
+ "issued_at": "2026-10-30T11:46:00Z",
+ "last_seen": "2026-10-30T13:05:25Z",
+ "number": "R5529",
+ "positions": [
+  [
+   43.96528,
+   22.87833
+  ],
+  [
+   43.95,
+   23.21667
+  ],
+  [
+   44.16778,
+   23.07778
+  ],
+  [
+   44.14167,
+   22.99167
+  ],
+  [
+   44.1025,
+   22.96722
+  ],
+  [
+   43.96528,
+   22.87833
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-10-30T13:09:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "NAVIGATION WARNING.",
+ "text": "R5529/26 NOTAMN\nQ) LRBB/QWULW/IV/BO /W /000/016/4402N02303E009\nA) LRBB B) 2610310000 C) 2610312200\nE) NAVIGATION WARNING.\n   UNMANNED ACFT FLT WILL TAKE PLACE INTO THE FLW AREA:\n   435755N0225242E-435700N0231300E-441004N0230440E-440830N0225930E\n   440609N0225802E-435755N0225242E\nF) GND G) 1600FT AMSL",
+ "year": 2026
+}

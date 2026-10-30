@@ -1,0 +1,125 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T08:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 48.58333,
+    "lon": 133.81667,
+    "radius_nm": 0.16
+   }
+  ],
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 48.4667,
+   "lon": 134.3167,
+   "radius_nm": 24
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "schedule": "DAILY 0000-0800",
+  "starts_at": "2026-11-01T00:00:00Z",
+  "upper": "350M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-30T13:05:25Z",
+ "id": "notam-uhhh/2026/P8753",
+ "issued_at": "2026-10-30T10:04:00Z",
+ "last_seen": "2026-10-30T13:05:25Z",
+ "number": "P8753",
+ "positions": [
+  [
+   48.44389,
+   134.655
+  ],
+  [
+   48.5175,
+   134.61222
+  ],
+  [
+   48.47083,
+   134.765
+  ],
+  [
+   48.33806,
+   134.865
+  ],
+  [
+   48.31972,
+   134.7975
+  ],
+  [
+   48.37833,
+   134.76861
+  ],
+  [
+   48.43,
+   134.70694
+  ],
+  [
+   48.44389,
+   134.655
+  ],
+  [
+   48.58722,
+   133.76528
+  ],
+  [
+   48.59528,
+   133.8275
+  ],
+  [
+   48.53417,
+   133.88333
+  ],
+  [
+   48.54083,
+   134.53389
+  ],
+  [
+   48.51722,
+   134.61222
+  ],
+  [
+   48.44389,
+   134.65528
+  ],
+  [
+   48.47194,
+   134.55
+  ],
+  [
+   48.46917,
+   133.87306
+  ],
+  [
+   48.4925,
+   133.79083
+  ],
+  [
+   48.58722,
+   133.76528
+  ],
+  [
+   48.58333,
+   133.81667
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-10-30T13:09:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P8753/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/020/4828N13419E024\nA)UHHH B)2611010000 C)2611060800\nD)DAILY 0000-0800\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 482638N1343918E-483103N1343644E-482815N1344554E-\n         482017N1345154E-481911N1344751E-482242N1344607E-\n         482548N1344225E-482638N1343918E\n   100M AMSL-290M AMSL.\n2. AREA: 483514N1334555E-483543N1334939E-483203N1335300E-\n         483227N1343202E-483102N1343644E-482638N1343919E-\n         482819N1343300E-482809N1335223E-482933N1334727E-\n         483514N1334555E\n   100M AGL-350M AMSL.\n3. WI CIRCLE RADIUS 0.3KM CENTRE 483500N1334900E\n   GND-350M AMSL.\nF)GND  G)350M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,119 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-08T15:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 58.54528,
+    "lon": 41.62194,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 58.48361,
+    "lon": 41.98111,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 58.75361,
+    "lon": 41.05722,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "UUWV",
+  "kind": "restricted",
+  "location": "UUWV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 58.6167,
+   "lon": 41.85,
+   "radius_nm": 28
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UUWV",
+  "schedule": "03-08 0500-1500",
+  "starts_at": "2026-11-03T05:00:00Z",
+  "upper": "700M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-30T13:05:25Z",
+ "id": "notam-uuwv/2026/H1459",
+ "issued_at": "2026-10-30T10:56:00Z",
+ "last_seen": "2026-10-30T13:05:25Z",
+ "number": "H1459",
+ "positions": [
+  [
+   58.76472,
+   41.00306
+  ],
+  [
+   58.76556,
+   41.08528
+  ],
+  [
+   58.71556,
+   41.21278
+  ],
+  [
+   58.7225,
+   41.29278
+  ],
+  [
+   58.53972,
+   41.6675
+  ],
+  [
+   58.47194,
+   42.68194
+  ],
+  [
+   58.42444,
+   42.62972
+  ],
+  [
+   58.49833,
+   41.60278
+  ],
+  [
+   58.68583,
+   41.26778
+  ],
+  [
+   58.67917,
+   41.18528
+  ],
+  [
+   58.735,
+   41.00694
+  ],
+  [
+   58.76472,
+   41.00306
+  ],
+  [
+   58.54528,
+   41.62194
+  ],
+  [
+   58.48361,
+   41.98111
+  ],
+  [
+   58.75361,
+   41.05722
+  ]
+ ],
+ "series": "notam-uuwv",
+ "source": {
+  "fetched_at": "2026-10-30T13:09:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "H1459/26 NOTAMN\nQ)UUWV/QRTCA/IV/BO/W/000/030/5837N04151E028\nA)UUWV B)2611030500 C)2611081500\nD)03-08 0500-1500\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 584553N0410011E-584556N0410507E-584256N0411246E-\n         584321N0411734E-583223N0414003E-582819N0424055E-\n         582528N0423747E-582954N0413610E-584109N0411604E-\n         584045N0411107E-584406N0410025E-584553N0410011E\n   450M AMSL-700M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 583243N0413719E\n   GND-700M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 582901N0415852E\n   GND-700M AMSL.\n4. WI CIRCLE RADIUS 1KM CENTRE 584513N0410326E\n   GND-700M AMSL.\nF)GND  G)700M AMSL",
+ "year": 2026
+}

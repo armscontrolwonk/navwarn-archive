@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-07T16:55:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 60.02083,
+    "lon": 30.7875,
+    "radius_nm": 1.62
+   },
+   {
+    "lat": 60.02083,
+    "lon": 30.7875,
+    "radius_nm": 1.62
+   }
+  ],
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 60.0167,
+   "lon": 30.7833,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "02-07 0705-1655",
+  "starts_at": "2026-11-02T07:05:00Z",
+  "upper": "900M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-30T13:05:25Z",
+ "id": "notam-ulll/2026/Q0507",
+ "issued_at": "2026-10-30T08:36:00Z",
+ "last_seen": "2026-10-30T13:05:25Z",
+ "number": "Q0507",
+ "positions": [
+  [
+   60.02083,
+   30.7875
+  ],
+  [
+   60.02083,
+   30.7875
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-30T13:09:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Q0507/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/030/6001N03047E001\nA)ULLL B)2611020705 C)2611071655\nD)02-07 0705-1655\nE)AIRSPACE CLSD AS FLW:\n1. WI SECTOR OF CIRCLE RADIUS 3KM CENTRE 600115N0304715E\n   BTN AZM 120-300 DEG.\n   SFC-300M\n2. WI SECTOR OF CIRCLE RADIUS 3KM CENTRE 600115N0304715E\n   BTN AZM 300-120 DEG\n   SFC-900M.\nF)SFC  G)900M AMSL",
+ "year": 2026
+}

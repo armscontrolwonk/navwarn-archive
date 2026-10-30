@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T08:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.5833,
+   "lon": 121.0,
+   "radius_nm": 2
+  },
+  "qcode": "QWELW",
+  "queried_fir": "RCAA",
+  "schedule": "0000-0300 0600-0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-02T00:00:00Z",
+  "upper": "1500FT AMSL",
+  "upper_fl": 15
+ },
+ "first_seen": "2026-10-30T13:05:25Z",
+ "id": "notam-rcaa/2026/A4043",
+ "issued_at": "2026-10-30T09:40:00Z",
+ "last_seen": "2026-10-30T13:05:25Z",
+ "number": "A4043",
+ "positions": [
+  [
+   22.59881,
+   120.996
+  ],
+  [
+   22.58419,
+   121.02064
+  ],
+  [
+   22.56828,
+   121.00333
+  ],
+  [
+   22.59036,
+   120.98719
+  ],
+  [
+   22.59881,
+   120.996
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-10-30T13:09:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "GPS INTERFERENCE EXER WILL TAKE PLACE:",
+ "text": "A4043/26 NOTAMN\nQ) RCAA/QWELW/IV/BO/W/000/015/2235N12100E002\nA) RCAA\nB) 2611020000 C) 2611060800\nD) 0000-0300 0600-0800\nE) GPS INTERFERENCE EXER WILL TAKE PLACE:\n1.DOCUMENT NR: 1150034634\n2.UNMANNED ACFT WILL BE RELEASED.\n3.THE AREA OVERLAPS RCR41, SMALL ACFT VFR CORRIDORS C8,\n  ACFT ARE CTN ADZ.\n4.ALL TRAFFIC IN THE AFFECTED AREA WILL BE SUBJECT TO\n  ATC CLEARANCE.\n5.COOR TEL: 0968-208799\n6.AREA AS FLW:\n223555.7N 1205945.6E\n223503.1N 1210114.3E\n223405.8N 1210012.0E\n223525.3N 1205913.9E\n223555.7N 1205945.6E\nF) SFC G) 1500FT AMSL",
+ "year": 2026
+}

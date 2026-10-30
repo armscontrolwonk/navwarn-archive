@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-03T11:20:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "exercise",
+  "location": "LTBB",
+  "lower": "10000FT AMSL",
+  "lower_fl": 100,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.3333,
+   "lon": 29.25,
+   "radius_nm": 34
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTBB",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T10:00:00Z",
+  "upper": "28000FT AMSL",
+  "upper_fl": 280
+ },
+ "first_seen": "2026-10-30T13:05:25Z",
+ "id": "notam-ltbb/2026/A4872",
+ "issued_at": "2026-10-30T09:24:00Z",
+ "last_seen": "2026-10-30T13:05:25Z",
+ "number": "A4872",
+ "positions": [
+  [
+   39.85,
+   29.0
+  ],
+  [
+   39.85,
+   29.21667
+  ],
+  [
+   39.35,
+   29.5
+  ],
+  [
+   38.83333,
+   29.5
+  ],
+  [
+   38.83333,
+   29.0
+  ],
+  [
+   39.35,
+   29.0
+  ],
+  [
+   39.85,
+   29.0
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-10-30T13:09:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXERCISE WILL TAKE PLACE.",
+ "text": "A4872/26 NOTAMN\nQ) LTBB/QWELW/IV/BO /W /100/280/3920N02915E034\nA) LTBB B) 2611031000 C) 2611031120\nE) EXERCISE WILL TAKE PLACE.\nAREA: 395100N0290000E 395100N0291300E 392100N0293000E  \n385000N0293000E 385000N0290000E 392100N0290000E 395100N0290000E\nF) 10000FT AMSL G) 28000FT AMSL",
+ "year": 2026
+}

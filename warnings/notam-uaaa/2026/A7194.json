@@ -1,0 +1,45 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-01T01:00:00Z",
+ "extra": {
+  "fir": "UAAA",
+  "kind": "restricted",
+  "location": "UAAA",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.85,
+   "lon": 75.55,
+   "radius_nm": 6
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UAAA",
+  "starts_at": "2026-10-31T05:00:00Z",
+  "upper": "5000FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-10-30T13:05:25Z",
+ "id": "notam-uaaa/2026/A7194",
+ "issued_at": "2026-10-30T10:46:00Z",
+ "last_seen": "2026-10-30T13:05:25Z",
+ "number": "A7194",
+ "positions": [
+  [
+   42.84083,
+   75.54528
+  ]
+ ],
+ "series": "notam-uaaa",
+ "source": {
+  "fetched_at": "2026-10-30T13:09:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPORARY RESTRICTED AREA ACTIVATED",
+ "text": "A7194/26 NOTAMN\nQ) UAAA/QRTCA/IV/BO /W /000/050/4251N07533E006\nA) UAAA B) 2610310500 C) 2611010100\nE) TEMPORARY RESTRICTED AREA ACTIVATED\nWI 5 NM RADIUS CENTRED ON 425027N 0753243E.\nF) GND G) 5000FT AMSL",
+ "year": 2026
+}

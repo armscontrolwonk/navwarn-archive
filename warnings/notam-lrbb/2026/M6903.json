@@ -1,0 +1,98 @@
+{
+ "cancels": [],
+ "expires_at": "2026-10-31T15:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "exercise",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 45.4167,
+   "lon": 26.1667,
+   "radius_nm": 122
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-10-31T06:00:00Z",
+  "upper": "FL105",
+  "upper_fl": 105
+ },
+ "first_seen": "2026-10-30T13:05:25Z",
+ "id": "notam-lrbb/2026/M6903",
+ "issued_at": "2026-10-30T11:24:00Z",
+ "last_seen": "2026-10-30T13:05:25Z",
+ "number": "M6903",
+ "positions": [
+  [
+   44.35,
+   28.45
+  ],
+  [
+   44.29917,
+   27.90417
+  ],
+  [
+   45.56278,
+   27.38528
+  ],
+  [
+   45.32139,
+   27.87028
+  ],
+  [
+   45.23778,
+   27.63833
+  ],
+  [
+   45.1175,
+   27.73472
+  ],
+  [
+   45.21667,
+   26.96667
+  ],
+  [
+   46.51667,
+   26.9
+  ],
+  [
+   46.48667,
+   25.59222
+  ],
+  [
+   46.50417,
+   23.88889
+  ],
+  [
+   44.69528,
+   26.97861
+  ],
+  [
+   44.65583,
+   27.65472
+  ],
+  [
+   44.39222,
+   27.72667
+  ],
+  [
+   44.36417,
+   28.48417
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-10-30T13:09:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "NAVIGATION WARNING",
+ "text": "M6903/26 NOTAMN\nQ) LRBB/QWELW/IV/BO /W /000/105/4525N02610E122\nA) LRBB B) 2610310600 C) 2610311500\nE) NAVIGATION WARNING\n   MIL FLT WILL TAKE PLACE INTO AN AREA BOUNDED BY 5NM EITHER SIDE\n   OF A STRAIGHT LINE CONNECTING THE FLW POINT OF COORD:\n   442100N0282700E-441757N0275415E-453346N0272307E-451917N0275213E\n   451416N0273818E-450703N0274405E-451300N0265800E-463100N0265400E\n   462912N0253532E-463015N0235320E-444143N0265843E-443921N0273917E\n   442332N0274336E-442151N0282903E\n   FLT WILL BE COOR BTN CIV AND MIL ATC\nF) GND G) FL105",
+ "year": 2026
+}

@@ -1,0 +1,41 @@
+{
+ "cancels": [
+  "notam-ltaa/2026/A4727"
+ ],
+ "expires_at": "2027-01-27T15:00:00Z",
+ "extra": {
+  "fir": "LTXX",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower_fl": 280,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 38.9833,
+   "lon": 30.9667,
+   "radius_nm": 50
+  },
+  "qcode": "QANLC",
+  "queried_fir": "LTBB",
+  "schedule": "NOV 03 04 10-12 17 18 24-26 DEC 01 02 08-10 15 16 22-24 29 30 JAN 05-07 12 13 19-21 26 27 1200-1500",
+  "starts_at": "2026-10-30T06:30:00Z",
+  "upper_fl": 350
+ },
+ "first_seen": "2026-10-30T13:05:25Z",
+ "id": "notam-ltaa/2026/A4863",
+ "issued_at": "2026-10-30T06:56:00Z",
+ "last_seen": "2026-10-30T13:05:25Z",
+ "number": "A4863",
+ "positions": [],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-30T13:09:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "SEE NOTAM: A4860/26",
+ "text": "A4863/26 NOTAMR A4727/26\nQ) LTXX/QANLC/I /NBO/E /280/350/3859N03058E050\nA) LTAA LTBB B) 2610300630 C) 2701271500\nD) NOV 03 04 10-12 17 18 24-26 DEC 01 02 08-10 15 16 22-24 29 30 JAN \n05-07 12 13 19-21 26 27 1200-1500\nE) SEE NOTAM: A4860/26\nRNAV ROUTES AND SEGMENTS AFFECTED DURING EXERCISE FLIGHT AS FOLLOW:\n\n1- AWY UT244 EDASA-OKMOT SEGMENT CLSD.\n2- AWY UL742 REDNO-OKMOT SEGMENT CLSD.\n\nVERTICAL LIMITS: FL280-FL350",
+ "year": 2026
+}

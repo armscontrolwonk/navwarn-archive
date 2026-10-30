@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-15T19:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.6,
+   "lon": 33.5167,
+   "radius_nm": 21
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LTAA",
+  "schedule": "0300-1900",
+  "shape": "polygon",
+  "starts_at": "2026-11-11T03:00:00Z",
+  "upper": "49000FT AMSL",
+  "upper_fl": 490
+ },
+ "first_seen": "2026-10-30T13:05:25Z",
+ "id": "notam-ltaa/2026/A4869",
+ "issued_at": "2026-10-30T09:11:00Z",
+ "last_seen": "2026-10-30T13:05:25Z",
+ "number": "A4869",
+ "positions": [
+  [
+   38.45611,
+   33.90222
+  ],
+  [
+   38.27167,
+   33.55917
+  ],
+  [
+   38.75306,
+   33.12944
+  ],
+  [
+   38.90639,
+   33.48611
+  ],
+  [
+   38.45611,
+   33.90222
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-30T13:09:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "RMK: AIR TRAFFIC FLOW REGULATION NOTAM SHALL BE ISSUED.",
+ "text": "A4869/26 NOTAMN\nQ) LTAA/QWMLW/IV/BO /W /000/490/3836N03331E021\nA) LTAA B) 2611110300 C) 2611151900\nD) 0300-1900\nE) RMK: AIR TRAFFIC FLOW REGULATION NOTAM SHALL BE ISSUED.\nMISSILE FIRING WILL TAKE PLACE WI AREA (LTTSA-4R): 382722N0335408E \n381618N0333333E 384511N0330746E 385423N0332910E 382722N0335408E\nF) SFC G) 49000FT AMSL",
+ "year": 2026
+}

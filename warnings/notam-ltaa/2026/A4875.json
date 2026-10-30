@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T16:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.3667,
+   "lon": 42.3333,
+   "radius_nm": 3
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LTAA",
+  "schedule": "0400-1600",
+  "shape": "polygon",
+  "starts_at": "2026-11-02T04:00:00Z",
+  "upper": "20000FT AMSL",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-10-30T13:05:25Z",
+ "id": "notam-ltaa/2026/A4875",
+ "issued_at": "2026-10-30T12:31:00Z",
+ "last_seen": "2026-10-30T13:05:25Z",
+ "number": "A4875",
+ "positions": [
+  [
+   37.39278,
+   42.29139
+  ],
+  [
+   37.3275,
+   42.32111
+  ],
+  [
+   37.36361,
+   42.37889
+  ],
+  [
+   37.40778,
+   42.34222
+  ],
+  [
+   37.39278,
+   42.29139
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-10-30T13:09:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MORTAR FIRING WILL TAKE PLACE WI SIRNAK TMA.",
+ "text": "A4875/26 NOTAMN\nQ) LTAA/QWMLW/IV/BO /W /000/200/3722N04220E003\nA) LTAA B) 2611020400 C) 2611201600\nD) 0400-1600\nE) MORTAR FIRING WILL TAKE PLACE WI SIRNAK TMA.\nAREA: 372334N0421729E 371939N0421916E 372149N0422244E \n372428N0422032E 372334N0421729E\nF) SFC G) 20000FT AMSL",
+ "year": 2026
+}

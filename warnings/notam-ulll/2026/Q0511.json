@@ -1,0 +1,106 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-09T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 65.28333,
+    "lon": 52.95,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 65.34139,
+    "lon": 53.07889,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 65.30667,
+    "lon": 53.23722,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 65.4,
+   "lon": 53.2667,
+   "radius_nm": 18
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "starts_at": "2026-11-04T00:00:00Z",
+  "upper": "550M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-30T13:05:25Z",
+ "id": "notam-ulll/2026/Q0511",
+ "issued_at": "2026-10-30T09:10:00Z",
+ "last_seen": "2026-10-30T13:05:25Z",
+ "number": "Q0511",
+ "positions": [
+  [
+   65.36278,
+   52.6575
+  ],
+  [
+   65.48333,
+   52.61667
+  ],
+  [
+   65.55,
+   52.78333
+  ],
+  [
+   65.51667,
+   53.2
+  ],
+  [
+   65.6,
+   53.25
+  ],
+  [
+   65.6,
+   53.36667
+  ],
+  [
+   65.3,
+   53.38333
+  ],
+  [
+   65.19083,
+   53.16611
+  ],
+  [
+   65.36278,
+   52.6575
+  ],
+  [
+   65.28333,
+   52.95
+  ],
+  [
+   65.34139,
+   53.07889
+  ],
+  [
+   65.30667,
+   53.23722
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-10-30T13:09:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Q0511/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/020/6524N05316E018\nA)ULLL B)2611040000 C)2611092359\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 652146N0523927E-652900N0523700E-653300N0524700E-\n         653100N0531200E-653600N0531500E-653600N0532200E-\n         651800N0532300E-651127N0530958E-652146N0523927E\n   350M AMSL-550M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 651700N0525700E\n   SFC-550M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 652029N0530444E\n   SFC-550M AMSL.\n4. WI CIRCLE RADIUS 1KM CENTRE 651824N0531414E\n   SFC-550M AMSL.\nF)SFC  G)550M AMSL",
+ "year": 2026
+}

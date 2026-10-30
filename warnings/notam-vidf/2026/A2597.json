@@ -1,0 +1,44 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-01T11:40:00Z",
+ "extra": {
+  "fir": "VIDF",
+  "kind": "exercise",
+  "location": "VIDF",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 25.2,
+   "lon": 78.4,
+   "radius_nm": 50
+  },
+  "qcode": "QWELW",
+  "queried_fir": "VIDF",
+  "schedule": "0430-0630 0830-1130",
+  "starts_at": "2026-11-01T04:30:00Z",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-10-30T13:05:25Z",
+ "id": "notam-vidf/2026/A2597",
+ "issued_at": "2026-10-30T11:30:00Z",
+ "last_seen": "2026-10-30T13:05:25Z",
+ "number": "A2597",
+ "positions": [
+  [
+   25.20557,
+   78.4075
+  ]
+ ],
+ "series": "notam-vidf",
+ "source": {
+  "fetched_at": "2026-10-30T13:09:18Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MILITARY JAMMING EXERCISE PLANNED AROUND",
+ "text": "A2597/26 NOTAMN\nQ) VIDF/QWELW/IV/BO/W/000/999/2512N07824E050\nA) VIDF B) 2611010430 C) 2611011140\nD) 0430-0630 0830-1130\nE) MILITARY JAMMING EXERCISE PLANNED AROUND\n50NM RADIUS OF COORDINATE 251220.04N0782427.00E.",
+ "year": 2026
+}
