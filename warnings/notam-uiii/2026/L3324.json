@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T23:59:00Z",
+ "extra": {
+  "fir": "UIII",
+  "kind": "route",
+  "location": "UIII",
+  "lower": "FL095",
+  "lower_fl": 95,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 51.65,
+   "lon": 112.1833,
+   "radius_nm": 95
+  },
+  "qcode": "QARLC",
+  "queried_fir": "UIII",
+  "schedule": "02 06 0000-2359",
+  "starts_at": "2026-11-02T00:00:00Z",
+  "upper": "FL230",
+  "upper_fl": 230
+ },
+ "first_seen": "2026-10-31T05:53:27Z",
+ "id": "notam-uiii/2026/L3324",
+ "issued_at": "2026-10-31T05:37:00Z",
+ "last_seen": "2026-10-31T05:53:27Z",
+ "number": "L3324",
+ "positions": [],
+ "series": "notam-uiii",
+ "source": {
+  "fetched_at": "2026-10-31T05:57:14Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FLW ATS RTE SEGMENT CLSD:",
+ "text": "L3324/26 NOTAMN\nQ)UIII/QARLC/IV/NBO/E/095/230/5139N11211E095\nA)UIII B)2611020000 C)2611062359\nD)02 06 0000-2359\nE)FLW ATS RTE SEGMENT CLSD:\nA810 RINOP-AGINO FL095-FL230.\nF)FL095  G)FL230",
+ "year": 2026
+}

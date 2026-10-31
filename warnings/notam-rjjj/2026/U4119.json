@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-05T07:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.6667,
+   "lon": 135.9167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "04 0500/0730 05 0100/0730",
+  "shape": "polygon",
+  "starts_at": "2026-11-04T05:00:00Z",
+  "upper": "1969FT AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-31T05:53:27Z",
+ "id": "notam-rjjj/2026/U4119",
+ "issued_at": "2026-10-31T02:47:00Z",
+ "last_seen": "2026-10-31T05:53:27Z",
+ "number": "U4119",
+ "positions": [
+  [
+   33.67278,
+   135.89556
+  ],
+  [
+   33.66028,
+   135.90194
+  ],
+  [
+   33.64778,
+   135.92194
+  ],
+  [
+   33.65417,
+   135.93361
+  ],
+  [
+   33.66778,
+   135.9125
+  ],
+  [
+   33.67611,
+   135.90222
+  ],
+  [
+   33.67278,
+   135.89556
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-10-31T05:57:14Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U4119/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/020/3340N13555E002\nA)RJJJ B)2611040500 C)2611050730\nD)04 0500/0730 05 0100/0730\nE)UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n334022N1355344E - 333937N1355407E - 333852N1355519E - 333915N1355601E\n- 334004N1355445E - 334034N1355408E - 334022N1355344E \n(HIGASHIMURO-GUN IN WAKAYAMA)\nWT: 7KG\nF)SFC G)1969FT AMSL",
+ "year": 2026
+}

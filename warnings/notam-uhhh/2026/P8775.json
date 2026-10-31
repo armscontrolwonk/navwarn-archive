@@ -1,0 +1,113 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T08:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 47.48333,
+    "lon": 134.73333,
+    "radius_nm": 0.11
+   }
+  ],
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 47.2667,
+   "lon": 134.5667,
+   "radius_nm": 17
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "schedule": "DAILY 0000-0800",
+  "starts_at": "2026-11-01T00:00:00Z",
+  "upper": "490M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-31T05:53:27Z",
+ "id": "notam-uhhh/2026/P8775",
+ "issued_at": "2026-10-30T23:31:00Z",
+ "last_seen": "2026-10-31T05:53:27Z",
+ "number": "P8775",
+ "positions": [
+  [
+   47.50278,
+   134.76639
+  ],
+  [
+   47.46806,
+   134.84139
+  ],
+  [
+   47.36472,
+   134.60139
+  ],
+  [
+   47.22,
+   134.51972
+  ],
+  [
+   47.02528,
+   134.46667
+  ],
+  [
+   47.02722,
+   134.37
+  ],
+  [
+   47.10972,
+   134.42583
+  ],
+  [
+   47.10917,
+   134.34889
+  ],
+  [
+   47.16139,
+   134.35194
+  ],
+  [
+   47.18333,
+   134.42667
+  ],
+  [
+   47.24639,
+   134.45806
+  ],
+  [
+   47.28,
+   134.50167
+  ],
+  [
+   47.395,
+   134.55472
+  ],
+  [
+   47.47056,
+   134.67528
+  ],
+  [
+   47.50278,
+   134.76639
+  ],
+  [
+   47.48333,
+   134.73333
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-10-31T05:57:14Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P8775/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/020/4716N13434E017\nA)UHHH B)2611010000 C)2611060800\nD)DAILY 0000-0800\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 473010N1344559E-472805N1345029E-472153N1343605E-\n         471312N1343111E-470131N1342800E-470138N1342212E-\n         470635N1342533E-470633N1342056E-470941N1342107E-\n         471100N1342536E-471447N1342729E-471648N1343006E-\n         472342N1343317E-472814N1344031E-473010N1344559E\n   130M AMSL-490M AMSL.\n2. WI CIRCLE RADIUS 0.2KM CENTRE 472900N1344400E\n   SFC-400M AMSL.\nF)SFC  G)490M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-01T09:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 69.35444,
+    "lon": 88.41556,
+    "radius_nm": 0.22
+   }
+  ],
+  "fir": "UNKL",
+  "kind": "restricted",
+  "location": "UNKL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 69.35,
+   "lon": 88.4,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNKL",
+  "starts_at": "2026-11-01T03:00:00Z",
+  "upper": "200M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-10-31T05:53:27Z",
+ "id": "notam-unkl/2026/L3323",
+ "issued_at": "2026-10-31T05:37:00Z",
+ "last_seen": "2026-10-31T05:53:27Z",
+ "number": "L3323",
+ "positions": [
+  [
+   69.35444,
+   88.41556
+  ]
+ ],
+ "series": "notam-unkl",
+ "source": {
+  "fetched_at": "2026-10-31T05:57:14Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 0.4KM CENTRE 692116N0882456E.",
+ "text": "L3323/26 NOTAMN\nQ)UNKL/QRTCA/IV/BO/W/000/010/6921N08824E001\nA)UNKL B)2611010300 C)2611010900\nE)AIRSPACE CLSD WI CIRCLE RADIUS 0.4KM CENTRE 692116N0882456E.\nF)GND  G)200M AMSL",
+ "year": 2026
+}
