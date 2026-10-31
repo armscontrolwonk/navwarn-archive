@@ -17,7 +17,7 @@ from ..notam import parse_notam, _faa_date
 NAME = "faa_notam"
 CADENCE_DAYS = None          # hand-fed: never flagged stale
 WITHDRAW_MISSING = False     # an export only covers the FIRs searched; absence means nothing
-PARSER_VERSION = 3          # v2: extra.starts_at; v3: shared parser, kind, schedule, attributed_to
+PARSER_VERSION = 4          # v2: extra.starts_at; v3: shared parser, kind, schedule, attributed_to; v4: extra.areas
 
 M = "{http://schemas.openxmlformats.org/spreadsheetml/2006/main}"
 

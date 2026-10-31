@@ -3,6 +3,7 @@ from __future__ import annotations
 import html, re
 from datetime import datetime, timezone
 from .model import Warning
+from .parse import parse_areas
 
 HEAD_RE = re.compile(r"^\s*([A-Z]\d{4}/\d{2})\s+NOTAM([NRC])(?:\s+([A-Z]\d{4}/\d{2}))?")
 Q_RE = re.compile(r"Q\)\s*([A-Z]{4})/(Q[A-Z]{2,4})/([A-Z ]*)/([A-Z ]*)/([A-Z ]*)/(\d{3})/(\d{3})/"
@@ -66,6 +67,17 @@ def notam_positions(text: str) -> list[list[float]]:
     return out
 
 
+def notam_circles(text: str) -> list[tuple]:
+    """[(lat, lon, radius_nm, (start, end))] for each "RADIUS 2KM CENTRE 570549N0835809E" in the text."""
+    out = []
+    for m in CIRCLE_RE.finditer(text or ""):
+        r, unit, la, lo = m.groups()
+        p = notam_positions(f"{la} {lo}")
+        if p:
+            out.append((p[0][0], p[0][1], round(float(r) / (1.852 if unit.upper() == "KM" else 1), 2), m.span()))
+    return out
+
+
 def parse_notam(loc: str, number: str, issued_at: str | None, text: str, source: dict) -> Warning | None:
     """One ICAO-format NOTAM -> Warning. source = {name, url, raw_path, fetched_at, parser_version}."""
     text = html.unescape(text or "").replace("\r", "").strip()
@@ -102,16 +114,15 @@ def parse_notam(loc: str, number: str, issued_at: str | None, text: str, source:
         extra["attributed_to"] = by.group(1).strip()
     for k, v in FG_RE.findall(text):
         extra["lower" if k == "F" else "upper"] = v.strip()
-    circles = []
-    for r, unit, la, lo in CIRCLE_RE.findall(body):
-        p = notam_positions(f"{la} {lo}")
-        if p:
-            circles.append({"lat": p[0][0], "lon": p[0][1], "radius_nm": round(float(r) / (1.852 if unit.upper() == "KM" else 1), 2)})
+    circles = [{"lat": la, "lon": lo, "radius_nm": r} for la, lo, r, _ in notam_circles(body)]
     if circles:
         extra["circles"] = circles
     positions = notam_positions(body)
     if len(positions) >= 3 and not circles:
         extra["shape"] = "polygon"
+    areas = parse_areas(body, notam_positions, notam_circles)
+    if areas:
+        extra["areas"] = areas
     b, c = B_RE.search(text), C_RE.search(text)
     if b:
         extra["starts_at"] = _yymmddhhmm(b.group(1))

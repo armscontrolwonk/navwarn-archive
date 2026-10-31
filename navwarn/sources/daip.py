@@ -18,7 +18,7 @@ from ..notam import parse_notam
 NAME = "daip"
 BASE = "https://www.daip.jcs.mil/daip/"
 CADENCE_DAYS = 2
-PARSER_VERSION = 1
+PARSER_VERSION = 2          # v2: extra.areas
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CA = os.path.join(HERE, "certs", "dod_ca.pem")
 FIRS = os.path.join(HERE, "daip_firs.txt")
