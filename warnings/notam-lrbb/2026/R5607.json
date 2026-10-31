@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T05:30:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "drone",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 45.0833,
+   "lon": 28.7333,
+   "radius_nm": 17
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "LRBB",
+  "schedule": "DAILY 1730-0530",
+  "shape": "polygon",
+  "starts_at": "2026-10-31T17:30:00Z",
+  "upper": "FL065",
+  "upper_fl": 65
+ },
+ "first_seen": "2026-10-31T12:43:28Z",
+ "id": "notam-lrbb/2026/R5607",
+ "issued_at": "2026-10-31T10:14:00Z",
+ "last_seen": "2026-10-31T12:43:28Z",
+ "number": "R5607",
+ "positions": [
+  [
+   45.29583,
+   28.79361
+  ],
+  [
+   45.0,
+   29.09917
+  ],
+  [
+   44.83278,
+   28.65611
+  ],
+  [
+   44.90667,
+   28.45639
+  ],
+  [
+   45.27889,
+   28.49972
+  ],
+  [
+   45.29583,
+   28.79361
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-10-31T12:47:04Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPORARY RESTRICTED AREA FOR IFR, VFR AND UNMANNED ACFT FLT",
+ "text": "R5607/26 NOTAMN\nQ) LRBB/QRTCA/IV/BO /W /000/065/4505N02844E017\nA) LRBB B) 2610311730 C) 2611300530\nD) DAILY 1730-0530\nE) TEMPORARY RESTRICTED AREA FOR IFR, VFR AND UNMANNED ACFT FLT\n   WILL TAKE PLACE INTO THE FLW AREA:\n   451745N0284737E-450000N0290557E-444958N0283922E-445424N0282723E\n   451644N0282959E-UKRAINIAN BORDER-451745N0284737E\n   EXCEPT STATE, SPECIAL, HUMANITARIAN, SAR, SMURD, AND EMERG FLT\nF) GND G) FL065",
+ "year": 2026
+}

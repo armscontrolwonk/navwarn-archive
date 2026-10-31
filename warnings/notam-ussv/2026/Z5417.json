@@ -1,0 +1,110 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T20:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 56.45667,
+    "lon": 52.75861,
+    "radius_nm": 0.32
+   },
+   {
+    "lat": 56.46667,
+    "lon": 52.68333,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.5167,
+   "lon": 52.5833,
+   "radius_nm": 14
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "02-06 0600-2000",
+  "starts_at": "2026-11-02T06:00:00Z",
+  "upper": "1700M AMSL",
+  "upper_fl": 60
+ },
+ "first_seen": "2026-10-31T12:43:28Z",
+ "id": "notam-ussv/2026/Z5417",
+ "issued_at": "2026-10-31T05:59:00Z",
+ "last_seen": "2026-10-31T12:43:28Z",
+ "number": "Z5417",
+ "positions": [
+  [
+   56.56667,
+   52.2
+  ],
+  [
+   56.58333,
+   52.41667
+  ],
+  [
+   56.51667,
+   52.45
+  ],
+  [
+   56.5,
+   52.4
+  ],
+  [
+   56.48333,
+   52.45
+  ],
+  [
+   56.49806,
+   52.4975
+  ],
+  [
+   56.53333,
+   52.85
+  ],
+  [
+   56.46389,
+   52.97167
+  ],
+  [
+   56.4225,
+   52.28278
+  ],
+  [
+   56.48333,
+   52.28333
+  ],
+  [
+   56.48333,
+   52.2
+  ],
+  [
+   56.56667,
+   52.2
+  ],
+  [
+   56.45667,
+   52.75861
+  ],
+  [
+   56.46667,
+   52.68333
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-10-31T12:47:04Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z5417/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/060/5631N05235E014\nA)USSV B)2611020600 C)2611062000\nD)02-06 0600-2000\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 563400N0521200E-563500N0522500E-563100N0522700E-\n         563000N0522400E-562900N0522700E-562953N0522951E-\n         563200N0525100E-562750N0525818E-562521N0521658E-\n         562900N0521700E-562900N0521200E-563400N0521200E\n   500M AMSL-1700M AMSL.\n2. WI CIRCLE RADIUS 0.6KM CENTRE 562724N0524531E\n   GND-1700M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 562800N0524100E\n   GND-1700M AMSL.\nF)GND  G)1700M AMSL",
+ "year": 2026
+}

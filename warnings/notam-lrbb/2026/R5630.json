@@ -1,0 +1,90 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T23:59:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "restricted",
+  "location": "LRBB",
+  "lower": "FL220",
+  "lower_fl": 220,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 45.7667,
+   "lon": 26.95,
+   "radius_nm": 142
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-11-01T00:00:00Z",
+  "upper": "FL260",
+  "upper_fl": 260
+ },
+ "first_seen": "2026-10-31T12:43:28Z",
+ "id": "notam-lrbb/2026/R5630",
+ "issued_at": "2026-10-31T11:28:00Z",
+ "last_seen": "2026-10-31T12:43:28Z",
+ "number": "R5630",
+ "positions": [
+  [
+   46.5,
+   23.88583
+  ],
+  [
+   47.00111,
+   24.39556
+  ],
+  [
+   47.26917,
+   25.13917
+  ],
+  [
+   47.51472,
+   25.87639
+  ],
+  [
+   47.67222,
+   26.36083
+  ],
+  [
+   47.95167,
+   25.95833
+  ],
+  [
+   46.71944,
+   27.04056
+  ],
+  [
+   46.28944,
+   27.33861
+  ],
+  [
+   45.41639,
+   27.92778
+  ],
+  [
+   45.12722,
+   28.48194
+  ],
+  [
+   44.9925,
+   28.73639
+  ],
+  [
+   44.41278,
+   29.61278
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-10-31T12:47:04Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPORARY RESERVED AREA ACTIVATED.",
+ "text": "R5630/26 NOTAMN\nQ) LRBB/QRTCA/IV/BO /W /220/260/4546N02657E142\nA) LRBB B) 2611010000 C) 2611302359\nE) TEMPORARY RESERVED AREA ACTIVATED.\n   MIL FLT WILL TAKE PLACE INTO AN AREA BOUNDED BY 5NM EITHER SIDE\n   OF A STRAIGHT LINE CONNECTING THE FLW POINT OF COORD:\n   463000N0235309E-470004N0242344E-471609N0250821E-473053N0255235E\n   474020N0262139E-475706N0255730E-464310N0270226E-461722N0272019E\n   452459N0275540E-450738N0282855E-445933N0284411E-442446N0293646E\n   FLT WILL BE COOR BTN CIV AND MIL ATC\n   EXPECT RADAR VECTORING\nF) FL220 G) FL260",
+ "year": 2026
+}

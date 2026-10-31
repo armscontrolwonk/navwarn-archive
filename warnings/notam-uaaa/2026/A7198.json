@@ -1,0 +1,74 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-01T14:00:00Z",
+ "extra": {
+  "fir": "UAAA",
+  "kind": "drone",
+  "location": "UAAA",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.25,
+   "lon": 76.9,
+   "radius_nm": 5
+  },
+  "qcode": "QWULW",
+  "queried_fir": "UAAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-01T02:00:00Z",
+  "upper": "3000FT AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-10-31T12:43:28Z",
+ "id": "notam-uaaa/2026/A7198",
+ "issued_at": "2026-10-31T10:57:00Z",
+ "last_seen": "2026-10-31T12:43:28Z",
+ "number": "A7198",
+ "positions": [
+  [
+   43.30056,
+   76.83583
+  ],
+  [
+   43.28222,
+   76.93611
+  ],
+  [
+   43.26528,
+   76.9875
+  ],
+  [
+   43.25694,
+   76.98944
+  ],
+  [
+   43.25222,
+   76.91139
+  ],
+  [
+   43.21,
+   76.9175
+  ],
+  [
+   43.20972,
+   76.82444
+  ],
+  [
+   43.30056,
+   76.83583
+  ]
+ ],
+ "series": "notam-uaaa",
+ "source": {
+  "fetched_at": "2026-10-31T12:47:04Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL TAKE PLACE",
+ "text": "A7198/26 NOTAMN\nQ) UAAA/QWULW/IV/BO /W /000/030/4315N07654E005\nA) UAAA B) 2611010200 C) 2611011400\nE) UNMANNED ACFT WILL TAKE PLACE\nAREA BOUNDED BY:\n431802N 0765009E - 431656N 0765610E - 431555N 0765915E - \n431525N 0765922E - 431508N 0765441E - 431236N 0765503E - \n431235N 0764928E - 431802N 0765009E\nF) GND G) 3000FT AMSL",
+ "year": 2026
+}

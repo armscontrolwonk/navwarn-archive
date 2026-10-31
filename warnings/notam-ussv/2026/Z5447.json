@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-08T15:30:00Z",
+ "extra": {
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 58.3167,
+   "lon": 52.15,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0530-1530",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T05:30:00Z",
+  "upper": "450M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-10-31T12:43:28Z",
+ "id": "notam-ussv/2026/Z5447",
+ "issued_at": "2026-10-31T11:14:00Z",
+ "last_seen": "2026-10-31T12:43:28Z",
+ "number": "Z5447",
+ "positions": [
+  [
+   58.34111,
+   52.10917
+  ],
+  [
+   58.33,
+   52.23444
+  ],
+  [
+   58.27889,
+   52.19806
+  ],
+  [
+   58.29917,
+   52.07806
+  ],
+  [
+   58.34111,
+   52.10917
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-10-31T12:47:04Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "Z5447/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/020/5819N05209E003\nA)USSV B)2611030530 C)2611081530\nD)DAILY 0530-1530\nE)AIRSPACE CLSD WI AREA:\n582028N0520633E-581948N0521404E-581644N0521153E-\n581757N0520441E-582028N0520633E.\nF)GND  G)450M AMSL",
+ "year": 2026
+}
