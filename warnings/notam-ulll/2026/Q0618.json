@@ -1,0 +1,40 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-09T20:59:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "route",
+  "location": "ULLL",
+  "lower": "350M AMSL",
+  "lower_fl": 10,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 58.5167,
+   "lon": 32.9333,
+   "radius_nm": 50
+  },
+  "qcode": "QARLC",
+  "queried_fir": "ULLL",
+  "starts_at": "2026-11-03T21:00:00Z",
+  "upper": "FL270",
+  "upper_fl": 270
+ },
+ "first_seen": "2026-11-01T17:57:29Z",
+ "id": "notam-ulll/2026/Q0618",
+ "issued_at": "2026-11-01T06:46:00Z",
+ "last_seen": "2026-11-01T17:57:29Z",
+ "number": "Q0618",
+ "positions": [],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-01T18:01:30Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENTS CLSD:",
+ "text": "Q0618/26 NOTAMN\nQ)ULLL/QARLC/IV/NBO/E/010/270/5831N03256E050\nA)ULLL B)2611032100 C)2611092059\nE)ATS RTE SEGMENTS CLSD:\n  KR213 NINGO-SOZIN 400M AMSL-400M AMSL,\n  KR213 SOZIN-USOMA 350M AMSL-800M AMSL,\n  N50   NINGO-TULPA FL055-FL270,\n  P145  ODATI-ROBGA FL265-FL270,\n  T561  ODATI-UDAPI FL135-FL270,\n  T561  UDAPI-INBAP FL055-FL270,\n  T875  ODATI-BOKRU FL195-FL270,\n  T875  BOKRU-DITOT FL055-FL270.\nF)350M AMSL  G)FL270",
+ "year": 2026
+}

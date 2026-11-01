@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-07T18:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 51.66667,
+    "lon": 40.1,
+    "radius_nm": 29.7
+   }
+  ],
+  "fir": "UUWV",
+  "kind": "restricted",
+  "location": "UUWV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 51.6667,
+   "lon": 40.1,
+   "radius_nm": 30
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UUWV",
+  "schedule": "DAILY 0800-1800",
+  "starts_at": "2026-11-02T08:00:00Z",
+  "upper": "350M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-01T17:57:29Z",
+ "id": "notam-uuwv/2026/H1619",
+ "issued_at": "2026-11-01T09:14:00Z",
+ "last_seen": "2026-11-01T17:57:29Z",
+ "number": "H1619",
+ "positions": [
+  [
+   51.66667,
+   40.1
+  ]
+ ],
+ "series": "notam-uuwv",
+ "source": {
+  "fetched_at": "2026-11-01T18:01:30Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI SECTOR BTN AZM 050-060 DEG RADIUS 55KM",
+ "text": "H1619/26 NOTAMN\nQ)UUWV/QRTCA/IV/BO/W/000/020/5140N04006E030\nA)UUWV B)2611020800 C)2611071800\nD)DAILY 0800-1800\nE)AIRSPACE CLSD WI SECTOR BTN AZM 050-060 DEG RADIUS 55KM\nCENTRE 514000N0400600E.\nF)SFC  G)350M AMSL",
+ "year": 2026
+}

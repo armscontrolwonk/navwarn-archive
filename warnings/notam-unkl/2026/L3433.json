@@ -1,0 +1,91 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-05T07:00:00Z",
+ "extra": {
+  "fir": "UNKL",
+  "kind": "restricted",
+  "location": "UNKL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.7833,
+   "lon": 97.6333,
+   "radius_nm": 6
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNKL",
+  "schedule": "DAILY 0200-0700",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T02:00:00Z",
+  "upper": "900M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-01T17:57:29Z",
+ "id": "notam-unkl/2026/L3433",
+ "issued_at": "2026-11-01T13:18:00Z",
+ "last_seen": "2026-11-01T17:57:29Z",
+ "number": "L3433",
+ "positions": [
+  [
+   55.85111,
+   97.53833
+  ],
+  [
+   55.85583,
+   97.54306
+  ],
+  [
+   55.84917,
+   97.56694
+  ],
+  [
+   55.79111,
+   97.62889
+  ],
+  [
+   55.73639,
+   97.68667
+  ],
+  [
+   55.72556,
+   97.72417
+  ],
+  [
+   55.70556,
+   97.71333
+  ],
+  [
+   55.70694,
+   97.70333
+  ],
+  [
+   55.7225,
+   97.7075
+  ],
+  [
+   55.73083,
+   97.67556
+  ],
+  [
+   55.84611,
+   97.55861
+  ],
+  [
+   55.85111,
+   97.53833
+  ]
+ ],
+ "series": "notam-unkl",
+ "source": {
+  "fetched_at": "2026-11-01T18:01:30Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "L3433/26 NOTAMN\nQ)UNKL/QRTCA/IV/BO/W/000/030/5547N09738E006\nA)UNKL B)2611030200 C)2611050700\nD)DAILY 0200-0700\nE)AIRSPACE CLSD WI AREA:\n555104N0973218E-555121N0973235E-555057N0973401E-554728N0973744E-\n554411N0974112E-554332N0974327E-554220N0974248E-554225N0974212E-\n554321N0974227E-554351N0974032E-555046N0973331E-555104N0973218E.\nF)GND  G)900M AMSL",
+ "year": 2026
+}

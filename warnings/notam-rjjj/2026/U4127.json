@@ -1,0 +1,94 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-03T08:15:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.4667,
+   "lon": 132.9833,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-02T22:00:00Z",
+  "upper": "5086FT AMSL",
+  "upper_fl": 51
+ },
+ "first_seen": "2026-11-01T17:57:29Z",
+ "id": "notam-rjjj/2026/U4127",
+ "issued_at": "2026-11-01T08:05:00Z",
+ "last_seen": "2026-11-01T17:57:29Z",
+ "number": "U4127",
+ "positions": [
+  [
+   33.47028,
+   132.97333
+  ],
+  [
+   33.46861,
+   132.97333
+  ],
+  [
+   33.46889,
+   132.975
+  ],
+  [
+   33.46917,
+   132.97722
+  ],
+  [
+   33.46972,
+   132.97944
+  ],
+  [
+   33.46972,
+   132.98167
+  ],
+  [
+   33.47,
+   132.98472
+  ],
+  [
+   33.47278,
+   132.98472
+  ],
+  [
+   33.4725,
+   132.98222
+  ],
+  [
+   33.47278,
+   132.98
+  ],
+  [
+   33.47278,
+   132.97861
+  ],
+  [
+   33.47167,
+   132.97667
+  ],
+  [
+   33.47028,
+   132.97333
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-01T18:01:30Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4127/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/051/3328N13259E002\nA)RJJJ B)2611022200 C)2611030815\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n332813N1325824E - 332807N1325824E - 332808N1325830E - 332809N1325838E\n- 332811N1325846E - 332811N1325854E - 332812N1325905E -\n332822N1325905E - 332821N1325856E - 332822N1325848E - 332822N1325843E\n- 332818N1325836E - 332813N1325824E \n(TAKAOKA-GUN IN KOCHI,KAMIUKENA-GUN IN EHIME)\nWT: 4.0KG\nF)SFC G)5086FT AMSL",
+ "year": 2026
+}

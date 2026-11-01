@@ -1,0 +1,130 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-03T15:00:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 61.8,
+   "lon": 50.7,
+   "radius_nm": 11
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T08:30:00Z",
+  "upper": "170M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-01T17:57:29Z",
+ "id": "notam-ulll/2026/Q0616",
+ "issued_at": "2026-11-01T06:35:00Z",
+ "last_seen": "2026-11-01T17:57:29Z",
+ "number": "Q0616",
+ "positions": [
+  [
+   61.73333,
+   50.77306
+  ],
+  [
+   61.70194,
+   50.78833
+  ],
+  [
+   61.7375,
+   50.77139
+  ],
+  [
+   61.74694,
+   50.73833
+  ],
+  [
+   61.7825,
+   50.73972
+  ],
+  [
+   61.75722,
+   50.73778
+  ],
+  [
+   61.74722,
+   50.73833
+  ],
+  [
+   61.74361,
+   50.74861
+  ],
+  [
+   61.73722,
+   50.77056
+  ],
+  [
+   61.70667,
+   50.78611
+  ],
+  [
+   61.69222,
+   50.78361
+  ],
+  [
+   61.69,
+   50.78806
+  ],
+  [
+   61.67361,
+   50.77556
+  ],
+  [
+   61.66806,
+   50.78472
+  ],
+  [
+   61.6675,
+   50.78583
+  ],
+  [
+   61.65333,
+   50.79222
+  ],
+  [
+   61.66111,
+   50.7875
+  ],
+  [
+   61.64083,
+   50.80028
+  ],
+  [
+   61.84889,
+   50.6825
+  ],
+  [
+   61.86028,
+   50.6775
+  ],
+  [
+   61.95528,
+   50.61694
+  ],
+  [
+   61.96361,
+   50.60694
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-01T18:01:30Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Q0616/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/010/6148N05042E011\nA)ULLL B)2611030830 C)2611031500\nE)AIRSPACE CLSD AS FLW:\n1. WI 0.25KM EITHER SIDE OF LINE JOINING POINTS:\n   614400N0504623E-614207N0504718E-614415N0504617E-614449N0504418E-\n   614657N0504423E-614526N0504416E-614450N0504418E-614437N0504455E-\n   614414N0504614E-614224N0504710E-614132N0504701E-614124N0504717E-\n   614025N0504632E-614005N0504705E-614003N0504709E-613912N0504732E-\n   613940N0504715E-613827N0504801E.\n   GND-170M AMSL.\n2. WI 0.25KM EITHER SIDE OF LINE JOINING POINTS:\n   615056N0504057E-615137N0504039E.\n   GND-170M AMSL.\n3. WI 0.25KM EITHER SIDE OF LINE JOINING POINTS:\n   615719N0503701E-615749N0503625E.\n   GND-170M AMSL.\nF)GND  G)170M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-09T20:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 58.00333,
+    "lon": 33.32972,
+    "radius_nm": 16.2
+   }
+  ],
+  "fir": "UUWV",
+  "kind": "restricted",
+  "location": "UUWV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 58.0,
+   "lon": 33.3167,
+   "radius_nm": 17
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UUWV",
+  "starts_at": "2026-11-03T21:00:00Z",
+  "upper": "FL270",
+  "upper_fl": 270
+ },
+ "first_seen": "2026-11-01T17:57:29Z",
+ "id": "notam-uuwv/2026/H1604",
+ "issued_at": "2026-11-01T07:10:00Z",
+ "last_seen": "2026-11-01T17:57:29Z",
+ "number": "H1604",
+ "positions": [
+  [
+   58.00333,
+   33.32972
+  ]
+ ],
+ "series": "notam-uuwv",
+ "source": {
+  "fetched_at": "2026-11-01T18:01:30Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 30KM CENTRE 580012N0331947E.",
+ "text": "H1604/26 NOTAMN\nQ)UUWV/QRTCA/IV/BO/W/000/270/5800N03319E017\nA)UUWV B)2611032100 C)2611092059\nE)AIRSPACE CLSD WI CIRCLE RADIUS 30KM CENTRE 580012N0331947E.\nFLW FLT NOT AFFECTED:\n- STATE AVIATION,\n- VIP FLT AND ACFT FOR THEIR SUPPORT.\nF)GND  G)FL270",
+ "year": 2026
+}

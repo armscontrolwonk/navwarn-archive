@@ -1,0 +1,114 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 57.80306,
+    "lon": 54.45917,
+    "radius_nm": 2.16
+   },
+   {
+    "lat": 57.78222,
+    "lon": 54.55611,
+    "radius_nm": 1.08
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 57.9667,
+   "lon": 54.3167,
+   "radius_nm": 16
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0400-1600",
+  "starts_at": "2026-11-05T04:00:00Z",
+  "upper": "1000M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-11-01T17:57:29Z",
+ "id": "notam-ussv/2026/Z5518",
+ "issued_at": "2026-11-01T07:35:00Z",
+ "last_seen": "2026-11-01T17:57:29Z",
+ "number": "Z5518",
+ "positions": [
+  [
+   57.84306,
+   54.36028
+  ],
+  [
+   57.89556,
+   53.8775
+  ],
+  [
+   57.94333,
+   53.8925
+  ],
+  [
+   57.87528,
+   54.49667
+  ],
+  [
+   58.01583,
+   54.73139
+  ],
+  [
+   58.07444,
+   54.66472
+  ],
+  [
+   58.09194,
+   54.70667
+  ],
+  [
+   58.03833,
+   54.77417
+  ],
+  [
+   57.84306,
+   54.67083
+  ],
+  [
+   57.84139,
+   54.62222
+  ],
+  [
+   57.75139,
+   54.59111
+  ],
+  [
+   57.75944,
+   54.33667
+  ],
+  [
+   57.84306,
+   54.36028
+  ],
+  [
+   57.80306,
+   54.45917
+  ],
+  [
+   57.78222,
+   54.55611
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-01T18:01:30Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z5518/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/040/5758N05419E016\nA)USSV B)2611050400 C)2611101600\nD)DAILY 0400-1600\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 575035N0542137E-575344N0535239E-575636N0535333E-\n         575231N0542948E-580057N0544353E-580428N0543953E-\n         580531N0544224E-580218N0544627E-575035N0544015E-\n         575029N0543720E-574505N0543528E-574534N0542012E-\n         575035N0542137E\n   500M AMSL-1000M AMSL.\n2. WI CIRCLE RADIUS 4KM CENTRE 574811N0542733E\n   GND-1000M AMSL.\n3. WI CIRCLE RADIUS 2KM CENTRE 574656N0543322E\n   GND-1000M AMSL.\nF)GND  G)1000M AMSL",
+ "year": 2026
+}
