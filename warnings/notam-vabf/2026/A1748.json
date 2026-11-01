@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-09T10:30:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "exercise",
+  "location": "VABF",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 18.75,
+   "lon": 72.1167,
+   "radius_nm": 67
+  },
+  "qcode": "QWELW",
+  "queried_fir": "VABF",
+  "schedule": "02,05 AND 09 NOV BTN 0830-1030",
+  "shape": "polygon",
+  "starts_at": "2026-11-02T08:30:00Z",
+  "upper": "15000FT AMSL",
+  "upper_fl": 150
+ },
+ "first_seen": "2026-11-01T06:18:04Z",
+ "id": "notam-vabf/2026/A1748",
+ "issued_at": "2026-11-01T05:03:00Z",
+ "last_seen": "2026-11-01T06:18:04Z",
+ "number": "A1748",
+ "positions": [
+  [
+   19.51667,
+   73.0
+  ],
+  [
+   19.51667,
+   71.23333
+  ],
+  [
+   18.0,
+   71.23333
+  ],
+  [
+   18.0,
+   73.0
+  ],
+  [
+   19.51667,
+   73.0
+  ]
+ ],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-11-01T06:20:42Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "INDIAN NAVAL SAR IMAGERY EXER WILL BE CARRIED OUT IN ",
+ "text": "A1748/26 NOTAMN\nQ) VABF/QWELW/IV/NBO/W/000/150/1845N07207E067\nA) VABF B) 2611020830 C) 2611091030\nD) 02,05 AND 09 NOV BTN 0830-1030\nE) INDIAN NAVAL SAR IMAGERY EXER WILL BE CARRIED OUT IN \n   AREA BOUNDED BY COORD \n   1931N 07300E-1931N 07114E-1800N 07114E-\n   1800N 07300E-1931N 07300E\nF) SFC G) 15000FT AMSL",
+ "year": 2026
+}

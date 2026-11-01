@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-07T09:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 26.1833,
+   "lon": 127.2333,
+   "radius_nm": 7
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2130/0900",
+  "shape": "polygon",
+  "starts_at": "2026-11-01T21:30:00Z",
+  "upper": "985FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-01T06:18:04Z",
+ "id": "notam-rjjj/2026/U4123",
+ "issued_at": "2026-11-01T00:25:00Z",
+ "last_seen": "2026-11-01T06:18:04Z",
+ "number": "U4123",
+ "positions": [
+  [
+   26.265,
+   127.21194
+  ],
+  [
+   26.08694,
+   127.21194
+  ],
+  [
+   26.08833,
+   127.26778
+  ],
+  [
+   26.26444,
+   127.26778
+  ],
+  [
+   26.265,
+   127.21194
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-01T06:20:42Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4123/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/010/2611N12714E007\nA)RJJJ B)2611012130 C)2611070900\nD)2130/0900\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n261554N1271243E - 260513N1271243E - 260518N1271604E - 261552N1271604E\n- 261554N1271243E \n(SHIMAJIRI-GUN IN OKINAWA)\nWT: 1KG\nNUMBER: 3\nF)SFC G)985FT AMSL",
+ "year": 2026
+}
