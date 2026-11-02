@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T08:21:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.0,
+   "lon": 138.1,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2109/0821",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T21:09:00Z",
+  "upper": "2041FT AMSL",
+  "upper_fl": 21
+ },
+ "first_seen": "2026-11-02T21:45:20Z",
+ "id": "notam-rjjj/2026/U4143",
+ "issued_at": "2026-11-02T06:22:00Z",
+ "last_seen": "2026-11-02T21:45:20Z",
+ "number": "U4143",
+ "positions": [
+  [
+   34.98139,
+   138.09472
+  ],
+  [
+   34.98139,
+   138.09583
+  ],
+  [
+   35.0025,
+   138.09667
+  ],
+  [
+   35.00222,
+   138.09556
+  ],
+  [
+   34.98139,
+   138.09472
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-02T21:48:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4143/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/021/3500N13806E002\nA)RJJJ B)2611032109 C)2611060821\nD)2109/0821\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n345853N1380541E - 345853N1380545E - 350009N1380548E - 350008N1380544E\n- 345853N1380541E \n(HAIBARA-GUN IN SHIZUOKA)\nWT: 149.9KG\nFLT TIME: HJ\nF)SFC G)2041FT AMSL",
+ "year": 2026
+}

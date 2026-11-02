@@ -1,0 +1,45 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-03T03:00:00Z",
+ "extra": {
+  "fir": "RKRR",
+  "kind": "restricted",
+  "location": "RKRR",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.1667,
+   "lon": 126.9167,
+   "radius_nm": 6
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "RKRR",
+  "starts_at": "2026-11-03T01:30:00Z",
+  "upper": "10000FT AGL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-02T21:45:20Z",
+ "id": "notam-rkrr/2026/E5184",
+ "issued_at": "2026-11-02T10:42:00Z",
+ "last_seen": "2026-11-02T21:45:20Z",
+ "number": "E5184",
+ "positions": [
+  [
+   35.15889,
+   126.92444
+  ]
+ ],
+ "series": "notam-rkrr",
+ "source": {
+  "fetched_at": "2026-11-02T21:48:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO RESTRICTED AREA ACT AS FLW",
+ "text": "E5184/26 NOTAMN  \nQ)RKRR/QRTCA/IV/BO/W/000/100/3510N12655E006\nA)RKRR B)2611030130 C)2611030300\nE)TEMPO RESTRICTED AREA ACT AS FLW\nA CIRCLE RADIUS 5NM CENTERED ON 350932N1265528E\n- RMK : EXC SKED CIV ACF, EMERGENCY ACFT, SEARCH AND RESCUE ACFT\nF)SFC G)10000FT AGL",
+ "year": 2026
+}

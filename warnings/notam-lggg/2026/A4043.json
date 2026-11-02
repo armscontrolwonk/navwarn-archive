@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-11T15:00:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "firing",
+  "location": "LGGG",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.8,
+   "lon": 20.65,
+   "radius_nm": 2
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LGGG",
+  "schedule": "10 0600-2000, 11 0600-1500",
+  "shape": "polygon",
+  "starts_at": "2026-11-10T06:00:00Z",
+  "upper": "9000FT AMSL",
+  "upper_fl": 90
+ },
+ "first_seen": "2026-11-02T21:45:20Z",
+ "id": "notam-lggg/2026/A4043",
+ "issued_at": "2026-11-02T07:15:00Z",
+ "last_seen": "2026-11-02T21:45:20Z",
+ "number": "A4043",
+ "positions": [
+  [
+   39.81667,
+   20.61667
+  ],
+  [
+   39.81667,
+   20.66667
+  ],
+  [
+   39.78333,
+   20.66667
+  ],
+  [
+   39.78333,
+   20.61667
+  ],
+  [
+   39.81667,
+   20.61667
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-11-02T21:48:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FIRING ACTIVITIES WILL TAKE PLACE WI PENTALONI ZITSA NW",
+ "text": "A4043/26 NOTAMN\nQ) LGGG/QWMLW/IV/BO /W /000/090/3948N02039E002\nA) LGGG B) 2611100600 C) 2611111500\nD) 10 0600-2000, 11 0600-1500\nE) FIRING ACTIVITIES WILL TAKE PLACE WI PENTALONI ZITSA NW\nIOANNINA AREA AS FLW:\n394900N 0203700E - 394900N 0204000E - 394700N 0204000E\n394700N 0203700E - 394900N 0203700E.\n-IOANNINA/KING PYRROS TMA/CTR AFFECTED.\nF) SFC G) 9000FT AMSL",
+ "year": 2026
+}

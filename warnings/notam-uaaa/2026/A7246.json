@@ -1,0 +1,45 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-03T11:20:00Z",
+ "extra": {
+  "fir": "UAAA",
+  "kind": "restricted",
+  "location": "UAAA",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 46.1667,
+   "lon": 80.8167,
+   "radius_nm": 27
+  },
+  "qcode": "QRMCA",
+  "queried_fir": "UAAA",
+  "starts_at": "2026-11-03T08:00:00Z",
+  "upper": "FL300",
+  "upper_fl": 300
+ },
+ "first_seen": "2026-11-02T21:45:20Z",
+ "id": "notam-uaaa/2026/A7246",
+ "issued_at": "2026-11-02T18:37:00Z",
+ "last_seen": "2026-11-02T21:45:20Z",
+ "number": "A7246",
+ "positions": [
+  [
+   46.16667,
+   80.81667
+  ]
+ ],
+ "series": "notam-uaaa",
+ "source": {
+  "fetched_at": "2026-11-02T21:48:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL OPR AREA ACTIVATED",
+ "text": "A7246/26 NOTAMN\nQ) UAAA/QRMCA/IV/BO /W /000/300/4610N08049E027\nA) UAAA B) 2611030800 C) 2611031120\nE) MIL OPR AREA ACTIVATED\nWI 27 NM RADIUS CENTRED ON 461000N 0804900E\nF) GND G) FL300",
+ "year": 2026
+}

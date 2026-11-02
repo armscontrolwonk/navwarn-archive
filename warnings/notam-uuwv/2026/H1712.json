@@ -1,0 +1,134 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-09T17:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 58.37861,
+    "lon": 40.6675,
+    "radius_nm": 0.05
+   },
+   {
+    "lat": 58.33361,
+    "lon": 40.67222,
+    "radius_nm": 0.05
+   }
+  ],
+  "fir": "UUWV",
+  "kind": "restricted",
+  "location": "UUWV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 58.3667,
+   "lon": 40.6833,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UUWV",
+  "schedule": "04-09 0600-1700",
+  "starts_at": "2026-11-04T06:00:00Z",
+  "upper": "700M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-02T21:45:20Z",
+ "id": "notam-uuwv/2026/H1712",
+ "issued_at": "2026-11-02T11:36:00Z",
+ "last_seen": "2026-11-02T21:45:20Z",
+ "number": "H1712",
+ "positions": [
+  [
+   58.38583,
+   40.65861
+  ],
+  [
+   58.38639,
+   40.67667
+  ],
+  [
+   58.3775,
+   40.67611
+  ],
+  [
+   58.37778,
+   40.69444
+  ],
+  [
+   58.36861,
+   40.69472
+  ],
+  [
+   58.36889,
+   40.72861
+  ],
+  [
+   58.35917,
+   40.72889
+  ],
+  [
+   58.35917,
+   40.71222
+  ],
+  [
+   58.33278,
+   40.71333
+  ],
+  [
+   58.33194,
+   40.66028
+  ],
+  [
+   58.34056,
+   40.66
+  ],
+  [
+   58.34139,
+   40.67694
+  ],
+  [
+   58.35,
+   40.67639
+  ],
+  [
+   58.35028,
+   40.66139
+  ],
+  [
+   58.36806,
+   40.65889
+  ],
+  [
+   58.36833,
+   40.64222
+  ],
+  [
+   58.37639,
+   40.64222
+  ],
+  [
+   58.38583,
+   40.65861
+  ],
+  [
+   58.37861,
+   40.6675
+  ],
+  [
+   58.33361,
+   40.67222
+  ]
+ ],
+ "series": "notam-uuwv",
+ "source": {
+  "fetched_at": "2026-11-02T21:48:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "H1712/26 NOTAMN\nQ)UUWV/QRTCA/IV/BO/W/000/030/5822N04041E002\nA)UUWV B)2611040600 C)2611091700\nD)04-09 0600-1700\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 582309N0403931E-582311N0404036E-582239N0404034E-\n         582240N0404140E-582207N0404141E-582208N0404343E-\n         582133N0404344E-582133N0404244E-581958N0404248E-\n         581955N0403937E-582026N0403936E-582029N0404037E-\n         582100N0404035E-582101N0403941E-582205N0403932E-\n         582206N0403832E-582235N0403832E-582309N0403931E\n   200M AMSL-700M AMSL.\n2. WI CIRCLE RADIUS 0.1KM CENTRE 582243N0404003E\n   SFC-700M AMSL.\n3. WI CIRCLE RADIUS 0.1KM CENTRE 582001N0404020E\n   SFC-700M AMSL.\nF)SFC  G)700M AMSL",
+ "year": 2026
+}

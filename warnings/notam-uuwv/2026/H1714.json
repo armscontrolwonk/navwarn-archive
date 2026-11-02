@@ -1,0 +1,110 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-09T17:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 57.91917,
+    "lon": 38.08306,
+    "radius_nm": 0.05
+   },
+   {
+    "lat": 57.8875,
+    "lon": 38.06611,
+    "radius_nm": 0.05
+   }
+  ],
+  "fir": "UUWV",
+  "kind": "restricted",
+  "location": "UUWV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 57.9167,
+   "lon": 38.05,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UUWV",
+  "schedule": "04-09 0600-1700",
+  "starts_at": "2026-11-04T06:00:00Z",
+  "upper": "600M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-02T21:45:20Z",
+ "id": "notam-uuwv/2026/H1714",
+ "issued_at": "2026-11-02T12:06:00Z",
+ "last_seen": "2026-11-02T21:45:20Z",
+ "number": "H1714",
+ "positions": [
+  [
+   57.93889,
+   38.0225
+  ],
+  [
+   57.93944,
+   38.05972
+  ],
+  [
+   57.92306,
+   38.06056
+  ],
+  [
+   57.92222,
+   38.09472
+  ],
+  [
+   57.91222,
+   38.11056
+  ],
+  [
+   57.9025,
+   38.10944
+  ],
+  [
+   57.89333,
+   38.09222
+  ],
+  [
+   57.88389,
+   38.07556
+  ],
+  [
+   57.88389,
+   38.04139
+  ],
+  [
+   57.89389,
+   38.02556
+  ],
+  [
+   57.92056,
+   38.02278
+  ],
+  [
+   57.93889,
+   38.0225
+  ],
+  [
+   57.91917,
+   38.08306
+  ],
+  [
+   57.8875,
+   38.06611
+  ]
+ ],
+ "series": "notam-uuwv",
+ "source": {
+  "fetched_at": "2026-11-02T21:48:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "H1714/26 NOTAMN\nQ)UUWV/QRTCA/IV/BO/W/000/020/5755N03803E002\nA)UUWV B)2611040600 C)2611091700\nD)04-09 0600-1700\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 575620N0380121E-575622N0380335E-575523N0380338E-\n         575520N0380541E-575444N0380638E-575409N0380634E-\n         575336N0380532E-575302N0380432E-575302N0380229E-\n         575338N0380132E-575514N0380122E-575620N0380121E\n   100M AMSL-600M AMSL.\n2. WI CIRCLE RADIUS 0.1KM CENTRE 575509N0380459E\n   SFC-600M AMSL.\n3. WI CIRCLE RADIUS 0.1KM CENTRE 575315N0380358E\n   SFC-600M AMSL.\nF)SFC  G)600M AMSL",
+ "year": 2026
+}

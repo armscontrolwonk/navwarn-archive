@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T14:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "other",
+  "location": "LTAA",
+  "lower": "24000FT AMSL",
+  "lower_fl": 240,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.3667,
+   "lon": 35.3667,
+   "radius_nm": 44
+  },
+  "qcode": "QWFLW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-30T10:30:00Z",
+  "upper": "27000FT AMSL",
+  "upper_fl": 270
+ },
+ "first_seen": "2026-11-02T21:45:20Z",
+ "id": "notam-ltaa/2026/A4898",
+ "issued_at": "2026-11-02T07:07:00Z",
+ "last_seen": "2026-11-02T21:45:20Z",
+ "number": "A4898",
+ "positions": [
+  [
+   37.71667,
+   34.58333
+  ],
+  [
+   37.71667,
+   36.13333
+  ],
+  [
+   37.03333,
+   36.13333
+  ],
+  [
+   37.03333,
+   34.58333
+  ],
+  [
+   37.71667,
+   34.58333
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-02T21:48:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIR REFUELLING WILL TAKE PLACE WI ADANA MIL TMA: 374300N0343500E ",
+ "text": "A4898/26 NOTAMN\nQ) LTAA/QWFLW/IV/M  /W /240/270/3722N03522E044\nA) LTAA B) 2611301030 C) 2611301400\nE) AIR REFUELLING WILL TAKE PLACE WI ADANA MIL TMA: 374300N0343500E \n374300N0360800E 370200N0360800E 370200N0343500E 374300N0343500E\nF) 24000FT AMSL G) 27000FT AMSL",
+ "year": 2026
+}

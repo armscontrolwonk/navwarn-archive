@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-23T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.1667,
+   "lon": 138.25,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0700",
+  "shape": "polygon",
+  "starts_at": "2026-11-09T00:00:00Z",
+  "upper": "525FT AMSL",
+  "upper_fl": 6
+ },
+ "first_seen": "2026-11-02T21:45:20Z",
+ "id": "notam-rjjj/2026/U4146",
+ "issued_at": "2026-11-02T06:56:00Z",
+ "last_seen": "2026-11-02T21:45:20Z",
+ "number": "U4146",
+ "positions": [
+  [
+   37.16167,
+   138.24667
+  ],
+  [
+   37.16028,
+   138.24639
+  ],
+  [
+   37.16,
+   138.24833
+  ],
+  [
+   37.16194,
+   138.24833
+  ],
+  [
+   37.16167,
+   138.24667
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-02T21:48:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4146/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/006/3710N13815E001\nA)RJJJ B)2611090000 C)2612230700\nD)0000/0700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n370942N1381448E - 370937N1381447E - 370936N1381454E - 370943N1381454E\n- 370942N1381448E \n(JOETSU-SHI IN NIIGATA)\nWT: 1.0KG\nRMK: THIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)525FT AMSL",
+ "year": 2026
+}

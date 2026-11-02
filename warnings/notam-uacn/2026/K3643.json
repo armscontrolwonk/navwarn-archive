@@ -1,0 +1,86 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-03T03:30:00Z",
+ "extra": {
+  "fir": "UACN",
+  "kind": "restricted",
+  "location": "UACN",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 49.1833,
+   "lon": 74.1667,
+   "radius_nm": 38
+  },
+  "qcode": "QRPCA",
+  "queried_fir": "UACN",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T02:30:00Z",
+  "upper": "FL290",
+  "upper_fl": 290
+ },
+ "first_seen": "2026-11-02T21:45:20Z",
+ "id": "notam-uacn/2026/K3643",
+ "issued_at": "2026-11-02T17:05:00Z",
+ "last_seen": "2026-11-02T21:45:20Z",
+ "number": "K3643",
+ "positions": [
+  [
+   49.66889,
+   74.49361
+  ],
+  [
+   49.66667,
+   74.76667
+  ],
+  [
+   49.56667,
+   74.9
+  ],
+  [
+   49.51667,
+   74.85
+  ],
+  [
+   48.7,
+   73.78333
+  ],
+  [
+   48.7,
+   73.58333
+  ],
+  [
+   48.75,
+   73.55
+  ],
+  [
+   48.93083,
+   73.50639
+  ],
+  [
+   49.06222,
+   74.00611
+  ],
+  [
+   49.36722,
+   74.39083
+  ],
+  [
+   49.66889,
+   74.49361
+  ]
+ ],
+ "series": "notam-uacn",
+ "source": {
+  "fetched_at": "2026-11-02T21:48:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "PROHIBITED AREA ACTIVATED",
+ "text": "K3643/26 NOTAMN\nQ) UACN/QRPCA/IV/NBO/W /000/290/4911N07410E038\nA) UACN B) 2611030230 C) 2611030330\nE) PROHIBITED AREA ACTIVATED\nAREA BOUNDED BY:\n494008N 0742937E - 494000N 0744600E - 493400N 0745400E - \n493100N 0745100E - 484200N 0734700E - 484200N 0733500E - \n484500N 0733300E - 485551N 0733023E - 490344N 0740022E - \n492202N 0742327E - 494008N 0742937E\nF) GND G) FL290",
+ "year": 2026
+}

@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T13:00:00Z",
+ "extra": {
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "10M AMSL",
+  "notam_type": "new",
+  "queried_fir": "USTV",
+  "shape": "polygon",
+  "starts_at": "2026-11-06T05:00:00Z",
+  "upper": "100M AMSL"
+ },
+ "first_seen": "2026-11-02T21:45:20Z",
+ "id": "notam-ustv/2026/Z5593",
+ "issued_at": "2026-11-02T07:20:00Z",
+ "last_seen": "2026-11-02T21:45:20Z",
+ "number": "Z5593",
+ "positions": [
+  [
+   66.6425,
+   77.36111
+  ],
+  [
+   66.64472,
+   77.38083
+  ],
+  [
+   66.69,
+   77.34222
+  ],
+  [
+   66.68639,
+   77.30611
+  ],
+  [
+   66.6425,
+   77.36111
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-11-02T21:48:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "Z5593/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/010\nA)USTV B)2611060500 C)2611061300\nE)AIRSPACE CLSD WI AREA:\n663833N0772140E-663841N0772251E-664124N0772032E-\n664111N0771822E-663833N0772140E.\nF)10M AMSL  G)100M AMSL",
+ "year": 2026
+}

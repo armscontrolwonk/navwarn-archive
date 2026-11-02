@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-13T13:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "firing",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.5833,
+   "lon": 28.5667,
+   "radius_nm": 14
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LTBB",
+  "schedule": "05-08 13 0900-1300",
+  "shape": "polygon",
+  "starts_at": "2026-11-05T09:00:00Z",
+  "upper": "1500FT AMSL",
+  "upper_fl": 15
+ },
+ "first_seen": "2026-11-02T21:45:20Z",
+ "id": "notam-ltbb/2026/A4905",
+ "issued_at": "2026-11-02T12:26:00Z",
+ "last_seen": "2026-11-02T21:45:20Z",
+ "number": "A4905",
+ "positions": [
+  [
+   36.69722,
+   28.54722
+  ],
+  [
+   36.4875,
+   28.80417
+  ],
+  [
+   36.41833,
+   28.73611
+  ],
+  [
+   36.69722,
+   28.36667
+  ],
+  [
+   36.69722,
+   28.54722
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-11-02T21:48:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "GUN FIRING WILL TAKE PLACE WI DALAMAN TMA",
+ "text": "A4905/26 NOTAMN\nQ) LTBB/QWMLW/IV/BO /W /000/015/3635N02834E014\nA) LTBB B) 2611050900 C) 2611131300\nD) 05-08 13 0900-1300\nE) GUN FIRING WILL TAKE PLACE WI DALAMAN TMA\nAREA: 364150N0283250E 362915N0284815E 362506N0284410E \n364150N0282200E 364150N0283250E\nF) SFC G) 1500FT AMSL",
+ "year": 2026
+}

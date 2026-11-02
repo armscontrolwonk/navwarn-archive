@@ -1,0 +1,48 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-23T14:10:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "rocket",
+  "location": "RPHI",
+  "lower_fl": 140,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 12.1167,
+   "lon": 115.4167,
+   "radius_nm": 90
+  },
+  "qcode": "QANLC",
+  "queried_fir": "RPHI",
+  "schedule": "1030-1410",
+  "starts_at": "2026-11-20T10:30:00Z",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-02T21:45:20Z",
+ "id": "notam-rphi/2026/B5910",
+ "issued_at": "2026-11-02T16:09:00Z",
+ "last_seen": "2026-11-02T21:45:20Z",
+ "number": "B5910",
+ "positions": [
+  [
+   12.5,
+   116.91667
+  ],
+  [
+   12.0,
+   116.36667
+  ]
+ ],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-11-02T21:48:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "RNAV RTE CLSD WI MANILA FIR:",
+ "text": "B5910/26 NOTAMN\nQ) RPHI/QANLC/I /NBO/E /140/999/1207N11525E090\nA) RPHI B) 2611201030 C) 2611231410\nD) 1030-1410\nE) RNAV RTE CLSD WI MANILA FIR:\nM754 (NOBEN - LULBU)\nM765 (PANDI - NOBEN)\nDUE SPECIAL OPS (AEROSPACE FLT ACT).\n\nALTN RTE:\nNOBEN DCT 123000N 1165500E DCT LULBU - VICE VERSA\nPANDI DCT 120000N 1162200E DCT REKEL - VICE VERSA",
+ "year": 2026
+}

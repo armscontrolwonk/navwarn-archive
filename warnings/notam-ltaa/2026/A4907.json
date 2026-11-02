@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-03T20:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "other",
+  "location": "LTAA",
+  "lower": "22000FT AMSL",
+  "lower_fl": 220,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.4333,
+   "lon": 38.3,
+   "radius_nm": 46
+  },
+  "qcode": "QWFLW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T17:30:00Z",
+  "upper": "27000FT AMSL",
+  "upper_fl": 270
+ },
+ "first_seen": "2026-11-02T21:45:20Z",
+ "id": "notam-ltaa/2026/A4907",
+ "issued_at": "2026-11-02T12:39:00Z",
+ "last_seen": "2026-11-02T21:45:20Z",
+ "number": "A4907",
+ "positions": [
+  [
+   39.09444,
+   37.45278
+  ],
+  [
+   39.66667,
+   37.75
+  ],
+  [
+   39.75,
+   39.16667
+  ],
+  [
+   39.02306,
+   38.7225
+  ],
+  [
+   39.09444,
+   37.45278
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-02T21:48:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIR REFUELLING WILL TAKE PLACE WI: 390540N0372710E ",
+ "text": "A4907/26 NOTAMN\nQ) LTAA/QWFLW/IV/M  /W /220/270/3926N03818E046\nA) LTAA B) 2611031730 C) 2611032000\nE) AIR REFUELLING WILL TAKE PLACE WI: 390540N0372710E \n394000N0374500E 394500N0391000E 390123N0384321E 390540N0372710E\nF) 22000FT AMSL G) 27000FT AMSL",
+ "year": 2026
+}

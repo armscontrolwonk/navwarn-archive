@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-27T15:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "FL280",
+  "lower_fl": 280,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.8,
+   "lon": 31.6333,
+   "radius_nm": 32
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "schedule": "NOV 03 04 10-12 17 18 24-26 1200-1500, DEC 01 02 08-10 15 16 22-24 29 30 1200-1500, JAN 05-07 12 13 19-21 26 27 1200-1500",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T12:00:00Z",
+  "upper": "FL350",
+  "upper_fl": 350
+ },
+ "first_seen": "2026-11-02T21:45:20Z",
+ "id": "notam-ltaa/2026/A4912",
+ "issued_at": "2026-11-02T15:40:00Z",
+ "last_seen": "2026-11-02T21:45:20Z",
+ "number": "A4912",
+ "positions": [
+  [
+   39.18972,
+   32.03083
+  ],
+  [
+   39.1725,
+   32.06444
+  ],
+  [
+   38.3,
+   31.49333
+  ],
+  [
+   38.52056,
+   31.12889
+  ],
+  [
+   38.83972,
+   30.98306
+  ],
+  [
+   39.18972,
+   32.03083
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-02T21:48:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXERCISE WILL TAKE PLACE WI: 391123N0320151E 391021N0320352E ",
+ "text": "A4912/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /280/350/3848N03138E032\nA) LTAA B) 2611031200 C) 2701271500\nD) NOV 03 04 10-12 17 18 24-26 1200-1500, DEC 01 02 08-10 15 16 \n22-24 29 30 1200-1500, JAN 05-07 12 13 19-21 26 27 1200-1500\nE) EXERCISE WILL TAKE PLACE WI: 391123N0320151E 391021N0320352E \n381800N0312936E 383114N0310744E 385023N0305859E 391123N0320151E\nRMK: AIR FLOW REGULATION NOTAM WILL BE ISSUED.\n\nREF AIP SUP 09/26\nF) FL280 G) FL350",
+ "year": 2026
+}

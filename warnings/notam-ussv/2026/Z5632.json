@@ -1,0 +1,169 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-14T13:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 60.15556,
+    "lon": 59.99139,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 59.80306,
+    "lon": 59.98722,
+    "radius_nm": 0.59
+   },
+   {
+    "lat": 59.77944,
+    "lon": 60.49278,
+    "radius_nm": 0.43
+   },
+   {
+    "lat": 59.60528,
+    "lon": 60.43694,
+    "radius_nm": 0.32
+   },
+   {
+    "lat": 59.28889,
+    "lon": 61.28306,
+    "radius_nm": 1.51
+   },
+   {
+    "lat": 58.74167,
+    "lon": 61.91778,
+    "radius_nm": 0.86
+   },
+   {
+    "lat": 58.72,
+    "lon": 61.79944,
+    "radius_nm": 1.84
+   },
+   {
+    "lat": 59.07361,
+    "lon": 59.86556,
+    "radius_nm": 0.97
+   },
+   {
+    "lat": 58.16833,
+    "lon": 59.68583,
+    "radius_nm": 2.7
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 59.1667,
+   "lon": 59.8333,
+   "radius_nm": 70
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0400-1300",
+  "starts_at": "2026-11-10T04:00:00Z",
+  "upper": "400M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-02T21:45:20Z",
+ "id": "notam-ussv/2026/Z5632",
+ "issued_at": "2026-11-02T13:06:00Z",
+ "last_seen": "2026-11-02T21:45:20Z",
+ "number": "Z5632",
+ "positions": [
+  [
+   60.15611,
+   59.99139
+  ],
+  [
+   59.99944,
+   59.66444
+  ],
+  [
+   59.8025,
+   59.98694
+  ],
+  [
+   59.77972,
+   60.49194
+  ],
+  [
+   59.60528,
+   60.43778
+  ],
+  [
+   59.28917,
+   61.28056
+  ],
+  [
+   58.74056,
+   61.91861
+  ],
+  [
+   58.71972,
+   61.79833
+  ],
+  [
+   59.07528,
+   59.8625
+  ],
+  [
+   58.375,
+   60.03444
+  ],
+  [
+   58.16583,
+   59.68361
+  ],
+  [
+   60.15556,
+   59.99139
+  ],
+  [
+   59.80306,
+   59.98722
+  ],
+  [
+   59.77944,
+   60.49278
+  ],
+  [
+   59.60528,
+   60.43694
+  ],
+  [
+   59.28889,
+   61.28306
+  ],
+  [
+   58.74167,
+   61.91778
+  ],
+  [
+   58.72,
+   61.79944
+  ],
+  [
+   59.07361,
+   59.86556
+  ],
+  [
+   58.16833,
+   59.68583
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-02T21:48:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z5632/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/020/5910N05950E070\nA)USSV B)2611100400 C)2611141300\nD)DAILY 0400-1300\nE)AIRSPACE CLSD AS FLW:\n1. WI 0.5KM EITHER SIDE OF LINE JOINING POINTS:\n   600922N0595929E-595958N0593952E-594809N0595913E-594647N0602931E-\n   593619N0602616E-591721N0611650E-584426N0615507E-584311N0614754E-\n   590431N0595145E-582230N0600204E-580957N0594101E.\n   GND-400M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 600920N0595929E\n   GND-400M AMSL.\n3. WI CIRCLE RADIUS 1.1KM CENTRE 594811N0595914E\n   GND-400M AMSL.\n4. WI CIRCLE RADIUS 0.8KM CENTRE 594646N0602934E\n   GND-400M AMSL.\n5. WI CIRCLE RADIUS 0.6KM CENTRE 593619N0602613E\n   GND-400M AMSL.\n6. WI CIRCLE RADIUS 2.8KM CENTRE 591720N0611659E\n   GND-400M AMSL.\n7. WI CIRCLE RADIUS 1.6KM CENTRE 584430N0615504E\n   GND-400M AMSL.\n8. WI CIRCLE RADIUS 3.4KM CENTRE 584312N0614758E\n   GND-400M AMSL.\n9. WI CIRCLE RADIUS 1.8KM CENTRE 590425N0595156E\n   GND-400M AMSL.\n10. WI CIRCLE RADIUS 5KM CENTRE 581006N0594109E\n   GND-400M AMSL.\nF)GND  G)400M AMSL",
+ "year": 2026
+}

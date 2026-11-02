@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-11T21:00:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "firing",
+  "location": "LGGG",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.75,
+   "lon": 23.3,
+   "radius_nm": 4
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LGGG",
+  "schedule": "DAILY 0600-2100",
+  "shape": "polygon",
+  "starts_at": "2026-11-10T06:00:00Z",
+  "upper": "7000FT AMSL",
+  "upper_fl": 70
+ },
+ "first_seen": "2026-11-02T21:45:20Z",
+ "id": "notam-lggg/2026/A4036",
+ "issued_at": "2026-11-02T06:25:00Z",
+ "last_seen": "2026-11-02T21:45:20Z",
+ "number": "A4036",
+ "positions": [
+  [
+   40.76861,
+   23.25389
+  ],
+  [
+   40.7725,
+   23.33306
+  ],
+  [
+   40.72861,
+   23.35861
+  ],
+  [
+   40.70833,
+   23.30472
+  ],
+  [
+   40.76861,
+   23.25389
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-11-02T21:48:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FIRING ACTIVITIES WILL TAKE PLACE WI ASKOS PROFITIS AREA AS FLW: ",
+ "text": "A4036/26 NOTAMN\nQ) LGGG/QWMLW/IV/BO /W /000/070/4045N02318E004\nA) LGGG B) 2611100600 C) 2611112100\nD) DAILY 0600-2100\nE) FIRING ACTIVITIES WILL TAKE PLACE WI ASKOS PROFITIS AREA AS FLW: \n404607N 0231514E - 404621N 0231959E - 404343N 0232131E -\n404230N 0231817E - 404607N 0231514E.\n-MAKEDONIA TMA AFFECTED.\nF) SFC G) 7000FT AMSL",
+ "year": 2026
+}

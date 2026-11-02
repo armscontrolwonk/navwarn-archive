@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-03T12:00:00Z",
+ "extra": {
+  "fir": "UAAA",
+  "kind": "restricted",
+  "location": "UAAA",
+  "lower": "FL250",
+  "lower_fl": 250,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 47.4667,
+   "lon": 81.7833,
+   "radius_nm": 105
+  },
+  "qcode": "QRMCA",
+  "queried_fir": "UAAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T08:00:00Z",
+  "upper": "FL300",
+  "upper_fl": 300
+ },
+ "first_seen": "2026-11-02T21:45:20Z",
+ "id": "notam-uaaa/2026/A7245",
+ "issued_at": "2026-11-02T17:37:00Z",
+ "last_seen": "2026-11-02T21:45:20Z",
+ "number": "A7245",
+ "positions": [
+  [
+   46.33333,
+   79.91667
+  ],
+  [
+   48.75,
+   83.5
+  ],
+  [
+   48.33333,
+   84.0
+  ],
+  [
+   46.33333,
+   80.6
+  ],
+  [
+   46.33333,
+   79.91667
+  ]
+ ],
+ "series": "notam-uaaa",
+ "source": {
+  "fetched_at": "2026-11-02T21:48:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL OPR AREA ACTIVATED",
+ "text": "A7245/26 NOTAMN\nQ) UAAA/QRMCA/IV/BO /W /250/300/4728N08147E105\nA) UAAA B) 2611030800 C) 2611031200\nE) MIL OPR AREA ACTIVATED\nAREA BOUNDED BY:\n462000N 0795500E - 484500N 0833000E - 482000N 0840000E - 462000N \n0803600E - 462000N 0795500E\nF) FL250 G) FL300",
+ "year": 2026
+}

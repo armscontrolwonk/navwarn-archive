@@ -1,0 +1,83 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-05T07:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.6667,
+   "lon": 135.9167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "04 0000/0730 05 0100/0730",
+  "shape": "polygon",
+  "starts_at": "2026-11-04T00:00:00Z",
+  "upper": "1018FT AMSL",
+  "upper_fl": 11
+ },
+ "first_seen": "2026-11-02T21:45:20Z",
+ "id": "notam-rjjj/2026/U4148",
+ "issued_at": "2026-11-02T08:06:00Z",
+ "last_seen": "2026-11-02T21:45:20Z",
+ "number": "U4148",
+ "positions": [
+  [
+   33.64889,
+   135.92444
+  ],
+  [
+   33.65361,
+   135.89861
+  ],
+  [
+   33.67111,
+   135.89583
+  ],
+  [
+   33.67417,
+   135.89806
+  ],
+  [
+   33.67417,
+   135.89944
+  ],
+  [
+   33.67222,
+   135.90389
+  ],
+  [
+   33.66778,
+   135.91083
+  ],
+  [
+   33.65222,
+   135.92583
+  ],
+  [
+   33.64972,
+   135.92583
+  ],
+  [
+   33.64889,
+   135.92444
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-02T21:48:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT(FIXED WING):",
+ "text": "U4148/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/011/3340N13555E002\nA)RJJJ B)2611040000 C)2611050730\nD)04 0000/0730 05 0100/0730\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n333856N1355528E - 333913N1355355E - 334016N1355345E - 334027N1355353E\n- 334027N1355358E - 334020N1355414E - 334004N1355439E -\n333908N1355533E - 333859N1355533E - 333856N1355528E \n(HIGASHIMURO-GUN IN WAKAYAMA)\nWT: 7KG\nCONTACT INFORMATION: 090-1701-9674\nF)SFC G)1018FT AMSL",
+ "year": 2026
+}

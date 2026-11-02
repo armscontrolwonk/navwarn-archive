@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-03T11:30:00Z",
+ "extra": {
+  "fir": "UACN",
+  "kind": "restricted",
+  "location": "UACN",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 49.0333,
+   "lon": 74.4167,
+   "radius_nm": 20
+  },
+  "qcode": "QRPCA",
+  "queried_fir": "UACN",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T04:30:00Z",
+  "upper": "FL210",
+  "upper_fl": 210
+ },
+ "first_seen": "2026-11-02T21:45:20Z",
+ "id": "notam-uacn/2026/K3649",
+ "issued_at": "2026-11-02T17:15:00Z",
+ "last_seen": "2026-11-02T21:45:20Z",
+ "number": "K3649",
+ "positions": [
+  [
+   49.20306,
+   74.83222
+  ],
+  [
+   48.74333,
+   74.20861
+  ],
+  [
+   49.02917,
+   73.925
+  ],
+  [
+   49.34611,
+   74.38056
+  ],
+  [
+   49.20306,
+   74.83222
+  ]
+ ],
+ "series": "notam-uacn",
+ "source": {
+  "fetched_at": "2026-11-02T21:48:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "PROHIBITED AREA ACTIVATED",
+ "text": "K3649/26 NOTAMN\nQ) UACN/QRPCA/IV/NBO/W /000/210/4902N07425E020\nA) UACN B) 2611030430 C) 2611031130\nE) PROHIBITED AREA ACTIVATED\n491211N 0744956E - 484436N 0741231E - 490145N 0735530E -\n492046N 0742250E - 491211N 0744956E\nF) GND G) FL210",
+ "year": 2026
+}

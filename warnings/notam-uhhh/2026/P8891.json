@@ -1,0 +1,90 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-08T07:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 46.84972,
+    "lon": 142.8875,
+    "radius_nm": 0.05
+   },
+   {
+    "lat": 46.77028,
+    "lon": 142.91417,
+    "radius_nm": 0.05
+   }
+  ],
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 46.8167,
+   "lon": 142.9,
+   "radius_nm": 4
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "schedule": "03 2100-2359, 04-07 0000-0700 2100-2359, 08 0000-0700",
+  "starts_at": "2026-11-03T21:00:00Z",
+  "upper": "500M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-02T21:45:20Z",
+ "id": "notam-uhhh/2026/P8891",
+ "issued_at": "2026-11-02T09:16:00Z",
+ "last_seen": "2026-11-02T21:45:20Z",
+ "number": "P8891",
+ "positions": [
+  [
+   46.85861,
+   142.86778
+  ],
+  [
+   46.82611,
+   142.96667
+  ],
+  [
+   46.79833,
+   142.96361
+  ],
+  [
+   46.76389,
+   142.93722
+  ],
+  [
+   46.76611,
+   142.86306
+  ],
+  [
+   46.81167,
+   142.82806
+  ],
+  [
+   46.85861,
+   142.86778
+  ],
+  [
+   46.84972,
+   142.8875
+  ],
+  [
+   46.77028,
+   142.91417
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-11-02T21:48:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P8891/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/020/4649N14254E004\nA)UHHH B)2611032100 C)2611080700\nD)03 2100-2359, 04-07 0000-0700 2100-2359, 08 0000-0700\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 465131N1425204E-464934N1425800E-464754N1425749E-\n         464550N1425614E-464558N1425147E-464842N1424941E-\n         465131N1425204E\n   150M AMSL-500M AMSL.\n2. WI CIRCLE RADIUS 0.1KM CENTRE 465059N1425315E\n   GND-500M AMSL.\n3. WI CIRCLE RADIUS 0.1KM CENTRE 464613N1425451E\n   GND-500M AMSL.\nF)GND  G)500M AMSL",
+ "year": 2026
+}

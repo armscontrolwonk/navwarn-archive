@@ -1,0 +1,55 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T15:59:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 2.9333,
+   "lon": 101.3,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "DLY 1600-1559",
+  "shape": "polygon",
+  "starts_at": "2026-11-10T16:00:00Z",
+  "upper": "500FT AGL",
+  "upper_fl": 5
+ },
+ "first_seen": "2026-11-02T21:45:20Z",
+ "id": "notam-wmfc/2026/A4344",
+ "issued_at": "2026-11-02T10:14:00Z",
+ "last_seen": "2026-11-02T21:45:20Z",
+ "number": "A4344",
+ "positions": [
+  [
+   2.90417,
+   101.28
+  ],
+  [
+   2.96417,
+   101.315
+  ],
+  [
+   2.98222,
+   101.33444
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-11-02T21:48:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI THE FLW COORD:",
+ "text": "A4344/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/005/0256N10118E002\nA) WMFC B) 2611101600 C) 2612311559 \nD)DLY 1600-1559\nE)UA ACT WILL TAKE PLACE WI THE FLW COORD:\n\n   025415.00N 1011648.00E - 025751.00N 1011854.00E -\n   025856.00N 1012004.00E\n   \n(WESTPORTS MALAYSIA,KLANG,SELANGOR)\n \n \nF) SFC                             G) 500FT AGL",
+ "year": 2026
+}

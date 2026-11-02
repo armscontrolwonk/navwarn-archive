@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T13:00:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "firing",
+  "location": "LGGG",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.8667,
+   "lon": 25.8333,
+   "radius_nm": 1
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LGGG",
+  "schedule": "16 0600-1600,17 0600-2000,18 0600-2000,19 0600-1600,20 0600-1300",
+  "shape": "polygon",
+  "starts_at": "2026-11-16T06:00:00Z",
+  "upper": "7000FT AMSL",
+  "upper_fl": 70
+ },
+ "first_seen": "2026-11-02T21:45:20Z",
+ "id": "notam-lggg/2026/A4044",
+ "issued_at": "2026-11-02T07:41:00Z",
+ "last_seen": "2026-11-02T21:45:20Z",
+ "number": "A4044",
+ "positions": [
+  [
+   40.865,
+   25.81944
+  ],
+  [
+   40.87389,
+   25.81944
+  ],
+  [
+   40.87389,
+   25.83111
+  ],
+  [
+   40.865,
+   25.83111
+  ],
+  [
+   40.865,
+   25.81944
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-11-02T21:48:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXER WO FIRING WILL TAKE PLACE AT AETOS ALEXANDROUPOLIS AREA AS ",
+ "text": "A4044/26 NOTAMN\nQ) LGGG/QWELW/IV/BO /W /000/070/4052N02550E001\nA) LGGG B) 2611160600 C) 2611201300\nD) 16 0600-1600,17 0600-2000,18 0600-2000,19 0600-1600,20 0600-1300\nE) EXER WO FIRING WILL TAKE PLACE AT AETOS ALEXANDROUPOLIS AREA AS \nFLW:\n405154N 0254910E - 405226N 0254910E - 405226N 0254952E - \n405154N 0254952E - 405154N 0254910E.\n-ALEXANDROUPOLIS/DIMOKRITOS TMA/CTR AFFECTED.\nF) SFC G) 7000FT AMSL",
+ "year": 2026
+}
