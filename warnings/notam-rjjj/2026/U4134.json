@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-03T03:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.3,
+   "lon": 132.6,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T01:00:00Z",
+  "upper": "1596FT AMSL",
+  "upper_fl": 16
+ },
+ "first_seen": "2026-11-02T06:19:27Z",
+ "id": "notam-rjjj/2026/U4134",
+ "issued_at": "2026-11-02T01:17:00Z",
+ "last_seen": "2026-11-02T06:19:27Z",
+ "number": "U4134",
+ "positions": [
+  [
+   34.30111,
+   132.5975
+  ],
+  [
+   34.29861,
+   132.59639
+  ],
+  [
+   34.29833,
+   132.59833
+  ],
+  [
+   34.30056,
+   132.59944
+  ],
+  [
+   34.30111,
+   132.5975
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-02T06:22:23Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4134/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/016/3418N13236E001\nA)RJJJ B)2611030100 C)2611030300\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n341804N1323551E - 341755N1323547E - 341754N1323554E - 341802N1323558E\n- 341804N1323551E \n(KURE-SHI IN HIROSHIMA)\nWT: 1KG\nF)SFC G)1596FT AMSL",
+ "year": 2026
+}

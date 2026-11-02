@@ -1,0 +1,95 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-16T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.85,
+   "lon": 141.0833,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2045/0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-13T20:45:00Z",
+  "upper": "1300FT AMSL",
+  "upper_fl": 13
+ },
+ "first_seen": "2026-11-02T06:19:27Z",
+ "id": "notam-rjjj/2026/U4136",
+ "issued_at": "2026-11-02T01:45:00Z",
+ "last_seen": "2026-11-02T06:19:27Z",
+ "number": "U4136",
+ "positions": [
+  [
+   39.87,
+   141.08
+  ],
+  [
+   39.84667,
+   141.07222
+  ],
+  [
+   39.83722,
+   141.05472
+  ],
+  [
+   39.82472,
+   141.05333
+  ],
+  [
+   39.81611,
+   141.065
+  ],
+  [
+   39.82111,
+   141.06639
+  ],
+  [
+   39.82194,
+   141.06917
+  ],
+  [
+   39.83417,
+   141.07333
+  ],
+  [
+   39.83944,
+   141.08028
+  ],
+  [
+   39.8575,
+   141.08861
+  ],
+  [
+   39.85944,
+   141.10583
+  ],
+  [
+   39.87306,
+   141.1
+  ],
+  [
+   39.87,
+   141.08
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-02T06:22:23Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4136/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/013/3951N14105E003\nA)RJJJ B)2611132045 C)2611160800\nD)2045/0800\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n395212N1410448E - 395048N1410420E - 395014N1410317E - 394929N1410312E\n- 394858N1410354E - 394916N1410359E - 394919N1410409E -\n395003N1410424E - 395022N1410449E - 395127N1410519E - 395134N1410621E\n- 395223N1410600E - 395212N1410448E \n(IWATESAN MANEUVERING AREA)\n(HACHIMANTAI-SHI, TAKIZAWA-SHI IN IWATE)\nWT: 0.3KG\nRMK: SOURCE JSDF-G(RJSH)\nF)SFC G)1300FT AMSL",
+ "year": 2026
+}

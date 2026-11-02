@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-29T07:38:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.6667,
+   "lon": 139.4333,
+   "radius_nm": 9
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "07-08 28-29 0000/0738",
+  "shape": "polygon",
+  "starts_at": "2026-11-07T00:00:00Z",
+  "upper": "3049FT AMSL",
+  "upper_fl": 31
+ },
+ "first_seen": "2026-11-02T06:19:27Z",
+ "id": "notam-rjjj/2026/U4137",
+ "issued_at": "2026-11-02T02:08:00Z",
+ "last_seen": "2026-11-02T06:19:27Z",
+ "number": "U4137",
+ "positions": [
+  [
+   37.68333,
+   139.59083
+  ],
+  [
+   37.80083,
+   139.39889
+  ],
+  [
+   37.72194,
+   139.32556
+  ],
+  [
+   37.54583,
+   139.37111
+  ],
+  [
+   37.56056,
+   139.52861
+  ],
+  [
+   37.64083,
+   139.53667
+  ],
+  [
+   37.68333,
+   139.59083
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-02T06:22:23Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4137/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/031/3740N13926E009\nA)RJJJ B)2611070000 C)2611290738\nD)07-08 28-29 0000/0738\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n374100N1393527E - 374803N1392356E - 374319N1391932E - 373245N1392216E\n- 373338N1393143E - 373827N1393212E - 374100N1393527E \n(HIGASHIKANBARA-GUN IN NIIGATA)\nWT: 24.9KG\nFLT TIME: 0000/SS\nCONTACT INFORMATION: 050-1722-1348\nF)SFC G)3049FT AMSL",
+ "year": 2026
+}

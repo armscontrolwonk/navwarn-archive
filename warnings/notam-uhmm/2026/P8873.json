@@ -1,0 +1,58 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-03T09:00:00Z",
+ "extra": {
+  "fir": "UHMM",
+  "kind": "restricted",
+  "location": "UHMM",
+  "lower": "950M AMSL",
+  "lower_fl": 30,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 57.2833,
+   "lon": 161.4167,
+   "radius_nm": 43
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHMM",
+  "shape": "polygon",
+  "starts_at": "2026-11-02T23:00:00Z",
+  "upper": "950M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-11-02T06:19:27Z",
+ "id": "notam-uhmm/2026/P8873",
+ "issued_at": "2026-11-02T03:47:00Z",
+ "last_seen": "2026-11-02T06:19:27Z",
+ "number": "P8873",
+ "positions": [
+  [
+   56.83333,
+   160.8
+  ],
+  [
+   57.93333,
+   161.41667
+  ],
+  [
+   57.45,
+   162.68333
+  ],
+  [
+   56.61667,
+   161.41667
+  ]
+ ],
+ "series": "notam-uhmm",
+ "source": {
+  "fetched_at": "2026-11-02T06:22:23Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI 2KM EITHER SIDE OF LINE JOINING POINTS:",
+ "text": "P8873/26 NOTAMN\nQ)UHMM/QRTCA/IV/BO/W/030/040/5717N16125E043\nA)UHMM B)2611022300 C)2611030900\nE)AIRSPACE CLSD WI 2KM EITHER SIDE OF LINE JOINING POINTS:\n565000N1604800E-575600N1612500E-572700N1624100E-563700N1612500E.\nF)950M AMSL  G)950M AMSL",
+ "year": 2026
+}

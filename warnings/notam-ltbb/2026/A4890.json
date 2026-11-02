@@ -1,0 +1,45 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T17:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "restricted",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.75,
+   "lon": 27.45,
+   "radius_nm": 5
+  },
+  "qcode": "QRACA",
+  "queried_fir": "LTBB",
+  "starts_at": "2026-11-02T06:00:00Z",
+  "upper": "3000FT AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-02T06:19:27Z",
+ "id": "notam-ltbb/2026/A4890",
+ "issued_at": "2026-11-02T06:04:00Z",
+ "last_seen": "2026-11-02T06:19:27Z",
+ "number": "A4890",
+ "positions": [
+  [
+   36.74611,
+   27.44917
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-11-02T06:22:23Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "SAR WILL TAKE PLACE.",
+ "text": "A4890/26 NOTAMN\nQ) LTBB/QRACA/IV/NBO/W /000/030/3645N02727E005\nA) LTBB B) 2611020600 C) 2611101700\nE) SAR WILL TAKE PLACE.\nAREA: CENTERED ON 364446N0272657E WITH RADIUS 4NM\nF) SFC G) 3000FT AMSL",
+ "year": 2026
+}

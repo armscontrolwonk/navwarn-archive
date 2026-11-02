@@ -1,0 +1,50 @@
+{
+ "cancels": [],
+ "expires_at": "2027-02-02T11:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 1.35,
+   "lon": 103.6,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "2300-1100",
+  "starts_at": "2026-11-04T23:00:00Z",
+  "upper": "500FT AGL",
+  "upper_fl": 6
+ },
+ "first_seen": "2026-11-02T06:19:27Z",
+ "id": "notam-wmfc/2026/A4321",
+ "issued_at": "2026-11-02T03:12:00Z",
+ "last_seen": "2026-11-02T06:19:27Z",
+ "number": "A4321",
+ "positions": [
+  [
+   1.3761,
+   103.60266
+  ],
+  [
+   1.35238,
+   103.63089
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-11-02T06:22:23Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI FLW COORD",
+ "text": "A4321/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/006/0121N10336E001\nA) WMFC B) 2611042300 C) 2702021100 \nD)2300-1100\nE) UA ACT WILL TAKE PLACE WI FLW COORD\n\n   012233.97N 1033609.59E - 012108.58N 1033751.22E\n   (LINKEDUA BRIDGE,PLUS)\nF) SFC                             G) 500FT AGL",
+ "year": 2026
+}

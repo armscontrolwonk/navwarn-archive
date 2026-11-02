@@ -1,0 +1,50 @@
+{
+ "cancels": [],
+ "expires_at": "2027-02-02T11:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 1.9833,
+   "lon": 102.9667,
+   "radius_nm": 18
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "2300-1100",
+  "starts_at": "2026-11-04T23:00:00Z",
+  "upper": "400FT AGL",
+  "upper_fl": 6
+ },
+ "first_seen": "2026-11-02T06:19:27Z",
+ "id": "notam-wmfc/2026/A4322",
+ "issued_at": "2026-11-02T03:19:00Z",
+ "last_seen": "2026-11-02T06:19:27Z",
+ "number": "A4322",
+ "positions": [
+  [
+   2.13401,
+   102.72918
+  ],
+  [
+   1.88218,
+   103.24154
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-11-02T06:22:23Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI 100M EITHER SIDE OF A LANE :",
+ "text": "A4322/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/006/0159N10258E018\nA) WMFC B) 2611042300 C) 2702021100 \nD)2300-1100\nE)UA ACT WILL TAKE PLACE WI 100M EITHER SIDE OF A LANE :\n\n   020802.42N 1024345.05E - 015255.86N 1031429.56E \n   (PAGOH - SIMPANG RENGGAM). ACT SUBJECT TO ATC\nF) SFC                             G) 400FT AGL",
+ "year": 2026
+}

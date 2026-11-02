@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-03T06:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.8667,
+   "lon": 134.0667,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T00:00:00Z",
+  "upper": "6234FT AMSL",
+  "upper_fl": 63
+ },
+ "first_seen": "2026-11-02T06:19:27Z",
+ "id": "notam-rjjj/2026/U4130",
+ "issued_at": "2026-11-01T22:25:00Z",
+ "last_seen": "2026-11-02T06:19:27Z",
+ "number": "U4130",
+ "positions": [
+  [
+   33.87,
+   134.03222
+  ],
+  [
+   33.88139,
+   134.09278
+  ],
+  [
+   33.86806,
+   134.09861
+  ],
+  [
+   33.85639,
+   134.03778
+  ],
+  [
+   33.87,
+   134.03222
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-02T06:22:23Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4130/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/063/3352N13404E003\nA)RJJJ B)2611030000 C)2611030600\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n335212N1340156E - 335253N1340534E - 335205N1340555E - 335123N1340216E\n- 335212N1340156E \n(MIYOSHI-SHI, MIMA-SHI, MIMA-GUN IN TOKUSHIMA)\nWT: 0.6KG\nF)SFC G)6234FT AMSL",
+ "year": 2026
+}

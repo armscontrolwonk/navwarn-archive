@@ -1,0 +1,55 @@
+{
+ "cancels": [],
+ "expires_at": "2027-02-02T11:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 1.8333,
+   "lon": 103.2833,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "2300-1100",
+  "shape": "polygon",
+  "starts_at": "2026-11-04T23:00:00Z",
+  "upper": "200FT AGL",
+  "upper_fl": 3
+ },
+ "first_seen": "2026-11-02T06:19:27Z",
+ "id": "notam-wmfc/2026/C0223",
+ "issued_at": "2026-11-02T03:52:00Z",
+ "last_seen": "2026-11-02T06:19:27Z",
+ "number": "C0223",
+ "positions": [
+  [
+   1.8743,
+   103.24892
+  ],
+  [
+   1.83814,
+   103.28644
+  ],
+  [
+   1.7945,
+   103.32121
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-11-02T06:22:23Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI 100M EITHER SIDE OF A LANE :",
+ "text": "C0223/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/003/0150N10317E003\nA) WMFC B) 2611042300 C) 2702021100 \nD) 2300-1100\nE) UA ACT WILL TAKE PLACE WI 100M EITHER SIDE OF A LANE :\n\n  015227.49N 1031456.12E - 015017.31N 1031711.20E -\n  014740.20N 1031916.36E \n\n  ACT SUBJECT TO ATC\nF) SFC                             G) 200FT AGL",
+ "year": 2026
+}

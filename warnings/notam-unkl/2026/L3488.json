@@ -1,0 +1,83 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T10:00:00Z",
+ "extra": {
+  "fir": "UNKL",
+  "kind": "restricted",
+  "location": "UNKL",
+  "lower": "240M AMSL",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.6667,
+   "lon": 93.3167,
+   "radius_nm": 28
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNKL",
+  "schedule": "DAILY 0400-1000",
+  "shape": "polygon",
+  "starts_at": "2026-11-05T04:00:00Z",
+  "upper": "1500M AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-11-02T06:19:27Z",
+ "id": "notam-unkl/2026/L3488",
+ "issued_at": "2026-11-02T05:36:00Z",
+ "last_seen": "2026-11-02T06:19:27Z",
+ "number": "L3488",
+ "positions": [
+  [
+   56.4625,
+   93.1075
+  ],
+  [
+   57.11306,
+   93.39583
+  ],
+  [
+   57.0775,
+   93.63139
+  ],
+  [
+   56.42194,
+   93.17028
+  ],
+  [
+   56.4625,
+   93.1075
+  ],
+  [
+   56.42194,
+   93.17028
+  ],
+  [
+   56.23333,
+   93.15
+  ],
+  [
+   56.25,
+   93.0
+  ],
+  [
+   56.4625,
+   93.1075
+  ],
+  [
+   56.42194,
+   93.17028
+  ]
+ ],
+ "series": "notam-unkl",
+ "source": {
+  "fetched_at": "2026-11-02T06:22:23Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "L3488/26 NOTAMN\nQ)UNKL/QRTCA/IV/BO/W/000/050/5640N09319E028\nA)UNKL B)2611050400 C)2611061000\nD)DAILY 0400-1000\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 562745N0930627E-570647N0932345E-570439N0933753E-\n         562519N0931013E-562745N0930627E\n   240M AMSL-1500M AMSL.\n2. AREA: 562519N0931013E-561400N0930900E-561500N0930000E-\n         562745N0930627E-562519N0931013E\n   240M AMSL-600M AMSL.\nF)240M AMSL  G)1500M AMSL",
+ "year": 2026
+}
