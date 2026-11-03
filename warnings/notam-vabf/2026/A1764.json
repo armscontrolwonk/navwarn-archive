@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-05T10:30:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "exercise",
+  "location": "VABF",
+  "lower": "5000FT AMSL",
+  "lower_fl": 50,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 18.5833,
+   "lon": 72.0833,
+   "radius_nm": 65
+  },
+  "qcode": "QWELW",
+  "queried_fir": "VABF",
+  "shape": "polygon",
+  "starts_at": "2026-11-05T08:30:00Z",
+  "upper": "FL150",
+  "upper_fl": 150
+ },
+ "first_seen": "2026-11-03T19:33:40Z",
+ "id": "notam-vabf/2026/A1764",
+ "issued_at": "2026-11-03T11:55:00Z",
+ "last_seen": "2026-11-03T19:33:40Z",
+ "number": "A1764",
+ "positions": [
+  [
+   19.21667,
+   73.0
+  ],
+  [
+   19.21667,
+   71.23333
+  ],
+  [
+   18.0,
+   71.23333
+  ],
+  [
+   18.0,
+   73.0
+  ],
+  [
+   19.21667,
+   73.0
+  ]
+ ],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-11-03T19:36:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "INDIAN NAVAL ACFT WILL CARRY OUT IMAGERY/AERIAL",
+ "text": "A1764/26 NOTAMN\nQ) VABF/QWELW/IV/NBO/W/050/150/1835N07205E065\nA) VABF B) 2611050830 C) 2611051030\nE) INDIAN NAVAL ACFT WILL CARRY OUT IMAGERY/AERIAL\n   RECONNAISSANCE EXER IN AREA BOUNDED BY COORD \n   1913N 07300E-1913N 07114E-1800N 07114E-1800N \n   07300E-1913N 07300E\nF) 5000FT AMSL G) FL150",
+ "year": 2026
+}

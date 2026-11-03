@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-14T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 67.08222,
+    "lon": 32.29806,
+    "radius_nm": 10.8
+   }
+  ],
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 67.0667,
+   "lon": 32.2833,
+   "radius_nm": 11
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "starts_at": "2026-11-09T00:00:00Z",
+  "upper": "1500M AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-11-03T19:33:40Z",
+ "id": "notam-ulll/2026/Q0807",
+ "issued_at": "2026-11-03T09:20:00Z",
+ "last_seen": "2026-11-03T19:33:40Z",
+ "number": "Q0807",
+ "positions": [
+  [
+   67.08222,
+   32.29806
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-03T19:36:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 20KM CENTRE 670456N0321753E.",
+ "text": "Q0807/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/050/6704N03217E011\nA)ULLL B)2611090000 C)2611142359\nE)AIRSPACE CLSD WI CIRCLE RADIUS 20KM CENTRE 670456N0321753E.\nF)SFC  G)1500M AMSL",
+ "year": 2026
+}

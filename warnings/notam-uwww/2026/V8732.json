@@ -1,0 +1,78 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T23:59:00Z",
+ "extra": {
+  "fir": "UWWW",
+  "kind": "restricted",
+  "location": "UWWW",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 51.9667,
+   "lon": 47.7667,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UWWW",
+  "shape": "polygon",
+  "starts_at": "2026-11-05T00:00:00Z",
+  "upper": "FL100",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-03T19:33:40Z",
+ "id": "notam-uwww/2026/V8732",
+ "issued_at": "2026-11-03T08:21:00Z",
+ "last_seen": "2026-11-03T19:33:40Z",
+ "number": "V8732",
+ "positions": [
+  [
+   52.01444,
+   47.76111
+  ],
+  [
+   52.01028,
+   47.78306
+  ],
+  [
+   51.96889,
+   47.83556
+  ],
+  [
+   51.93972,
+   47.80806
+  ],
+  [
+   51.92861,
+   47.7675
+  ],
+  [
+   51.93111,
+   47.74278
+  ],
+  [
+   51.94833,
+   47.71167
+  ],
+  [
+   51.99361,
+   47.70333
+  ],
+  [
+   52.01444,
+   47.76111
+  ]
+ ],
+ "series": "notam-uwww",
+ "source": {
+  "fetched_at": "2026-11-03T19:36:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "V8732/26 NOTAMN\nQ)UWWW/QRTCA/IV/BO/W/000/100/5158N04746E003\nA)UWWW B)2611050000 C)2611102359\nE)AIRSPACE CLSD WI AREA:\n520052N0474540E-520037N0474659E-515808N0475008E-515623N0474829E-\n515543N0474603E-515552N0474434E-515654N0474242E-515937N0474212E-\n520052N0474540E.\nCLOSURE NOT AFFECT:\n- SKED INTL AND DOM FLTS ARR TO/DEP FROM SARATOV/GAGARIN AD (UWSG)\n  VIA ATS RTE.\nF)GND  G)FL100",
+ "year": 2026
+}

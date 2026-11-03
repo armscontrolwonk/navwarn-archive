@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-14T15:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "restricted",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 2.4667,
+   "lon": 102.5,
+   "radius_nm": 9
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "WMFC",
+  "schedule": "03 2300-2359 04-13 2300-2359 0000-1500 14 0000-1500",
+  "starts_at": "2026-12-03T23:00:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-03T19:33:40Z",
+ "id": "notam-wmfc/2026/A4382",
+ "issued_at": "2026-11-03T14:38:00Z",
+ "last_seen": "2026-11-03T19:33:40Z",
+ "number": "A4382",
+ "positions": [],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-11-03T19:36:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "WMD222 ACT",
+ "text": "A4382/26 NOTAMN\nQ) WMFC/QRDCA/IV/BO /W /000/100/0228N10230E009\nA) WMFC B) 2612032300 C) 2612141500 \nD) 03 2300-2359\n   04-13 2300-2359 0000-1500\n   14 0000-1500\nE) WMD222 ACT\nF) SFC                             G) 10000FT AMSL",
+ "year": 2026
+}

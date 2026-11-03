@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-12T11:00:00Z",
+ "extra": {
+  "fir": "LCCC",
+  "kind": "exercise",
+  "location": "LCCC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.6667,
+   "lon": 33.2667,
+   "radius_nm": 12
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LCCC",
+  "schedule": "04 11 12 0700-1100",
+  "shape": "polygon",
+  "starts_at": "2026-11-04T07:00:00Z",
+  "upper": "4000FT AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-11-03T19:33:40Z",
+ "id": "notam-lccc/2026/A1232",
+ "issued_at": "2026-11-03T10:38:00Z",
+ "last_seen": "2026-11-03T19:33:40Z",
+ "number": "A1232",
+ "positions": [
+  [
+   34.79722,
+   33.10833
+  ],
+  [
+   34.79722,
+   33.42778
+  ],
+  [
+   34.55167,
+   33.42778
+  ],
+  [
+   34.55167,
+   33.10833
+  ],
+  [
+   34.79722,
+   33.10833
+  ]
+ ],
+ "series": "notam-lccc",
+ "source": {
+  "fetched_at": "2026-11-03T19:36:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MULTINATIONAL EXERCISE NEMESIS-26 WILL TAKE PLACE IN AREA:",
+ "text": "A1232/26 NOTAMN\nQ) LCCC/QWELW/IV/BO /W /000/040/3440N03316E012\nA) LCCC B) 2611040700 C) 2611121100\nD) 04 11 12 0700-1100\nE) MULTINATIONAL EXERCISE NEMESIS-26 WILL TAKE PLACE IN AREA:\n344750N 0330630E - 344750N 0332540E - 343306N 0332540E - \n343306N 0330630E - 344750N 0330630E/ GREEN BZ AREA/ AH CY JR A5BZ \nTHE AREA INCLUDES 5NM LATERAL AND 1000FT VERTICAL BUFFER\nTHE AREA WILL BE ACTIVATED IN REAL TIME THROUGH FULL TACTICAL\nCOORDINATION BETWEEN JRCC LARNAKA AND LARNAKA ATC.\nF) SFC G) 4000FT AMSL",
+ "year": 2026
+}

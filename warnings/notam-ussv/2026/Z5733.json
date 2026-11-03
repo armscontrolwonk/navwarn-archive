@@ -1,0 +1,149 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 58.38778,
+    "lon": 51.26417,
+    "radius_nm": 1.62
+   },
+   {
+    "lat": 58.43639,
+    "lon": 49.93306,
+    "radius_nm": 1.62
+   },
+   {
+    "lat": 58.40444,
+    "lon": 50.99389,
+    "radius_nm": 1.62
+   },
+   {
+    "lat": 58.37417,
+    "lon": 51.15417,
+    "radius_nm": 1.62
+   },
+   {
+    "lat": 57.69611,
+    "lon": 50.10194,
+    "radius_nm": 1.62
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 57.8667,
+   "lon": 50.5667,
+   "radius_nm": 44
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0600-1600",
+  "starts_at": "2026-11-06T06:00:00Z",
+  "upper": "750M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-03T19:33:40Z",
+ "id": "notam-ussv/2026/Z5733",
+ "issued_at": "2026-11-03T12:12:00Z",
+ "last_seen": "2026-11-03T19:33:40Z",
+ "number": "Z5733",
+ "positions": [
+  [
+   58.45944,
+   51.06167
+  ],
+  [
+   58.50778,
+   49.89028
+  ],
+  [
+   58.41222,
+   49.85167
+  ],
+  [
+   57.93278,
+   49.84222
+  ],
+  [
+   57.61306,
+   49.75806
+  ],
+  [
+   57.36194,
+   49.59111
+  ],
+  [
+   57.31222,
+   49.86639
+  ],
+  [
+   57.63972,
+   50.275
+  ],
+  [
+   57.93417,
+   50.06972
+  ],
+  [
+   58.39611,
+   50.06306
+  ],
+  [
+   58.32111,
+   51.07583
+  ],
+  [
+   58.28389,
+   51.45528
+  ],
+  [
+   58.30222,
+   51.485
+  ],
+  [
+   58.36806,
+   51.56028
+  ],
+  [
+   58.45944,
+   51.06167
+  ],
+  [
+   58.38778,
+   51.26417
+  ],
+  [
+   58.43639,
+   49.93306
+  ],
+  [
+   58.40444,
+   50.99389
+  ],
+  [
+   58.37417,
+   51.15417
+  ],
+  [
+   57.69611,
+   50.10194
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-03T19:36:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z5733/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/030/5752N05034E044\nA)USSV B)2611060600 C)2611101600\nD)DAILY 0600-1600\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 582734N0510342E-583028N0495325E-582444N0495106E-\n         575558N0495032E-573647N0494529E-572143N0493528E-\n         571844N0495159E-573823N0501630E-575603N0500411E-\n         582346N0500347E-581916N0510433E-581702N0512719E-\n         581808N0512906E-582205N0513337E-582734N0510342E\n   600M AMSL-750M AMSL.\n2. WI CIRCLE RADIUS 3KM CENTRE 582316N0511551E\n   GND-750M AMSL.\n3. WI CIRCLE RADIUS 3KM CENTRE 582611N0495559E\n   GND-750M AMSL.\n4. WI CIRCLE RADIUS 3KM CENTRE 582416N0505938E\n   GND-750M AMSL.\n5. WI CIRCLE RADIUS 3KM CENTRE 582227N0510915E\n   GND-750M AMSL.\n6. WI CIRCLE RADIUS 3KM CENTRE 574146N0500607E\n   GND-750M AMSL.\nF)GND  G)750M AMSL",
+ "year": 2026
+}

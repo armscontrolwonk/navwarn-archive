@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-07T15:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 51.84444,
+    "lon": 47.02583,
+    "radius_nm": 1.46
+   }
+  ],
+  "fir": "UWWW",
+  "kind": "restricted",
+  "location": "UWWW",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 51.8333,
+   "lon": 47.0167,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UWWW",
+  "starts_at": "2026-11-07T06:00:00Z",
+  "upper": "150M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-03T19:33:40Z",
+ "id": "notam-uwww/2026/V8750",
+ "issued_at": "2026-11-03T15:22:00Z",
+ "last_seen": "2026-11-03T19:33:40Z",
+ "number": "V8750",
+ "positions": [
+  [
+   51.84444,
+   47.02583
+  ]
+ ],
+ "series": "notam-uwww",
+ "source": {
+  "fetched_at": "2026-11-03T19:36:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 2.7KM CENTRE 515040N0470133E.",
+ "text": "V8750/26 NOTAMN\nQ)UWWW/QRTCA/IV/BO/W/000/010/5150N04701E002\nA)UWWW B)2611070600 C)2611071500\nE)AIRSPACE CLSD WI CIRCLE RADIUS 2.7KM CENTRE 515040N0470133E.\nF)GND  G)150M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-13T16:00:00Z",
+ "extra": {
+  "fir": "LTXX",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.3833,
+   "lon": 31.1667,
+   "radius_nm": 19
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTBB",
+  "schedule": "09 13 0600-1600",
+  "shape": "polygon",
+  "starts_at": "2026-11-09T06:00:00Z",
+  "upper": "20000FT AMSL",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-11-03T19:33:40Z",
+ "id": "notam-ltaa/2026/A4928",
+ "issued_at": "2026-11-03T08:58:00Z",
+ "last_seen": "2026-11-03T19:33:40Z",
+ "number": "A4928",
+ "positions": [
+  [
+   41.5575,
+   30.85778
+  ],
+  [
+   41.18917,
+   30.86611
+  ],
+  [
+   41.18139,
+   31.38944
+  ],
+  [
+   41.21722,
+   31.42083
+  ],
+  [
+   41.30417,
+   31.41083
+  ],
+  [
+   41.34444,
+   31.50556
+  ],
+  [
+   41.56556,
+   31.48417
+  ],
+  [
+   41.5575,
+   30.85778
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-03T19:36:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEST FLIGHT (FIRING)WILL TAKE PLACE.",
+ "text": "A4928/26 NOTAMN\nQ) LTXX/QWELW/IV/BO /W /000/200/4123N03110E019\nA) LTAA LTBB B) 2611090600 C) 2611131600\nD) 09 13 0600-1600\nE) TEST FLIGHT (FIRING)WILL TAKE PLACE.\nAREA: 413327N0305128E 411121N0305158E 411053N0312322E \n411302N0312515E 411815N0312439E 412040N0313020E 413356N0312903E \n413327N0305128E\nF) SFC G) 20000FT AMSL",
+ "year": 2026
+}

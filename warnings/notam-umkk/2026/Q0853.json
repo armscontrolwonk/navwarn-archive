@@ -1,0 +1,77 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-08T15:30:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 54.82083,
+    "lon": 21.17083,
+    "radius_nm": 0.27
+   }
+  ],
+  "fir": "UMKK",
+  "kind": "restricted",
+  "location": "UMKK",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 54.8,
+   "lon": 21.0333,
+   "radius_nm": 6
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UMKK",
+  "schedule": "DAILY 0800-1530",
+  "starts_at": "2026-11-05T08:00:00Z",
+  "upper": "540M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-03T19:33:40Z",
+ "id": "notam-umkk/2026/Q0853",
+ "issued_at": "2026-11-03T19:31:00Z",
+ "last_seen": "2026-11-03T19:33:40Z",
+ "number": "Q0853",
+ "positions": [
+  [
+   54.815,
+   21.20722
+  ],
+  [
+   54.7975,
+   21.19778
+  ],
+  [
+   54.78417,
+   20.8675
+  ],
+  [
+   54.80333,
+   20.86917
+  ],
+  [
+   54.82639,
+   21.1725
+  ],
+  [
+   54.815,
+   21.20722
+  ],
+  [
+   54.82083,
+   21.17083
+  ]
+ ],
+ "series": "notam-umkk",
+ "source": {
+  "fetched_at": "2026-11-03T19:36:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Q0853/26 NOTAMN\nQ)UMKK/QRTCA/IV/BO/W/000/020/5448N02102E006\nA)UMKK B)2611050800 C)2611081530\nD)DAILY 0800-1530\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 544854N0211226E-544751N0211152E-544703N0205203E-\n         544812N0205209E-544935N0211021E-544854N0211226E\n   350M AMSL-540M AMSL.\n2. WI CIRCLE RADIUS 0.5KM CENTRE 544915N0211015E\n   GND-540M AMSL.\nF)GND  G)540M AMSL",
+ "year": 2026
+}

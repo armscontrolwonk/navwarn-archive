@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-04T02:30:00Z",
+ "extra": {
+  "fir": "VVHN",
+  "kind": "firing",
+  "location": "VVHN",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 21.4667,
+   "lon": 106.7833,
+   "radius_nm": 11
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "VVHN",
+  "shape": "polygon",
+  "starts_at": "2026-11-04T01:00:00Z",
+  "upper": "22000FT AMSL",
+  "upper_fl": 220
+ },
+ "first_seen": "2026-11-03T19:33:40Z",
+ "id": "notam-vvhn/2026/A4251",
+ "issued_at": "2026-11-03T11:35:00Z",
+ "last_seen": "2026-11-03T19:33:40Z",
+ "number": "A4251",
+ "positions": [
+  [
+   21.50833,
+   106.67222
+  ],
+  [
+   21.50833,
+   106.975
+  ],
+  [
+   21.41111,
+   106.975
+  ],
+  [
+   21.41111,
+   106.57778
+  ],
+  [
+   21.50833,
+   106.67222
+  ]
+ ],
+ "series": "notam-vvhn",
+ "source": {
+  "fetched_at": "2026-11-03T19:36:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BOMB WILL TAKE PLACE WI:",
+ "text": "A4251/26 NOTAMN \nQ) VVHN/QWMLW/IV/BO/W/000/220/2128N10647E011\nA) VVHN B) 2611040100 C) 2611040230 \nE) BOMB WILL TAKE PLACE WI:\n213030N1064020E - 213030N1065830E - 212440N1065830E - \n212440N1063440E - 213030N1064020E\n- ALL FLIGHTS ARE PROHIBITED WITHIN THIS AREA.\nF) GND G) 22000FT AMSL",
+ "year": 2026
+}

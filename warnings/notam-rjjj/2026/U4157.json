@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-05T08:22:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.0167,
+   "lon": 140.0167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2140/0822",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T21:40:00Z",
+  "upper": "2059FT AMSL",
+  "upper_fl": 21
+ },
+ "first_seen": "2026-11-03T19:33:40Z",
+ "id": "notam-rjjj/2026/U4157",
+ "issued_at": "2026-11-03T10:25:00Z",
+ "last_seen": "2026-11-03T19:33:40Z",
+ "number": "U4157",
+ "positions": [
+  [
+   37.02389,
+   140.02556
+  ],
+  [
+   37.0275,
+   140.02417
+  ],
+  [
+   37.02667,
+   140.01778
+  ],
+  [
+   37.02167,
+   140.02
+  ],
+  [
+   37.02389,
+   140.02556
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-03T19:36:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4157/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/021/3701N14001E002\nA)RJJJ B)2611032140 C)2611050822\nD)2140/0822\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n370126N1400132E - 370139N1400127E - 370136N1400104E - 370118N1400112E\n- 370126N1400132E \n(NASU-GUN IN TOCHIGI)\nWT: 0.4KG\nFLT TIME: HJ\nF)SFC G)2059FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,78 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-04T13:00:00Z",
+ "extra": {
+  "fir": "UAII",
+  "kind": "restricted",
+  "location": "UAII",
+  "lower": "FL330",
+  "lower_fl": 330,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.7167,
+   "lon": 64.6667,
+   "radius_nm": 164
+  },
+  "qcode": "QRMCA",
+  "queried_fir": "UAII",
+  "shape": "polygon",
+  "starts_at": "2026-11-04T07:00:00Z",
+  "upper": "FL400",
+  "upper_fl": 400
+ },
+ "first_seen": "2026-11-03T19:33:40Z",
+ "id": "notam-uaii/2026/C7536",
+ "issued_at": "2026-11-03T16:06:00Z",
+ "last_seen": "2026-11-03T19:33:40Z",
+ "number": "C7536",
+ "positions": [
+  [
+   43.56778,
+   68.03778
+  ],
+  [
+   44.89167,
+   65.75056
+  ],
+  [
+   46.03,
+   62.22056
+  ],
+  [
+   46.13389,
+   61.63222
+  ],
+  [
+   45.75056,
+   61.16417
+  ],
+  [
+   45.60278,
+   62.01278
+  ],
+  [
+   44.5075,
+   65.41667
+  ],
+  [
+   43.40139,
+   67.34889
+  ],
+  [
+   43.56778,
+   68.03778
+  ]
+ ],
+ "series": "notam-uaii",
+ "source": {
+  "fetched_at": "2026-11-03T19:36:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL OPR AREA ACTIVATED",
+ "text": "C7536/26 NOTAMN\nQ) UAII/QRMCA/IV/BO /W /330/400/4443N06440E164\nA) UAII B) 2611040700 C) 2611041300\nE) MIL OPR AREA ACTIVATED\nAREA BOUNDED BY:\n433404N 0680216E - 445330N 0654502E - 460148N 0621314E - \n460802N 0613756E - 454502N 0610951E - 453610N 0620046E - \n443027N 0652500E - 432405N 0672056E - 433404N 0680216E.\nF) FL330 G) FL400",
+ "year": 2026
+}

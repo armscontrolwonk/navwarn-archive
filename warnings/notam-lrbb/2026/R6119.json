@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-04T18:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "restricted",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 45.55,
+   "lon": 25.4167,
+   "radius_nm": 3
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-11-04T06:00:00Z",
+  "upper": "FL120",
+  "upper_fl": 120
+ },
+ "first_seen": "2026-11-03T19:33:40Z",
+ "id": "notam-lrbb/2026/R6119",
+ "issued_at": "2026-11-03T15:31:00Z",
+ "last_seen": "2026-11-03T19:33:40Z",
+ "number": "R6119",
+ "positions": [
+  [
+   45.58667,
+   25.41556
+  ],
+  [
+   45.55806,
+   25.465
+  ],
+  [
+   45.52056,
+   25.42722
+  ],
+  [
+   45.54972,
+   25.37861
+  ],
+  [
+   45.58667,
+   25.41556
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-11-03T19:36:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "DANGER AREA ACTIVATED",
+ "text": "R6119/26 NOTAMN\nQ) LRBB/QRDCA/IV/BO /W /000/120/4533N02525E003\nA) LRBB B) 2611040600 C) 2611041800\nE) DANGER AREA ACTIVATED\n   PJE WILL TAKE PLACE INTO THE FLW AREA:\n   453512N0252456E-453329N0252754E-453114N0252538E-453259N0252243E\n   453512N0252456E\n   AERIAL SPORTING ACTIVITIES PJE. INFORMATION CONCERNING\n   ACTIVATION/DEACTIVATION OF THE AREA DURING PLANNED\n   HOURS OF ACTIVITY WILL BE OBTAINED FROM ATC.\n   EXPECT RADAR VECTORING\nF) GND G) FL120",
+ "year": 2026
+}

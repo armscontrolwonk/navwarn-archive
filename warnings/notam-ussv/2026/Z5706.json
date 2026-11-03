@@ -1,0 +1,109 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 55.50111,
+    "lon": 60.64444,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.45,
+   "lon": 60.5667,
+   "radius_nm": 14
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "05-10 0300-1600",
+  "starts_at": "2026-11-05T03:00:00Z",
+  "upper": "1150M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-11-03T19:33:40Z",
+ "id": "notam-ussv/2026/Z5706",
+ "issued_at": "2026-11-03T07:41:00Z",
+ "last_seen": "2026-11-03T19:33:40Z",
+ "number": "Z5706",
+ "positions": [
+  [
+   55.45667,
+   60.29472
+  ],
+  [
+   55.475,
+   60.22
+  ],
+  [
+   55.50556,
+   60.24444
+  ],
+  [
+   55.60417,
+   60.66861
+  ],
+  [
+   55.55611,
+   60.71306
+  ],
+  [
+   55.63,
+   60.81167
+  ],
+  [
+   55.62139,
+   60.83833
+  ],
+  [
+   55.53556,
+   60.74944
+  ],
+  [
+   55.47917,
+   60.90889
+  ],
+  [
+   55.43861,
+   60.92167
+  ],
+  [
+   55.43056,
+   60.89167
+  ],
+  [
+   55.53778,
+   60.43833
+  ],
+  [
+   55.52222,
+   60.35639
+  ],
+  [
+   55.45667,
+   60.29472
+  ],
+  [
+   55.50111,
+   60.64444
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-03T19:36:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z5706/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/040/5527N06034E014\nA)USSV B)2611050300 C)2611101600\nD)05-10 0300-1600\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 552724N0601741E-552830N0601312E-553020N0601440E-\n         553615N0604007E-553322N0604247E-553748N0604842E-\n         553717N0605018E-553208N0604458E-552845N0605432E-\n         552619N0605518E-552550N0605330E-553216N0602618E-\n         553120N0602123E-552724N0601741E\n   700M AMSL-1150M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 553004N0603840E\n   GND-1150M AMSL.\nF)GND  G)1150M AMSL",
+ "year": 2026
+}

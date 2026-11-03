@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T11:00:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "other",
+  "location": "VABF",
+  "lower": "3500FT AMSL",
+  "lower_fl": 35,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.25,
+   "lon": 70.7667,
+   "radius_nm": 9
+  },
+  "qcode": "QWYLW",
+  "queried_fir": "VABF",
+  "schedule": "0800-1100",
+  "shape": "polygon",
+  "starts_at": "2026-11-09T08:00:00Z",
+  "upper": "7000FT AMSL",
+  "upper_fl": 70
+ },
+ "first_seen": "2026-11-03T19:33:40Z",
+ "id": "notam-vabf/2026/A1762",
+ "issued_at": "2026-11-03T11:24:00Z",
+ "last_seen": "2026-11-03T19:33:40Z",
+ "number": "A1762",
+ "positions": [
+  [
+   22.11242,
+   70.71823
+  ],
+  [
+   22.37541,
+   70.7164
+  ],
+  [
+   22.37351,
+   70.80395
+  ],
+  [
+   22.10524,
+   70.80027
+  ],
+  [
+   22.11242,
+   70.71823
+  ]
+ ],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-11-03T19:36:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AERIAL SURVEY AROUND RAJKOT AIRPORT USING",
+ "text": "A1762/26 NOTAMN\nQ) VABF/QWYLW/IV/BO/W/035/070/2215N07046E009\nA) VABF B) 2611090800 C) 2611201100\nD) 0800-1100\nE) AERIAL SURVEY AROUND RAJKOT AIRPORT USING\n   ACFT CESSNA T206 WITH REG VTBMS WI THE AREA \n   BOUNDED BY COORD: \n   220644.71N0704305.64E - 222231.46N0704259.04E -\n   222224.62N0704814.22E - 220618.87N0704800.97E -  \n   220644.71N0704305.64E\nF) 3500FT AMSL G) 7000FT AMSL",
+ "year": 2026
+}
