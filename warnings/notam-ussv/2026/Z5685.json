@@ -1,0 +1,105 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 57.06,
+    "lon": 50.11722,
+    "radius_nm": 2.16
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 57.1,
+   "lon": 50.0667,
+   "radius_nm": 16
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0600-1600",
+  "starts_at": "2026-11-05T06:00:00Z",
+  "upper": "750M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-03T06:55:49Z",
+ "id": "notam-ussv/2026/Z5685",
+ "issued_at": "2026-11-03T05:32:00Z",
+ "last_seen": "2026-11-03T06:55:49Z",
+ "number": "Z5685",
+ "positions": [
+  [
+   57.30944,
+   49.86833
+  ],
+  [
+   57.35556,
+   49.92417
+  ],
+  [
+   57.15889,
+   50.02361
+  ],
+  [
+   57.13333,
+   50.16139
+  ],
+  [
+   57.07,
+   50.28778
+  ],
+  [
+   57.00194,
+   50.21444
+  ],
+  [
+   56.88083,
+   50.33917
+  ],
+  [
+   56.87417,
+   50.30083
+  ],
+  [
+   56.89472,
+   50.19861
+  ],
+  [
+   56.91389,
+   49.91222
+  ],
+  [
+   57.12444,
+   49.77306
+  ],
+  [
+   57.3225,
+   49.79667
+  ],
+  [
+   57.30944,
+   49.86833
+  ],
+  [
+   57.06,
+   50.11722
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-03T06:59:03Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z5685/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/030/5706N05004E016\nA)USSV B)2611050600 C)2611101600\nD)DAILY 0600-1600\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 571834N0495206E-572120N0495527E-570932N0500125E-\n         570800N0500941E-570412N0501716E-570007N0501252E-\n         565251N0502021E-565227N0501803E-565341N0501155E-\n         565450N0495444E-570728N0494623E-571921N0494748E-\n         571834N0495206E\n   350M AMSL-750M AMSL.\n2. WI CIRCLE RADIUS 4KM CENTRE 570336N0500702E\n   GND-750M AMSL.\nF)GND  G)750M AMSL",
+ "year": 2026
+}

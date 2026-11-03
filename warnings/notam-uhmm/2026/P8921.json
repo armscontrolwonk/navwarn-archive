@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-07T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 53.01139,
+    "lon": 158.73944,
+    "radius_nm": 0.86
+   }
+  ],
+  "fir": "UHMM",
+  "kind": "drone",
+  "location": "UHMM",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 53.0,
+   "lon": 158.7333,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHMM",
+  "schedule": "03 0215-2359, 04-07 0000-2359",
+  "starts_at": "2026-11-03T02:15:00Z",
+  "upper": "1000M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-11-03T06:55:49Z",
+ "id": "notam-uhmm/2026/P8921",
+ "issued_at": "2026-11-03T02:19:00Z",
+ "last_seen": "2026-11-03T06:55:49Z",
+ "number": "P8921",
+ "positions": [
+  [
+   53.01139,
+   158.73944
+  ]
+ ],
+ "series": "notam-uhmm",
+ "source": {
+  "fetched_at": "2026-11-03T06:59:03Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 1.6KM CENTRE 530041N1584422E.",
+ "text": "P8921/26 NOTAMN\nQ)UHMM/QRTCA/IV/BO/W/000/040/5300N15844E001\nA)UHMM B)2611030215 C)2611072359\nD)03 0215-2359, 04-07 0000-2359\nE)AIRSPACE CLSD WI CIRCLE RADIUS 1.6KM CENTRE 530041N1584422E.\nMANNED ACFT AND OPR OF TWO UNMANNED ACFT OF FEDERAL NATIONAL GUARD\nTROOPS SERVICE, TYPE DGI MAVIC ZT, REG. 95718, 95720 NOT AFFECTED.\nF)GND  G)1000M AMSL",
+ "year": 2026
+}

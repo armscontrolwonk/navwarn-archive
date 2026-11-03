@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-08T06:40:00Z",
+ "extra": {
+  "fir": "RKRR",
+  "kind": "restricted",
+  "location": "RKRR",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.4333,
+   "lon": 129.05,
+   "radius_nm": 6
+  },
+  "qcode": "QRPCA",
+  "queried_fir": "RKRR",
+  "schedule": "04 0100-0150, 06 0210-0300, 08 0550-0640",
+  "starts_at": "2026-11-04T01:00:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-03T06:55:49Z",
+ "id": "notam-rkrr/2026/D3456",
+ "issued_at": "2026-11-03T02:23:00Z",
+ "last_seen": "2026-11-03T06:55:49Z",
+ "number": "D3456",
+ "positions": [
+  [
+   36.43278,
+   129.05333
+  ]
+ ],
+ "series": "notam-rkrr",
+ "source": {
+  "fetched_at": "2026-11-03T06:59:03Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO PROHIBITED AREA ACT AS FLW :",
+ "text": "D3456/26 NOTAMN  \nQ)RKRR/QRPCA/IV/NBO/W/000/100/3626N12903E006\nA)RKRR B)2611040100 C)2611080640\nD)04 0100-0150, 06 0210-0300, 08 0550-0640\nE)TEMPO PROHIBITED AREA ACT AS FLW :\n1. AREA : A CIRCLE RADIUS 5NM CENTERED ON 362558N1290312E\n2. RMK : EXC ACFT APPROVED BY THE AIRSPACE USER(031-669-5052)\nF)SFC G)10000FT AMSL",
+ "year": 2026
+}

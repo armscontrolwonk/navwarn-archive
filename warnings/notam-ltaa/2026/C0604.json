@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T16:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "drone",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.5167,
+   "lon": 31.1833,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTAA",
+  "schedule": "0600-1600",
+  "shape": "polygon",
+  "starts_at": "2026-11-03T06:00:00Z",
+  "upper": "4000FT AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-11-03T06:55:49Z",
+ "id": "notam-ltaa/2026/C0604",
+ "issued_at": "2026-11-03T06:41:00Z",
+ "last_seen": "2026-11-03T06:55:49Z",
+ "number": "C0604",
+ "positions": [
+  [
+   39.54889,
+   31.21944
+  ],
+  [
+   39.54194,
+   31.22667
+  ],
+  [
+   39.48667,
+   31.14806
+  ],
+  [
+   39.49667,
+   31.13722
+  ],
+  [
+   39.51028,
+   31.14639
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-03T06:59:03Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL TAKE PLACE",
+ "text": "C0604/26 NOTAMN\nQ) LTAA/QWULW/IV/BO /W /000/040/3931N03111E003\nA) LTAA B) 2611030600 C) 2611061600\nD) 0600-1600\nE) UNMANNED ACFT WILL TAKE PLACE\nAREA: 393256N0311310E 393231N0311336E 392912N0310853E 392948N0310814E\n393037N0310847E\nF) SFC G) 4000FT AMSL",
+ "year": 2026
+}

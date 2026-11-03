@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-26T08:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "other",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.8333,
+   "lon": 122.3333,
+   "radius_nm": 38
+  },
+  "qcode": "QWJLW",
+  "queried_fir": "RCAA",
+  "schedule": "NOV 17 18 20 24-26 0300-0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-17T03:00:00Z",
+  "upper": "FL200",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-11-03T06:55:49Z",
+ "id": "notam-rcaa/2026/A4076",
+ "issued_at": "2026-11-03T02:38:00Z",
+ "last_seen": "2026-11-03T06:55:49Z",
+ "number": "A4076",
+ "positions": [
+  [
+   22.66139,
+   121.69917
+  ],
+  [
+   23.20444,
+   122.86389
+  ],
+  [
+   22.98333,
+   122.96639
+  ],
+  [
+   22.46,
+   121.79806
+  ],
+  [
+   22.66139,
+   121.69917
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-11-03T06:59:03Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TARGET TOWING WILL TAKE PLACE:",
+ "text": "A4076/26 NOTAMN\nQ) RCAA/QWJLW/IV/M/W/000/200/2250N12220E038\nA) RCAA\nB) 2611170300 C) 2611260800\nD) NOV 17 18 20 24-26 0300-0800\nE) TARGET TOWING WILL TAKE PLACE:\n1.DOCUMENT NR: 1150034410\n2.AIRSPACE BLOCKED.\n3.COOR TEL: 04-26244086, 0988-006749\n4.AREA AS FLW:\n223941N 1214157E\n231216N 1225150E\n225900N 1225759E\n222736N 1214753E\n223941N 1214157E\nF) SFC G) FL200",
+ "year": 2026
+}

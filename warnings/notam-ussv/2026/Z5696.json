@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T18:00:00Z",
+ "extra": {
+  "fir": "USSV",
+  "kind": "route",
+  "location": "USSV",
+  "lower": "FL065",
+  "lower_fl": 65,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.8333,
+   "lon": 52.8167,
+   "radius_nm": 24
+  },
+  "qcode": "QARLC",
+  "queried_fir": "USSV",
+  "schedule": "05-10 0500-1800",
+  "starts_at": "2026-11-05T05:00:00Z",
+  "upper": "FL105",
+  "upper_fl": 105
+ },
+ "first_seen": "2026-11-03T06:55:49Z",
+ "id": "notam-ussv/2026/Z5696",
+ "issued_at": "2026-11-03T06:44:00Z",
+ "last_seen": "2026-11-03T06:55:49Z",
+ "number": "Z5696",
+ "positions": [],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-03T06:59:03Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE CLSD WI SEGMENT:",
+ "text": "Z5696/26 NOTAMN\nQ)USSV/QARLC/IV/NBO/E/065/105/5650N05249E024\nA)USSV B)2611050500 C)2611101800\nD)05-10 0500-1800\nE)ATS RTE CLSD WI SEGMENT:\nM864 INGEN-MUROT,\nT765 SUBIK-INGEN.\nF)FL065  G)FL105",
+ "year": 2026
+}

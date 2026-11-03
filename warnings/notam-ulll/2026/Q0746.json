@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T15:00:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "route",
+  "location": "ULLL",
+  "lower": "350M AMSL",
+  "lower_fl": 10,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 59.2833,
+   "lon": 29.2833,
+   "radius_nm": 18
+  },
+  "qcode": "QARLC",
+  "queried_fir": "ULLL",
+  "schedule": "DAILY 0705-1500",
+  "starts_at": "2026-11-04T07:05:00Z",
+  "upper": "600M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-03T06:55:49Z",
+ "id": "notam-ulll/2026/Q0746",
+ "issued_at": "2026-11-03T05:33:00Z",
+ "last_seen": "2026-11-03T06:55:49Z",
+ "number": "Q0746",
+ "positions": [],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-03T06:59:03Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENTS CLSD:",
+ "text": "Q0746/26 NOTAMN\nQ)ULLL/QARLC/IV/NBO/E/010/020/5917N02917E018\nA)ULLL B)2611040705 C)2611061500\nD)DAILY 0705-1500\nE)ATS RTE SEGMENTS CLSD:\nKR835 BAMAD-OGINO,\nKR839 MEDOB-GORUG.\nF)350M AMSL  G)600M AMSL",
+ "year": 2026
+}
