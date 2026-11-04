@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-09T07:00:00Z",
+ "extra": {
+  "fir": "WSJC",
+  "kind": "drone",
+  "location": "WSJC",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 1.3833,
+   "lon": 104.0,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WSJC",
+  "schedule": "NOV 11 13 17 19 25 0230-0700, DEC 01 03 09 0230-0700",
+  "shape": "polygon",
+  "starts_at": "2026-11-11T02:30:00Z",
+  "upper": "82FT AMSL",
+  "upper_fl": 1
+ },
+ "first_seen": "2026-11-04T06:36:35Z",
+ "id": "notam-wsjc/2026/A3384",
+ "issued_at": "2026-11-04T03:44:00Z",
+ "last_seen": "2026-11-04T06:36:35Z",
+ "number": "A3384",
+ "positions": [
+  [
+   1.37639,
+   104.00194
+  ],
+  [
+   1.37694,
+   104.00333
+  ],
+  [
+   1.37556,
+   104.00361
+  ],
+  [
+   1.37528,
+   104.00194
+  ],
+  [
+   1.37639,
+   104.00194
+  ]
+ ],
+ "series": "notam-wsjc",
+ "source": {
+  "fetched_at": "2026-11-04T06:39:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TETHERED UA OPS WILL TAKE PLACE WI",
+ "text": "A3384/26 NOTAMN\nQ)WSJC/QWULW/IV/BO/W/000/001/0123N10400E001\nA)WSJC B)2611110230 C)2612090700\nD)NOV 11 13 17 19 25 0230-0700, DEC 01 03 09 0230-0700\nE)TETHERED UA OPS WILL TAKE PLACE WI\n012235N1040007E-012237N1040012E-012232N1040013E-012231N1040007E-\n012235N1040007E (WI WSSS CTR).\nF)GND G)82FT AMSL",
+ "year": 2026
+}

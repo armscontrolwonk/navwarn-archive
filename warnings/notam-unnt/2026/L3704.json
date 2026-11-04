@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-08T11:00:00Z",
+ "extra": {
+  "fir": "UNNT",
+  "kind": "restricted",
+  "location": "UNNT",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.4667,
+   "lon": 84.5333,
+   "radius_nm": 15
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNNT",
+  "schedule": "DAILY 0300-1100",
+  "shape": "polygon",
+  "starts_at": "2026-11-05T03:00:00Z",
+  "upper": "500M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-04T06:36:35Z",
+ "id": "notam-unnt/2026/L3704",
+ "issued_at": "2026-11-04T02:31:00Z",
+ "last_seen": "2026-11-04T06:36:35Z",
+ "number": "L3704",
+ "positions": [
+  [
+   56.40611,
+   84.52917
+  ],
+  [
+   56.39556,
+   84.88361
+  ],
+  [
+   56.30639,
+   84.79806
+  ],
+  [
+   56.21833,
+   84.52917
+  ],
+  [
+   56.40611,
+   84.52917
+  ],
+  [
+   56.37056,
+   84.58333
+  ],
+  [
+   56.61583,
+   84.25694
+  ]
+ ],
+ "series": "notam-unnt",
+ "source": {
+  "fetched_at": "2026-11-04T06:39:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "L3704/26 NOTAMN\nQ)UNNT/QRTCA/IV/BO/W/000/020/5628N08432E015\nA)UNNT B)2611050300 C)2611081100\nD)DAILY 0300-1100\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 562422N0843145E-562344N0845301E-561823N0844753E-\n         561306N0843145E-562422N0843145E\n   SFC-500M AMSL.\n2. WI 2.5KM EITHER SIDE OF LINE JOINING POINTS:\n   562214N0843500E-563657N0841525E.\n   150M AMSL-500M AMSL.\nF)SFC  G)500M AMSL",
+ "year": 2026
+}

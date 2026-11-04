@@ -1,0 +1,52 @@
+{
+ "cancels": [
+  "notam-vomf/2026/A3426"
+ ],
+ "expires_at": "2027-01-31T17:30:00Z",
+ "extra": {
+  "fir": "VOMF",
+  "kind": "drone",
+  "location": "VOMF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 15.7,
+   "lon": 78.15,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "VOMF",
+  "schedule": "TUE THU SAT 0030-0430 1130-1730, MON WED FRI 0030-0930 1230-1730",
+  "starts_at": "2026-11-04T00:30:00Z",
+  "upper": "4000FT AGL",
+  "upper_fl": 53
+ },
+ "first_seen": "2026-11-04T06:36:35Z",
+ "id": "notam-vomf/2026/A3427",
+ "issued_at": "2026-11-04T01:54:00Z",
+ "last_seen": "2026-11-04T06:36:35Z",
+ "number": "A3427",
+ "positions": [
+  [
+   15.71153,
+   78.16094
+  ],
+  [
+   15.71153,
+   78.16094
+  ]
+ ],
+ "series": "notam-vomf",
+ "source": {
+  "fetched_at": "2026-11-04T06:39:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "DRONE OPS NEAR KURNOOL,ANDHRA PRADESH.",
+ "text": "A3427/26 NOTAMR A3426/26\nQ) VOMF/QWULW/IV/BO/A/000/053/1542N07809E003\nA) VOMF B) 2611040030 C) 2701311730\nD) TUE THU SAT 0030-0430 1130-1730, \nMON WED FRI 0030-0930 1230-1730\nE) DRONE OPS NEAR KURNOOL,ANDHRA PRADESH.\n1.LCA COORD??: 154241.50N 0780939.40E    \n2.RADIUS OF FLY CIRCLE ?: 3NM AROUND 154241.50N0780939.40E\n3.DRONE WT ??: 75KG\n4.DRONE SPEED??: CRUISE SPEED: 55KT(99KMH)\n               ??  RATE OF CLIMB: UPTO 1000FPM\n               ??  RATE OF DESCEND: 600FPM\nPILOTS TO EXER CTN\nF) GND G) 4000FT AGL",
+ "year": 2026
+}

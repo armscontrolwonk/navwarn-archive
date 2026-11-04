@@ -1,0 +1,50 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T12:00:00Z",
+ "extra": {
+  "fir": "UWWW",
+  "kind": "restricted",
+  "location": "UWWW",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 54.7667,
+   "lon": 56.6667,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UWWW",
+  "schedule": "DAILY 0600-1200",
+  "starts_at": "2026-11-05T06:00:00Z",
+  "upper": "650M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-04T06:36:35Z",
+ "id": "notam-uwww/2026/V8807",
+ "issued_at": "2026-11-04T06:30:00Z",
+ "last_seen": "2026-11-04T06:36:35Z",
+ "number": "V8807",
+ "positions": [
+  [
+   54.80611,
+   56.63944
+  ],
+  [
+   54.71333,
+   56.70306
+  ]
+ ],
+ "series": "notam-uwww",
+ "source": {
+  "fetched_at": "2026-11-04T06:39:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI 2KM EITHER SIDE OF LINE JOINING POINTS:",
+ "text": "V8807/26 NOTAMN\nQ)UWWW/QRTCA/IV/BO/W/000/030/5446N05640E003\nA)UWWW B)2611050600 C)2611061200\nD)DAILY 0600-1200\nE)AIRSPACE CLSD WI 2KM EITHER SIDE OF LINE JOINING POINTS:\n544822N0563822E-544248N0564211E\nF)GND  G)650M AMSL",
+ "year": 2026
+}

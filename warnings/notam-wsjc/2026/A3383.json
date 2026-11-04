@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T10:00:00Z",
+ "extra": {
+  "fir": "WSJC",
+  "kind": "exercise",
+  "location": "WSJC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 3.95,
+   "lon": 103.6333,
+   "radius_nm": 17
+  },
+  "qcode": "QWELW",
+  "queried_fir": "WSJC",
+  "schedule": "NOV 22 2300-2359, 23 0001-1000 2300-2359, 24 0001-1000 2300-2359, 25 0001-1000 2300-2359, 26 0001-1000 2300-2359, 27 0001-1000",
+  "shape": "polygon",
+  "starts_at": "2026-11-22T23:00:00Z",
+  "upper": "2000FT AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-04T06:36:35Z",
+ "id": "notam-wsjc/2026/A3383",
+ "issued_at": "2026-11-04T03:21:00Z",
+ "last_seen": "2026-11-04T06:36:35Z",
+ "number": "A3383",
+ "positions": [
+  [
+   4.12861,
+   103.43278
+  ],
+  [
+   4.12056,
+   103.84889
+  ],
+  [
+   3.7875,
+   103.84861
+  ],
+  [
+   3.79222,
+   103.43278
+  ],
+  [
+   4.12861,
+   103.43278
+  ]
+ ],
+ "series": "notam-wsjc",
+ "source": {
+  "fetched_at": "2026-11-04T06:39:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL ACT WI 040743N1032558E-040714N1035056E-034715N1035055E-",
+ "text": "A3383/26 NOTAMN\nQ)WSJC/QWELW/IV/NBO/W/000/020/0357N10338E017\nA)WSJC B)2611222300 C)2611271000\nD)NOV 22 2300-2359, 23 0001-1000 2300-2359, 24 0001-1000 2300-2359,\n25 0001-1000 2300-2359, 26 0001-1000 2300-2359, 27 0001-1000\nE)MIL ACT WI 040743N1032558E-040714N1035056E-034715N1035055E-\n034732N1032558E-040743N1032558E\nF)SFC G)2000FT AMSL",
+ "year": 2026
+}

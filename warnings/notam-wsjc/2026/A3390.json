@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-23T14:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 7.37917,
+    "lon": 113.84972,
+    "radius_nm": 10.0
+   }
+  ],
+  "fir": "WSJC",
+  "kind": "exercise",
+  "location": "WSJC",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 7.3833,
+   "lon": 113.85,
+   "radius_nm": 10
+  },
+  "qcode": "QWELW",
+  "queried_fir": "WSJC",
+  "schedule": "NOV 19-23 0000-1400",
+  "starts_at": "2026-11-19T00:00:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-04T06:36:35Z",
+ "id": "notam-wsjc/2026/A3390",
+ "issued_at": "2026-11-04T06:19:00Z",
+ "last_seen": "2026-11-04T06:36:35Z",
+ "number": "A3390",
+ "positions": [
+  [
+   7.37917,
+   113.84972
+  ]
+ ],
+ "series": "notam-wsjc",
+ "source": {
+  "fetched_at": "2026-11-04T06:39:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL ACT WILL TAKE PLACE RADIUS 10NM CENTRE 072245N1135059E.",
+ "text": "A3390/26 NOTAMN\nQ)WSJC/QWELW/IV/BO/W/000/100/0723N11351E010\nA)WSJC B)2611190000 C)2611231400\nD)NOV 19-23 0000-1400\nE)MIL ACT WILL TAKE PLACE RADIUS 10NM CENTRE 072245N1135059E.\nF)GND G)10000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,47 @@
+{
+ "cancels": [
+  "notam-uhmm/2026/P9001"
+ ],
+ "expires_at": "2026-11-04T11:20:00Z",
+ "extra": {
+  "fir": "UHMM",
+  "kind": "other",
+  "location": "UHMM",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 56.6333,
+   "lon": 161.3167,
+   "radius_nm": 200
+  },
+  "qcode": "QWWLW",
+  "queried_fir": "UHMM",
+  "starts_at": "2026-11-04T06:13:00Z",
+  "upper": "FL400",
+  "upper_fl": 400
+ },
+ "first_seen": "2026-11-04T06:36:35Z",
+ "id": "notam-uhmm/2026/P9010",
+ "issued_at": "2026-11-04T06:30:00Z",
+ "last_seen": "2026-11-04T06:36:35Z",
+ "number": "P9010",
+ "positions": [
+  [
+   56.63333,
+   161.31667
+  ]
+ ],
+ "series": "notam-uhmm",
+ "source": {
+  "fetched_at": "2026-11-04T06:39:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ERUPTION OF SHIVELUCH VOLCANO 300270 5638N16119E IN PROGRESS.",
+ "text": "P9010/26 NOTAMR P9001/26\nQ)UHMM/QWWLW/IV/NBO/W/000/400/5638N16119E200\nA)UHMM B)2611040613 C)2611041120 EST\nE)ERUPTION OF SHIVELUCH VOLCANO 300270 5638N16119E IN PROGRESS.\nAVIATION ALERT COLOUR CODE RED.\nAT 0520Z VOLCANIC ASH CLOUD LOCATED FROM GND TO FL230 WI COORD:\nN5719E16353-N5617E16503-N5547E16420-N5634 E16116-\nN5652E16126-N5719E16353\nAT 1120Z VOLCANIC ASH CLOUD FORECASTED WI COORD:\nN5707E16646-N5602E16854-N5509E16728-N5534 E16407-\nN5640E16119-N5707E16646\nDANGER OF VOLCANIC ASH EMISSION UP TO 12 KM AMSL STILL EXISTS.\nCURRENT ACTIVITIES CAN BE HAZARDOUS TO INTERNATIONAL AND\nDOMESTIC FLT.\nACFT CREWS SHOULD MAINTAIN WATCH FOR SIGMET/NOTAM FOR\nABOVE MENTIONED AREA.\nF)SFC  G)FL400",
+ "year": 2026
+}

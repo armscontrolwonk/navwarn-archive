@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T10:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 1.9833,
+   "lon": 103.45,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "DLY 0000-1000",
+  "shape": "polygon",
+  "starts_at": "2026-11-16T00:00:00Z",
+  "upper": "400FT AGL",
+  "upper_fl": 8
+ },
+ "first_seen": "2026-11-04T06:36:35Z",
+ "id": "notam-wmfc/2026/C0229",
+ "issued_at": "2026-11-04T04:58:00Z",
+ "last_seen": "2026-11-04T06:36:35Z",
+ "number": "C0229",
+ "positions": [
+  [
+   1.99389,
+   103.47111
+  ],
+  [
+   1.99306,
+   103.44861
+  ],
+  [
+   1.97417,
+   103.44917
+  ],
+  [
+   1.975,
+   103.47194
+  ],
+  [
+   1.99389,
+   103.47111
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-11-04T06:39:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI THE FLW COORD:",
+ "text": "C0229/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/008/0159N10327E001\nA) WMFC B) 2611160000 C) 2611301000 \nD)DLY 0000-1000\nE)UA ACT WILL TAKE PLACE WI THE FLW COORD:\n\n015938.00N 1032816.00E - 015935.00N 1032655.00E -\n015827.00N 1032657.00E - 015830.00N 1032819.00E -\n015938.00N 1032816.00E \n\n(SINDORA PALM OIL MILL,JOHOR)\nF) SFC                             G) 400FT AGL",
+ "year": 2026
+}
