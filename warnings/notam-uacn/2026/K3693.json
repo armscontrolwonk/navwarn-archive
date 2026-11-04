@@ -1,0 +1,74 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-05T17:00:00Z",
+ "extra": {
+  "fir": "UACN",
+  "kind": "restricted",
+  "location": "UACN",
+  "lower": "FL210",
+  "lower_fl": 210,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 49.7167,
+   "lon": 71.6833,
+   "radius_nm": 44
+  },
+  "qcode": "QRMCA",
+  "queried_fir": "UACN",
+  "shape": "polygon",
+  "starts_at": "2026-11-05T07:00:00Z",
+  "upper": "FL430",
+  "upper_fl": 430
+ },
+ "first_seen": "2026-11-04T19:51:00Z",
+ "id": "notam-uacn/2026/K3693",
+ "issued_at": "2026-11-04T18:37:00Z",
+ "last_seen": "2026-11-04T19:51:00Z",
+ "number": "K3693",
+ "positions": [
+  [
+   49.91778,
+   72.75611
+  ],
+  [
+   49.80333,
+   72.67417
+  ],
+  [
+   49.69694,
+   72.6475
+  ],
+  [
+   49.60333,
+   72.65528
+  ],
+  [
+   49.46833,
+   72.72
+  ],
+  [
+   49.5225,
+   70.64806
+  ],
+  [
+   49.96861,
+   70.63667
+  ],
+  [
+   49.91778,
+   72.75611
+  ]
+ ],
+ "series": "notam-uacn",
+ "source": {
+  "fetched_at": "2026-11-04T19:54:37Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL OPR AREA ACTIVATED",
+ "text": "K3693/26 NOTAMN\nQ) UACN/QRMCA/IV/BO /W /210/430/4943N07141E044\nA) UACN B) 2611050700 C) 2611051700\nE) MIL OPR AREA ACTIVATED\nAREA BOUNDED BY:\n495504N 0724522E - 494812N 0724027E - 494149N 0723851E - \n493612N 0723919E - 492806N 0724312E - 493121N 0703853E - \n495807N 0703812E - 495504N 0724522E\nF) FL210 G) FL430",
+ "year": 2026
+}

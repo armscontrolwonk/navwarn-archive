@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-11T20:00:00Z",
+ "extra": {
+  "fir": "USSV",
+  "kind": "route",
+  "location": "USSV",
+  "lower": "FL065",
+  "lower_fl": 65,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.75,
+   "lon": 52.3167,
+   "radius_nm": 27
+  },
+  "qcode": "QARLC",
+  "queried_fir": "USSV",
+  "schedule": "06-11 0400-2000",
+  "starts_at": "2026-11-06T04:00:00Z",
+  "upper": "FL090",
+  "upper_fl": 90
+ },
+ "first_seen": "2026-11-04T19:51:00Z",
+ "id": "notam-ussv/2026/Z5805",
+ "issued_at": "2026-11-04T10:01:00Z",
+ "last_seen": "2026-11-04T19:51:00Z",
+ "number": "Z5805",
+ "positions": [],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-04T19:54:37Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FLW ATS RTE SEGMENTS CLSD:",
+ "text": "Z5805/26 NOTAMN\nQ)USSV/QARLC/IV/NBO/E/065/090/5645N05219E027\nA)USSV B)2611060400 C)2611112000\nD)06-11 0400-2000\nE)FLW ATS RTE SEGMENTS CLSD:\nL93  KERUN-GASRO FL065-FL090,\nT765 SUBIK-GINOR FL065-FL090.\nF)FL065  G)FL090",
+ "year": 2026
+}

@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-05T14:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "exercise",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 45.35,
+   "lon": 21.2,
+   "radius_nm": 7
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-11-05T07:00:00Z",
+  "upper": "3000FT AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-04T19:51:00Z",
+ "id": "notam-lrbb/2026/D3644",
+ "issued_at": "2026-11-04T15:19:00Z",
+ "last_seen": "2026-11-04T19:51:00Z",
+ "number": "D3644",
+ "positions": [
+  [
+   45.41917,
+   21.10306
+  ],
+  [
+   45.35917,
+   21.105
+  ],
+  [
+   45.36167,
+   21.21111
+  ],
+  [
+   45.26611,
+   21.21667
+  ],
+  [
+   45.26778,
+   21.29139
+  ],
+  [
+   45.42361,
+   21.27917
+  ],
+  [
+   45.41917,
+   21.10306
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-11-04T19:54:37Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "NAVIGATION WARNING.",
+ "text": "D3644/26 NOTAMN\nQ) LRBB/QWELW/IV/BO /W /000/030/4521N02112E007\nA) LRBB B) 2611050700 C) 2611051400\nE) NAVIGATION WARNING.\n   ATMOSPHERIC RESEARCH FLT WILL TAKE PLACE INTO THE FLW AREA:\n   452509N0210611E-452133N0210618E-452142N0211240E-451558N0211300E\n   451604N0211729E-452525N0211645E-452509N0210611E\nF) GND G) 3000FT AMSL",
+ "year": 2026
+}

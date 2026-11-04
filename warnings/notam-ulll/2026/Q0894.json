@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-11T15:00:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "route",
+  "location": "ULLL",
+  "lower": "300M AMSL",
+  "lower_fl": 10,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 59.4833,
+   "lon": 28.65,
+   "radius_nm": 17
+  },
+  "qcode": "QARLC",
+  "queried_fir": "ULLL",
+  "schedule": "DAILY 0705-1500",
+  "starts_at": "2026-11-06T07:05:00Z",
+  "upper": "600M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-04T19:51:00Z",
+ "id": "notam-ulll/2026/Q0894",
+ "issued_at": "2026-11-04T13:00:00Z",
+ "last_seen": "2026-11-04T19:51:00Z",
+ "number": "Q0894",
+ "positions": [],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-04T19:54:37Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FLW ATS RTE SEGMENTS CLSD:",
+ "text": "Q0894/26 NOTAMN\nQ)ULLL/QARLC/IV/NBO/E/010/020/5929N02839E017\nA)ULLL B)2611060705 C)2611111500\nD)DAILY 0705-1500\nE)FLW ATS RTE SEGMENTS CLSD:\nKR839 RANVA-MEDOB.\nF)300M AMSL  G)600M AMSL",
+ "year": 2026
+}

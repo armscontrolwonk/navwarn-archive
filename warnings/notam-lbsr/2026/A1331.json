@@ -1,0 +1,45 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-05T12:00:00Z",
+ "extra": {
+  "fir": "LBSR",
+  "kind": "restricted",
+  "location": "LBSR",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.8,
+   "lon": 23.4667,
+   "radius_nm": 4
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "LBSR",
+  "starts_at": "2026-11-05T07:30:00Z",
+  "upper": "10500M AMSL",
+  "upper_fl": 345
+ },
+ "first_seen": "2026-11-04T19:51:00Z",
+ "id": "notam-lbsr/2026/A1331",
+ "issued_at": "2026-11-04T19:05:00Z",
+ "last_seen": "2026-11-04T19:51:00Z",
+ "number": "A1331",
+ "positions": [
+  [
+   41.79861,
+   23.46611
+  ]
+ ],
+ "series": "notam-lbsr",
+ "source": {
+  "fetched_at": "2026-11-04T19:54:37Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AD-HOC DANGER AREA ESTABLISHED WI 7000M RADIUS",
+ "text": "A1331/26 NOTAMN\nQ)LBSR/QRDCA/IV/BO/W/000/345/4148N02328E004\nA)LBSR\nB)2611050730 C)2611051200\nE)AD-HOC DANGER AREA ESTABLISHED WI 7000M RADIUS\nCENTERED ON 414755N 0232758E DUE TO SAR EXER.\nSAFETY BUFFERS INCLUDED AS FLW:\n- HORIZONTAL - 1000M\n- VERTICAL - 1000FT.\nF)GND G)10500M AMSL",
+ "year": 2026
+}

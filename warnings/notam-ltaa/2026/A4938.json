@@ -1,0 +1,91 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-15T18:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.9667,
+   "lon": 37.3167,
+   "radius_nm": 98
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LTAA",
+  "schedule": "11 0700-1000 1200-1500, 12 0600-0900 1200-1500, 13 1000-1300 1500-1800, 14 0600-0900 1200-1500, 15 1000-1300 1500-1800",
+  "shape": "polygon",
+  "starts_at": "2026-11-11T07:00:00Z",
+  "upper": "UNL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-04T19:51:00Z",
+ "id": "notam-ltaa/2026/A4938",
+ "issued_at": "2026-11-04T11:08:00Z",
+ "last_seen": "2026-11-04T19:51:00Z",
+ "number": "A4938",
+ "positions": [
+  [
+   42.02611,
+   35.17917
+  ],
+  [
+   42.25806,
+   35.19611
+  ],
+  [
+   42.58861,
+   36.88667
+  ],
+  [
+   42.63194,
+   37.62278
+  ],
+  [
+   42.15694,
+   39.23778
+  ],
+  [
+   41.65028,
+   39.425
+  ],
+  [
+   41.28361,
+   39.07278
+  ],
+  [
+   41.67778,
+   36.06583
+  ],
+  [
+   41.67889,
+   35.56583
+  ],
+  [
+   41.76306,
+   35.29472
+  ],
+  [
+   41.88611,
+   35.17528
+  ],
+  [
+   42.02611,
+   35.17917
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-04T19:54:37Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FIRING EXERCISE WILL TAKE PLACE",
+ "text": "A4938/26 NOTAMN\nQ) LTAA/QWMLW/IV/BO /W /000/999/4158N03719E098\nA) LTAA B) 2611110700 C) 2611151800\nD) 11 0700-1000 1200-1500, 12 0600-0900 1200-1500, 13 1000-1300  \n1500-1800, 14 0600-0900 1200-1500, 15 1000-1300 1500-1800\nE) FIRING EXERCISE WILL TAKE PLACE\nRMK: AIR TRAFFIC FLOW REGULATION NOTAM SHALL BE ISSUED.\nAREA(LTTSA-33R): 420134N0351045E 421529N0351146E 423519N0365312E \n423755N0373722E 420925N0391416E 413901N0392530E 411701N0390422E \n414040N0360357E 414044N0353357E 414547N0351741E 415310N0351031E \n420134N0351045E\nWI SINOP TMA \nVERTICAL LIMITS: SFC-160000FT AMSL\nF) SFC G) UNL",
+ "year": 2026
+}

@@ -1,0 +1,87 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T11:30:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "other",
+  "location": "VABF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 21.1667,
+   "lon": 72.8167,
+   "radius_nm": 8
+  },
+  "qcode": "QWYLW",
+  "queried_fir": "VABF",
+  "schedule": "0230-0530 0830-1130",
+  "shape": "polygon",
+  "starts_at": "2026-11-11T02:30:00Z",
+  "upper": "3800FT AGL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-11-04T19:51:00Z",
+ "id": "notam-vabf/2026/A1769",
+ "issued_at": "2026-11-04T07:35:00Z",
+ "last_seen": "2026-11-04T19:51:00Z",
+ "number": "A1769",
+ "positions": [
+  [
+   21.26822,
+   72.76285
+  ],
+  [
+   21.26768,
+   72.91309
+  ],
+  [
+   21.20995,
+   72.91361
+  ],
+  [
+   21.19772,
+   72.88919
+  ],
+  [
+   21.06791,
+   72.89258
+  ],
+  [
+   21.06787,
+   72.85582
+  ],
+  [
+   21.10079,
+   72.82097
+  ],
+  [
+   21.09871,
+   72.71289
+  ],
+  [
+   21.20294,
+   72.71251
+  ],
+  [
+   21.20379,
+   72.76297
+  ],
+  [
+   21.26822,
+   72.76285
+  ]
+ ],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-11-04T19:54:37Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AERIAL SURVEY AROUND SURAT AIRPORT USING ACFT ",
+ "text": "A1769/26 NOTAMN\nQ) VABF/QWYLW/IV/BO/W/000/040/2110N07249E008\nA) VABF B) 2611110230 C) 2611201130\nD) 0230-0530 0830-1130\nE) AERIAL SURVEY AROUND SURAT AIRPORT USING ACFT \n   CESSNA T206H  WITH REG VTBMS WI THE AREA BOUNDED\n   BY COORD:\n   211605.59N0724546.26E (POINT A )- \n   211603.66N0725447.11E (POINT B )-\n   211235.83N0725448.98E (POINT C )-\n   211151.80N0725321.10E (POINT D )-\n   210404.47N0725333.27E (POINT E )-\n   210404.33N0725120.95E (POINT F )-\n   210602.83N0724915.49E (POINT G )- \n   210555.37N0724246.41E (POINT H )-\n   211210.60N0724245.02E (POINT I )- \n   211213.66N0724546.68E (POINT J )-\n   211605.59N0724546.26E (POINT A )\nF) GND G) 3800FT AGL",
+ "year": 2026
+}

@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T10:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "exercise",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 3.1333,
+   "lon": 102.9833,
+   "radius_nm": 10
+  },
+  "qcode": "QWELW",
+  "queried_fir": "WMFC",
+  "schedule": "DAILY 0000-1000",
+  "starts_at": "2026-11-06T00:00:00Z",
+  "upper": "FL100",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-04T19:51:00Z",
+ "id": "notam-wmfc/2026/A4411",
+ "issued_at": "2026-11-04T11:03:00Z",
+ "last_seen": "2026-11-04T19:51:00Z",
+ "number": "A4411",
+ "positions": [
+  [
+   3.13917,
+   102.985
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-11-04T19:54:37Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MILITARY EXERCISE WILL TAKE PLACE WITHIN 10NM RADIUS FROM COORD ",
+ "text": "A4411/26 NOTAMN\nQ) WMFC/QWELW/IV/BO /W /000/100/0308N10259E010\nA) WMFC B) 2611060000 C) 2611101000 \nD)DAILY 0000-1000\nE)MILITARY EXERCISE WILL TAKE PLACE WITHIN 10NM RADIUS FROM COORD \n030821N1025906E (JERAM AIR LELEH,BUKIT IBAM)\nF) SFC                             G) FL100",
+ "year": 2026
+}

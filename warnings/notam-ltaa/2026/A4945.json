@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-13T04:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "16000FT AMSL",
+  "lower_fl": 160,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.8167,
+   "lon": 35.1667,
+   "radius_nm": 51
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "schedule": "11 0700-1000 1300-1600 1900-2200, 12 0100-0400 0700-1000 1300-1600 1900-2200, 13 0100-0400",
+  "shape": "polygon",
+  "starts_at": "2026-11-11T07:00:00Z",
+  "upper": "28000FT AMSL",
+  "upper_fl": 280
+ },
+ "first_seen": "2026-11-04T19:51:00Z",
+ "id": "notam-ltaa/2026/A4945",
+ "issued_at": "2026-11-04T12:20:00Z",
+ "last_seen": "2026-11-04T19:51:00Z",
+ "number": "A4945",
+ "positions": [
+  [
+   40.35306,
+   34.36139
+  ],
+  [
+   40.3575,
+   35.96722
+  ],
+  [
+   39.26667,
+   35.95528
+  ],
+  [
+   39.26667,
+   34.36139
+  ],
+  [
+   40.35306,
+   34.36139
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-04T19:54:37Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "PATROL FLIGHT WILL TAKE PLACE WI AREA: 402111N0342141E ",
+ "text": "A4945/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /160/280/3949N03510E051\nA) LTAA B) 2611110700 C) 2611130400\nD) 11 0700-1000 1300-1600 1900-2200, 12 0100-0400 0700-1000  \n1300-1600 1900-2200, 13 0100-0400\nE) PATROL FLIGHT WILL TAKE PLACE WI AREA: 402111N0342141E \n402127N0355802E 391600N0355719E 391600N0342141E 402111N0342141E\nF) 16000FT AMSL G) 28000FT AMSL",
+ "year": 2026
+}

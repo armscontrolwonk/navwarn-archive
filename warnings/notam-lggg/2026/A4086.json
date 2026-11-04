@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-07T10:30:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "drone",
+  "location": "LGGG",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.2167,
+   "lon": 23.8833,
+   "radius_nm": 13
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "LGGG",
+  "schedule": "05 06 07 0800-1030",
+  "shape": "polygon",
+  "starts_at": "2026-11-05T08:00:00Z",
+  "upper": "7000FT AMSL",
+  "upper_fl": 70
+ },
+ "first_seen": "2026-11-04T19:51:00Z",
+ "id": "notam-lggg/2026/A4086",
+ "issued_at": "2026-11-04T08:37:00Z",
+ "last_seen": "2026-11-04T19:51:00Z",
+ "number": "A4086",
+ "positions": [
+  [
+   38.35,
+   23.85
+  ],
+  [
+   38.35,
+   24.08333
+  ],
+  [
+   38.15,
+   24.13333
+  ],
+  [
+   38.1,
+   23.99722
+  ],
+  [
+   38.1,
+   23.66667
+  ],
+  [
+   38.25,
+   23.66667
+  ],
+  [
+   38.35,
+   23.85
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-11-04T19:54:37Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW: ",
+ "text": "A4086/26 NOTAMN\nQ) LGGG/QRTCA/IV/BO /W /000/070/3813N02353E013\nA) LGGG B) 2611050800 C) 2611071030\nD) 05 06 07 0800-1030\nE) A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW: \n1. AREA: 382100N 0235100E - 382100N 0240500E - 380900N0240800E - \n380600N 0235950E - 380600N 0234000E - 381500N 0234000E - 382100N \n0235100E\nATHINAI TMA, ATHINAI/ELEFTHERIOS VENIZELOS CTR, TANAGRA MTMA/CTR, \nTATOI MATZ, LGR23A, LGR23B AFFECTED.\nLGR58A NOT TO BE AFFECTED AND MARATHON/KOTRONI MATZ NOT TO BE \nAFFECTED 2000FT AMSL AND BELOW.\n2. TYPE OF RESTRICTION: AIR DISPLAY\n3. REMARKS:\n3.1 PRIOR APPROVAL FROM APPROPRIATE ATC UNIT IS REQUIRED BEFORE \nCOMMENCING ACTIVITIES.\n3.2 FLT OF STATE ACFT/UAV, HOSP FLT AND FLT OPR IFR, IN CONTACT WITH \nAPPROPRIATE ATC UNIT, ARE NOT AFFECTED. \n3.3 FLT OPR VFR AND UAV FLT IN THE ABOVE MENTIONED AREA ARE \nSUSPENDED.\nF) SFC G) 7000FT AMSL",
+ "year": 2026
+}

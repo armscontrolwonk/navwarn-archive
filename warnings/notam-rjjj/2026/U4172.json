@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.5167,
+   "lon": 143.4667,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0700",
+  "starts_at": "2026-11-11T00:00:00Z",
+  "upper": "1031FT AMSL",
+  "upper_fl": 11
+ },
+ "first_seen": "2026-11-04T19:51:00Z",
+ "id": "notam-rjjj/2026/U4172",
+ "issued_at": "2026-11-04T07:22:00Z",
+ "last_seen": "2026-11-04T19:51:00Z",
+ "number": "U4172",
+ "positions": [
+  [
+   42.52194,
+   143.47361
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-04T19:54:37Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4172/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/011/4231N14328E001\nA)RJJJ B)2611110000 C)2611200700\nD)0000/0700\nE)UNMANNED ACFT:\nAREA: RADIUS 88M CENTER 423119N1432825E \n(HIROO-GUN IN HOKKAIDO)\nWT: 9.8KG\nRMK: THIS AREA IS INCLUDED IN HK2-11\nF)SFC G)1031FT AMSL",
+ "year": 2026
+}

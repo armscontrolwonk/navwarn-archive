@@ -1,0 +1,45 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-04T20:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "drone",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.7333,
+   "lon": 26.1667,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "LRBB",
+  "starts_at": "2026-11-04T15:00:00Z",
+  "upper": "2000FT AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-04T19:51:00Z",
+ "id": "notam-lrbb/2026/R6161",
+ "issued_at": "2026-11-04T06:48:00Z",
+ "last_seen": "2026-11-04T19:51:00Z",
+ "number": "R6161",
+ "positions": [
+  [
+   44.72611,
+   26.17167
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-11-04T19:54:37Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPORARY RESTRICTED AREA FOR VFR AND UNMANNED ACFT FLT WILL",
+ "text": "R6161/26 NOTAMN\nQ) LRBB/QRTCA/IV/BO /W /000/020/4444N02610E001\nA) LRBB B) 2611041500 C) 2611042000\nE) TEMPORARY RESTRICTED AREA FOR VFR AND UNMANNED ACFT FLT WILL\n   WILL TAKE PLACE INTO A CIRCLE CENTERED ON POINT OF\n   COORD 444334N0261018E WITH 0.7NM RADIUS\n   EXCEPT SPECIAL, HUMANITARIAN, SAR, SMURD, AND EMERG FLT\nF) GND G) 2000FT AMSL",
+ "year": 2026
+}

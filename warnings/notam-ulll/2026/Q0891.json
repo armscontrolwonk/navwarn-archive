@@ -1,0 +1,109 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-11T15:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 59.36667,
+    "lon": 28.93333,
+    "radius_nm": 0.16
+   }
+  ],
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 59.3833,
+   "lon": 28.7833,
+   "radius_nm": 8
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "06-11 0705-1500",
+  "starts_at": "2026-11-06T07:05:00Z",
+  "upper": "700M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-04T19:51:00Z",
+ "id": "notam-ulll/2026/Q0891",
+ "issued_at": "2026-11-04T12:08:00Z",
+ "last_seen": "2026-11-04T19:51:00Z",
+ "number": "Q0891",
+ "positions": [
+  [
+   59.2775,
+   28.665
+  ],
+  [
+   59.31333,
+   28.66833
+  ],
+  [
+   59.335,
+   28.81083
+  ],
+  [
+   59.39972,
+   28.67889
+  ],
+  [
+   59.42694,
+   28.69472
+  ],
+  [
+   59.44389,
+   28.80278
+  ],
+  [
+   59.46083,
+   28.79611
+  ],
+  [
+   59.4725,
+   28.90917
+  ],
+  [
+   59.4325,
+   28.89778
+  ],
+  [
+   59.41028,
+   28.94278
+  ],
+  [
+   59.29167,
+   28.96833
+  ],
+  [
+   59.27472,
+   28.94222
+  ],
+  [
+   59.26111,
+   28.87444
+  ],
+  [
+   59.2775,
+   28.665
+  ],
+  [
+   59.36667,
+   28.93333
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-04T19:54:37Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Q0891/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/030/5923N02847E008\nA)ULLL B)2611060705 C)2611111500\nD)06-11 0705-1500\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 591639N0283954E-591848N0284006E-592006N0284839E-\n         592359N0284044E-592537N0284141E-592638N0284810E-\n         592739N0284746E-592821N0285433E-592557N0285352E-\n         592437N0285634E-591730N0285806E-591629N0285632E-\n         591540N0285228E-591639N0283954E\n   200M AMSL-700M AMSL.\n2. WI CIRCLE RADIUS 0.3KM CENTRE 592200N0285600E\n   SFC-200M AMSL.\nF)SFC  G)700M AMSL",
+ "year": 2026
+}
