@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-11T17:30:00Z",
+ "extra": {
+  "fir": "VOMF",
+  "kind": "exercise",
+  "location": "VOMF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 11.7333,
+   "lon": 78.9667,
+   "radius_nm": 76
+  },
+  "qcode": "QWELW",
+  "queried_fir": "VOMF",
+  "schedule": "0230-0530 1500-1730",
+  "shape": "polygon",
+  "starts_at": "2026-11-10T02:30:00Z",
+  "upper": "FL450",
+  "upper_fl": 450
+ },
+ "first_seen": "2026-11-05T20:02:31Z",
+ "id": "notam-vomf/2026/A3454",
+ "issued_at": "2026-11-05T12:44:00Z",
+ "last_seen": "2026-11-05T20:02:31Z",
+ "number": "A3454",
+ "positions": [
+  [
+   12.5,
+   77.85
+  ],
+  [
+   12.6,
+   77.98333
+  ],
+  [
+   11.73333,
+   79.91667
+  ],
+  [
+   10.95,
+   79.91667
+  ],
+  [
+   11.45,
+   77.86667
+  ],
+  [
+   12.5,
+   77.85
+  ]
+ ],
+ "series": "notam-vomf",
+ "source": {
+  "fetched_at": "2026-11-05T20:07:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE RESERVATION FOR INDIAN AIRFORCE EXER ",
+ "text": "A3454/26 NOTAMN\nQ) VOMF/QWELW/IV/BO/W/000/450/1144N07858E076\nA) VOMF B) 2611100230 C) 2611111730\nD) 0230-0530 1500-1730\nE) AIRSPACE RESERVATION FOR INDIAN AIRFORCE EXER \nWI AREA BOUNDED BY COORD:\n1230N 07751E - 1236N 07759E - 1144N 07955E - \n1057N 07955E - 1127N 07752E - 1230N 07751E\n\nTHE FLW ATS ROUTES/SEGMENTS NOT AVBL:\n\n1. W42 NOT AVBL BTN TTR-BIA. NO ALTN RTE\n2. W92 NOT AVBL BTN AKMIL-NUVTI. NO ALTN RTE\n3. W114 NOT AVBL BTN IBETI-NOPES. NO ALTN RTE\n4. W115 NOT AVBL BTN LAXIK-CCB. NO ALTN RTE\n5. J13 NOT AVBL BTN NUVTI-MATPA. NO ALTN RTE\n6. J15 NOT AVBL BTN ADKAL-ARUMO. NO ALTN RTE\n7. J18 NOT AVBL BTN ADKAL-MMV. NO ALTN RTE\n8. V5 NOT AVBL BTN TTR-AKMIL. NO ALTN RTE\n9. V7 NOT AVBL BTN GOKUL-MMV. NO ALTN RTE\n10.V45 NOT AVBL BTN AKTIM-TTR. NO ALTN RTE\n11.R457 NOT AVBL BTN MMV-TTR. NO ALTN RTE \n12.W93 NOT AVBL BTN ADKAL-ENGIL. NO ALTN RTE\nF) GND G) FL450",
+ "year": 2026
+}

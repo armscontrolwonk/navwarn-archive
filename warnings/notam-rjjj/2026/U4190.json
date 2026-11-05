@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-22T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.7833,
+   "lon": 139.2833,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-20T23:00:00Z",
+  "upper": "850FT AMSL",
+  "upper_fl": 9
+ },
+ "first_seen": "2026-11-05T20:02:31Z",
+ "id": "notam-rjjj/2026/U4190",
+ "issued_at": "2026-11-05T12:59:00Z",
+ "last_seen": "2026-11-05T20:02:31Z",
+ "number": "U4190",
+ "positions": [
+  [
+   37.78472,
+   139.27361
+  ],
+  [
+   37.78972,
+   139.27639
+  ],
+  [
+   37.78806,
+   139.28417
+  ],
+  [
+   37.78611,
+   139.28333
+  ],
+  [
+   37.7875,
+   139.27806
+  ],
+  [
+   37.78361,
+   139.27639
+  ],
+  [
+   37.78472,
+   139.27361
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-05T20:07:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4190/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/009/3747N13917E002\nA)RJJJ B)2611202300 C)2611220800\nD)2300/0800\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n374705N1391625E - 374723N1391635E - 374717N1391703E - 374710N1391700E\n- 374715N1391641E - 374701N1391635E - 374705N1391625E \n(AGANO-SHI IN NIIGATA)\n(DAINICHIBARA MANEUVERING AREA)\nWT: 0.5KG\nRMK: SOURCE/JSDF-G(RJTS)\nSOMAGAHARA BASE OPERATIONS\nTEL 0279-54-2011(EXTENTION 2576)\nF)SFC G)850FT AMSL",
+ "year": 2026
+}

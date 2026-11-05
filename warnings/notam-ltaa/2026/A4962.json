@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-18T20:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.8,
+   "lon": 39.55,
+   "radius_nm": 5
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-18T05:00:00Z",
+  "upper": "9500FT AMSL",
+  "upper_fl": 95
+ },
+ "first_seen": "2026-11-05T20:02:31Z",
+ "id": "notam-ltaa/2026/A4962",
+ "issued_at": "2026-11-05T08:04:00Z",
+ "last_seen": "2026-11-05T20:02:31Z",
+ "number": "A4962",
+ "positions": [
+  [
+   39.82639,
+   39.47167
+  ],
+  [
+   39.75889,
+   39.47639
+  ],
+  [
+   39.77917,
+   39.64361
+  ],
+  [
+   39.83556,
+   39.63472
+  ],
+  [
+   39.82639,
+   39.47167
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-05T20:07:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "GUN FIRING WILL TAKE PLACE WI ERZINCAN CTR: 394935N0392818E ",
+ "text": "A4962/26 NOTAMN\nQ) LTAA/QWMLW/IV/BO /W /000/095/3948N03933E005\nA) LTAA B) 2611180500 C) 2611182000\nE) GUN FIRING WILL TAKE PLACE WI ERZINCAN CTR: 394935N0392818E \n394532N0392835E 394645N0393837E 395008N0393805E 394935N0392818E\nF) SFC G) 9500FT AMSL",
+ "year": 2026
+}

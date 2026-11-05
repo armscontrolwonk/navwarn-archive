@@ -1,0 +1,83 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T07:30:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "restricted",
+  "location": "VABF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.45,
+   "lon": 69.6833,
+   "radius_nm": 50
+  },
+  "qcode": "QRACA",
+  "queried_fir": "VABF",
+  "schedule": "11-16 19 0520-0730",
+  "shape": "polygon",
+  "starts_at": "2026-11-11T05:20:00Z",
+  "upper": "FL160",
+  "upper_fl": 160
+ },
+ "first_seen": "2026-11-05T20:02:31Z",
+ "id": "notam-vabf/2026/A1778",
+ "issued_at": "2026-11-05T11:50:00Z",
+ "last_seen": "2026-11-05T20:02:31Z",
+ "number": "A1778",
+ "positions": [
+  [
+   22.78389,
+   69.68306
+  ],
+  [
+   22.78389,
+   70.19972
+  ],
+  [
+   22.26722,
+   70.48306
+  ],
+  [
+   22.49361,
+   70.05806
+  ],
+  [
+   22.11111,
+   69.78444
+  ],
+  [
+   22.03972,
+   69.455
+  ],
+  [
+   21.96306,
+   69.21389
+  ],
+  [
+   22.23389,
+   68.91667
+  ],
+  [
+   22.46722,
+   69.08333
+  ],
+  [
+   22.78389,
+   69.68306
+  ]
+ ],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-11-05T20:07:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE RESERVATION FOR MULTI AGENCY CAPABILITY",
+ "text": "A1778/26 NOTAMN\nQ) VABF/QRACA/IV/NBO/W/000/160/2227N06941E050\nA) VABF B) 2611110520 C) 2611190730\nD) 11-16 19 0520-0730\nE) AIRSPACE RESERVATION FOR MULTI AGENCY CAPABILITY\n   DEMONSTRATION (MACD) ANNUAL JOINT EXER WI THE\n   AREA BOUNDED BY COORD:\n   224702N 0694059E- 224702N 0701159E-221602N 0702859E\n   THEN ALONG THE CLOCKWISE ARC OF A CIRCLE OF RADIUS\n   27.5 NM CENTRED ON 222937N 0700329E-\n   220640N 0694704E- 220223N 0692718E-\n   215747N 0691250E- 221402N 0685500E-\n   222802N 0690500E- 224702N 0694059E\n   EXCLUDING DANGER OR PROHIBITED AREAS\n   DRG ABV ACT, FLW ATS RTE NOT AVBL:\n   1. ATS RTE W135 NOT AVBL BTN JNR AND LAXOM.\n   NO ALTN RTE\n   2. ATS RTE W61 NOT AVBL BTN JNR AND LIGPI.\n   NO ALTN RTE\nF) GND G) FL160",
+ "year": 2026
+}

@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-11T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.95,
+   "lon": 138.1667,
+   "radius_nm": 2
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-08T22:00:00Z",
+  "upper": "6200FT AMSL",
+  "upper_fl": 62
+ },
+ "first_seen": "2026-11-05T20:02:31Z",
+ "id": "notam-rjjj/2026/P5551",
+ "issued_at": "2026-11-05T11:09:00Z",
+ "last_seen": "2026-11-05T20:02:31Z",
+ "number": "P5551",
+ "positions": [
+  [
+   36.93139,
+   138.17083
+  ],
+  [
+   36.94222,
+   138.1525
+  ],
+  [
+   36.95667,
+   138.19639
+  ],
+  [
+   36.93139,
+   138.17083
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-05T20:07:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG EXER",
+ "text": "P5551/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/062/3657N13810E002\nA)RJJJ B)2611082200 C)2611110800\nD)2200/0800\nE)FRNG EXER\nWEAPON: 81MORTAR\nAREA: BOUNDED BY FLW POINTS\n365553N1381015E - 365632N1380909E - 365724N1381147E - 365553N1381015E\n(MYOKO-SHI,JOETSU-SHI IN NIIGATA)\n(SEKIYAMA MANEUVERING AREA)\nRMK: SOURCE/JSDF-G(RJTS)\nSOMAGAHARA BASE OPERATIONS\nTEL 0279-54-2011(EXTENSION 2576)\nF)SFC G)6200FT AMSL",
+ "year": 2026
+}

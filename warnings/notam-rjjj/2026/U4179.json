@@ -1,0 +1,86 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T15:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.2,
+   "lon": 140.0667,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-09T15:00:00Z",
+  "upper": "3183FT AMSL",
+  "upper_fl": 32
+ },
+ "first_seen": "2026-11-05T20:02:31Z",
+ "id": "notam-rjjj/2026/U4179",
+ "issued_at": "2026-11-05T09:20:00Z",
+ "last_seen": "2026-11-05T20:02:31Z",
+ "number": "U4179",
+ "positions": [
+  [
+   37.21806,
+   140.05306
+  ],
+  [
+   37.21,
+   140.06222
+  ],
+  [
+   37.21194,
+   140.07167
+  ],
+  [
+   37.20472,
+   140.09
+  ],
+  [
+   37.20306,
+   140.08639
+  ],
+  [
+   37.18861,
+   140.09917
+  ],
+  [
+   37.18222,
+   140.08667
+  ],
+  [
+   37.19833,
+   140.07583
+  ],
+  [
+   37.19472,
+   140.06139
+  ],
+  [
+   37.20917,
+   140.04028
+  ],
+  [
+   37.21806,
+   140.05306
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-05T20:07:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4179/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/032/3712N14004E003\nA)RJJJ B)2611091500 C)2611191500\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n371305N1400311E - 371236N1400344E - 371243N1400418E - 371217N1400524E\n- 371211N1400511E - 371119N1400557E - 371056N1400512E -\n371154N1400433E - 371141N1400341E - 371233N1400225E - 371305N1400311E\n(IWASE-GUN,NISHISHIRAKAWA-GUN IN FUKUSHIMA)\n(SHIRAKAWANUNOBIKIYAMA MANEUVERING AREA)\nNUMBER  : 3\nWT: 0.5KG\nWX COND : VMC ONLY\nRMK: SOURCE/JSDF-G(RJSU)\nF)SFC G)3183FT AMSL",
+ "year": 2026
+}

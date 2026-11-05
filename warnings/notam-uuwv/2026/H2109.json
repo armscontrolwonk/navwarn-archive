@@ -1,0 +1,101 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T15:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 56.86667,
+    "lon": 35.83333,
+    "radius_nm": 0.16
+   }
+  ],
+  "fir": "UUWV",
+  "kind": "restricted",
+  "location": "UUWV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.85,
+   "lon": 35.9,
+   "radius_nm": 5
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UUWV",
+  "schedule": "07-10 0600-1500",
+  "starts_at": "2026-11-07T06:00:00Z",
+  "upper": "490M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-05T20:02:31Z",
+ "id": "notam-uuwv/2026/H2109",
+ "issued_at": "2026-11-05T19:47:00Z",
+ "last_seen": "2026-11-05T20:02:31Z",
+ "number": "H2109",
+ "positions": [
+  [
+   56.84083,
+   35.79333
+  ],
+  [
+   56.89194,
+   35.78028
+  ],
+  [
+   56.91194,
+   35.86944
+  ],
+  [
+   56.91861,
+   35.87278
+  ],
+  [
+   56.91833,
+   35.88833
+  ],
+  [
+   56.91278,
+   35.89611
+  ],
+  [
+   56.90722,
+   35.89028
+  ],
+  [
+   56.89694,
+   35.9325
+  ],
+  [
+   56.86556,
+   35.98056
+  ],
+  [
+   56.79389,
+   35.9325
+  ],
+  [
+   56.79139,
+   35.86
+  ],
+  [
+   56.84083,
+   35.79333
+  ],
+  [
+   56.86667,
+   35.83333
+  ]
+ ],
+ "series": "notam-uuwv",
+ "source": {
+  "fetched_at": "2026-11-05T20:07:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "H2109/26 NOTAMN\nQ)UUWV/QRTCA/IV/BO/W/000/020/5651N03554E005\nA)UUWV B)2611070600 C)2611101500\nD)07-10 0600-1500\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 565027N0354736E-565331N0354649E-565443N0355210E-\n         565507N0355222E-565506N0355318E-565446N0355346E-\n         565426N0355325E-565349N0355557E-565156N0355850E-\n         564738N0355557E-564729N0355136E-565027N0354736E\n   290M AMSL-490M AMSL.\n2. WI CIRCLE RADIUS 0.3KM CENTRE 565200N0355000E\n   SFC-290M AMSL.\nF)SFC  G)490M AMSL",
+ "year": 2026
+}

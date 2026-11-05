@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-13T05:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "10000FT AMSL",
+  "lower_fl": 100,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.9833,
+   "lon": 33.4,
+   "radius_nm": 32
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "schedule": "12 0600-1000 1300-1600 1900-2200 , 13 0100-0500",
+  "shape": "polygon",
+  "starts_at": "2026-11-12T06:00:00Z",
+  "upper": "28000FT AMSL",
+  "upper_fl": 280
+ },
+ "first_seen": "2026-11-05T20:02:31Z",
+ "id": "notam-ltaa/2026/A4964",
+ "issued_at": "2026-11-05T08:58:00Z",
+ "last_seen": "2026-11-05T20:02:31Z",
+ "number": "A4964",
+ "positions": [
+  [
+   38.30278,
+   32.88611
+  ],
+  [
+   38.30139,
+   33.91778
+  ],
+  [
+   37.66139,
+   33.91056
+  ],
+  [
+   37.6675,
+   32.88444
+  ],
+  [
+   38.30278,
+   32.88611
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-05T20:07:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "PATROL FLT WILL TAKE PLACE WI KONYA MILITARY  TMA.",
+ "text": "A4964/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /100/280/3759N03324E032\nA) LTAA B) 2611120600 C) 2611130500\nD) 12 0600-1000 1300-1600 1900-2200 , 13 0100-0500\nE) PATROL FLT WILL TAKE PLACE WI KONYA MILITARY  TMA.\nAREA: 381810N0325310E 381805N0335504E \n373941N0335438E 374003N0325304E 381810N0325310E\nF) 10000FT AMSL G) 28000FT AMSL",
+ "year": 2026
+}

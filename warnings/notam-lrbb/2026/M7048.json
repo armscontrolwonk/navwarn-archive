@@ -1,0 +1,110 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T15:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "exercise",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 45.2333,
+   "lon": 23.8167,
+   "radius_nm": 121
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-11-06T07:00:00Z",
+  "upper": "FL105",
+  "upper_fl": 105
+ },
+ "first_seen": "2026-11-05T20:02:31Z",
+ "id": "notam-lrbb/2026/M7048",
+ "issued_at": "2026-11-05T14:21:00Z",
+ "last_seen": "2026-11-05T20:02:31Z",
+ "number": "M7048",
+ "positions": [
+  [
+   44.95194,
+   26.14556
+  ],
+  [
+   44.68083,
+   26.37389
+  ],
+  [
+   44.90389,
+   25.49222
+  ],
+  [
+   45.10806,
+   24.37583
+  ],
+  [
+   45.05917,
+   23.29028
+  ],
+  [
+   45.41778,
+   23.4325
+  ],
+  [
+   45.62,
+   22.96056
+  ],
+  [
+   45.39694,
+   22.21833
+  ],
+  [
+   45.67111,
+   21.90639
+  ],
+  [
+   45.73333,
+   21.21667
+  ],
+  [
+   45.90417,
+   22.9
+  ],
+  [
+   45.87167,
+   23.20028
+  ],
+  [
+   46.08667,
+   23.5575
+  ],
+  [
+   46.31139,
+   23.73611
+  ],
+  [
+   46.53333,
+   23.86667
+  ],
+  [
+   44.68083,
+   26.37389
+  ],
+  [
+   44.95194,
+   26.14556
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-11-05T20:07:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "NAVIGATION WARNING.   ",
+ "text": "M7048/26 NOTAMN\nQ) LRBB/QWELW/IV/BO /W /000/105/4514N02349E121\nA) LRBB B) 2611060700 C) 2611061500\nE) NAVIGATION WARNING.   \n   MIL FLT WILL TAKE PLACE INTO AN AREA BOUNDED BY 5NM EITHER SIDE\n   445707N0260844E-444051N0262226E-445414N0252932E-450629N0242233E\n   450333N0231725E-452504N0232557E-453712N0225738E-452349N0221306E\n   454016N0215423E-454400N0211300E-455415N0225400E-455218N0231201E\n   460512N0233327E-461841N0234410E-463200N0235200E-444051N0262226E\n   445707N0260844E\n   FLT WILL BE COOR BTN CIV AND MIL ATC\nF) GND G) FL105",
+ "year": 2026
+}

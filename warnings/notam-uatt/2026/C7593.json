@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T08:30:00Z",
+ "extra": {
+  "fir": "UATT",
+  "kind": "restricted",
+  "location": "UATT",
+  "lower": "FL330",
+  "lower_fl": 330,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 46.6667,
+   "lon": 59.75,
+   "radius_nm": 129
+  },
+  "qcode": "QRMCA",
+  "queried_fir": "UATT",
+  "shape": "polygon",
+  "starts_at": "2026-11-06T05:20:00Z",
+  "upper": "FL400",
+  "upper_fl": 400
+ },
+ "first_seen": "2026-11-05T20:02:31Z",
+ "id": "notam-uatt/2026/C7593",
+ "issued_at": "2026-11-05T17:43:00Z",
+ "last_seen": "2026-11-05T20:02:31Z",
+ "number": "C7593",
+ "positions": [
+  [
+   46.64667,
+   56.67861
+  ],
+  [
+   48.03111,
+   59.98417
+  ],
+  [
+   46.6,
+   62.82972
+  ],
+  [
+   46.37028,
+   62.20056
+  ],
+  [
+   47.57556,
+   60.00056
+  ],
+  [
+   46.34194,
+   56.99778
+  ],
+  [
+   46.64667,
+   56.67861
+  ]
+ ],
+ "series": "notam-uatt",
+ "source": {
+  "fetched_at": "2026-11-05T20:07:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL OPR AREA ACTIVATED",
+ "text": "C7593/26 NOTAMN\nQ) UATT/QRMCA/IV/BO /W /330/400/4640N05945E129\nA) UATT B) 2611060520 C) 2611060830\nE) MIL OPR AREA ACTIVATED\nAREA BOUNDED BY:\n463848N 0564043E - 480152N 0595903E - 463600N 0624947E - \n462213N 0621202E - 473432N 0600002E - 462031N 0565952E - \n463848N 0564043E.\nF) FL330 G) FL400",
+ "year": 2026
+}

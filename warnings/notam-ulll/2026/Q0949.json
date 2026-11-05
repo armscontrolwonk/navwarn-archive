@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-13T16:00:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 61.6,
+   "lon": 34.6167,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "09-13 0600-1600",
+  "starts_at": "2026-11-09T06:00:00Z",
+  "upper": "590M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-05T20:02:31Z",
+ "id": "notam-ulll/2026/Q0949",
+ "issued_at": "2026-11-05T08:37:00Z",
+ "last_seen": "2026-11-05T20:02:31Z",
+ "number": "Q0949",
+ "positions": [
+  [
+   61.60444,
+   34.63083
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-05T20:07:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI:",
+ "text": "Q0949/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/020/6136N03437E003\nA)ULLL B)2611090600 C)2611131600\nD)09-13 0600-1600\nE)AIRSPACE CLSD WI:\nSECTOR CENTRED ON 613616N0343751E, AZM 050-235DEG, RADIUS 5KM.\nF)SFC  G)590M AMSL",
+ "year": 2026
+}

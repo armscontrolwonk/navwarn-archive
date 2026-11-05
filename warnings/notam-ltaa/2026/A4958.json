@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T15:30:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.9,
+   "lon": 33.1833,
+   "radius_nm": 15
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LTAA",
+  "schedule": "09-13 0630-0900 1000-1430, 16-20 0630-0900 1000-1530",
+  "shape": "polygon",
+  "starts_at": "2026-11-09T06:30:00Z",
+  "upper": "9000FT AMSL",
+  "upper_fl": 90
+ },
+ "first_seen": "2026-11-05T20:02:31Z",
+ "id": "notam-ltaa/2026/A4958",
+ "issued_at": "2026-11-05T07:17:00Z",
+ "last_seen": "2026-11-05T20:02:31Z",
+ "number": "A4958",
+ "positions": [
+  [
+   37.66667,
+   33.18333
+  ],
+  [
+   37.71667,
+   33.06667
+  ],
+  [
+   38.08333,
+   33.0
+  ],
+  [
+   38.13333,
+   33.16667
+  ],
+  [
+   37.66667,
+   33.18333
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-05T20:07:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TRAINING FLIGHT WILL TAKE PLACE WI KONYA MILITARY TMA: ",
+ "text": "A4958/26 NOTAMN\nQ) LTAA/QWMLW/IV/BO /W /000/090/3754N03311E015\nA) LTAA B) 2611090630 C) 2611201530\nD) 09-13 0630-0900 1000-1430, 16-20  0630-0900 1000-1530\nE) TRAINING FLIGHT WILL TAKE PLACE WI KONYA MILITARY TMA: \n374000N0331100E 374300N0330400E 380500N0330000E 380800N0331000E \n374000N0331100E\nF) SFC G) 9000FT AMSL",
+ "year": 2026
+}

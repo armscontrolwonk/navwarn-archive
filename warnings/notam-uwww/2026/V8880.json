@@ -1,0 +1,145 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-11T15:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 56.02194,
+    "lon": 52.37472,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 56.03361,
+    "lon": 52.35444,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 55.99667,
+    "lon": 52.31694,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 55.92444,
+    "lon": 52.24694,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 55.96667,
+    "lon": 52.27333,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "UWWW",
+  "kind": "restricted",
+  "location": "UWWW",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.9333,
+   "lon": 52.4333,
+   "radius_nm": 8
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UWWW",
+  "schedule": "DAILY 0400-1500",
+  "starts_at": "2026-11-09T04:00:00Z",
+  "upper": "900M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-05T20:02:31Z",
+ "id": "notam-uwww/2026/V8880",
+ "issued_at": "2026-11-05T07:31:00Z",
+ "last_seen": "2026-11-05T20:02:31Z",
+ "number": "V8880",
+ "positions": [
+  [
+   56.01722,
+   52.40528
+  ],
+  [
+   56.00167,
+   52.56528
+  ],
+  [
+   55.96333,
+   52.64222
+  ],
+  [
+   55.94639,
+   52.60528
+  ],
+  [
+   55.97444,
+   52.515
+  ],
+  [
+   55.99889,
+   52.36361
+  ],
+  [
+   55.90611,
+   52.30194
+  ],
+  [
+   55.91944,
+   52.22472
+  ],
+  [
+   55.9925,
+   52.27417
+  ],
+  [
+   56.02139,
+   52.35111
+  ],
+  [
+   56.03833,
+   52.33972
+  ],
+  [
+   56.04222,
+   52.36056
+  ],
+  [
+   56.02944,
+   52.36417
+  ],
+  [
+   56.01722,
+   52.40528
+  ],
+  [
+   56.02194,
+   52.37472
+  ],
+  [
+   56.03361,
+   52.35444
+  ],
+  [
+   55.99667,
+   52.31694
+  ],
+  [
+   55.92444,
+   52.24694
+  ],
+  [
+   55.96667,
+   52.27333
+  ]
+ ],
+ "series": "notam-uwww",
+ "source": {
+  "fetched_at": "2026-11-05T20:07:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "V8880/26 NOTAMN\nQ)UWWW/QRTCA/IV/BO/W/000/030/5556N05226E008\nA)UWWW B)2611090400 C)2611111500\nD)DAILY 0400-1500\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 560102N0522419E-560006N0523355E-555748N0523832E-\n         555647N0523619E-555828N0523054E-555956N0522149E-\n         555422N0521807E-555510N0521329E-555933N0521627E-\n         560117N0522104E-560218N0522023E-560232N0522138E-\n         560146N0522151E-560102N0522419E\n   450M AMSL-900M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 560119N0522229E\n   GND-900M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 560201N0522116E\n   GND-900M AMSL.\n4. WI CIRCLE RADIUS 1KM CENTRE 555948N0521901E\n   GND-900M AMSL.\n5. WI CIRCLE RADIUS 1KM CENTRE 555528N0521449E\n   GND-900M AMSL.\n6. WI CIRCLE RADIUS 1KM CENTRE 555800N0521624E\n   GND-900M AMSL.\nF)GND  G)900M AMSL",
+ "year": 2026
+}

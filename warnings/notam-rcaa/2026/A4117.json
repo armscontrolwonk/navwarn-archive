@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-17T04:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "exercise",
+  "location": "RCAA",
+  "lower": "4000FT AMSL",
+  "lower_fl": 40,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.1333,
+   "lon": 119.8333,
+   "radius_nm": 37
+  },
+  "qcode": "QWELW",
+  "queried_fir": "RCAA",
+  "schedule": "DEC 02 03 09 10 16 17 0100-0400",
+  "shape": "polygon",
+  "starts_at": "2026-12-02T01:00:00Z",
+  "upper": "6000FT AMSL",
+  "upper_fl": 60
+ },
+ "first_seen": "2026-11-05T20:02:31Z",
+ "id": "notam-rcaa/2026/A4117",
+ "issued_at": "2026-11-05T09:12:00Z",
+ "last_seen": "2026-11-05T20:02:31Z",
+ "number": "A4117",
+ "positions": [
+  [
+   22.53472,
+   119.34444
+  ],
+  [
+   22.31944,
+   120.28333
+  ],
+  [
+   21.87028,
+   120.41389
+  ],
+  [
+   21.63472,
+   120.19167
+  ],
+  [
+   21.87028,
+   119.93333
+  ],
+  [
+   22.27778,
+   119.91389
+  ],
+  [
+   22.40833,
+   119.30278
+  ],
+  [
+   22.53472,
+   119.34444
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-11-05T20:07:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIR EXER WILL TAKE PLACE:",
+ "text": "A4117/26 NOTAMN\nQ) RCAA/QWELW/IV/BO/W/040/060/2208N11950E037\nA) RCAA\nB) 2612020100 C) 2612170400\nD) DEC 02 03 09 10 16 17 0100-0400\nE) AIR EXER WILL TAKE PLACE:\n1.LIAISON OFFICER AT KAOHSIUNG APP, TFC CONCERNED\n  KEEP CLOSE CTC WITH KAOHSIUNG APP.\n2.OPR TEL: 03-4712201 EXTENSION 356382, 355531, \n  0921-183453, 0971-766573\n3.AREA AS FLW:\n223205N 1192040E\n221910N 1201700E\n215213N 1202450E\n213805N 1201130E\n215213N 1195600E\n221640N 1195450E\n222430N 1191810E\n223205N 1192040E\nF) 4000FT AMSL G) 6000FT AMSL",
+ "year": 2026
+}

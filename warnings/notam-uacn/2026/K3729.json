@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T17:00:00Z",
+ "extra": {
+  "fir": "UACN",
+  "kind": "restricted",
+  "location": "UACN",
+  "lower": "FL310",
+  "lower_fl": 310,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 50.0333,
+   "lon": 68.2,
+   "radius_nm": 87
+  },
+  "qcode": "QRMCA",
+  "queried_fir": "UACN",
+  "shape": "polygon",
+  "starts_at": "2026-11-06T09:00:00Z",
+  "upper": "FL420",
+  "upper_fl": 420
+ },
+ "first_seen": "2026-11-05T20:02:31Z",
+ "id": "notam-uacn/2026/K3729",
+ "issued_at": "2026-11-05T19:15:00Z",
+ "last_seen": "2026-11-05T20:02:31Z",
+ "number": "K3729",
+ "positions": [
+  [
+   50.13306,
+   70.40361
+  ],
+  [
+   49.6825,
+   70.33306
+  ],
+  [
+   49.78444,
+   68.22278
+  ],
+  [
+   50.14806,
+   66.00944
+  ],
+  [
+   50.28306,
+   67.03111
+  ],
+  [
+   50.13306,
+   70.40361
+  ]
+ ],
+ "series": "notam-uacn",
+ "source": {
+  "fetched_at": "2026-11-05T20:07:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL OPR AREA ACTIVATED",
+ "text": "K3729/26 NOTAMN\nQ) UACN/QRMCA/IV/BO /W /310/420/5002N06812E087\nA) UACN B) 2611060900 C) 2611061700\nE) MIL OPR AREA ACTIVATED\nAREA BOUNDED BY:\n500759N 0702413E - 494057N 0701959E - 494704N 0681322E - \n500853N 0660034E - 501659N 0670152E - 500759N 0702413E.\nF) FL310 G) FL420",
+ "year": 2026
+}

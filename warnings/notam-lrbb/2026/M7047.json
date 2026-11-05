@@ -1,0 +1,106 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T15:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "exercise",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.8667,
+   "lon": 24.55,
+   "radius_nm": 74
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-11-06T07:00:00Z",
+  "upper": "FL105",
+  "upper_fl": 105
+ },
+ "first_seen": "2026-11-05T20:02:31Z",
+ "id": "notam-lrbb/2026/M7047",
+ "issued_at": "2026-11-05T14:20:00Z",
+ "last_seen": "2026-11-05T20:02:31Z",
+ "number": "M7047",
+ "positions": [
+  [
+   44.95194,
+   26.14556
+  ],
+  [
+   44.52306,
+   25.76611
+  ],
+  [
+   44.0,
+   25.34083
+  ],
+  [
+   44.10917,
+   24.99306
+  ],
+  [
+   44.17972,
+   24.53472
+  ],
+  [
+   44.34722,
+   23.80028
+  ],
+  [
+   44.62583,
+   23.20139
+  ],
+  [
+   44.79972,
+   22.97028
+  ],
+  [
+   45.05917,
+   23.29028
+  ],
+  [
+   44.97472,
+   23.5175
+  ],
+  [
+   45.13583,
+   23.9925
+  ],
+  [
+   45.10806,
+   24.37583
+  ],
+  [
+   45.13694,
+   24.68222
+  ],
+  [
+   44.90389,
+   25.49222
+  ],
+  [
+   44.52306,
+   25.76611
+  ],
+  [
+   44.95194,
+   26.14556
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-11-05T20:07:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "NAVIGATION WARNING.   ",
+ "text": "M7047/26 NOTAMN\nQ) LRBB/QWELW/IV/BO /W /000/105/4452N02433E074\nA) LRBB B) 2611060700 C) 2611061500\nE) NAVIGATION WARNING.   \n   MIL FLT WILL TAKE PLACE INTO AN AREA BOUNDED BY 5NM EITHER SIDE\n   445707N0260844E-443123N0254558E-440000N0252027E-440633N0245935E\n   441047N0243205E-442050N0234801E-443733N0231205E-444759N0225813E\n   450333N0231725E-445829N0233103E-450809N0235933E-450629N0242233E\n   450813N0244056E-445414N0252932E-443123N0254558E-445707N0260844E\n   FLT WILL BE COOR BTN CIV AND MIL ATC\nF) GND G) FL105",
+ "year": 2026
+}

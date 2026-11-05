@@ -1,0 +1,72 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-08T12:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 62.5475,
+    "lon": 114.07556,
+    "radius_nm": 0.05
+   }
+  ],
+  "fir": "UEEE",
+  "kind": "restricted",
+  "location": "UEEE",
+  "lower": "330M AMSL",
+  "lower_fl": 10,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 62.55,
+   "lon": 114.0833,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UEEE",
+  "starts_at": "2026-11-08T10:00:00Z",
+  "upper": "800M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-05T20:02:31Z",
+ "id": "notam-ueee/2026/P9071",
+ "issued_at": "2026-11-05T11:36:00Z",
+ "last_seen": "2026-11-05T20:02:31Z",
+ "number": "P9071",
+ "positions": [
+  [
+   62.5475,
+   114.07556
+  ],
+  [
+   62.535,
+   114.05389
+  ],
+  [
+   62.54056,
+   114.04778
+  ],
+  [
+   62.55556,
+   114.10472
+  ],
+  [
+   62.55306,
+   114.11361
+  ],
+  [
+   62.535,
+   114.05389
+  ]
+ ],
+ "series": "notam-ueee",
+ "source": {
+  "fetched_at": "2026-11-05T20:07:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P9071/26 NOTAMN\nQ)UEEE/QRTCA/IV/BO/W/010/030/6233N11405E002\nA)UEEE B)2611081000 C)2611081200\nE)AIRSPACE CLSD AS FLW:\n1. WI CIRCLE RADIUS 0.1KM CENTRE 623251N1140432E\n2. AREA: 623206N1140314E-623226N1140252E-623320N1140617E-\n         623311N1140649E-623206N1140314E.\nF)330M AMSL  G)800M AMSL",
+ "year": 2026
+}

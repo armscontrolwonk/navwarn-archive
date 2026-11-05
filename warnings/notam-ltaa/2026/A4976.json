@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-29T19:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.6333,
+   "lon": 33.5,
+   "radius_nm": 23
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LTAA",
+  "schedule": "0300-1900",
+  "shape": "polygon",
+  "starts_at": "2026-11-16T03:00:00Z",
+  "upper": "49000FT AMSL",
+  "upper_fl": 490
+ },
+ "first_seen": "2026-11-05T20:02:31Z",
+ "id": "notam-ltaa/2026/A4976",
+ "issued_at": "2026-11-05T10:17:00Z",
+ "last_seen": "2026-11-05T20:02:31Z",
+ "number": "A4976",
+ "positions": [
+  [
+   38.87389,
+   33.16778
+  ],
+  [
+   38.98056,
+   33.40944
+  ],
+  [
+   38.45556,
+   33.90111
+  ],
+  [
+   38.2725,
+   33.5575
+  ],
+  [
+   38.75306,
+   33.12944
+  ],
+  [
+   38.87389,
+   33.16778
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-05T20:07:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "RMK: AIR TRAFFIC FLOW REGULATION NOTAM SHALL BE ISSUED.",
+ "text": "A4976/26 NOTAMN\nQ) LTAA/QWMLW/IV/BO /W /000/490/3838N03330E023\nA) LTAA B) 2611160300 C) 2611291900\nD) 0300-1900\nE) RMK: AIR TRAFFIC FLOW REGULATION NOTAM SHALL BE ISSUED.\nTEST FLIGHT WITH GUN FIRING WILL TAKE PLACE WI AREA(LTTSA-4R): \n385226N0331004E 385850N0332434E 382720N0335404E 381621N0333327E \n384511N0330746E 385226N0331004E\nF) SFC G) 49000FT AMSL",
+ "year": 2026
+}
