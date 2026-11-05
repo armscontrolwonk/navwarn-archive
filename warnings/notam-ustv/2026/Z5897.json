@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-08T14:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 71.02083,
+    "lon": 73.88028,
+    "radius_nm": 1.62
+   },
+   {
+    "lat": 70.96778,
+    "lon": 74.72139,
+    "radius_nm": 1.73
+   }
+  ],
+  "fir": "USTV",
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "10M AMSL",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 71.0,
+   "lon": 74.3,
+   "radius_nm": 9
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USTV",
+  "schedule": "DAILY 0500-1400",
+  "starts_at": "2026-11-06T05:00:00Z",
+  "upper": "100M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-05T06:56:48Z",
+ "id": "notam-ustv/2026/Z5897",
+ "issued_at": "2026-11-05T06:14:00Z",
+ "last_seen": "2026-11-05T06:56:48Z",
+ "number": "Z5897",
+ "positions": [
+  [
+   71.02083,
+   73.88028
+  ],
+  [
+   70.96778,
+   74.72139
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-11-05T06:59:51Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z5897/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/010/7100N07418E009\nA)USTV B)2611060500 C)2611081400\nD)DAILY 0500-1400\nE)AIRSPACE CLSD AS FLW:\n1. WI CIRCLE RADIUS 3KM CENTRE 710115N0735249E\n2. WI CIRCLE RADIUS 3.2KM CENTRE 705804N0744317E.\nF)10M AMSL  G)100M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T04:00:00Z",
+ "extra": {
+  "fir": "RKRR",
+  "kind": "restricted",
+  "location": "RKRR",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.1333,
+   "lon": 125.9,
+   "radius_nm": 16
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "RKRR",
+  "schedule": "09 0530-0600, 10 0230-0400",
+  "shape": "polygon",
+  "starts_at": "2026-11-09T05:30:00Z",
+  "upper": "6000FT AMSL",
+  "upper_fl": 60
+ },
+ "first_seen": "2026-11-05T06:56:48Z",
+ "id": "notam-rkrr/2026/E5206",
+ "issued_at": "2026-11-05T05:40:00Z",
+ "last_seen": "2026-11-05T06:56:48Z",
+ "number": "E5206",
+ "positions": [
+  [
+   35.30333,
+   126.11111
+  ],
+  [
+   34.96944,
+   126.11111
+  ],
+  [
+   34.96944,
+   125.70472
+  ],
+  [
+   35.30333,
+   125.70472
+  ]
+ ],
+ "series": "notam-rkrr",
+ "source": {
+  "fetched_at": "2026-11-05T06:59:51Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO RESTRICTED AREA ACT AS FLW",
+ "text": "E5206/26 NOTAMN  \nQ)RKRR/QRTCA/IV/BO/W/000/060/3508N12554E016\nA)RKRR B)2611090530 C)2611100400\nD)09 0530-0600, 10 0230-0400\nE)TEMPO RESTRICTED AREA ACT AS FLW\nAREA BOUNDED BY THE FOLLOWING\n351812N1260640E-345810N1260640E-345810N1254217E-351812N1254217E-35181\n2N1260640E\nF)SFC G)6000FT AMSL",
+ "year": 2026
+}

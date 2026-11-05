@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T14:00:00Z",
+ "extra": {
+  "fir": "VVHM",
+  "kind": "firing",
+  "location": "VVHM",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 14.0667,
+   "lon": 108.05,
+   "radius_nm": 1
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "VVHM",
+  "schedule": "0630-1000 1100-1400",
+  "shape": "polygon",
+  "starts_at": "2026-11-25T06:30:00Z",
+  "upper": "5400FT AMSL",
+  "upper_fl": 54
+ },
+ "first_seen": "2026-11-05T06:56:48Z",
+ "id": "notam-vvhm/2026/A4286",
+ "issued_at": "2026-11-05T02:01:00Z",
+ "last_seen": "2026-11-05T06:56:48Z",
+ "number": "A4286",
+ "positions": [
+  [
+   14.05278,
+   108.04167
+  ],
+  [
+   14.09444,
+   108.04167
+  ],
+  [
+   14.09444,
+   108.05278
+  ],
+  [
+   14.05278,
+   108.05278
+  ],
+  [
+   14.05278,
+   108.04167
+  ]
+ ],
+ "series": "notam-vvhm",
+ "source": {
+  "fetched_at": "2026-11-05T06:59:51Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG WILL TAKE PLACE WI:",
+ "text": "A4286/26 NOTAMN \nQ) VVHM/QWMLW/IV/BO/W/000/054/1404N10803E001\nA) VVHM B) 2611250630 C) 2611251400 \nD) 0630-1000 1100-1400\nE) FRNG WILL TAKE PLACE WI:\n140310N1080230E - 140540N1080230E - 140540N1080310E - \n140310N1080310E - 140310N1080230E\nBRG: N\n- ALL FLIGHTS ARE PROHIBITED WI THIS AREA.\nF) GND G) 5400FT AMSL",
+ "year": 2026
+}

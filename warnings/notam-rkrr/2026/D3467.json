@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T09:10:00Z",
+ "extra": {
+  "fir": "RKRR",
+  "kind": "rocket",
+  "location": "RKRR",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 32.9833,
+   "lon": 126.7167,
+   "radius_nm": 33
+  },
+  "qcode": "QRPCA",
+  "queried_fir": "RKRR",
+  "shape": "polygon",
+  "starts_at": "2026-11-10T05:30:00Z",
+  "upper": "UNL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-05T06:56:48Z",
+ "id": "notam-rkrr/2026/D3467",
+ "issued_at": "2026-11-05T05:10:00Z",
+ "last_seen": "2026-11-05T06:56:48Z",
+ "number": "D3467",
+ "positions": [
+  [
+   33.085,
+   126.30889
+  ],
+  [
+   33.23611,
+   126.38306
+  ],
+  [
+   33.23611,
+   126.79194
+  ],
+  [
+   32.89278,
+   127.12
+  ],
+  [
+   32.59417,
+   126.58611
+  ],
+  [
+   33.085,
+   126.30889
+  ]
+ ],
+ "series": "notam-rkrr",
+ "source": {
+  "fetched_at": "2026-11-05T06:59:51Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO PROHIBITED AREA ACT AS FLW(REF TO Z0834/26)",
+ "text": "D3467/26 NOTAMN  \nQ)RKRR/QRPCA/IV/NBO/W/000/999/3259N12643E033\nA)RKRR B)2611100530 C)2611100910\nE)TEMPO PROHIBITED AREA ACT AS FLW(REF TO Z0834/26)\nAREA BOUNDED BY THE FOLLOWING \n330506N1261832E-331410N1262259E-331410N1264731E-325334N1270712E-\n323539N1263510E-330506N1261832E\n\nRMK : \n1. ALTN RTE FOR AIRLINES ESTABLISHED BY FURTHER NOTAM\n2. TEMPO PROHIBITED AIRSPACE AND REROUTE NOTAM WILL BE CNL \n   WITHIN 10MIN AFTER LAUNCH. \n3. EXC EMERG ACFT, SAR ACFT, AND PRE-COORDINATED ACFT WITH ATMO\n   (+82 53-668-0496, JAEHYUN8912(A)KOREA.KR)\nF)SFC G)UNL",
+ "year": 2026
+}

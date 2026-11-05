@@ -1,0 +1,55 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-09T10:00:00Z",
+ "extra": {
+  "fir": "UIII",
+  "kind": "restricted",
+  "location": "UIII",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 57.95,
+   "lon": 102.7833,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UIII",
+  "schedule": "07-09 0200-1000",
+  "shape": "polygon",
+  "starts_at": "2026-11-07T02:00:00Z",
+  "upper": "650M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-05T06:56:48Z",
+ "id": "notam-uiii/2026/L3797",
+ "issued_at": "2026-11-05T03:08:00Z",
+ "last_seen": "2026-11-05T06:56:48Z",
+ "number": "L3797",
+ "positions": [
+  [
+   57.985,
+   102.75167
+  ],
+  [
+   57.97583,
+   102.81361
+  ],
+  [
+   57.91361,
+   102.81917
+  ]
+ ],
+ "series": "notam-uiii",
+ "source": {
+  "fetched_at": "2026-11-05T06:59:51Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI 1.5KM EITHER SIDE OF LINE JOINING POINTS:",
+ "text": "L3797/26 NOTAMN\nQ)UIII/QRTCA/IV/BO/W/000/030/5757N10247E003\nA)UIII B)2611070200 C)2611091000\nD)07-09 0200-1000\nE)AIRSPACE CLSD WI 1.5KM EITHER SIDE OF LINE JOINING POINTS:\n575906N1024506E-575833N1024849E-575449N1024909E.\nF)SFC  G)650M AMSL",
+ "year": 2026
+}

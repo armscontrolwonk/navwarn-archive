@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.2667,
+   "lon": 140.3833,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/0800",
+  "starts_at": "2026-11-10T23:00:00Z",
+  "upper": "2297FT AMSL",
+  "upper_fl": 23
+ },
+ "first_seen": "2026-11-05T06:56:48Z",
+ "id": "notam-rjjj/2026/U4176",
+ "issued_at": "2026-11-05T00:43:00Z",
+ "last_seen": "2026-11-05T06:56:48Z",
+ "number": "U4176",
+ "positions": [
+  [
+   39.26611,
+   140.39056
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-05T06:59:51Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4176/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/023/3916N14023E002\nA)RJJJ B)2611102300 C)2612310800\nD)2300/0800\nE)UNMANNED ACFT:\nAREA: RADIUS 715M CENTER 391558N1402326E \n(YOKOTE-SHI,OGACHI-GUN IN AKITA)\nWT: 9.2KG\nF)SFC G)2297FT AMSL",
+ "year": 2026
+}

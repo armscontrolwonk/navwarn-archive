@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T08:12:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.4667,
+   "lon": 139.6,
+   "radius_nm": 6
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2116/0812",
+  "shape": "polygon",
+  "starts_at": "2026-11-11T21:16:00Z",
+  "upper": "4295FT AMSL",
+  "upper_fl": 43
+ },
+ "first_seen": "2026-11-05T06:56:48Z",
+ "id": "notam-rjjj/2026/U4177",
+ "issued_at": "2026-11-05T00:50:00Z",
+ "last_seen": "2026-11-05T06:56:48Z",
+ "number": "U4177",
+ "positions": [
+  [
+   37.48472,
+   139.67167
+  ],
+  [
+   37.46028,
+   139.61583
+  ],
+  [
+   37.4825,
+   139.55389
+  ],
+  [
+   37.45361,
+   139.53
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-05T06:59:51Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4177/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/043/3728N13936E006\nA)RJJJ B)2611112116 C)2611200812\nD)2116/0812\nE)UNMANNED ACFT:\n(1)AREA: RADIUS 1500M CENTER 372905N1394018E \n(2)AREA: RADIUS 995M CENTER 372737N1393657E \n(3)AREA: RADIUS 993M CENTER 372857N1393314E \n(4)AREA: RADIUS 1504M CENTER 372713N1393148E \n(OONUMA-GUN,KAWANUMA-GUN IN FUKUSHIMA)\nWT: 0.7KG\nFLT TIME: HJ\nF)SFC G)4295FT AMSL",
+ "year": 2026
+}

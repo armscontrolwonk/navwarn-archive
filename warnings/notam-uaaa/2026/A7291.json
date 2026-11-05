@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-06T08:00:00Z",
+ "extra": {
+  "fir": "UAAA",
+  "kind": "restricted",
+  "location": "UAAA",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.0,
+   "lon": 77.4667,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UAAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-06T04:00:00Z",
+  "upper": "7000FT AMSL",
+  "upper_fl": 70
+ },
+ "first_seen": "2026-11-05T06:56:48Z",
+ "id": "notam-uaaa/2026/A7291",
+ "issued_at": "2026-11-05T06:26:00Z",
+ "last_seen": "2026-11-05T06:56:48Z",
+ "number": "A7291",
+ "positions": [
+  [
+   44.00833,
+   77.47
+  ],
+  [
+   44.00472,
+   77.47222
+  ],
+  [
+   44.00417,
+   77.46972
+  ],
+  [
+   44.00694,
+   77.46778
+  ],
+  [
+   44.00833,
+   77.47
+  ]
+ ],
+ "series": "notam-uaaa",
+ "source": {
+  "fetched_at": "2026-11-05T06:59:51Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPORARY RESTRICTED AREA ACTIVATED",
+ "text": "A7291/26 NOTAMN\nQ) UAAA/QRTCA/IV/BO /W /000/070/4400N07728E001\nA) UAAA B) 2611060400 C) 2611060800\nE) TEMPORARY RESTRICTED AREA ACTIVATED\nAREA BOUNDED BY:\n440030N 0772812E - 440017N 0772820E - 440015N 0772811E - \n440025N 0772804E - 440030N 0772812E\nF) GND G) 7000FT AMSL",
+ "year": 2026
+}

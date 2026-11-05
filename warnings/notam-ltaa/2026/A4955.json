@@ -1,0 +1,39 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-15T18:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.9167,
+   "lon": 36.9833,
+   "radius_nm": 141
+  },
+  "qcode": "QANLC",
+  "queried_fir": "LTAA",
+  "schedule": "11 0700-1000 1200-1500, 12 0600-0900 1200-1500, 13 1000-1300 1500-1800, 14 0600-0900 1200-1500, 15 1000-1300 1500-1800",
+  "starts_at": "2026-11-11T07:00:00Z",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-05T06:56:48Z",
+ "id": "notam-ltaa/2026/A4955",
+ "issued_at": "2026-11-05T06:09:00Z",
+ "last_seen": "2026-11-05T06:56:48Z",
+ "number": "A4955",
+ "positions": [],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-05T06:59:51Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "SEE NOTAM: A4938/26",
+ "text": "A4955/26 NOTAMN\nQ) LTAA/QANLC/I /NBO/E /000/999/4155N03659E141\nA) LTAA B) 2611110700 C) 2611151800\nD) 11 0700-1000 1200-1500, 12 0600-0900 1200-1500, 13 1000-1300    \n1500-1800, 14 0600-0900 1200-1500, 15 1000-1300 1500-1800\nE) SEE NOTAM: A4938/26\nRNAV ROUTES AND SEGMENTS AFFECTED DURING FIRING EXERCISE AS FLW:\n\n1- AWY N/UN644 SIN-FALAZ SEGMENT CLSD.\nACFT THAT ARE GOING TO EXIT VIA ROLIN COULD FOLLOW \nMIMTO-DCT-CRM-DCT-TBN-DCT-ROLIN \nACFT USING THIS ROUTE COULD FOLLOW VIA WESTBOUND \nROLIN-DCT-TEMEL-DCT-CRM\n\n2- AWY M/UM859 OSDIP-KARDE SEGMENT CLSD.\nACFT THAT ARE GOING TO EXIT VIA ROLIN COULD FOLLOW \nUDROS-DCT-CRM-DCT-ROLIN. \nACFT THAT ARE GOING TO EXIT VIA REBLO AND NOLGA COULD FOLLOW \nUDROS-DCT-CRM-M/UM11-TBN.\n\n3- AWY M/UM10 ATVAM-GOKPA SEGMENT CLSD.\nINSTEAD OF THIS ROUTE ALL ACFT COULD FOLLOW SARPI-N/UN37-TBN\n\n4- AWY UM860 KUGOS-CRM SEGMENT CLSD.\n\n5- AWY L/UL851 KUGOS-TBN SEGMENT CLSD.\n\nVERTICAL LIMITS: SFC-160000FT AMSL",
+ "year": 2026
+}

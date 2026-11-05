@@ -1,0 +1,109 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-12T13:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 55.30389,
+    "lon": 72.97778,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "UNNT",
+  "kind": "restricted",
+  "location": "UNNT",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.2,
+   "lon": 73.0333,
+   "radius_nm": 9
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNNT",
+  "schedule": "07-12 0300-1300",
+  "starts_at": "2026-11-07T03:00:00Z",
+  "upper": "550M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-05T06:56:48Z",
+ "id": "notam-unnt/2026/L3817",
+ "issued_at": "2026-11-05T06:14:00Z",
+ "last_seen": "2026-11-05T06:56:48Z",
+ "number": "L3817",
+ "positions": [
+  [
+   55.34167,
+   73.0075
+  ],
+  [
+   55.33278,
+   73.01111
+  ],
+  [
+   55.30806,
+   73.00417
+  ],
+  [
+   55.26861,
+   72.96056
+  ],
+  [
+   55.23028,
+   72.92028
+  ],
+  [
+   55.15111,
+   73.05444
+  ],
+  [
+   55.10417,
+   73.07889
+  ],
+  [
+   55.10306,
+   73.07167
+  ],
+  [
+   55.07167,
+   73.05333
+  ],
+  [
+   55.07944,
+   73.03639
+  ],
+  [
+   55.13056,
+   73.00833
+  ],
+  [
+   55.22611,
+   72.85194
+  ],
+  [
+   55.32583,
+   72.95722
+  ],
+  [
+   55.34167,
+   73.0075
+  ],
+  [
+   55.30389,
+   72.97778
+  ]
+ ],
+ "series": "notam-unnt",
+ "source": {
+  "fetched_at": "2026-11-05T06:59:51Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "L3817/26 NOTAMN\nQ)UNNT/QRTCA/IV/BO/W/000/020/5512N07302E009\nA)UNNT B)2611070300 C)2611121300\nD)07-12 0300-1300\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 552030N0730027E-551958N0730040E-551829N0730015E-\n         551607N0725738E-551349N0725513E-550904N0730316E-\n         550615N0730444E-550611N0730418E-550418N0730312E-\n         550446N0730211E-550750N0730030E-551334N0725107E-\n         551933N0725726E-552030N0730027E\n   350M AMSL-550M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 551814N0725840E\n   GND-550M AMSL.\nF)GND  G)550M AMSL",
+ "year": 2026
+}
