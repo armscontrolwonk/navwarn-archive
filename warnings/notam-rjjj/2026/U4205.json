@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T14:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.4,
+   "lon": 139.35,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/1400",
+  "shape": "polygon",
+  "starts_at": "2026-11-11T23:00:00Z",
+  "upper": "1028FT AMSL",
+  "upper_fl": 11
+ },
+ "first_seen": "2026-11-06T06:56:47Z",
+ "id": "notam-rjjj/2026/U4205",
+ "issued_at": "2026-11-06T00:33:00Z",
+ "last_seen": "2026-11-06T06:56:47Z",
+ "number": "U4205",
+ "positions": [
+  [
+   35.40472,
+   139.35056
+  ],
+  [
+   35.40389,
+   139.35056
+  ],
+  [
+   35.40389,
+   139.3525
+  ],
+  [
+   35.40472,
+   139.3525
+  ],
+  [
+   35.40472,
+   139.35056
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-06T06:59:25Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4205/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/011/3524N13921E001\nA)RJJJ B)2611112300 C)2612311400\nD)2300/1400\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n352417N1392102E - 352414N1392102E - 352414N1392109E - 352417N1392109E\n- 352417N1392102E \n(ATSUGI-SHI IN KANAGAWA)\nWT: 9.2KG\nF)SFC G)1028FT AMSL",
+ "year": 2026
+}

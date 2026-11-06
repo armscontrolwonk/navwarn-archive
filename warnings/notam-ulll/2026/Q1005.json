@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-11T20:59:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "route",
+  "location": "ULLL",
+  "lower": "FL055",
+  "lower_fl": 55,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 62.9,
+   "lon": 50.5333,
+   "radius_nm": 122
+  },
+  "qcode": "QARLC",
+  "queried_fir": "ULLL",
+  "schedule": "DAILY 0700-2059",
+  "starts_at": "2026-11-07T07:00:00Z",
+  "upper": "FL540",
+  "upper_fl": 540
+ },
+ "first_seen": "2026-11-06T06:56:47Z",
+ "id": "notam-ulll/2026/Q1005",
+ "issued_at": "2026-11-06T05:37:00Z",
+ "last_seen": "2026-11-06T06:56:47Z",
+ "number": "Q1005",
+ "positions": [],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-06T06:59:25Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENTS CLSD:",
+ "text": "Q1005/26 NOTAMN\nQ)ULLL/QARLC/IV/NBO/E/055/540/6254N05032E122\nA)ULLL B)2611070700 C)2611112059\nD)DAILY 0700-2059\nE)ATS RTE SEGMENTS CLSD:\nL253 UDARE-ARPOT FL275-FL520,\nN174 NIPSI-TISRU FL055-FL520,\nT187 IBEBO-OBIRU FL055-FL395,\nT541 ADMON-BODBI FL145-FL540,\nT756 BAPES-GUDES FL195-FL520,\nT760 INROR-NILIN FL055-FL520,\nT762 UNRAL-OBIRU FL055-FL540,\nT793 SONIB-NILIN FL055-FL540,\nT816 AGIDI-ARPOT FL055-FL540,\nT818 GAPRA-SONIB FL055-FL540,\nW155 UGBAT-GAKPI FL055-FL205.\nF)FL055  G)FL540",
+ "year": 2026
+}

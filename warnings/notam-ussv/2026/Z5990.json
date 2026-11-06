@@ -1,0 +1,110 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-15T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 56.7125,
+    "lon": 55.06111,
+    "radius_nm": 0.81
+   },
+   {
+    "lat": 56.72111,
+    "lon": 55.10833,
+    "radius_nm": 0.81
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.7333,
+   "lon": 55.0333,
+   "radius_nm": 19
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0400-1600",
+  "starts_at": "2026-11-10T04:00:00Z",
+  "upper": "1000M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-11-06T06:56:47Z",
+ "id": "notam-ussv/2026/Z5990",
+ "issued_at": "2026-11-06T04:32:00Z",
+ "last_seen": "2026-11-06T06:56:47Z",
+ "number": "Z5990",
+ "positions": [
+  [
+   56.66667,
+   54.56806
+  ],
+  [
+   56.71167,
+   54.83167
+  ],
+  [
+   56.78083,
+   55.03667
+  ],
+  [
+   56.91361,
+   54.93444
+  ],
+  [
+   56.92111,
+   55.01861
+  ],
+  [
+   56.82944,
+   55.20806
+  ],
+  [
+   56.885,
+   55.51722
+  ],
+  [
+   56.82667,
+   55.55194
+  ],
+  [
+   56.66167,
+   55.03361
+  ],
+  [
+   56.59333,
+   54.55389
+  ],
+  [
+   56.61667,
+   54.55
+  ],
+  [
+   56.66667,
+   54.56806
+  ],
+  [
+   56.7125,
+   55.06111
+  ],
+  [
+   56.72111,
+   55.10833
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-06T06:59:25Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z5990/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/040/5644N05502E019\nA)USSV B)2611100400 C)2611151600\nD)DAILY 0400-1600\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 564000N0543405E-564242N0544954E-564651N0550212E-\n         565449N0545604E-565516N0550107E-564946N0551229E-\n         565306N0553102E-564936N0553307E-563942N0550201E-\n         563536N0543314E-563700N0543300E-564000N0543405E\n   450M AMSL-1000M AMSL.\n2. WI CIRCLE RADIUS 1.5KM CENTRE 564245N0550340E\n   GND-1000M AMSL.\n3. WI CIRCLE RADIUS 1.5KM CENTRE 564316N0550630E\n   GND-1000M AMSL.\nF)GND  G)1000M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-09T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.6,
+   "lon": 133.1333,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-08T22:00:00Z",
+  "upper": "2793FT AMSL",
+  "upper_fl": 28
+ },
+ "first_seen": "2026-11-06T06:56:47Z",
+ "id": "notam-rjjj/2026/U4208",
+ "issued_at": "2026-11-06T02:43:00Z",
+ "last_seen": "2026-11-06T06:56:47Z",
+ "number": "U4208",
+ "positions": [
+  [
+   34.61722,
+   133.13361
+  ],
+  [
+   34.58889,
+   133.15722
+  ],
+  [
+   34.57778,
+   133.13278
+  ],
+  [
+   34.60833,
+   133.12556
+  ],
+  [
+   34.61722,
+   133.13361
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-06T06:59:25Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4208/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/028/3436N13308E002\nA)RJJJ B)2611082200 C)2611090800\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n343702N1330801E - 343520N1330926E - 343440N1330758E - 343630N1330732E\n- 343702N1330801E \n(FUCHU-SHI,SERA-GUN IN HIROSHIMA)\nWT: 0.4KG\nF)SFC G)2793FT AMSL",
+ "year": 2026
+}

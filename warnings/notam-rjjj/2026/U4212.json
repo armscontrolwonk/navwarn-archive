@@ -1,0 +1,54 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-11T08:17:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.5833,
+   "lon": 131.5667,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-10T21:46:00Z",
+  "upper": "1369FT AMSL",
+  "upper_fl": 14
+ },
+ "first_seen": "2026-11-06T06:56:47Z",
+ "id": "notam-rjjj/2026/U4212",
+ "issued_at": "2026-11-06T05:09:00Z",
+ "last_seen": "2026-11-06T06:56:47Z",
+ "number": "U4212",
+ "positions": [
+  [
+   33.61333,
+   131.55639
+  ],
+  [
+   33.58111,
+   131.54222
+  ],
+  [
+   33.57306,
+   131.57083
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-06T06:59:25Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4212/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/014/3335N13134E003\nA)RJJJ B)2611102146 C)2611110817\nE)UNMANNED ACFT:\n(1)AREA: RADIUS 700M CENTER 333648N1313323E \n(2)AREA: RADIUS 700M CENTER 333452N1313232E \n(3)AREA: RADIUS 1000M CENTER 333423N1313415E \n(BUNGOTAKADA-SHI IN OITA)\nWT: 0.9KG\nF)SFC G)1369FT AMSL",
+ "year": 2026
+}
