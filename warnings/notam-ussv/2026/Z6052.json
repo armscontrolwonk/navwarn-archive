@@ -1,0 +1,105 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 57.50639,
+    "lon": 54.92972,
+    "radius_nm": 1.35
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 57.5667,
+   "lon": 55.0667,
+   "radius_nm": 12
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0400-1600",
+  "starts_at": "2026-11-08T04:00:00Z",
+  "upper": "1000M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-11-06T19:29:08Z",
+ "id": "notam-ussv/2026/Z6052",
+ "issued_at": "2026-11-06T13:16:00Z",
+ "last_seen": "2026-11-06T19:29:08Z",
+ "number": "Z6052",
+ "positions": [
+  [
+   57.47861,
+   54.80111
+  ],
+  [
+   57.53389,
+   54.89639
+  ],
+  [
+   57.56139,
+   54.94361
+  ],
+  [
+   57.58889,
+   54.99111
+  ],
+  [
+   57.61389,
+   55.04028
+  ],
+  [
+   57.63917,
+   55.08944
+  ],
+  [
+   57.68833,
+   55.18778
+  ],
+  [
+   57.69694,
+   55.15861
+  ],
+  [
+   57.715,
+   55.29639
+  ],
+  [
+   57.70389,
+   55.31556
+  ],
+  [
+   57.56472,
+   55.11167
+  ],
+  [
+   57.42972,
+   54.84028
+  ],
+  [
+   57.47861,
+   54.80111
+  ],
+  [
+   57.50639,
+   54.92972
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-06T19:33:27Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z6052/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/040/5734N05504E012\nA)USSV B)2611080400 C)2611101600\nD)DAILY 0400-1600\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 572843N0544804E-573202N0545347E-573341N0545637E-\n         573520N0545928E-573650N0550225E-573821N0550522E-\n         574118N0551116E-574149N0550931E-574254N0551747E-\n         574214N0551856E-573353N0550642E-572547N0545025E-\n         572843N0544804E\n   450M AMSL-1000M AMSL.\n2. WI CIRCLE RADIUS 2.5KM CENTRE 573023N0545547E\n   GND-1000M AMSL.\nF)GND  G)1000M AMSL",
+ "year": 2026
+}

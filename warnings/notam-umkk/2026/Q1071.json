@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T12:30:00Z",
+ "extra": {
+  "fir": "UMKK",
+  "kind": "restricted",
+  "location": "UMKK",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 54.9667,
+   "lon": 20.45,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UMKK",
+  "schedule": "08 10 1130-1230, 09 0500-0700 1430-1530",
+  "shape": "polygon",
+  "starts_at": "2026-11-08T11:30:00Z",
+  "upper": "150M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-06T19:29:08Z",
+ "id": "notam-umkk/2026/Q1071",
+ "issued_at": "2026-11-06T16:09:00Z",
+ "last_seen": "2026-11-06T19:29:08Z",
+ "number": "Q1071",
+ "positions": [
+  [
+   54.96833,
+   20.48556
+  ],
+  [
+   54.9625,
+   20.4875
+  ],
+  [
+   54.94694,
+   20.42722
+  ],
+  [
+   54.95083,
+   20.42306
+  ],
+  [
+   54.96833,
+   20.48556
+  ]
+ ],
+ "series": "notam-umkk",
+ "source": {
+  "fetched_at": "2026-11-06T19:33:27Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "Q1071/26 NOTAMN\nQ)UMKK/QRTCA/IV/BO/W/000/010/5458N02027E002\nA)UMKK B)2611081130 C)2611101230\nD)08 10 1130-1230, 09 0500-0700 1430-1530\nE)AIRSPACE CLSD WI AREA:\n545806N0202908E-545745N0202915E-545649N0202538E-\n545703N0202523E-545806N0202908E.\nF)SFC  G)150M AMSL",
+ "year": 2026
+}

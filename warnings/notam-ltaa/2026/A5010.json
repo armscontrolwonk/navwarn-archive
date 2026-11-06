@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T11:30:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower": "3000FT AMSL",
+  "lower_fl": 30,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.8667,
+   "lon": 33.25,
+   "radius_nm": 18
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "schedule": "16 1000-1330, 18 0700-0900 1100-1300, 19 0600-0900 1100-1300, 20 1000-1130",
+  "shape": "polygon",
+  "starts_at": "2026-11-16T10:00:00Z",
+  "upper": "30000FT AMSL",
+  "upper_fl": 300
+ },
+ "first_seen": "2026-11-06T19:29:08Z",
+ "id": "notam-ltaa/2026/A5010",
+ "issued_at": "2026-11-06T15:31:00Z",
+ "last_seen": "2026-11-06T19:29:08Z",
+ "number": "A5010",
+ "positions": [
+  [
+   37.61889,
+   33.41639
+  ],
+  [
+   38.03444,
+   33.53583
+  ],
+  [
+   38.08333,
+   33.00833
+  ],
+  [
+   37.71667,
+   33.06667
+  ],
+  [
+   37.61889,
+   33.41639
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-06T19:33:27Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "NON-FIRING TEST FLT WILL TAKE PLACE WI: ",
+ "text": "A5010/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /030/300/3752N03315E018\nA) LTAA B) 2611161000 C) 2611201130\nD) 16 1000-1330, 18 0700-0900 1100-1300, 19 0600-0900 1100-1300, 20  \n1000-1130\nE) NON-FIRING TEST FLT WILL TAKE PLACE WI: \n373708N0332459E 380204N0333209E 380500N0330030E \n374300N0330400E 373708N0332459E\nRMK: AIR TFC FLOW REGULATION NOTAM SHALL BE ISSUED.\nF) 3000FT AMSL G) 30000FT AMSL",
+ "year": 2026
+}

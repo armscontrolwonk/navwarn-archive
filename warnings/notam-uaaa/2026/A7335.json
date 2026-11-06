@@ -1,0 +1,74 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-07T06:00:00Z",
+ "extra": {
+  "fir": "UAAA",
+  "kind": "restricted",
+  "location": "UAAA",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.2167,
+   "lon": 76.4,
+   "radius_nm": 8
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UAAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-07T01:30:00Z",
+  "upper": "FL120",
+  "upper_fl": 120
+ },
+ "first_seen": "2026-11-06T19:29:08Z",
+ "id": "notam-uaaa/2026/A7335",
+ "issued_at": "2026-11-06T17:48:00Z",
+ "last_seen": "2026-11-06T19:29:08Z",
+ "number": "A7335",
+ "positions": [
+  [
+   43.15972,
+   76.48083
+  ],
+  [
+   43.16889,
+   76.35278
+  ],
+  [
+   43.18083,
+   76.23583
+  ],
+  [
+   43.23694,
+   76.23583
+  ],
+  [
+   43.23278,
+   76.40889
+  ],
+  [
+   43.23472,
+   76.56778
+  ],
+  [
+   43.18722,
+   76.55722
+  ],
+  [
+   43.15972,
+   76.48083
+  ]
+ ],
+ "series": "notam-uaaa",
+ "source": {
+  "fetched_at": "2026-11-06T19:33:27Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPORARY RESTRICTED AREA ACTIVATED",
+ "text": "A7335/26 NOTAMN\nQ) UAAA/QRTCA/IV/BO /W /000/120/4313N07624E008\nA) UAAA B) 2611070130 C) 2611070600\nE) TEMPORARY RESTRICTED AREA ACTIVATED\nAREA BOUNDED BY:\n430935N 0762851E - 431008N 0762110E - 431051N 0761409E - 431413N \n0761409E - 431358N 0762432E - 431405N 0763404E - 431114N 0763326E - \n430935N 0762851E\nF) GND G) FL120",
+ "year": 2026
+}

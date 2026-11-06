@@ -1,0 +1,143 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 58.10056,
+    "lon": 55.14306,
+    "radius_nm": 0.81
+   },
+   {
+    "lat": 58.17722,
+    "lon": 55.07917,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 57.93917,
+    "lon": 54.79611,
+    "radius_nm": 0.81
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 58.0667,
+   "lon": 55.0333,
+   "radius_nm": 21
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0400-1600",
+  "starts_at": "2026-11-08T04:00:00Z",
+  "upper": "1000M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-11-06T19:29:08Z",
+ "id": "notam-ussv/2026/Z6050",
+ "issued_at": "2026-11-06T13:16:00Z",
+ "last_seen": "2026-11-06T19:29:08Z",
+ "number": "Z6050",
+ "positions": [
+  [
+   58.03806,
+   54.77472
+  ],
+  [
+   58.01667,
+   54.7975
+  ],
+  [
+   58.13222,
+   55.08056
+  ],
+  [
+   58.19333,
+   54.98333
+  ],
+  [
+   58.32306,
+   54.86611
+  ],
+  [
+   58.39611,
+   54.92722
+  ],
+  [
+   58.15694,
+   55.14444
+  ],
+  [
+   58.19083,
+   55.22889
+  ],
+  [
+   58.145,
+   55.27694
+  ],
+  [
+   58.01194,
+   55.17806
+  ],
+  [
+   57.9575,
+   55.08111
+  ],
+  [
+   57.87917,
+   54.76278
+  ],
+  [
+   57.73417,
+   55.15778
+  ],
+  [
+   57.7325,
+   55.14417
+  ],
+  [
+   57.75083,
+   54.99083
+  ],
+  [
+   57.74417,
+   54.93083
+  ],
+  [
+   57.8425,
+   54.67083
+  ],
+  [
+   58.03806,
+   54.77472
+  ],
+  [
+   58.10056,
+   55.14306
+  ],
+  [
+   58.17722,
+   55.07917
+  ],
+  [
+   57.93917,
+   54.79611
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-06T19:33:27Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z6050/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/040/5804N05502E021\nA)USSV B)2611080400 C)2611101600\nD)DAILY 0400-1600\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 580217N0544629E-580100N0544751E-580756N0550450E-\n         581136N0545900E-581923N0545158E-582346N0545538E-\n         580925N0550840E-581127N0551344E-580842N0551637E-\n         580043N0551041E-575727N0550452E-575245N0544546E-\n         574403N0550928E-574357N0550839E-574503N0545927E-\n         574439N0545551E-575033N0544015E-580217N0544629E\n   500M AMSL-1000M AMSL.\n2. WI CIRCLE RADIUS 1.5KM CENTRE 580602N0550835E\n   GND-1000M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 581038N0550445E\n   GND-1000M AMSL.\n4. WI CIRCLE RADIUS 1.5KM CENTRE 575621N0544746E\n   GND-1000M AMSL.\nF)GND  G)1000M AMSL",
+ "year": 2026
+}

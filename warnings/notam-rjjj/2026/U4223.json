@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-11T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.5,
+   "lon": 132.3167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-10T21:30:00Z",
+  "upper": "1018FT AMSL",
+  "upper_fl": 11
+ },
+ "first_seen": "2026-11-06T19:29:08Z",
+ "id": "notam-rjjj/2026/U4223",
+ "issued_at": "2026-11-06T07:42:00Z",
+ "last_seen": "2026-11-06T19:29:08Z",
+ "number": "U4223",
+ "positions": [
+  [
+   33.49167,
+   132.30306
+  ],
+  [
+   33.49361,
+   132.31889
+  ],
+  [
+   33.50333,
+   132.31722
+  ],
+  [
+   33.50167,
+   132.30139
+  ],
+  [
+   33.49167,
+   132.30306
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-06T19:33:27Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4223/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/011/3330N13219E002\nA)RJJJ B)2611102130 C)2611110800\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n332930N1321811E - 332937N1321908E - 333012N1321902E - 333006N1321805E\n- 332930N1321811E \n(NISHIUWA-GUN IN EHIME)\nWT: 9.0KG\nNUMBER: 2\nF)SFC G)1018FT AMSL",
+ "year": 2026
+}

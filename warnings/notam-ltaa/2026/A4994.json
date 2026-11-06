@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-11T12:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "drone",
+  "location": "LTAA",
+  "lower": "18000FT AMSL",
+  "lower_fl": 180,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.8333,
+   "lon": 33.1,
+   "radius_nm": 27
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTAA",
+  "schedule": "0600-1200",
+  "shape": "polygon",
+  "starts_at": "2026-11-09T06:00:00Z",
+  "upper": "18000FT AMSL",
+  "upper_fl": 180
+ },
+ "first_seen": "2026-11-06T19:29:08Z",
+ "id": "notam-ltaa/2026/A4994",
+ "issued_at": "2026-11-06T08:57:00Z",
+ "last_seen": "2026-11-06T19:29:08Z",
+ "number": "A4994",
+ "positions": [
+  [
+   37.93333,
+   32.58333
+  ],
+  [
+   38.23333,
+   33.26667
+  ],
+  [
+   37.63333,
+   33.33333
+  ],
+  [
+   37.41667,
+   33.25
+  ],
+  [
+   37.48333,
+   32.7
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-06T19:33:27Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL TAKE PLACE WI:",
+ "text": "A4994/26 NOTAMN\nQ) LTAA/QWULW/IV/BO /W /180/180/3750N03306E027\nA) LTAA B) 2611090600 C) 2611111200\nD) 0600-1200\nE) UNMANNED ACFT WILL TAKE PLACE WI:\n375600N0323500E 381400N0331600E 373800N0332000E \n372500N0331500E 372900N0324200E\nNOT: BOLGEDEKI NOTAMLAR ILE KOORDINELI GOREV YAPILACAKTIR.\nF) 18000FT AMSL G) 18000FT AMSL",
+ "year": 2026
+}

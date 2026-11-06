@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-07T13:30:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "other",
+  "location": "LRBB",
+  "lower": "FL130",
+  "lower_fl": 130,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 47.3,
+   "lon": 27.35,
+   "radius_nm": 36
+  },
+  "qcode": "QWYLW",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-11-07T07:00:00Z",
+  "upper": "FL160",
+  "upper_fl": 160
+ },
+ "first_seen": "2026-11-06T19:29:08Z",
+ "id": "notam-lrbb/2026/D3665",
+ "issued_at": "2026-11-06T12:13:00Z",
+ "last_seen": "2026-11-06T19:29:08Z",
+ "number": "D3665",
+ "positions": [
+  [
+   47.63333,
+   26.63333
+  ],
+  [
+   47.63333,
+   27.3
+  ],
+  [
+   47.3,
+   27.6
+  ],
+  [
+   46.98333,
+   28.06667
+  ],
+  [
+   46.98333,
+   26.63333
+  ],
+  [
+   47.63333,
+   26.63333
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-11-06T19:33:27Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "NAVIGATION WARNING.",
+ "text": "D3665/26 NOTAMN\nQ) LRBB/QWYLW/IV/M  /W /130/160/4718N02721E036\nA) LRBB B) 2611070700 C) 2611071330\nE) NAVIGATION WARNING.\n   AERIAL PHOTOGRAPHY FLT WILL TAKE PLACE INTO THE FLW AREA:\n   473800N0263800E-473800N0271800E-471800N0273600E-465900N0280400E\n   465900N0263800E-473800N0263800E\n   EXCEPT CHISINAU FIR\n   FLT WILL BE COOR BTN CIV AND MIL ATC\n   EXPECT RADAR VECTORING\nF) FL130 G) FL160",
+ "year": 2026
+}

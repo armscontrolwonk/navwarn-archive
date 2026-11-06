@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T11:30:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower": "15000FT AMSL",
+  "lower_fl": 150,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.3667,
+   "lon": 34.2167,
+   "radius_nm": 88
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "schedule": "19 0600-0900 1100-1300, 20 1000-1130",
+  "starts_at": "2026-11-19T06:00:00Z",
+  "upper": "20000FT AMSL",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-11-06T19:29:08Z",
+ "id": "notam-ltaa/2026/A5013",
+ "issued_at": "2026-11-06T15:41:00Z",
+ "last_seen": "2026-11-06T19:29:08Z",
+ "number": "A5013",
+ "positions": [],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-06T19:33:27Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEST FLIGHT(WITHOUT FIRIN",
+ "text": "A5013/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /150/200/3822N03413E088\nA) LTAA B) 2611190600 C) 2611201130\nD) 19 0600-0900 1100-1300, 20 1000-1130\nE) TEST FLIGHT(WITHOUT FIRING) WILL TAKE PLACE WI KONYA AND ERKILET \nMILITARY TMA\nAREA: 375711N0323714E 391148N0354304E 383004N0360221E \n374659N0323417E\nF) 15000FT AMSL G) 20000FT AMSL",
+ "year": 2026
+}

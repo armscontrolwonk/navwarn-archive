@@ -1,0 +1,90 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-12T18:00:00Z",
+ "extra": {
+  "fir": "VECF",
+  "kind": "exercise",
+  "location": "VECF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "qcode": "QWELW",
+  "queried_fir": "VECF",
+  "schedule": "0030-0330 1400-1800",
+  "shape": "polygon",
+  "starts_at": "2026-11-12T00:30:00Z",
+  "upper": "46000FT AMSL",
+  "upper_fl": 460
+ },
+ "first_seen": "2026-11-06T19:29:08Z",
+ "id": "notam-vecf/2026/A2235",
+ "issued_at": "2026-11-06T09:51:00Z",
+ "last_seen": "2026-11-06T19:29:08Z",
+ "number": "A2235",
+ "positions": [
+  [
+   27.92517,
+   97.04347
+  ],
+  [
+   26.78103,
+   95.00103
+  ],
+  [
+   25.14519,
+   94.258
+  ],
+  [
+   25.35589,
+   92.78197
+  ],
+  [
+   25.77361,
+   92.29122
+  ],
+  [
+   26.43908,
+   92.25661
+  ],
+  [
+   26.52392,
+   89.56314
+  ],
+  [
+   26.64389,
+   89.55539
+  ],
+  [
+   26.70831,
+   92.06033
+  ],
+  [
+   26.74558,
+   92.13881
+  ],
+  [
+   27.40253,
+   92.42814
+  ],
+  [
+   28.90389,
+   94.66653
+  ],
+  [
+   27.92517,
+   97.04347
+  ]
+ ],
+ "series": "notam-vecf",
+ "source": {
+  "fetched_at": "2026-11-06T19:33:27Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIR EXER INPR WI AREA BOUNDED BY COORD:",
+ "text": "A2235/26 NOTAMN\nQ) VECF/QWELW/IV/BO/W/000/460/\nA) VECF B) 2611120030 C) 2611121800\nD) 0030-0330 1400-1800\nE) AIR EXER INPR WI AREA BOUNDED BY COORD:\nPOINT A-275530.6N 0970236.5E\nPOINT B-264651.7N 0950003.7E\nPOINT C-250842.7N 0941528.8E\nPOINT D-252121.2N 0924655.1E\nPOINT E-254625.0N 0921728.4E\nPOINT F-262620.7N 0921523.8E\nPOINT G-263126.1N 0893347.3E\nPOINT H-263838.0N 0893319.4E\nPOINT I-264229.9N 0920337.2E\nPOINT J-264444.1N 0920819.7E\nPOINT K-272409.1N 0922541.3E\nPOINT L-285414.0N 0943959.5E\nAND\nPONT A-275530.6N 0970236.5E\nF) GND G) 46000FT AMSL",
+ "year": 2026
+}

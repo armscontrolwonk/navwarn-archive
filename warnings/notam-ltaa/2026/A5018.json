@@ -1,0 +1,39 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T11:30:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower_fl": 30,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.5667,
+   "lon": 33.7333,
+   "radius_nm": 107
+  },
+  "qcode": "QANLC",
+  "queried_fir": "LTAA",
+  "schedule": "16 20 1000-1130,18 0700-0900 1100-1300,19 0600-0900 1100-1300",
+  "starts_at": "2026-11-16T10:00:00Z",
+  "upper_fl": 300
+ },
+ "first_seen": "2026-11-06T19:29:08Z",
+ "id": "notam-ltaa/2026/A5018",
+ "issued_at": "2026-11-06T15:51:00Z",
+ "last_seen": "2026-11-06T19:29:08Z",
+ "number": "A5018",
+ "positions": [],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-06T19:33:27Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "SEE NOTAM: A5011/26",
+ "text": "A5018/26 NOTAMN\nQ) LTAA/QANLC/I /NBO/E /030/300/3834N03344E107\nA) LTAA B) 2611161000 C) 2611201130\nD) 16 20 1000-1130,18 0700-0900 1100-1300,19 0600-0900 1100-1300\nE) SEE NOTAM: A5011/26\nRNAV ROUTES AND SEGMENTS AFFECTED DURING NON-FIRING TEST FLT AS FLW:\n1. AWY M/UM856 TELVO-MUT SEGMENT CLSD.\n2. AWY L/UL621 BUK-MUT SEGMENT CLSD.\n3. AWY T/UT244 REBTA-MANAZ SEGMENT CLSD.\n4. T/UT339 MUT-SELVI SEGMENT CLSD.\nVERTICAL LIMITS: 3000FT AMSL-30000FT AMSL",
+ "year": 2026
+}

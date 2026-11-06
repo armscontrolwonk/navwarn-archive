@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T11:30:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "3000FT AMSL",
+  "lower_fl": 30,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.5667,
+   "lon": 33.8333,
+   "radius_nm": 57
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "schedule": "16 20 1000-1130,18 0700-0900 1100-1300,19 0600-0900 1100-1300",
+  "shape": "polygon",
+  "starts_at": "2026-11-16T10:00:00Z",
+  "upper": "30000FT AMSL",
+  "upper_fl": 300
+ },
+ "first_seen": "2026-11-06T19:29:08Z",
+ "id": "notam-ltaa/2026/A5011",
+ "issued_at": "2026-11-06T15:31:00Z",
+ "last_seen": "2026-11-06T19:29:08Z",
+ "number": "A5011",
+ "positions": [
+  [
+   37.055,
+   34.3
+  ],
+  [
+   38.00889,
+   32.79056
+  ],
+  [
+   37.10333,
+   34.84972
+  ],
+  [
+   37.055,
+   34.3
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-06T19:33:27Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEST FLIGHT WILL TAKE PLACE WI ADANA MILITARY TMA:",
+ "text": "A5011/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /030/300/3734N03350E057\nA) LTAA B) 2611161000 C) 2611201130\nD) 16 20 1000-1130,18 0700-0900 1100-1300,19 0600-0900 1100-1300\nE) TEST FLIGHT WILL TAKE PLACE WI ADANA MILITARY TMA:\n370318N0341800E 380032N0324726E 370612N0345059E 370318N0341800E\nRMK: AIR TRAFFIC FLOW REGULATION NOTAM SHALL BE ISSUED\nF) 3000FT AMSL G) 30000FT AMSL",
+ "year": 2026
+}

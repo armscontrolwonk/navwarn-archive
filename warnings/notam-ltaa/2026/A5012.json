@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T11:30:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower": "3000FT AMSL",
+  "lower_fl": 30,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.5,
+   "lon": 33.45,
+   "radius_nm": 50
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "schedule": "16 1000-1330, 18 0700-0900 1100-1300, 19 0600-0900 1100-1300, 20 1000-1130",
+  "starts_at": "2026-11-16T10:00:00Z",
+  "upper": "30000FT AMSL",
+  "upper_fl": 300
+ },
+ "first_seen": "2026-11-06T19:29:08Z",
+ "id": "notam-ltaa/2026/A5012",
+ "issued_at": "2026-11-06T15:39:00Z",
+ "last_seen": "2026-11-06T19:29:08Z",
+ "number": "A5012",
+ "positions": [],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-06T19:33:27Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEST FLT(WITHOUT FIRIN",
+ "text": "A5012/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /030/300/3730N03327E050\nA) LTAA B) 2611161000 C) 2611201130\nD) 16 1000-1330, 18 0700-0900 1100-1300, 19 0600-0900 1100-1300, 20  \n 1000-1130\nE) TEST FLT(WITHOUT FIRING) WILL TAKE PLACE WI: \n375600N0323500E 375700N0323700E 380032N0324726E \n370318N0341800E 370010N0334522E 374550N0323512E 375600N0323500E\nRMK: AIR TFC FLOW REGULATION NOTAM SHALL BE ISSUED.\nF) 3000FT AMSL G) 30000FT AMSL",
+ "year": 2026
+}

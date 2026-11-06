@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-13T14:00:00Z",
+ "extra": {
+  "fir": "LTXX",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "28000FT AMSL",
+  "lower_fl": 280,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.3833,
+   "lon": 31.0833,
+   "radius_nm": 61
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTBB",
+  "shape": "polygon",
+  "starts_at": "2026-11-13T07:00:00Z",
+  "upper": "30000FT AMSL",
+  "upper_fl": 300
+ },
+ "first_seen": "2026-11-06T19:29:08Z",
+ "id": "notam-ltaa/2026/A4993",
+ "issued_at": "2026-11-06T08:47:00Z",
+ "last_seen": "2026-11-06T19:29:08Z",
+ "number": "A4993",
+ "positions": [
+  [
+   39.83194,
+   30.08833
+  ],
+  [
+   40.25917,
+   30.49222
+  ],
+  [
+   39.0925,
+   32.03833
+  ],
+  [
+   38.51056,
+   31.65806
+  ],
+  [
+   39.83194,
+   30.08833
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-06T19:33:27Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEST FLIGHT WILL TAKE PLACE WI ESKISEHIR MIL TMA:",
+ "text": "A4993/26 NOTAMN\nQ) LTXX/QWELW/IV/BO /W /280/300/3923N03105E061\nA) LTAA LTBB B) 2611130700 C) 2611131400\nE) TEST FLIGHT WILL TAKE PLACE WI ESKISEHIR MIL TMA:\n394955N0300518E 401533N0302932E 390533N0320218E \n383038N0313929E 394955N0300518E\nF) 28000FT AMSL G) 30000FT AMSL",
+ "year": 2026
+}

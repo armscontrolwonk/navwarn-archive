@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-08T11:00:00Z",
+ "extra": {
+  "fir": "UNNT",
+  "kind": "restricted",
+  "location": "UNNT",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.45,
+   "lon": 84.95,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNNT",
+  "schedule": "07 0900-1100, 08 0400-1100",
+  "starts_at": "2026-11-07T09:00:00Z",
+  "upper": "610M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-06T19:29:08Z",
+ "id": "notam-unnt/2026/L3936",
+ "issued_at": "2026-11-06T09:11:00Z",
+ "last_seen": "2026-11-06T19:29:08Z",
+ "number": "L3936",
+ "positions": [
+  [
+   56.45667,
+   84.96278
+  ]
+ ],
+ "series": "notam-unnt",
+ "source": {
+  "fetched_at": "2026-11-06T19:33:27Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 200M CENTRE 562724N0845746E.",
+ "text": "L3936/26 NOTAMN\nQ)UNNT/QRTCA/IV/BO/W/000/030/5627N08457E001\nA)UNNT B)2611070900 C)2611081100\nD)07 0900-1100, 08 0400-1100\nE)AIRSPACE CLSD WI CIRCLE RADIUS 200M CENTRE 562724N0845746E.\nF)SFC  G)610M AMSL",
+ "year": 2026
+}

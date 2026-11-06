@@ -1,0 +1,79 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-12T08:00:00Z",
+ "extra": {
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.8,
+   "lon": 131.8333,
+   "radius_nm": 4
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "schedule": "DAILY 0000-0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-10T00:00:00Z",
+  "upper": "700M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-06T19:29:08Z",
+ "id": "notam-uhhh/2026/P9116",
+ "issued_at": "2026-11-06T07:39:00Z",
+ "last_seen": "2026-11-06T19:29:08Z",
+ "number": "P9116",
+ "positions": [
+  [
+   43.85,
+   131.84167
+  ],
+  [
+   43.84111,
+   131.81639
+  ],
+  [
+   43.82528,
+   131.81556
+  ],
+  [
+   43.81889,
+   131.79833
+  ],
+  [
+   43.80194,
+   131.81917
+  ],
+  [
+   43.75639,
+   131.82139
+  ],
+  [
+   43.79972,
+   131.91861
+  ],
+  [
+   43.82194,
+   131.90306
+  ],
+  [
+   43.85,
+   131.84167
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-11-06T19:33:27Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "P9116/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/030/4348N13150E004\nA)UHHH B)2611100000 C)2611120800\nD)DAILY 0000-0800\nE)AIRSPACE CLSD WI AREA:\n435100N1315030E-435028N1314859E-434931N1314856E-434908N1314754E-\n434807N1314909E-434523N1314917E-434759N1315507E-434919N1315411E-\n435100N1315030E.\nF)SFC  G)700M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,87 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-17T11:00:00Z",
+ "extra": {
+  "fir": "WSXX",
+  "kind": "restricted",
+  "location": "WSJC",
+  "lower": "1500FT AMSL",
+  "lower_fl": 15,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 1.1,
+   "lon": 104.0333,
+   "radius_nm": 11
+  },
+  "qcode": "QRALW",
+  "queried_fir": "WSJC",
+  "schedule": "DAILY 0000-1100",
+  "shape": "polygon",
+  "starts_at": "2026-11-16T00:00:00Z",
+  "upper": "2200FT AMSL",
+  "upper_fl": 22
+ },
+ "first_seen": "2026-11-06T19:29:08Z",
+ "id": "notam-wsjc/2026/A3410",
+ "issued_at": "2026-11-06T09:42:00Z",
+ "last_seen": "2026-11-06T19:29:08Z",
+ "number": "A3410",
+ "positions": [
+  [
+   1.15944,
+   103.89278
+  ],
+  [
+   1.21833,
+   103.99528
+  ],
+  [
+   1.22528,
+   104.12083
+  ],
+  [
+   1.15889,
+   104.17972
+  ],
+  [
+   1.02889,
+   104.1675
+  ],
+  [
+   0.97444,
+   104.12472
+  ],
+  [
+   0.95167,
+   104.07611
+  ],
+  [
+   0.9775,
+   103.92972
+  ],
+  [
+   1.0575,
+   103.87028
+  ],
+  [
+   1.10917,
+   103.86167
+  ],
+  [
+   1.15944,
+   103.89278
+  ]
+ ],
+ "series": "notam-wsjc",
+ "source": {
+  "fetched_at": "2026-11-06T19:33:27Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE RESERVATION FOR PHOTOFLIGHT WILL TAKE PLACE WI FLW COORD:",
+ "text": "A3410/26 NOTAMN\nQ)WSXX/QRALW/IV/NBO/W/015/022/0106N10402E011\nA)WSJC WIIF B)2611160000 C)2612171100\nD)DAILY 0000-1100\nE)AIRSPACE RESERVATION FOR PHOTOFLIGHT WILL TAKE PLACE WI FLW COORD:\n010934N1035334E - 011306N1035943E - 011331N1040715E -\n010932N1041047E - 010144N1041003E - 005828N1040729E -\n005706N1040434E - 005839N1035547E - 010327N1035213E -\n010633N1035142E - 010934N1035334E\nRMK: ALL TFC SUBJ ATC CLR.\nF)1500FT AMSL G)2200FT AMSL",
+ "year": 2026
+}

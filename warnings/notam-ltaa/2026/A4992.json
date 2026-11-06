@@ -1,0 +1,50 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-11T09:30:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "drone",
+  "location": "LTAA",
+  "lower": "18000FT AMSL",
+  "lower_fl": 180,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.4,
+   "lon": 32.5833,
+   "radius_nm": 17
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTAA",
+  "schedule": "0600-0930",
+  "starts_at": "2026-11-09T06:00:00Z",
+  "upper": "18000FT AMSL",
+  "upper_fl": 180
+ },
+ "first_seen": "2026-11-06T19:29:08Z",
+ "id": "notam-ltaa/2026/A4992",
+ "issued_at": "2026-11-06T08:41:00Z",
+ "last_seen": "2026-11-06T19:29:08Z",
+ "number": "A4992",
+ "positions": [
+  [
+   37.65806,
+   32.58194
+  ],
+  [
+   37.13778,
+   32.58194
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-06T19:33:27Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT TEST FLT WILL TAKE PLACE WI KONYA MIL TMA.",
+ "text": "A4992/26 NOTAMN\nQ) LTAA/QWULW/IV/BO /W /180/180/3724N03235E017\nA) LTAA B) 2611090600 C) 2611110930\nD) 0600-0930\nE) UNMANNED ACFT TEST FLT WILL TAKE PLACE WI KONYA MIL TMA.\nROUTE: 373929N0323455E 370816N0323455E 5NM EITHER SIDE OF A LINE\nF) 18000FT AMSL G) 18000FT AMSL",
+ "year": 2026
+}
