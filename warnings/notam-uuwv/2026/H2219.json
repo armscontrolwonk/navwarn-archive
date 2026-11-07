@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-09T16:00:00Z",
+ "extra": {
+  "fir": "UUWV",
+  "kind": "route",
+  "location": "UUWV",
+  "lower": "400M AMSL",
+  "lower_fl": 10,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.0333,
+   "lon": 45.7667,
+   "radius_nm": 26
+  },
+  "qcode": "QARLC",
+  "queried_fir": "UUWV",
+  "schedule": "DAILY 0600-1600",
+  "starts_at": "2026-11-08T06:00:00Z",
+  "upper": "700M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-07T06:08:19Z",
+ "id": "notam-uuwv/2026/H2219",
+ "issued_at": "2026-11-06T19:37:00Z",
+ "last_seen": "2026-11-07T06:08:19Z",
+ "number": "H2219",
+ "positions": [],
+ "series": "notam-uuwv",
+ "source": {
+  "fetched_at": "2026-11-07T06:11:59Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENT CLSD:",
+ "text": "H2219/26 NOTAMN\nQ)UUWV/QARLC/IV/NBO/E/010/030/5602N04546E026\nA)UUWV B)2611080600 C)2611091600\nD)DAILY 0600-1600\nE)ATS RTE SEGMENT CLSD:\nKR395 NAMER-LYSKOVO NDB(HD).\nF)400M AMSL  G)700M AMSL",
+ "year": 2026
+}

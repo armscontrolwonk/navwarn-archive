@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-27T16:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 3.1333,
+   "lon": 101.7,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "15 2200-2359 16-26 0000-1600 2200-2359 27 0000-1600",
+  "shape": "polygon",
+  "starts_at": "2026-12-15T22:00:00Z",
+  "upper": "2600FT AMSL",
+  "upper_fl": 26
+ },
+ "first_seen": "2026-11-07T06:08:19Z",
+ "id": "notam-wmfc/2026/A4467",
+ "issued_at": "2026-11-07T05:09:00Z",
+ "last_seen": "2026-11-07T06:08:19Z",
+ "number": "A4467",
+ "positions": [
+  [
+   3.14262,
+   101.70063
+  ],
+  [
+   3.14232,
+   101.70143
+  ],
+  [
+   3.14152,
+   101.70103
+  ],
+  [
+   3.14198,
+   101.70018
+  ],
+  [
+   3.14262,
+   101.70063
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-11-07T06:11:59Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI FLW COORDS:",
+ "text": "A4467/26 NOTAMN\nQ) WMFC/QWULW/IV/M  /W /000/026/0308N10142E001\nA) WMFC B) 2612152200 C) 2612271600 \nD) 15 2200-2359 \n   16-26 0000-1600 2200-2359 \n   27 0000-1600\nE) UA ACT WILL TAKE PLACE WI FLW COORDS:\n   030833.44N 1014202.28E - 030832.36N 1014205.14E -\n   030829.47N 1014203.70E - 030831.12N 1014200.64E -\n   030833.44N 1014202.28E\n   (MERKDEKA 118 TOWER)\nF) SFC                             G) 2600FT AMSL",
+ "year": 2026
+}
