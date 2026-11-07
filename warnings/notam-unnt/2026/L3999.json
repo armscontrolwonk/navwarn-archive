@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-11T12:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 55.17611,
+    "lon": 73.21167,
+    "radius_nm": 0.7
+   }
+  ],
+  "fir": "UNNT",
+  "kind": "restricted",
+  "location": "UNNT",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.1667,
+   "lon": 73.2,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNNT",
+  "schedule": "09-11 0400-1200",
+  "starts_at": "2026-11-09T04:00:00Z",
+  "upper": "200M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-07T13:13:03Z",
+ "id": "notam-unnt/2026/L3999",
+ "issued_at": "2026-11-07T07:19:00Z",
+ "last_seen": "2026-11-07T13:13:03Z",
+ "number": "L3999",
+ "positions": [
+  [
+   55.17611,
+   73.21167
+  ]
+ ],
+ "series": "notam-unnt",
+ "source": {
+  "fetched_at": "2026-11-07T13:16:08Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 1.3KM CENTRE 551034N0731242E.",
+ "text": "L3999/26 NOTAMN\nQ)UNNT/QRTCA/IV/BO/W/000/010/5510N07312E001\nA)UNNT B)2611090400 C)2611111200\nD)09-11 0400-1200\nE)AIRSPACE CLSD WI CIRCLE RADIUS 1.3KM CENTRE 551034N0731242E.\nF)GND  G)200M AMSL",
+ "year": 2026
+}

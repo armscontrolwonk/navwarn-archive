@@ -1,0 +1,111 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-17T17:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 49.87722,
+    "lon": 45.75278,
+    "radius_nm": 1.08
+   },
+   {
+    "lat": 49.96944,
+    "lon": 46.46528,
+    "radius_nm": 1.08
+   },
+   {
+    "lat": 50.09972,
+    "lon": 46.69278,
+    "radius_nm": 1.08
+   }
+  ],
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 50.0833,
+   "lon": 46.1333,
+   "radius_nm": 35
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "URRV",
+  "schedule": "12-17 0600-1700",
+  "starts_at": "2026-11-12T06:00:00Z",
+  "upper": "760M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-07T13:13:03Z",
+ "id": "notam-urrv/2026/V9017",
+ "issued_at": "2026-11-07T09:47:00Z",
+ "last_seen": "2026-11-07T13:13:03Z",
+ "number": "V9017",
+ "positions": [
+  [
+   50.03472,
+   45.49417
+  ],
+  [
+   49.82333,
+   45.3525
+  ],
+  [
+   49.78806,
+   45.35444
+  ],
+  [
+   49.92694,
+   46.44694
+  ],
+  [
+   50.09139,
+   46.73278
+  ],
+  [
+   50.38667,
+   46.90694
+  ],
+  [
+   50.53583,
+   46.52556
+  ],
+  [
+   50.50583,
+   46.44056
+  ],
+  [
+   50.19167,
+   46.51139
+  ],
+  [
+   50.03472,
+   45.49417
+  ],
+  [
+   49.87722,
+   45.75278
+  ],
+  [
+   49.96944,
+   46.46528
+  ],
+  [
+   50.09972,
+   46.69278
+  ]
+ ],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-11-07T13:16:08Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "V9017/26 NOTAMN\nQ)URRV/QRTCA/IV/BO/W/000/030/5005N04608E035\nA)URRV B)2611120600 C)2611171700\nD)12-17 0600-1700\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 500205N0452939E-494924N0452109E-494717N0452116E-\n         495537N0462649E-500529N0464358E-502312N0465425E-\n         503209N0463132E-503021N0462626E-501130N0463041E-\n         500205N0452939E\n   320M AMSL-760M AMSL.\n2. WI CIRCLE RADIUS 2KM CENTRE 495238N0454510E\n   GND-760M AMSL.\n3. WI CIRCLE RADIUS 2KM CENTRE 495810N0462755E\n   GND-760M AMSL.\n4. WI CIRCLE RADIUS 2KM CENTRE 500559N0464134E\n   GND-760M AMSL.\nF)GND  G)760M AMSL",
+ "year": 2026
+}

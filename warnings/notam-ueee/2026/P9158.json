@@ -1,0 +1,128 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-17T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 60.38611,
+    "lon": 111.78972,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 60.92167,
+    "lon": 112.13111,
+    "radius_nm": 0.27
+   },
+   {
+    "lat": 60.93917,
+    "lon": 112.09667,
+    "radius_nm": 0.27
+   },
+   {
+    "lat": 60.40306,
+    "lon": 111.73306,
+    "radius_nm": 0.16
+   },
+   {
+    "lat": 60.93639,
+    "lon": 112.16028,
+    "radius_nm": 0.27
+   }
+  ],
+  "fir": "UEEE",
+  "kind": "restricted",
+  "location": "UEEE",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 60.65,
+   "lon": 111.9833,
+   "radius_nm": 19
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UEEE",
+  "starts_at": "2026-11-12T00:00:00Z",
+  "upper": "2600M AMSL",
+  "upper_fl": 90
+ },
+ "first_seen": "2026-11-07T13:13:03Z",
+ "id": "notam-ueee/2026/P9158",
+ "issued_at": "2026-11-07T09:45:00Z",
+ "last_seen": "2026-11-07T13:13:03Z",
+ "number": "P9158",
+ "positions": [
+  [
+   60.93611,
+   112.20639
+  ],
+  [
+   60.7325,
+   112.07111
+  ],
+  [
+   60.64667,
+   111.88583
+  ],
+  [
+   60.3775,
+   111.83639
+  ],
+  [
+   60.36806,
+   111.76333
+  ],
+  [
+   60.47139,
+   111.66694
+  ],
+  [
+   60.65444,
+   111.65028
+  ],
+  [
+   60.80389,
+   111.92222
+  ],
+  [
+   60.95111,
+   112.085
+  ],
+  [
+   60.93611,
+   112.20639
+  ],
+  [
+   60.38611,
+   111.78972
+  ],
+  [
+   60.92167,
+   112.13111
+  ],
+  [
+   60.93917,
+   112.09667
+  ],
+  [
+   60.40306,
+   111.73306
+  ],
+  [
+   60.93639,
+   112.16028
+  ]
+ ],
+ "series": "notam-ueee",
+ "source": {
+  "fetched_at": "2026-11-07T13:16:08Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P9158/26 NOTAMN\nQ)UEEE/QRTCA/IV/BO/W/000/090/6039N11159E019\nA)UEEE B)2611120000 C)2611172359\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 605610N1121223E-604357N1120416E-603848N1115309E-\n         602239N1115011E-602205N1114548E-602817N1114001E-\n         603916N1113901E-604814N1115520E-605704N1120506E-\n         605610N1121223E\n   650M AMSL-2600M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 602310N1114723E\n   SFC-2600M AMSL.\n3. WI CIRCLE RADIUS 0.5KM CENTRE 605518N1120752E\n   SFC-2600M AMSL.\n4. WI CIRCLE RADIUS 0.5KM CENTRE 605621N1120548E\n   SFC-2600M AMSL.\n5. WI CIRCLE RADIUS 0.3KM CENTRE 602411N1114359E\n   SFC-2600M AMSL.\n6. WI CIRCLE RADIUS 0.5KM CENTRE 605611N1120937E\n   SFC-2600M AMSL.\nF)SFC  G)2600M AMSL",
+ "year": 2026
+}
