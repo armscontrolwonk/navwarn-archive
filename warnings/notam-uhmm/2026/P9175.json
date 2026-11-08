@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-13T08:00:00Z",
+ "extra": {
+  "fir": "UHMM",
+  "kind": "restricted",
+  "location": "UHMM",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 52.0,
+   "lon": 159.1333,
+   "radius_nm": 25
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHMM",
+  "schedule": "DAILY 2000-0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-10T20:00:00Z",
+  "upper": "8500M AMSL",
+  "upper_fl": 280
+ },
+ "first_seen": "2026-11-08T06:13:19Z",
+ "id": "notam-uhmm/2026/P9175",
+ "issued_at": "2026-11-08T05:32:00Z",
+ "last_seen": "2026-11-08T06:13:19Z",
+ "number": "P9175",
+ "positions": [
+  [
+   52.22583,
+   158.91361
+  ],
+  [
+   52.37528,
+   159.3725
+  ],
+  [
+   51.62222,
+   159.37222
+  ],
+  [
+   51.62222,
+   158.91167
+  ],
+  [
+   52.22583,
+   158.91361
+  ]
+ ],
+ "series": "notam-uhmm",
+ "source": {
+  "fetched_at": "2026-11-08T06:17:02Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO DANGER AREA ACT:",
+ "text": "P9175/26 NOTAMN\nQ)UHMM/QRTCA/IV/BO/W/000/280/5200N15908E025\nA)UHMM B)2611102000 C)2611130800\nD)DAILY 2000-0800\nE)TEMPO DANGER AREA ACT:\n521333N1585449E-522231N1592221E-513720N1592220E-\n513720N1585442E-521333N1585449E.\nF)GND  G)8500M AMSL",
+ "year": 2026
+}

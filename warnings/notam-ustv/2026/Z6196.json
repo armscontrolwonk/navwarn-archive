@@ -1,0 +1,85 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-12T13:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 57.2,
+    "lon": 65.58333,
+    "radius_nm": 0.11
+   }
+  ],
+  "fir": "USTV",
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 57.2,
+   "lon": 65.5333,
+   "radius_nm": 4
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USTV",
+  "schedule": "DAILY 0400-1300",
+  "starts_at": "2026-11-09T04:00:00Z",
+  "upper": "400M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-08T06:13:19Z",
+ "id": "notam-ustv/2026/Z6196",
+ "issued_at": "2026-11-08T05:33:00Z",
+ "last_seen": "2026-11-08T06:13:19Z",
+ "number": "Z6196",
+ "positions": [
+  [
+   57.23111,
+   65.51
+  ],
+  [
+   57.21972,
+   65.62194
+  ],
+  [
+   57.20083,
+   65.62444
+  ],
+  [
+   57.19722,
+   65.61583
+  ],
+  [
+   57.15806,
+   65.60889
+  ],
+  [
+   57.15861,
+   65.55583
+  ],
+  [
+   57.19611,
+   65.44833
+  ],
+  [
+   57.23111,
+   65.51
+  ],
+  [
+   57.2,
+   65.58333
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-11-08T06:17:02Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z6196/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/020/5712N06532E004\nA)USTV B)2611090400 C)2611121300\nD)DAILY 0400-1300\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 571352N0653036E-571311N0653719E-571203N0653728E-\n         571150N0653657E-570929N0653632E-570931N0653321E-\n         571146N0652654E-571352N0653036E\n   110M AMSL-400M AMSL.\n2. WI CIRCLE RADIUS 0.2KM CENTRE 571200N0653500E\n   GND-400M AMSL.\nF)GND  G)400M AMSL",
+ "year": 2026
+}

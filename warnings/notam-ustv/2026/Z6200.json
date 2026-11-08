@@ -1,0 +1,109 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-15T17:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 60.88694,
+    "lon": 77.03417,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "USTV",
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 60.9167,
+   "lon": 77.0,
+   "radius_nm": 5
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USTV",
+  "schedule": "DAILY 0400-1700",
+  "starts_at": "2026-11-10T04:00:00Z",
+  "upper": "210M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-08T06:13:19Z",
+ "id": "notam-ustv/2026/Z6200",
+ "issued_at": "2026-11-08T06:09:00Z",
+ "last_seen": "2026-11-08T06:13:19Z",
+ "number": "Z6200",
+ "positions": [
+  [
+   60.94778,
+   76.86944
+  ],
+  [
+   60.94111,
+   76.89583
+  ],
+  [
+   60.93306,
+   76.91222
+  ],
+  [
+   60.93833,
+   76.95361
+  ],
+  [
+   60.9325,
+   77.02056
+  ],
+  [
+   60.90361,
+   77.10833
+  ],
+  [
+   60.88278,
+   77.13889
+  ],
+  [
+   60.87278,
+   77.10556
+  ],
+  [
+   60.88972,
+   77.06139
+  ],
+  [
+   60.87389,
+   77.04278
+  ],
+  [
+   60.88278,
+   77.00472
+  ],
+  [
+   60.905,
+   77.02222
+  ],
+  [
+   60.91556,
+   76.85306
+  ],
+  [
+   60.94778,
+   76.86944
+  ],
+  [
+   60.88694,
+   77.03417
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-11-08T06:17:02Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z6200/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/010/6055N07700E005\nA)USTV B)2611100400 C)2611151700\nD)DAILY 0400-1700\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 605652N0765210E-605628N0765345E-605559N0765444E-\n         605618N0765713E-605557N0770114E-605413N0770630E-\n         605258N0770820E-605222N0770620E-605323N0770341E-\n         605226N0770234E-605258N0770017E-605418N0770120E-\n         605456N0765111E-605652N0765210E\n   200M AMSL-210M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 605313N0770203E\n   GND-210M AMSL.\nF)GND  G)210M AMSL",
+ "year": 2026
+}
