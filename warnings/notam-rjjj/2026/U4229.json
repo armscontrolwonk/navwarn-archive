@@ -1,0 +1,74 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-09T07:57:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.85,
+   "lon": 135.5333,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-08T23:00:00Z",
+  "upper": "1657FT AMSL",
+  "upper_fl": 17
+ },
+ "first_seen": "2026-11-08T13:37:13Z",
+ "id": "notam-rjjj/2026/U4229",
+ "issued_at": "2026-11-08T07:30:00Z",
+ "last_seen": "2026-11-08T13:37:13Z",
+ "number": "U4229",
+ "positions": [
+  [
+   34.85056,
+   135.53111
+  ],
+  [
+   34.85306,
+   135.53139
+  ],
+  [
+   34.85306,
+   135.53444
+  ],
+  [
+   34.85028,
+   135.53417
+  ],
+  [
+   34.85028,
+   135.53139
+  ],
+  [
+   34.85028,
+   135.53111
+  ],
+  [
+   34.85028,
+   135.53111
+  ],
+  [
+   34.85056,
+   135.53111
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-08T13:40:01Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4229/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/017/3451N13532E001\nA)RJJJ B)2611082300 C)2611090757\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n345102N1353152E - 345111N1353153E - 345111N1353204E - 345101N1353203E\n- 345101N1353153E - 345101N1353152E - 345101N1353152E -\n345102N1353152E \n(IBARAKI-SHI IN OSAKA)\nWT: 1KG\nF)SFC G)1657FT AMSL",
+ "year": 2026
+}

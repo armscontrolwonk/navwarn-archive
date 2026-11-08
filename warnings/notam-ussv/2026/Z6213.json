@@ -1,0 +1,105 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-17T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 55.89111,
+    "lon": 64.74417,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.1,
+   "lon": 64.5167,
+   "radius_nm": 16
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0300-1600",
+  "starts_at": "2026-11-12T03:00:00Z",
+  "upper": "850M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-08T13:37:13Z",
+ "id": "notam-ussv/2026/Z6213",
+ "issued_at": "2026-11-08T07:25:00Z",
+ "last_seen": "2026-11-08T13:37:13Z",
+ "number": "Z6213",
+ "positions": [
+  [
+   55.87028,
+   64.74472
+  ],
+  [
+   55.93583,
+   64.46667
+  ],
+  [
+   56.06889,
+   64.49889
+  ],
+  [
+   56.31583,
+   64.29972
+  ],
+  [
+   56.32583,
+   64.34889
+  ],
+  [
+   56.1475,
+   64.50028
+  ],
+  [
+   56.17528,
+   64.55
+  ],
+  [
+   56.14861,
+   64.58306
+  ],
+  [
+   56.12278,
+   64.53333
+  ],
+  [
+   56.07333,
+   64.585
+  ],
+  [
+   55.94444,
+   64.62917
+  ],
+  [
+   55.91639,
+   64.78361
+  ],
+  [
+   55.87028,
+   64.74472
+  ],
+  [
+   55.89111,
+   64.74417
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-08T13:40:01Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z6213/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/030/5606N06431E016\nA)USSV B)2611120300 C)2611171600\nD)DAILY 0300-1600\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 555213N0644441E-555609N0642800E-560408N0642956E-\n         561857N0641759E-561933N0642056E-560851N0643001E-\n         561031N0643300E-560855N0643459E-560722N0643200E-\n         560424N0643506E-555640N0643745E-555459N0644701E-\n         555213N0644441E\n   350M AMSL-850M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 555328N0644439E\n   GND-850M AMSL.\nF)GND  G)850M AMSL",
+ "year": 2026
+}

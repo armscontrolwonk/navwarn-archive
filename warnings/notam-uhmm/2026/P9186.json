@@ -1,0 +1,83 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-13T05:00:00Z",
+ "extra": {
+  "fir": "UHMM",
+  "kind": "restricted",
+  "location": "UHMM",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 53.0,
+   "lon": 158.65,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHMM",
+  "schedule": "DAILY 0100-0500",
+  "shape": "polygon",
+  "starts_at": "2026-11-09T01:00:00Z",
+  "upper": "140M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-08T13:37:13Z",
+ "id": "notam-uhmm/2026/P9186",
+ "issued_at": "2026-11-08T10:00:00Z",
+ "last_seen": "2026-11-08T13:37:13Z",
+ "number": "P9186",
+ "positions": [
+  [
+   53.00667,
+   158.65333
+  ],
+  [
+   53.00667,
+   158.65389
+  ],
+  [
+   53.00528,
+   158.65472
+  ],
+  [
+   53.00528,
+   158.65417
+  ],
+  [
+   53.00667,
+   158.65333
+  ],
+  [
+   53.00806,
+   158.64472
+  ],
+  [
+   53.00806,
+   158.64528
+  ],
+  [
+   53.00667,
+   158.64528
+  ],
+  [
+   53.00667,
+   158.64472
+  ],
+  [
+   53.00806,
+   158.64472
+  ]
+ ],
+ "series": "notam-uhmm",
+ "source": {
+  "fetched_at": "2026-11-08T13:40:01Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P9186/26 NOTAMN\nQ)UHMM/QRTCA/IV/BO/W/000/010/5300N15839E001\nA)UHMM B)2611090100 C)2611130500\nD)DAILY 0100-0500\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 530024N1583912E-530024N1583914E-530019N1583917E-\n         530019N1583915E-530024N1583912E\n   GND-140M AMSL.\n2. AREA: 530029N1583841E-530029N1583843E-530024N1583843E-\n         530024N1583841E-530029N1583841E\n   GND-140M AMSL.\nF)GND  G)140M AMSL",
+ "year": 2026
+}

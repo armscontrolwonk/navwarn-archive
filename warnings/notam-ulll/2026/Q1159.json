@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-15T16:55:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "route",
+  "location": "ULLL",
+  "lower": "FL055",
+  "lower_fl": 55,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 59.6333,
+   "lon": 28.7833,
+   "radius_nm": 35
+  },
+  "qcode": "QARLC",
+  "queried_fir": "ULLL",
+  "schedule": "DAILY 0701-1655",
+  "starts_at": "2026-11-10T07:01:00Z",
+  "upper": "FL200",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-11-08T13:37:13Z",
+ "id": "notam-ulll/2026/Q1159",
+ "issued_at": "2026-11-08T06:51:00Z",
+ "last_seen": "2026-11-08T13:37:13Z",
+ "number": "Q1159",
+ "positions": [],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-08T13:40:01Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE CLSD WI SEGMENTS:",
+ "text": "Q1159/26 NOTAMN\nQ)ULLL/QARLC/IV/NBO/E/055/200/5938N02847E035\nA)ULLL B)2611100701 C)2611151655\nD)DAILY 0701-1655\nE)ATS RTE CLSD WI SEGMENTS:\nL870 TURAL-RANVA FL055-FL200,\nM60  UTETA-ATLUM FL055-FL200,\nM60  UMODI-UTETA FL055-FL100,\nT561 TURAL-ATLUM FL055-FL200,\nT561 OKBOR-TURAL FL055-FL100.\nF)FL055  G)FL200",
+ "year": 2026
+}
