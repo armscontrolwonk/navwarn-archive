@@ -1,0 +1,58 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-14T11:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.8833,
+   "lon": 141.4833,
+   "radius_nm": 3
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-13T22:00:00Z",
+  "upper": "4000FT AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-11-09T06:46:41Z",
+ "id": "notam-rjjj/2026/P5626",
+ "issued_at": "2026-11-09T02:18:00Z",
+ "last_seen": "2026-11-09T06:46:41Z",
+ "number": "P5626",
+ "positions": [
+  [
+   42.89333,
+   141.52889
+  ],
+  [
+   42.85639,
+   141.445
+  ],
+  [
+   42.88333,
+   141.4325
+  ],
+  [
+   42.89333,
+   141.52889
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-09T06:50:28Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG:",
+ "text": "P5626/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/040/4253N14129E003\nA)RJJJ B)2611132200 C)2611141100\nE)FRNG:\nWEAPON: 155HOWITZER SELF PROPELLED\nAREA: BOUNDED BY FLW POINTS\n425336N1413144E - 425123N1412642E - 425300N1412557E -\n425336N1413144E\n(ENIWA-SHI IN HOKKAIDO)\n(HOKKAIDODAI MANEUVERING AREA SHIMAMATSU)\nRMK: SOURCE JSDF-G(RJCO)\nF)SFC G)4000FT AMSL",
+ "year": 2026
+}

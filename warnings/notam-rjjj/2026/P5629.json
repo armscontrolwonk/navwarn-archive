@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-24T10:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 32.7667,
+   "lon": 130.95,
+   "radius_nm": 4
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/1000",
+  "shape": "polygon",
+  "starts_at": "2026-11-22T22:00:00Z",
+  "upper": "7200FT AMSL",
+  "upper_fl": 72
+ },
+ "first_seen": "2026-11-09T06:46:41Z",
+ "id": "notam-rjjj/2026/P5629",
+ "issued_at": "2026-11-09T05:40:00Z",
+ "last_seen": "2026-11-09T06:46:41Z",
+ "number": "P5629",
+ "positions": [
+  [
+   32.76972,
+   130.97667
+  ],
+  [
+   32.755,
+   130.9875
+  ],
+  [
+   32.76167,
+   130.96194
+  ],
+  [
+   32.76972,
+   130.97667
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-09T06:50:28Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG EXER WILL BE CONDUCTED WITHIN R-108 OYANOHARA",
+ "text": "P5629/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/072/3246N13057E004\nA)RJJJ B)2611222200 C)2611241000\nD)2200/1000\nE)FRNG EXER WILL BE CONDUCTED WITHIN R-108 OYANOHARA\nWEAPON: 81MORTAR\nAREA  : BOUNDED BY FLW POINTS\n324611N1305836E - 324518N1305915E - 324542N1305743E - 324611N1305836E\n(KAMIMASHIKI-GUN IN KUMAMOTO)\nRMK   :(1)REF AIP PAGE ENR5.1-4\n       (2)SOURCE JSDF-G(RJFT)\nF)SFC G)7200FT AMSL",
+ "year": 2026
+}

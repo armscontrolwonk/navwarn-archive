@@ -1,0 +1,79 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.9833,
+   "lon": 141.25,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/0700",
+  "shape": "polygon",
+  "starts_at": "2026-11-09T23:00:00Z",
+  "upper": "903FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-09T06:46:41Z",
+ "id": "notam-rjjj/2026/U4238",
+ "issued_at": "2026-11-09T05:41:00Z",
+ "last_seen": "2026-11-09T06:46:41Z",
+ "number": "U4238",
+ "positions": [
+  [
+   40.99139,
+   141.24667
+  ],
+  [
+   40.98694,
+   141.24611
+  ],
+  [
+   40.97917,
+   141.25389
+  ],
+  [
+   40.97361,
+   141.255
+  ],
+  [
+   40.97167,
+   141.26139
+  ],
+  [
+   40.97417,
+   141.26528
+  ],
+  [
+   40.98194,
+   141.26278
+  ],
+  [
+   40.98778,
+   141.26056
+  ],
+  [
+   40.99139,
+   141.24667
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-09T06:50:28Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4238/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/010/4059N14115E002\nA)RJJJ B)2611092300 C)2612310700\nD)2300/0700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n405929N1411448E - 405913N1411446E - 405845N1411514E - 405825N1411518E\n- 405818N1411541E - 405827N1411555E - 405855N1411546E -\n405916N1411538E - 405929N1411448E \n(KAMIKITA-GUN IN AOMORI)\nWT: 16KG\nF)SFC G)903FT AMSL",
+ "year": 2026
+}

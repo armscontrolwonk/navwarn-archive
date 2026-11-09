@@ -1,0 +1,101 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-18T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 56.66944,
+    "lon": 52.29028,
+    "radius_nm": 0.27
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.7,
+   "lon": 52.25,
+   "radius_nm": 5
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0400-1600",
+  "starts_at": "2026-11-13T04:00:00Z",
+  "upper": "550M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-09T06:46:41Z",
+ "id": "notam-ussv/2026/Z6268",
+ "issued_at": "2026-11-09T06:27:00Z",
+ "last_seen": "2026-11-09T06:46:41Z",
+ "number": "Z6268",
+ "positions": [
+  [
+   56.64222,
+   52.15639
+  ],
+  [
+   56.73694,
+   52.15222
+  ],
+  [
+   56.72444,
+   52.22694
+  ],
+  [
+   56.72361,
+   52.35139
+  ],
+  [
+   56.64972,
+   52.33306
+  ],
+  [
+   56.64694,
+   52.33778
+  ],
+  [
+   56.64556,
+   52.28639
+  ],
+  [
+   56.655,
+   52.285
+  ],
+  [
+   56.65806,
+   52.27389
+  ],
+  [
+   56.65472,
+   52.26222
+  ],
+  [
+   56.64472,
+   52.26167
+  ],
+  [
+   56.64222,
+   52.15639
+  ],
+  [
+   56.66944,
+   52.29028
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-09T06:50:28Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z6268/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/020/5642N05215E005\nA)USSV B)2611130400 C)2611181600\nD)DAILY 0400-1600\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 563832N0520923E-564413N0520908E-564328N0521337E-\n         564325N0522105E-563859N0521959E-563849N0522016E-\n         563844N0521711E-563918N0521706E-563929N0521626E-\n         563917N0521544E-563841N0521542E-563832N0520923E\n   400M AMSL-550M AMSL.\n2. WI CIRCLE RADIUS 0.5KM CENTRE 564010N0521725E\n   GND-550M AMSL.\nF)GND  G)550M AMSL",
+ "year": 2026
+}

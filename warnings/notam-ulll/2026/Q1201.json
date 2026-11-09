@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-16T16:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 59.675,
+    "lon": 30.07222,
+    "radius_nm": 3.24
+   }
+  ],
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 59.6667,
+   "lon": 30.0667,
+   "radius_nm": 4
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "11-16 0701-1659",
+  "starts_at": "2026-11-11T07:01:00Z",
+  "upper": "3050M AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-09T06:46:41Z",
+ "id": "notam-ulll/2026/Q1201",
+ "issued_at": "2026-11-09T06:34:00Z",
+ "last_seen": "2026-11-09T06:46:41Z",
+ "number": "Q1201",
+ "positions": [
+  [
+   59.675,
+   30.07222
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-09T06:50:28Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 6KM CENTRE 594030N0300420E.",
+ "text": "Q1201/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/100/5940N03004E004\nA)ULLL B)2611110701 C)2611161659\nD)11-16 0701-1659\nE)AIRSPACE CLSD WI CIRCLE RADIUS 6KM CENTRE 594030N0300420E.\nRESTRICTION NOT AFFECT:\n- VIP FLT AND ACFT FOR THEIR SUPPORT,\n- SKED INTL AND DOM FLT ALONG ATS RTE,\n- ACFT CARRYING OUT FLT FROM/TO ULLI AD.\nACFT FLT WO CONSTANT TWO WAY COM WITH ATS UNIT PROHIBITED.\nF)GND  G)3050M AMSL",
+ "year": 2026
+}
