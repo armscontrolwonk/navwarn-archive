@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-16T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 51.47972,
+    "lon": 46.21333,
+    "radius_nm": 27.0
+   }
+  ],
+  "fir": "UWWW",
+  "kind": "restricted",
+  "location": "UWWW",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 51.4667,
+   "lon": 46.2,
+   "radius_nm": 27
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UWWW",
+  "starts_at": "2026-11-11T00:00:00Z",
+  "upper": "3050M AGL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-09T22:28:03Z",
+ "id": "notam-uwww/2026/V9081",
+ "issued_at": "2026-11-09T07:48:00Z",
+ "last_seen": "2026-11-09T22:28:03Z",
+ "number": "V9081",
+ "positions": [
+  [
+   51.47972,
+   46.21333
+  ]
+ ],
+ "series": "notam-uwww",
+ "source": {
+  "fetched_at": "2026-11-09T22:32:15Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 50KM CENTRE 512847N0461248E.",
+ "text": "V9081/26 NOTAMN\nQ)UWWW/QRTCA/IV/BO/W/000/999/5128N04612E027\nA)UWWW B)2611110000 C)2611162359\nE)AIRSPACE CLSD WI CIRCLE RADIUS 50KM CENTRE 512847N0461248E.\nRESTRICTION NOT AFFECT:\n1. VIP FLT AND ACFT FOR THEIR SUPPORT,\n2. INTL AND DOM FLT ALONG ATS RTE,\n3. ACFT CARRYING OUT FLT FROM/TO UWSG AD.\nF)GND  G)3050M AGL",
+ "year": 2026
+}

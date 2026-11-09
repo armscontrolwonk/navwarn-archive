@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-16T16:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 59.45,
+    "lon": 32.0,
+    "radius_nm": 21.6
+   }
+  ],
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 59.45,
+   "lon": 32.0,
+   "radius_nm": 22
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "11-16 0701-1659",
+  "starts_at": "2026-11-11T07:01:00Z",
+  "upper": "3050M AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-09T22:28:03Z",
+ "id": "notam-ulll/2026/Q1202",
+ "issued_at": "2026-11-09T06:46:00Z",
+ "last_seen": "2026-11-09T22:28:03Z",
+ "number": "Q1202",
+ "positions": [
+  [
+   59.45,
+   32.0
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-09T22:32:15Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 40KM CENTRE 592700N0320000E",
+ "text": "Q1202/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/100/5927N03200E022\nA)ULLL B)2611110701 C)2611161659\nD)11-16 0701-1659\nE)AIRSPACE CLSD WI CIRCLE RADIUS 40KM CENTRE 592700N0320000E\n(KIRISHI).\nRESTRICTION NOT AFFECT:\n- VIP FLT AND FLT FOR THEIR SUPPORT.\n- SKED INTL AND DOM FLT ALONG ATS RTE.\n- ACFT ARR TO/DEP FROM SANKT-PETERBURG/PULKOVO AD EXC\n  ACFT VFR OPS BELOW LOWER SAFETY LVL.\n- FLT OF ACFT WO CONTINUOUS TWO-WAY COM WITH ATS (AFTM) UNIT\n  PROHIBITED.\nF)GND  G)3050M AMSL",
+ "year": 2026
+}

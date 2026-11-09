@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-14T08:00:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "exercise",
+  "location": "VABF",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 17.0,
+   "lon": 69.3333,
+   "radius_nm": 5
+  },
+  "qcode": "QWELW",
+  "queried_fir": "VABF",
+  "schedule": "0500-0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-13T05:00:00Z",
+  "upper": "9000FT AMSL",
+  "upper_fl": 90
+ },
+ "first_seen": "2026-11-09T22:28:03Z",
+ "id": "notam-vabf/2026/A1802",
+ "issued_at": "2026-11-09T07:24:00Z",
+ "last_seen": "2026-11-09T22:28:03Z",
+ "number": "A1802",
+ "positions": [
+  [
+   17.04167,
+   69.29167
+  ],
+  [
+   17.04167,
+   69.375
+  ],
+  [
+   16.95833,
+   69.375
+  ],
+  [
+   16.95833,
+   69.29167
+  ],
+  [
+   17.04167,
+   69.29167
+  ]
+ ],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-11-09T22:32:15Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MILITARY EXER WILL BE CARRIED OUT WI",
+ "text": "A1802/26 NOTAMN\nQ) VABF/QWELW/IV/BO/W/000/090/1700N06920E005\nA) VABF B) 2611130500 C) 2611140800\nD) 0500-0800\nE) MILITARY EXER WILL BE CARRIED OUT WI\n   THE AREA BOUNDED BY THE COORD:\n\n   170230N 0691730E- 170230N 0692230E- \n   165730N 0692230E- 165730N 0691730E- \n   170230N 0691730E\nF) SFC G) 9000FT AMSL",
+ "year": 2026
+}

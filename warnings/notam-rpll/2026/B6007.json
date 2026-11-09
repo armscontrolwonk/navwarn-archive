@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-18T21:59:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "drone",
+  "location": "RPLL",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 14.55,
+   "lon": 120.9833,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "RPLL",
+  "schedule": "09-10 0000-0059 0201-2359, 11-12 0000-0859 1001-2359, 13 0000-2159, 14-18 1601-2159",
+  "starts_at": "2026-11-09T13:39:00Z",
+  "upper": "1000FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-09T22:28:03Z",
+ "id": "notam-rpll/2026/B6007",
+ "issued_at": "2026-11-09T13:40:00Z",
+ "last_seen": "2026-11-09T22:28:03Z",
+ "number": "B6007",
+ "positions": [
+  [
+   14.55247,
+   120.9835
+  ]
+ ],
+ "series": "notam-rpll",
+ "source": {
+  "fetched_at": "2026-11-09T22:32:15Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO RESTRICTED AREA ACT WI:",
+ "text": "B6007/26 NOTAMN\nQ) RPHI/QRTCA/IV/BO /AW/000/010/1433N12059E002\nA) RPLL B) 2611091339 C) 2611182159\nD) 09-10 0000-0059 0201-2359,  11-12 0000-0859 1001-2359, 13  \n0000-2159, 14-18 1601-2159\nE) TEMPO RESTRICTED AREA ACT WI:\n2NM RADIUS CENTERED ON 143308.89N 1205900.61E\n(PHILIPPINE INTL CONVENTION CENTER EXCLUDING RP-P1).\n\nRMK: ALL FLT ALLOWED EXC UNMANNED AERIAL VEHICLES (UAV).\nF) SFC G) 1000FT AMSL",
+ "year": 2026
+}

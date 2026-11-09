@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T13:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.3,
+   "lon": 138.8167,
+   "radius_nm": 2
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/1300",
+  "shape": "polygon",
+  "starts_at": "2026-11-16T22:00:00Z",
+  "upper": "12900FT AMSL",
+  "upper_fl": 129
+ },
+ "first_seen": "2026-11-09T22:28:03Z",
+ "id": "notam-rjjj/2026/P5637",
+ "issued_at": "2026-11-09T10:49:00Z",
+ "last_seen": "2026-11-09T22:28:03Z",
+ "number": "P5637",
+ "positions": [
+  [
+   35.31472,
+   138.81833
+  ],
+  [
+   35.30361,
+   138.84472
+  ],
+  [
+   35.27167,
+   138.80694
+  ],
+  [
+   35.31472,
+   138.81833
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-09T22:32:15Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG EXER",
+ "text": "P5637/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/129/3518N13849E002\nA)RJJJ B)2611162200 C)2611191300\nD)2200/1300\nE)FRNG EXER\n1.WEAPON: 120MORTAR\n2.AREA  : BOUNDED BY FLW POINTS\n351853N1384906E - 351813N1385041E - 351618N1384825E - 351853N1384906E\nR-114(HIGASHIFUJI MANEUVERING AREA)\n(GOTENBA-SHI IN SHIZUOKA)\n3.RMK   : SOURCE/JSDF-G(RJAT)\nF)SFC G)12900FT AMSL",
+ "year": 2026
+}

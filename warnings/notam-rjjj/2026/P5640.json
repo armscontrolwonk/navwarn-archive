@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-18T11:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 35.26444,
+    "lon": 138.88667,
+    "radius_nm": 2.7
+   }
+  ],
+  "fir": "RJJJ",
+  "kind": "exercise",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.2667,
+   "lon": 138.8833,
+   "radius_nm": 3
+  },
+  "qcode": "QWELW",
+  "queried_fir": "RJJJ",
+  "schedule": "0100/1100",
+  "starts_at": "2026-11-17T01:00:00Z",
+  "upper": "10500FT AMSL",
+  "upper_fl": 105
+ },
+ "first_seen": "2026-11-09T22:28:03Z",
+ "id": "notam-rjjj/2026/P5640",
+ "issued_at": "2026-11-09T11:16:00Z",
+ "last_seen": "2026-11-09T22:28:03Z",
+ "number": "P5640",
+ "positions": [
+  [
+   35.26444,
+   138.88667
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-09T22:32:15Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "CARGO DROP:",
+ "text": "P5640/26 NOTAMN\nQ)RJJJ/QWELW/IV/BO/W/000/105/3516N13853E003\nA)RJJJ B)2611170100 C)2611181100\nD)0100/1100\nE)CARGO DROP:\n1.PLACE : WI A RADIUS OF 5KM OF 351552N1385312E\n          R-114(HIGASHIFUJI MANEUVERING AREA)\n          (GOTENBA-SHI,SUSONO-SHI IN SHIZUOKA)\n2.ACFT  : C-2 X 1\n3.RMK   : SOURCE/JSDF-G(RJAT)\nF)SFC G)10500FT AMSL",
+ "year": 2026
+}

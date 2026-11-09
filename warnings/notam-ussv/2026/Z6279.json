@@ -1,0 +1,82 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-18T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 57.09194,
+    "lon": 52.20972,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 57.12194,
+    "lon": 52.14389,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 57.1,
+   "lon": 52.2833,
+   "radius_nm": 12
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0400-1600",
+  "starts_at": "2026-11-13T04:00:00Z",
+  "upper": "850M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-09T22:28:03Z",
+ "id": "notam-ussv/2026/Z6279",
+ "issued_at": "2026-11-09T06:59:00Z",
+ "last_seen": "2026-11-09T22:28:03Z",
+ "number": "Z6279",
+ "positions": [
+  [
+   56.97194,
+   52.08972
+  ],
+  [
+   57.26,
+   52.08194
+  ],
+  [
+   57.30028,
+   52.25722
+  ],
+  [
+   56.91361,
+   52.31111
+  ],
+  [
+   56.97194,
+   52.08972
+  ],
+  [
+   57.09194,
+   52.20972
+  ],
+  [
+   57.12194,
+   52.14389
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-09T22:32:15Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z6279/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/030/5706N05217E012\nA)USSV B)2611130400 C)2611181600\nD)DAILY 0400-1600\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 565819N0520523E-571536N0520455E-571801N0521526E-\n         565449N0521840E-565819N0520523E\n   450M AMSL-850M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 570531N0521235E\n   GND-850M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 570719N0520838E\n   GND-850M AMSL.\nF)GND  G)850M AMSL",
+ "year": 2026
+}

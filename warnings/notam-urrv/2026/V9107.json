@@ -1,0 +1,81 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T17:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 50.74611,
+    "lon": 43.27083,
+    "radius_nm": 1.08
+   }
+  ],
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 50.8167,
+   "lon": 43.3333,
+   "radius_nm": 18
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "URRV",
+  "schedule": "DAILY 0600-1700",
+  "starts_at": "2026-11-14T06:00:00Z",
+  "upper": "870M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-09T22:28:03Z",
+ "id": "notam-urrv/2026/V9107",
+ "issued_at": "2026-11-09T11:19:00Z",
+ "last_seen": "2026-11-09T22:28:03Z",
+ "number": "V9107",
+ "positions": [
+  [
+   50.69694,
+   42.91889
+  ],
+  [
+   50.66722,
+   43.18083
+  ],
+  [
+   50.92083,
+   43.76056
+  ],
+  [
+   50.96889,
+   43.70167
+  ],
+  [
+   50.96333,
+   43.47972
+  ],
+  [
+   50.74972,
+   43.03306
+  ],
+  [
+   50.69694,
+   42.91889
+  ],
+  [
+   50.74611,
+   43.27083
+  ]
+ ],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-11-09T22:32:15Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "V9107/26 NOTAMN\nQ)URRV/QRTCA/IV/BO/W/000/030/5049N04320E018\nA)URRV B)2611140600 C)2611191700\nD)DAILY 0600-1700\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 504149N0425508E-504002N0431051E-505515N0434538E-\n         505808N0434206E-505748N0432847E-504459N0430159E-\n         504149N0425508E\n   400M AMSL-870M AMSL.\n2. WI CIRCLE RADIUS 2KM CENTRE 504446N0431615E\n   GND-870M AMSL.\nF)GND  G)870M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-04T20:59:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "drone",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.5,
+   "lon": 26.7167,
+   "radius_nm": 5
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTBB",
+  "schedule": "MON-FRI 0600-2059",
+  "shape": "polygon",
+  "starts_at": "2026-11-16T06:00:00Z",
+  "upper": "1500FT AMSL",
+  "upper_fl": 15
+ },
+ "first_seen": "2026-11-09T22:28:03Z",
+ "id": "notam-ltbb/2026/A5034",
+ "issued_at": "2026-11-09T08:11:00Z",
+ "last_seen": "2026-11-09T22:28:03Z",
+ "number": "A5034",
+ "positions": [
+  [
+   38.43667,
+   26.68333
+  ],
+  [
+   38.43667,
+   26.75333
+  ],
+  [
+   38.55,
+   26.75333
+  ],
+  [
+   38.55,
+   26.68333
+  ],
+  [
+   38.43667,
+   26.68333
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-11-09T22:32:15Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT TRAINING FLT WILL TAKE PLACE WI IZMIR TMA.",
+ "text": "A5034/26 NOTAMN\nQ) LTBB/QWULW/IV/BO /W /000/015/3830N02643E005\nA) LTBB B) 2611160600 C) 2612042059\nD) MON-FRI 0600-2059\nE) UNMANNED ACFT TRAINING FLT WILL TAKE PLACE WI IZMIR TMA.\nAREA: 382612N0264100E 382612N0264512E 383300N0264512E \n383300N0264100E 382612N0264100E\nF) SFC G) 1500FT AMSL",
+ "year": 2026
+}

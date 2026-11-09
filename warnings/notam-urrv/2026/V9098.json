@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-13T12:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 43.03333,
+    "lon": 47.26667,
+    "radius_nm": 2.7
+   }
+  ],
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "900M AMSL",
+  "lower_fl": 30,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.0333,
+   "lon": 47.2667,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "URRV",
+  "schedule": "11-13 0500-1200",
+  "starts_at": "2026-11-11T05:00:00Z",
+  "upper": "FL115",
+  "upper_fl": 115
+ },
+ "first_seen": "2026-11-09T22:28:03Z",
+ "id": "notam-urrv/2026/V9098",
+ "issued_at": "2026-11-09T10:15:00Z",
+ "last_seen": "2026-11-09T22:28:03Z",
+ "number": "V9098",
+ "positions": [
+  [
+   43.03333,
+   47.26667
+  ]
+ ],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-11-09T22:32:15Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 5KM CENTRE 430200N0471600E.",
+ "text": "V9098/26 NOTAMN\nQ)URRV/QRTCA/IV/BO/W/030/115/4302N04716E003\nA)URRV B)2611110500 C)2611131200\nD)11-13 0500-1200\nE)AIRSPACE CLSD WI CIRCLE RADIUS 5KM CENTRE 430200N0471600E.\nF)900M AMSL  G)FL115",
+ "year": 2026
+}

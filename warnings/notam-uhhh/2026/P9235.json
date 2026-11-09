@@ -1,0 +1,107 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-15T10:00:00Z",
+ "extra": {
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.9667,
+   "lon": 133.3833,
+   "radius_nm": 12
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "schedule": "DAILY 2200-1000",
+  "shape": "polygon",
+  "starts_at": "2026-11-10T22:00:00Z",
+  "upper": "1100M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-11-09T22:28:03Z",
+ "id": "notam-uhhh/2026/P9235",
+ "issued_at": "2026-11-09T14:29:00Z",
+ "last_seen": "2026-11-09T22:28:03Z",
+ "number": "P9235",
+ "positions": [
+  [
+   43.07083,
+   133.17333
+  ],
+  [
+   43.0625,
+   133.20278
+  ],
+  [
+   42.94861,
+   133.22611
+  ],
+  [
+   42.87667,
+   133.52111
+  ],
+  [
+   42.89306,
+   133.59694
+  ],
+  [
+   42.85778,
+   133.605
+  ],
+  [
+   42.835,
+   133.53694
+  ],
+  [
+   42.83111,
+   133.435
+  ],
+  [
+   42.85667,
+   133.30917
+  ],
+  [
+   42.90167,
+   133.17639
+  ],
+  [
+   42.94833,
+   133.14722
+  ],
+  [
+   43.00056,
+   133.16167
+  ],
+  [
+   43.0125,
+   133.16389
+  ],
+  [
+   43.01722,
+   133.14528
+  ],
+  [
+   43.03778,
+   133.15056
+  ],
+  [
+   43.07083,
+   133.17333
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-11-09T22:32:15Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "P9235/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/040/4258N13323E012\nA)UHHH B)2611102200 C)2611151000\nD)DAILY 2200-1000\nE)AIRSPACE CLSD WI AREA:\n430415N1331024E-430345N1331210E-425655N1331334E-425236N1333116E-\n425335N1333549E-425128N1333618E-425006N1333213E-424952N1332606E-\n425124N1331833E-425406N1331035E-425654N1330850E-430002N1330942E-\n430045N1330950E-430102N1330843E-430216N1330902E-430415N1331024E.\nF)SFC  G)1100M AMSL",
+ "year": 2026
+}

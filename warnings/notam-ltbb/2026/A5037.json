@@ -1,0 +1,95 @@
+{
+ "cancels": [],
+ "expires_at": "2027-02-12T23:59:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "drone",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.8333,
+   "lon": 28.2333,
+   "radius_nm": 17
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTBB",
+  "schedule": "0700-2359",
+  "shape": "polygon",
+  "starts_at": "2026-11-10T07:00:00Z",
+  "upper": "5000FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-11-09T22:28:03Z",
+ "id": "notam-ltbb/2026/A5037",
+ "issued_at": "2026-11-09T08:30:00Z",
+ "last_seen": "2026-11-09T22:28:03Z",
+ "number": "A5037",
+ "positions": [
+  [
+   37.04694,
+   28.11
+  ],
+  [
+   37.07389,
+   28.35333
+  ],
+  [
+   36.89,
+   28.32889
+  ],
+  [
+   36.765,
+   28.32111
+  ],
+  [
+   36.78333,
+   28.04167
+  ],
+  [
+   36.76667,
+   28.03028
+  ],
+  [
+   36.73861,
+   28.27028
+  ],
+  [
+   36.57806,
+   28.10944
+  ],
+  [
+   36.68167,
+   27.95806
+  ],
+  [
+   36.81194,
+   27.90833
+  ],
+  [
+   36.78556,
+   28.2925
+  ],
+  [
+   37.02417,
+   28.31306
+  ],
+  [
+   37.02278,
+   28.10778
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-11-09T22:32:15Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "VTOL UNMANNED ACFT FLT WILL TAKE PLACE WI MILAS TMA.",
+ "text": "A5037/26 NOTAMN\nQ) LTBB/QWULW/IV/BO /W /000/050/3650N02814E017\nA) LTBB B) 2611100700 C) 2702122359\nD) 0700-2359\nE) VTOL UNMANNED ACFT FLT WILL TAKE PLACE WI MILAS TMA.\nAREA: 370249N0280636E 370426N0282112E 365324N0281944E \n364554N0281916E 364700N0280230E 364600N0280149E 364419N0281613E \n363441N0280634E 364054N0275729E 364843N0275430E 364708N0281733E \n370127N0281847E 370122N0280628E\nF) SFC G) 5000FT AMSL",
+ "year": 2026
+}

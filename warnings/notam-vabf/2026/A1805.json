@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-13T10:30:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "firing",
+  "location": "VABF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 19.85,
+   "lon": 73.75,
+   "radius_nm": 9
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "VABF",
+  "shape": "polygon",
+  "starts_at": "2026-11-13T02:30:00Z",
+  "upper": "6950FT AMSL",
+  "upper_fl": 70
+ },
+ "first_seen": "2026-11-09T22:28:03Z",
+ "id": "notam-vabf/2026/A1805",
+ "issued_at": "2026-11-09T09:26:00Z",
+ "last_seen": "2026-11-09T22:28:03Z",
+ "number": "A1805",
+ "positions": [
+  [
+   19.95,
+   73.71667
+  ],
+  [
+   19.95,
+   73.76667
+  ],
+  [
+   19.71667,
+   73.76667
+  ],
+  [
+   19.71667,
+   73.71667
+  ],
+  [
+   19.95,
+   73.71667
+  ]
+ ],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-11-09T22:32:15Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FIELD FIRING AND ARTILLERY FIRING PRACTICE WILL BE ",
+ "text": "A1805/26 NOTAMN\nQ) VABF/QWMLW/IV/BO/W/000/070/1951N07345E009\nA) VABF B) 2611130230 C) 2611131030\nE) FIELD FIRING AND ARTILLERY FIRING PRACTICE WILL BE \n   CARRIED OUT BY INDIAN ARMY WI AREA BOUNDED BY COORD:\n   1957N07343E- 1957N07346E- 1943N07346E- \n   1943N07343E- 1957N07343E\nF) GND G)  6950FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,139 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-18T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 56.84528,
+    "lon": 52.245,
+    "radius_nm": 1.08
+   },
+   {
+    "lat": 56.68167,
+    "lon": 50.90139,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 56.76278,
+    "lon": 51.50333,
+    "radius_nm": 1.08
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.7333,
+   "lon": 51.6667,
+   "radius_nm": 33
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0400-1600",
+  "starts_at": "2026-11-13T04:00:00Z",
+  "upper": "850M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-09T22:28:03Z",
+ "id": "notam-ussv/2026/Z6284",
+ "issued_at": "2026-11-09T07:11:00Z",
+ "last_seen": "2026-11-09T22:28:03Z",
+ "number": "Z6284",
+ "positions": [
+  [
+   56.58083,
+   50.70889
+  ],
+  [
+   56.68111,
+   50.69417
+  ],
+  [
+   56.90639,
+   52.08833
+  ],
+  [
+   56.97167,
+   52.08972
+  ],
+  [
+   56.91333,
+   52.31167
+  ],
+  [
+   56.93056,
+   52.30917
+  ],
+  [
+   56.97528,
+   52.5525
+  ],
+  [
+   56.89278,
+   52.62333
+  ],
+  [
+   56.85972,
+   52.38944
+  ],
+  [
+   56.79889,
+   52.3975
+  ],
+  [
+   56.78361,
+   52.36667
+  ],
+  [
+   56.72389,
+   52.35167
+  ],
+  [
+   56.72472,
+   52.22694
+  ],
+  [
+   56.77056,
+   51.94944
+  ],
+  [
+   56.75722,
+   51.89722
+  ],
+  [
+   56.74,
+   51.89889
+  ],
+  [
+   56.58083,
+   50.70889
+  ],
+  [
+   56.84528,
+   52.245
+  ],
+  [
+   56.68167,
+   50.90139
+  ],
+  [
+   56.76278,
+   51.50333
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-09T22:32:15Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z6284/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/030/5644N05140E033\nA)USSV B)2611130400 C)2611181600\nD)DAILY 0400-1600\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 563451N0504232E-564052N0504139E-565423N0520518E-\n         565818N0520523E-565448N0521842E-565550N0521833E-\n         565831N0523309E-565334N0523724E-565135N0522322E-\n         564756N0522351E-564701N0522200E-564326N0522106E-\n         564329N0521337E-564614N0515658E-564526N0515350E-\n         564424N0515356E-563451N0504232E\n   450M AMSL-850M AMSL.\n2. WI CIRCLE RADIUS 2KM CENTRE 565043N0521442E\n   GND-850M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 564054N0505405E\n   GND-850M AMSL.\n4. WI CIRCLE RADIUS 2KM CENTRE 564546N0513012E\n   GND-850M AMSL.\nF)GND  G)850M AMSL",
+ "year": 2026
+}

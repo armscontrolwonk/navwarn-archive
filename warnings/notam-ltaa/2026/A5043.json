@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-12T20:59:00Z",
+ "extra": {
+  "fir": "LTXX",
+  "kind": "other",
+  "location": "LTAA",
+  "lower": "21000FT AMSL",
+  "lower_fl": 210,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.7,
+   "lon": 29.75,
+   "radius_nm": 33
+  },
+  "qcode": "QWFLW",
+  "queried_fir": "LTBB",
+  "shape": "polygon",
+  "starts_at": "2026-11-10T06:00:00Z",
+  "upper": "26000FT AMSL",
+  "upper_fl": 260
+ },
+ "first_seen": "2026-11-09T22:28:03Z",
+ "id": "notam-ltaa/2026/A5043",
+ "issued_at": "2026-11-09T11:15:00Z",
+ "last_seen": "2026-11-09T22:28:03Z",
+ "number": "A5043",
+ "positions": [
+  [
+   36.25,
+   29.41667
+  ],
+  [
+   36.25,
+   30.08333
+  ],
+  [
+   37.16667,
+   30.08333
+  ],
+  [
+   37.16667,
+   29.41667
+  ],
+  [
+   36.25,
+   29.41667
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-09T22:32:15Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIR REFUELLING WILL TAKE PLACE WI ANTALYA TMA",
+ "text": "A5043/26 NOTAMN\nQ) LTXX/QWFLW/IV/M  /W /210/260/3642N02945E033\nA) LTAA LTBB B) 2611100600 C) 2611122059\nE) AIR REFUELLING WILL TAKE PLACE WI ANTALYA TMA\nAREA: 361500N0292500E 361500N0300500E 371000N0300500E \n371000N0292500E 361500N0292500E\nF) 21000FT AMSL G) 26000FT AMSL",
+ "year": 2026
+}

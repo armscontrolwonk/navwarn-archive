@@ -1,0 +1,101 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-16T17:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 49.38361,
+    "lon": 45.11972,
+    "radius_nm": 1.08
+   }
+  ],
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 49.3667,
+   "lon": 45.2,
+   "radius_nm": 30
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "URRV",
+  "schedule": "11-16 0600-1700",
+  "starts_at": "2026-11-11T06:00:00Z",
+  "upper": "740M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-09T22:28:03Z",
+ "id": "notam-urrv/2026/V9062",
+ "issued_at": "2026-11-09T06:49:00Z",
+ "last_seen": "2026-11-09T22:28:03Z",
+ "number": "V9062",
+ "positions": [
+  [
+   49.29306,
+   45.01361
+  ],
+  [
+   49.15056,
+   45.05278
+  ],
+  [
+   48.95639,
+   44.84361
+  ],
+  [
+   48.91417,
+   44.91194
+  ],
+  [
+   49.13806,
+   45.19833
+  ],
+  [
+   49.28056,
+   45.16444
+  ],
+  [
+   49.26833,
+   45.41
+  ],
+  [
+   49.32972,
+   45.42667
+  ],
+  [
+   49.35056,
+   45.20556
+  ],
+  [
+   49.83361,
+   45.49278
+  ],
+  [
+   49.82139,
+   45.36083
+  ],
+  [
+   49.29306,
+   45.01361
+  ],
+  [
+   49.38361,
+   45.11972
+  ]
+ ],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-11-09T22:32:15Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "V9062/26 NOTAMN\nQ)URRV/QRTCA/IV/BO/W/000/030/4922N04512E030\nA)URRV B)2611110600 C)2611161700\nD)11-16 0600-1700\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 491735N0450049E-490902N0450310E-485723N0445037E-\n         485451N0445443E-490817N0451154E-491650N0450952E-\n         491606N0452436E-491947N0452536E-492102N0451220E-\n         495001N0452934E-494917N0452139E-491735N0450049E\n   320M AMSL-740M AMSL.\n2. WI CIRCLE RADIUS 2KM CENTRE 492301N0450711E\n   GND-740M AMSL.\nF)GND  G)740M AMSL",
+ "year": 2026
+}

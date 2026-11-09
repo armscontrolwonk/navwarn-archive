@@ -1,0 +1,105 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-18T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 55.43,
+    "lon": 59.40778,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.45,
+   "lon": 59.4,
+   "radius_nm": 9
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0300-1600",
+  "starts_at": "2026-11-13T03:00:00Z",
+  "upper": "1350M AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-11-09T22:28:03Z",
+ "id": "notam-ussv/2026/Z6275",
+ "issued_at": "2026-11-09T06:50:00Z",
+ "last_seen": "2026-11-09T22:28:03Z",
+ "number": "Z6275",
+ "positions": [
+  [
+   55.33194,
+   59.28389
+  ],
+  [
+   55.59583,
+   59.37056
+  ],
+  [
+   55.58611,
+   59.485
+  ],
+  [
+   55.47278,
+   59.46556
+  ],
+  [
+   55.47361,
+   59.43472
+  ],
+  [
+   55.45278,
+   59.43028
+  ],
+  [
+   55.44722,
+   59.4625
+  ],
+  [
+   55.36389,
+   59.44556
+  ],
+  [
+   55.36333,
+   59.41056
+  ],
+  [
+   55.34306,
+   59.40639
+  ],
+  [
+   55.335,
+   59.44
+  ],
+  [
+   55.30278,
+   59.43333
+  ],
+  [
+   55.33194,
+   59.28389
+  ],
+  [
+   55.43,
+   59.40778
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-09T22:32:15Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z6275/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/050/5527N05924E009\nA)USSV B)2611130300 C)2611181600\nD)DAILY 0300-1600\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 551955N0591702E-553545N0592214E-553510N0592906E-\n         552822N0592756E-552825N0592605E-552710N0592549E-\n         552650N0592745E-552150N0592644E-552148N0592438E-\n         552035N0592423E-552006N0592624E-551810N0592600E-\n         551955N0591702E\n   750M AMSL-1350M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 552548N0592428E\n   GND-1350M AMSL.\nF)GND  G)1350M AMSL",
+ "year": 2026
+}

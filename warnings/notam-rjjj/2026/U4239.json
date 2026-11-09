@@ -1,0 +1,78 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-11T04:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 31.2333,
+   "lon": 130.65,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-11T01:30:00Z",
+  "upper": "1641FT AMSL",
+  "upper_fl": 17
+ },
+ "first_seen": "2026-11-09T22:28:03Z",
+ "id": "notam-rjjj/2026/U4239",
+ "issued_at": "2026-11-09T08:42:00Z",
+ "last_seen": "2026-11-09T22:28:03Z",
+ "number": "U4239",
+ "positions": [
+  [
+   31.22417,
+   130.65639
+  ],
+  [
+   31.22639,
+   130.65417
+  ],
+  [
+   31.23389,
+   130.65056
+  ],
+  [
+   31.23861,
+   130.64972
+  ],
+  [
+   31.23972,
+   130.65056
+  ],
+  [
+   31.23972,
+   130.655
+  ],
+  [
+   31.23417,
+   130.65583
+  ],
+  [
+   31.22639,
+   130.65889
+  ],
+  [
+   31.22417,
+   130.65639
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-09T22:32:15Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4239/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/017/3114N13039E002\nA)RJJJ B)2611110130 C)2611110430\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n311327N1303923E - 311335N1303915E - 311402N1303902E - 311419N1303859E\n- 311423N1303902E - 311423N1303918E - 311403N1303921E -\n311335N1303932E - 311327N1303923E \n(IBUSUKI-SHI IN KAGOSHIMA)\nWT: 1.1KG\nF)SFC G)1641FT AMSL",
+ "year": 2026
+}

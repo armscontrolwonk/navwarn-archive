@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-12T14:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "drone",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.05,
+   "lon": 27.8167,
+   "radius_nm": 20
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTBB",
+  "schedule": "0900-1400",
+  "shape": "polygon",
+  "starts_at": "2026-11-11T09:00:00Z",
+  "upper": "22000FT AMSL",
+  "upper_fl": 220
+ },
+ "first_seen": "2026-11-09T22:28:03Z",
+ "id": "notam-ltbb/2026/A5047",
+ "issued_at": "2026-11-09T12:51:00Z",
+ "last_seen": "2026-11-09T22:28:03Z",
+ "number": "A5047",
+ "positions": [
+  [
+   39.06167,
+   27.41111
+  ],
+  [
+   39.065,
+   28.21583
+  ],
+  [
+   38.81667,
+   27.68167
+  ],
+  [
+   38.9325,
+   27.565
+  ],
+  [
+   39.02667,
+   27.41111
+  ],
+  [
+   39.06167,
+   27.41111
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-11-09T22:32:15Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT TEST FLT WILL TAKE PLACE",
+ "text": "A5047/26 NOTAMN\nQ) LTBB/QWULW/IV/BO /W /000/220/3903N02749E020\nA) LTBB B) 2611110900 C) 2611121400\nD) 0900-1400\nE) UNMANNED ACFT TEST FLT WILL TAKE PLACE\nWI IZMIR TMA AND AKHISAR CTR\nAREA: 390342N0272440E 390354N0281257E 384900N0274054E \n385557N0273354E 390136N0272440E 390342N0272440E\nF) SFC G) 22000FT AMSL",
+ "year": 2026
+}
