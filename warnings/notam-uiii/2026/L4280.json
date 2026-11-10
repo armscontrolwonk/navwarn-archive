@@ -1,0 +1,91 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T14:00:00Z",
+ "extra": {
+  "fir": "UIII",
+  "kind": "restricted",
+  "location": "UIII",
+  "lower": "750M AMSL",
+  "lower_fl": 20,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 53.45,
+   "lon": 102.6167,
+   "radius_nm": 4
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UIII",
+  "schedule": "14-19 0000-1400",
+  "shape": "polygon",
+  "starts_at": "2026-11-14T00:00:00Z",
+  "upper": "1300M AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-11-10T19:49:20Z",
+ "id": "notam-uiii/2026/L4280",
+ "issued_at": "2026-11-10T09:24:00Z",
+ "last_seen": "2026-11-10T19:49:20Z",
+ "number": "L4280",
+ "positions": [
+  [
+   53.48167,
+   102.53778
+  ],
+  [
+   53.46972,
+   102.56417
+  ],
+  [
+   53.48833,
+   102.60083
+  ],
+  [
+   53.4975,
+   102.58278
+  ],
+  [
+   53.49944,
+   102.59
+  ],
+  [
+   53.49056,
+   102.61444
+  ],
+  [
+   53.45278,
+   102.64972
+  ],
+  [
+   53.41361,
+   102.70028
+  ],
+  [
+   53.38667,
+   102.62222
+  ],
+  [
+   53.40944,
+   102.57111
+  ],
+  [
+   53.45028,
+   102.52972
+  ],
+  [
+   53.48167,
+   102.53778
+  ]
+ ],
+ "series": "notam-uiii",
+ "source": {
+  "fetched_at": "2026-11-10T19:52:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "L4280/26 NOTAMN\nQ)UIII/QRTCA/IV/BO/W/020/050/5327N10237E004\nA)UIII B)2611140000 C)2611191400\nD)14-19 0000-1400\nE)AIRSPACE CLSD WI AREA:\n532854N1023216E-532811N1023351E-532918N1023603E-532951N1023458E-\n532958N1023524E-532926N1023652E-532710N1023859E-532449N1024201E-\n532312N1023720E-532434N1023416E-532701N1023147E-532854N1023216E.\nF)750M AMSL  G)1300M AMSL",
+ "year": 2026
+}

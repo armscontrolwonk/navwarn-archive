@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-12T05:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.3333,
+   "lon": 137.0667,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-12T01:00:00Z",
+  "upper": "1500FT AMSL",
+  "upper_fl": 15
+ },
+ "first_seen": "2026-11-10T19:49:20Z",
+ "id": "notam-rjjj/2026/U4266",
+ "issued_at": "2026-11-10T09:13:00Z",
+ "last_seen": "2026-11-10T19:49:20Z",
+ "number": "U4266",
+ "positions": [
+  [
+   35.33444,
+   137.06083
+  ],
+  [
+   35.33417,
+   137.06167
+  ],
+  [
+   35.33361,
+   137.06167
+  ],
+  [
+   35.33333,
+   137.06083
+  ],
+  [
+   35.33389,
+   137.06056
+  ],
+  [
+   35.33444,
+   137.06083
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-10T19:52:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4266/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/015/3520N13704E001\nA)RJJJ B)2611120100 C)2611120500\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n352004N1370339E - 352003N1370342E - 352001N1370342E - 352000N1370339E\n- 352002N1370338E - 352004N1370339E \n(KASUGAI-SHI IN AICHI)\nWT: 0.7KG\nF)SFC G)1500FT AMSL",
+ "year": 2026
+}

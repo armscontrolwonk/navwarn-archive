@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T23:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.6833,
+   "lon": 142.8833,
+   "radius_nm": 10
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-10T20:30:00Z",
+  "upper": "9843FT AMSL",
+  "upper_fl": 99
+ },
+ "first_seen": "2026-11-10T19:49:20Z",
+ "id": "notam-rjjj/2026/U4262",
+ "issued_at": "2026-11-10T07:33:00Z",
+ "last_seen": "2026-11-10T19:49:20Z",
+ "number": "U4262",
+ "positions": [
+  [
+   43.76667,
+   142.75
+  ],
+  [
+   43.8,
+   142.8
+  ],
+  [
+   43.8,
+   143.01667
+  ],
+  [
+   43.58333,
+   143.01667
+  ],
+  [
+   43.58333,
+   142.75
+  ],
+  [
+   43.76667,
+   142.75
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-10T19:52:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4262/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/099/4341N14253E010\nA)RJJJ B)2611102030 C)2611102300\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n434600N1424500E - 434800N1424800E - 434800N1430100E - 433500N1430100E\n- 433500N1424500E - 434600N1424500E \n(KAMIKAWA-GUN, MONBETSU-GUN IN HOKKAIDO)\nWT: 1.1KG\n \nF)SFC G)9843FT AMSL",
+ "year": 2026
+}

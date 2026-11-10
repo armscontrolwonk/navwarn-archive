@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-26T02:10:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "firing",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.3167,
+   "lon": 121.4,
+   "radius_nm": 33
+  },
+  "qcode": "QWELW",
+  "queried_fir": "RCAA",
+  "schedule": "0110-0210",
+  "shape": "polygon",
+  "starts_at": "2026-11-25T01:10:00Z",
+  "upper": "FL250",
+  "upper_fl": 250
+ },
+ "first_seen": "2026-11-10T19:49:20Z",
+ "id": "notam-rcaa/2026/A4161",
+ "issued_at": "2026-11-10T07:59:00Z",
+ "last_seen": "2026-11-10T19:49:20Z",
+ "number": "A4161",
+ "positions": [
+  [
+   22.53333,
+   121.03333
+  ],
+  [
+   22.53333,
+   121.93333
+  ],
+  [
+   22.1,
+   121.93333
+  ],
+  [
+   22.1,
+   120.88333
+  ],
+  [
+   22.31667,
+   120.88333
+  ],
+  [
+   22.53333,
+   121.03333
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-11-10T19:52:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIR EXER WILL TAKE PLACE:",
+ "text": "A4161/26 NOTAMN\nQ) RCAA/QWELW/IV/BO/W/000/250/2219N12124E033\nA) RCAA\nB) 2611250110 C) 2611260210\nD) 0110-0210\nE) AIR EXER WILL TAKE PLACE:\n1.AIRSPACE BLOCKED.\n2.GUN FRNG WILL TAKE PLACE.\n3.UNMANNED ACFT WILL BE RELEASED.\n4.OPR TEL: 03-4712201 EXTENSION 355531\n5.AREA AS FLW:\n223200N 1210200E\n223200N 1215600E\n220600N 1215600E\n220600N 1205300E\n221900N 1205300E\n223200N 1210200E\nF) SFC G) FL250",
+ "year": 2026
+}

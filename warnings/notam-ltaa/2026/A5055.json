@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-01T12:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.4833,
+   "lon": 35.1,
+   "radius_nm": 20
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LTAA",
+  "schedule": "NOV 30 0700-1200, DEC 01 0700-1200",
+  "shape": "polygon",
+  "starts_at": "2026-11-30T07:00:00Z",
+  "upper": "18000FT AMSL",
+  "upper_fl": 180
+ },
+ "first_seen": "2026-11-10T19:49:20Z",
+ "id": "notam-ltaa/2026/A5055",
+ "issued_at": "2026-11-10T11:06:00Z",
+ "last_seen": "2026-11-10T19:49:20Z",
+ "number": "A5055",
+ "positions": [
+  [
+   36.43333,
+   35.48333
+  ],
+  [
+   36.28333,
+   35.4
+  ],
+  [
+   36.53333,
+   34.7
+  ],
+  [
+   36.66667,
+   34.86667
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-10T19:52:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "GUN FIRING TRAINING WILL TAKE PLACE WI ADANA MILITARY TMA:  ",
+ "text": "A5055/26 NOTAMN\nQ) LTAA/QWMLW/IV/BO /W /000/180/3629N03506E020\nA) LTAA B) 2611300700 C) 2612011200\nD) NOV 30 0700-1200, DEC 01 0700-1200\nE) GUN FIRING TRAINING WILL TAKE PLACE WI ADANA MILITARY TMA:  \n362600N0352900E 361700N0352400E 363200N0344200E 364000N0345200E\n362600N352900E\nF) SFC G) 18000FT AMSL",
+ "year": 2026
+}

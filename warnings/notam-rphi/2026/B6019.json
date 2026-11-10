@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-12T10:00:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "other",
+  "location": "RPHI",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 14.0833,
+   "lon": 120.7667,
+   "radius_nm": 3
+  },
+  "qcode": "QWYLW",
+  "queried_fir": "RPHI",
+  "schedule": "2200-1000",
+  "shape": "polygon",
+  "starts_at": "2026-11-12T22:00:00Z",
+  "upper": "4500FT AMSL",
+  "upper_fl": 45
+ },
+ "first_seen": "2026-11-10T19:49:20Z",
+ "id": "notam-rphi/2026/B6019",
+ "issued_at": "2026-11-10T12:56:00Z",
+ "last_seen": "2026-11-10T19:49:20Z",
+ "number": "B6019",
+ "positions": [
+  [
+   14.09057,
+   120.74181
+  ],
+  [
+   14.09518,
+   120.80154
+  ],
+  [
+   14.05996,
+   120.80467
+  ],
+  [
+   14.05713,
+   120.74783
+  ],
+  [
+   14.09057,
+   120.74181
+  ]
+ ],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-11-10T19:52:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AERIAL SURVEY ACT WILL TAKE PLACE WI:",
+ "text": "B6019/26 NOTAMN\nQ) RPHI/QWYLW/IV/M  /W /000/045/1405N12046E003\nA) RPHI B) 2611122200 C) 2612121000\nD) 2200-1000\nE) AERIAL SURVEY ACT WILL TAKE PLACE WI:\n140526.05N 1204430.50E -\n140542.65N 1204805.56E -\n140335.84N 1204816.80E -\n140325.68N 1204452.17E -\n140526.05N 1204430.50E\n(TUY, BATANGAS).\nF) SFC G) 4500FT AMSL",
+ "year": 2026
+}

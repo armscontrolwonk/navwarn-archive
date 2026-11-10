@@ -1,0 +1,74 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-28T15:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.1333,
+   "lon": 134.15,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-17T15:00:00Z",
+  "upper": "3493FT AMSL",
+  "upper_fl": 35
+ },
+ "first_seen": "2026-11-10T19:49:20Z",
+ "id": "notam-rjjj/2026/U4264",
+ "issued_at": "2026-11-10T08:04:00Z",
+ "last_seen": "2026-11-10T19:49:20Z",
+ "number": "U4264",
+ "positions": [
+  [
+   35.15,
+   134.17111
+  ],
+  [
+   35.13556,
+   134.16667
+  ],
+  [
+   35.13167,
+   134.1525
+  ],
+  [
+   35.12722,
+   134.14778
+  ],
+  [
+   35.12139,
+   134.14889
+  ],
+  [
+   35.1175,
+   134.13333
+  ],
+  [
+   35.14972,
+   134.14361
+  ],
+  [
+   35.15,
+   134.17111
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-10T19:52:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4264/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/035/3508N13409E003\nA)RJJJ B)2611171500 C)2611281500\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n350900N1341016E - 350808N1341000E - 350754N1340909E - 350738N1340852E\n- 350717N1340856E - 350703N1340800E - 350859N1340837E -\n350900N1341016E \n(TSUYAMA-SHI, KATSUTA-GUN IN OKAYAMA)\n(NIPPON-BARA MANEUVERING AREA)\nWT: 2.0KG\nNUMBER: 3\nWX COND: VMC ONLY\nRMK: SOURCE/JSDF-G(RJOY)\nF)SFC G)3493FT AMSL",
+ "year": 2026
+}

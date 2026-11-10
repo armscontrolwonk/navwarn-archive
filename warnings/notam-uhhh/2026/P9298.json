@@ -1,0 +1,95 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-14T08:00:00Z",
+ "extra": {
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.75,
+   "lon": 133.4667,
+   "radius_nm": 13
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "schedule": "DAILY 2200-0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-11T22:00:00Z",
+  "upper": "2200M AMSL",
+  "upper_fl": 80
+ },
+ "first_seen": "2026-11-10T19:49:20Z",
+ "id": "notam-uhhh/2026/P9298",
+ "issued_at": "2026-11-10T13:40:00Z",
+ "last_seen": "2026-11-10T19:49:20Z",
+ "number": "P9298",
+ "positions": [
+  [
+   42.87806,
+   133.66861
+  ],
+  [
+   42.86278,
+   133.67639
+  ],
+  [
+   42.85472,
+   133.65611
+  ],
+  [
+   42.87028,
+   133.64722
+  ],
+  [
+   42.87806,
+   133.66861
+  ],
+  [
+   42.83,
+   133.72389
+  ],
+  [
+   42.60667,
+   133.27556
+  ],
+  [
+   42.74972,
+   133.20528
+  ],
+  [
+   42.82583,
+   133.49722
+  ],
+  [
+   42.82944,
+   133.53583
+  ],
+  [
+   42.85278,
+   133.6
+  ],
+  [
+   42.88111,
+   133.67
+  ],
+  [
+   42.83,
+   133.72389
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-11-10T19:52:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P9298/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/080/4245N13328E013\nA)UHHH B)2611112200 C)2611140800\nD)DAILY 2200-0800\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 425241N1334007E-425146N1334035E-425117N1333922E-\n         425213N1333850E-425241N1334007E\n   SFC-600M AMSL.\n2. AREA: 424948N1334326E-423624N1331632E-424459N1331219E-\n         424933N1332950E-424946N1333209E-425110N1333600E-\n         425252N1334012E-424948N1334326E\n   600M AMSL-2200M AMSL.\nF)SFC  G)2200M AMSL",
+ "year": 2026
+}

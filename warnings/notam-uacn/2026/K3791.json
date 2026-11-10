@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-11T14:00:00Z",
+ "extra": {
+  "fir": "UACN",
+  "kind": "drone",
+  "location": "UACN",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 51.15,
+   "lon": 71.5,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "UACN",
+  "shape": "polygon",
+  "starts_at": "2026-11-11T04:00:00Z",
+  "upper": "1500FT AMSL",
+  "upper_fl": 15
+ },
+ "first_seen": "2026-11-10T19:49:20Z",
+ "id": "notam-uacn/2026/K3791",
+ "issued_at": "2026-11-10T18:38:00Z",
+ "last_seen": "2026-11-10T19:49:20Z",
+ "number": "K3791",
+ "positions": [
+  [
+   51.14361,
+   71.48472
+  ],
+  [
+   51.14667,
+   71.49556
+  ],
+  [
+   51.13972,
+   71.50167
+  ],
+  [
+   51.13694,
+   71.48972
+  ],
+  [
+   51.14361,
+   71.48472
+  ]
+ ],
+ "series": "notam-uacn",
+ "source": {
+  "fetched_at": "2026-11-10T19:52:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPORARY RESTRICTED AREA ACTIVATED",
+ "text": "K3791/26 NOTAMN\nQ) UACN/QWULW/IV/BO /W /000/015/5109N07130E001\nA) UACN B) 2611110400 C) 2611111400\nE) TEMPORARY RESTRICTED AREA ACTIVATED\nAREA BOUNDED BY:\n510837N 0712905E - 510848N 0712944E - 510823N 0713006E - 510813N \n0712923E - 510837N 0712905E\nF) GND G) 1500FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,74 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-12T06:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.4833,
+   "lon": 134.8167,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-12T04:00:00Z",
+  "upper": "536FT AMSL",
+  "upper_fl": 6
+ },
+ "first_seen": "2026-11-10T19:49:20Z",
+ "id": "notam-rjjj/2026/U4263",
+ "issued_at": "2026-11-10T07:34:00Z",
+ "last_seen": "2026-11-10T19:49:20Z",
+ "number": "U4263",
+ "positions": [
+  [
+   35.49,
+   134.80889
+  ],
+  [
+   35.48861,
+   134.81611
+  ],
+  [
+   35.48583,
+   134.81556
+  ],
+  [
+   35.48417,
+   134.81361
+  ],
+  [
+   35.48611,
+   134.80806
+  ],
+  [
+   35.48722,
+   134.80889
+  ],
+  [
+   35.48778,
+   134.80889
+  ],
+  [
+   35.49,
+   134.80889
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-10T19:52:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4263/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/006/3529N13449E001\nA)RJJJ B)2611120400 C)2611120600\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n352924N1344832E - 352919N1344858E - 352909N1344856E - 352903N1344849E\n- 352910N1344829E - 352914N1344832E - 352916N1344832E -\n352924N1344832E \n(TOYOOKA-SHI IN HYOGO)\nWT: 1KG\nF)SFC G)536FT AMSL",
+ "year": 2026
+}

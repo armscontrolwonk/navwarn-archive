@@ -1,0 +1,89 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 57.07222,
+    "lon": 63.68972,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.8333,
+   "lon": 63.8667,
+   "radius_nm": 18
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0300-1600",
+  "starts_at": "2026-11-14T03:00:00Z",
+  "upper": "800M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-10T19:49:20Z",
+ "id": "notam-ussv/2026/Z6421",
+ "issued_at": "2026-11-10T08:56:00Z",
+ "last_seen": "2026-11-10T19:49:20Z",
+ "number": "Z6421",
+ "positions": [
+  [
+   56.67444,
+   63.76389
+  ],
+  [
+   57.09083,
+   63.635
+  ],
+  [
+   57.09444,
+   63.74972
+  ],
+  [
+   56.99972,
+   63.74944
+  ],
+  [
+   56.99472,
+   63.80139
+  ],
+  [
+   56.73056,
+   63.84222
+  ],
+  [
+   56.58472,
+   64.12278
+  ],
+  [
+   56.57694,
+   64.10806
+  ],
+  [
+   56.67444,
+   63.76389
+  ],
+  [
+   57.07222,
+   63.68972
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-10T19:52:48Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z6421/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/030/5650N06352E018\nA)USSV B)2611140300 C)2611191600\nD)DAILY 0300-1600\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 564028N0634550E-570527N0633806E-570540N0634459E-\n         565959N0634458E-565941N0634805E-564350N0635032E-\n         563505N0640722E-563437N0640629E-564028N0634550E\n   350M AMSL-800M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 570420N0634123E\n   GND-800M AMSL.\nF)GND  G)800M AMSL",
+ "year": 2026
+}
