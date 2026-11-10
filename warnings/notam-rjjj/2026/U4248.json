@@ -1,0 +1,78 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T23:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.45,
+   "lon": 142.8833,
+   "radius_nm": 13
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-10T22:30:00Z",
+  "upper": "9843FT AMSL",
+  "upper_fl": 99
+ },
+ "first_seen": "2026-11-10T07:26:47Z",
+ "id": "notam-rjjj/2026/U4248",
+ "issued_at": "2026-11-10T01:51:00Z",
+ "last_seen": "2026-11-10T07:26:47Z",
+ "number": "U4248",
+ "positions": [
+  [
+   43.46667,
+   142.61667
+  ],
+  [
+   43.5,
+   142.63333
+  ],
+  [
+   43.58333,
+   142.75
+  ],
+  [
+   43.58333,
+   143.01667
+  ],
+  [
+   43.53333,
+   143.11667
+  ],
+  [
+   43.36667,
+   143.11667
+  ],
+  [
+   43.36667,
+   142.98333
+  ],
+  [
+   43.35333,
+   142.76028
+  ],
+  [
+   43.46667,
+   142.61667
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-10T07:29:34Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4248/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/099/4327N14253E013\nA)RJJJ B)2611102230 C)2611102300\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n432800N1423700E - 433000N1423800E - 433500N1424500E - 433500N1430100E\n- 433200N1430700E - 432200N1430700E - 432200N1425900E -\n432112N1424537E - 432800N1423700E \n(KAMIKAWA-GUN, SORACHI-GUN, KATO-GUN IN HOKKAIDO)\nWT: 1.1KG\nRMK: THIS AREA IS INCLUDED IN HK2-1\nF)SFC G)9843FT AMSL",
+ "year": 2026
+}

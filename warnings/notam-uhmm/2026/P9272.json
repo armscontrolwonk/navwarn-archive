@@ -1,0 +1,86 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T22:30:00Z",
+ "extra": {
+  "fir": "UHMM",
+  "kind": "restricted",
+  "location": "UHMM",
+  "lower": "FL070",
+  "lower_fl": 70,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 53.5667,
+   "lon": 158.2333,
+   "radius_nm": 93
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHMM",
+  "shape": "polygon",
+  "starts_at": "2026-11-10T21:00:00Z",
+  "upper": "FL220",
+  "upper_fl": 220
+ },
+ "first_seen": "2026-11-10T07:26:47Z",
+ "id": "notam-uhmm/2026/P9272",
+ "issued_at": "2026-11-10T06:08:00Z",
+ "last_seen": "2026-11-10T07:26:47Z",
+ "number": "P9272",
+ "positions": [
+  [
+   53.31667,
+   157.53333
+  ],
+  [
+   53.16667,
+   156.46667
+  ],
+  [
+   53.63333,
+   159.03333
+  ],
+  [
+   54.05,
+   159.6
+  ],
+  [
+   54.53333,
+   160.25
+  ],
+  [
+   53.46667,
+   160.13333
+  ],
+  [
+   53.41667,
+   159.96667
+  ],
+  [
+   52.36667,
+   156.65
+  ],
+  [
+   52.23333,
+   157.51667
+  ],
+  [
+   53.0,
+   156.1
+  ],
+  [
+   52.56667,
+   156.31667
+  ]
+ ],
+ "series": "notam-uhmm",
+ "source": {
+  "fetched_at": "2026-11-10T07:29:34Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P9272/26 NOTAMN\nQ)UHMM/QRTCA/IV/BO/W/070/220/5334N15814E093\nA)UHMM B)2611102100 C)2611102230\nE)AIRSPACE CLSD AS FLW:\n1. WI 5KM EITHER SIDE OF LINE JOINING POINTS:\n   531900N1573200E-531000N1562800E.\n   FL220-FL220.\n2. WI 5KM EITHER SIDE OF LINE JOINING POINTS:\n   533800N1590200E-540300N1593600E-543200N1601500E-\n   532800N1600800E-532500N1595800E.\n   FL150-FL150.\n3. WI 5KM EITHER SIDE OF LINE JOINING POINTS:\n   522200N1563900E-521400N1573100E.\n   FL150-FL150.\n4. WI 5KM EITHER SIDE OF LINE JOINING POINTS:\n   530000N1560600E-523400N1561900E.\n   FL070-FL070.\nF)FL070  G)FL220",
+ "year": 2026
+}

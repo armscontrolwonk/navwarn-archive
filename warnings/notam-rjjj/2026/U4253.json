@@ -1,0 +1,82 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-11T02:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.1333,
+   "lon": 129.7333,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-11T00:00:00Z",
+  "upper": "1641FT AMSL",
+  "upper_fl": 17
+ },
+ "first_seen": "2026-11-10T07:26:47Z",
+ "id": "notam-rjjj/2026/U4253",
+ "issued_at": "2026-11-10T02:50:00Z",
+ "last_seen": "2026-11-10T07:26:47Z",
+ "number": "U4253",
+ "positions": [
+  [
+   33.13333,
+   129.73056
+  ],
+  [
+   33.13528,
+   129.73417
+  ],
+  [
+   33.135,
+   129.7375
+  ],
+  [
+   33.13361,
+   129.73917
+  ],
+  [
+   33.12417,
+   129.74556
+  ],
+  [
+   33.12083,
+   129.74333
+  ],
+  [
+   33.11778,
+   129.74
+  ],
+  [
+   33.11528,
+   129.73306
+  ],
+  [
+   33.12306,
+   129.73
+  ],
+  [
+   33.13333,
+   129.73056
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-10T07:29:34Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4253/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/017/3308N12944E002\nA)RJJJ B)2611110000 C)2611110200\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n330800N1294350E - 330807N1294403E - 330806N1294415E - 330801N1294421E\n- 330727N1294444E - 330715N1294436E - 330704N1294424E -\n330655N1294359E - 330723N1294348E - 330800N1294350E \n(SASEBO-SHI IN NAGASAKI)\nWT: 0.9KG\nF)SFC G)1641FT AMSL",
+ "year": 2026
+}

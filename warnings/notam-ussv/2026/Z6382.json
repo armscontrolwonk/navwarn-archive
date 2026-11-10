@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-17T12:00:00Z",
+ "extra": {
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 58.7833,
+   "lon": 60.3,
+   "radius_nm": 5
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0400-1200",
+  "shape": "polygon",
+  "starts_at": "2026-11-12T04:00:00Z",
+  "upper": "400M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-10T07:26:47Z",
+ "id": "notam-ussv/2026/Z6382",
+ "issued_at": "2026-11-10T03:27:00Z",
+ "last_seen": "2026-11-10T07:26:47Z",
+ "number": "Z6382",
+ "positions": [
+  [
+   58.84833,
+   60.36972
+  ],
+  [
+   58.76889,
+   60.33056
+  ],
+  [
+   58.7175,
+   60.27167
+  ],
+  [
+   58.71083,
+   60.23944
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-10T07:29:34Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI 0.5KM EITHER SIDE OF LINE JOINING POINTS:",
+ "text": "Z6382/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/020/5847N06018E005\nA)USSV B)2611120400 C)2611171200\nD)DAILY 0400-1200\nE)AIRSPACE CLSD WI 0.5KM EITHER SIDE OF LINE JOINING POINTS:\n585054N0602211E-584608N0601950E-584303N0601618E-584239N0601422E.\nF)GND  G)400M AMSL",
+ "year": 2026
+}

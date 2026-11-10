@@ -1,0 +1,72 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-12T08:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 55.53139,
+    "lon": 82.67389,
+    "radius_nm": 0.27
+   }
+  ],
+  "fir": "UNNT",
+  "kind": "restricted",
+  "location": "UNNT",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.5833,
+   "lon": 82.7,
+   "radius_nm": 8
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNNT",
+  "starts_at": "2026-11-12T04:30:00Z",
+  "upper": "500M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-10T07:26:47Z",
+ "id": "notam-unnt/2026/L4253",
+ "issued_at": "2026-11-10T05:38:00Z",
+ "last_seen": "2026-11-10T07:26:47Z",
+ "number": "L4253",
+ "positions": [
+  [
+   55.51778,
+   82.51667
+  ],
+  [
+   55.51861,
+   82.89167
+  ],
+  [
+   55.64472,
+   82.895
+  ],
+  [
+   55.645,
+   82.52444
+  ],
+  [
+   55.51778,
+   82.51667
+  ],
+  [
+   55.53139,
+   82.67389
+  ]
+ ],
+ "series": "notam-unnt",
+ "source": {
+  "fetched_at": "2026-11-10T07:29:34Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "L4253/26 NOTAMN\nQ)UNNT/QRTCA/IV/BO/W/000/020/5535N08242E008\nA)UNNT B)2611120430 C)2611120800\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 553104N0823100E-553107N0825330E-553841N0825342E-\n         553842N0823128E-553104N0823100E\n   300M AMSL-500M AMSL.\n2. WI CIRCLE RADIUS 0.5KM CENTRE 553153N0824026E\n   SFC-500M AMSL.\nF)SFC  G)500M AMSL",
+ "year": 2026
+}

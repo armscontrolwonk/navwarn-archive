@@ -1,0 +1,74 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T23:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.7833,
+   "lon": 140.75,
+   "radius_nm": 15
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-10T20:30:00Z",
+  "upper": "10992FT AMSL",
+  "upper_fl": 110
+ },
+ "first_seen": "2026-11-10T07:26:47Z",
+ "id": "notam-rjjj/2026/U4251",
+ "issued_at": "2026-11-10T02:32:00Z",
+ "last_seen": "2026-11-10T07:26:47Z",
+ "number": "U4251",
+ "positions": [
+  [
+   42.98333,
+   140.66667
+  ],
+  [
+   42.98333,
+   140.88333
+  ],
+  [
+   42.88333,
+   141.01667
+  ],
+  [
+   42.65,
+   141.0
+  ],
+  [
+   42.65,
+   140.58333
+  ],
+  [
+   42.78333,
+   140.54167
+  ],
+  [
+   42.91667,
+   140.5
+  ],
+  [
+   42.98333,
+   140.66667
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-10T07:29:34Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4251/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/110/4247N14045E015\nA)RJJJ B)2611102030 C)2611102300\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n425900N1404000E - 425900N1405300E - 425300N1410100E - 423900N1410000E\n- 423900N1403500E - 424700N1403230E - 425500N1403000E -\n425900N1404000E \n(DATE-SHI, ABUTA-GUN, YOICHI-GUN, ISOYA-GUN, IWANAI-GUN IN HOKKAIDO)\nWT: 1.1KG\n\nRMK: THIS AREA IS INCLUDED IN HK12-1, HK12-2\nF)SFC G)10992FT AMSL",
+ "year": 2026
+}

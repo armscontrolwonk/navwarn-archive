@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T23:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.65,
+   "lon": 142.6833,
+   "radius_nm": 11
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-10T20:30:00Z",
+  "upper": "5250FT AMSL",
+  "upper_fl": 53
+ },
+ "first_seen": "2026-11-10T07:26:47Z",
+ "id": "notam-rjjj/2026/U4250",
+ "issued_at": "2026-11-10T02:13:00Z",
+ "last_seen": "2026-11-10T07:26:47Z",
+ "number": "U4250",
+ "positions": [
+  [
+   43.63333,
+   142.56667
+  ],
+  [
+   43.8,
+   142.75
+  ],
+  [
+   43.58333,
+   142.75
+  ],
+  [
+   43.5,
+   142.63333
+  ],
+  [
+   43.63333,
+   142.56667
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-10T07:29:34Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4250/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/053/4339N14241E011\nA)RJJJ B)2611102030 C)2611102300\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n433800N1423400E - 434800N1424500E - 433500N1424500E - 433000N1423800E\n- 433800N1423400E \n(ASAHIKAWA-SHI, KAMIKAWA-GUN IN HOKKAIDO)\nWT: 1.1KG\nF)SFC G)5250FT AMSL",
+ "year": 2026
+}

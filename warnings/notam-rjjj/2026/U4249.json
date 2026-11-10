@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-10T23:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.4,
+   "lon": 142.6667,
+   "radius_nm": 6
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-10T20:30:00Z",
+  "upper": "8859FT AMSL",
+  "upper_fl": 89
+ },
+ "first_seen": "2026-11-10T07:26:47Z",
+ "id": "notam-rjjj/2026/U4249",
+ "issued_at": "2026-11-10T02:12:00Z",
+ "last_seen": "2026-11-10T07:26:47Z",
+ "number": "U4249",
+ "positions": [
+  [
+   43.46667,
+   142.61667
+  ],
+  [
+   43.35333,
+   142.76028
+  ],
+  [
+   43.35,
+   142.7
+  ],
+  [
+   43.35,
+   142.56667
+  ],
+  [
+   43.38333,
+   142.56667
+  ],
+  [
+   43.41667,
+   142.61667
+  ],
+  [
+   43.46667,
+   142.61667
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-10T07:29:34Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4249/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/089/4324N14240E006\nA)RJJJ B)2611102030 C)2611102300\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n432800N1423700E - 432112N1424537E - 432100N1424200E - 432100N1423400E\n- 432300N1423400E - 432500N1423700E - 432800N1423700E \n(FURANO-SHI, KAMIKAWA-GUN, SORACHI-GUN IN HOKKAIDO)\nWT: 1.1KG\n\nRMK: THIS AREA IS INCLUDED IN HK2-1\nF)SFC G)8859FT AMSL",
+ "year": 2026
+}

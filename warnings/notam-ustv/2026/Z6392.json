@@ -1,0 +1,187 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-18T17:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 56.215,
+    "lon": 69.65361,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 56.5075,
+    "lon": 67.885,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 56.47944,
+    "lon": 68.08083,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 56.47889,
+    "lon": 68.17944,
+    "radius_nm": 1.08
+   },
+   {
+    "lat": 56.48806,
+    "lon": 68.26778,
+    "radius_nm": 1.08
+   },
+   {
+    "lat": 56.23056,
+    "lon": 69.17056,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 56.19222,
+    "lon": 69.63611,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "USTV",
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.3833,
+   "lon": 68.6333,
+   "radius_nm": 38
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USTV",
+  "schedule": "DAILY 0400-1700",
+  "starts_at": "2026-11-13T04:00:00Z",
+  "upper": "750M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-10T07:26:47Z",
+ "id": "notam-ustv/2026/Z6392",
+ "issued_at": "2026-11-10T04:45:00Z",
+ "last_seen": "2026-11-10T07:26:47Z",
+ "number": "Z6392",
+ "positions": [
+  [
+   56.53861,
+   67.53861
+  ],
+  [
+   56.50444,
+   67.53833
+  ],
+  [
+   56.48278,
+   67.65806
+  ],
+  [
+   56.48972,
+   67.96639
+  ],
+  [
+   56.43722,
+   68.07028
+  ],
+  [
+   56.25,
+   69.165
+  ],
+  [
+   56.22722,
+   69.14889
+  ],
+  [
+   56.21778,
+   69.17889
+  ],
+  [
+   56.24389,
+   69.2025
+  ],
+  [
+   56.22306,
+   69.32222
+  ],
+  [
+   56.13361,
+   69.54306
+  ],
+  [
+   56.15889,
+   69.66639
+  ],
+  [
+   56.21028,
+   69.71361
+  ],
+  [
+   56.24611,
+   69.69167
+  ],
+  [
+   56.30222,
+   69.36833
+  ],
+  [
+   56.4475,
+   68.50028
+  ],
+  [
+   56.50639,
+   68.27417
+  ],
+  [
+   56.51667,
+   68.05472
+  ],
+  [
+   56.54667,
+   67.99806
+  ],
+  [
+   56.53861,
+   67.53861
+  ],
+  [
+   56.215,
+   69.65361
+  ],
+  [
+   56.5075,
+   67.885
+  ],
+  [
+   56.47944,
+   68.08083
+  ],
+  [
+   56.47889,
+   68.17944
+  ],
+  [
+   56.48806,
+   68.26778
+  ],
+  [
+   56.23056,
+   69.17056
+  ],
+  [
+   56.19222,
+   69.63611
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-11-10T07:29:34Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z6392/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/030/5623N06838E038\nA)USTV B)2611130400 C)2611181700\nD)DAILY 0400-1700\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 563219N0673219E-563016N0673218E-562858N0673929E-\n         562923N0675759E-562614N0680413E-561500N0690954E-\n         561338N0690856E-561304N0691044E-561438N0691209E-\n         561323N0691920E-560801N0693235E-560932N0693959E-\n         561237N0694249E-561446N0694130E-561808N0692206E-\n         562651N0683001E-563023N0681627E-563100N0680317E-\n         563248N0675953E-563219N0673219E\n   400M AMSL-750M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 561254N0693913E\n   SFC-750M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 563027N0675306E\n   SFC-750M AMSL.\n4. WI CIRCLE RADIUS 1KM CENTRE 562846N0680451E\n   SFC-750M AMSL.\n5. WI CIRCLE RADIUS 2KM CENTRE 562844N0681046E\n   SFC-750M AMSL.\n6. WI CIRCLE RADIUS 2KM CENTRE 562917N0681604E\n   SFC-750M AMSL.\n7. WI CIRCLE RADIUS 1KM CENTRE 561350N0691014E\n   SFC-750M AMSL.\n8. WI CIRCLE RADIUS 1KM CENTRE 561132N0693810E\n   SFC-750M AMSL.\nF)SFC  G)750M AMSL",
+ "year": 2026
+}

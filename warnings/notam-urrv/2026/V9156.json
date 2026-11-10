@@ -1,0 +1,85 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-15T15:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 43.06861,
+    "lon": 47.44556,
+    "radius_nm": 0.05
+   }
+  ],
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.1,
+   "lon": 47.4667,
+   "radius_nm": 5
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "URRV",
+  "schedule": "DAILY 0600-1500",
+  "starts_at": "2026-11-11T06:00:00Z",
+  "upper": "650M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-10T07:26:47Z",
+ "id": "notam-urrv/2026/V9156",
+ "issued_at": "2026-11-10T04:37:00Z",
+ "last_seen": "2026-11-10T07:26:47Z",
+ "number": "V9156",
+ "positions": [
+  [
+   43.065,
+   47.41528
+  ],
+  [
+   43.05972,
+   47.465
+  ],
+  [
+   43.02667,
+   47.46389
+  ],
+  [
+   43.02667,
+   47.47167
+  ],
+  [
+   43.16,
+   47.49028
+  ],
+  [
+   43.16222,
+   47.47167
+  ],
+  [
+   43.075,
+   47.44528
+  ],
+  [
+   43.065,
+   47.41528
+  ],
+  [
+   43.06861,
+   47.44556
+  ]
+ ],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-11-10T07:29:34Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "V9156/26 NOTAMN\nQ)URRV/QRTCA/IV/BO/W/000/030/4306N04728E005\nA)URRV B)2611110600 C)2611151500\nD)DAILY 0600-1500\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 430354N0472455E-430335N0472754E-430136N0472750E-\n         430136N0472818E-430936N0472925E-430944N0472818E-\n         430430N0472643E-430354N0472455E,\n   250M AMSL-650M AMSL.\n2. WI CIRCLE RADIUS 0.1KM CENTRE 430407N0472644E,\n   GND-250M AMSL.\nF)GND  G)650M AMSL",
+ "year": 2026
+}

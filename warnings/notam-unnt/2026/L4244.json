@@ -1,0 +1,77 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-16T11:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 54.66083,
+    "lon": 86.28306,
+    "radius_nm": 0.27
+   }
+  ],
+  "fir": "UNNT",
+  "kind": "restricted",
+  "location": "UNNT",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 54.6,
+   "lon": 86.2333,
+   "radius_nm": 7
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNNT",
+  "schedule": "11-13 16 0500-1100",
+  "starts_at": "2026-11-11T05:00:00Z",
+  "upper": "700M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-10T07:26:47Z",
+ "id": "notam-unnt/2026/L4244",
+ "issued_at": "2026-11-10T04:10:00Z",
+ "last_seen": "2026-11-10T07:26:47Z",
+ "number": "L4244",
+ "positions": [
+  [
+   54.65194,
+   86.07222
+  ],
+  [
+   54.67639,
+   86.31528
+  ],
+  [
+   54.54778,
+   86.39417
+  ],
+  [
+   54.535,
+   86.32889
+  ],
+  [
+   54.59722,
+   86.095
+  ],
+  [
+   54.65194,
+   86.07222
+  ],
+  [
+   54.66083,
+   86.28306
+  ]
+ ],
+ "series": "notam-unnt",
+ "source": {
+  "fetched_at": "2026-11-10T07:29:34Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "L4244/26 NOTAMN\nQ)UNNT/QRTCA/IV/BO/W/000/030/5436N08614E007\nA)UNNT B)2611110500 C)2611161100\nD)11-13 16 0500-1100\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 543907N0860420E-544035N0861855E-543252N0862339E-\n         543206N0861944E-543550N0860542E-543907N0860420E\n   450M AMSL-700M AMSL.\n2. WI CIRCLE RADIUS 0.5KM CENTRE 543939N0861659E\n   SFC-700M AMSL.\nF)SFC  G)700M AMSL",
+ "year": 2026
+}

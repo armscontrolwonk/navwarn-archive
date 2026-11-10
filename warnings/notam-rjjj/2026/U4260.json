@@ -1,0 +1,90 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-12T03:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.6667,
+   "lon": 136.55,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-11T23:30:00Z",
+  "upper": "489FT AMSL",
+  "upper_fl": 5
+ },
+ "first_seen": "2026-11-10T07:26:47Z",
+ "id": "notam-rjjj/2026/U4260",
+ "issued_at": "2026-11-10T06:11:00Z",
+ "last_seen": "2026-11-10T07:26:47Z",
+ "number": "U4260",
+ "positions": [
+  [
+   34.675,
+   136.54222
+  ],
+  [
+   34.67111,
+   136.54917
+  ],
+  [
+   34.67389,
+   136.55167
+  ],
+  [
+   34.67083,
+   136.5575
+  ],
+  [
+   34.66694,
+   136.55444
+  ],
+  [
+   34.66639,
+   136.55028
+  ],
+  [
+   34.66694,
+   136.54889
+  ],
+  [
+   34.66778,
+   136.5475
+  ],
+  [
+   34.66861,
+   136.54611
+  ],
+  [
+   34.66972,
+   136.545
+  ],
+  [
+   34.67222,
+   136.54
+  ],
+  [
+   34.675,
+   136.54222
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-10T07:29:34Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4260/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/005/3440N13633E002\nA)RJJJ B)2611112330 C)2611120300\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n344030N1363232E - 344016N1363257E - 344026N1363306E - 344015N1363327E\n- 344001N1363316E - 343959N1363301E - 344001N1363256E -\n344004N1363251E - 344007N1363246E - 344011N1363242E - 344020N1363224E\n- 344030N1363232E \n(TSU-SHI IN MIE)\nWT: 9KG\nF)SFC G)489FT AMSL",
+ "year": 2026
+}
