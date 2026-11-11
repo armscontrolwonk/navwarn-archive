@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-04T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.0333,
+   "lon": 130.0,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-29T23:15:00Z",
+  "upper": "2600FT AMSL",
+  "upper_fl": 26
+ },
+ "first_seen": "2026-11-11T06:38:17Z",
+ "id": "notam-rjjj/2026/U4271",
+ "issued_at": "2026-11-11T01:38:00Z",
+ "last_seen": "2026-11-11T06:38:17Z",
+ "number": "U4271",
+ "positions": [
+  [
+   33.04583,
+   129.9825
+  ],
+  [
+   33.04833,
+   129.99583
+  ],
+  [
+   33.01167,
+   130.00722
+  ],
+  [
+   33.01833,
+   129.985
+  ],
+  [
+   33.04583,
+   129.9825
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-11T06:41:10Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4271/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/026/3302N13000E002\nA)RJJJ B)2611292315 C)2612040800\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n330245N1295857E - 330254N1295945E - 330042N1300026E - 330106N1295906E\n- 330245N1295857E \n(ONOBARU MANEUVERING AREA)\n(URESHINO-SHI IN SAGA,HIGASHISONOGI-GUN IN NAGASAKI)\nWT: 3.0KG\nNUMBER: 21\nRMK: SOURCE/JSDF-G(RJDM)\nF)SFC G)2600FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-18T09:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "exercise",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.4667,
+   "lon": 28.9167,
+   "radius_nm": 6
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTBB",
+  "schedule": "13 2100-2359, 14 15 16 17 0000-0900 2100-2359, 18 0000-0900",
+  "shape": "polygon",
+  "starts_at": "2026-11-13T21:00:00Z",
+  "upper": "2000FT AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-11T06:38:17Z",
+ "id": "notam-ltbb/2026/A5059",
+ "issued_at": "2026-11-11T06:30:00Z",
+ "last_seen": "2026-11-11T06:38:17Z",
+ "number": "A5059",
+ "positions": [
+  [
+   36.53306,
+   28.83306
+  ],
+  [
+   36.53306,
+   29.0
+  ],
+  [
+   36.41639,
+   29.0
+  ],
+  [
+   36.41639,
+   28.83306
+  ],
+  [
+   36.53306,
+   28.83306
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-11-11T06:41:10Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXERCISE WILL TAKE PLACE WI DALAMAN TMA",
+ "text": "A5059/26 NOTAMN\nQ) LTBB/QWELW/IV/BO /W /000/020/3628N02855E006\nA) LTBB B) 2611132100 C) 2611180900\nD) 13 2100-2359, 14 15 16 17 0000-0900 2100-2359, 18 0000-0900\nE) EXERCISE WILL TAKE PLACE WI DALAMAN TMA\nAREA: 363159N0284959E 363159N0290000E 362459N0290000E \n362459N0284959E 363159N0284959E\nF) SFC G) 2000FT AMSL",
+ "year": 2026
+}

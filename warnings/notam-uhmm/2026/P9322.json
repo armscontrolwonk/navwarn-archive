@@ -1,0 +1,102 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-13T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 53.0,
+    "lon": 158.65,
+    "radius_nm": 0.97
+   },
+   {
+    "lat": 53.01306,
+    "lon": 158.645,
+    "radius_nm": 0.16
+   }
+  ],
+  "fir": "UHMM",
+  "kind": "restricted",
+  "location": "UHMM",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 53.0,
+   "lon": 158.65,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHMM",
+  "schedule": "11 0500-2359, 12 13 0000-2359",
+  "starts_at": "2026-11-11T05:00:00Z",
+  "upper": "1000M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-11-11T06:38:17Z",
+ "id": "notam-uhmm/2026/P9322",
+ "issued_at": "2026-11-11T04:34:00Z",
+ "last_seen": "2026-11-11T06:38:17Z",
+ "number": "P9322",
+ "positions": [
+  [
+   53.0,
+   158.65
+  ],
+  [
+   53.00667,
+   158.65333
+  ],
+  [
+   53.00667,
+   158.65389
+  ],
+  [
+   53.00528,
+   158.65472
+  ],
+  [
+   53.00528,
+   158.65417
+  ],
+  [
+   53.00667,
+   158.65333
+  ],
+  [
+   53.00806,
+   158.64472
+  ],
+  [
+   53.00806,
+   158.64528
+  ],
+  [
+   53.00667,
+   158.64528
+  ],
+  [
+   53.00667,
+   158.64472
+  ],
+  [
+   53.00806,
+   158.64472
+  ],
+  [
+   53.01306,
+   158.645
+  ]
+ ],
+ "series": "notam-uhmm",
+ "source": {
+  "fetched_at": "2026-11-11T06:41:10Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 1.8KM CENTRE 530000N1583900E",
+ "text": "P9322/26 NOTAMN\nQ)UHMM/QRTCA/IV/BO/W/000/040/5300N15839E001\nA)UHMM B)2611110500 C)2611132359\nD)11 0500-2359, 12 13 0000-2359\nE)AIRSPACE CLSD WI CIRCLE RADIUS 1.8KM CENTRE 530000N1583900E\nEXC FLW AREAS:\n1. AREA: 530024N1583912E-530024N1583914E-530019N1583917E-\n         530019N1583915E-530024N1583912E\n         0-149M, UTC/01.00/05.00.\n2. AREA: 530029N1583841E-530029N1583843E-530024N1583843E-\n         530024N1583841E-530029N1583841E.\n         0-149M, UTC/01.00/05.00.\n3. CIRCLE RADIUS 0.3KM CENTRE 530047N1583842E.\nMANNED ACFT NOT AFFECTED.\nF)GND  G)1000M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-11T07:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 52.8,
+    "lon": 89.88333,
+    "radius_nm": 2.7
+   }
+  ],
+  "fir": "UNKL",
+  "kind": "restricted",
+  "location": "UNKL",
+  "lower": "250M AMSL",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 52.8,
+   "lon": 89.8833,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNKL",
+  "starts_at": "2026-11-11T04:00:00Z",
+  "upper": "500M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-11T06:38:17Z",
+ "id": "notam-unkl/2026/L4375",
+ "issued_at": "2026-11-11T03:27:00Z",
+ "last_seen": "2026-11-11T06:38:17Z",
+ "number": "L4375",
+ "positions": [
+  [
+   52.8,
+   89.88333
+  ]
+ ],
+ "series": "notam-unkl",
+ "source": {
+  "fetched_at": "2026-11-11T06:41:10Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 5KM CENTRE 524800N0895300E.",
+ "text": "L4375/26 NOTAMN\nQ)UNKL/QRTCA/IV/BO/W/000/020/5248N08953E003\nA)UNKL B)2611110400 C)2611110700\nE)AIRSPACE CLSD WI CIRCLE RADIUS 5KM CENTRE 524800N0895300E.\nF)250M AMSL  G)500M AMSL",
+ "year": 2026
+}

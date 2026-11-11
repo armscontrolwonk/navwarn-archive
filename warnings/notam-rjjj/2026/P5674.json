@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T07:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.2667,
+   "lon": 144.85,
+   "radius_nm": 9
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "schedule": "2330/0730",
+  "shape": "polygon",
+  "starts_at": "2026-11-15T23:30:00Z",
+  "upper": "36000FT AMSL",
+  "upper_fl": 360
+ },
+ "first_seen": "2026-11-11T06:38:17Z",
+ "id": "notam-rjjj/2026/P5674",
+ "issued_at": "2026-11-11T03:03:00Z",
+ "last_seen": "2026-11-11T06:38:17Z",
+ "number": "P5674",
+ "positions": [
+  [
+   43.305,
+   144.75167
+  ],
+  [
+   43.3,
+   144.77583
+  ],
+  [
+   43.29417,
+   144.92639
+  ],
+  [
+   43.29083,
+   144.97639
+  ],
+  [
+   43.24694,
+   144.97139
+  ],
+  [
+   43.27667,
+   144.77694
+  ],
+  [
+   43.27889,
+   144.7475
+  ],
+  [
+   43.305,
+   144.75167
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-11T06:41:10Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG EXER WILL BE CONDUCTED WITHIN YAUSUBETSU",
+ "text": "P5674/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/360/4316N14451E009\nA)RJJJ B)2611152330 C)2611190730\nD)2330/0730\nE)FRNG EXER WILL BE CONDUCTED WITHIN YAUSUBETSU\nWEAPON: 155MM HOWITZER\nAREA  : BOUNDED BY FLW POINTS\n        431818N1444506E - 431800N1444633E - 431739N1445535E -\n        431727N1445835E - 431449N1445817E - 431636N1444637E -\n        431644N1444451E - 431818N1444506E\n        (NOTSUKE-GUN,AKKESHI-GUN IN HOKKAIDO)\nRMK   : (1)REF AIP PAGE ENR5.1-4\n        (2)SOURCE/JSDF-G(RJCT)\nF)SFC G)36000FT AMSL",
+ "year": 2026
+}

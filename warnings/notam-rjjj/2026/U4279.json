@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-23T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.45,
+   "lon": 140.8333,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/0800",
+  "shape": "polygon",
+  "starts_at": "2026-12-02T22:00:00Z",
+  "upper": "3216FT AMSL",
+  "upper_fl": 33
+ },
+ "first_seen": "2026-11-11T06:38:17Z",
+ "id": "notam-rjjj/2026/U4279",
+ "issued_at": "2026-11-11T05:45:00Z",
+ "last_seen": "2026-11-11T06:38:17Z",
+ "number": "U4279",
+ "positions": [
+  [
+   40.41583,
+   140.87139
+  ],
+  [
+   40.48361,
+   140.83583
+  ],
+  [
+   40.48306,
+   140.81528
+  ],
+  [
+   40.43167,
+   140.83472
+  ],
+  [
+   40.40944,
+   140.85806
+  ],
+  [
+   40.41583,
+   140.87139
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-11T06:41:10Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4279/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/033/4027N14050E004\nA)RJJJ B)2612022200 C)2612230800\nD)2200/0800\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n402457N1405217E - 402901N1405009E - 402859N1404855E - 402554N1405005E\n- 402434N1405129E - 402457N1405217E \n(KAZUNO-SHI,KAZUNO-GUN IN AKITA)\nWT: 4KG\n\nRMK: THIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)3216FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,102 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-12T06:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.9333,
+   "lon": 136.0333,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-12T01:00:00Z",
+  "upper": "1641FT AMSL",
+  "upper_fl": 17
+ },
+ "first_seen": "2026-11-11T06:38:17Z",
+ "id": "notam-rjjj/2026/U4274",
+ "issued_at": "2026-11-11T05:31:00Z",
+ "last_seen": "2026-11-11T06:38:17Z",
+ "number": "U4274",
+ "positions": [
+  [
+   34.94917,
+   136.00278
+  ],
+  [
+   34.94139,
+   136.00194
+  ],
+  [
+   34.93972,
+   136.00833
+  ],
+  [
+   34.93778,
+   136.01194
+  ],
+  [
+   34.93528,
+   136.01417
+  ],
+  [
+   34.93056,
+   136.01889
+  ],
+  [
+   34.92833,
+   136.02167
+  ],
+  [
+   34.9275,
+   136.02639
+  ],
+  [
+   34.92778,
+   136.03667
+  ],
+  [
+   34.93389,
+   136.04722
+  ],
+  [
+   34.94028,
+   136.04556
+  ],
+  [
+   34.94444,
+   136.04389
+  ],
+  [
+   34.94722,
+   136.03528
+  ],
+  [
+   34.94333,
+   136.02889
+  ],
+  [
+   34.94917,
+   136.00278
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-11T06:41:10Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4274/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/017/3456N13602E002\nA)RJJJ B)2611120100 C)2611120600\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n345657N1360010E - 345629N1360007E - 345623N1360030E - 345616N1360043E\n- 345607N1360051E - 345550N1360108E - 345542N1360118E -\n345539N1360135E - 345540N1360212E - 345602N1360250E - 345625N1360244E\n- 345640N1360238E - 345650N1360207E - 345636N1360144E -\n345657N1360010E \n(OTSU-SHI,RITTO-SHI,KOKA-SHI IN SHIGA)\nWT: 1.5KG\nF)SFC G)1641FT AMSL",
+ "year": 2026
+}

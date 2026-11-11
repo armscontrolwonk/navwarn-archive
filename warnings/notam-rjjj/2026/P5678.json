@@ -1,0 +1,87 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-02T13:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.4333,
+   "lon": 142.5667,
+   "radius_nm": 2
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/1300",
+  "shape": "polygon",
+  "starts_at": "2026-11-30T22:00:00Z",
+  "upper": "5906FT AMSL",
+  "upper_fl": 60
+ },
+ "first_seen": "2026-11-11T06:38:17Z",
+ "id": "notam-rjjj/2026/P5678",
+ "issued_at": "2026-11-11T04:08:00Z",
+ "last_seen": "2026-11-11T06:38:17Z",
+ "number": "P5678",
+ "positions": [
+  [
+   43.44444,
+   142.55639
+  ],
+  [
+   43.44667,
+   142.56361
+  ],
+  [
+   43.44583,
+   142.56611
+  ],
+  [
+   43.42222,
+   142.58694
+  ],
+  [
+   43.41806,
+   142.58806
+  ],
+  [
+   43.41417,
+   142.58417
+  ],
+  [
+   43.41194,
+   142.57861
+  ],
+  [
+   43.41167,
+   142.5725
+  ],
+  [
+   43.41444,
+   142.56833
+  ],
+  [
+   43.44111,
+   142.55028
+  ],
+  [
+   43.44444,
+   142.55639
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-11T06:41:10Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG EXER",
+ "text": "P5678/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/060/4326N14234E002\nA)RJJJ B)2611302200 C)2612021300\nD)2200/1300\nE)FRNG EXER\nWEAPON: 81MORTAR\nAREA: BOUNDED BY FLW POINTS\n432640N1423323E - 432648N1423349E - 432645N1423358E - 432520N1423513E\n- 432505N1423517E - 432451N1423503E - 432443N1423443E -\n432442N1423421E - 432452N1423406E - 432628N1423301E -\n432640N1423323E\n(SORACHI-GUN IN HOKKAIDO)\n(KAMIFURANO MANEUVERING AREA)\nRMK: SOURCE/JSDF-G(RJCA)\nF)SFC G)5906FT AMSL",
+ "year": 2026
+}

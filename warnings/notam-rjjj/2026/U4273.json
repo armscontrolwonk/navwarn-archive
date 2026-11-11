@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-13T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.05,
+   "lon": 138.1,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-12T00:00:00Z",
+  "upper": "1280FT AMSL",
+  "upper_fl": 13
+ },
+ "first_seen": "2026-11-11T06:38:17Z",
+ "id": "notam-rjjj/2026/U4273",
+ "issued_at": "2026-11-11T04:19:00Z",
+ "last_seen": "2026-11-11T06:38:17Z",
+ "number": "U4273",
+ "positions": [
+  [
+   35.09778,
+   138.10083
+  ],
+  [
+   35.095,
+   138.12139
+  ],
+  [
+   35.0575,
+   138.10806
+  ],
+  [
+   34.99667,
+   138.10111
+  ],
+  [
+   34.99694,
+   138.08139
+  ],
+  [
+   35.05778,
+   138.08139
+  ],
+  [
+   35.07,
+   138.095
+  ],
+  [
+   35.09778,
+   138.10083
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-11T06:41:10Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4273/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/013/3503N13806E004\nA)RJJJ B)2611120000 C)2611130800\nD)0000/0800\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n350552N1380603E - 350542N1380717E - 350327N1380629E - 345948N1380604E\n- 345949N1380453E - 350328N1380453E - 350412N1380542E -\n350552N1380603E \n(HAIBARA-GUN IN SHIZUOKA)\nWT: 15.8KG\nCONTACT INFORMATION: 070-4306-0825\nF)SFC G)1280FT AMSL",
+ "year": 2026
+}

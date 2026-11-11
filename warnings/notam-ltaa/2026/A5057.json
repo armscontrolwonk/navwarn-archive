@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-18T09:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.2833,
+   "lon": 31.5333,
+   "radius_nm": 14
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "schedule": "13 2100-2359, 14-17 0000-0900 2100-2359, 18 0000-0900",
+  "shape": "polygon",
+  "starts_at": "2026-11-13T21:00:00Z",
+  "upper": "2000FT AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-11T06:38:17Z",
+ "id": "notam-ltaa/2026/A5057",
+ "issued_at": "2026-11-11T06:21:00Z",
+ "last_seen": "2026-11-11T06:38:17Z",
+ "number": "A5057",
+ "positions": [
+  [
+   36.41639,
+   31.33306
+  ],
+  [
+   36.41639,
+   31.75
+  ],
+  [
+   36.16639,
+   31.75
+  ],
+  [
+   36.16639,
+   31.33306
+  ],
+  [
+   36.41639,
+   31.33306
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-11T06:41:10Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXERCISE WILL TAKE PLACE WI: 362459N0311959E 362459N0314500E ",
+ "text": "A5057/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /000/020/3617N03132E014\nA) LTAA B) 2611132100 C) 2611180900\nD) 13 2100-2359, 14-17 0000-0900 2100-2359, 18 0000-0900\nE) EXERCISE WILL TAKE PLACE WI: 362459N0311959E 362459N0314500E \n360959N0314500E 360959N0311959E 362459N0311959E\nF) SFC G) 2000FT AMSL",
+ "year": 2026
+}

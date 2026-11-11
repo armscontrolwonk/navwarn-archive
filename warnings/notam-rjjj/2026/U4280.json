@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-12T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 32.75,
+   "lon": 130.3,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-12T01:00:00Z",
+  "upper": "4922FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-11-11T06:38:17Z",
+ "id": "notam-rjjj/2026/U4280",
+ "issued_at": "2026-11-11T06:01:00Z",
+ "last_seen": "2026-11-11T06:38:17Z",
+ "number": "U4280",
+ "positions": [
+  [
+   32.76472,
+   130.28417
+  ],
+  [
+   32.76833,
+   130.29722
+  ],
+  [
+   32.76417,
+   130.30944
+  ],
+  [
+   32.74,
+   130.29611
+  ],
+  [
+   32.74139,
+   130.28083
+  ],
+  [
+   32.76472,
+   130.28417
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-11T06:41:10Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4280/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/050/3245N13018E002\nA)RJJJ B)2611120100 C)2611120700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n324553N1301703E - 324606N1301750E - 324551N1301834E - 324424N1301746E\n- 324429N1301651E - 324553N1301703E \n(SHIMABARA-SHI,UNZEN-SHI,MINAMISHIMABARA-SHI IN NAGASAKI)\nWT: 1.1KG\nF)SFC G)4922FT AMSL",
+ "year": 2026
+}

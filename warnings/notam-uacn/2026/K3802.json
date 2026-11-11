@@ -1,0 +1,74 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-11T11:00:00Z",
+ "extra": {
+  "fir": "UACN",
+  "kind": "restricted",
+  "location": "UACN",
+  "lower": "FL210",
+  "lower_fl": 210,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 49.2333,
+   "lon": 75.3167,
+   "radius_nm": 42
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UACN",
+  "shape": "polygon",
+  "starts_at": "2026-11-11T04:00:00Z",
+  "upper": "FL350",
+  "upper_fl": 350
+ },
+ "first_seen": "2026-11-11T06:38:17Z",
+ "id": "notam-uacn/2026/K3802",
+ "issued_at": "2026-11-10T20:19:00Z",
+ "last_seen": "2026-11-11T06:38:17Z",
+ "number": "K3802",
+ "positions": [
+  [
+   49.65333,
+   74.49861
+  ],
+  [
+   49.54833,
+   74.48056
+  ],
+  [
+   49.43056,
+   74.43806
+  ],
+  [
+   49.32056,
+   74.3625
+  ],
+  [
+   49.22833,
+   74.27611
+  ],
+  [
+   48.86917,
+   76.1825
+  ],
+  [
+   49.3475,
+   76.1825
+  ],
+  [
+   49.65333,
+   74.49861
+  ]
+ ],
+ "series": "notam-uacn",
+ "source": {
+  "fetched_at": "2026-11-11T06:41:10Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPORARY RESTRICTED AREA ACTIVATED",
+ "text": "K3802/26 NOTAMN\nQ) UACN/QRTCA/IV/BO /W /210/350/4914N07519E042\nA) UACN B) 2611110400 C) 2611111100\nE) TEMPORARY RESTRICTED AREA ACTIVATED\nAREA BOUNDED BY:\n493912N 0742955E - 493254N 0742850E - 492550N 0742617E - 491914N \n0742145E - 491342N 0741634E - 485209N 0761057E - 492051N 0761057E - \n493912N 0742955E\nF) FL210 G) FL350",
+ "year": 2026
+}

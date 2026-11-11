@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2027-02-03T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.9833,
+   "lon": 138.1167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0700",
+  "shape": "polygon",
+  "starts_at": "2026-11-16T00:00:00Z",
+  "upper": "4955FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-11-11T06:38:17Z",
+ "id": "notam-rjjj/2026/U4278",
+ "issued_at": "2026-11-11T05:45:00Z",
+ "last_seen": "2026-11-11T06:38:17Z",
+ "number": "U4278",
+ "positions": [
+  [
+   35.99861,
+   138.11556
+  ],
+  [
+   35.99528,
+   138.12639
+  ],
+  [
+   35.98333,
+   138.11472
+  ],
+  [
+   35.99861,
+   138.11556
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-11T06:41:10Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4278/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/050/3559N13807E002\nA)RJJJ B)2611160000 C)2702030700\nD)0000/0700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n355955N1380656E - 355943N1380735E - 355900N1380653E - 355955N1380656E\n(CHINO-SHI,SUWA-SHI IN NAGANO)\nWT: 9KG\nF)SFC G)4955FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,55 @@
+{
+ "cancels": [],
+ "expires_at": "2027-02-09T11:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 4.9833,
+   "lon": 100.5833,
+   "radius_nm": 13
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "2300-1100",
+  "shape": "polygon",
+  "starts_at": "2026-11-11T23:00:00Z",
+  "upper": "300FT AGL",
+  "upper_fl": 5
+ },
+ "first_seen": "2026-11-11T06:38:17Z",
+ "id": "notam-wmfc/2026/A4490",
+ "issued_at": "2026-11-10T21:11:00Z",
+ "last_seen": "2026-11-11T06:38:17Z",
+ "number": "A4490",
+ "positions": [
+  [
+   4.78833,
+   100.69861
+  ],
+  [
+   5.03944,
+   100.64111
+  ],
+  [
+   5.17972,
+   100.50028
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-11-11T06:41:10Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE ALONG THE PLUS HIGHWAY FM",
+ "text": "A4490/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/005/0459N10035E013\nA) WMFC B) 2611112300 C) 2702091100 \nD)2300-1100\nE)UA ACT WILL TAKE PLACE ALONG THE PLUS HIGHWAY FM\n\n044718.00N 1004155.00E 050222.00N 1003828.00E -\n051047.00N 1003001.00E \n\n(TAPAH-JAWI) \nF) SFC                             G) 300FT AGL",
+ "year": 2026
+}

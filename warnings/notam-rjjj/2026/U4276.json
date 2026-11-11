@@ -1,0 +1,95 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-30T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.1,
+   "lon": 141.75,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0700",
+  "shape": "polygon",
+  "starts_at": "2026-11-20T00:00:00Z",
+  "upper": "2822FT AMSL",
+  "upper_fl": 29
+ },
+ "first_seen": "2026-11-11T06:38:17Z",
+ "id": "notam-rjjj/2026/U4276",
+ "issued_at": "2026-11-11T05:35:00Z",
+ "last_seen": "2026-11-11T06:38:17Z",
+ "number": "U4276",
+ "positions": [
+  [
+   39.10667,
+   141.75611
+  ],
+  [
+   39.1,
+   141.75889
+  ],
+  [
+   39.09333,
+   141.75611
+  ],
+  [
+   39.09194,
+   141.73667
+  ],
+  [
+   39.09194,
+   141.735
+  ],
+  [
+   39.09694,
+   141.74
+  ],
+  [
+   39.09778,
+   141.74361
+  ],
+  [
+   39.10667,
+   141.75611
+  ],
+  [
+   39.10611,
+   141.75222
+  ],
+  [
+   39.10361,
+   141.75528
+  ],
+  [
+   39.1225,
+   141.78028
+  ],
+  [
+   39.12472,
+   141.77611
+  ],
+  [
+   39.10611,
+   141.75222
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-11T06:41:10Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4276/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/029/3906N14145E003\nA)RJJJ B)2611200000 C)2701300700\nD)0000/0700\nE)UNMANNED ACFT:\n(1)AREA: BOUNDED BY FLW POINTS\n390624N1414522E - 390600N1414532E - 390536N1414522E - 390531N1414412E\n- 390531N1414406E - 390549N1414424E - 390552N1414437E -\n390624N1414522E \n(2)AREA: BOUNDED BY FLW POINTS\n390622N1414508E - 390613N1414519E - 390721N1414649E - 390729N1414634E\n- 390622N1414508E \n(OFUNATO-SHI IN IWATE)\nWT: 4KG\nF)SFC G)2822FT AMSL",
+ "year": 2026
+}
