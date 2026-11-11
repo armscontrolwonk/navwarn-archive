@@ -1,0 +1,41 @@
+{
+ "cancels": [
+  "notam-ltaa/2026/A4990"
+ ],
+ "expires_at": "2026-11-12T15:30:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 37.3833,
+   "lon": 33.8833,
+   "radius_nm": 44
+  },
+  "qcode": "QANLC",
+  "queried_fir": "LTAA",
+  "schedule": "12 1200-1530",
+  "starts_at": "2026-11-11T08:05:00Z",
+  "upper_fl": 300
+ },
+ "first_seen": "2026-11-11T19:40:58Z",
+ "id": "notam-ltaa/2026/A5066",
+ "issued_at": "2026-11-11T08:05:00Z",
+ "last_seen": "2026-11-11T19:40:58Z",
+ "number": "A5066",
+ "positions": [],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-11T19:44:00Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "SEE NOTAM: A5064/26",
+ "text": "A5066/26 NOTAMR A4990/26\nQ) LTAA/QANLC/I /NBO/E /000/300/3723N03353E044\nA) LTAA B) 2611110805 C) 2611121530\nD) 12 1200-1530\nE) SEE NOTAM: A5064/26\nRNAV ROUTES AND SEGMENTS AFFECTED DURING FIRING TEST FLIGHT AS FLW:\n1. AWY T/UT244 REBTA-MANAZ CLSD.\n2. AWY T/UT339 MUT-SELVI CLSD.\n \nVERTICAL LIMITS: SFC-30000FT AMSL",
+ "year": 2026
+}

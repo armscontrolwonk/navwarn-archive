@@ -1,0 +1,83 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-23T16:55:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 59.6833,
+   "lon": 28.9667,
+   "radius_nm": 5
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "18-23 0700-1655",
+  "shape": "polygon",
+  "starts_at": "2026-11-18T07:00:00Z",
+  "upper": "1500M AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-11-11T19:40:58Z",
+ "id": "notam-ulll/2026/Q1347",
+ "issued_at": "2026-11-11T11:02:00Z",
+ "last_seen": "2026-11-11T19:40:58Z",
+ "number": "Q1347",
+ "positions": [
+  [
+   59.73333,
+   28.86667
+  ],
+  [
+   59.73333,
+   29.01722
+  ],
+  [
+   59.62778,
+   29.02389
+  ],
+  [
+   59.62778,
+   28.86667
+  ],
+  [
+   59.73333,
+   28.86667
+  ],
+  [
+   59.73333,
+   29.01722
+  ],
+  [
+   59.73333,
+   29.08333
+  ],
+  [
+   59.62778,
+   29.08333
+  ],
+  [
+   59.62778,
+   29.02389
+  ],
+  [
+   59.73333,
+   29.01722
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-11T19:44:00Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Q1347/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/050/5941N02858E005\nA)ULLL B)2611180700 C)2611231655\nD)18-23 0700-1655\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 594400N0285200E-594400N0290102E-593740N0290126E-\n         593740N0285200E-594400N0285200E\n   GND-1500M AMSL.\n2. AREA: 594400N0290102E-594400N0290500E-593740N0290500E-\n         593740N0290126E-594400N0290102E\n   GND-900M AMSL.\nF)GND  G)1500M AMSL",
+ "year": 2026
+}

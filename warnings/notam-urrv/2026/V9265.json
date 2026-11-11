@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-12T18:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 44.37278,
+    "lon": 46.55194,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.3667,
+   "lon": 46.55,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "URRV",
+  "starts_at": "2026-11-12T05:00:00Z",
+  "upper": "100M AGL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-11T19:40:58Z",
+ "id": "notam-urrv/2026/V9265",
+ "issued_at": "2026-11-11T07:57:00Z",
+ "last_seen": "2026-11-11T19:40:58Z",
+ "number": "V9265",
+ "positions": [
+  [
+   44.37278,
+   46.55194
+  ]
+ ],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-11-11T19:44:00Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 1KM CENTRE 442222N0463307E.",
+ "text": "V9265/26 NOTAMN\nQ)URRV/QRTCA/IV/BO/W/000/999/4422N04633E001\nA)URRV B)2611120500 C)2611121800\nE)AIRSPACE CLSD WI CIRCLE RADIUS 1KM CENTRE 442222N0463307E.\nF)GND  G)100M AGL",
+ "year": 2026
+}

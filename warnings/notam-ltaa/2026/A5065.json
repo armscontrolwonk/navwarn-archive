@@ -1,0 +1,41 @@
+{
+ "cancels": [
+  "notam-ltaa/2026/A5046"
+ ],
+ "expires_at": "2026-11-12T15:30:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "route",
+  "location": "LTAA",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 37.3833,
+   "lon": 33.8833,
+   "radius_nm": 44
+  },
+  "qcode": "QARLC",
+  "queried_fir": "LTAA",
+  "schedule": "12 1200-1530",
+  "starts_at": "2026-11-11T08:03:00Z",
+  "upper_fl": 300
+ },
+ "first_seen": "2026-11-11T19:40:58Z",
+ "id": "notam-ltaa/2026/A5065",
+ "issued_at": "2026-11-11T08:04:00Z",
+ "last_seen": "2026-11-11T19:40:58Z",
+ "number": "A5065",
+ "positions": [],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-11T19:44:00Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "SEE NOTAM: A5064/26",
+ "text": "A5065/26 NOTAMR A5046/26\nQ) LTAA/QARLC/IV/NBO/E /000/300/3723N03353E044\nA) LTAA B) 2611110803 C) 2611121530\nD) 12 1200-1530\nE) SEE NOTAM: A5064/26\nATS ROUTES AND SEGMENTS AFFECTED DURING FIRING TEST FLIGHT AS FLW:\n1. AWY A/UA285 MUT-SELVI SEGMENT CLSD.\nALL TRAFFIC USING THIS AWY COULD FOLLOW MUT-W/UW74-MANAZ-DCT ERHAN \nBIDIRECTIONALLY.\n2.ALL TRAFFIC PLANNING TAKE OFF FROM LTAU AND CONTINUE VIA MUT  \nCOULD FOLLOW ERCIS-DCT-MANAZ-DCT-MUT .\n \nVERTICAL LIMITS: SFC-30000FT AMSL",
+ "year": 2026
+}

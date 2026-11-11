@@ -1,0 +1,105 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T10:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 47.95583,
+    "lon": 134.92167,
+    "radius_nm": 1.62
+   }
+  ],
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 47.9667,
+   "lon": 134.7833,
+   "radius_nm": 12
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "schedule": "DAILY 0200-1000",
+  "starts_at": "2026-11-16T02:00:00Z",
+  "upper": "1500M AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-11-11T19:40:58Z",
+ "id": "notam-uhhh/2026/P9337",
+ "issued_at": "2026-11-11T07:45:00Z",
+ "last_seen": "2026-11-11T19:40:58Z",
+ "number": "P9337",
+ "positions": [
+  [
+   47.95583,
+   134.92167
+  ],
+  [
+   48.13972,
+   134.66083
+  ],
+  [
+   48.04,
+   134.9925
+  ],
+  [
+   47.78639,
+   134.91
+  ],
+  [
+   47.77278,
+   134.75528
+  ],
+  [
+   47.8275,
+   134.66972
+  ],
+  [
+   47.88306,
+   134.6725
+  ],
+  [
+   47.90389,
+   134.64667
+  ],
+  [
+   47.90556,
+   134.60639
+  ],
+  [
+   47.94833,
+   134.60472
+  ],
+  [
+   47.98861,
+   134.57556
+  ],
+  [
+   48.05917,
+   134.58111
+  ],
+  [
+   48.1,
+   134.63583
+  ],
+  [
+   48.13972,
+   134.66083
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-11-11T19:44:00Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P9337/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/050/4758N13447E012\nA)UHHH B)2611160200 C)2611191000\nD)DAILY 0200-1000\nE)AIRSPACE CLSD AS FLW:\n1. WI CIRCLE RADIUS 3KM CENTRE 475721N1345518E\n   SFC-1500M AMSL.\n2. AREA: 480823N1343939E-480224N1345933E-474711N1345436E-\n         474622N1344519E-474939N1344011E-475259N1344021E-\n         475414N1343848E-475420N1343623E-475654N1343617E-\n         475919N1343432E-480333N1343452E-480600N1343809E-\n         480823N1343939E\n   250M AMSL-1500M AMSL.\nF)SFC  G)1500M AMSL",
+ "year": 2026
+}

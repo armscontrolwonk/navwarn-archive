@@ -1,0 +1,73 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-15T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 57.03333,
+    "lon": 65.51667,
+    "radius_nm": 0.11
+   }
+  ],
+  "fir": "USTV",
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 57.0333,
+   "lon": 65.4833,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USTV",
+  "schedule": "12-15 1500-2359",
+  "starts_at": "2026-11-12T15:00:00Z",
+  "upper": "350M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-11T19:40:58Z",
+ "id": "notam-ustv/2026/Z6573",
+ "issued_at": "2026-11-11T12:39:00Z",
+ "last_seen": "2026-11-11T19:40:58Z",
+ "number": "Z6573",
+ "positions": [
+  [
+   57.05361,
+   65.52833
+  ],
+  [
+   57.03861,
+   65.54306
+  ],
+  [
+   57.0,
+   65.44972
+  ],
+  [
+   57.00944,
+   65.42389
+  ],
+  [
+   57.05361,
+   65.52833
+  ],
+  [
+   57.03333,
+   65.51667
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-11-11T19:44:00Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z6573/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/020/5702N06529E003\nA)USTV B)2611121500 C)2611152359\nD)12-15 1500-2359\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 570313N0653142E-570219N0653235E-570000N0652659E-\n         570034N0652526E-570313N0653142E\n   100M AMSL-350M AMSL.\n2. WI CIRCLE RADIUS 0.2KM CENTRE 570200N0653100E\n   GND-350M AMSL.\nF)GND  G)350M AMSL",
+ "year": 2026
+}

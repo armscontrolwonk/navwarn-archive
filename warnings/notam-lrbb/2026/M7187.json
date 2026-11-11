@@ -1,0 +1,74 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-12T14:50:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "exercise",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.3833,
+   "lon": 24.2333,
+   "radius_nm": 76
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-11-12T07:00:00Z",
+  "upper": "FL030",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-11T19:40:58Z",
+ "id": "notam-lrbb/2026/M7187",
+ "issued_at": "2026-11-11T17:13:00Z",
+ "last_seen": "2026-11-11T19:40:58Z",
+ "number": "M7187",
+ "positions": [
+  [
+   44.11778,
+   25.9275
+  ],
+  [
+   44.47222,
+   25.96778
+  ],
+  [
+   44.52083,
+   25.77667
+  ],
+  [
+   44.55083,
+   23.03722
+  ],
+  [
+   44.45361,
+   22.51333
+  ],
+  [
+   44.24472,
+   22.71944
+  ],
+  [
+   44.10917,
+   23.05778
+  ],
+  [
+   44.11778,
+   25.9275
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-11-11T19:44:00Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "NAVIGATION WARNING.",
+ "text": "M7187/26 NOTAMN\nQ) LRBB/QWELW/IV/BO /W /000/030/4423N02414E076\nA) LRBB B) 2611120700 C) 2611121450\nE) NAVIGATION WARNING.\n   FOX VACCINATION FLT WILL TAKE PLACE INTO THE FLW AREA:\n   440704N0255539E-442820N0255804E-443115N0254636E-443303N0230214E\n   442713N0223048E-441441N0224310E-440633N0230328E-440704N0255539E\nF) GND G) FL030",
+ "year": 2026
+}

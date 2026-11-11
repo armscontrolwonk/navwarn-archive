@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T06:53:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "exercise",
+  "location": "VABF",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.7,
+   "lon": 70.0167,
+   "radius_nm": 3
+  },
+  "qcode": "QWELW",
+  "queried_fir": "VABF",
+  "schedule": "15 19 0557-0559 0651-0653",
+  "shape": "polygon",
+  "starts_at": "2026-11-15T05:57:00Z",
+  "upper": "2000FT AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-11T19:40:58Z",
+ "id": "notam-vabf/2026/A1816",
+ "issued_at": "2026-11-11T12:51:00Z",
+ "last_seen": "2026-11-11T19:40:58Z",
+ "number": "A1816",
+ "positions": [
+  [
+   22.725,
+   69.98333
+  ],
+  [
+   22.725,
+   70.03667
+  ],
+  [
+   22.67667,
+   70.03667
+  ],
+  [
+   22.67667,
+   69.98333
+  ],
+  [
+   22.70833,
+   69.98333
+  ]
+ ],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-11-11T19:44:00Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "SKYDIVING ACT WI AREA BOUNDED BY COORD",
+ "text": "A1816/26 NOTAMN\nQ) VABF/QWELW/IV/BO/W/000/020/2242N07001E003\nA) VABF B) 2611150557 C) 2611190653\nD) 15 19 0557-0559 0651-0653\nE) SKYDIVING ACT WI AREA BOUNDED BY COORD\n   224330N 0695900E-224330N 0700212E-\n   224036N 0700212E-224036N 0695900E-\n   224230N 0695900E\nF) SFC G) 2000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-16T13:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.2,
+   "lon": 34.6833,
+   "radius_nm": 34
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-16T11:00:00Z",
+  "upper": "FL100",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-11T19:40:58Z",
+ "id": "notam-ltaa/2026/A5082",
+ "issued_at": "2026-11-11T12:49:00Z",
+ "last_seen": "2026-11-11T19:40:58Z",
+ "number": "A5082",
+ "positions": [
+  [
+   36.47917,
+   34.62639
+  ],
+  [
+   36.1875,
+   34.00667
+  ],
+  [
+   36.0,
+   34.19583
+  ],
+  [
+   36.0,
+   35.23333
+  ],
+  [
+   36.21667,
+   35.36667
+  ],
+  [
+   36.47917,
+   34.62639
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-11T19:44:00Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXERCISE WILL TAKE PLACE WITHIN ADANA MILITARY TMA:",
+ "text": "A5082/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /000/100/3612N03441E034\nA) LTAA B) 2611161100 C) 2611161300\nE) EXERCISE WILL TAKE PLACE WITHIN ADANA MILITARY TMA:\n362845N0343735E 361115N0340024E 360000N0341145E 360000N0351400E \n361300N0352200E 362845N0343735E\nF) SFC G) FL100",
+ "year": 2026
+}

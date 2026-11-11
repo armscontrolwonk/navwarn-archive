@@ -1,0 +1,101 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-22T17:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 43.68056,
+    "lon": 44.68639,
+    "radius_nm": 1.62
+   }
+  ],
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.7,
+   "lon": 44.65,
+   "radius_nm": 11
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "URRV",
+  "schedule": "14 15 21 22 0600-1700",
+  "starts_at": "2026-11-14T06:00:00Z",
+  "upper": "750M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-11T19:40:58Z",
+ "id": "notam-urrv/2026/V9264",
+ "issued_at": "2026-11-11T07:54:00Z",
+ "last_seen": "2026-11-11T19:40:58Z",
+ "number": "V9264",
+ "positions": [
+  [
+   43.77972,
+   44.46889
+  ],
+  [
+   43.80889,
+   44.47278
+  ],
+  [
+   43.81583,
+   44.50778
+  ],
+  [
+   43.8125,
+   44.55417
+  ],
+  [
+   43.75222,
+   44.62194
+  ],
+  [
+   43.71417,
+   44.65778
+  ],
+  [
+   43.725,
+   44.75028
+  ],
+  [
+   43.66806,
+   44.83389
+  ],
+  [
+   43.61583,
+   44.84139
+  ],
+  [
+   43.57583,
+   44.81639
+  ],
+  [
+   43.58833,
+   44.75583
+  ],
+  [
+   43.77972,
+   44.46889
+  ],
+  [
+   43.68056,
+   44.68639
+  ]
+ ],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-11-11T19:44:00Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "V9264/26 NOTAMN\nQ)URRV/QRTCA/IV/BO/W/000/030/4342N04439E011\nA)URRV B)2611140600 C)2611221700\nD)14 15 21 22 0600-1700\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 434647N0442808E-434832N0442822E-434857N0443028E-\n         434845N0443315E-434508N0443719E-434251N0443928E-\n         434330N0444501E-434005N0445002E-433657N0445029E-\n         433433N0444859E-433518N0444521E-434647N0442808E\n   450M AMSL-750M AMSL.\n2. WI CIRCLE RADIUS 3KM CENTRE 434050N0444111E\n   GND-750M AMSL.\nF)GND  G)750M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,42 @@
+{
+ "cancels": [
+  "notam-uwww/2026/V9103"
+ ],
+ "expires_at": "2026-11-14T23:59:00Z",
+ "extra": {
+  "fir": "UWWW",
+  "kind": "route",
+  "location": "UWWW",
+  "lower": "FL065",
+  "lower_fl": 65,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 53.5,
+   "lon": 50.15,
+   "radius_nm": 5
+  },
+  "qcode": "QARLC",
+  "queried_fir": "UWWW",
+  "starts_at": "2026-11-11T00:00:00Z",
+  "upper": "FL330",
+  "upper_fl": 330
+ },
+ "first_seen": "2026-11-11T19:40:58Z",
+ "id": "notam-uwww/2026/V9270",
+ "issued_at": "2026-11-11T08:21:00Z",
+ "last_seen": "2026-11-11T19:40:58Z",
+ "number": "V9270",
+ "positions": [],
+ "series": "notam-uwww",
+ "source": {
+  "fetched_at": "2026-11-11T19:44:00Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENTS CLSD:",
+ "text": "V9270/26 NOTAMR V9103/26\nQ)UWWW/QARLC/IV/NBO/E/065/330/5330N05009E005\nA)UWWW B)2611110000 C)2611142359\nE)ATS RTE SEGMENTS CLSD:\nL93 UNUKO-MEBOG FL065-FL330,\nL94 GEMKI-BAKTU FL065-FL330,\nT796 BIPMA-NUTNO FL075-FL330,\nW911 ABNAS-NATBI FL065-FL285.\nF)FL065  G)FL330",
+ "year": 2026
+}
