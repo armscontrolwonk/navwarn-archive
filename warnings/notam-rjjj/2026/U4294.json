@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-16T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 31.8667,
+   "lon": 130.2,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-16T01:00:00Z",
+  "upper": "1674FT AMSL",
+  "upper_fl": 17
+ },
+ "first_seen": "2026-11-12T07:20:22Z",
+ "id": "notam-rjjj/2026/U4294",
+ "issued_at": "2026-11-12T03:48:00Z",
+ "last_seen": "2026-11-12T07:20:22Z",
+ "number": "U4294",
+ "positions": [
+  [
+   31.84806,
+   130.20222
+  ],
+  [
+   31.85333,
+   130.18472
+  ],
+  [
+   31.87167,
+   130.19306
+  ],
+  [
+   31.8675,
+   130.20944
+  ],
+  [
+   31.84806,
+   130.20222
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-12T07:23:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4294/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/017/3152N13012E002\nA)RJJJ B)2611160100 C)2611160700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n315053N1301208E - 315112N1301105E - 315218N1301135E - 315203N1301234E\n- 315053N1301208E \n(SATSUMASENDAI-SHI IN KAGOSHIMA)\nWT: 1.0KG\nF)SFC G)1674FT AMSL",
+ "year": 2026
+}

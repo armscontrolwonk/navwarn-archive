@@ -1,0 +1,81 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T11:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 54.65806,
+    "lon": 86.28722,
+    "radius_nm": 0.16
+   }
+  ],
+  "fir": "UNNT",
+  "kind": "restricted",
+  "location": "UNNT",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 54.6167,
+   "lon": 86.2167,
+   "radius_nm": 10
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNNT",
+  "schedule": "DAILY 0300-1100",
+  "starts_at": "2026-11-16T03:00:00Z",
+  "upper": "1100M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-11-12T07:20:22Z",
+ "id": "notam-unnt/2026/L4493",
+ "issued_at": "2026-11-12T04:10:00Z",
+ "last_seen": "2026-11-12T07:20:22Z",
+ "number": "L4493",
+ "positions": [
+  [
+   54.63056,
+   85.94722
+  ],
+  [
+   54.70556,
+   86.06667
+  ],
+  [
+   54.72361,
+   86.14028
+  ],
+  [
+   54.66944,
+   86.32
+  ],
+  [
+   54.59694,
+   86.47444
+  ],
+  [
+   54.48667,
+   86.32528
+  ],
+  [
+   54.63056,
+   85.94722
+  ],
+  [
+   54.65806,
+   86.28722
+  ]
+ ],
+ "series": "notam-unnt",
+ "source": {
+  "fetched_at": "2026-11-12T07:23:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "L4493/26 NOTAMN\nQ)UNNT/QRTCA/IV/BO/W/000/040/5437N08613E010\nA)UNNT B)2611160300 C)2611201100\nD)DAILY 0300-1100\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 543750N0855650E-544220N0860400E-544325N0860825E-\n         544010N0861912E-543549N0862828E-542912N0861931E-\n         543750N0855650E\n   300M AMSL-1100M AMSL.\n2. WI CIRCLE RADIUS 0.3KM CENTRE 543929N0861714E\n   GND-1100M AMSL.\nF)GND  G)1100M AMSL",
+ "year": 2026
+}

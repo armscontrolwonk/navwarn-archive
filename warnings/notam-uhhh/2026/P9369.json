@@ -1,0 +1,143 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T09:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 52.32583,
+    "lon": 143.04444,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 52.33,
+    "lon": 143.03889,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 52.13889,
+    "lon": 143.06167,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 52.25,
+   "lon": 142.9667,
+   "radius_nm": 10
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "schedule": "DAILY 2200-0900",
+  "starts_at": "2026-11-15T22:00:00Z",
+  "upper": "850M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-12T07:20:22Z",
+ "id": "notam-uhhh/2026/P9369",
+ "issued_at": "2026-11-12T03:32:00Z",
+ "last_seen": "2026-11-12T07:20:22Z",
+ "number": "P9369",
+ "positions": [
+  [
+   52.40083,
+   142.98333
+  ],
+  [
+   52.30667,
+   142.95667
+  ],
+  [
+   52.2875,
+   142.96306
+  ],
+  [
+   52.21111,
+   142.96056
+  ],
+  [
+   52.14556,
+   142.91806
+  ],
+  [
+   52.10028,
+   142.89806
+  ],
+  [
+   52.10111,
+   142.94778
+  ],
+  [
+   52.1275,
+   143.075
+  ],
+  [
+   52.13833,
+   143.08167
+  ],
+  [
+   52.14833,
+   143.07694
+  ],
+  [
+   52.18389,
+   142.99333
+  ],
+  [
+   52.2025,
+   143.00444
+  ],
+  [
+   52.29333,
+   143.01028
+  ],
+  [
+   52.31833,
+   143.05528
+  ],
+  [
+   52.32611,
+   143.06
+  ],
+  [
+   52.33972,
+   143.05583
+  ],
+  [
+   52.39806,
+   143.0425
+  ],
+  [
+   52.40083,
+   142.98333
+  ],
+  [
+   52.32583,
+   143.04444
+  ],
+  [
+   52.33,
+   143.03889
+  ],
+  [
+   52.13889,
+   143.06167
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-11-12T07:23:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P9369/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/030/5215N14258E010\nA)UHHH B)2611152200 C)2611200900\nD)DAILY 2200-0900\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 522403N1425900E-521824N1425724E-521715N1425747E-\n         521240N1425738E-520844N1425505E-520601N1425353E-\n         520604N1425652E-520739N1430430E-520818N1430454E-\n         520854N1430437E-521102N1425936E-521209N1430016E-\n         521736N1430037E-521906N1430319E-521934N1430336E-\n         522023N1430321E-522353N1430233E-522403N1425900E\n   400M AMSL-850M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 521933N1430240E\n   SFC-850M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 521948N1430220E\n   SFC-850M AMSL.\n4. WI CIRCLE RADIUS 1KM CENTRE 520820N1430342E\n   SFC-850M AMSL.\nF)SFC  G)850M AMSL",
+ "year": 2026
+}

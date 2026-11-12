@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T16:45:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "route",
+  "location": "ULLL",
+  "lower": "FL055",
+  "lower_fl": 55,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 58.0833,
+   "lon": 31.05,
+   "radius_nm": 20
+  },
+  "qcode": "QARLC",
+  "queried_fir": "ULLL",
+  "schedule": "14-19 0800-1645",
+  "starts_at": "2026-11-14T08:00:00Z",
+  "upper": "FL155",
+  "upper_fl": 155
+ },
+ "first_seen": "2026-11-12T07:20:22Z",
+ "id": "notam-ulll/2026/Q1391",
+ "issued_at": "2026-11-12T07:11:00Z",
+ "last_seen": "2026-11-12T07:20:22Z",
+ "number": "Q1391",
+ "positions": [],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-12T07:23:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENTS CLSD:",
+ "text": "Q1391/26 NOTAMN\nQ)ULLL/QARLC/IV/NBO/E/055/155/5805N03103E020\nA)ULLL B)2611140800 C)2611191645\nD)14-19 0800-1645\nE)ATS RTE SEGMENTS CLSD:\nM856 OSDIR-GILAP,\nT272 RILKA-GILAP,\nW787 OSDIR-DIPAD.\nF)FL055  G)FL155",
+ "year": 2026
+}

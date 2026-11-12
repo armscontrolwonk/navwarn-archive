@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T12:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 53.89389,
+    "lon": 118.74944,
+    "radius_nm": 0.86
+   }
+  ],
+  "fir": "UIII",
+  "kind": "restricted",
+  "location": "UIII",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 53.8833,
+   "lon": 118.7333,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UIII",
+  "schedule": "15-20 0300-1200",
+  "starts_at": "2026-11-15T03:00:00Z",
+  "upper": "1870M AMSL",
+  "upper_fl": 70
+ },
+ "first_seen": "2026-11-12T07:20:22Z",
+ "id": "notam-uiii/2026/L4471",
+ "issued_at": "2026-11-11T23:55:00Z",
+ "last_seen": "2026-11-12T07:20:22Z",
+ "number": "L4471",
+ "positions": [
+  [
+   53.89389,
+   118.74944
+  ]
+ ],
+ "series": "notam-uiii",
+ "source": {
+  "fetched_at": "2026-11-12T07:23:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 1.6KM CENTRE 535338N1184458E.",
+ "text": "L4471/26 NOTAMN\nQ)UIII/QRTCA/IV/BO/W/000/070/5353N11844E001\nA)UIII B)2611150300 C)2611201200\nD)15-20 0300-1200\nE)AIRSPACE CLSD WI CIRCLE RADIUS 1.6KM CENTRE 535338N1184458E.\nF)SFC  G)1870M AMSL",
+ "year": 2026
+}

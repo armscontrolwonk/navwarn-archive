@@ -1,0 +1,83 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-24T07:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.2167,
+   "lon": 143.0667,
+   "radius_nm": 2
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "schedule": "2330/0730",
+  "shape": "polygon",
+  "starts_at": "2026-11-21T23:30:00Z",
+  "upper": "5905FT AMSL",
+  "upper_fl": 60
+ },
+ "first_seen": "2026-11-12T07:20:22Z",
+ "id": "notam-rjjj/2026/P5688",
+ "issued_at": "2026-11-12T03:03:00Z",
+ "last_seen": "2026-11-12T07:20:22Z",
+ "number": "P5688",
+ "positions": [
+  [
+   43.20917,
+   143.04333
+  ],
+  [
+   43.225,
+   143.06111
+  ],
+  [
+   43.23444,
+   143.07083
+  ],
+  [
+   43.23528,
+   143.08167
+  ],
+  [
+   43.23111,
+   143.08833
+  ],
+  [
+   43.22361,
+   143.08778
+  ],
+  [
+   43.21528,
+   143.07556
+  ],
+  [
+   43.20167,
+   143.05667
+  ],
+  [
+   43.20389,
+   143.04917
+  ],
+  [
+   43.20917,
+   143.04333
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-12T07:23:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "GND/GND FRNG",
+ "text": "P5688/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/060/4313N14304E002\nA)RJJJ B)2611212330 C)2611240730\nD)2330/0730\nE)GND/GND FRNG\nWEAPON: 81MORTAR\nAREA: BOUNDED BY FLW POINTS\n431233N1430236E - 431330N1430340E - 431404N1430415E -\n431407N1430454E - 431352N1430518E - 431325N1430516E -\n431255N1430432E - 431206N1430324E - 431214N1430257E -\n431233N1430236E\n(SHIKARIBETSU MANEUVERING AREA)\n(KATO-GUN IN HOKKAIDO)\nRMK: (1)THIS AREA IS INCLUDED IN HK2-1\n(2)SOURCE/JSDF-G(RJCT)\nF)SFC G)5905FT AMSL",
+ "year": 2026
+}

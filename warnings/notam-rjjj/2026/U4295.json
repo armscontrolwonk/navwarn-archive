@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-15T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.3333,
+   "lon": 142.4833,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0700",
+  "shape": "polygon",
+  "starts_at": "2026-11-14T00:00:00Z",
+  "upper": "2314FT AMSL",
+  "upper_fl": 24
+ },
+ "first_seen": "2026-11-12T07:20:22Z",
+ "id": "notam-rjjj/2026/U4295",
+ "issued_at": "2026-11-12T05:04:00Z",
+ "last_seen": "2026-11-12T07:20:22Z",
+ "number": "U4295",
+ "positions": [
+  [
+   43.3525,
+   142.49806
+  ],
+  [
+   43.33306,
+   142.52389
+  ],
+  [
+   43.31944,
+   142.50556
+  ],
+  [
+   43.33139,
+   142.45694
+  ],
+  [
+   43.3525,
+   142.49806
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-12T07:23:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4295/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/024/4320N14229E003\nA)RJJJ B)2611140000 C)2611150700\nD)0000/0700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n432109N1422953E - 431959N1423126E - 431910N1423020E - 431953N1422725E\n- 432109N1422953E \n(FURANO-SHI IN HOKKAIDO)\nWT: 1.1KG\nF)SFC G)2314FT AMSL",
+ "year": 2026
+}

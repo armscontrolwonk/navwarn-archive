@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T06:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "exercise",
+  "location": "WMFC",
+  "lower": "24000FT AMSL",
+  "lower_fl": 240,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 2.1167,
+   "lon": 101.8833,
+   "radius_nm": 36
+  },
+  "qcode": "QWELW",
+  "queried_fir": "WMFC",
+  "schedule": "DLY 0100-0600",
+  "shape": "polygon",
+  "starts_at": "2026-11-18T01:00:00Z",
+  "upper": "29000FT AMSL",
+  "upper_fl": 290
+ },
+ "first_seen": "2026-11-12T07:20:22Z",
+ "id": "notam-wmfc/2026/A4504",
+ "issued_at": "2026-11-12T02:07:00Z",
+ "last_seen": "2026-11-12T07:20:22Z",
+ "number": "A4504",
+ "positions": [
+  [
+   2.34111,
+   101.34278
+  ],
+  [
+   2.58917,
+   101.55694
+  ],
+  [
+   1.92667,
+   102.445
+  ],
+  [
+   1.66667,
+   102.22667
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-11-12T07:23:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL EXER (PATKOR MALINDO) WILL TAKE PLACE WI THE FLW COORD:",
+ "text": "A4504/26 NOTAMN\nQ) WMFC/QWELW/IV/BO /W /240/290/0207N10153E036\nA) WMFC B) 2611180100 C) 2611190600 \nD)DLY 0100-0600\nE)MIL EXER (PATKOR MALINDO) WILL TAKE PLACE WI THE FLW COORD:\n\n   022028.00N 1012034.00E - 023521.00N 1013325.00E -\n   015536.00N 1022642.00E - 014000.00N 1021336.00E \n\n   (MALACCA STRAIT WATERS)\nF) 24000FT AMSL                    G) 29000FT AMSL",
+ "year": 2026
+}

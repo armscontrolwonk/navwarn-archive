@@ -1,0 +1,40 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-13T16:50:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "route",
+  "location": "ULLL",
+  "lower": "300M AMSL",
+  "lower_fl": 10,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 60.5667,
+   "lon": 33.2,
+   "radius_nm": 33
+  },
+  "qcode": "QARLC",
+  "queried_fir": "ULLL",
+  "starts_at": "2026-11-13T07:10:00Z",
+  "upper": "600M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-12T07:20:22Z",
+ "id": "notam-ulll/2026/Q1379",
+ "issued_at": "2026-11-12T06:43:00Z",
+ "last_seen": "2026-11-12T07:20:22Z",
+ "number": "Q1379",
+ "positions": [],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-12T07:23:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENTS CLSD:",
+ "text": "Q1379/26 NOTAMN\nQ)ULLL/QARLC/IV/NBO/E/010/020/6034N03312E033\nA)ULLL B)2611130710 C)2611131650\nE)ATS RTE SEGMENTS CLSD:\nKR832 DIREP-KUMLE 300M AMSL-600M AMSL,\nKR832 KUMLE-LAGUP 450M AMSL-600M AMSL.\nF)300M AMSL  G)600M AMSL",
+ "year": 2026
+}

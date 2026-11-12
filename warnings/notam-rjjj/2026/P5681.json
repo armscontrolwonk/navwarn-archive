@@ -1,0 +1,74 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-14T09:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.8833,
+   "lon": 141.4667,
+   "radius_nm": 2
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-13T22:00:00Z",
+  "upper": "3461FT AMSL",
+  "upper_fl": 35
+ },
+ "first_seen": "2026-11-12T07:20:22Z",
+ "id": "notam-rjjj/2026/P5681",
+ "issued_at": "2026-11-12T01:06:00Z",
+ "last_seen": "2026-11-12T07:20:22Z",
+ "number": "P5681",
+ "positions": [
+  [
+   42.89972,
+   141.47444
+  ],
+  [
+   42.89611,
+   141.48417
+  ],
+  [
+   42.88861,
+   141.49528
+  ],
+  [
+   42.86139,
+   141.4675
+  ],
+  [
+   42.88222,
+   141.43556
+  ],
+  [
+   42.8975,
+   141.45778
+  ],
+  [
+   42.89556,
+   141.46611
+  ],
+  [
+   42.89972,
+   141.47444
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-12T07:23:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG EXER:",
+ "text": "P5681/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/035/4253N14128E002\nA)RJJJ B)2611132200 C)2611140900\nE)FRNG EXER:\nWEAPON: 81MORTAR,120MORTAR\nAREA: BOUNDED BY FLW POINTS\n425359N1412828E - 425346N1412903E - 425319N1412943E -\n425141N1412803E - 425256N1412608E - 425351N1412728E -\n425344N1412758E - 425359N1412828E\n(HOKKAIDODAI MANEUVERING AREA SHIMAMATSU)\n(ENIWA-SHI,KITAHIROSHIMA-SHI IN HOKKAIDO)\nRMK: SOURCE/JSDF-G(RJCO)\nF)SFC G)3461FT AMSL",
+ "year": 2026
+}

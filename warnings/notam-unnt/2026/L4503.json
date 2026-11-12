@@ -1,0 +1,105 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T14:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 55.19222,
+    "lon": 82.90278,
+    "radius_nm": 0.27
+   }
+  ],
+  "fir": "UNNT",
+  "kind": "restricted",
+  "location": "UNNT",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.2,
+   "lon": 82.8667,
+   "radius_nm": 4
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNNT",
+  "schedule": "14-19 0200-1400",
+  "starts_at": "2026-11-14T02:00:00Z",
+  "upper": "500M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-12T07:20:22Z",
+ "id": "notam-unnt/2026/L4503",
+ "issued_at": "2026-11-12T07:01:00Z",
+ "last_seen": "2026-11-12T07:20:22Z",
+ "number": "L4503",
+ "positions": [
+  [
+   55.20167,
+   82.78389
+  ],
+  [
+   55.18278,
+   82.78417
+  ],
+  [
+   55.1825,
+   82.92222
+  ],
+  [
+   55.19,
+   82.92417
+  ],
+  [
+   55.19611,
+   82.92972
+  ],
+  [
+   55.20278,
+   82.93972
+  ],
+  [
+   55.2175,
+   82.96222
+  ],
+  [
+   55.23333,
+   82.94972
+  ],
+  [
+   55.24111,
+   82.93444
+  ],
+  [
+   55.22833,
+   82.91583
+  ],
+  [
+   55.20333,
+   82.89222
+  ],
+  [
+   55.20194,
+   82.78556
+  ],
+  [
+   55.20167,
+   82.78389
+  ],
+  [
+   55.19222,
+   82.90278
+  ]
+ ],
+ "series": "notam-unnt",
+ "source": {
+  "fetched_at": "2026-11-12T07:23:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "L4503/26 NOTAMN\nQ)UNNT/QRTCA/IV/BO/W/000/020/5512N08252E004\nA)UNNT B)2611140200 C)2611191400\nD)14-19 0200-1400\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 551206N0824702E-551058N0824703E-551057N0825520E-\n         551124N0825527E-551146N0825547E-551210N0825623E-\n         551303N0825744E-551400N0825659E-551428N0825604E-\n         551342N0825457E-551212N0825332E-551207N0824708E-\n         551206N0824702E\n   450M AMSL-500M AMSL.\n2. WI CIRCLE RADIUS 0.5KM CENTRE 551132N0825410E\n   GND-500M AMSL.\nF)GND  G)500M AMSL",
+ "year": 2026
+}

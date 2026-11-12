@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T08:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 21.8,
+   "lon": 120.6667,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "schedule": "0400-0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-16T04:00:00Z",
+  "upper": "4000FT AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-11-12T07:20:22Z",
+ "id": "notam-rcaa/2026/U2896",
+ "issued_at": "2026-11-12T03:07:00Z",
+ "last_seen": "2026-11-12T07:20:22Z",
+ "number": "U2896",
+ "positions": [
+  [
+   21.82528,
+   120.65556
+  ],
+  [
+   21.82306,
+   120.69
+  ],
+  [
+   21.78111,
+   120.68389
+  ],
+  [
+   21.76722,
+   120.66417
+  ],
+  [
+   21.78556,
+   120.64944
+  ],
+  [
+   21.82528,
+   120.65556
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-11-12T07:23:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2896/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/040/2148N12040E003\nA) RCAA\nB) 2611160400 C) 2611200800\nD) 0400-0800\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB261109002502\n2.LCA:HENGCHUN TOWNSHIP, PINGTUNG COUNTY\n3.COOR TEL:0963-273588\n4.AREA AS FLW:\n214931N 1203920E\n214923N 1204124E\n214652N 1204102E\n214602N 1203951E\n214708N 1203858E\n214931N 1203920E\nF) SFC G) 4000FT AMSL",
+ "year": 2026
+}

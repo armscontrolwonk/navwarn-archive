@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2027-02-11T09:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 2.8167,
+   "lon": 101.3167,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "DLY 0000-0900",
+  "shape": "polygon",
+  "starts_at": "2026-11-13T00:00:00Z",
+  "upper": "400FT AGL",
+  "upper_fl": 5
+ },
+ "first_seen": "2026-11-12T07:20:22Z",
+ "id": "notam-wmfc/2026/C0241",
+ "issued_at": "2026-11-12T07:04:00Z",
+ "last_seen": "2026-11-12T07:20:22Z",
+ "number": "C0241",
+ "positions": [
+  [
+   2.82946,
+   101.33286
+  ],
+  [
+   2.82832,
+   101.33429
+  ],
+  [
+   2.81971,
+   101.34273
+  ],
+  [
+   2.81548,
+   101.33568
+  ],
+  [
+   2.81631,
+   101.3272
+  ],
+  [
+   2.82466,
+   101.3197
+  ],
+  [
+   2.8301,
+   101.31919
+  ],
+  [
+   2.82946,
+   101.33286
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-11-12T07:23:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI THE FLW COORD:",
+ "text": "C0241/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/005/0249N10119E001\nA) WMFC B) 2611130000 C) 2702110900 \nD) DLY 0000-0900\nE)UA ACT WILL TAKE PLACE WI THE FLW COORD:\n\n  024946.04N 1011958.29E - 024941.96N 1012003.46E -\n  024910.97N 1012033.84E - 024855.72N 1012008.46E -\n  024858.71N 1011937.92E - 024928.76N 1011910.91E -\n  024948.35N 1011909.10E - 024946.04N 1011958.29E \n \n(PANTAI TG RHU, CAREY ISLAND, SELANGOR)\nF) SFC                             G) 400FT AGL",
+ "year": 2026
+}
