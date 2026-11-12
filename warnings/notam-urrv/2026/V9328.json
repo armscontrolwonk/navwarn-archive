@@ -1,0 +1,83 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-21T15:00:00Z",
+ "extra": {
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.2167,
+   "lon": 47.9667,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "URRV",
+  "schedule": "16-21 0600-1500",
+  "shape": "polygon",
+  "starts_at": "2026-11-16T06:00:00Z",
+  "upper": "450M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-12T20:02:05Z",
+ "id": "notam-urrv/2026/V9328",
+ "issued_at": "2026-11-12T08:04:00Z",
+ "last_seen": "2026-11-12T20:02:05Z",
+ "number": "V9328",
+ "positions": [
+  [
+   42.22722,
+   47.93722
+  ],
+  [
+   42.22972,
+   47.95417
+  ],
+  [
+   42.22806,
+   47.9725
+  ],
+  [
+   42.23139,
+   47.98583
+  ],
+  [
+   42.23861,
+   47.99611
+  ],
+  [
+   42.23028,
+   48.00833
+  ],
+  [
+   42.19056,
+   48.00278
+  ],
+  [
+   42.20861,
+   47.9675
+  ],
+  [
+   42.20861,
+   47.94083
+  ],
+  [
+   42.22722,
+   47.93722
+  ]
+ ],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-11-12T20:05:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "V9328/26 NOTAMN\nQ)URRV/QRTCA/IV/BO/W/000/020/4213N04758E003\nA)URRV B)2611160600 C)2611211500\nD)16-21 0600-1500\nE)AIRSPACE CLSD WI AREA:\n421338N0475614E-421347N0475715E-421341N0475821E-421353N0475909E-\n421419N0475946E-421349N0480030E-421126N0480010E-421231N0475803E-\n421231N0475627E-421338N0475614E.\nF)SFC  G)450M AMSL",
+ "year": 2026
+}

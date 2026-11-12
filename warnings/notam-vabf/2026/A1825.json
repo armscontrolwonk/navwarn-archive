@@ -1,0 +1,49 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-14T07:30:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "drone",
+  "location": "VABF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.2167,
+   "lon": 72.6667,
+   "radius_nm": 4
+  },
+  "qcode": "QRACA",
+  "queried_fir": "VABF",
+  "starts_at": "2026-11-13T11:30:00Z",
+  "upper": "5000FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-11-12T20:02:05Z",
+ "id": "notam-vabf/2026/A1825",
+ "issued_at": "2026-11-12T12:26:00Z",
+ "last_seen": "2026-11-12T20:02:05Z",
+ "number": "A1825",
+ "positions": [
+  [
+   23.22333,
+   72.67444
+  ],
+  [
+   23.21889,
+   72.665
+  ]
+ ],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-11-12T20:05:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "NO FLY ZONE FOR HEL AND DRONES WI RADIUS 05KM",
+ "text": "A1825/26 NOTAMN\nQ) VABF/QRACA/IV/NBO/W/000/050/2313N07240E004\nA) VABF B) 2611131130 C) 2611140730\nE) NO FLY ZONE FOR HEL AND DRONES WI RADIUS 05KM\n   OF FLW CENTER COORD:\n   231324N 0724028E (LOKBHAVAN,SECTOR 20,GANDHINAGAR)\n   231308N 0723954E (SACHIVALAY HELIPAD,GANDHINAGAR)\n   EXC DEFENCE AND GUJARAT STATE HEL(VTSVP)\nF) GND G) 5000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,94 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T22:30:00Z",
+ "extra": {
+  "fir": "VIDF",
+  "kind": "exercise",
+  "location": "VIDF",
+  "lower": "FL150",
+  "lower_fl": 150,
+  "notam_type": "new",
+  "qcode": "QWELW",
+  "queried_fir": "VIDF",
+  "schedule": "16-19 1400-2230",
+  "shape": "polygon",
+  "starts_at": "2026-11-16T14:00:00Z",
+  "upper": "FL200",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-11-12T20:02:05Z",
+ "id": "notam-vidf/2026/A2735",
+ "issued_at": "2026-11-12T13:39:00Z",
+ "last_seen": "2026-11-12T20:02:05Z",
+ "number": "A2735",
+ "positions": [
+  [
+   31.28333,
+   75.75
+  ],
+  [
+   31.26667,
+   76.0
+  ],
+  [
+   30.66667,
+   75.7
+  ],
+  [
+   30.11667,
+   74.78333
+  ],
+  [
+   30.28333,
+   74.61667
+  ],
+  [
+   30.83333,
+   75.43333
+  ],
+  [
+   31.23333,
+   76.26667
+  ],
+  [
+   31.23333,
+   76.53333
+  ],
+  [
+   30.35,
+   76.86667
+  ],
+  [
+   30.33333,
+   76.61667
+  ],
+  [
+   30.8,
+   75.76667
+  ],
+  [
+   30.5,
+   76.55
+  ],
+  [
+   30.33333,
+   76.61667
+  ],
+  [
+   30.66667,
+   75.7
+  ]
+ ],
+ "series": "notam-vidf",
+ "source": {
+  "fetched_at": "2026-11-12T20:05:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE BOUNDED WI COORD (TC-1):",
+ "text": "A2735/26 NOTAMN\nQ) VIDF/QWELW/IV/BO/W/150/200/3117N07545E999\nA) VIDF B) 2611161400 C) 2611192230\nD) 16-19 1400-2230\nE) AIRSPACE BOUNDED WI COORD (TC-1):\n311700N0754500E- 311600N0760000E- 304000N0754200E-\n300700N0744700E-301700N0743700E- 305000N0752600E NOT AVBL DUE AIR\nEXER.\nAIRSPACE BOUNDED WI COORD (TC-2):\n311400N0761600E- 311400N0763200E- 302100N0765200E- 302000N0763700E\nNOT AVBL DUE AIR EXER.\nAIRSPACE BOUNDED WI COORD (TC-3):\n304800N0754600E- 303000N0763300E- 302000N0763700E- 304000N0754200E\nNOT AVBL DUE AIR EXER.\nF) FL150 G) FL200",
+ "year": 2026
+}

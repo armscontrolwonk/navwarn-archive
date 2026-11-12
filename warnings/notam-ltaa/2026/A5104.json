@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T09:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower": "10000FT AMSL",
+  "lower_fl": 100,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.9167,
+   "lon": 32.65,
+   "radius_nm": 3
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LTAA",
+  "schedule": "19 0800-0900, 20 0800-0900",
+  "shape": "polygon",
+  "starts_at": "2026-11-19T08:00:00Z",
+  "upper": "50000FT AMSL",
+  "upper_fl": 500
+ },
+ "first_seen": "2026-11-12T20:02:05Z",
+ "id": "notam-ltaa/2026/A5104",
+ "issued_at": "2026-11-12T08:13:00Z",
+ "last_seen": "2026-11-12T20:02:05Z",
+ "number": "A5104",
+ "positions": [
+  [
+   37.93806,
+   32.63889
+  ],
+  [
+   37.93806,
+   32.67472
+  ],
+  [
+   37.88333,
+   32.67472
+  ],
+  [
+   37.88333,
+   32.63889
+  ],
+  [
+   37.93806,
+   32.63889
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-12T20:05:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "GUN FIRING WILL TAKE PLACE WI KONYA MIL TMA.",
+ "text": "A5104/26 NOTAMN\nQ) LTAA/QWMLW/IV/BO /W /100/500/3755N03239E003\nA) LTAA B) 2611190800 C) 2611200900\nD) 19 0800-0900, 20 0800-0900\nE) GUN FIRING WILL TAKE PLACE WI KONYA MIL TMA.\nRMK: AIR TRAFFIC REGULATION NOTAM SHALL BE ISSUED.\nAREA(LTTSA-5R):: 375617N0323820E 375617N0324029E 375300N0324029E \n375300N0323820E 375617N0323820E\nF) 10000FT AMSL G) 50000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,58 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T11:30:00Z",
+ "extra": {
+  "fir": "VIDF",
+  "kind": "exercise",
+  "location": "VIDF",
+  "lower": "FL080",
+  "lower_fl": 80,
+  "notam_type": "new",
+  "qcode": "QWELW",
+  "queried_fir": "VIDF",
+  "schedule": "16-19 0430-1130",
+  "shape": "polygon",
+  "starts_at": "2026-11-16T04:30:00Z",
+  "upper": "FL400",
+  "upper_fl": 400
+ },
+ "first_seen": "2026-11-12T20:02:05Z",
+ "id": "notam-vidf/2026/A2730",
+ "issued_at": "2026-11-12T13:19:00Z",
+ "last_seen": "2026-11-12T20:02:05Z",
+ "number": "A2730",
+ "positions": [
+  [
+   31.96167,
+   76.72917
+  ],
+  [
+   31.67333,
+   77.42306
+  ],
+  [
+   31.00028,
+   77.35611
+  ],
+  [
+   31.00472,
+   76.53806
+  ],
+  [
+   31.35528,
+   76.78444
+  ]
+ ],
+ "series": "notam-vidf",
+ "source": {
+  "fetched_at": "2026-11-12T20:05:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE BOUNDED WI COORD (CHARLIE):",
+ "text": "A2730/26 NOTAMN\nQ) VIDF/QWELW/IV/BO/W/080/400/3158N07644E999\nA) VIDF B) 2611160430 C) 2611191130\nD) 16-19 0430-1130\nE) AIRSPACE BOUNDED WI COORD (CHARLIE):\n315742N0764345E- 314024N0772523E-310001N0772122E- 310017N0763217E-\n312119N0764704E NOT AVBL DUE AIR EXER.\nSKED FLIGHTS TO/FM AIRPORTS FALLING WITHIN THE SAID EXER AREA SHALL\nBE ACCOMODATED BY IAF(INDIAN AIR FORCE). SKED FLT OPERATORS TO\nCOORDINATE WITH IAF(INDIAN AIR FORCE) IN ADVANCE.\nF) FL080 G) FL400",
+ "year": 2026
+}

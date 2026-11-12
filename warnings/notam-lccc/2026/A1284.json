@@ -1,0 +1,47 @@
+{
+ "cancels": [
+  "notam-lccc/2026/A0887"
+ ],
+ "expires_at": "2027-02-11T23:59:00Z",
+ "extra": {
+  "fir": "LCCC",
+  "kind": "restricted",
+  "location": "LCCC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 34.6667,
+   "lon": 32.8333,
+   "radius_nm": 1
+  },
+  "qcode": "QRALW",
+  "queried_fir": "LCCC",
+  "starts_at": "2026-11-12T09:12:00Z",
+  "upper": "1600FT AMSL",
+  "upper_fl": 16
+ },
+ "first_seen": "2026-11-12T20:02:05Z",
+ "id": "notam-lccc/2026/A1284",
+ "issued_at": "2026-11-12T09:12:00Z",
+ "last_seen": "2026-11-12T20:02:05Z",
+ "number": "A1284",
+ "positions": [
+  [
+   34.66778,
+   32.84056
+  ]
+ ],
+ "series": "notam-lccc",
+ "source": {
+  "fetched_at": "2026-11-12T20:05:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "DUE TO VULTURE NESTING SITE AIRCRAFT SHALL AVOID FLYING OVER IN",
+ "text": "A1284/26 NOTAMR A0887/26\nQ) LCCC/QRALW/IV/NBO/W /000/016/3440N03250E001\nA) LCCC B) 2611120912 C) 2702112359EST\nE) DUE TO VULTURE NESTING SITE AIRCRAFT SHALL AVOID FLYING OVER IN\nAREA WITHIN 1KM RADIUS OF PSN 344004N 0325026E/EPISKOPI\nF) SFC G) 1600FT AMSL",
+ "year": 2026
+}

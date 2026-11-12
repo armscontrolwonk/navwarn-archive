@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-16T16:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.9333,
+   "lon": 35.4833,
+   "radius_nm": 13
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-16T04:00:00Z",
+  "upper": "2000FT AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-12T20:02:05Z",
+ "id": "notam-ltaa/2026/A5115",
+ "issued_at": "2026-11-12T10:26:00Z",
+ "last_seen": "2026-11-12T20:02:05Z",
+ "number": "A5115",
+ "positions": [
+  [
+   42.09472,
+   35.32611
+  ],
+  [
+   42.09306,
+   35.62583
+  ],
+  [
+   41.78417,
+   35.62583
+  ],
+  [
+   41.78611,
+   35.33167
+  ],
+  [
+   42.09472,
+   35.32611
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-12T20:05:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXERCISE FLIGHT WILL TAKE PLACE WI SINOP TMA: 420541N0351934E ",
+ "text": "A5115/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /000/020/4156N03529E013\nA) LTAA B) 2611160400 C) 2611161600\nE) EXERCISE FLIGHT WILL TAKE PLACE WI SINOP TMA: 420541N0351934E \n420535N0353733E 414703N0353733E 414710N0351954E 420541N0351934E\nF) SFC G) 2000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T22:30:00Z",
+ "extra": {
+  "fir": "VIDF",
+  "kind": "exercise",
+  "location": "VIDF",
+  "lower": "FL150",
+  "lower_fl": 150,
+  "notam_type": "new",
+  "qcode": "QWELW",
+  "queried_fir": "VIDF",
+  "schedule": "16-19 1400-2230",
+  "shape": "polygon",
+  "starts_at": "2026-11-16T14:00:00Z",
+  "upper": "FL500",
+  "upper_fl": 500
+ },
+ "first_seen": "2026-11-12T20:02:05Z",
+ "id": "notam-vidf/2026/A2732",
+ "issued_at": "2026-11-12T13:28:00Z",
+ "last_seen": "2026-11-12T20:02:05Z",
+ "number": "A2732",
+ "positions": [
+  [
+   33.8,
+   75.4
+  ],
+  [
+   34.03333,
+   77.26667
+  ],
+  [
+   33.05,
+   77.26667
+  ],
+  [
+   31.56667,
+   77.26667
+  ],
+  [
+   31.23333,
+   76.53333
+  ],
+  [
+   31.23333,
+   76.26667
+  ],
+  [
+   31.71667,
+   75.7
+  ],
+  [
+   32.0,
+   76.0
+  ]
+ ],
+ "series": "notam-vidf",
+ "source": {
+  "fetched_at": "2026-11-12T20:05:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE BOUNDED WI COORD (BOX-1):",
+ "text": "A2732/26 NOTAMN\nQ) VIDF/QWELW/IV/BO/W/150/500/3348N07524E999\nA) VIDF B) 2611161400 C) 2611192230\nD) 16-19 1400-2230\nE) AIRSPACE BOUNDED WI COORD (BOX-1):\n334800N0752400E- 340200N0771600E- 330300N0771600E- 313400N0771600E-\n311400N0763200E- 311400N0761600E- 311700N 754500E- 314300N0754200E-\n320000N0760000E NOT AVBL DUE AIR EXER\nDRG EXER PERIOD FLW RESTRICTIONS APPLY:\n1. DEVIATION TO THE NORTH OF M890 NOT PERMITTED.\n2. SKED FLIGHTS TO/FM AIRPORTS FALLING WITHIN THE SAID EXER AREA\nSHALL BE ACCOMODATED BY IAF(INDIAN AIR FORCE). SKED FLT OPERATORS TO\nCOORDINATE WITH IAF(INDIAN AIR FORCE) IN ADVANCE.\nF) FL150 G) FL500",
+ "year": 2026
+}

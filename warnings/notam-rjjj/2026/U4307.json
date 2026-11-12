@@ -1,0 +1,55 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.7,
+   "lon": 140.6667,
+   "radius_nm": 9
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-12T23:00:00Z",
+  "upper": "4266FT AMSL",
+  "upper_fl": 43
+ },
+ "first_seen": "2026-11-12T20:02:05Z",
+ "id": "notam-rjjj/2026/U4307",
+ "issued_at": "2026-11-12T07:41:00Z",
+ "last_seen": "2026-11-12T20:02:05Z",
+ "number": "U4307",
+ "positions": [
+  [
+   39.79222,
+   140.76889
+  ],
+  [
+   39.70278,
+   140.76583
+  ],
+  [
+   39.60694,
+   140.55083
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-12T20:05:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4307/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/043/3942N14040E009\nA)RJJJ B)2611122300 C)2612310800\nD)2300/0800\nE)UNMANNED ACFT:\n(1)AREA: RADIUS 676M CENTER 394732N1404608E \n(2)AREA: RADIUS 1560M CENTER 394210N1404557E \n(3)AREA: RADIUS 374M CENTER 393625N1403303E \n(SENBOKU-SHI IN AKITA)\nWT: 9.2KG\nF)SFC G)4266FT AMSL",
+ "year": 2026
+}

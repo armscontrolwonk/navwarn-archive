@@ -1,0 +1,47 @@
+{
+ "cancels": [
+  "notam-lccc/2026/A0837"
+ ],
+ "expires_at": "2027-02-11T23:59:00Z",
+ "extra": {
+  "fir": "LCCC",
+  "kind": "other",
+  "location": "LCCC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 35.0833,
+   "lon": 33.9,
+   "radius_nm": 1
+  },
+  "qcode": "QWOLW",
+  "queried_fir": "LCCC",
+  "starts_at": "2026-11-12T08:53:00Z",
+  "upper": "1800FT AMSL",
+  "upper_fl": 18
+ },
+ "first_seen": "2026-11-12T20:02:05Z",
+ "id": "notam-lccc/2026/A1282",
+ "issued_at": "2026-11-12T08:53:00Z",
+ "last_seen": "2026-11-12T20:02:05Z",
+ "number": "A1282",
+ "positions": [
+  [
+   35.08306,
+   33.89861
+  ]
+ ],
+ "series": "notam-lccc",
+ "source": {
+  "fetched_at": "2026-11-12T20:05:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "HIGH POWER CLASS 4 LASER TRANSMISSION WILL TAKE PLACE 500M RADIUS",
+ "text": "A1282/26 NOTAMR A0837/26\nQ) LCCC/QWOLW/IV/M  /W /000/018/3505N03354E001\nA) LCCC B) 2611120853 C) 2702112359EST\nE) HIGH POWER CLASS 4 LASER TRANSMISSION WILL TAKE PLACE 500M RADIUS\nOF PSN 350459N 0335355E/AYIOS NIKOLAOS\nF) SFC G) 1800FT AMSL",
+ "year": 2026
+}

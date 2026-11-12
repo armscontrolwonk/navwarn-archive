@@ -1,0 +1,87 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T08:19:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.8333,
+   "lon": 139.5667,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2148/0819",
+  "shape": "polygon",
+  "starts_at": "2026-11-12T21:48:00Z",
+  "upper": "3281FT AMSL",
+  "upper_fl": 33
+ },
+ "first_seen": "2026-11-12T20:02:05Z",
+ "id": "notam-rjjj/2026/U4304",
+ "issued_at": "2026-11-12T07:30:00Z",
+ "last_seen": "2026-11-12T20:02:05Z",
+ "number": "U4304",
+ "positions": [
+  [
+   37.83333,
+   139.54111
+  ],
+  [
+   37.83806,
+   139.55139
+  ],
+  [
+   37.84361,
+   139.54806
+  ],
+  [
+   37.83944,
+   139.5375
+  ],
+  [
+   37.83333,
+   139.54111
+  ],
+  [
+   37.84556,
+   139.58056
+  ],
+  [
+   37.84306,
+   139.58139
+  ],
+  [
+   37.83944,
+   139.56944
+  ],
+  [
+   37.83861,
+   139.56083
+  ],
+  [
+   37.84194,
+   139.56028
+  ],
+  [
+   37.84556,
+   139.58056
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-12T20:05:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4304/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/033/3750N13934E002\nA)RJJJ B)2611122148 C)2612310819\nD)2148/0819\nE)UNMANNED ACFT:\n(1)AREA: BOUNDED BY FLW POINTS\n375000N1393228E - 375017N1393305E - 375037N1393253E - 375022N1393215E\n- 375000N1393228E \n(2)AREA: BOUNDED BY FLW POINTS\n375044N1393450E - 375035N1393453E - 375022N1393410E - 375019N1393339E\n- 375031N1393337E - 375044N1393450E \n(SHIBATA-SHI IN NIIGATA)\nWT: 9.2KG\nFLT TIME: HJ\nF)SFC G)3281FT AMSL",
+ "year": 2026
+}

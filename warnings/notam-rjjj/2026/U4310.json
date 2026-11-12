@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.6667,
+   "lon": 140.9167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/0700",
+  "shape": "polygon",
+  "starts_at": "2026-11-16T22:00:00Z",
+  "upper": "233FT AMSL",
+  "upper_fl": 3
+ },
+ "first_seen": "2026-11-12T20:02:05Z",
+ "id": "notam-rjjj/2026/U4310",
+ "issued_at": "2026-11-12T08:06:00Z",
+ "last_seen": "2026-11-12T20:02:05Z",
+ "number": "U4310",
+ "positions": [
+  [
+   37.65833,
+   140.91972
+  ],
+  [
+   37.65833,
+   140.92167
+  ],
+  [
+   37.66472,
+   140.92167
+  ],
+  [
+   37.66472,
+   140.91972
+  ],
+  [
+   37.65833,
+   140.91972
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-12T20:05:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4310/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/003/3740N14055E002\nA)RJJJ B)2611162200 C)2611190700\nD)2200/0700\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n373930N1405511E - 373930N1405518E - 373953N1405518E - 373953N1405511E\n- 373930N1405511E \n(MINAMISOMA-SHI IN FUKUSHIMA)\nWT: 2.49KG\nCONTACT INFORMATION: 080-1007-4439\nF)SFC G)233FT AMSL",
+ "year": 2026
+}

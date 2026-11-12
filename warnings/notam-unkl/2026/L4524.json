@@ -1,0 +1,81 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-16T11:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 53.89833,
+    "lon": 92.66889,
+    "radius_nm": 0.27
+   }
+  ],
+  "fir": "UNKL",
+  "kind": "restricted",
+  "location": "UNKL",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 53.8667,
+   "lon": 92.7,
+   "radius_nm": 7
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNKL",
+  "schedule": "DAILY 0300-1100",
+  "starts_at": "2026-11-13T03:00:00Z",
+  "upper": "750M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-12T20:02:05Z",
+ "id": "notam-unkl/2026/L4524",
+ "issued_at": "2026-11-12T09:40:00Z",
+ "last_seen": "2026-11-12T20:02:05Z",
+ "number": "L4524",
+ "positions": [
+  [
+   53.94111,
+   92.67278
+  ],
+  [
+   53.92167,
+   92.84139
+  ],
+  [
+   53.86306,
+   92.88611
+  ],
+  [
+   53.84722,
+   92.78556
+  ],
+  [
+   53.83944,
+   92.55778
+  ],
+  [
+   53.86528,
+   92.51667
+  ],
+  [
+   53.94111,
+   92.67278
+  ],
+  [
+   53.89833,
+   92.66889
+  ]
+ ],
+ "series": "notam-unkl",
+ "source": {
+  "fetched_at": "2026-11-12T20:05:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "L4524/26 NOTAMN\nQ)UNKL/QRTCA/IV/BO/W/000/030/5352N09242E007\nA)UNKL B)2611130300 C)2611161100\nD)DAILY 0300-1100\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 535628N0924022E-535518N0925029E-535147N0925310E-\n         535050N0924708E-535022N0923328E-535155N0923100E-\n         535628N0924022E,\n   450M AMSL-750M AMSL.\n2. WI CIRCLE RADIUS 0.5KM CENTRE 535354N0924008E,\n   SFC-750M AMSL.\nF)SFC  G)750M AMSL",
+ "year": 2026
+}

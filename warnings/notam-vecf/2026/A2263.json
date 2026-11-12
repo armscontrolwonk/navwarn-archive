@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T12:00:00Z",
+ "extra": {
+  "fir": "VECF",
+  "kind": "firing",
+  "location": "VECF",
+  "lower": "GND`",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 21.2333,
+   "lon": 87.0333,
+   "radius_nm": 16
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "VECF",
+  "schedule": "12 0830-1200,13 14 16-21 23-28 30 0200-1200",
+  "shape": "polygon",
+  "starts_at": "2026-11-12T08:30:00Z",
+  "upper": "25000FT AMSL",
+  "upper_fl": 250
+ },
+ "first_seen": "2026-11-12T20:02:05Z",
+ "id": "notam-vecf/2026/A2263",
+ "issued_at": "2026-11-12T08:44:00Z",
+ "last_seen": "2026-11-12T20:02:05Z",
+ "number": "A2263",
+ "positions": [
+  [
+   21.45833,
+   87.03333
+  ],
+  [
+   21.19444,
+   87.31667
+  ],
+  [
+   21.06667,
+   86.85833
+  ],
+  [
+   21.45833,
+   87.03333
+  ]
+ ],
+ "series": "notam-vecf",
+ "source": {
+  "fetched_at": "2026-11-12T20:05:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ARTILLERY FRNG ACT BY PXE INPR WI AREA BOUNDED BY ",
+ "text": "A2263/26 NOTAMN\nQ) VECF/QWMLW/IV/BO/W/000/250/2114N08702E016\nA) VECF B) 2611120830 C) 2611301200\nD) 12 0830-1200,13 14 16-21 23-28 30 0200-1200\nE) ARTILLERY FRNG ACT BY PXE INPR WI AREA BOUNDED BY \nPOINT A 212730.00N 0870200.00E,\nPOINT C 211140.00N 0871900.00E,\nPOINT B 210400.00N 0865130.00E AND THEN ALONG THE COASTLINE TO \nPOINT A 212730.00N 0870200.00E EXC COMMON AREA OF VED-53\nF) GND` G) 25000FT AMSL",
+ "year": 2026
+}

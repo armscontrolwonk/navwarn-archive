@@ -1,0 +1,79 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-17T07:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.5167,
+   "lon": 133.35,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2330/0730",
+  "shape": "polygon",
+  "starts_at": "2026-11-15T23:30:00Z",
+  "upper": "210FT AMSL",
+  "upper_fl": 3
+ },
+ "first_seen": "2026-11-12T20:02:05Z",
+ "id": "notam-rjjj/2026/U4315",
+ "issued_at": "2026-11-12T09:44:00Z",
+ "last_seen": "2026-11-12T20:02:05Z",
+ "number": "U4315",
+ "positions": [
+  [
+   34.51306,
+   133.34972
+  ],
+  [
+   34.51333,
+   133.34889
+  ],
+  [
+   34.51667,
+   133.35028
+  ],
+  [
+   34.5225,
+   133.36083
+  ],
+  [
+   34.525,
+   133.36306
+  ],
+  [
+   34.52444,
+   133.36389
+  ],
+  [
+   34.52167,
+   133.36111
+  ],
+  [
+   34.51583,
+   133.35083
+  ],
+  [
+   34.51306,
+   133.34972
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-12T20:05:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4315/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/003/3431N13321E002\nA)RJJJ B)2611152330 C)2611170730\nD)2330/0730\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n343047N1332059E - 343048N1332056E - 343100N1332101E - 343121N1332139E\n- 343130N1332147E - 343128N1332150E - 343118N1332140E -\n343057N1332103E - 343047N1332059E \n(FUKUYAMA-SHI IN HIROSHIMA)\nWT: 4KG\nNUMBER: 4\nCONTACT INFORMATION: 082-568-8181\nF)SFC G)210FT AMSL",
+ "year": 2026
+}

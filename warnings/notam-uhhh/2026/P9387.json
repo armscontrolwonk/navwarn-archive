@@ -1,0 +1,102 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-21T09:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 48.80972,
+    "lon": 135.93806,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 48.70889,
+    "lon": 135.68,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 48.6667,
+   "lon": 135.9167,
+   "radius_nm": 22
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "schedule": "DAILY 2300-0900",
+  "starts_at": "2026-11-16T23:00:00Z",
+  "upper": "1200M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-11-12T20:02:05Z",
+ "id": "notam-uhhh/2026/P9387",
+ "issued_at": "2026-11-12T07:31:00Z",
+ "last_seen": "2026-11-12T20:02:05Z",
+ "number": "P9387",
+ "positions": [
+  [
+   48.91222,
+   136.10583
+  ],
+  [
+   48.94167,
+   136.28056
+  ],
+  [
+   48.86139,
+   136.37333
+  ],
+  [
+   48.83083,
+   136.17111
+  ],
+  [
+   48.67583,
+   135.7475
+  ],
+  [
+   48.45583,
+   135.57333
+  ],
+  [
+   48.47528,
+   135.475
+  ],
+  [
+   48.53056,
+   135.48417
+  ],
+  [
+   48.72806,
+   135.65806
+  ],
+  [
+   48.91222,
+   136.10583
+  ],
+  [
+   48.80972,
+   135.93806
+  ],
+  [
+   48.70889,
+   135.68
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-11-12T20:05:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "P9387/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/040/4840N13555E022\nA)UHHH B)2611162300 C)2611210900\nD)DAILY 2300-0900\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 485444N1360621E-485630N1361650E-485141N1362224E-\n         484951N1361016E-484033N1354451E-482721N1353424E-\n         482831N1352830E-483150N1352903E-484341N1353929E-\n         485444N1360621E\n   500M AMSL-1200M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 484835N1355617E\n   SFC-1200M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 484232N1354048E\n   SFC-1200M AMSL.\nF)SFC  G)1200M AMSL",
+ "year": 2026
+}

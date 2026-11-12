@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2027-02-05T08:52:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.7167,
+   "lon": 139.8167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2148/0852",
+  "shape": "polygon",
+  "starts_at": "2026-11-12T21:48:00Z",
+  "upper": "2100FT AMSL",
+  "upper_fl": 21
+ },
+ "first_seen": "2026-11-12T20:02:05Z",
+ "id": "notam-rjjj/2026/U4302",
+ "issued_at": "2026-11-12T07:28:00Z",
+ "last_seen": "2026-11-12T20:02:05Z",
+ "number": "U4302",
+ "positions": [
+  [
+   35.71,
+   139.80611
+  ],
+  [
+   35.70861,
+   139.80556
+  ],
+  [
+   35.7075,
+   139.81472
+  ],
+  [
+   35.71,
+   139.815
+  ],
+  [
+   35.70944,
+   139.81111
+  ],
+  [
+   35.71,
+   139.80611
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-12T20:05:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4302/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/021/3543N13949E002\nA)RJJJ B)2611122148 C)2702050852\nD)2148/0852\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n354236N1394822E - 354231N1394820E - 354227N1394853E - 354236N1394854E\n- 354234N1394840E - 354236N1394822E \n(SUMIDA-KU IN TOKYO)\nWT: 0.3KG\nFLT TIME: HJ\nF)SFC G)2100FT AMSL",
+ "year": 2026
+}

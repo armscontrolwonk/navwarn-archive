@@ -1,0 +1,97 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-21T13:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 55.41306,
+    "lon": 106.83194,
+    "radius_nm": 1.08
+   }
+  ],
+  "fir": "UIII",
+  "kind": "restricted",
+  "location": "UIII",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.3167,
+   "lon": 106.5667,
+   "radius_nm": 20
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UIII",
+  "schedule": "16-21 0000-1300",
+  "starts_at": "2026-11-16T00:00:00Z",
+  "upper": "1900M AMSL",
+  "upper_fl": 70
+ },
+ "first_seen": "2026-11-12T20:02:05Z",
+ "id": "notam-uiii/2026/L4511",
+ "issued_at": "2026-11-12T07:33:00Z",
+ "last_seen": "2026-11-12T20:02:05Z",
+ "number": "L4511",
+ "positions": [
+  [
+   55.41306,
+   106.83194
+  ],
+  [
+   55.43333,
+   107.09833
+  ],
+  [
+   55.47056,
+   106.75306
+  ],
+  [
+   55.44167,
+   106.53778
+  ],
+  [
+   55.39694,
+   106.51417
+  ],
+  [
+   55.24778,
+   106.03889
+  ],
+  [
+   55.21333,
+   106.04028
+  ],
+  [
+   55.14944,
+   106.24028
+  ],
+  [
+   55.14944,
+   106.47056
+  ],
+  [
+   55.17694,
+   106.84417
+  ],
+  [
+   55.37917,
+   107.09639
+  ],
+  [
+   55.43333,
+   107.09833
+  ]
+ ],
+ "series": "notam-uiii",
+ "source": {
+  "fetched_at": "2026-11-12T20:05:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "L4511/26 NOTAMN\nQ)UIII/QRTCA/IV/BO/W/000/070/5519N10634E020\nA)UIII B)2611160000 C)2611211300\nD)16-21 0000-1300\nE)AIRSPACE CLSD AS FLW:\n1. WI CIRCLE RADIUS 2KM CENTRE 552447N1064955E\n   SFC-1900M AMSL.\n2. AREA: 552600N1070554E-552814N1064511E-552630N1063216E-\n         552349N1063051E-551452N1060220E-551248N1060225E-\n         550858N1061425E-550858N1062814E-551037N1065039E-\n         552245N1070547E-552600N1070554E\n   1100M AMSL-1900M AMSL.\nF)SFC  G)1900M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,54 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T22:30:00Z",
+ "extra": {
+  "fir": "VIDF",
+  "kind": "exercise",
+  "location": "VIDF",
+  "lower": "FL240",
+  "lower_fl": 240,
+  "notam_type": "new",
+  "qcode": "QWELW",
+  "queried_fir": "VIDF",
+  "schedule": "16-19 1400-2230",
+  "shape": "polygon",
+  "starts_at": "2026-11-16T14:00:00Z",
+  "upper": "FL300",
+  "upper_fl": 300
+ },
+ "first_seen": "2026-11-12T20:02:05Z",
+ "id": "notam-vidf/2026/A2733",
+ "issued_at": "2026-11-12T13:31:00Z",
+ "last_seen": "2026-11-12T20:02:05Z",
+ "number": "A2733",
+ "positions": [
+  [
+   33.05,
+   77.26667
+  ],
+  [
+   33.05,
+   77.95
+  ],
+  [
+   31.58333,
+   78.11667
+  ],
+  [
+   31.56667,
+   77.26667
+  ]
+ ],
+ "series": "notam-vidf",
+ "source": {
+  "fetched_at": "2026-11-12T20:05:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE BOUNDED WI COORD (BOX-2):",
+ "text": "A2733/26 NOTAMN\nQ) VIDF/QWELW/IV/BO/W/240/300/3303N07716E999\nA) VIDF B) 2611161400 C) 2611192230\nD) 16-19 1400-2230\nE) AIRSPACE BOUNDED WI COORD (BOX-2):\n330300N0771600E- 330300N0775700E- 313500N0780700E- 313400N0771600E\nNOT AVBL DUE AIR EXER.\nF) FL240 G) FL300",
+ "year": 2026
+}

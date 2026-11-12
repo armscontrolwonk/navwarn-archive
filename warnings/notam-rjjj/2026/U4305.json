@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-15T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.8,
+   "lon": 139.1,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2130/0700",
+  "starts_at": "2026-11-24T21:30:00Z",
+  "upper": "3432FT AMSL",
+  "upper_fl": 35
+ },
+ "first_seen": "2026-11-12T20:02:05Z",
+ "id": "notam-rjjj/2026/U4305",
+ "issued_at": "2026-11-12T07:32:00Z",
+ "last_seen": "2026-11-12T20:02:05Z",
+ "number": "U4305",
+ "positions": [
+  [
+   35.79972,
+   139.09667
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-12T20:05:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4305/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/035/3548N13906E002\nA)RJJJ B)2611242130 C)2612150700\nD)2130/0700\nE)UNMANNED ACFT:\nAREA: RADIUS 2297M CENTER 354759N1390548E \n(NISHITAMA-GUN IN TOKYO)\nWT: 1.1KG\nF)SFC G)3432FT AMSL",
+ "year": 2026
+}
