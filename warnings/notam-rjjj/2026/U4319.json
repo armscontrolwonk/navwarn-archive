@@ -1,0 +1,79 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.4833,
+   "lon": 140.55,
+   "radius_nm": 30
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-19T23:00:00Z",
+  "upper": "2297FT AMSL",
+  "upper_fl": 23
+ },
+ "first_seen": "2026-11-13T06:53:11Z",
+ "id": "notam-rjjj/2026/U4319",
+ "issued_at": "2026-11-12T22:49:00Z",
+ "last_seen": "2026-11-13T06:53:11Z",
+ "number": "U4319",
+ "positions": [
+  [
+   39.0525,
+   140.41056
+  ],
+  [
+   39.02472,
+   140.39861
+  ],
+  [
+   39.01944,
+   140.41944
+  ],
+  [
+   39.05083,
+   140.42
+  ],
+  [
+   39.0525,
+   140.41056
+  ],
+  [
+   39.95,
+   140.61778
+  ],
+  [
+   39.01583,
+   140.59611
+  ],
+  [
+   39.10528,
+   140.46528
+  ],
+  [
+   39.16694,
+   140.50833
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-13T06:56:39Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4319/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/023/3929N14033E030\nA)RJJJ B)2611192300 C)2612310800\nD)2300/0800\nE)UNMANNED ACFT:\n(1)AREA: BOUNDED BY FLW POINTS\n390309N1402438E - 390129N1402355E - 390110N1402510E - 390303N1402512E\n- 390309N1402438E \n(2)AREA: RADIUS 383M CENTER 395700N1403704E \n(3)AREA: RADIUS 591M CENTER 390057N1403546E \n(4)AREA: RADIUS 676M CENTER 390619N1402755E \n(5)AREA: RADIUS 401M CENTER 391001N1403030E \n(YUZAWA-SHI,KITAAKITA-SHI IN AKITA)\nWT: 9.2KG\nF)SFC G)2297FT AMSL",
+ "year": 2026
+}

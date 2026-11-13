@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T10:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "exercise",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 3.1167,
+   "lon": 103.0,
+   "radius_nm": 22
+  },
+  "qcode": "QWELW",
+  "queried_fir": "WMFC",
+  "schedule": "2300-1000",
+  "shape": "polygon",
+  "starts_at": "2026-11-22T23:00:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-13T06:53:11Z",
+ "id": "notam-wmfc/2026/A4522",
+ "issued_at": "2026-11-13T02:39:00Z",
+ "last_seen": "2026-11-13T06:53:11Z",
+ "number": "A4522",
+ "positions": [
+  [
+   3.04667,
+   102.78528
+  ],
+  [
+   3.41833,
+   103.00861
+  ],
+  [
+   3.40444,
+   103.22306
+  ],
+  [
+   2.82861,
+   103.12222
+  ],
+  [
+   3.04667,
+   102.78528
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-11-13T06:56:39Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL EXER WILL TAKE PLACE WI COORD",
+ "text": "A4522/26 NOTAMN\nQ) WMFC/QWELW/IV/BO /W /000/100/0307N10300E022\nA) WMFC B) 2611222300 C) 2611271000 \nD)2300-1000\nE)MIL EXER WILL TAKE PLACE WI COORD\n030248N1024707E - 032506N1030031E -\n032416N1031323E - 024943N1030720E -\n030248N1024707E\n(BUKIT IBAM)\nF) SFC                             G) 10000FT AMSL",
+ "year": 2026
+}

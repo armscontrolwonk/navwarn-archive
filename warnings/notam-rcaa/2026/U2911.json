@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T14:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.65,
+   "lon": 120.3667,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "schedule": "2000-1400",
+  "shape": "polygon",
+  "starts_at": "2026-11-18T20:00:00Z",
+  "upper": "1800FT AMSL",
+  "upper_fl": 18
+ },
+ "first_seen": "2026-11-13T06:53:11Z",
+ "id": "notam-rcaa/2026/U2911",
+ "issued_at": "2026-11-13T01:41:00Z",
+ "last_seen": "2026-11-13T06:53:11Z",
+ "number": "U2911",
+ "positions": [
+  [
+   22.6725,
+   120.33
+  ],
+  [
+   22.68583,
+   120.35
+  ],
+  [
+   22.63111,
+   120.385
+  ],
+  [
+   22.63222,
+   120.345
+  ],
+  [
+   22.6725,
+   120.33
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-11-13T06:56:39Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2911/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/018/2239N12022E003\nA) RCAA\nB) 2611182000 C) 2612311400\nD) 2000-1400\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB261007001004\n2.LCA:NIAOSONG DISTRICT, KAOHSIUNG CITY\n3.THE AREA OVERLAPS PART OF KAOHSIUNG ARMED FORCES\n  GENERAL HOSPITAL HELIPORT, PART OF VFR CORRIDOR C9 AND C13,\n  ACFT ARE CTN ADZ.\n4.COOR TEL:0929-129422, 0931-815095\n5.AREA AS FLW:\n224021N 1201948E\n224109N 1202100E\n223752N 1202306E\n223756N 1202042E\n224021N 1201948E\nF) SFC G) 1800FT AMSL",
+ "year": 2026
+}

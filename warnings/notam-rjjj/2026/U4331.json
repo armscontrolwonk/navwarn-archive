@@ -1,0 +1,90 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-13T07:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 32.75,
+   "lon": 130.3167,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-13T04:38:00Z",
+  "upper": "5499FT AMSL",
+  "upper_fl": 55
+ },
+ "first_seen": "2026-11-13T06:53:11Z",
+ "id": "notam-rjjj/2026/U4331",
+ "issued_at": "2026-11-13T04:38:00Z",
+ "last_seen": "2026-11-13T06:53:11Z",
+ "number": "U4331",
+ "positions": [
+  [
+   32.75389,
+   130.2925
+  ],
+  [
+   32.76306,
+   130.2925
+  ],
+  [
+   32.76972,
+   130.29861
+  ],
+  [
+   32.76667,
+   130.31556
+  ],
+  [
+   32.76167,
+   130.32778
+  ],
+  [
+   32.75306,
+   130.33444
+  ],
+  [
+   32.7475,
+   130.33694
+  ],
+  [
+   32.74278,
+   130.32861
+  ],
+  [
+   32.74444,
+   130.32556
+  ],
+  [
+   32.7475,
+   130.31389
+  ],
+  [
+   32.74889,
+   130.29639
+  ],
+  [
+   32.75389,
+   130.2925
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-13T06:56:39Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4331/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/055/3245N13019E003\nA)RJJJ B)2611130438 C)2611130730\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n324514N1301733E - 324547N1301733E - 324611N1301755E - 324600N1301856E\n- 324542N1301940E - 324511N1302004E - 324451N1302013E -\n324434N1301943E - 324440N1301932E - 324451N1301850E - 324456N1301747E\n- 324514N1301733E \n(UNZEN-SHI,SHIMABARA-SHI,MINAMISHIMABARA-SHI IN NAGASAKI)\nWT: 4.4KG\nF)SFC G)5499FT AMSL",
+ "year": 2026
+}

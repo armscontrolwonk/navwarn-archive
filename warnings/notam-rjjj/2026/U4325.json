@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-20T07:54:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.9333,
+   "lon": 139.95,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2131/0754",
+  "shape": "polygon",
+  "starts_at": "2026-11-30T21:31:00Z",
+  "upper": "1346FT AMSL",
+  "upper_fl": 14
+ },
+ "first_seen": "2026-11-13T06:53:11Z",
+ "id": "notam-rjjj/2026/U4325",
+ "issued_at": "2026-11-13T02:18:00Z",
+ "last_seen": "2026-11-13T06:53:11Z",
+ "number": "U4325",
+ "positions": [
+  [
+   35.94278,
+   139.9475
+  ],
+  [
+   35.93833,
+   139.9425
+  ],
+  [
+   35.935,
+   139.95056
+  ],
+  [
+   35.93861,
+   139.95278
+  ],
+  [
+   35.94278,
+   139.9475
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-13T06:56:39Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U4325/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/014/3556N13957E002\nA)RJJJ B)2611302131 C)2701200754\nD)2131/0754\nE)UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n355634N1395651E - 355618N1395633E - 355606N1395702E - 355619N1395710E\n- 355634N1395651E \n(MORIYA-SHI IN IBARAKI,NODA-SHI IN CHIBA)\nWT: 5KG\nNUMBER: 2\nFLT TIME: HJ\nRMK: THIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)1346FT AMSL",
+ "year": 2026
+}

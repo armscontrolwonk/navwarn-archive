@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-20T07:54:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.05,
+   "lon": 139.7333,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2135/0754",
+  "shape": "polygon",
+  "starts_at": "2026-12-03T21:35:00Z",
+  "upper": "1346FT AMSL",
+  "upper_fl": 14
+ },
+ "first_seen": "2026-11-13T06:53:11Z",
+ "id": "notam-rjjj/2026/U4326",
+ "issued_at": "2026-11-13T02:34:00Z",
+ "last_seen": "2026-11-13T06:53:11Z",
+ "number": "U4326",
+ "positions": [
+  [
+   36.04583,
+   139.73528
+  ],
+  [
+   36.04278,
+   139.7325
+  ],
+  [
+   36.04056,
+   139.74028
+  ],
+  [
+   36.04306,
+   139.74111
+  ],
+  [
+   36.04583,
+   139.73528
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-13T06:56:39Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U4326/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/014/3603N13944E002\nA)RJJJ B)2612032135 C)2701200754\nD)2135/0754\nE)UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n360245N1394407E - 360234N1394357E - 360226N1394425E - 360235N1394428E\n- 360245N1394407E \n(SATTE-SHI, KITAKATSUSHIKA-GUN IN SAITAMA)\nWT: 15KG\nNUMBER: 4\nFLT TIME:  HJ\nRMK: (1)THIS AREA IS INCLUDED IN KK4-4\n(2)THIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)1346FT AMSL",
+ "year": 2026
+}
