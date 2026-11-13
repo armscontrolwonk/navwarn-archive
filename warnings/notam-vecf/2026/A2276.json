@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-31T10:30:00Z",
+ "extra": {
+  "fir": "VECF",
+  "kind": "drone",
+  "location": "VECF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 25.25,
+   "lon": 95.05,
+   "radius_nm": 3
+  },
+  "qcode": "QWYLW",
+  "queried_fir": "VECF",
+  "schedule": "0230-1030",
+  "shape": "polygon",
+  "starts_at": "2026-11-15T02:30:00Z",
+  "upper": "4600FT AMSL",
+  "upper_fl": 46
+ },
+ "first_seen": "2026-11-13T19:49:29Z",
+ "id": "notam-vecf/2026/A2276",
+ "issued_at": "2026-11-13T12:19:00Z",
+ "last_seen": "2026-11-13T19:49:29Z",
+ "number": "A2276",
+ "positions": [
+  [
+   24.69353,
+   94.02369
+  ],
+  [
+   24.72932,
+   93.98185
+  ],
+  [
+   24.79668,
+   94.04192
+  ],
+  [
+   24.76618,
+   94.08158
+  ],
+  [
+   24.69353,
+   94.02369
+  ]
+ ],
+ "series": "notam-vecf",
+ "source": {
+  "fetched_at": "2026-11-13T19:53:16Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UAV SURVEY INPR WI COORD:",
+ "text": "A2276/26 NOTAMN\nQ) VECF/QWYLW/IV/BO/W/000/046/2475N09463E003\nA) VECF B) 2611150230 C) 2701311030\nD) 0230-1030\nE) UAV SURVEY INPR WI COORD:\nA.244136.70N 0940125.30E\nB.244345.55N 0935854.65E\nC.244748.04N 0940230.92E\nD.244558.24N 0940453.67E AND\nA.244136.70N 0940125.30E\nF) GND G) 4600FT AMSL",
+ "year": 2026
+}

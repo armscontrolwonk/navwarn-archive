@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-15T06:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 53.20333,
+    "lon": 158.45917,
+    "radius_nm": 0.32
+   }
+  ],
+  "fir": "UHMM",
+  "kind": "restricted",
+  "location": "UHMM",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 53.2,
+   "lon": 158.45,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHMM",
+  "starts_at": "2026-11-14T21:00:00Z",
+  "upper": "130M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-13T19:49:29Z",
+ "id": "notam-uhmm/2026/P9457",
+ "issued_at": "2026-11-13T10:36:00Z",
+ "last_seen": "2026-11-13T19:49:29Z",
+ "number": "P9457",
+ "positions": [
+  [
+   53.20333,
+   158.45917
+  ]
+ ],
+ "series": "notam-uhmm",
+ "source": {
+  "fetched_at": "2026-11-13T19:53:16Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 0.6KM CENTRE 531212N1582733E.",
+ "text": "P9457/26 NOTAMN\nQ)UHMM/QRTCA/IV/BO/W/000/010/5312N15827E001\nA)UHMM B)2611142100 C)2611150600\nE)AIRSPACE CLSD WI CIRCLE RADIUS 0.6KM CENTRE 531212N1582733E.\nF)GND  G)130M AMSL",
+ "year": 2026
+}

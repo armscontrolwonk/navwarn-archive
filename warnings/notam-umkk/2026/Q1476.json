@@ -1,0 +1,40 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-14T18:00:00Z",
+ "extra": {
+  "fir": "UMKK",
+  "kind": "route",
+  "location": "UMKK",
+  "lower": "FL045",
+  "lower_fl": 45,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.1833,
+   "lon": 19.4,
+   "radius_nm": 45
+  },
+  "qcode": "QARLC",
+  "queried_fir": "UMKK",
+  "starts_at": "2026-11-14T06:00:00Z",
+  "upper": "FL590",
+  "upper_fl": 590
+ },
+ "first_seen": "2026-11-13T19:49:29Z",
+ "id": "notam-umkk/2026/Q1476",
+ "issued_at": "2026-11-13T09:25:00Z",
+ "last_seen": "2026-11-13T19:49:29Z",
+ "number": "Q1476",
+ "positions": [],
+ "series": "notam-umkk",
+ "source": {
+  "fetched_at": "2026-11-13T19:53:16Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENTS CLSD:",
+ "text": "Q1476/26 NOTAMN\nQ)UMKK/QARLC/IV/NBO/E/045/590/5511N01924E045\nA)UMKK B)2611140600 C)2611141800\nE)ATS RTE SEGMENTS CLSD:\nL32  TIGNU-PELUG FL095-FL590,\nL32  PELUG-KALININGRAD/KHRABROVO VORDME(KRD) FL045-FL070,\nL59  RANOK-GAREK FL095-FL590,\nL733 ABNAB-OTVOV FL095-FL590,\nL733 RANOK-ABNAB FL095-FL590,\nL983 RANOK-TARUN FL095-FL590,\nL983 TARUN-IRBAD FL105-FL590,\nM155 KUNER-TIGNU FL095-FL300,\nM997 LATMI-PELUG FL095-FL590,\nP733 ABNAB-TIGNU FL095-FL590,\nP733 IPLIT-ABNAB FL095-FL590,\nP861 RANOK-TIGNU FL095-FL590.\nF)FL045  G)FL590",
+ "year": 2026
+}

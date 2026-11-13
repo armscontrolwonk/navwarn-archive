@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-26T07:30:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "restricted",
+  "location": "VABF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 17.6833,
+   "lon": 74.0167,
+   "radius_nm": 10
+  },
+  "qcode": "QRACA",
+  "queried_fir": "VABF",
+  "schedule": "23 0930-1100 24 25 0530-0730 0930-1100 26 0530-0730",
+  "starts_at": "2026-11-23T09:30:00Z",
+  "upper": "FL120",
+  "upper_fl": 120
+ },
+ "first_seen": "2026-11-13T19:49:29Z",
+ "id": "notam-vabf/2026/A1833",
+ "issued_at": "2026-11-13T07:27:00Z",
+ "last_seen": "2026-11-13T19:49:29Z",
+ "number": "A1833",
+ "positions": [
+  [
+   17.69028,
+   74.01778
+  ]
+ ],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-11-13T19:53:16Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE RESERVATION WI RADIUS 10NM OF",
+ "text": "A1833/26 NOTAMN\nQ) VABF/QRACA/IV/NBO/W/000/120/1741N07401E010\nA) VABF B) 2611230930 C) 2611260730\nD) 23 0930-1100\n   24 25 0530-0730 0930-1100\n   26 0530-0730\nE) AIRSPACE RESERVATION WI RADIUS 10NM OF\n   AREA CENTERED AROUND COORD 174125N 0740104E\n   DUE SKAT DISPLAY BY INDIAN AIR FORCE. \n   DRG THE ABV ACT THE FLW ROUTES ARE NOT AVBL.\n   1. ATS RTE W67 WILL NOT BE AVBL BTN EPKOS\n      AND PPN BELOW FL140.\n   2. ATS RTE W128 WILL NOT BE AVBL BTN EPKOS\n      AND PPN BELOW FL140.\n   3. ATS RTE G208 WILL NOT BE AVBL BTN AGELA\n      AND BBB BELOW FL140.\n   4. ATS RTE W126 WILL NOT BE AVBL BTN EPKOS\n      AND BBB FOR VABB AND VANM ARRIVALS AND\n      FOR OVERFLYING TRAFFIC BELOW FL140\nF) GND G) FL120",
+ "year": 2026
+}

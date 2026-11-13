@@ -1,0 +1,110 @@
+{
+ "cancels": [],
+ "expires_at": "2027-12-02T22:00:00Z",
+ "extra": {
+  "fir": "LBSR",
+  "kind": "drone",
+  "location": "LBSR",
+  "lower": "3000FT AMSL",
+  "lower_fl": 30,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.4333,
+   "lon": 28.1,
+   "radius_nm": 29
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "LBSR",
+  "shape": "polygon",
+  "starts_at": "2026-11-14T06:00:00Z",
+  "upper": "5000FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-11-13T19:49:29Z",
+ "id": "notam-lbsr/2026/A1374",
+ "issued_at": "2026-11-13T11:59:00Z",
+ "last_seen": "2026-11-13T19:49:29Z",
+ "number": "A1374",
+ "positions": [
+  [
+   42.88333,
+   28.18333
+  ],
+  [
+   42.88361,
+   28.08861
+  ],
+  [
+   42.88361,
+   27.90056
+  ],
+  [
+   42.88667,
+   27.88278
+  ],
+  [
+   42.76528,
+   27.90194
+  ],
+  [
+   42.6825,
+   27.95472
+  ],
+  [
+   42.48194,
+   27.68278
+  ],
+  [
+   42.23167,
+   27.78139
+  ],
+  [
+   42.0425,
+   28.01528
+  ],
+  [
+   41.98333,
+   28.03694
+  ],
+  [
+   41.98333,
+   28.31667
+  ],
+  [
+   41.98611,
+   28.33028
+  ],
+  [
+   42.15083,
+   28.25861
+  ],
+  [
+   42.25111,
+   28.15056
+  ],
+  [
+   42.33194,
+   28.09139
+  ],
+  [
+   42.69778,
+   28.18889
+  ],
+  [
+   42.88333,
+   28.18333
+  ]
+ ],
+ "series": "notam-lbsr",
+ "source": {
+  "fetched_at": "2026-11-13T19:53:16Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AD-HOC DANGER AREA ESTABLISHED FOR ",
+ "text": "A1374/26 NOTAMN\nQ)LBSR/QRDCA/IV/BO/W/030/050/4226N02806E029\nA)LBSR\nB)2611140600 C)2712022200\nE)AD-HOC DANGER AREA ESTABLISHED FOR \nGOVERNMENT UNMANNED ACFT FLT SYSTEM WI COORD:\n425300N 0281100E-425301N 0280519E-\n425301N 0275402E-425312N 0275258E-\n424555N 0275407E-424057N 0275717E-\n422855N 0274058E-421354N 0274653E-\n420233N 0280055E-415900N 0280213E-\n415900N 0281900E-415910N 0281949E-\n420903N 0281531E-421504N 0280902E-\n421955N 0280529E-424152N 0281120E-\n425300N 0281100E\nSAFETY BUFFERS INCLUDED AS FLW:\n- HORIZONTAL LIMITS - 1KM\n- VERTICAL LIMITS - 1000FT.\nF)3000FT AMSL G)5000FT AMSL",
+ "year": 2026
+}

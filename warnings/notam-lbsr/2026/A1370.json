@@ -1,0 +1,90 @@
+{
+ "cancels": [],
+ "expires_at": "2027-02-12T22:00:00Z",
+ "extra": {
+  "fir": "LBSR",
+  "kind": "drone",
+  "location": "LBSR",
+  "lower": "3000FT AMSL",
+  "lower_fl": 30,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.4333,
+   "lon": 28.3167,
+   "radius_nm": 28
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "LBSR",
+  "shape": "polygon",
+  "starts_at": "2026-11-14T06:00:00Z",
+  "upper": "5000FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-11-13T19:49:29Z",
+ "id": "notam-lbsr/2026/A1370",
+ "issued_at": "2026-11-13T09:25:00Z",
+ "last_seen": "2026-11-13T19:49:29Z",
+ "number": "A1370",
+ "positions": [
+  [
+   42.88278,
+   28.45444
+  ],
+  [
+   42.88333,
+   28.18333
+  ],
+  [
+   42.69778,
+   28.18889
+  ],
+  [
+   42.33194,
+   28.09139
+  ],
+  [
+   42.25111,
+   28.15056
+  ],
+  [
+   42.15083,
+   28.25861
+  ],
+  [
+   41.98611,
+   28.33028
+  ],
+  [
+   42.03722,
+   28.58972
+  ],
+  [
+   42.24583,
+   28.49611
+  ],
+  [
+   42.36389,
+   28.37556
+  ],
+  [
+   42.67972,
+   28.45972
+  ],
+  [
+   42.88278,
+   28.45444
+  ]
+ ],
+ "series": "notam-lbsr",
+ "source": {
+  "fetched_at": "2026-11-13T19:53:16Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AD-HOC DANGER AREA ESTABLISHED FOR ",
+ "text": "A1370/26 NOTAMN\nQ)LBSR/QRDCA/IV/BO/W/030/050/4226N02819E028\nA)LBSR\nB)2611140600 C)2702122200\nE)AD-HOC DANGER AREA ESTABLISHED FOR \nGOVERNMENT UNMANNED ACFT FLT SYSTEM.\n425258N 0282716E-425300N 0281100E-\n424152N 0281120E-421955N 0280529E-\n421504N 0280902E-420903N 0281531E-\n415910N 0281949E-420214N 0283523E-\n421445N 0282946E-422150N 0282232E-\n424047N 0282735E-425258N 0282716E.\nSAFETY BUFFERS INCLUDED AS FLW:\n- HORIZONTAL LIMITS - 1KM\n- VERTICAL LIMITS - 1000FT.\nF)3000FT AMSL G)5000FT AMSL",
+ "year": 2026
+}

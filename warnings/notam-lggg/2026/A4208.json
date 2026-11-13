@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-26T21:00:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "firing",
+  "location": "LGGG",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.45,
+   "lon": 25.4667,
+   "radius_nm": 2
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LGGG",
+  "schedule": "23 24 25 26 0600-2100",
+  "shape": "polygon",
+  "starts_at": "2026-11-23T06:00:00Z",
+  "upper": "5000FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-11-13T19:49:29Z",
+ "id": "notam-lggg/2026/A4208",
+ "issued_at": "2026-11-13T08:17:00Z",
+ "last_seen": "2026-11-13T19:49:29Z",
+ "number": "A4208",
+ "positions": [
+  [
+   40.45944,
+   25.44306
+  ],
+  [
+   40.46861,
+   25.46056
+  ],
+  [
+   40.46,
+   25.4775
+  ],
+  [
+   40.44167,
+   25.46722
+  ],
+  [
+   40.45944,
+   25.44306
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-11-13T19:53:16Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FIRING ACTIVITIES WILL TAKE PLACE WI SAMOTHRAKI ISLAND AREA AS ",
+ "text": "A4208/26 NOTAMN\nQ) LGGG/QWMLW/IV/BO /W /000/050/4027N02528E002\nA) LGGG B) 2611230600 C) 2611262100\nD) 23 24 25 26 0600-2100\nE) FIRING ACTIVITIES WILL TAKE PLACE WI SAMOTHRAKI ISLAND AREA AS \nFLW:\n402734N 0252635E - 402807N 0252738E - 402736N 0252839E -\n402630N 0252802E - 402734N 0252635E.\nF) SFC G) 5000FT AMSL",
+ "year": 2026
+}

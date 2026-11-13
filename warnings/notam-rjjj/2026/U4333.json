@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-17T03:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.7833,
+   "lon": 135.05,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-16T23:30:00Z",
+  "upper": "965FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-13T19:49:29Z",
+ "id": "notam-rjjj/2026/U4333",
+ "issued_at": "2026-11-13T07:34:00Z",
+ "last_seen": "2026-11-13T19:49:29Z",
+ "number": "U4333",
+ "positions": [
+  [
+   34.77889,
+   135.05083
+  ],
+  [
+   34.77889,
+   135.05194
+  ],
+  [
+   34.77778,
+   135.05194
+  ],
+  [
+   34.77833,
+   135.05083
+  ],
+  [
+   34.77889,
+   135.05083
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-13T19:53:16Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4333/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/010/3447N13503E001\nA)RJJJ B)2611162330 C)2611170300\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n344644N1350303E - 344644N1350307E - 344640N1350307E - 344642N1350303E\n- 344644N1350303E \n(MIKI-SHI IN HYOGO)\nWT: 2KG\nF)SFC G)965FT AMSL",
+ "year": 2026
+}

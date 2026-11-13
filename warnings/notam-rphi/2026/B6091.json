@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-23T09:00:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "restricted",
+  "location": "RPHI",
+  "lower": "10000FT AMSL",
+  "lower_fl": 100,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 8.05,
+   "lon": 117.5667,
+   "radius_nm": 12
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "RPHI",
+  "shape": "polygon",
+  "starts_at": "2026-11-22T22:00:00Z",
+  "upper": "FL200",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-11-13T19:49:29Z",
+ "id": "notam-rphi/2026/B6091",
+ "issued_at": "2026-11-13T12:45:00Z",
+ "last_seen": "2026-11-13T19:49:29Z",
+ "number": "B6091",
+ "positions": [
+  [
+   8.16889,
+   117.44791
+  ],
+  [
+   8.16627,
+   117.69847
+  ],
+  [
+   7.9194,
+   117.69847
+  ],
+  [
+   7.92214,
+   117.44659
+  ],
+  [
+   8.16889,
+   117.44791
+  ]
+ ],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-11-13T19:53:16Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO RESTRICTED AREA ACT WI:",
+ "text": "B6091/26 NOTAMN\nQ) RPHI/QRTCA/IV/BO /W /100/200/0803N11734E012\nA) RPHI B) 2611222200 C) 2611230900\nE) TEMPO RESTRICTED AREA ACT WI:\n081007.99N 1172652.47E -\n080958.58N 1174154.48E -\n075509.84N 1174154.48E -\n075519.72N 1172647.73E -\n081007.99N 1172652.47E\n(10NM SOUTHEAST OF BUGSUK ISLAND, BALABAC, PALAWAN - HIGH).\n\nRMK: LIVE FIRE EXER IN SUPPORT OF THE ARMED FORCES OF THE \nPHILIPPINES (AFP) JOINT EXER DAGIT-PA 10-26. NON-PARTICIPATING ACFT \nNOT ALLOWED.\nF) 10000FT AMSL G) FL200",
+ "year": 2026
+}

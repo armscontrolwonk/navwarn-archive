@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-22T10:00:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "exercise",
+  "location": "RPHI",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 6.5667,
+   "lon": 121.1667,
+   "radius_nm": 22
+  },
+  "qcode": "QWELW",
+  "queried_fir": "RPHI",
+  "schedule": "2100-1000",
+  "shape": "polygon",
+  "starts_at": "2026-11-19T21:00:00Z",
+  "upper": "FL220",
+  "upper_fl": 220
+ },
+ "first_seen": "2026-11-13T19:49:29Z",
+ "id": "notam-rphi/2026/B6090",
+ "issued_at": "2026-11-13T11:07:00Z",
+ "last_seen": "2026-11-13T19:49:29Z",
+ "number": "B6090",
+ "positions": [
+  [
+   6.90985,
+   121.0579
+  ],
+  [
+   6.67985,
+   121.50607
+  ],
+  [
+   6.23625,
+   121.26975
+  ],
+  [
+   6.46567,
+   120.82132
+  ],
+  [
+   6.90985,
+   121.0579
+  ]
+ ],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-11-13T19:53:16Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL EXER WILL TAKE PLACE WI:",
+ "text": "B6090/26 NOTAMN\nQ) RPHI/QWELW/IV/BO /W /000/220/0634N12110E022\nA) RPHI B) 2611192100 C) 2611221000\nD) 2100-1000\nE) MIL EXER WILL TAKE PLACE WI:\n065435.45N 1210328.43E -\n064047.46N 1213021.84E -\n061410.50N 1211611.09E -\n062756.40N 1204916.74E -\n065435.45N 1210328.43E\n(4NM WEST OF PUHUH ISLAND, BASILAN).\nF) SFC G) FL220",
+ "year": 2026
+}

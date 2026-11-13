@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-18T16:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "other",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.0667,
+   "lon": 29.4833,
+   "radius_nm": 20
+  },
+  "qcode": "QWYLW",
+  "queried_fir": "LTBB",
+  "schedule": "0330-1600",
+  "shape": "polygon",
+  "starts_at": "2026-11-13T12:30:00Z",
+  "upper": "2000FT AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-13T19:49:29Z",
+ "id": "notam-ltbb/2026/A5139",
+ "issued_at": "2026-11-13T12:47:00Z",
+ "last_seen": "2026-11-13T19:49:29Z",
+ "number": "A5139",
+ "positions": [
+  [
+   41.16833,
+   29.07639
+  ],
+  [
+   41.1675,
+   29.20028
+  ],
+  [
+   41.03389,
+   29.34278
+  ],
+  [
+   41.04222,
+   29.52472
+  ],
+  [
+   40.96417,
+   29.775
+  ],
+  [
+   40.96833,
+   29.88528
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-11-13T19:53:16Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AERIAL SURVEY WILL TAKE.",
+ "text": "A5139/26 NOTAMN\nQ) LTBB/QWYLW/IV/M  /W /000/020/4104N02929E020\nA) LTBB B) 2611131230 C) 2611181600\nD) 0330-1600\nE) AERIAL SURVEY WILL TAKE.\nROUTE: 411006N0290435E 411003N0291201E 410202N0292034E \n410232N0293129E 405751N0294630E 405806N0295307E WITHIN AREA 0.5NM \nEITHER SIDE OF A LINE\nF) SFC G) 2000FT AMSL",
+ "year": 2026
+}

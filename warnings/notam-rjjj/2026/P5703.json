@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T13:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.3,
+   "lon": 138.8333,
+   "radius_nm": 3
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/1300",
+  "shape": "polygon",
+  "starts_at": "2026-11-17T22:00:00Z",
+  "upper": "8100FT AMSL",
+  "upper_fl": 81
+ },
+ "first_seen": "2026-11-13T19:49:29Z",
+ "id": "notam-rjjj/2026/P5703",
+ "issued_at": "2026-11-13T08:02:00Z",
+ "last_seen": "2026-11-13T19:49:29Z",
+ "number": "P5703",
+ "positions": [
+  [
+   35.31139,
+   138.79083
+  ],
+  [
+   35.32583,
+   138.81694
+  ],
+  [
+   35.32778,
+   138.83611
+  ],
+  [
+   35.32167,
+   138.8625
+  ],
+  [
+   35.31028,
+   138.86806
+  ],
+  [
+   35.26417,
+   138.84667
+  ],
+  [
+   35.27222,
+   138.80222
+  ],
+  [
+   35.31139,
+   138.79083
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-13T19:53:16Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG:",
+ "text": "P5703/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/081/3518N13850E003\nA)RJJJ B)2611172200 C)2611201300\nD)2200/1300\nE)FRNG:\nWEAPON: HYDRA70\nAREA  : BOUNDED BY FLW POINTS\n351841N1384727E - 351933N1384901E -\n351940N1385010E - 351918N1385145E -\n351837N1385205E - 351551N1385048E -\n351620N1384808E - 351841N1384727E\nR-114(HIGASHIFUJI MANEUVERING AREA)\n(GOTENBA-SHI,SUSONO-SHI IN SHIZUOKA)\nRMK   : SOURCE/JSDF-G(RJAT)\nF)SFC G)8100FT AMSL",
+ "year": 2026
+}

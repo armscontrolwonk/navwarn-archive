@@ -1,0 +1,117 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T15:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 43.01611,
+    "lon": 44.61639,
+    "radius_nm": 0.05
+   }
+  ],
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.0333,
+   "lon": 44.6333,
+   "radius_nm": 4
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "URRV",
+  "schedule": "DAILY 0600-1500",
+  "starts_at": "2026-11-15T06:00:00Z",
+  "upper": "300M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-13T19:49:29Z",
+ "id": "notam-urrv/2026/V9388",
+ "issued_at": "2026-11-13T07:52:00Z",
+ "last_seen": "2026-11-13T19:49:29Z",
+ "number": "V9388",
+ "positions": [
+  [
+   43.09528,
+   44.63667
+  ],
+  [
+   43.08583,
+   44.62639
+  ],
+  [
+   43.0775,
+   44.63056
+  ],
+  [
+   43.07056,
+   44.63139
+  ],
+  [
+   43.06306,
+   44.62944
+  ],
+  [
+   43.05583,
+   44.62444
+  ],
+  [
+   43.04917,
+   44.61528
+  ],
+  [
+   43.045,
+   44.60139
+  ],
+  [
+   43.04472,
+   44.58861
+  ],
+  [
+   43.02778,
+   44.59167
+  ],
+  [
+   42.98667,
+   44.62194
+  ],
+  [
+   42.99556,
+   44.65167
+  ],
+  [
+   43.00944,
+   44.67583
+  ],
+  [
+   43.02833,
+   44.69583
+  ],
+  [
+   43.04444,
+   44.70667
+  ],
+  [
+   43.09528,
+   44.63667
+  ],
+  [
+   43.01611,
+   44.61639
+  ]
+ ],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-11-13T19:53:16Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "V9388/26 NOTAMN\nQ)URRV/QRTCA/IV/BO/W/000/010/4302N04438E004\nA)URRV B)2611150600 C)2611201500\nD)DAILY 0600-1500\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 430543N0443812E-430509N0443735E-430439N0443750E-\n         430414N0443753E-430347N0443746E-430321N0443728E-\n         430257N0443655E-430242N0443605E-430241N0443519E-\n         430140N0443530E-425912N0443719E-425944N0443906E-\n         430034N0444033E-430142N0444145E-430240N0444224E-\n         430543N0443812E,\n   200M AMSL-300M AMSL.\n2. WI CIRCLE RADIUS 0.1KM CENTRE 430058N0443659E,\n   GND-250M AGL.\nF)GND  G)300M AMSL",
+ "year": 2026
+}

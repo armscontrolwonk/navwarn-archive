@@ -1,0 +1,117 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T15:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 58.51194,
+    "lon": 33.14889,
+    "radius_nm": 0.65
+   }
+  ],
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 58.5333,
+   "lon": 32.3833,
+   "radius_nm": 31
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "16 1000-1500, 17-20 0710-1500",
+  "starts_at": "2026-11-16T10:00:00Z",
+  "upper": "350M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-13T19:49:29Z",
+ "id": "notam-ulll/2026/Q1514",
+ "issued_at": "2026-11-13T14:55:00Z",
+ "last_seen": "2026-11-13T19:49:29Z",
+ "number": "Q1514",
+ "positions": [
+  [
+   58.51194,
+   33.14889
+  ],
+  [
+   58.70583,
+   31.45972
+  ],
+  [
+   58.66639,
+   31.59778
+  ],
+  [
+   58.64639,
+   31.74889
+  ],
+  [
+   58.63667,
+   31.98222
+  ],
+  [
+   58.62667,
+   32.07972
+  ],
+  [
+   58.60194,
+   32.23528
+  ],
+  [
+   58.57333,
+   32.31556
+  ],
+  [
+   58.53833,
+   32.47889
+  ],
+  [
+   58.535,
+   32.66306
+  ],
+  [
+   58.535,
+   32.66306
+  ],
+  [
+   58.52833,
+   32.75056
+  ],
+  [
+   58.48444,
+   33.01639
+  ],
+  [
+   58.42917,
+   33.16056
+  ],
+  [
+   58.41528,
+   33.19806
+  ],
+  [
+   58.39028,
+   33.23833
+  ],
+  [
+   58.35611,
+   33.29333
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-13T19:53:16Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Q1514/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/020/5832N03223E031\nA)ULLL B)2611161000 C)2611201500\nD)16 1000-1500, 17-20 0710-1500\nE)AIRSPACE CLSD AS FLW:\n1. WI CIRCLE RADIUS 1.2KM CENTRE 583043N0330856E\n   SFC-350M AMSL.\n2. WI 0.25KM EITHER SIDE OF LINE JOINING POINTS:\n   584221N0312735E-583959N0313552E-583847N0314456E-583812N0315856E-\n   583736N0320447E-583607N0321407E-583424N0321856E-583218N0322844E-\n   583206N0323947E.\n   SFC-240M AMSL.\n3. WI 0.25KM EITHER SIDE OF LINE JOINING POINTS:\n   583206N0323947E-583142N0324502E-582904N0330059E-582545N0330938E-\n   582455N0331153E-582325N0331418E-582122N0331736E.\n   SFC-300M AMSL.\nF)SFC  G)350M AMSL",
+ "year": 2026
+}

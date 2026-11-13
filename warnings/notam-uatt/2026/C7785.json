@@ -1,0 +1,78 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-14T09:40:00Z",
+ "extra": {
+  "fir": "UATT",
+  "kind": "restricted",
+  "location": "UATT",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 48.3,
+   "lon": 49.2167,
+   "radius_nm": 30
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UATT",
+  "shape": "polygon",
+  "starts_at": "2026-11-14T08:00:00Z",
+  "upper": "5600FT AMSL",
+  "upper_fl": 56
+ },
+ "first_seen": "2026-11-13T19:49:29Z",
+ "id": "notam-uatt/2026/C7785",
+ "issued_at": "2026-11-13T13:47:00Z",
+ "last_seen": "2026-11-13T19:49:29Z",
+ "number": "C7785",
+ "positions": [
+  [
+   48.62972,
+   48.88028
+  ],
+  [
+   48.49083,
+   49.80056
+  ],
+  [
+   47.96833,
+   49.75028
+  ],
+  [
+   48.01111,
+   49.11639
+  ],
+  [
+   48.07639,
+   49.0325
+  ],
+  [
+   48.045,
+   48.93889
+  ],
+  [
+   48.07778,
+   48.66472
+  ],
+  [
+   48.62917,
+   48.66472
+  ],
+  [
+   48.62972,
+   48.88028
+  ]
+ ],
+ "series": "notam-uatt",
+ "source": {
+  "fetched_at": "2026-11-13T19:53:16Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPORARY RESTRICTED AREA ACTIVATED",
+ "text": "C7785/26 NOTAMN\nQ) UATT/QRTCA/IV/BO /W /000/056/4818N04913E030\nA) UATT B) 2611140800 C) 2611140940\nE) TEMPORARY RESTRICTED AREA ACTIVATED\nAREA BOUNDED BY:\n483747N 0485249E - 482927N 0494802E - 475806N 0494501E - 480040N \n0490659E - 480435N 0490157E - 480242N 0485620E - 480440N 0483953E - \n483745N 0483953E - 483747N 0485249E\nF) GND G) 5600FT AMSL",
+ "year": 2026
+}

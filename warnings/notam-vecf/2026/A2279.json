@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T11:00:00Z",
+ "extra": {
+  "fir": "VECF",
+  "kind": "firing",
+  "location": "VECF",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 20.75,
+   "lon": 88.75,
+   "radius_nm": 17
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "VECF",
+  "schedule": "0500-1100",
+  "shape": "polygon",
+  "starts_at": "2026-11-23T05:00:00Z",
+  "upper": "5000FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-11-13T19:49:29Z",
+ "id": "notam-vecf/2026/A2279",
+ "issued_at": "2026-11-13T13:06:00Z",
+ "last_seen": "2026-11-13T19:49:29Z",
+ "number": "A2279",
+ "positions": [
+  [
+   20.86667,
+   88.5
+  ],
+  [
+   20.61667,
+   88.5
+  ],
+  [
+   20.61667,
+   89.0
+  ],
+  [
+   20.86667,
+   89.0
+  ],
+  [
+   20.86667,
+   88.5
+  ]
+ ],
+ "series": "notam-vecf",
+ "source": {
+  "fetched_at": "2026-11-13T19:53:16Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AERIAL FRNG ACT INPR WI THE AREA BOUNDED BY:",
+ "text": "A2279/26 NOTAMN\nQ) VECF/QWMLW/IV/BO/W/000/050/2045N08845E017\nA) VECF  B) 2611230500 C) 2611271100\nD) 0500-1100\nE) AERIAL FRNG ACT INPR WI THE AREA BOUNDED BY:\n205200.00N 0883000.00E\n203700.00N 0883000.00E\n203700.00N 0890000.00E\n205200.00N 0890000.00E AND\n205200.00N 0883000.00E\nF) SFC G)  5000FT AMSL",
+ "year": 2026
+}

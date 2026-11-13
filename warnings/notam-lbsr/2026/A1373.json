@@ -1,0 +1,98 @@
+{
+ "cancels": [],
+ "expires_at": "2027-02-12T22:00:00Z",
+ "extra": {
+  "fir": "LBSR",
+  "kind": "drone",
+  "location": "LBSR",
+  "lower": "5000FT AMSL",
+  "lower_fl": 50,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.4333,
+   "lon": 28.3333,
+   "radius_nm": 31
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "LBSR",
+  "shape": "polygon",
+  "starts_at": "2026-11-14T06:00:00Z",
+  "upper": "9000FT AMSL",
+  "upper_fl": 90
+ },
+ "first_seen": "2026-11-13T19:49:29Z",
+ "id": "notam-lbsr/2026/A1373",
+ "issued_at": "2026-11-13T11:18:00Z",
+ "last_seen": "2026-11-13T19:49:29Z",
+ "number": "A1373",
+ "positions": [
+  [
+   42.88333,
+   28.18333
+  ],
+  [
+   42.88361,
+   28.08861
+  ],
+  [
+   42.80972,
+   28.14167
+  ],
+  [
+   42.59639,
+   28.13611
+  ],
+  [
+   42.22722,
+   27.83528
+  ],
+  [
+   42.22417,
+   27.79083
+  ],
+  [
+   42.0425,
+   28.01528
+  ],
+  [
+   41.98333,
+   28.03694
+  ],
+  [
+   41.98333,
+   28.31667
+  ],
+  [
+   41.98611,
+   28.33028
+  ],
+  [
+   42.03722,
+   28.58972
+  ],
+  [
+   42.24583,
+   28.49611
+  ],
+  [
+   42.88194,
+   28.63
+  ],
+  [
+   42.88333,
+   28.18333
+  ]
+ ],
+ "series": "notam-lbsr",
+ "source": {
+  "fetched_at": "2026-11-13T19:53:16Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AD-HOC DANGER AREA ESTABLISHED FOR ",
+ "text": "A1373/26 NOTAMN\nQ)LBSR/QRDCA/IV/BO/W/050/090/4226N02820E031\nA)LBSR\nB)2611140600 C)2702122200\nE)AD-HOC DANGER AREA ESTABLISHED FOR \nGOVERNMENT UNMANNED ACFT FLT SYSTEM WI COORD:\n425300N 0281100E-425301N 0280519E-\n424835N 0280830E-423547N 0280810E-\n421338N 0275007E-421327N 0274727E-\n420233N 0280055E-415900N 0280213E-\n415900N 0281900E-415910N 0281949E-\n420214N 0283523E-421445N 0282946E-\n425255N 0283748E-425300N 0281100E\nSAFETY BUFFERS INCLUDED AS FLW:\n- HORIZONTAL LIMITS - 1KM\n- VERTICAL LIMITS - 2000FT.\nF)5000FT AMSL G)9000FT AMSL",
+ "year": 2026
+}

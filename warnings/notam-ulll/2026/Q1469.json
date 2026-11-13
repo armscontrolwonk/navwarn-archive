@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T16:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 59.94972,
+    "lon": 29.55667,
+    "radius_nm": 2.7
+   }
+  ],
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 59.9333,
+   "lon": 29.55,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "14-19 0701-1659",
+  "starts_at": "2026-11-14T07:01:00Z",
+  "upper": "FL100",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-13T19:49:29Z",
+ "id": "notam-ulll/2026/Q1469",
+ "issued_at": "2026-11-13T07:55:00Z",
+ "last_seen": "2026-11-13T19:49:29Z",
+ "number": "Q1469",
+ "positions": [
+  [
+   59.94972,
+   29.55667
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-13T19:53:16Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 5KM CENTRE 595659N0293324E.",
+ "text": "Q1469/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/100/5956N02933E003\nA)ULLL B)2611140701 C)2611191659\nD)14-19 0701-1659\nE)AIRSPACE CLSD WI CIRCLE RADIUS 5KM CENTRE 595659N0293324E.\nCLOSURE NOT AFFECT:\n- SKED INTL AND DOM FLTS VIA ATS RTE.\n- VIP FLTS AND SUPPORTING ACFT.\n- ARR TO/DEP FROM SANKT-PETERBURG/PULKOVO AD (THIS NOT INCLUDE\n  VFR ACFT OPS BELOW LOWER SAFETY LVL (HGT)).\nTWO-WAY RADIO COM WITH ATS (TFC MANAGEMENT) MANDATORY.\nF)GND  G)FL100",
+ "year": 2026
+}
