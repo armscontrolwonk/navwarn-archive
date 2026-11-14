@@ -141,8 +141,8 @@ const control = L.control.layers(bases, overlays, { collapsed: window.innerWidth
 map.attributionControl.addAttribution('Boundaries: <a href="https://github.com/vatsimnetwork/vatspy-data-project">VATSpy data</a> (CC BY-SA 4.0)');
 
 // ---------- geometry ----------
-function unwrap(pts) {   // keep shapes that cross 180° in one piece
-  const lons = pts.map(p => p[1]);
+function unwrap(pts, all = pts) {   // keep shapes that cross 180° in one piece (all: every point of the warning)
+  const lons = all.map(p => p[1]);
   if (Math.max(...lons) - Math.min(...lons) <= 180) return pts;
   return pts.map(([a, b]) => [a, b < 0 ? b + 360 : b]);
 }
@@ -155,6 +155,17 @@ function build(w) {
   const ex = w.extra || {}, color = CATS[w.cat].color;
   const st = { color, weight: 1, fillColor: color, fillOpacity: .18 };
   const shapes = [], points = [];
+  if ((ex.areas || []).length) {           // several areas: one shape each, labelled with its letter or number
+    ex.areas.forEach(a => {
+      const pts = unwrap(a.positions, w.positions), html = popup(w, a.label);
+      const add = (l, list) => { l.bindPopup(html, { maxWidth: 340 }); if (a.label) l.bindTooltip(`${esc(w.id)} area ${esc(a.label)}`); list.push(l); };
+      if (a.shape === 'circle') add(L.circle(pts[0], { ...st, radius: a.radius_nm * NM }), shapes);
+      else if (a.shape === 'polygon') add(L.polygon(pts, st), shapes);
+      else if (a.shape === 'line') add(L.polyline(pts, { color, weight: 2 }), shapes);
+      else pts.forEach(p => add(L.circleMarker(p, { radius: 5, color, weight: 1, fillColor: color, fillOpacity: .8 }), points));
+    });
+    return { shapes, points };
+  }
   (ex.circles || []).forEach(c => shapes.push(L.circle([c.lat, c.lon], { ...st, radius: c.radius_nm * NM })));
   const pos = w.positions || [];
   if (!shapes.length && pos.length) {
@@ -173,14 +184,14 @@ function build(w) {
   [...shapes, ...points].forEach(l => l.bindPopup(html, { maxWidth: 340 }));
   return { shapes, points };
 }
-function popup(w) {
+function popup(w, label) {
   const ex = w.extra || {};
   const from = ex.starts_at || w.issued_at || '';
   const tags = [ex.kind, ex.attributed_to && `attributed to ${ex.attributed_to}`, ex.schedule && `daily ${ex.schedule}`].filter(Boolean);
   const vert = ex.lower || ex.upper ? `<br>${esc(ex.lower || '?')} to ${esc(ex.upper || '?')}` : '';
   const approx = !(w.positions || []).length && !(ex.circles || []).length && ex.q_circle ? '<br><i>Approximate area from the NOTAM Q line.</i>' : '';
   const link = w.url ? ` · <a href="${esc(w.url)}" target="_blank" rel="noopener">source</a>` : '';
-  return `<b>${esc(w.id)}</b> <span class="meta">${esc(w.source)}${link}</span><br>` +
+  return `<b>${esc(w.id)}</b>${label ? ` · area <b>${esc(label)}</b>` : ''} <span class="meta">${esc(w.source)}${link}</span><br>` +
          `${esc(from.replace('T', ' ').replace(':00Z', 'Z'))} to ${esc((w.expires_at || 'until cancelled').replace('T', ' ').replace(':00Z', 'Z'))}${vert}${approx}${tags.length ? '<br>' + esc(tags.join(' · ')) : ''}` +
          `<pre>${esc(w.text)}</pre>`;
 }
@@ -242,7 +253,9 @@ $('clear').addEventListener('click', () => { $('kind').value = ''; $('q').value 
 $('list').addEventListener('click', ev => {
   const li = ev.target.closest('li[data-i]'); if (!li) return;
   const w = W[+li.dataset.i]; const l = w.shapes[0] || w.points[0]; if (!l) return;
-  if (l.getBounds) map.fitBounds(l.getBounds(), { maxZoom: 9, padding: [40, 40] }); else map.setView(l.getLatLng(), Math.max(map.getZoom(), 8));
+  const all = [...w.shapes, ...w.points], b = L.latLngBounds([]);
+  all.forEach(x => b.extend(x.getBounds ? x.getBounds() : x.getLatLng()));
+  if (l.getBounds || all.length > 1) map.fitBounds(b, { maxZoom: 9, padding: [40, 40] }); else map.setView(l.getLatLng(), Math.max(map.getZoom(), 8));
   setTimeout(() => (w.points[0] && groups[w.cat].points.zoomToShowLayer ? groups[w.cat].points.zoomToShowLayer(w.points[0], () => w.points[0].openPopup()) : l.openPopup()), 350);
 });
 $('toggle').addEventListener('click', () => {
