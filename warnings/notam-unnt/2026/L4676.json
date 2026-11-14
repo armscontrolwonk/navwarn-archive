@@ -1,0 +1,89 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T14:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 54.81361,
+    "lon": 83.48111,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "UNNT",
+  "kind": "restricted",
+  "location": "UNNT",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 54.8,
+   "lon": 83.4833,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNNT",
+  "schedule": "DAILY 0200-1400",
+  "starts_at": "2026-11-15T02:00:00Z",
+  "upper": "870M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-14T18:13:37Z",
+ "id": "notam-unnt/2026/L4676",
+ "issued_at": "2026-11-14T07:16:00Z",
+ "last_seen": "2026-11-14T18:13:37Z",
+ "number": "L4676",
+ "positions": [
+  [
+   54.76139,
+   83.47861
+  ],
+  [
+   54.81639,
+   83.46444
+  ],
+  [
+   54.82611,
+   83.47667
+  ],
+  [
+   54.81722,
+   83.49667
+  ],
+  [
+   54.80583,
+   83.50833
+  ],
+  [
+   54.7925,
+   83.51167
+  ],
+  [
+   54.78028,
+   83.5075
+  ],
+  [
+   54.77028,
+   83.49806
+  ],
+  [
+   54.76139,
+   83.47861
+  ],
+  [
+   54.81361,
+   83.48111
+  ]
+ ],
+ "series": "notam-unnt",
+ "source": {
+  "fetched_at": "2026-11-14T18:17:00Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "L4676/26 NOTAMN\nQ)UNNT/QRTCA/IV/BO/W/000/030/5448N08329E002\nA)UNNT B)2611150200 C)2611191400\nD)DAILY 0200-1400\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 544541N0832843E-544859N0832752E-544934N0832836E-\n         544902N0832948E-544821N0833030E-544733N0833042E-\n         544649N0833027E-544613N0832953E-544541N0832843E\n   600M AMSL-870M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 544849N0832852E\n   SFC-870M AMSL.\nF)SFC  G)870M AMSL",
+ "year": 2026
+}

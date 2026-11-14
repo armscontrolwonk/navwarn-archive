@@ -1,0 +1,58 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-11T11:30:00Z",
+ "extra": {
+  "fir": "OIIX",
+  "kind": "firing",
+  "location": "OIIX",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "qcode": "QWMLW",
+  "queried_fir": "OIIX",
+  "schedule": "0430-1130",
+  "shape": "polygon",
+  "starts_at": "2026-12-09T04:30:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-14T18:13:37Z",
+ "id": "notam-oiix/2026/B0607",
+ "issued_at": "2026-11-14T10:43:00Z",
+ "last_seen": "2026-11-14T18:13:37Z",
+ "number": "B0607",
+ "positions": [
+  [
+   27.91222,
+   52.36722
+  ],
+  [
+   27.86139,
+   52.42417
+  ],
+  [
+   27.82583,
+   52.38361
+  ],
+  [
+   27.84278,
+   52.36083
+  ],
+  [
+   27.88722,
+   52.325
+  ]
+ ],
+ "series": "notam-oiix",
+ "source": {
+  "fetched_at": "2026-11-14T18:17:00Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "GUN FIRING WILL TAKE PLACE WI AREA:",
+ "text": "B0607/26 NOTAMN\nQ)OIIX/QWMLW/IV/BO/W/000/100/\nA)OIIX B)2612090430 C)2612111130\nD)0430-1130\nE)GUN FIRING WILL TAKE PLACE WI AREA:\n275444N 0522202E  \n275141N 0522527E \n274933N 0522301E \n275034N 0522139E\n275314N 0521930E \nTO THE POINT OF ORIGIN.\nF)GND G)10000FT AMSL",
+ "year": 2026
+}
