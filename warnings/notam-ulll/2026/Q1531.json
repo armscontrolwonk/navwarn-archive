@@ -1,0 +1,109 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T15:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 57.64944,
+    "lon": 28.76833,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 57.7,
+   "lon": 28.7833,
+   "radius_nm": 13
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "16-19 0600-1500",
+  "starts_at": "2026-11-16T06:00:00Z",
+  "upper": "700M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-14T06:37:17Z",
+ "id": "notam-ulll/2026/Q1531",
+ "issued_at": "2026-11-14T03:51:00Z",
+ "last_seen": "2026-11-14T06:37:17Z",
+ "number": "Q1531",
+ "positions": [
+  [
+   57.72667,
+   29.16167
+  ],
+  [
+   57.70667,
+   29.18056
+  ],
+  [
+   57.69944,
+   29.15389
+  ],
+  [
+   57.66806,
+   29.13056
+  ],
+  [
+   57.67417,
+   29.09194
+  ],
+  [
+   57.70333,
+   29.10861
+  ],
+  [
+   57.67806,
+   28.78556
+  ],
+  [
+   57.6425,
+   28.78667
+  ],
+  [
+   57.63833,
+   28.75056
+  ],
+  [
+   57.67639,
+   28.74528
+  ],
+  [
+   57.68,
+   28.40278
+  ],
+  [
+   57.70389,
+   28.40917
+  ],
+  [
+   57.69472,
+   28.71333
+  ],
+  [
+   57.72667,
+   29.16167
+  ],
+  [
+   57.64944,
+   28.76833
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-14T06:41:26Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Q1531/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/030/5742N02847E013\nA)ULLL B)2611160600 C)2611191500\nD)16-19 0600-1500\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 574336N0290942E-574224N0291050E-574158N0290914E-\n         574005N0290750E-574027N0290531E-574212N0290631E-\n         574041N0284708E-573833N0284712E-573818N0284502E-\n         574035N0284443E-574048N0282410E-574214N0282433E-\n         574141N0284248E-574336N0290942E\n   400M AMSL-700M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 573858N0284606E\n   GND-700M AMSL.\nF)GND  G)700M AMSL",
+ "year": 2026
+}

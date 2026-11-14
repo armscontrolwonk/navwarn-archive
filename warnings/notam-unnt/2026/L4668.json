@@ -1,0 +1,121 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T12:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 55.1725,
+    "lon": 83.09583,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "UNNT",
+  "kind": "restricted",
+  "location": "UNNT",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.1833,
+   "lon": 83.1667,
+   "radius_nm": 6
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNNT",
+  "schedule": "DAILY 0100-1200",
+  "starts_at": "2026-11-16T01:00:00Z",
+  "upper": "750M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-14T06:37:17Z",
+ "id": "notam-unnt/2026/L4668",
+ "issued_at": "2026-11-14T06:04:00Z",
+ "last_seen": "2026-11-14T06:37:17Z",
+ "number": "L4668",
+ "positions": [
+  [
+   55.21778,
+   83.33333
+  ],
+  [
+   55.21278,
+   83.32889
+  ],
+  [
+   55.20639,
+   83.28861
+  ],
+  [
+   55.20056,
+   83.26833
+  ],
+  [
+   55.20194,
+   83.26639
+  ],
+  [
+   55.19944,
+   83.26139
+  ],
+  [
+   55.19833,
+   83.26194
+  ],
+  [
+   55.18,
+   83.20028
+  ],
+  [
+   55.14361,
+   83.03139
+  ],
+  [
+   55.15056,
+   83.01639
+  ],
+  [
+   55.16417,
+   83.00528
+  ],
+  [
+   55.16611,
+   83.00833
+  ],
+  [
+   55.17056,
+   83.01306
+  ],
+  [
+   55.17306,
+   83.01444
+  ],
+  [
+   55.16389,
+   83.02611
+  ],
+  [
+   55.23083,
+   83.3175
+  ],
+  [
+   55.21778,
+   83.33333
+  ],
+  [
+   55.1725,
+   83.09583
+  ]
+ ],
+ "series": "notam-unnt",
+ "source": {
+  "fetched_at": "2026-11-14T06:41:26Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "L4668/26 NOTAMN\nQ)UNNT/QRTCA/IV/BO/W/000/030/5511N08310E006\nA)UNNT B)2611160100 C)2611201200\nD)DAILY 0100-1200\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 551304N0832000E-551246N0831944E-551223N0831719E-\n         551202N0831606E-551207N0831559E-551158N0831541E-\n         551154N0831543E-551048N0831201E-550837N0830153E-\n         550902N0830059E-550951N0830019E-550958N0830030E-\n         551014N0830047E-551023N0830052E-550950N0830134E-\n         551351N0831903E-551304N0832000E\n   550M AMSL-750M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 551021N0830545E\n   GND-750M AMSL.\nF)GND  G)750M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-02T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.8833,
+   "lon": 141.5,
+   "radius_nm": 4
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-30T22:00:00Z",
+  "upper": "1926FT AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-14T06:37:17Z",
+ "id": "notam-rjjj/2026/P5732",
+ "issued_at": "2026-11-14T03:24:00Z",
+ "last_seen": "2026-11-14T06:37:17Z",
+ "number": "P5732",
+ "positions": [
+  [
+   42.89278,
+   141.52972
+  ],
+  [
+   42.87111,
+   141.50306
+  ],
+  [
+   42.86639,
+   141.50167
+  ],
+  [
+   42.86056,
+   141.48167
+  ],
+  [
+   42.86278,
+   141.4525
+  ],
+  [
+   42.88639,
+   141.44083
+  ],
+  [
+   42.8975,
+   141.51333
+  ],
+  [
+   42.89278,
+   141.52972
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-14T06:41:26Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG EXER WILL BE CONDUCTED WITHIN R-138 SHIMAMATSU",
+ "text": "P5732/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/020/4253N14130E004\nA)RJJJ B)2611302200 C)2612020800\nD)2200/0800\nE)FRNG EXER WILL BE CONDUCTED WITHIN R-138 SHIMAMATSU\n1.WEAPON: MULTI PURPOSE MISSILE RANGE,TYPE 99 155MM SELF PROPELLED\nHOWITZER\n2.AREA: BOUNDED BY FLW POINTS\n425334N1413147E - 425216N1413011E - 425159N1413006E - 425138N1412854E\n- 425146N1412709E - 425311N1412627E - 425351N1413048E -\n425334N1413147E\n(ENIWA-SHI IN HOKKAIDO)\n3.RMK: (1)REF AIP PAGE ENR5.1-8\n(2)SOURCE/JSDF-G(RJCO)\nF)SFC G)1926FT AMSL",
+ "year": 2026
+}
