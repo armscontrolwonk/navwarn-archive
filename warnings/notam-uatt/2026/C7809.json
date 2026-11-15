@@ -1,0 +1,74 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-16T07:00:00Z",
+ "extra": {
+  "fir": "UATT",
+  "kind": "drone",
+  "location": "UATT",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 50.3667,
+   "lon": 57.0833,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "UATT",
+  "shape": "polygon",
+  "starts_at": "2026-11-16T05:00:00Z",
+  "upper": "1150FT AMSL",
+  "upper_fl": 12
+ },
+ "first_seen": "2026-11-15T18:56:00Z",
+ "id": "notam-uatt/2026/C7809",
+ "issued_at": "2026-11-15T09:08:00Z",
+ "last_seen": "2026-11-15T18:56:00Z",
+ "number": "C7809",
+ "positions": [
+  [
+   50.35944,
+   57.085
+  ],
+  [
+   50.36,
+   57.08694
+  ],
+  [
+   50.36333,
+   57.08444
+  ],
+  [
+   50.36472,
+   57.08278
+  ],
+  [
+   50.36306,
+   57.07861
+  ],
+  [
+   50.35972,
+   57.07889
+  ],
+  [
+   50.35778,
+   57.08
+  ],
+  [
+   50.35944,
+   57.085
+  ]
+ ],
+ "series": "notam-uatt",
+ "source": {
+  "fetched_at": "2026-11-15T18:58:52Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL TAKE PLACE",
+ "text": "C7809/26 NOTAMN\nQ) UATT/QWULW/IV/BO /W /000/012/5022N05705E001\nA) UATT B) 2611160500 C) 2611160700\nE) UNMANNED ACFT WILL TAKE PLACE\nAREA BOUNDED BY:\n502134N 0570506E - 502136N 0570513E - 502148N 0570504E - 502153N \n0570458E - 502147N 0570443E - 502135N 0570444E - 502128N 0570448E - \n502134N 0570506E\nF) GND G) 1150FT AMSL",
+ "year": 2026
+}

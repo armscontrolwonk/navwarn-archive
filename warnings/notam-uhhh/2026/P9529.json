@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-16T12:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 50.4375,
+    "lon": 127.70417,
+    "radius_nm": 1.62
+   }
+  ],
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 50.4333,
+   "lon": 127.7,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "starts_at": "2026-11-16T07:00:00Z",
+  "upper": "150M AGL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-15T18:56:00Z",
+ "id": "notam-uhhh/2026/P9529",
+ "issued_at": "2026-11-15T07:26:00Z",
+ "last_seen": "2026-11-15T18:56:00Z",
+ "number": "P9529",
+ "positions": [
+  [
+   50.4375,
+   127.70417
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-11-15T18:58:52Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 3KM CENTRE 502615N1274215E.",
+ "text": "P9529/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/999/5026N12742E002\nA)UHHH B)2611160700 C)2611161200\nE)AIRSPACE CLSD WI CIRCLE RADIUS 3KM CENTRE 502615N1274215E.\nF)GND  G)150M AGL",
+ "year": 2026
+}

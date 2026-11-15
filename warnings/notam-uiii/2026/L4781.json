@@ -1,0 +1,87 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-22T11:00:00Z",
+ "extra": {
+  "fir": "UIII",
+  "kind": "restricted",
+  "location": "UIII",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 58.0,
+   "lon": 114.8833,
+   "radius_nm": 45
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UIII",
+  "schedule": "17-22 0400-1100",
+  "shape": "polygon",
+  "starts_at": "2026-11-17T04:00:00Z",
+  "upper": "2000M AMSL",
+  "upper_fl": 70
+ },
+ "first_seen": "2026-11-15T18:56:00Z",
+ "id": "notam-uiii/2026/L4781",
+ "issued_at": "2026-11-15T10:58:00Z",
+ "last_seen": "2026-11-15T18:56:00Z",
+ "number": "L4781",
+ "positions": [
+  [
+   58.43556,
+   116.01444
+  ],
+  [
+   58.43111,
+   116.03222
+  ],
+  [
+   58.42639,
+   116.02722
+  ],
+  [
+   58.43222,
+   116.00417
+  ],
+  [
+   58.43556,
+   116.01444
+  ],
+  [
+   57.54889,
+   113.76389
+  ],
+  [
+   57.58611,
+   113.75083
+  ],
+  [
+   57.47139,
+   114.92889
+  ],
+  [
+   57.93,
+   115.08278
+  ],
+  [
+   57.91667,
+   115.09611
+  ],
+  [
+   57.79694,
+   113.83806
+  ]
+ ],
+ "series": "notam-uiii",
+ "source": {
+  "fetched_at": "2026-11-15T18:58:52Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "L4781/26 NOTAMN\nQ)UIII/QRTCA/IV/BO/W/000/070/5800N11453E045\nA)UIII B)2611170400 C)2611221100\nD)17-22 0400-1100\nE)AIRSPACE CLSD WI AREA:\n582608N1160052E-582552N1160156E-582535N1160138E-582556N1160015E-\n582608N1160052E-573256N1134550E-573510N1134503E-572817N1145544E-\n575548N1150458E-575500N1150546E-574749N1135017E.\nF)SFC  G)2000M AMSL",
+ "year": 2026
+}
