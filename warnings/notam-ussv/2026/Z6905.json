@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-22T18:00:00Z",
+ "extra": {
+  "fir": "USSV",
+  "kind": "route",
+  "location": "USSV",
+  "lower": "FL065",
+  "lower_fl": 65,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.8333,
+   "lon": 52.8167,
+   "radius_nm": 24
+  },
+  "qcode": "QARLC",
+  "queried_fir": "USSV",
+  "schedule": "17-22 0500-1800",
+  "starts_at": "2026-11-17T05:00:00Z",
+  "upper": "FL105",
+  "upper_fl": 105
+ },
+ "first_seen": "2026-11-15T06:44:25Z",
+ "id": "notam-ussv/2026/Z6905",
+ "issued_at": "2026-11-15T05:50:00Z",
+ "last_seen": "2026-11-15T06:44:25Z",
+ "number": "Z6905",
+ "positions": [],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-15T06:47:32Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FLW ATS RTE SEGMENTS CLSD:",
+ "text": "Z6905/26 NOTAMN\nQ)USSV/QARLC/IV/NBO/E/065/105/5650N05249E024\nA)USSV B)2611170500 C)2611221800\nD)17-22 0500-1800\nE)FLW ATS RTE SEGMENTS CLSD:\nM864 INGEN-MUROT FL065-FL105\nT765 SUBIK-INGEN FL065-FL105.\nF)FL065  G)FL105",
+ "year": 2026
+}

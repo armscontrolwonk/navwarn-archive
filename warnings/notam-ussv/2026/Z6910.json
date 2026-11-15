@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-22T18:00:00Z",
+ "extra": {
+  "fir": "USSV",
+  "kind": "route",
+  "location": "USSV",
+  "lower": "FL065",
+  "lower_fl": 65,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.8333,
+   "lon": 53.2,
+   "radius_nm": 13
+  },
+  "qcode": "QARLC",
+  "queried_fir": "USSV",
+  "schedule": "17-22 0500-1800",
+  "starts_at": "2026-11-17T05:00:00Z",
+  "upper": "FL070",
+  "upper_fl": 70
+ },
+ "first_seen": "2026-11-15T06:44:25Z",
+ "id": "notam-ussv/2026/Z6910",
+ "issued_at": "2026-11-15T05:51:00Z",
+ "last_seen": "2026-11-15T06:44:25Z",
+ "number": "Z6910",
+ "positions": [],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-15T06:47:32Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FLW ATS RTE SEGMENTS CLSD:",
+ "text": "Z6910/26 NOTAMN\nQ)USSV/QARLC/IV/NBO/E/065/070/5650N05312E013\nA)USSV B)2611170500 C)2611221800\nD)17-22 0500-1800\nE)FLW ATS RTE SEGMENTS CLSD:\nM864 INGEN-MOKNA FL065-FL070\nT765 GINOR-INGEN FL065-FL070.\nF)FL065  G)FL070",
+ "year": 2026
+}

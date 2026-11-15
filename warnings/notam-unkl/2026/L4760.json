@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T10:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 56.11778,
+    "lon": 92.90167,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "UNKL",
+  "kind": "restricted",
+  "location": "UNKL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.1167,
+   "lon": 92.9,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNKL",
+  "schedule": "DAILY 0600-1000",
+  "starts_at": "2026-11-18T06:00:00Z",
+  "upper": "500M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-15T06:44:25Z",
+ "id": "notam-unkl/2026/L4760",
+ "issued_at": "2026-11-15T04:44:00Z",
+ "last_seen": "2026-11-15T06:44:25Z",
+ "number": "L4760",
+ "positions": [
+  [
+   56.11778,
+   92.90167
+  ]
+ ],
+ "series": "notam-unkl",
+ "source": {
+  "fetched_at": "2026-11-15T06:47:32Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 1KM CENTRE 560704N0925406E.",
+ "text": "L4760/26 NOTAMN\nQ)UNKL/QRTCA/IV/BO/W/000/020/5607N09254E001\nA)UNKL B)2611180600 C)2611191000\nD)DAILY 0600-1000\nE)AIRSPACE CLSD WI CIRCLE RADIUS 1KM CENTRE 560704N0925406E.\nF)GND  G)500M AMSL",
+ "year": 2026
+}

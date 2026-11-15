@@ -1,0 +1,40 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-22T23:59:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "route",
+  "location": "ULLL",
+  "lower": "FL095",
+  "lower_fl": 95,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.5333,
+   "lon": 30.8833,
+   "radius_nm": 17
+  },
+  "qcode": "QARLC",
+  "queried_fir": "ULLL",
+  "starts_at": "2026-11-17T00:00:00Z",
+  "upper": "FL180",
+  "upper_fl": 180
+ },
+ "first_seen": "2026-11-15T06:44:25Z",
+ "id": "notam-ulll/2026/Q1600",
+ "issued_at": "2026-11-15T06:07:00Z",
+ "last_seen": "2026-11-15T06:44:25Z",
+ "number": "Q1600",
+ "positions": [],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-15T06:47:32Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENTS CLSD:",
+ "text": "Q1600/26 NOTAMN\nQ)ULLL/QARLC/IV/NBO/E/095/180/5632N03053E017\nA)ULLL B)2611170000 C)2611222359\nE)ATS RTE SEGMENTS CLSD:\nM869 RUMAP-KUGEK FL095-FL180\nN609 KUGEK-LEMRO FL095-FL180\nT751 AMDOR-VYELIKIYE LUKI VOR/DME(WKL) FL095-FL180.\nF)FL095  G)FL180",
+ "year": 2026
+}

@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-22T16:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 59.45,
+    "lon": 32.0,
+    "radius_nm": 21.6
+   }
+  ],
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 59.45,
+   "lon": 32.0,
+   "radius_nm": 22
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "17-22 0701-1659",
+  "starts_at": "2026-11-17T07:01:00Z",
+  "upper": "3050M AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-15T06:44:25Z",
+ "id": "notam-ulll/2026/Q1594",
+ "issued_at": "2026-11-15T06:05:00Z",
+ "last_seen": "2026-11-15T06:44:25Z",
+ "number": "Q1594",
+ "positions": [
+  [
+   59.45,
+   32.0
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-15T06:47:32Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 40KM CENTRE 592700N0320000E.",
+ "text": "Q1594/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/100/5927N03200E022\nA)ULLL B)2611170701 C)2611221659\nD)17-22 0701-1659\nE)AIRSPACE CLSD WI CIRCLE RADIUS 40KM CENTRE 592700N0320000E.\nVIP FLT AND FLT FOR THEIR SUPPORT, SKED FLT VIA ATS RTE, FLT TO/FM\nULLI AD NOT AFFECTED.\nFLT WO CONTINUOUS RDO COM WITH ATS UNITS (FLT OPS CTL) PROHIBITED.\nF)GND  G)3050M AMSL",
+ "year": 2026
+}

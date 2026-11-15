@@ -1,0 +1,40 @@
+{
+ "cancels": [
+  "notam-rpll/2026/B6070"
+ ],
+ "expires_at": "2026-11-22T23:59:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "exercise",
+  "location": "RPLL",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 14.5167,
+   "lon": 121.0167,
+   "radius_nm": 5
+  },
+  "qcode": "QLXAS",
+  "queried_fir": "RPLL",
+  "starts_at": "2026-11-15T03:29:00Z",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-15T06:44:25Z",
+ "id": "notam-rpll/2026/B6110",
+ "issued_at": "2026-11-15T03:29:00Z",
+ "last_seen": "2026-11-15T06:44:25Z",
+ "number": "B6110",
+ "positions": [],
+ "series": "notam-rpll",
+ "source": {
+  "fetched_at": "2026-11-15T06:47:32Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TWY CL LGT RAPID EXIT TWY R1 U/S.",
+ "text": "B6110/26 NOTAMR B6070/26\nQ) RPHI/QLXAS/IV/M  /A /000/999/1431N12101E005\nA) RPLL B) 2611150329 C) 2611222359\nE) TWY CL LGT RAPID EXIT TWY R1 U/S.\n\nRMK: EXER CTN WHEN TAX.",
+ "year": 2026
+}
