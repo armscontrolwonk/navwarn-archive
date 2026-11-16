@@ -1,0 +1,87 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-18T07:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.5667,
+   "lon": 138.0333,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0730",
+  "shape": "polygon",
+  "starts_at": "2026-11-17T00:00:00Z",
+  "upper": "2527FT AMSL",
+  "upper_fl": 26
+ },
+ "first_seen": "2026-11-16T06:42:38Z",
+ "id": "notam-rjjj/2026/U4358",
+ "issued_at": "2026-11-16T05:46:00Z",
+ "last_seen": "2026-11-16T06:42:38Z",
+ "number": "U4358",
+ "positions": [
+  [
+   35.57806,
+   138.03306
+  ],
+  [
+   35.57778,
+   138.0325
+  ],
+  [
+   35.56167,
+   138.03639
+  ],
+  [
+   35.55444,
+   138.03611
+  ],
+  [
+   35.55444,
+   138.0375
+  ],
+  [
+   35.55806,
+   138.0375
+  ],
+  [
+   35.55389,
+   138.04306
+  ],
+  [
+   35.55528,
+   138.04417
+  ],
+  [
+   35.56,
+   138.03806
+  ],
+  [
+   35.57472,
+   138.03528
+  ],
+  [
+   35.57806,
+   138.03306
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-16T06:45:29Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4358/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/026/3534N13802E002\nA)RJJJ B)2611170000 C)2611180730\nD)0000/0730\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n353441N1380159E - 353440N1380157E - 353342N1380211E - 353316N1380210E\n- 353316N1380215E - 353329N1380215E - 353314N1380235E -\n353319N1380239E - 353336N1380217E - 353429N1380207E - 353441N1380159E\n(SHIMOINA-GUN IN NAGANO)\nWT: 1.2KG\nCONTACT INFORMATION: 078-940-0307\nF)SFC G)2527FT AMSL",
+ "year": 2026
+}

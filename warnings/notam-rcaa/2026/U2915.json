@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-02T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.55,
+   "lon": 120.1667,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-19T16:00:00Z",
+  "upper": "2400FT AMSL",
+  "upper_fl": 24
+ },
+ "first_seen": "2026-11-16T06:42:38Z",
+ "id": "notam-rcaa/2026/U2915",
+ "issued_at": "2026-11-16T02:19:00Z",
+ "last_seen": "2026-11-16T06:42:38Z",
+ "number": "U2915",
+ "positions": [
+  [
+   23.58417,
+   120.14556
+  ],
+  [
+   23.58417,
+   120.16139
+  ],
+  [
+   23.56639,
+   120.19611
+  ],
+  [
+   23.51528,
+   120.19167
+  ],
+  [
+   23.52528,
+   120.15639
+  ],
+  [
+   23.58417,
+   120.14556
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-11-16T06:45:29Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2915/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/024/2333N12010E003\nA) RCAA\nB) 2611191600 C) 2701021600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB261015000303\n2.LCA:KOUHU TOWNSHIP, YUNLIN COUNTY\n3.THE AREA OVERLAPS PART OF AREA FIVE MIL TRAINING AREA \n  AND RCR38, ACFT ARE CTN ADZ.\n4.COOR TEL:0933-147693, 0909-154911\n5.AREA AS FLW:\n233503N 1200844E\n233503N 1200941E\n233359N 1201146E\n233055N 1201130E\n233131N 1200923E\n233503N 1200844E\nF) SFC G) 2400FT AMSL",
+ "year": 2026
+}

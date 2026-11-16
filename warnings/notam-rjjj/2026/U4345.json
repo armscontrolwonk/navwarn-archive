@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-17T02:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.75,
+   "lon": 130.8833,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-17T00:30:00Z",
+  "upper": "4266FT AMSL",
+  "upper_fl": 43
+ },
+ "first_seen": "2026-11-16T06:42:38Z",
+ "id": "notam-rjjj/2026/U4345",
+ "issued_at": "2026-11-16T01:58:00Z",
+ "last_seen": "2026-11-16T06:42:38Z",
+ "number": "U4345",
+ "positions": [
+  [
+   33.76444,
+   130.87167
+  ],
+  [
+   33.76528,
+   130.88833
+  ],
+  [
+   33.74361,
+   130.89278
+  ],
+  [
+   33.73444,
+   130.88139
+  ],
+  [
+   33.74556,
+   130.85944
+  ],
+  [
+   33.76444,
+   130.87167
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-16T06:45:29Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4345/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/043/3345N13053E002\nA)RJJJ B)2611170030 C)2611170230\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n334552N1305218E - 334555N1305318E - 334437N1305334E - 334404N1305253E\n- 334444N1305134E - 334552N1305218E \n(KITAKYUSHU-SHI,MIYAKO-GUN IN FUKUOKA)\nWT: 15.8KG\nF)SFC G)4266FT AMSL",
+ "year": 2026
+}

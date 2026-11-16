@@ -1,0 +1,78 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-22T03:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.3167,
+   "lon": 131.2833,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-18T23:00:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-16T06:42:38Z",
+ "id": "notam-rjjj/2026/U4352",
+ "issued_at": "2026-11-16T03:49:00Z",
+ "last_seen": "2026-11-16T06:42:38Z",
+ "number": "U4352",
+ "positions": [
+  [
+   33.30639,
+   131.22139
+  ],
+  [
+   33.31694,
+   131.26167
+  ],
+  [
+   33.32361,
+   131.315
+  ],
+  [
+   33.31611,
+   131.32806
+  ],
+  [
+   33.29056,
+   131.32444
+  ],
+  [
+   33.28111,
+   131.25917
+  ],
+  [
+   33.29167,
+   131.24861
+  ],
+  [
+   33.29222,
+   131.22528
+  ],
+  [
+   33.30639,
+   131.22139
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-16T06:45:29Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U4352/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/100/3319N13117E004\nA)RJJJ B)2611182300 C)2611220300\nE)UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n331823N1311317E - 331901N1311542E - 331925N1311854E - 331858N1311941E\n- 331726N1311928E - 331652N1311533E - 331730N1311455E -\n331732N1311331E - 331823N1311317E \nR-91(HIJUDAI MANEUVERING AREA)\n(USA-SHI, YUFU-SHI, KUSU-GUN IN OITA)\nWT: 20KG\nNUMBER: 2\nRMK: SOURCE/JSDF-G(RJDM)\nF)SFC G)10000FT AMSL",
+ "year": 2026
+}

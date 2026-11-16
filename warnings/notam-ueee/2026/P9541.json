@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T11:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 57.65333,
+    "lon": 119.84333,
+    "radius_nm": 1.62
+   }
+  ],
+  "fir": "UEEE",
+  "kind": "restricted",
+  "location": "UEEE",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 57.65,
+   "lon": 119.8333,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UEEE",
+  "schedule": "DAILY 0300-1100",
+  "starts_at": "2026-11-22T03:00:00Z",
+  "upper": "900M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-16T06:42:38Z",
+ "id": "notam-ueee/2026/P9541",
+ "issued_at": "2026-11-16T00:24:00Z",
+ "last_seen": "2026-11-16T06:42:38Z",
+ "number": "P9541",
+ "positions": [
+  [
+   57.65333,
+   119.84333
+  ]
+ ],
+ "series": "notam-ueee",
+ "source": {
+  "fetched_at": "2026-11-16T06:45:29Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 3KM CENTRE 573912N1195036E.",
+ "text": "P9541/26 NOTAMN\nQ)UEEE/QRTCA/IV/BO/W/000/030/5739N11950E002\nA)UEEE B)2611220300 C)2611271100\nD)DAILY 0300-1100\nE)AIRSPACE CLSD WI CIRCLE RADIUS 3KM CENTRE 573912N1195036E.\nF)SFC  G)900M AMSL",
+ "year": 2026
+}

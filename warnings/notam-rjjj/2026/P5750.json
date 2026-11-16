@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-06T07:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.2667,
+   "lon": 144.85,
+   "radius_nm": 9
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "schedule": "2330/0730",
+  "shape": "polygon",
+  "starts_at": "2026-11-24T23:30:00Z",
+  "upper": "36000FT AMSL",
+  "upper_fl": 360
+ },
+ "first_seen": "2026-11-16T06:42:38Z",
+ "id": "notam-rjjj/2026/P5750",
+ "issued_at": "2026-11-16T06:00:00Z",
+ "last_seen": "2026-11-16T06:42:38Z",
+ "number": "P5750",
+ "positions": [
+  [
+   43.2975,
+   144.76472
+  ],
+  [
+   43.28722,
+   144.90889
+  ],
+  [
+   43.26528,
+   144.9
+  ],
+  [
+   43.28472,
+   144.76028
+  ],
+  [
+   43.2975,
+   144.76472
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-16T06:45:29Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "GND/GND FRNG WILL BE CONDUCTED WITHIN YAUSUBETSU",
+ "text": "P5750/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/360/4316N14451E009\nA)RJJJ B)2611242330 C)2612060730\nD)2330/0730\nE)GND/GND FRNG WILL BE CONDUCTED WITHIN YAUSUBETSU\nWEAPON: 155MM HOWITZER\nAREA  : BOUNDED BY FLW POINTS\n        431751N1444553E - 431714N1445432E - 431555N1445400E -\n        431705N1444537E - 431751N1444553E\n(NOTSUKE-GUN,AKKESHI-GUN IN HOKKAIDO)\nRMK   : (1)REF AIP PAGE ENR5.1-4\n        (2)SOURCE/JSDF-G(RJCT)\nF)SFC G)36000FT AMSL",
+ "year": 2026
+}

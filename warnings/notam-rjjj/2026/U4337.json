@@ -1,0 +1,90 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-16T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.75,
+   "lon": 130.8833,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-15T23:30:00Z",
+  "upper": "2182FT AMSL",
+  "upper_fl": 22
+ },
+ "first_seen": "2026-11-16T06:42:38Z",
+ "id": "notam-rjjj/2026/U4337",
+ "issued_at": "2026-11-15T20:40:00Z",
+ "last_seen": "2026-11-16T06:42:38Z",
+ "number": "U4337",
+ "positions": [
+  [
+   33.765,
+   130.87722
+  ],
+  [
+   33.75472,
+   130.87361
+  ],
+  [
+   33.745,
+   130.88694
+  ],
+  [
+   33.74667,
+   130.89
+  ],
+  [
+   33.75167,
+   130.89056
+  ],
+  [
+   33.75444,
+   130.88972
+  ],
+  [
+   33.755,
+   130.88917
+  ],
+  [
+   33.755,
+   130.88722
+  ],
+  [
+   33.75861,
+   130.8875
+  ],
+  [
+   33.76,
+   130.88833
+  ],
+  [
+   33.76417,
+   130.88639
+  ],
+  [
+   33.765,
+   130.87722
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-16T06:45:29Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4337/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/022/3345N13053E002\nA)RJJJ B)2611152330 C)2611160800\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n334554N1305238E - 334517N1305225E - 334442N1305313E - 334448N1305324E\n- 334506N1305326E - 334516N1305323E - 334518N1305321E -\n334518N1305314E - 334531N1305315E - 334536N1305318E - 334551N1305311E\n- 334554N1305238E \n(KITAKYUSYU-SHI IN FUKUOKA)\nWT: 9KG\nF)SFC G)2182FT AMSL",
+ "year": 2026
+}

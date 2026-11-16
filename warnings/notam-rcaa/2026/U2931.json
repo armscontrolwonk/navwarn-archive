@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.5833,
+   "lon": 121.1667,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-22T16:00:00Z",
+  "upper": "FL200",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-11-16T06:42:38Z",
+ "id": "notam-rcaa/2026/U2931",
+ "issued_at": "2026-11-16T02:44:00Z",
+ "last_seen": "2026-11-16T06:42:38Z",
+ "number": "U2931",
+ "positions": [
+  [
+   22.61111,
+   121.10833
+  ],
+  [
+   22.61111,
+   121.21667
+  ],
+  [
+   22.54722,
+   121.21667
+  ],
+  [
+   22.54722,
+   121.10833
+  ],
+  [
+   22.61111,
+   121.10833
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-11-16T06:45:29Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2931/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/200/2235N12110E004\nA) RCAA\nB) 2611221600 C) 2612311600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:M261110000602\n2.LCA:TAIMALI TOWNSHIP, TAITUNG COUNTY\n3.COOR TEL:04-27023051, 0985-304927\n4.AREA AS FLW:\n223640N 1210630E\n223640N 1211300E\n223250N 1211300E\n223250N 1210630E\n223640N 1210630E\nF) SFC G) FL200",
+ "year": 2026
+}
