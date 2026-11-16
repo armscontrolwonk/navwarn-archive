@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-23T20:00:00Z",
+ "extra": {
+  "fir": "UWWW",
+  "kind": "route",
+  "location": "UWWW",
+  "lower": "FL065",
+  "lower_fl": 65,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.25,
+   "lon": 52.2667,
+   "radius_nm": 20
+  },
+  "qcode": "QARLC",
+  "queried_fir": "UWWW",
+  "schedule": "DAILY 0400-2000",
+  "starts_at": "2026-11-18T04:00:00Z",
+  "upper": "FL090",
+  "upper_fl": 90
+ },
+ "first_seen": "2026-11-16T22:15:37Z",
+ "id": "notam-uwww/2026/N0363",
+ "issued_at": "2026-11-16T10:15:00Z",
+ "last_seen": "2026-11-16T22:15:37Z",
+ "number": "N0363",
+ "positions": [],
+ "series": "notam-uwww",
+ "source": {
+  "fetched_at": "2026-11-16T22:18:26Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENTS CLSD:",
+ "text": "N0363/26 NOTAMN\nQ)UWWW/QARLC/IV/NBO/E/065/090/5615N05216E020\nA)UWWW B)2611180400 C)2611232000\nD)DAILY 0400-2000\nE)ATS RTE SEGMENTS CLSD:\nL93  GASRO-NATBI,\nT765 GEMKI-SUBIK,\nW911 NATBI-SUBIK.\nF)FL065  G)FL090",
+ "year": 2026
+}

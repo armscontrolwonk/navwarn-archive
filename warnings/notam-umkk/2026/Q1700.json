@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T15:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 54.8375,
+    "lon": 21.125,
+    "radius_nm": 1.08
+   }
+  ],
+  "fir": "UMKK",
+  "kind": "restricted",
+  "location": "UMKK",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 54.8333,
+   "lon": 21.1167,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UMKK",
+  "schedule": "18 19 0800-1500",
+  "starts_at": "2026-11-18T08:00:00Z",
+  "upper": "190M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-16T22:15:37Z",
+ "id": "notam-umkk/2026/Q1700",
+ "issued_at": "2026-11-16T12:49:00Z",
+ "last_seen": "2026-11-16T22:15:37Z",
+ "number": "Q1700",
+ "positions": [
+  [
+   54.8375,
+   21.125
+  ]
+ ],
+ "series": "notam-umkk",
+ "source": {
+  "fetched_at": "2026-11-16T22:18:26Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 2KM CENTRE 545015N0210730E.",
+ "text": "Q1700/26 NOTAMN\nQ)UMKK/QRTCA/IV/BO/W/000/010/5450N02107E002\nA)UMKK B)2611180800 C)2611191500\nD)18 19 0800-1500\nE)AIRSPACE CLSD WI CIRCLE RADIUS 2KM CENTRE 545015N0210730E.\nF)SFC  G)190M AMSL",
+ "year": 2026
+}

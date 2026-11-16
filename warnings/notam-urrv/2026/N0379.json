@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-23T15:00:00Z",
+ "extra": {
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.8667,
+   "lon": 48.1667,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "URRV",
+  "schedule": "DAILY 0600-1500",
+  "shape": "polygon",
+  "starts_at": "2026-11-18T06:00:00Z",
+  "upper": "590M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-16T22:15:37Z",
+ "id": "notam-urrv/2026/N0379",
+ "issued_at": "2026-11-16T10:29:00Z",
+ "last_seen": "2026-11-16T22:15:37Z",
+ "number": "N0379",
+ "positions": [
+  [
+   41.89694,
+   48.12833
+  ],
+  [
+   41.90083,
+   48.14778
+  ],
+  [
+   41.84583,
+   48.21917
+  ],
+  [
+   41.83361,
+   48.20278
+  ],
+  [
+   41.89694,
+   48.12833
+  ]
+ ],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-11-16T22:18:26Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "N0379/26 NOTAMN\nQ)URRV/QRTCA/IV/BO/W/000/020/4152N04810E003\nA)URRV B)2611180600 C)2611231500\nD)DAILY 0600-1500\nE)AIRSPACE CLSD WI AREA:\n415349N0480742E-415403N0480852E-415045N0481309E-415001N0481210E-\n415349N0480742E.\nF)GND  G)590M AMSL",
+ "year": 2026
+}

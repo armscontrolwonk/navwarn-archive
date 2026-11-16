@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-24T12:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 56.84222,
+    "lon": 60.55639,
+    "radius_nm": 0.22
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.8333,
+   "lon": 60.55,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0400-1200",
+  "starts_at": "2026-11-19T04:00:00Z",
+  "upper": "350M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-16T22:15:37Z",
+ "id": "notam-ussv/2026/Z6995",
+ "issued_at": "2026-11-16T08:13:00Z",
+ "last_seen": "2026-11-16T22:15:37Z",
+ "number": "Z6995",
+ "positions": [
+  [
+   56.84222,
+   60.55639
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-16T22:18:26Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 0.4KM CENTRE 565032N0603323E.",
+ "text": "Z6995/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/020/5650N06033E001\nA)USSV B)2611190400 C)2611241200\nD)DAILY 0400-1200\nE)AIRSPACE CLSD WI CIRCLE RADIUS 0.4KM CENTRE 565032N0603323E.\nF)GND  G)350M AMSL",
+ "year": 2026
+}

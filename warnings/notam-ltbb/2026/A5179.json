@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-18T12:30:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "firing",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.4667,
+   "lon": 28.3667,
+   "radius_nm": 15
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LTBB",
+  "shape": "polygon",
+  "starts_at": "2026-11-18T10:30:00Z",
+  "upper": "15000FT AMSL",
+  "upper_fl": 150
+ },
+ "first_seen": "2026-11-16T22:15:37Z",
+ "id": "notam-ltbb/2026/A5179",
+ "issued_at": "2026-11-16T12:50:00Z",
+ "last_seen": "2026-11-16T22:15:37Z",
+ "number": "A5179",
+ "positions": [
+  [
+   40.41667,
+   28.65
+  ],
+  [
+   40.49194,
+   28.58389
+  ],
+  [
+   40.59722,
+   28.20917
+  ],
+  [
+   40.53,
+   28.07306
+  ],
+  [
+   40.41667,
+   28.65
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-11-16T22:18:26Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXERCISE(FIRING)WILL TAKE PLACE WI BANDIRMA MIL TMA AND ISTANBUL ",
+ "text": "A5179/26 NOTAMN\nQ) LTBB/QWMLW/IV/BO /W /000/150/4028N02822E015\nA) LTBB B) 2611181030 C) 2611181230\nE) EXERCISE(FIRING)WILL TAKE PLACE WI BANDIRMA MIL TMA AND ISTANBUL \nTMA.\nAREA: 402500N0283900E 402931N0283502E 403550N0281233E \n403148N0280423E 402500N0283900E\nF) SFC G) 15000FT AMSL",
+ "year": 2026
+}
