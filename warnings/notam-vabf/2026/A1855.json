@@ -1,0 +1,42 @@
+{
+ "cancels": [
+  "notam-vabf/2026/A1658"
+ ],
+ "expires_at": "2026-11-17T17:30:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "restricted",
+  "location": "VABF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 22.4333,
+   "lon": 75.6667,
+   "radius_nm": 6
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "VABF",
+  "starts_at": "2026-11-17T06:24:00Z",
+  "upper": "12000FT AGL",
+  "upper_fl": 140
+ },
+ "first_seen": "2026-11-17T08:02:25Z",
+ "id": "notam-vabf/2026/A1855",
+ "issued_at": "2026-11-17T06:24:00Z",
+ "last_seen": "2026-11-17T08:02:25Z",
+ "number": "A1855",
+ "positions": [],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-11-17T08:05:03Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "VAD 8 (BERCHHA) ACT",
+ "text": "A1855/26 NOTAMR A1658/26\nQ) VABF/QRDCA/IV/BO/W/000/140/2226N07540E006\nA) VABF B) 2611170624 C) 2611171730\nE) VAD 8 (BERCHHA) ACT\nF) GND G) 12000FT AGL",
+ "year": 2026
+}

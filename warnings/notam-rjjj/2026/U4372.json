@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-18T07:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.0333,
+   "lon": 132.45,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "17 0600/0730 18 0000/0730",
+  "shape": "polygon",
+  "starts_at": "2026-11-17T06:00:00Z",
+  "upper": "670FT AMSL",
+  "upper_fl": 7
+ },
+ "first_seen": "2026-11-17T08:02:25Z",
+ "id": "notam-rjjj/2026/U4372",
+ "issued_at": "2026-11-17T01:00:00Z",
+ "last_seen": "2026-11-17T08:02:25Z",
+ "number": "U4372",
+ "positions": [
+  [
+   33.01861,
+   132.49778
+  ],
+  [
+   33.03389,
+   132.40361
+  ],
+  [
+   33.05639,
+   132.40917
+  ],
+  [
+   33.04444,
+   132.46917
+  ],
+  [
+   33.02361,
+   132.48528
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-17T08:05:03Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4372/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/007/3302N13227E004\nA)RJJJ B)2611170600 C)2611180730\nD)17 0600/0730 18 0000/0730\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: 70M EITHER SIDE OF A LINE 330107N1322952E - 330202N1322413E -\n330323N1322433E - 330240N1322809E - 330125N1322907E \n(MINAMIUWA-GUN IN EHIME)\nWT: 2.1KG\nCONTACT INFORMATION: 06-6351-7828\nF)SFC G)670FT AMSL",
+ "year": 2026
+}

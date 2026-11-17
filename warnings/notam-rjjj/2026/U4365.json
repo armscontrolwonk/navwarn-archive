@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-19T06:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.6,
+   "lon": 139.6667,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/0600",
+  "shape": "polygon",
+  "starts_at": "2026-11-19T23:00:00Z",
+  "upper": "772FT AMSL",
+  "upper_fl": 8
+ },
+ "first_seen": "2026-11-17T08:02:25Z",
+ "id": "notam-rjjj/2026/U4365",
+ "issued_at": "2026-11-16T23:22:00Z",
+ "last_seen": "2026-11-17T08:02:25Z",
+ "number": "U4365",
+ "positions": [
+  [
+   35.60889,
+   139.65972
+  ],
+  [
+   35.6075,
+   139.65972
+  ],
+  [
+   35.60722,
+   139.66139
+  ],
+  [
+   35.60861,
+   139.66167
+  ],
+  [
+   35.60889,
+   139.65972
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-17T08:05:03Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4365/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/008/3536N13940E001\nA)RJJJ B)2611192300 C)2612190600\nD)2300/0600\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n353632N1393935E - 353627N1393935E - 353626N1393941E - 353631N1393942E\n- 353632N1393935E \n(SETAGAYA-KU IN TOKYO)\nWT: 1.1KG\nNUMBER: 2\nF)SFC G)772FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2027-02-10T08:57:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.2167,
+   "lon": 140.2,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2123/0857",
+  "shape": "polygon",
+  "starts_at": "2026-11-19T21:23:00Z",
+  "upper": "2822FT AMSL",
+  "upper_fl": 29
+ },
+ "first_seen": "2026-11-17T08:02:25Z",
+ "id": "notam-rjjj/2026/U4378",
+ "issued_at": "2026-11-17T06:50:00Z",
+ "last_seen": "2026-11-17T08:02:25Z",
+ "number": "U4378",
+ "positions": [
+  [
+   38.22222,
+   140.18556
+  ],
+  [
+   38.19111,
+   140.18528
+  ],
+  [
+   38.19028,
+   140.18972
+  ],
+  [
+   38.21889,
+   140.19361
+  ],
+  [
+   38.23639,
+   140.21528
+  ],
+  [
+   38.23778,
+   140.21139
+  ],
+  [
+   38.22222,
+   140.18556
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-17T08:05:03Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4378/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/029/3813N14012E003\nA)RJJJ B)2611192123 C)2702100857\nD)2123/0857\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n381320N1401108E - 381128N1401107E - 381125N1401123E - 381308N1401137E\n- 381411N1401255E - 381416N1401241E - 381320N1401108E \n(YAMAGATA-SHI, KAMINOYAMA-SHI, NANYO-SHI, HIGASHIMURAYAMA-GUN IN\nYAMAGATA)\nWT: 9KG\nFLT TIME: HJ\nF)SFC G)2822FT AMSL",
+ "year": 2026
+}

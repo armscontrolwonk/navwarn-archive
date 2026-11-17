@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-11T11:30:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.1833,
+   "lon": 120.0,
+   "radius_nm": 7
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "schedule": "0000-1130",
+  "shape": "polygon",
+  "starts_at": "2026-11-23T00:00:00Z",
+  "upper": "1700FT AMSL",
+  "upper_fl": 17
+ },
+ "first_seen": "2026-11-17T08:02:25Z",
+ "id": "notam-rcaa/2026/U2948",
+ "issued_at": "2026-11-17T02:25:00Z",
+ "last_seen": "2026-11-17T08:02:25Z",
+ "number": "U2948",
+ "positions": [
+  [
+   23.22417,
+   120.11417
+  ],
+  [
+   23.15222,
+   120.11694
+  ],
+  [
+   23.15056,
+   119.89472
+  ],
+  [
+   23.21972,
+   119.89528
+  ],
+  [
+   23.22417,
+   120.11417
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-11-17T08:05:03Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2948/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/017/2311N12000E007\nA) RCAA\nB) 2611230000 C) 2612111130\nD) 0000-1130\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:M261005001902\n2.LCA:JIANGJUN DISTRICT, TAINAN CITY\n3.COOR TEL:0977-347533, 0978-330778, 0972-629972\n4.AREA AS FLW:\n231327N 1200651E\n230908N 1200701E\n230902N 1195341E\n231311N 1195343E\n231327N 1200651E\nF) SFC G) 1700FT AMSL",
+ "year": 2026
+}

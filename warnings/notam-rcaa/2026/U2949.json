@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-11T11:30:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.7167,
+   "lon": 120.3,
+   "radius_nm": 6
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "schedule": "0000-1130",
+  "shape": "polygon",
+  "starts_at": "2026-11-23T00:00:00Z",
+  "upper": "1700FT AMSL",
+  "upper_fl": 17
+ },
+ "first_seen": "2026-11-17T08:02:25Z",
+ "id": "notam-rcaa/2026/U2949",
+ "issued_at": "2026-11-17T02:26:00Z",
+ "last_seen": "2026-11-17T08:02:25Z",
+ "number": "U2949",
+ "positions": [
+  [
+   23.73167,
+   120.38139
+  ],
+  [
+   23.71389,
+   120.38139
+  ],
+  [
+   23.71583,
+   120.20361
+  ],
+  [
+   23.73278,
+   120.20278
+  ],
+  [
+   23.73167,
+   120.38139
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-11-17T08:05:03Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2949/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/017/2343N12018E006\nA) RCAA\nB) 2611230000 C) 2612111130\nD) 0000-1130\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:M261005001903\n2.LCA:BAOZHONG TOWNSHIP, YUNLIN COUNTY\n3.THE AREA OVERLAPS PART OF CHIAYI MIL TRAINING AREA,\n  ACFT ARE CTN ADZ.\n4.COOR TEL:0977-347533, 0978-330778, 0972-629972\n5.AREA AS FLW:\n234354N 1202253E\n234250N 1202253E\n234257N 1201213E\n234358N 1201210E\n234354N 1202253E\nF) SFC G) 1700FT AMSL",
+ "year": 2026
+}

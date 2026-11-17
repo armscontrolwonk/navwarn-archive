@@ -1,0 +1,42 @@
+{
+ "cancels": [
+  "notam-vabf/2026/A1657"
+ ],
+ "expires_at": "2026-11-17T17:30:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "restricted",
+  "location": "VABF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 22.55,
+   "lon": 75.65,
+   "radius_nm": 5
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "VABF",
+  "starts_at": "2026-11-17T06:22:00Z",
+  "upper": "8000FT AGL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-17T08:02:25Z",
+ "id": "notam-vabf/2026/A1854",
+ "issued_at": "2026-11-17T06:22:00Z",
+ "last_seen": "2026-11-17T08:02:25Z",
+ "number": "A1854",
+ "positions": [],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-11-17T08:05:03Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "VAD 219 (HEMA) ACT",
+ "text": "A1854/26 NOTAMR A1657/26\nQ) VABF/QRDCA/IV/BO/W/000/100/2233N07539E005\nA) VABF B) 2611170622 C) 2611171730\nE) VAD 219 (HEMA) ACT\nF) GND G) 8000FT AGL",
+ "year": 2026
+}

@@ -1,0 +1,102 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-29T17:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 51.02028,
+    "lon": 47.7375,
+    "radius_nm": 1.08
+   },
+   {
+    "lat": 50.91222,
+    "lon": 47.41889,
+    "radius_nm": 1.08
+   }
+  ],
+  "fir": "UWWW",
+  "kind": "restricted",
+  "location": "UWWW",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 50.8667,
+   "lon": 47.5167,
+   "radius_nm": 25
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UWWW",
+  "schedule": "21 22 28 29 0500-1700",
+  "starts_at": "2026-11-21T05:00:00Z",
+  "upper": "820M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-17T08:02:25Z",
+ "id": "notam-uwww/2026/N0434",
+ "issued_at": "2026-11-17T06:39:00Z",
+ "last_seen": "2026-11-17T08:02:25Z",
+ "number": "N0434",
+ "positions": [
+  [
+   51.10722,
+   47.61083
+  ],
+  [
+   51.01861,
+   47.45611
+  ],
+  [
+   50.95778,
+   46.8875
+  ],
+  [
+   50.62833,
+   47.43556
+  ],
+  [
+   50.95194,
+   47.63389
+  ],
+  [
+   50.73222,
+   48.05694
+  ],
+  [
+   50.76667,
+   48.15972
+  ],
+  [
+   51.17833,
+   47.79472
+  ],
+  [
+   51.16306,
+   47.56889
+  ],
+  [
+   51.10722,
+   47.61083
+  ],
+  [
+   51.02028,
+   47.7375
+  ],
+  [
+   50.91222,
+   47.41889
+  ]
+ ],
+ "series": "notam-uwww",
+ "source": {
+  "fetched_at": "2026-11-17T08:05:03Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "N0434/26 NOTAMN\nQ)UWWW/QRTCA/IV/BO/W/000/030/5052N04731E025\nA)UWWW B)2611210500 C)2611291700\nD)21 22 28 29 0500-1700\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 510626N0473639E-510107N0472722E-505728N0465315E-\n         503742N0472608E-505707N0473802E-504356N0480325E-\n         504600N0480935E-511042N0474741E-510947N0473408E-\n         510626N0473639E\n   360M AMSL-820M AMSL.\n2. WI CIRCLE RADIUS 2KM CENTRE 510113N0474415E\n   GND-820M AMSL.\n3. WI CIRCLE RADIUS 2KM CENTRE 505444N0472508E\n   GND-820M AMSL.\nF)GND  G)820M AMSL",
+ "year": 2026
+}

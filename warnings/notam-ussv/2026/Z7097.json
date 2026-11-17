@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-18T14:00:00Z",
+ "extra": {
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 57.0667,
+   "lon": 60.8333,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "shape": "polygon",
+  "starts_at": "2026-11-18T11:00:00Z",
+  "upper": "500M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-17T08:02:25Z",
+ "id": "notam-ussv/2026/Z7097",
+ "issued_at": "2026-11-17T06:12:00Z",
+ "last_seen": "2026-11-17T08:02:25Z",
+ "number": "Z7097",
+ "positions": [
+  [
+   57.05,
+   60.85
+  ],
+  [
+   57.05,
+   60.81667
+  ],
+  [
+   57.06667,
+   60.81667
+  ],
+  [
+   57.06667,
+   60.85
+  ],
+  [
+   57.05,
+   60.85
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-17T08:05:03Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "Z7097/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/020/5704N06050E001\nA)USSV B)2611181100 C)2611181400\nE)AIRSPACE CLSD WI AREA:\n570300N0605100E-570300N0604900E-570400N0604900E-\n570400N0605100E-570300N0605100E\nF)GND  G)500M AMSL",
+ "year": 2026
+}
