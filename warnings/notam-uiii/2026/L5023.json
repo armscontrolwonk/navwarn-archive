@@ -1,0 +1,50 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-24T10:00:00Z",
+ "extra": {
+  "fir": "UIII",
+  "kind": "restricted",
+  "location": "UIII",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 52.3333,
+   "lon": 104.1,
+   "radius_nm": 4
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UIII",
+  "schedule": "DAILY 0200-1000",
+  "starts_at": "2026-11-19T02:00:00Z",
+  "upper": "140M AGL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-17T21:01:29Z",
+ "id": "notam-uiii/2026/L5023",
+ "issued_at": "2026-11-17T18:00:00Z",
+ "last_seen": "2026-11-17T21:01:29Z",
+ "number": "L5023",
+ "positions": [
+  [
+   52.37417,
+   104.01167
+  ],
+  [
+   52.30056,
+   104.17694
+  ]
+ ],
+ "series": "notam-uiii",
+ "source": {
+  "fetched_at": "2026-11-17T21:04:32Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI 3KM EITHER SIDE OF LINE JOINING POINTS:",
+ "text": "L5023/26 NOTAMN\nQ)UIII/QRTCA/IV/BO/W/000/999/5220N10406E004\nA)UIII B)2611190200 C)2611241000\nD)DAILY 0200-1000\nE)AIRSPACE CLSD WI 3KM EITHER SIDE OF LINE JOINING POINTS:\n522227N1040042E-521802N1041037E.\nF)GND  G)140M AGL",
+ "year": 2026
+}

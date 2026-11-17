@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-26T15:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.1333,
+   "lon": 35.3833,
+   "radius_nm": 19
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LTAA",
+  "schedule": "1000-1500",
+  "shape": "polygon",
+  "starts_at": "2026-11-24T10:00:00Z",
+  "upper": "65000FT AMSL",
+  "upper_fl": 650
+ },
+ "first_seen": "2026-11-17T21:01:29Z",
+ "id": "notam-ltaa/2026/A5215",
+ "issued_at": "2026-11-17T13:08:00Z",
+ "last_seen": "2026-11-17T21:01:29Z",
+ "number": "A5215",
+ "positions": [
+  [
+   42.18583,
+   35.78722
+  ],
+  [
+   42.40417,
+   35.57306
+  ],
+  [
+   42.08778,
+   34.98389
+  ],
+  [
+   41.86972,
+   35.19722
+  ],
+  [
+   42.18583,
+   35.78722
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-17T21:04:32Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "GUN FIRING WILL TAKE PLACE WI SINOP TMA",
+ "text": "A5215/26 NOTAMN\nQ) LTAA/QWMLW/IV/BO /W /000/650/4208N03523E019\nA) LTAA B) 2611241000 C) 2611261500\nD) 1000-1500\nE) GUN FIRING WILL TAKE PLACE WI SINOP TMA\nRMK: AIR TRAFFIC FLOW REGULATION NOTAM SHALL BE ISSUED.\nAREA(LTTSA-36R): 421109N0354714E 422415N0353423E 420516N0345902E \n415211N0351150E 421109N0354714E\nF) SFC G) 65000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-26T12:30:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "drone",
+  "location": "VABF",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 18.9,
+   "lon": 72.9833,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "VABF",
+  "schedule": "18 26 0230-0330 1130-1230",
+  "shape": "polygon",
+  "starts_at": "2026-11-18T02:30:00Z",
+  "upper": "400FT AGL",
+  "upper_fl": 6
+ },
+ "first_seen": "2026-11-17T21:01:29Z",
+ "id": "notam-vabf/2026/A1862",
+ "issued_at": "2026-11-17T08:38:00Z",
+ "last_seen": "2026-11-17T21:01:29Z",
+ "number": "A1862",
+ "positions": [
+  [
+   18.91064,
+   72.94103
+  ],
+  [
+   18.92203,
+   72.96478
+  ],
+  [
+   18.92618,
+   72.99642
+  ],
+  [
+   18.86878,
+   73.01489
+  ],
+  [
+   18.85711,
+   73.00232
+  ],
+  [
+   18.87008,
+   72.96406
+  ],
+  [
+   18.91064,
+   72.94103
+  ]
+ ],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-11-17T21:04:32Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "DRONE SURVEY NEAR NAVI MUMBAI AP WI AREA ",
+ "text": "A1862/26 NOTAMN\nQ) VABF/QWULW/IV/BO/W/000/006/1854N07259E003\nA) VABF B) 2611180230 C) 2611261230\nD) 18 26 0230-0330 1130-1230\nE) DRONE SURVEY NEAR NAVI MUMBAI AP WI AREA \n   BOUNDED BY COORD:\n   185438.29N 0725627.71E- 185519.29N 0725753.20E-\n   185534.25N 0725947.10E- 185207.62N 0730053.62E-\n   185125.58N 0730008.37E- 185212.28N 0725750.60E-\n   185438.29N 0725627.71E\nF) SFC G) 400FT AGL",
+ "year": 2026
+}

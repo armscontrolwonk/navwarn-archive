@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-18T16:30:00Z",
+ "extra": {
+  "fir": "UATT",
+  "kind": "restricted",
+  "location": "UATT",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 50.4167,
+   "lon": 56.95,
+   "radius_nm": 12
+  },
+  "qcode": "QRMCA",
+  "queried_fir": "UATT",
+  "shape": "polygon",
+  "starts_at": "2026-11-18T07:50:00Z",
+  "upper": "2800FT AMSL",
+  "upper_fl": 28
+ },
+ "first_seen": "2026-11-17T21:01:29Z",
+ "id": "notam-uatt/2026/C7884",
+ "issued_at": "2026-11-17T13:22:00Z",
+ "last_seen": "2026-11-17T21:01:29Z",
+ "number": "C7884",
+ "positions": [
+  [
+   50.52806,
+   57.17694
+  ],
+  [
+   50.44917,
+   57.04306
+  ],
+  [
+   50.31694,
+   56.72083
+  ],
+  [
+   50.51944,
+   56.91361
+  ],
+  [
+   50.52806,
+   57.17694
+  ]
+ ],
+ "series": "notam-uatt",
+ "source": {
+  "fetched_at": "2026-11-17T21:04:32Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL OPR AREA ACTIVATED",
+ "text": "C7884/26 NOTAMN\nQ) UATT/QRMCA/IV/BO /W /000/028/5025N05657E012\nA) UATT B) 2611180750 C) 2611181630\nE) MIL OPR AREA ACTIVATED\nAREA BOUNDED BY:\n503141N 0571037E - 502657N 0570235E - 501901N 0564315E - \n503110N 0565449E - 503141N 0571037E\nF) GND G) 2800FT AMSL",
+ "year": 2026
+}

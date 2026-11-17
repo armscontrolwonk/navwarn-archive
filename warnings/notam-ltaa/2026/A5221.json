@@ -1,0 +1,45 @@
+{
+ "cancels": [],
+ "expires_at": "2027-02-23T23:59:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "drone",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.7333,
+   "lon": 37.0167,
+   "radius_nm": 22
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTAA",
+  "starts_at": "2026-11-23T00:00:00Z",
+  "upper": "1312FT AGL",
+  "upper_fl": 182
+ },
+ "first_seen": "2026-11-17T21:01:29Z",
+ "id": "notam-ltaa/2026/A5221",
+ "issued_at": "2026-11-17T14:24:00Z",
+ "last_seen": "2026-11-17T21:01:29Z",
+ "number": "A5221",
+ "positions": [
+  [
+   39.7375,
+   37.01528
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-17T21:04:32Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT FLT WILL TAKE PLACE.",
+ "text": "A5221/26 NOTAMN\nQ) LTAA/QWULW/IV/BO /W /000/182/3944N03701E022\nA) LTAA B) 2611230000 C) 2702232359\nE) UNMANNED ACFT FLT WILL TAKE PLACE.\n\nAREA: CENTERED ON 394415N0370055E WITH RADIUS 21.6NM\nF) SFC G) 1312FT AGL",
+ "year": 2026
+}

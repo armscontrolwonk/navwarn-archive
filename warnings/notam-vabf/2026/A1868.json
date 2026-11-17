@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-04T13:45:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "restricted",
+  "location": "VABF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 18.7833,
+   "lon": 72.85,
+   "radius_nm": 13
+  },
+  "qcode": "QRACA",
+  "queried_fir": "VABF",
+  "schedule": "1030-1345",
+  "shape": "polygon",
+  "starts_at": "2026-11-30T10:30:00Z",
+  "upper": "1500FT AMSL",
+  "upper_fl": 15
+ },
+ "first_seen": "2026-11-17T21:01:29Z",
+ "id": "notam-vabf/2026/A1868",
+ "issued_at": "2026-11-17T12:20:00Z",
+ "last_seen": "2026-11-17T21:01:29Z",
+ "number": "A1868",
+ "positions": [
+  [
+   18.87222,
+   72.69028
+  ],
+  [
+   18.86,
+   72.78
+  ],
+  [
+   18.86,
+   72.89889
+  ],
+  [
+   18.79694,
+   73.04389
+  ],
+  [
+   18.67,
+   73.02972
+  ],
+  [
+   18.79667,
+   72.62
+  ],
+  [
+   18.87222,
+   72.69028
+  ]
+ ],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-11-17T21:04:32Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "INDIAN NAVY FLYPAST AND OPS DEMO EXERCISE IN",
+ "text": "A1868/26 NOTAMN\nQ) VABF/QRACA/IV/BO/W/000/015/1847N07251E013\nA) VABF B) 2611301030 C) 2612041345\nD) 1030-1345\nE) INDIAN NAVY FLYPAST AND OPS DEMO EXERCISE IN\n   AREA BOUNDED BY COORD:\n   185220N 0724125E- 185136N 0724648E- \n   185136N 0725356E- 184749N 0730238E- \n   184012N 0730147E- 184748N 0723712E-\n   185220N 0724125E\n\n   CIV HELICOPTERS ARE NOT PERMITTED TO TRANSIT \n   THROUGH LFA SPARTAN\nF) GND G) 1500FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,43 @@
+{
+ "cancels": [
+  "notam-oplr/2026/A0647"
+ ],
+ "expires_at": "2026-11-20T09:00:00Z",
+ "extra": {
+  "fir": "OPLR",
+  "kind": "route",
+  "location": "OPLR",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 32.2333,
+   "lon": 71.3333,
+   "radius_nm": 100
+  },
+  "qcode": "QARLC",
+  "queried_fir": "OPLR",
+  "schedule": "18 20 0430-0900",
+  "starts_at": "2026-11-18T04:30:00Z",
+  "upper": "UNL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-17T21:01:29Z",
+ "id": "notam-oplr/2026/A0649",
+ "issued_at": "2026-11-17T15:37:00Z",
+ "last_seen": "2026-11-17T21:01:29Z",
+ "number": "A0649",
+ "positions": [],
+ "series": "notam-oplr",
+ "source": {
+  "fetched_at": "2026-11-17T21:04:32Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FLW SEGMENTS OF ATS RTE WI LAHORE FIR NOT AVBL FM",
+ "text": "A0649/26 NOTAMR A0647/26\nQ) OPLR/QARLC/IV/NBO/E/000/999/3214N07120E100\nA) OPLR\nB) 2611180430 C) 2611200900\nD) 18 20  0430-0900\nE) FLW SEGMENTS OF ATS RTE WI LAHORE FIR NOT AVBL FM\nGND TO UNL DUE OPR REASONS\nATS RTE            RTE SEGMENT\n-------            -----------\nA466/M875          JHANG-SAJAN\nN644/J145          REGET-DI\nM881/P500          LAKRA-DI\nJ141               TULRI-DI\nJ153               ZB-DI\nALTN ATS RTE (BI-DIRECTIONAL)\n-----------------------------\n1) SULOM/LAHORE T400 PS P500 MOTMO\n2) SULOM/LAHORE T400 NONIB L509 LAJAK\n3) SULOM/LAHORE T400 NONIB L509 HANGU G325 REGET N644 DOBAT\n4) MERUN L750 ZB G325 REGET N644 DOBAT\n5) MERUN L750 BIROS\nNOTE:FLT TO/FM DI KHAN WILL BE REQUIRED TO COOR WITH ATC\nAS PER AIP\nF) GND G) UNL",
+ "year": 2026
+}

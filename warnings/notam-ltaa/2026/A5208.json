@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T13:30:00Z",
+ "extra": {
+  "fir": "LTXX",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.3333,
+   "lon": 30.95,
+   "radius_nm": 17
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LTBB",
+  "schedule": "18 19 0700-0900 1130-1330",
+  "shape": "polygon",
+  "starts_at": "2026-11-18T07:00:00Z",
+  "upper": "14000FT AMSL",
+  "upper_fl": 140
+ },
+ "first_seen": "2026-11-17T21:01:29Z",
+ "id": "notam-ltaa/2026/A5208",
+ "issued_at": "2026-11-17T11:40:00Z",
+ "last_seen": "2026-11-17T21:01:29Z",
+ "number": "A5208",
+ "positions": [
+  [
+   41.41667,
+   31.3
+  ],
+  [
+   41.25,
+   31.3
+  ],
+  [
+   41.25,
+   30.6
+  ],
+  [
+   41.31667,
+   30.6
+  ],
+  [
+   41.41667,
+   31.08333
+  ],
+  [
+   41.41667,
+   31.3
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-17T21:04:32Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TRAINING FLIGHT WITH FIRING WILL TAKE PLACE.",
+ "text": "A5208/26 NOTAMN\nQ) LTXX/QWMLW/IV/BO /W /000/140/4120N03057E017\nA) LTAA LTBB B) 2611180700 C) 2611191330\nD) 18 19 0700-0900 1130-1330\nE) TRAINING FLIGHT WITH FIRING WILL TAKE PLACE.\nAREA: 412500N0311800E 411500N0311800E 411500N0303600E \n411900N0303600E 412500N0310500E 412500N0311800E\nF) SFC G) 14000FT AMSL",
+ "year": 2026
+}
