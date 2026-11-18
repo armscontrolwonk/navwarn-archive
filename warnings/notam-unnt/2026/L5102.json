@@ -1,0 +1,61 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T13:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 55.08417,
+    "lon": 73.22917,
+    "radius_nm": 4.86
+   },
+   {
+    "lat": 55.11583,
+    "lon": 73.125,
+    "radius_nm": 0.49
+   }
+  ],
+  "fir": "UNNT",
+  "kind": "restricted",
+  "location": "UNNT",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.1,
+   "lon": 73.1833,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNNT",
+  "starts_at": "2026-11-20T03:00:00Z",
+  "upper": "600M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-18T20:38:46Z",
+ "id": "notam-unnt/2026/L5102",
+ "issued_at": "2026-11-18T11:59:00Z",
+ "last_seen": "2026-11-18T20:38:46Z",
+ "number": "L5102",
+ "positions": [
+  [
+   55.08417,
+   73.22917
+  ],
+  [
+   55.11583,
+   73.125
+  ]
+ ],
+ "series": "notam-unnt",
+ "source": {
+  "fetched_at": "2026-11-18T20:42:17Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "L5102/26 NOTAMN\nQ)UNNT/QRTCA/IV/BO/W/000/020/5506N07311E003\nA)UNNT B)2611200300 C)2611201300\nE)AIRSPACE CLSD AS FLW:\n1. WI CIRCLE RADIUS 9KM CENTRE 550503N0731345E\n   500M AMSL-600M AMSL.\n2. WI CIRCLE RADIUS 0.9KM CENTRE 550657N0730730E\n   GND-500M AMSL.\nF)GND  G)600M AMSL",
+ "year": 2026
+}

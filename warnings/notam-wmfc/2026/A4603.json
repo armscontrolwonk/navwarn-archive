@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-03T09:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "firing",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 4.5667,
+   "lon": 100.0167,
+   "radius_nm": 1
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "WMFC",
+  "schedule": "DLY 0100-0900",
+  "starts_at": "2026-12-01T01:00:00Z",
+  "upper": "20000FT AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-18T20:38:46Z",
+ "id": "notam-wmfc/2026/A4603",
+ "issued_at": "2026-11-18T07:57:00Z",
+ "last_seen": "2026-11-18T20:38:46Z",
+ "number": "A4603",
+ "positions": [],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-11-18T20:42:17Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "WMD421 ACT.",
+ "text": "A4603/26 NOTAMN\nQ) WMFC/QWMLW/IV/BO /W /000/020/0434N10001E001\nA) WMFC B) 2612010100 C) 2612030900 \nD)DLY 0100-0900\nE)WMD421 ACT.\nF) SFC                             G) 20000FT AMSL",
+ "year": 2026
+}

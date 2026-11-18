@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T10:30:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "other",
+  "location": "VABF",
+  "lower": "5000FT AMSL",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 19.0,
+   "lon": 72.9333,
+   "radius_nm": 6
+  },
+  "qcode": "QWYLW",
+  "queried_fir": "VABF",
+  "shape": "polygon",
+  "starts_at": "2026-11-19T08:30:00Z",
+  "upper": "7000FT AMSL",
+  "upper_fl": 70
+ },
+ "first_seen": "2026-11-18T20:38:46Z",
+ "id": "notam-vabf/2026/A1875",
+ "issued_at": "2026-11-18T12:08:00Z",
+ "last_seen": "2026-11-18T20:38:46Z",
+ "number": "A1875",
+ "positions": [
+  [
+   19.08025,
+   72.88497
+  ],
+  [
+   18.94697,
+   72.85832
+  ],
+  [
+   18.97982,
+   72.95501
+  ],
+  [
+   19.03708,
+   73.01522
+  ],
+  [
+   19.07487,
+   73.01659
+  ],
+  [
+   19.08025,
+   72.88497
+  ]
+ ],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-11-18T20:42:17Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AERIAL SURVEY AROUND MUMBAI AIRPORT USING ACFT CESSNA T206H",
+ "text": "A1875/26 NOTAMN\nQ) VABF/QWYLW/IV/NBO/W/000/070/1900N07256E006\nA) VABF B) 2611190830 C) 2611191030\nE) AERIAL SURVEY AROUND MUMBAI AIRPORT USING ACFT CESSNA T206H\n    WITH REG VTBMS WI THE AREA BOUNDED BY COORD:\n    190448.90N 0725305.88E- 185649.10N 0725129.95E-\n    185847.37N 0725718.04E- 190213.50N 0730054.78E-\n    190429.55N 0730059.73E- 190448.90N 0725305.88E  \n    BASE OF OPERATION: AMBEY VALLEY AIRSTRIP\nF) 5000FT AMSL G) 7000FT AMSL",
+ "year": 2026
+}

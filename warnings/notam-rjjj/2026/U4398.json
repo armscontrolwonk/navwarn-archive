@@ -1,0 +1,79 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-22T02:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.0667,
+   "lon": 137.15,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "20-21 0000/0700 22 0100/0200",
+  "shape": "polygon",
+  "starts_at": "2026-11-20T00:00:00Z",
+  "upper": "1625FT AMSL",
+  "upper_fl": 17
+ },
+ "first_seen": "2026-11-18T20:38:46Z",
+ "id": "notam-rjjj/2026/U4398",
+ "issued_at": "2026-11-18T11:40:00Z",
+ "last_seen": "2026-11-18T20:38:46Z",
+ "number": "U4398",
+ "positions": [
+  [
+   35.0725,
+   137.14028
+  ],
+  [
+   35.07,
+   137.13806
+  ],
+  [
+   35.06639,
+   137.14139
+  ],
+  [
+   35.06639,
+   137.14611
+  ],
+  [
+   35.06917,
+   137.14278
+  ],
+  [
+   35.0675,
+   137.13833
+  ],
+  [
+   35.07167,
+   137.14389
+  ],
+  [
+   35.07083,
+   137.14778
+  ],
+  [
+   35.06806,
+   137.14806
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-18T20:42:17Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4398/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/017/3504N13709E001\nA)RJJJ B)2611200000 C)2611220200\nD)20-21 0000/0700 22 0100/0200\nE)UNMANNED ACFT:\n(1)AREA: RADIUS 28M CENTER 350421N1370825E \n(2)AREA: RADIUS 43M CENTER 350412N1370817E \n(3)AREA: RADIUS 31M CENTER 350359N1370829E \n(4)AREA: RADIUS 23M CENTER 350359N1370846E \n(5)AREA: RADIUS 155M CENTER 350409N1370834E \n(6)AREA: RADIUS 25M CENTER 350403N1370818E \n(7)AREA: RADIUS 23M CENTER 350418N1370838E \n(8)AREA: RADIUS 29M CENTER 350415N1370852E \n(9)AREA: RADIUS 24M CENTER 350405N1370853E \n(TOYOTA-SHI IN AICHI)\nWT: 1.1KG\nF)SFC G)1625FT AMSL",
+ "year": 2026
+}
