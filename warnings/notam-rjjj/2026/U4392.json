@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-26T03:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.5667,
+   "lon": 139.9667,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "20 26 0000/0300",
+  "shape": "polygon",
+  "starts_at": "2026-11-20T00:00:00Z",
+  "upper": "1461FT AMSL",
+  "upper_fl": 15
+ },
+ "first_seen": "2026-11-18T07:38:49Z",
+ "id": "notam-rjjj/2026/U4392",
+ "issued_at": "2026-11-18T07:17:00Z",
+ "last_seen": "2026-11-18T07:38:49Z",
+ "number": "U4392",
+ "positions": [
+  [
+   37.56444,
+   139.96111
+  ],
+  [
+   37.56417,
+   139.9625
+  ],
+  [
+   37.56222,
+   139.96167
+  ],
+  [
+   37.56278,
+   139.96028
+  ],
+  [
+   37.56444,
+   139.96111
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-18T07:42:58Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4392/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/015/3734N13958E001\nA)RJJJ B)2611200000 C)2611260300\nD)20 26 0000/0300\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n373352N1395740E - 373351N1395745E - 373344N1395742E - 373346N1395737E\n- 373352N1395740E \n(YAMA-GUN IN FUKUSHIMA)\nWT: 2.1KG\nCONTACT INFORMATION: 022-266-3713\nF)SFC G)1461FT AMSL",
+ "year": 2026
+}

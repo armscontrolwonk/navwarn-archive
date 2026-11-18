@@ -1,0 +1,42 @@
+{
+ "cancels": [
+  "notam-opkr/2026/A0648"
+ ],
+ "expires_at": "2026-11-18T11:00:00Z",
+ "extra": {
+  "fir": "OPXX",
+  "kind": "route",
+  "location": "OPKR",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 29.3,
+   "lon": 67.5333,
+   "radius_nm": 100
+  },
+  "qcode": "QARLC",
+  "queried_fir": "OPLR",
+  "starts_at": "2026-11-18T07:30:00Z",
+  "upper": "UNL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-18T07:38:49Z",
+ "id": "notam-opkr/2026/A0650",
+ "issued_at": "2026-11-18T07:33:00Z",
+ "last_seen": "2026-11-18T07:38:49Z",
+ "number": "A0650",
+ "positions": [],
+ "series": "notam-opkr",
+ "source": {
+  "fetched_at": "2026-11-18T07:42:58Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FLW SEGMENTS OF ATS RTE WI KARACHI AND LAHORE FIR",
+ "text": "A0650/26 NOTAMR A0648/26\nQ) OPXX/QARLC/IV/NBO/E/000/999/2918N06732E100\nA) OPKR OPLR\nB) 2611180730 C) 2611181100\nE) FLW SEGMENTS OF ATS RTE WI KARACHI AND LAHORE FIR\nNOT AVBL FM GND TO UNL DUE OPR REASONS\nATS RTE            RTE SEGMENT\n-------            -----------\nA325/G208/R462     DOVDO-KC\nB466/J115          KC-IDEBA\nG214/J132/J184     IDEBA-SK\nJ111               KC-KD\nJ112/R471          KC-NH\nJ181               SN-NH\nJ182               SN-MJ\nN636               NH-IDEBA\nALTN ATS RTE FOR G214:\n---------------------\n1) PG G325 KALAT G452\nARR/DEP FM KC:\n-------------\nARR/DEP TO/FM OPKC WILL BE ACCOMODATED THRU RADAR\nVECTORS/ATC INSTRUCTIONS TO AVOID EXER AREA. HOWEVER,\nDELAY MAY BE EXPECTED.\nF) GND G) UNL",
+ "year": 2026
+}

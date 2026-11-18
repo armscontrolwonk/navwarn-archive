@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T02:00:00Z",
+ "extra": {
+  "fir": "WSJC",
+  "kind": "drone",
+  "location": "WSJC",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 1.3333,
+   "lon": 103.9667,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WSJC",
+  "schedule": "NOV 20 0700-1000, 22 2300-2359, 23 0000-0200, 24 2300-2359, 25 0000-0200 2300-2359, 26 0000-0200 2300-2359, 27 0000-0200",
+  "starts_at": "2026-11-20T07:00:00Z",
+  "upper": "114FT AMSL",
+  "upper_fl": 2
+ },
+ "first_seen": "2026-11-18T07:38:49Z",
+ "id": "notam-wsjc/2026/A3508",
+ "issued_at": "2026-11-18T03:23:00Z",
+ "last_seen": "2026-11-18T07:38:49Z",
+ "number": "A3508",
+ "positions": [
+  [
+   1.3325,
+   103.96472
+  ]
+ ],
+ "series": "notam-wsjc",
+ "source": {
+  "fetched_at": "2026-11-18T07:42:58Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TETHERED UA OPS WILL TAKE PLACE WI 600NM RADIUS CENTERED ON",
+ "text": "A3508/26 NOTAMN\nQ)WSJC/QWULW/IV/BO/W/000/002/0120N10358E001\nA)WSJC B)2611200700 C)2611270200\nD)NOV 20 0700-1000, 22 2300-2359, 23 0000-0200, 24 2300-2359, 25\n0000-0200 2300-2359, 26 0000-0200 2300-2359, 27 0000-0200\nE)TETHERED UA OPS WILL TAKE PLACE WI 600NM RADIUS CENTERED ON\n011957N1035753E (WI WSSS CTR)\nF)GND G)114FT AMSL",
+ "year": 2026
+}

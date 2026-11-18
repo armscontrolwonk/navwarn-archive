@@ -1,0 +1,86 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-19T10:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.9833,
+   "lon": 141.55,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-19T09:50:00Z",
+  "upper": "821FT AMSL",
+  "upper_fl": 9
+ },
+ "first_seen": "2026-11-18T07:38:49Z",
+ "id": "notam-rjjj/2026/U4391",
+ "issued_at": "2026-11-18T06:56:00Z",
+ "last_seen": "2026-11-18T07:38:49Z",
+ "number": "U4391",
+ "positions": [
+  [
+   42.98917,
+   141.54972
+  ],
+  [
+   42.98667,
+   141.54833
+  ],
+  [
+   42.98944,
+   141.54
+  ],
+  [
+   42.99139,
+   141.54111
+  ],
+  [
+   42.99167,
+   141.53944
+  ],
+  [
+   42.98833,
+   141.5375
+  ],
+  [
+   42.98389,
+   141.55111
+  ],
+  [
+   42.98556,
+   141.55167
+  ],
+  [
+   42.98667,
+   141.54861
+  ],
+  [
+   42.98917,
+   141.55
+  ],
+  [
+   42.98917,
+   141.54972
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-18T07:42:58Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4391/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/009/4259N14133E002\nA)RJJJ B)2611190950 C)2611191030\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n425921N1413259E - 425912N1413254E - 425922N1413224E - 425929N1413228E\n- 425930N1413222E - 425918N1413215E - 425902N1413304E -\n425908N1413306E - 425912N1413255E - 425921N1413300E - 425921N1413259E\n(KITAHIROSHIMA-SHI IN HOKKAIDO)\nWT: 1KG\nF)SFC G)821FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,79 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-02T07:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.6,
+   "lon": 132.3167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "24-25 DEC 01 2330/0730",
+  "shape": "polygon",
+  "starts_at": "2026-11-24T23:30:00Z",
+  "upper": "932FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-18T07:38:49Z",
+ "id": "notam-rjjj/2026/U4387",
+ "issued_at": "2026-11-18T04:39:00Z",
+ "last_seen": "2026-11-18T07:38:49Z",
+ "number": "U4387",
+ "positions": [
+  [
+   34.57806,
+   132.32361
+  ],
+  [
+   34.57917,
+   132.31667
+  ],
+  [
+   34.60556,
+   132.32028
+  ],
+  [
+   34.60667,
+   132.31639
+  ],
+  [
+   34.58222,
+   132.29306
+  ],
+  [
+   34.58639,
+   132.28778
+  ],
+  [
+   34.61111,
+   132.31222
+  ],
+  [
+   34.60694,
+   132.32556
+  ],
+  [
+   34.57806,
+   132.32361
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-18T07:42:58Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4387/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/010/3436N13219E002\nA)RJJJ B)2611242330 C)2612020730\nD)24-25 DEC 01 2330/0730\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n343441N1321925E - 343445N1321900E - 343620N1321913E - 343624N1321859E\n- 343456N1321735E - 343511N1321716E - 343640N1321844E -\n343625N1321932E - 343441N1321925E \n(YAMAGATA-GUN IN HIROSHIMA)\nWT: 4KG\nNUMBER: 2\nCONTACT INFORMATION: 082-568-8181\nF)SFC G)932FT AMSL",
+ "year": 2026
+}

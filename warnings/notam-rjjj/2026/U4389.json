@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-25T07:07:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.5,
+   "lon": 141.1667,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2130/0707",
+  "shape": "polygon",
+  "starts_at": "2026-11-18T21:30:00Z",
+  "upper": "2212FT AMSL",
+  "upper_fl": 23
+ },
+ "first_seen": "2026-11-18T07:38:49Z",
+ "id": "notam-rjjj/2026/U4389",
+ "issued_at": "2026-11-18T06:41:00Z",
+ "last_seen": "2026-11-18T07:38:49Z",
+ "number": "U4389",
+ "positions": [
+  [
+   42.50583,
+   141.16944
+  ],
+  [
+   42.50611,
+   141.16194
+  ],
+  [
+   42.49778,
+   141.15917
+  ],
+  [
+   42.4975,
+   141.16833
+  ],
+  [
+   42.50583,
+   141.16944
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-18T07:42:58Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4389/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/023/4230N14110E002\nA)RJJJ B)2611182130 C)2612250707\nD)2130/0707\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n423021N1411010E - 423022N1410943E - 422952N1410933E - 422951N1411006E\n- 423021N1411010E \n(NOBORIBETSU-SHI,SHIRAOI-GUN IN HOKKAIDO)\nWT: 15.8KG\nFLT TIME: HJ\nRMK: THIS AREA IS INCLUDED IN HK12-2\nF)SFC G)2212FT AMSL",
+ "year": 2026
+}
