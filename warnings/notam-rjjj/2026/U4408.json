@@ -1,0 +1,82 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T01:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.0333,
+   "lon": 131.8167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-24T23:00:00Z",
+  "upper": "1657FT AMSL",
+  "upper_fl": 17
+ },
+ "first_seen": "2026-11-19T07:34:51Z",
+ "id": "notam-rjjj/2026/U4408",
+ "issued_at": "2026-11-19T02:18:00Z",
+ "last_seen": "2026-11-19T07:34:51Z",
+ "number": "U4408",
+ "positions": [
+  [
+   34.03111,
+   131.82111
+  ],
+  [
+   34.03139,
+   131.82583
+  ],
+  [
+   34.03194,
+   131.82639
+  ],
+  [
+   34.0325,
+   131.82639
+  ],
+  [
+   34.0325,
+   131.82694
+  ],
+  [
+   34.02944,
+   131.8275
+  ],
+  [
+   34.02917,
+   131.82639
+  ],
+  [
+   34.02833,
+   131.82611
+  ],
+  [
+   34.02778,
+   131.82139
+  ],
+  [
+   34.03111,
+   131.82111
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-19T07:38:08Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4408/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/017/3402N13149E002\nA)RJJJ B)2611242300 C)2611250100\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n340152N1314916E - 340153N1314933E - 340155N1314935E - 340157N1314935E\n- 340157N1314937E - 340146N1314939E - 340145N1314935E -\n340142N1314934E - 340140N1314917E - 340152N1314916E \n(SHUNAN-SHI IN YAMAGUCHI)\nWT: 0.9KG\nF)SFC G)1657FT AMSL",
+ "year": 2026
+}

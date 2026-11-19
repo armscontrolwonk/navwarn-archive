@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-20T08:08:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.85,
+   "lon": 136.9833,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2140/0808",
+  "shape": "polygon",
+  "starts_at": "2026-11-30T21:40:00Z",
+  "upper": "1346FT AMSL",
+  "upper_fl": 14
+ },
+ "first_seen": "2026-11-19T07:34:51Z",
+ "id": "notam-rjjj/2026/U4403",
+ "issued_at": "2026-11-19T00:19:00Z",
+ "last_seen": "2026-11-19T07:34:51Z",
+ "number": "U4403",
+ "positions": [
+  [
+   34.85167,
+   136.99389
+  ],
+  [
+   34.84139,
+   136.98722
+  ],
+  [
+   34.84333,
+   136.9825
+  ],
+  [
+   34.85333,
+   136.98944
+  ],
+  [
+   34.85167,
+   136.99389
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-19T07:38:08Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U4403/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/014/3451N13659E002\nA)RJJJ B)2611302140 C)2701200808\nD)2140/0808\nE)UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n345106N1365938E - 345029N1365914E - 345036N1365857E - 345112N1365922E\n- 345106N1365938E \n(HEKINAN-SHI, NISHIO-SHI IN AICHI)\nWT: 15KG\nNUMBER: 2\nFLT TIME: HJ\nRMK: THIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)1346FT AMSL",
+ "year": 2026
+}

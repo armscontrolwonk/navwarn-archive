@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-26T15:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.2833,
+   "lon": 138.8333,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-21T15:00:00Z",
+  "upper": "10900FT AMSL",
+  "upper_fl": 109
+ },
+ "first_seen": "2026-11-19T07:34:51Z",
+ "id": "notam-rjjj/2026/U4406",
+ "issued_at": "2026-11-19T01:38:00Z",
+ "last_seen": "2026-11-19T07:34:51Z",
+ "number": "U4406",
+ "positions": [
+  [
+   35.30417,
+   138.81111
+  ],
+  [
+   35.30278,
+   138.8575
+  ],
+  [
+   35.27111,
+   138.85889
+  ],
+  [
+   35.265,
+   138.82222
+  ],
+  [
+   35.28444,
+   138.79306
+  ],
+  [
+   35.30417,
+   138.81111
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-19T07:38:08Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4406/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/109/3517N13850E003\nA)RJJJ B)2611211500 C)2611261500\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n351815N1384840E - 351810N1385127E - 351616N1385132E - 351554N1384920E\n- 351704N1384735E - 351815N1384840E \nR-114(HIGASHIFUJI MANEUVERING AREA)\n(GOTENBA-SHI,SUSONO-SHI IN SHIZUOKA)\nWT: 2.0KG\nNUMBER: 8\nCONTACT INFORMATION: 0550-75-2311(EXTENSION 2427)\nRMK: SOURCE/JSDF-G(RJAT)\nF)SFC G)10900FT AMSL",
+ "year": 2026
+}

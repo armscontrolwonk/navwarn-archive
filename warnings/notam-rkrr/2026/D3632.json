@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T06:00:00Z",
+ "extra": {
+  "fir": "RKRR",
+  "kind": "drone",
+  "location": "RKRR",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.6833,
+   "lon": 127.65,
+   "radius_nm": 1
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "RKRR",
+  "schedule": "2100-0600",
+  "starts_at": "2026-11-19T21:00:00Z",
+  "upper": "1640FT AGL",
+  "upper_fl": 17
+ },
+ "first_seen": "2026-11-19T07:34:51Z",
+ "id": "notam-rkrr/2026/D3632",
+ "issued_at": "2026-11-19T05:57:00Z",
+ "last_seen": "2026-11-19T07:34:51Z",
+ "number": "D3632",
+ "positions": [
+  [
+   37.68194,
+   127.64861
+  ]
+ ],
+ "series": "notam-rkrr",
+ "source": {
+  "fetched_at": "2026-11-19T07:38:08Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO DANGER AREA ACT AS FLW",
+ "text": "D3632/26 NOTAMN  \nQ)RKRR/QRDCA/IV/BO/W/000/017/3741N12739E001\nA)RKRR B)2611192100 C)2611300600\nD)2100-0600\nE)TEMPO DANGER AREA ACT AS FLW\nA CIRCLE RADIUS 0.54NM CENTERED ON 374055N1273855E\nRMK:THIS AREA IS ESTABLISHED FOR DRONE FLIGHT\nF)SFC G)1640FT AGL",
+ "year": 2026
+}

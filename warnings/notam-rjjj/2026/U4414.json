@@ -1,0 +1,79 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T08:01:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.6833,
+   "lon": 132.95,
+   "radius_nm": 6
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0801",
+  "shape": "polygon",
+  "starts_at": "2026-11-25T00:00:00Z",
+  "upper": "3961FT AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-11-19T07:34:51Z",
+ "id": "notam-rjjj/2026/U4414",
+ "issued_at": "2026-11-19T05:22:00Z",
+ "last_seen": "2026-11-19T07:34:51Z",
+ "number": "U4414",
+ "positions": [
+  [
+   33.71861,
+   132.87194
+  ],
+  [
+   33.72139,
+   132.87806
+  ],
+  [
+   33.67167,
+   132.92778
+  ],
+  [
+   33.6975,
+   133.03722
+  ],
+  [
+   33.67111,
+   133.04306
+  ],
+  [
+   33.645,
+   132.95694
+  ],
+  [
+   33.60889,
+   132.9825
+  ],
+  [
+   33.61667,
+   132.91306
+  ],
+  [
+   33.71861,
+   132.87194
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-19T07:38:08Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4414/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/040/3341N13257E006\nA)RJJJ B)2611250000 C)2611270801\nD)0000/0801\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n334307N1325219E - 334317N1325241E - 334018N1325540E - 334151N1330214E\n- 334016N1330235E - 333842N1325725E - 333632N1325857E -\n333700N1325447E - 334307N1325219E \n(KAMIUKENA-GUN IN EHIME)\nWT: 24.9KG\nFLT TIME: 0000/SS\nCONTACT INFORMATION: 050-1722-1348\nF)SFC G)3961FT AMSL",
+ "year": 2026
+}

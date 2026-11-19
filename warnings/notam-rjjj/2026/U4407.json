@@ -1,0 +1,83 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.3333,
+   "lon": 138.8333,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "23-26 29 2300/0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-23T23:00:00Z",
+  "upper": "13900FT AMSL",
+  "upper_fl": 139
+ },
+ "first_seen": "2026-11-19T07:34:51Z",
+ "id": "notam-rjjj/2026/U4407",
+ "issued_at": "2026-11-19T02:03:00Z",
+ "last_seen": "2026-11-19T07:34:51Z",
+ "number": "U4407",
+ "positions": [
+  [
+   35.35806,
+   138.82694
+  ],
+  [
+   35.34667,
+   138.87583
+  ],
+  [
+   35.34056,
+   138.87778
+  ],
+  [
+   35.33667,
+   138.87361
+  ],
+  [
+   35.32972,
+   138.87389
+  ],
+  [
+   35.33,
+   138.86472
+  ],
+  [
+   35.32694,
+   138.86
+  ],
+  [
+   35.315,
+   138.85361
+  ],
+  [
+   35.31111,
+   138.80722
+  ],
+  [
+   35.35806,
+   138.82694
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-19T07:38:08Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4407/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/139/3520N13850E003\nA)RJJJ B)2611232300 C)2611300800\nD)23-26 29 2300/0800\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n352129N1384937E - 352048N1385233E - 352026N1385240E - 352012N1385225E\n- 351947N1385226E - 351948N1385153E - 351937N1385136E -\n351854N1385113E - 351840N1384826E - 352129N1384937E \nR-114(HIGASHIFUJI MANEUVERING AREA)\n(GOTENBA-SHI,SUNTO-GUN IN SHIZUOKA)\nWT: 26.5KG\nCONTACT INFORMATION: 048-460-1711 (EXTENSION 5865)\nRMK: SOURCE/JSDF-G(RJAT)\nF)SFC G)13900FT AMSL",
+ "year": 2026
+}

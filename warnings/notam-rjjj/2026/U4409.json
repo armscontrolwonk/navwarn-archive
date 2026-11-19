@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T15:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.3667,
+   "lon": 132.7167,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2330/1500",
+  "shape": "polygon",
+  "starts_at": "2026-11-23T23:30:00Z",
+  "upper": "2063FT AMSL",
+  "upper_fl": 21
+ },
+ "first_seen": "2026-11-19T07:34:51Z",
+ "id": "notam-rjjj/2026/U4409",
+ "issued_at": "2026-11-19T02:33:00Z",
+ "last_seen": "2026-11-19T07:34:51Z",
+ "number": "U4409",
+ "positions": [
+  [
+   35.3675,
+   132.71194
+  ],
+  [
+   35.36972,
+   132.71111
+  ],
+  [
+   35.36861,
+   132.70833
+  ],
+  [
+   35.36667,
+   132.70944
+  ],
+  [
+   35.3675,
+   132.71194
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-19T07:38:08Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4409/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/021/3522N13243E001\nA)RJJJ B)2611232330 C)2611271500\nD)2330/1500\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n352203N1324243E - 352211N1324240E - 352207N1324230E - 352200N1324234E\n- 352203N1324243E \n(IZUMO-SHI IN SHIMANE)\n(CAMP IZUMO)\nWT: 4.5KG\nNUMBER: 4\nRMK: SOURCE/JSDF-G(RJOY)\nF)SFC G)2063FT AMSL",
+ "year": 2026
+}

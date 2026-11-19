@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-09T12:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "firing",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.6833,
+   "lon": 120.1833,
+   "radius_nm": 6
+  },
+  "qcode": "QWELW",
+  "queried_fir": "RCAA",
+  "schedule": "0800-1200",
+  "shape": "polygon",
+  "starts_at": "2026-12-08T08:00:00Z",
+  "upper": "3000FT AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-19T07:34:51Z",
+ "id": "notam-rcaa/2026/A4248",
+ "issued_at": "2026-11-19T04:45:00Z",
+ "last_seen": "2026-11-19T07:34:51Z",
+ "number": "A4248",
+ "positions": [
+  [
+   22.715,
+   120.09139
+  ],
+  [
+   22.715,
+   120.25806
+  ],
+  [
+   22.64833,
+   120.27472
+  ],
+  [
+   22.715,
+   120.09139
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-11-19T07:38:08Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIR EXER WILL TAKE PLACE.",
+ "text": "A4248/26 NOTAMN\nQ) RCAA/QWELW/IV/BO/W/000/030/2241N12011E006\nA) RCAA\nB) 2612080800 C) 2612091200\nD) 0800-1200\nE) AIR EXER WILL TAKE PLACE.\n1.GUN FRNG WILL TAKE PLACE.\n2.LIAISON OFFICER IN KAOHSIUNG APP AND RCRA TWR,\n  TFC CONCERNED KEEP CLOSE CTC WITH KAOHSIUNG APP AND\n  RCRA TWR.\n3.UNMANNED ACFT WILL BE RELEASED.\n4.OPR TEL: 07-5884093, 07-5883753, 0971-018713,\n           0980-461000, 0976-620520\n5.AREA AS FLW:\n224254N 1200529E\n224254N 1201529E\n223854N 1201629E\n224254N 1200529E\nF) SFC G) 3000FT AMSL",
+ "year": 2026
+}

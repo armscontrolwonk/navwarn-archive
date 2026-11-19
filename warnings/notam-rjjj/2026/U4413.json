@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-03T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.75,
+   "lon": 135.2333,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0700",
+  "shape": "polygon",
+  "starts_at": "2026-12-01T00:00:00Z",
+  "upper": "2445FT AMSL",
+  "upper_fl": 25
+ },
+ "first_seen": "2026-11-19T07:34:51Z",
+ "id": "notam-rjjj/2026/U4413",
+ "issued_at": "2026-11-19T05:20:00Z",
+ "last_seen": "2026-11-19T07:34:51Z",
+ "number": "U4413",
+ "positions": [
+  [
+   34.73667,
+   135.23778
+  ],
+  [
+   34.73722,
+   135.23278
+  ],
+  [
+   34.74889,
+   135.225
+  ],
+  [
+   34.75722,
+   135.23
+  ],
+  [
+   34.73667,
+   135.23778
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-19T07:38:08Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4413/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/025/3445N13514E002\nA)RJJJ B)2612010000 C)2612030700\nD)0000/0700\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n344412N1351416E - 344414N1351358E - 344456N1351330E - 344526N1351348E\n- 344412N1351416E \n(KOBE-SHI IN HYOGO)\nWT: 149.9KG\nNUMBER: 2\nCONTACT INFORMATION: 06-6351-7828\nF)SFC G)2445FT AMSL",
+ "year": 2026
+}

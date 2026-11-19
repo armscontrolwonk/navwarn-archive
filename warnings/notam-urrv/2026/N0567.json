@@ -1,0 +1,140 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-23T15:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 42.65917,
+    "lon": 47.69778,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 42.91111,
+    "lon": 47.48917,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 42.75361,
+    "lon": 47.66083,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 42.77944,
+    "lon": 47.62278,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.7667,
+   "lon": 47.6,
+   "radius_nm": 16
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "URRV",
+  "schedule": "DAILY 0500-1500",
+  "starts_at": "2026-11-20T05:00:00Z",
+  "upper": "870M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-19T07:34:51Z",
+ "id": "notam-urrv/2026/N0567",
+ "issued_at": "2026-11-19T06:45:00Z",
+ "last_seen": "2026-11-19T07:34:51Z",
+ "number": "N0567",
+ "positions": [
+  [
+   42.97861,
+   47.4
+  ],
+  [
+   42.91056,
+   47.52139
+  ],
+  [
+   42.8325,
+   47.59611
+  ],
+  [
+   42.75778,
+   47.67361
+  ],
+  [
+   42.68972,
+   47.68611
+  ],
+  [
+   42.59194,
+   47.79667
+  ],
+  [
+   42.56056,
+   47.83556
+  ],
+  [
+   42.54194,
+   47.80056
+  ],
+  [
+   42.71833,
+   47.6075
+  ],
+  [
+   42.87778,
+   47.50833
+  ],
+  [
+   42.96028,
+   47.36306
+  ],
+  [
+   42.96917,
+   47.38083
+  ],
+  [
+   42.96861,
+   47.38278
+  ],
+  [
+   42.97056,
+   47.38389
+  ],
+  [
+   42.97861,
+   47.4
+  ],
+  [
+   42.65917,
+   47.69778
+  ],
+  [
+   42.91111,
+   47.48917
+  ],
+  [
+   42.75361,
+   47.66083
+  ],
+  [
+   42.77944,
+   47.62278
+  ]
+ ],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-11-19T07:38:08Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "N0567/26 NOTAMN\nQ)URRV/QRTCA/IV/BO/W/000/030/4246N04736E016\nA)URRV B)2611200500 C)2611231500\nD)DAILY 0500-1500\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 425843N0472400E-425438N0473117E-424957N0473546E-\n         424528N0474025E-424123N0474110E-423531N0474748E-\n         423338N0475008E-423231N0474802E-424306N0473627E-\n         425240N0473030E-425737N0472147E-425809N0472251E-\n         425807N0472258E-425814N0472302E-425843N0472400E\n   100M AMSL-870M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 423933N0474152E\n   GND-870M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 425440N0472921E\n   GND-870M AMSL.\n4. WI CIRCLE RADIUS 1KM CENTRE 424513N0473939E\n   GND-870M AMSL.\n5. WI CIRCLE RADIUS 1KM CENTRE 424646N0473722E\n   GND-870M AMSL.\nF)GND  G)870M AMSL",
+ "year": 2026
+}

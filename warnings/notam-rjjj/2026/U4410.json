@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-18T10:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.55,
+   "lon": 139.8667,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2000/1000",
+  "shape": "polygon",
+  "starts_at": "2026-12-13T20:00:00Z",
+  "upper": "1067FT AMSL",
+  "upper_fl": 11
+ },
+ "first_seen": "2026-11-19T07:34:51Z",
+ "id": "notam-rjjj/2026/U4410",
+ "issued_at": "2026-11-19T03:36:00Z",
+ "last_seen": "2026-11-19T07:34:51Z",
+ "number": "U4410",
+ "positions": [
+  [
+   37.56333,
+   139.85111
+  ],
+  [
+   37.56278,
+   139.8625
+  ],
+  [
+   37.54417,
+   139.86889
+  ],
+  [
+   37.54278,
+   139.86306
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-19T07:38:08Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4410/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/011/3733N13952E002\nA)RJJJ B)2612132000 C)2612181000\nD)2000/1000\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: 70M EITHER SIDE OF A LINE 373348N1395104E - 373346N1395145E -\n373239N1395208E - 373234N1395147E \n(KAWANUMA-GUN IN FUKUSHIMA)\nWT: 2.1KG\nCONTACT INFORMATION: 050-5243-3569\nF)SFC G)1067FT AMSL",
+ "year": 2026
+}
