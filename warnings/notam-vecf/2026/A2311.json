@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T12:00:00Z",
+ "extra": {
+  "fir": "VECF",
+  "kind": "other",
+  "location": "VECF",
+  "lower": "1800FT AGL",
+  "lower_fl": 10,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.5,
+   "lon": 87.45,
+   "radius_nm": 100
+  },
+  "qcode": "QWYLW",
+  "queried_fir": "VECF",
+  "schedule": "0130-1200",
+  "shape": "polygon",
+  "starts_at": "2026-11-20T01:30:00Z",
+  "upper": "3600FT AGL",
+  "upper_fl": 60
+ },
+ "first_seen": "2026-11-19T20:44:54Z",
+ "id": "notam-vecf/2026/A2311",
+ "issued_at": "2026-11-19T12:59:00Z",
+ "last_seen": "2026-11-19T20:44:54Z",
+ "number": "A2311",
+ "positions": [
+  [
+   25.01194,
+   87.665
+  ],
+  [
+   24.99,
+   87.99556
+  ],
+  [
+   23.68222,
+   87.85
+  ],
+  [
+   22.15556,
+   87.47611
+  ],
+  [
+   22.01944,
+   86.6175
+  ],
+  [
+   22.84806,
+   86.57639
+  ],
+  [
+   22.43417,
+   87.17389
+  ],
+  [
+   23.72972,
+   87.51306
+  ]
+ ],
+ "series": "notam-vecf",
+ "source": {
+  "fetched_at": "2026-11-19T20:48:19Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AERIAL SURVEY BY HEL(REG:VT-KSA,VT-GRA AND VT-GRB)INPR WI AREA ",
+ "text": "A2311/26 NOTAMN\nQ) VECF/QWYLW/IV/M/W/010/060/2330N08727E100\nA) VECF B) 2611200130 C) 2612311200\nD) 0130-1200\nE) AERIAL SURVEY BY HEL(REG:VT-KSA,VT-GRA AND VT-GRB)INPR WI AREA \nBOUNDED BY COORD:\nP1:250043N 0873954E\nP2:245924N 0875944E\nP3:234056N 0875060E\nP4:220920N 0872834E\nP5:220110N 0863703E\nP6:225053N 0863435E\nP7:222603N 0871026E\nP8:234347N 0873047E\nF) 1800FT AGL G) 3600FT AGL",
+ "year": 2026
+}

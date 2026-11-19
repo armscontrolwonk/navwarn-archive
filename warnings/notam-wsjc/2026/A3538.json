@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-12T09:00:00Z",
+ "extra": {
+  "fir": "WSJC",
+  "kind": "drone",
+  "location": "WSJC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 1.3333,
+   "lon": 104.2,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WSJC",
+  "schedule": "DEC 01-31 0100-0900, JAN 01-12 0100-0900",
+  "shape": "polygon",
+  "starts_at": "2026-12-01T01:00:00Z",
+  "upper": "400FT AMSL",
+  "upper_fl": 4
+ },
+ "first_seen": "2026-11-19T20:44:54Z",
+ "id": "notam-wsjc/2026/A3538",
+ "issued_at": "2026-11-19T14:31:00Z",
+ "last_seen": "2026-11-19T20:44:54Z",
+ "number": "A3538",
+ "positions": [
+  [
+   1.3325,
+   104.19528
+  ],
+  [
+   1.33278,
+   104.19694
+  ],
+  [
+   1.33194,
+   104.19722
+  ],
+  [
+   1.33194,
+   104.19556
+  ],
+  [
+   1.3325,
+   104.19528
+  ]
+ ],
+ "series": "notam-wsjc",
+ "source": {
+  "fetched_at": "2026-11-19T20:48:19Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA VEHICLE ACT WILL TAKE PLACE WI",
+ "text": "A3538/26 NOTAMN\nQ)WSJC/QWULW/IV/BO/W/000/004/0120N10412E001\nA)WSJC B)2612010100 C)2701120900\nD)DEC 01-31 0100-0900, JAN 01-12 0100-0900\nE)UA VEHICLE ACT WILL TAKE PLACE WI\n011957.00N1041143.00E-011958.00N1041149.00E-\n011955.00N1041150.00E-011955.00N1041144.00E-011957.00N1041143.00E.\nF)SFC G)400FT AMSL",
+ "year": 2026
+}

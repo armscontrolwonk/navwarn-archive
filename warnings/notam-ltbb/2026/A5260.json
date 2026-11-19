@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-08T17:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "firing",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.1,
+   "lon": 26.8167,
+   "radius_nm": 7
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTBB",
+  "schedule": "0500-1700",
+  "shape": "polygon",
+  "starts_at": "2026-12-07T05:00:00Z",
+  "upper": "500FT AMSL",
+  "upper_fl": 5
+ },
+ "first_seen": "2026-11-19T20:44:54Z",
+ "id": "notam-ltbb/2026/A5260",
+ "issued_at": "2026-11-19T15:39:00Z",
+ "last_seen": "2026-11-19T20:44:54Z",
+ "number": "A5260",
+ "positions": [
+  [
+   38.16861,
+   26.71111
+  ],
+  [
+   38.05722,
+   26.72611
+  ],
+  [
+   38.0,
+   26.81361
+  ],
+  [
+   38.10306,
+   26.93889
+  ],
+  [
+   38.14306,
+   26.89444
+  ],
+  [
+   38.19444,
+   26.83694
+  ],
+  [
+   38.16861,
+   26.71111
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-11-19T20:48:19Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FIRING UNMANNED ACFT WILL TAKE PLACE WI IZMIR TMA: ",
+ "text": "A5260/26 NOTAMN\nQ) LTBB/QWULW/IV/BO /W /000/005/3806N02649E007\nA) LTBB B) 2612070500 C) 2612081700\nD) 0500-1700\nE) FIRING UNMANNED ACFT WILL TAKE PLACE WI IZMIR TMA: \n381007N0264240E 380326N0264334E 380000N0264849E 380611N0265620E \n380835N0265340E 381140N0265013E 381007N0264240E\nF) SFC G) 500FT AMSL",
+ "year": 2026
+}

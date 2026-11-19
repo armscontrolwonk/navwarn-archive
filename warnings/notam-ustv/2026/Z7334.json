@@ -1,0 +1,61 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-10T09:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 63.22917,
+    "lon": 75.43889,
+    "radius_nm": 0.32
+   }
+  ],
+  "fir": "USTV",
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 63.2333,
+   "lon": 75.45,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USTV",
+  "schedule": "NOV 25 26 DEC 02 03 09 10 0500-0900",
+  "starts_at": "2026-11-25T05:00:00Z",
+  "upper": "450M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-19T20:44:54Z",
+ "id": "notam-ustv/2026/Z7334",
+ "issued_at": "2026-11-19T13:54:00Z",
+ "last_seen": "2026-11-19T20:44:54Z",
+ "number": "Z7334",
+ "positions": [
+  [
+   63.25,
+   75.47222
+  ],
+  [
+   63.21667,
+   75.43889
+  ],
+  [
+   63.22917,
+   75.43889
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-11-19T20:48:19Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z7334/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/020/6314N07527E002\nA)USTV B)2611250500 C)2612100900\nD)NOV 25 26 DEC 02 03 09 10 0500-0900\nE)AIRSPACE CLSD AS FLW:\n1. WI 1KM EITHER SIDE OF LINE JOINING POINTS:\n   631500N0752820E-631300N0752620E.\n   350M AMSL-450M AMSL.\n2. WI CIRCLE RADIUS 0.6KM CENTRE 631345N0752620E\n   SFC-450M AMSL.\nF)SFC  G)450M AMSL",
+ "year": 2026
+}

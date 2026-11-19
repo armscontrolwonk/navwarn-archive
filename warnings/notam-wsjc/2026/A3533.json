@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-01T04:00:00Z",
+ "extra": {
+  "fir": "WSJC",
+  "kind": "rocket",
+  "location": "WSJC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 6.0833,
+   "lon": 108.75,
+   "radius_nm": 36
+  },
+  "qcode": "QRALW",
+  "queried_fir": "WSJC",
+  "schedule": "NOV 29 30 0100-0400, DEC 01 0100-0400",
+  "shape": "polygon",
+  "starts_at": "2026-11-29T01:00:00Z",
+  "upper": "UNL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-19T20:44:54Z",
+ "id": "notam-wsjc/2026/A3533",
+ "issued_at": "2026-11-19T09:51:00Z",
+ "last_seen": "2026-11-19T20:44:54Z",
+ "number": "A3533",
+ "positions": [
+  [
+   5.5,
+   108.83333
+  ],
+  [
+   5.61667,
+   108.4
+  ],
+  [
+   6.65,
+   108.65
+  ],
+  [
+   6.55,
+   109.1
+  ],
+  [
+   5.5,
+   108.83333
+  ]
+ ],
+ "series": "notam-wsjc",
+ "source": {
+  "fetched_at": "2026-11-19T20:48:19Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNBURNED DEBRIS EXPECTED TO FALL WI",
+ "text": "A3533/26 NOTAMN\nQ)WSJC/QRALW/IV/BO/W/000/999/0605N10845E036\nA)WSJC B)2611290100 C)2612010400\nD)NOV 29 30 0100-0400, DEC 01 0100-0400\nE)UNBURNED DEBRIS EXPECTED TO FALL WI\n0530N10850E-0537N10824E-0639N10839E-0633N10906E-0530N10850E DUE TO\nAEROSPACE FLT ACT BY CHINA. RMK/ATS ROUTE L625 BTN GUTUP AND AKMON\nNOT AVBL.\nF)SFC G)UNL",
+ "year": 2026
+}

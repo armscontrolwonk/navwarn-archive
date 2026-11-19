@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-22T10:00:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "exercise",
+  "location": "RPHI",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 7.5167,
+   "lon": 120.9,
+   "radius_nm": 22
+  },
+  "qcode": "QWELW",
+  "queried_fir": "RPHI",
+  "schedule": "2100-1000",
+  "shape": "polygon",
+  "starts_at": "2026-11-19T21:00:00Z",
+  "upper": "FL220",
+  "upper_fl": 220
+ },
+ "first_seen": "2026-11-19T20:44:54Z",
+ "id": "notam-rphi/2026/B6160",
+ "issued_at": "2026-11-19T09:10:00Z",
+ "last_seen": "2026-11-19T20:44:54Z",
+ "number": "B6160",
+ "positions": [
+  [
+   7.73588,
+   120.79132
+  ],
+  [
+   7.5057,
+   121.24097
+  ],
+  [
+   7.2876,
+   121.00182
+  ],
+  [
+   7.51736,
+   120.55107
+  ],
+  [
+   7.73588,
+   120.79132
+  ]
+ ],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-11-19T20:48:19Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL EXER WILL TAKE PLACE WI:",
+ "text": "B6160/26 NOTAMN\nQ) RPHI/QWELW/IV/BO /W /000/220/0731N12054E022\nA) RPHI B) 2611192100 C) 2611221000\nD) 2100-1000\nE) MIL EXER WILL TAKE PLACE WI:\n074409.18N 1204728.74E - \n073020.52N 1211427.48E - \n071715.36N 1210006.54E - \n073102.50N 1203303.85E - \n074409.18N 1204728.74E\n(44.81NM FM LIMPAPA, ZAMBOANGA CITY, ZAMBOANGA DEL SUR).\nF) SFC G) FL220",
+ "year": 2026
+}
