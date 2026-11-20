@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-21T15:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "other",
+  "location": "LRBB",
+  "lower": "FL080",
+  "lower_fl": 80,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 45.5,
+   "lon": 24.15,
+   "radius_nm": 16
+  },
+  "qcode": "QWYLW",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-11-21T06:00:00Z",
+  "upper": "FL100",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-20T20:28:46Z",
+ "id": "notam-lrbb/2026/D3810",
+ "issued_at": "2026-11-20T13:42:00Z",
+ "last_seen": "2026-11-20T20:28:46Z",
+ "number": "D3810",
+ "positions": [
+  [
+   45.73583,
+   24.01667
+  ],
+  [
+   45.73944,
+   24.26139
+  ],
+  [
+   45.28889,
+   24.33278
+  ],
+  [
+   45.27833,
+   24.00278
+  ],
+  [
+   45.73583,
+   24.01667
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-11-20T20:31:58Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "NAVIGATION WARNING.",
+ "text": "D3810/26 NOTAMN\nQ) LRBB/QWYLW/IV/M  /W /080/100/4530N02409E016\nA) LRBB B) 2611210600 C) 2611211500\nE) NAVIGATION WARNING.\n   AERIAL PHOTOGRAPHY FLT WILL TAKE PLACE INTO THE FLW AREA:\n   454409N0240100E-454422N0241541E-451720N0241958E-451642N0240010E\n   454409N0240100E\nF) FL080 G) FL100",
+ "year": 2026
+}

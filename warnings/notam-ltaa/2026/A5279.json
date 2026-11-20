@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-10T16:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.5333,
+   "lon": 34.9667,
+   "radius_nm": 14
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LTAA",
+  "schedule": "0500-1600",
+  "shape": "polygon",
+  "starts_at": "2026-12-09T05:00:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-20T20:28:46Z",
+ "id": "notam-ltaa/2026/A5279",
+ "issued_at": "2026-11-20T08:34:00Z",
+ "last_seen": "2026-11-20T20:28:46Z",
+ "number": "A5279",
+ "positions": [
+  [
+   36.66667,
+   34.86667
+  ],
+  [
+   36.53417,
+   35.23889
+  ],
+  [
+   36.45306,
+   35.14222
+  ],
+  [
+   36.4675,
+   35.09861
+  ],
+  [
+   36.40639,
+   35.06861
+  ],
+  [
+   36.53333,
+   34.7
+  ],
+  [
+   36.66667,
+   34.86667
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-20T20:31:58Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "GUN FIRING WILL TAKE PLACE WI ADANA MIL TMA.",
+ "text": "A5279/26 NOTAMN\nQ) LTAA/QWMLW/IV/BO /W /000/100/3632N03458E014\nA) LTAA B) 2612090500 C) 2612101600\nD) 0500-1600\nE) GUN FIRING WILL TAKE PLACE WI ADANA MIL TMA.\nAREA: 364000N0345200E 363203N0351420E 362711N0350832E \n362803N0350555E 362423N0350407E 363200N0344200E 364000N0345200E\nF) SFC G) 10000FT AMSL",
+ "year": 2026
+}

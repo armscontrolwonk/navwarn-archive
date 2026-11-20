@@ -1,0 +1,42 @@
+{
+ "cancels": [
+  "notam-urrv/2026/N0344"
+ ],
+ "expires_at": "2026-11-30T00:44:00Z",
+ "extra": {
+  "fir": "URRV",
+  "kind": "route",
+  "location": "URRV",
+  "lower": "FL045",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 47.35,
+   "lon": 46.6833,
+   "radius_nm": 85
+  },
+  "qcode": "QARLC",
+  "queried_fir": "URRV",
+  "starts_at": "2026-11-20T07:34:00Z",
+  "upper": "FL320",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-20T20:28:46Z",
+ "id": "notam-urrv/2026/N0661",
+ "issued_at": "2026-11-20T07:47:00Z",
+ "last_seen": "2026-11-20T20:28:46Z",
+ "number": "N0661",
+ "positions": [],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-11-20T20:31:58Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FLW ATS RTE SEGMENTS CLSD:",
+ "text": "N0661/26 NOTAMR N0344/26\nQ)URRV/QARLC/IV/NBO/E/000/999/4721N04641E085\nA)URRV B)2611200734 C)2611300044\nE)FLW ATS RTE SEGMENTS CLSD:\nN50 LIDUS-SOLODNIKI (SL)         FL115-FL320,\nW87 LIDUS-ASTRAKHAN VORDME (AST) FL045-FL320.\nF)FL045  G)FL320",
+ "year": 2026
+}

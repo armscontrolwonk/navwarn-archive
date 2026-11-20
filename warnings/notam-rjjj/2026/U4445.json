@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-21T08:15:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 31.9,
+   "lon": 130.8667,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-21T03:00:00Z",
+  "upper": "6234FT AMSL",
+  "upper_fl": 63
+ },
+ "first_seen": "2026-11-20T20:28:46Z",
+ "id": "notam-rjjj/2026/U4445",
+ "issued_at": "2026-11-20T09:28:00Z",
+ "last_seen": "2026-11-20T20:28:46Z",
+ "number": "U4445",
+ "positions": [
+  [
+   31.90528,
+   130.84694
+  ],
+  [
+   31.89722,
+   130.85528
+  ],
+  [
+   31.89444,
+   130.87667
+  ],
+  [
+   31.90444,
+   130.89583
+  ],
+  [
+   31.92306,
+   130.88833
+  ],
+  [
+   31.91861,
+   130.865
+  ],
+  [
+   31.90528,
+   130.84694
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-20T20:31:58Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4445/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/063/3154N13052E003\nA)RJJJ B)2611210300 C)2611210815\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n315419N1305049E - 315350N1305119E - 315340N1305236E - 315416N1305345E\n- 315523N1305318E - 315507N1305154E - 315419N1305049E \n(KIRISHIMA-SHI IN KAGOSHIMA,KOBAYASHI-SHI IN MIYAZAKI)\nWT: 1.1KG\nF)SFC G)6234FT AMSL",
+ "year": 2026
+}

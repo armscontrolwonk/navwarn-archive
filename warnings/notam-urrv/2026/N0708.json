@@ -1,0 +1,43 @@
+{
+ "cancels": [
+  "notam-urrv/2026/N0412"
+ ],
+ "expires_at": "2026-11-30T00:44:00Z",
+ "extra": {
+  "fir": "URRV",
+  "kind": "route",
+  "location": "URRV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 44.05,
+   "lon": 38.65,
+   "radius_nm": 38
+  },
+  "qcode": "QARLC",
+  "queried_fir": "URRV",
+  "schedule": "DAILY 0045-0530 1700-0044",
+  "starts_at": "2026-11-20T17:00:00Z",
+  "upper": "UNL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-20T20:28:46Z",
+ "id": "notam-urrv/2026/N0708",
+ "issued_at": "2026-11-20T17:00:00Z",
+ "last_seen": "2026-11-20T20:28:46Z",
+ "number": "N0708",
+ "positions": [],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-11-20T20:31:58Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FLW ATS RTE SEGMENTS CLSD:",
+ "text": "N0708/26 NOTAMR N0412/26\nQ)URRV/QARLC/IV/NBO/E/000/999/4403N03839E038\nA)URRV B)2611201700 C)2611300044\nD)DAILY 0045-0530 1700-0044\nE)FLW ATS RTE SEGMENTS CLSD:\nA277  BAKRI-LIMAS,\nB549  IPVIR-LAZAREVSKOYE NDB (LA).\nF)SFC  G)UNL",
+ "year": 2026
+}

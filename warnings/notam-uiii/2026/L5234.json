@@ -1,0 +1,54 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-22T07:30:00Z",
+ "extra": {
+  "fir": "UIII",
+  "kind": "restricted",
+  "location": "UIII",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 52.6167,
+   "lon": 104.1333,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UIII",
+  "shape": "polygon",
+  "starts_at": "2026-11-22T03:00:00Z",
+  "upper": "680M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-20T20:28:46Z",
+ "id": "notam-uiii/2026/L5234",
+ "issued_at": "2026-11-20T09:10:00Z",
+ "last_seen": "2026-11-20T20:28:46Z",
+ "number": "L5234",
+ "positions": [
+  [
+   52.60806,
+   104.19306
+  ],
+  [
+   52.60833,
+   104.18278
+  ],
+  [
+   52.6125,
+   104.0875
+  ]
+ ],
+ "series": "notam-uiii",
+ "source": {
+  "fetched_at": "2026-11-20T20:31:58Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI 0.05KM EITHER SIDE OF LINE JOINING POINTS:",
+ "text": "L5234/26 NOTAMN\nQ)UIII/QRTCA/IV/BO/W/000/030/5237N10408E002\nA)UIII B)2611220300 C)2611220730\nE)AIRSPACE CLSD WI 0.05KM EITHER SIDE OF LINE JOINING POINTS:\n523629N1041135E-523630N1041058E-523645N1040515E.\nF)SFC  G)680M AMSL",
+ "year": 2026
+}

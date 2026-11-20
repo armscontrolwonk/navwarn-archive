@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-28T04:30:00Z",
+ "extra": {
+  "fir": "VOMF",
+  "kind": "exercise",
+  "location": "VOMF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 11.8667,
+   "lon": 75.1,
+   "radius_nm": 19
+  },
+  "qcode": "QWELW",
+  "queried_fir": "VOMF",
+  "schedule": "23-26 28 0230-0430",
+  "shape": "polygon",
+  "starts_at": "2026-11-23T02:30:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-20T20:28:46Z",
+ "id": "notam-vomf/2026/A3589",
+ "issued_at": "2026-11-20T09:15:00Z",
+ "last_seen": "2026-11-20T20:28:46Z",
+ "number": "A3589",
+ "positions": [
+  [
+   12.17747,
+   75.05673
+  ],
+  [
+   12.09625,
+   75.29809
+  ],
+  [
+   11.58042,
+   75.15654
+  ],
+  [
+   11.66168,
+   74.91565
+  ],
+  [
+   12.17747,
+   75.05673
+  ]
+ ],
+ "series": "notam-vomf",
+ "source": {
+  "fetched_at": "2026-11-20T20:31:58Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FLYPAST EXER WI AREA BOUNDED BY COORD:",
+ "text": "A3589/26 NOTAMN\nQ) VOMF/QWELW/IV/BO/W/000/100/1152N07506E019\nA) VOMF B) 2611230230 C) 2611280430\nD) 23-26 28 0230-0430\nE) FLYPAST EXER WI AREA BOUNDED BY COORD:\n121038.91N0750324.22E-\n120546.50N0751753.13E-\n113449.53N0750923.56E-\n113942.05N0745456.35E-\n121038.91N0750324.22E\nF) GND G) 10000FT AMSL",
+ "year": 2026
+}

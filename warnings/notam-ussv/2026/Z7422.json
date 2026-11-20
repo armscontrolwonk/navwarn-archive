@@ -1,0 +1,111 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T15:00:00Z",
+ "extra": {
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.8667,
+   "lon": 60.7,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "schedule": "DAILY 0500-1500",
+  "shape": "polygon",
+  "starts_at": "2026-11-22T05:00:00Z",
+  "upper": "450M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-20T20:28:46Z",
+ "id": "notam-ussv/2026/Z7422",
+ "issued_at": "2026-11-20T09:58:00Z",
+ "last_seen": "2026-11-20T20:28:46Z",
+ "number": "Z7422",
+ "positions": [
+  [
+   56.85,
+   60.69861
+  ],
+  [
+   56.84389,
+   60.69833
+  ],
+  [
+   56.84333,
+   60.68861
+  ],
+  [
+   56.85333,
+   60.67917
+  ],
+  [
+   56.86278,
+   60.68583
+  ],
+  [
+   56.87417,
+   60.68778
+  ],
+  [
+   56.88278,
+   60.69611
+  ],
+  [
+   56.88444,
+   60.70639
+  ],
+  [
+   56.88306,
+   60.715
+  ],
+  [
+   56.87667,
+   60.72306
+  ],
+  [
+   56.87167,
+   60.72667
+  ],
+  [
+   56.86444,
+   60.72944
+  ],
+  [
+   56.86111,
+   60.72944
+  ],
+  [
+   56.85417,
+   60.72583
+  ],
+  [
+   56.85056,
+   60.72083
+  ],
+  [
+   56.85056,
+   60.69861
+  ],
+  [
+   56.85,
+   60.69861
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-20T20:31:58Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "Z7422/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/020/5652N06042E002\nA)USSV B)2611220500 C)2611251500\nD)DAILY 0500-1500\nE)AIRSPACE CLSD WI AREA:\n565100N0604155E-565038N0604154E-565036N0604119E-565112N0604045E-\n565146N0604109E-565227N0604116E-565258N0604146E-565304N0604223E-\n565259N0604254E-565236N0604323E-565218N0604336E-565152N0604346E-\n565140N0604346E-565115N0604333E-565102N0604315E-565102N0604155E-\n565100N0604155E.\nF)GND  G)450M AMSL",
+ "year": 2026
+}
