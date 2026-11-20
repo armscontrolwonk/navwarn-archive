@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-01T18:00:00Z",
+ "extra": {
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.1667,
+   "lon": 132.75,
+   "radius_nm": 22
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "UHHH",
+  "schedule": "DAILY 2000-1800",
+  "starts_at": "2026-12-01T20:00:00Z",
+  "upper": "FL400",
+  "upper_fl": 400
+ },
+ "first_seen": "2026-11-20T07:25:44Z",
+ "id": "notam-uhhh/2026/Y0189",
+ "issued_at": "2026-11-20T06:02:00Z",
+ "last_seen": "2026-11-20T07:25:44Z",
+ "number": "Y0189",
+ "positions": [],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-11-20T07:28:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "DANGER AREA ACT: UHD405.",
+ "text": "Y0189/26 NOTAMN\nQ)UHHH/QRDCA/IV/BO/W/000/400/4210N13245E022\nA)UHHH B)2612012000 C)2701011800\nD)DAILY 2000-1800\nE)DANGER AREA ACT: UHD405.\nF)GND  G)FL400",
+ "year": 2026
+}

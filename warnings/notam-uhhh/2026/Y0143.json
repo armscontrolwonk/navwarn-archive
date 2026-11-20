@@ -1,0 +1,130 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-24T09:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 43.86972,
+    "lon": 132.07361,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 43.86528,
+    "lon": 132.07694,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.85,
+   "lon": 132.35,
+   "radius_nm": 15
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "schedule": "DAILY 2300-0900",
+  "starts_at": "2026-11-19T23:00:00Z",
+  "upper": "1200M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-11-20T07:25:44Z",
+ "id": "notam-uhhh/2026/Y0143",
+ "issued_at": "2026-11-20T05:59:00Z",
+ "last_seen": "2026-11-20T07:25:44Z",
+ "number": "Y0143",
+ "positions": [
+  [
+   44.02222,
+   132.55222
+  ],
+  [
+   43.97083,
+   132.47028
+  ],
+  [
+   43.90361,
+   132.27694
+  ],
+  [
+   43.83528,
+   132.17056
+  ],
+  [
+   43.71972,
+   132.26528
+  ],
+  [
+   43.69222,
+   132.26361
+  ],
+  [
+   43.65333,
+   132.17
+  ],
+  [
+   43.75722,
+   132.08278
+  ],
+  [
+   43.84944,
+   132.08278
+  ],
+  [
+   43.86639,
+   132.05611
+  ],
+  [
+   43.88361,
+   132.07056
+  ],
+  [
+   43.86944,
+   132.09361
+  ],
+  [
+   43.89389,
+   132.10583
+  ],
+  [
+   43.95,
+   132.20778
+  ],
+  [
+   43.99,
+   132.37028
+  ],
+  [
+   44.05944,
+   132.51611
+  ],
+  [
+   44.02222,
+   132.55222
+  ],
+  [
+   43.86972,
+   132.07361
+  ],
+  [
+   43.86528,
+   132.07694
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-11-20T07:28:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Y0143/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/040/4351N13221E015\nA)UHHH B)2611192300 C)2611240900\nD)DAILY 2300-0900\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 440120N1323308E-435815N1322813E-435413N1321637E-\n         435007N1321014E-434311N1321555E-434132N1321549E-\n         433912N1321012E-434526N1320458E-435058N1320458E-\n         435159N1320322E-435301N1320414E-435210N1320537E-\n         435338N1320621E-435700N1321228E-435924N1322213E-\n         440334N1323058E-440120N1323308E\n   500M AMSL-1200M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 435211N1320425E\n   SFC-1200M AMSL.\n3. WI CIRCLE RADIUS 1KM CENTRE 435155N1320437E\n   SFC-1200M AMSL.\nF)SFC  G)1200M AMSL",
+ "year": 2026
+}

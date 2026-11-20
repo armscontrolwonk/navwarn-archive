@@ -1,0 +1,79 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.2667,
+   "lon": 136.35,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0700",
+  "shape": "polygon",
+  "starts_at": "2026-11-26T00:00:00Z",
+  "upper": "701FT AMSL",
+  "upper_fl": 8
+ },
+ "first_seen": "2026-11-20T07:25:44Z",
+ "id": "notam-rjjj/2026/U4430",
+ "issued_at": "2026-11-20T03:14:00Z",
+ "last_seen": "2026-11-20T07:25:44Z",
+ "number": "U4430",
+ "positions": [
+  [
+   36.26417,
+   136.35306
+  ],
+  [
+   36.26722,
+   136.34972
+  ],
+  [
+   36.26889,
+   136.34806
+  ],
+  [
+   36.27167,
+   136.345
+  ],
+  [
+   36.275,
+   136.3425
+  ],
+  [
+   36.2775,
+   136.34139
+  ],
+  [
+   36.27972,
+   136.33861
+  ],
+  [
+   36.28056,
+   136.33583
+  ],
+  [
+   36.28111,
+   136.33306
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-20T07:28:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4430/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/008/3616N13621E002\nA)RJJJ B)2611260000 C)2611270700\nD)0000/0700\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: 70M EITHER SIDE OF A LINE 361551N1362111E - 361602N1362059E -\n361608N1362053E - 361618N1362042E - 361630N1362033E - 361639N1362029E\n- 361647N1362019E - 361650N1362009E - 361652N1361959E \n(KAGA-SHI IN ISHIKAWA)\nWT: 9.2KG\nCONTACT INFORMATION: 03-5521-0036\nF)SFC G)701FT AMSL",
+ "year": 2026
+}

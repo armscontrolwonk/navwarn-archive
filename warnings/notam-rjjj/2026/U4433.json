@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T07:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.3667,
+   "lon": 136.8667,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0100/0730",
+  "shape": "polygon",
+  "starts_at": "2026-11-25T01:00:00Z",
+  "upper": "2415FT AMSL",
+  "upper_fl": 25
+ },
+ "first_seen": "2026-11-20T07:25:44Z",
+ "id": "notam-rjjj/2026/U4433",
+ "issued_at": "2026-11-20T04:41:00Z",
+ "last_seen": "2026-11-20T07:25:44Z",
+ "number": "U4433",
+ "positions": [
+  [
+   36.36778,
+   136.86944
+  ],
+  [
+   36.38,
+   136.86889
+  ],
+  [
+   36.34889,
+   136.88333
+  ],
+  [
+   36.34639,
+   136.86639
+  ],
+  [
+   36.36778,
+   136.86944
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-20T07:28:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4433/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/025/3622N13652E002\nA)RJJJ B)2611250100 C)2611270730\nD)0100/0730\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n362204N1365210E - 362248N1365208E - 362056N1365300E - 362047N1365159E\n- 362204N1365210E \n(NANTO-SHI IN TOYAMA, ONO-GUN IN GIFU)\nWT: 2.1KG\nCONTACT INFORMATION: 06-6351-7828\nF)SFC G)2415FT AMSL",
+ "year": 2026
+}

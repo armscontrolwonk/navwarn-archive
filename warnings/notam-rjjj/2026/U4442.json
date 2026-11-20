@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T07:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.5667,
+   "lon": 137.0,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0100/0730",
+  "shape": "polygon",
+  "starts_at": "2026-11-25T01:00:00Z",
+  "upper": "1313FT AMSL",
+  "upper_fl": 14
+ },
+ "first_seen": "2026-11-20T07:25:44Z",
+ "id": "notam-rjjj/2026/U4442",
+ "issued_at": "2026-11-20T06:54:00Z",
+ "last_seen": "2026-11-20T07:25:44Z",
+ "number": "U4442",
+ "positions": [
+  [
+   36.55472,
+   137.00806
+  ],
+  [
+   36.55556,
+   137.0125
+  ],
+  [
+   36.56556,
+   137.00639
+  ],
+  [
+   36.56167,
+   137.0
+  ],
+  [
+   36.55472,
+   137.00806
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-20T07:28:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4442/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/014/3634N13700E002\nA)RJJJ B)2611250100 C)2611270730\nD)0100/0730\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n363317N1370029E - 363320N1370045E - 363356N1370023E - 363342N1370000E\n- 363317N1370029E \n(TONAMI-SHI IN TOYAMA)\nWT: 2.1KG\nCONTACT INFORMATION: 06-6351-7828\nF)SFC G)1313FT AMSL",
+ "year": 2026
+}

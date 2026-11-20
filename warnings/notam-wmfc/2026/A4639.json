@@ -1,0 +1,54 @@
+{
+ "cancels": [],
+ "expires_at": "2027-02-25T23:59:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 2.8,
+   "lon": 101.7667,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "shape": "polygon",
+  "starts_at": "2026-11-27T00:00:00Z",
+  "upper": "400FT AGL",
+  "upper_fl": 6
+ },
+ "first_seen": "2026-11-20T07:25:44Z",
+ "id": "notam-wmfc/2026/A4639",
+ "issued_at": "2026-11-20T03:27:00Z",
+ "last_seen": "2026-11-20T07:25:44Z",
+ "number": "A4639",
+ "positions": [
+  [
+   2.84278,
+   101.75111
+  ],
+  [
+   2.78528,
+   101.75972
+  ],
+  [
+   2.77167,
+   101.785
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-11-20T07:28:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI THE FLW COORDS:",
+ "text": "A4639/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/006/0248N10146E001\nA) WMFC B) 2611270000 C) 2702252359 \nE)UA ACT WILL TAKE PLACE WI THE FLW COORDS:\n\n   025034.00N 1014504.00E - 024707.00N 1014535.00E - \n   024618.00N 1014706.00E \n\n   (NILAI CITY GATE, NEGERI SEMBILAN).\nF) SFC                             G) 400FT AGL",
+ "year": 2026
+}

@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-03T07:48:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.5833,
+   "lon": 135.2167,
+   "radius_nm": 4
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0748",
+  "shape": "polygon",
+  "starts_at": "2026-11-26T00:00:00Z",
+  "upper": "1746FT AMSL",
+  "upper_fl": 18
+ },
+ "first_seen": "2026-11-20T07:25:44Z",
+ "id": "notam-rjjj/2026/U4427",
+ "issued_at": "2026-11-20T02:09:00Z",
+ "last_seen": "2026-11-20T07:25:44Z",
+ "number": "U4427",
+ "positions": [
+  [
+   35.63194,
+   135.23028
+  ],
+  [
+   35.62361,
+   135.25472
+  ],
+  [
+   35.53111,
+   135.19722
+  ],
+  [
+   35.54444,
+   135.16694
+  ],
+  [
+   35.58556,
+   135.17056
+  ],
+  [
+   35.63194,
+   135.23028
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-20T07:28:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4427/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/018/3535N13513E004\nA)RJJJ B)2611260000 C)2612030748\nD)0000/0748\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n353755N1351349E - 353725N1351517E - 353152N1351150E - 353240N1351001E\n- 353508N1351014E - 353755N1351349E \n(MIYAZU-SHI, YOSA-GUN IN KYOTO)\nWT: 24.9KG\nFLT TIME: 0000/SS\nCONTACT INFORMATION: 050-1722-1348\nF)SFC G)1746FT AMSL",
+ "year": 2026
+}

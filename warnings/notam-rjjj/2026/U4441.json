@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-24T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.2333,
+   "lon": 130.25,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-24T00:30:00Z",
+  "upper": "489FT AMSL",
+  "upper_fl": 5
+ },
+ "first_seen": "2026-11-20T07:25:44Z",
+ "id": "notam-rjjj/2026/U4441",
+ "issued_at": "2026-11-20T06:52:00Z",
+ "last_seen": "2026-11-20T07:25:44Z",
+ "number": "U4441",
+ "positions": [
+  [
+   33.24028,
+   130.24583
+  ],
+  [
+   33.23944,
+   130.24361
+  ],
+  [
+   33.23556,
+   130.24639
+  ],
+  [
+   33.23167,
+   130.24778
+  ],
+  [
+   33.23139,
+   130.25028
+  ],
+  [
+   33.23667,
+   130.24861
+  ],
+  [
+   33.24028,
+   130.24583
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-20T07:28:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4441/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/005/3314N13015E002\nA)RJJJ B)2611240030 C)2611240800\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n331425N1301445E - 331422N1301437E - 331408N1301447E - 331354N1301452E\n- 331353N1301501E - 331412N1301455E - 331425N1301445E \n(SAGA-SHI)\nWT: 9KG\nCONTACT INFORMATION: 092-737-5333\nF)SFC G)489FT AMSL",
+ "year": 2026
+}

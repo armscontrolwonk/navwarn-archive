@@ -1,0 +1,54 @@
+{
+ "cancels": [],
+ "expires_at": "2027-02-28T23:59:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 5.6,
+   "lon": 100.5333,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "shape": "polygon",
+  "starts_at": "2026-11-30T00:00:00Z",
+  "upper": "400FT AGL",
+  "upper_fl": 6
+ },
+ "first_seen": "2026-11-20T07:25:44Z",
+ "id": "notam-wmfc/2026/A4637",
+ "issued_at": "2026-11-20T03:05:00Z",
+ "last_seen": "2026-11-20T07:25:44Z",
+ "number": "A4637",
+ "positions": [
+  [
+   5.67056,
+   100.55444
+  ],
+  [
+   5.61639,
+   100.55333
+  ],
+  [
+   5.55639,
+   100.52194
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-11-20T07:28:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI THE FLW COORD:",
+ "text": "A4637/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/006/0536N10032E003\nA) WMFC B) 2611300000 C) 2702282359 \nE)UA ACT WILL TAKE PLACE WI THE FLW COORD:\n\n   054014.00N 1003316.00E - 053659.00N 1003312.00E -\n   053323.00N 1003119.00E \n\n   (SG.PETANI CITY GATE,KEDAH).\nF) SFC                             G) 400FT AGL",
+ "year": 2026
+}

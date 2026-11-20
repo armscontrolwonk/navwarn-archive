@@ -1,0 +1,54 @@
+{
+ "cancels": [],
+ "expires_at": "2027-02-25T23:59:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 4.35,
+   "lon": 100.7167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "shape": "polygon",
+  "starts_at": "2026-11-27T00:00:00Z",
+  "upper": "400FT AGL",
+  "upper_fl": 5
+ },
+ "first_seen": "2026-11-20T07:25:44Z",
+ "id": "notam-wmfc/2026/A4645",
+ "issued_at": "2026-11-20T05:19:00Z",
+ "last_seen": "2026-11-20T07:25:44Z",
+ "number": "A4645",
+ "positions": [
+  [
+   4.40028,
+   100.71694
+  ],
+  [
+   4.35639,
+   100.72278
+  ],
+  [
+   4.3025,
+   100.73222
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-11-20T07:28:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI THE FLW COORDS:",
+ "text": "A4645/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/005/0421N10043E002\nA) WMFC B) 2611270000 C) 2702252359 \nE)UA ACT WILL TAKE PLACE WI THE FLW COORDS:\n\n   042401.00N 1004301.00E - 042123.00N 1004322.00E -\n   041809.00N 1004356.00E \n\n   (SITIAWAN,PERAK).\nF) SFC                             G) 400FT AGL",
+ "year": 2026
+}

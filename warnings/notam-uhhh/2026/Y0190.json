@@ -1,0 +1,76 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-20T14:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 46.59722,
+    "lon": 143.17806,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 46.5667,
+   "lon": 143.2167,
+   "radius_nm": 11
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "starts_at": "2026-11-20T07:00:00Z",
+  "upper": "1000M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-11-20T07:25:44Z",
+ "id": "notam-uhhh/2026/Y0190",
+ "issued_at": "2026-11-20T06:02:00Z",
+ "last_seen": "2026-11-20T07:25:44Z",
+ "number": "Y0190",
+ "positions": [
+  [
+   46.59472,
+   143.0475
+  ],
+  [
+   46.44139,
+   143.33694
+  ],
+  [
+   46.58167,
+   143.46722
+  ],
+  [
+   46.67417,
+   143.235
+  ],
+  [
+   46.69306,
+   143.10306
+  ],
+  [
+   46.59472,
+   143.0475
+  ],
+  [
+   46.59722,
+   143.17806
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-11-20T07:28:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Y0190/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/040/4634N14313E011\nA)UHHH B)2611200700 C)2611201400\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 463541N1430251E-462629N1432013E-463454N1432802E-\n         464027N1431406E-464135N1430611E-463541N1430251E\n   300M AMSL-1000M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 463550N1431041E\n   SFC-300M AMSL.\nF)SFC  G)1000M AMSL",
+ "year": 2026
+}

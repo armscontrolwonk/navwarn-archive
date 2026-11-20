@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2027-02-25T23:59:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 2.5333,
+   "lon": 101.8,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "shape": "polygon",
+  "starts_at": "2026-11-27T00:00:00Z",
+  "upper": "400FT AGL",
+  "upper_fl": 6
+ },
+ "first_seen": "2026-11-20T07:25:44Z",
+ "id": "notam-wmfc/2026/A4641",
+ "issued_at": "2026-11-20T04:10:00Z",
+ "last_seen": "2026-11-20T07:25:44Z",
+ "number": "A4641",
+ "positions": [
+  [
+   2.53222,
+   101.79417
+  ],
+  [
+   2.53056,
+   101.79917
+  ],
+  [
+   2.54056,
+   101.80944
+  ],
+  [
+   2.5425,
+   101.82333
+  ],
+  [
+   2.555,
+   101.82389
+  ],
+  [
+   2.56194,
+   101.83722
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-11-20T07:28:43Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WI THE FLW COORDS:",
+ "text": "A4641/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/006/0232N10148E001\nA) WMFC B) 2611270000 C) 2702252359 \nE)UA ACT WILL TAKE PLACE WI THE FLW COORDS:\n\n   023156.00N 1014739.00E - 023150.00N 1014757.00E -\n   023226.00N 1014834.00E - 023233.00N 1014924.00E -\n   023318.00N 1014926.00E - 023343.00N 1015014.00E \n\n   (PORT DICKSON, NEGERI SEMBILAN).\nF) SFC                             G) 400FT AGL",
+ "year": 2026
+}
