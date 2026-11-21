@@ -1,0 +1,103 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-24T10:00:00Z",
+ "extra": {
+  "fir": "UNNT",
+  "kind": "restricted",
+  "location": "UNNT",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.05,
+   "lon": 82.9667,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNNT",
+  "schedule": "DAILY 0200-0400 0800-1000",
+  "shape": "polygon",
+  "starts_at": "2026-11-23T02:00:00Z",
+  "upper": "230M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-21T19:24:23Z",
+ "id": "notam-unnt/2026/L5295",
+ "issued_at": "2026-11-21T08:08:00Z",
+ "last_seen": "2026-11-21T19:24:23Z",
+ "number": "L5295",
+ "positions": [
+  [
+   55.04333,
+   82.9975
+  ],
+  [
+   55.0425,
+   82.99389
+  ],
+  [
+   55.04444,
+   82.99306
+  ],
+  [
+   55.04361,
+   82.98778
+  ],
+  [
+   55.04167,
+   82.98306
+  ],
+  [
+   55.04417,
+   82.97972
+  ],
+  [
+   55.04361,
+   82.97472
+  ],
+  [
+   55.04222,
+   82.97278
+  ],
+  [
+   55.04139,
+   82.97444
+  ],
+  [
+   55.03944,
+   82.97194
+  ],
+  [
+   55.04139,
+   82.96222
+  ],
+  [
+   55.04028,
+   82.95806
+  ],
+  [
+   55.03917,
+   82.94472
+  ],
+  [
+   55.04056,
+   82.94333
+  ],
+  [
+   55.04222,
+   82.94306
+  ]
+ ],
+ "series": "notam-unnt",
+ "source": {
+  "fetched_at": "2026-11-21T19:27:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI 0.05KM EITHER SIDE OF LINE JOINING POINTS:",
+ "text": "L5295/26 NOTAMN\nQ)UNNT/QRTCA/IV/BO/W/000/010/5503N08258E001\nA)UNNT B)2611230200 C)2611241000\nD)DAILY 0200-0400 0800-1000\nE)AIRSPACE CLSD WI 0.05KM EITHER SIDE OF LINE JOINING POINTS:\n550236N0825951E-550233N0825938E-550240N0825935E-550237N0825916E-\n550230N0825859E-550239N0825847E-550237N0825829E-550232N0825822E-\n550229N0825828E-550222N0825819E-550229N0825744E-550225N0825729E-\n550221N0825641E-550226N0825636E-550232N0825635E\nF)GND  G)230M AMSL",
+ "year": 2026
+}

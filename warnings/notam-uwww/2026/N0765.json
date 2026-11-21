@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-28T17:00:00Z",
+ "extra": {
+  "fir": "UWWW",
+  "kind": "route",
+  "location": "UWWW",
+  "lower": "FL065",
+  "lower_fl": 65,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 52.8833,
+   "lon": 50.6833,
+   "radius_nm": 43
+  },
+  "qcode": "QARLC",
+  "queried_fir": "UWWW",
+  "schedule": "DAILY 0500-1700",
+  "starts_at": "2026-11-23T05:00:00Z",
+  "upper": "FL085",
+  "upper_fl": 85
+ },
+ "first_seen": "2026-11-21T19:24:23Z",
+ "id": "notam-uwww/2026/N0765",
+ "issued_at": "2026-11-21T10:31:00Z",
+ "last_seen": "2026-11-21T19:24:23Z",
+ "number": "N0765",
+ "positions": [],
+ "series": "notam-uwww",
+ "source": {
+  "fetched_at": "2026-11-21T19:27:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENTS CLSD:",
+ "text": "N0765/26 NOTAMN\nQ)UWWW/QARLC/IV/NBO/E/065/085/5253N05041E043\nA)UWWW B)2611230500 C)2611281700\nD)DAILY 0500-1700\nE)ATS RTE SEGMENTS CLSD:\n  L993 GITEK-TIPKO FL065-FL085,\n  M161 SAMARA (KURUMOCH) DVOR/DME(MOF)-RULEM FL065-FL085,\n  T691 URUKA-RAFLA FL065-FL085,\n  T763 GITEK-NITOD FL065-FL085,\n  T764 UDATA-GITEK FL075-FL085.\nF)FL065  G)FL085",
+ "year": 2026
+}

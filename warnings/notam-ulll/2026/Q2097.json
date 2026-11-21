@@ -1,0 +1,40 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-23T07:00:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "route",
+  "location": "ULLL",
+  "lower": "FL055",
+  "lower_fl": 55,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 60.45,
+   "lon": 33.1667,
+   "radius_nm": 77
+  },
+  "qcode": "QARLC",
+  "queried_fir": "ULLL",
+  "starts_at": "2026-11-23T00:00:00Z",
+  "upper": "FL170",
+  "upper_fl": 170
+ },
+ "first_seen": "2026-11-21T19:24:23Z",
+ "id": "notam-ulll/2026/Q2097",
+ "issued_at": "2026-11-21T18:14:00Z",
+ "last_seen": "2026-11-21T19:24:23Z",
+ "number": "Q2097",
+ "positions": [],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-21T19:27:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENTS CLSD:",
+ "text": "Q2097/26 NOTAMN\nQ)ULLL/QARLC/IV/NBO/E/055/170/6027N03310E077\nA)ULLL B)2611230000 C)2611230700\nE)ATS RTE SEGMENTS CLSD:\n  N87  ROGID-OKDON FL125-FL170,\n  P157 NUSLU-OKDON FL055-FL115,\n  T792 EGVOH-OKDON FL055-FL170.\nF)FL055  G)FL170",
+ "year": 2026
+}

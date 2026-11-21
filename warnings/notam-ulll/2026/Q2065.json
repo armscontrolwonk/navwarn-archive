@@ -1,0 +1,65 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-28T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 59.95,
+    "lon": 30.31667,
+    "radius_nm": 107.99
+   }
+  ],
+  "fir": "ULLL",
+  "kind": "drone",
+  "location": "ULLL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 60.3,
+   "lon": 28.6833,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "DAILY 0000-0700 1700-2359",
+  "starts_at": "2026-11-23T00:00:00Z",
+  "upper": "3050M AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-21T19:24:23Z",
+ "id": "notam-ulll/2026/Q2065",
+ "issued_at": "2026-11-21T08:05:00Z",
+ "last_seen": "2026-11-21T19:24:23Z",
+ "number": "Q2065",
+ "positions": [
+  [
+   58.8625,
+   27.50889
+  ],
+  [
+   61.73944,
+   29.985
+  ],
+  [
+   59.95,
+   30.31667
+  ],
+  [
+   58.8625,
+   27.50889
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-21T19:27:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "Q2065/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/100/6018N02841E002\nA)ULLL B)2611230000 C)2611282359\nD)DAILY 0000-0700 1700-2359\nE)AIRSPACE CLSD WI AREA:\nFROM 585145N 0273032E ALONG STATE BORDER TO 614422N 0295906E,\nTHEN CLOCKWISE BY ARC OF CIRCLE RADIUS 200KM CENTRE\n595700N 0301900E TO 585145N 0273032E.\nFLW FLT NOT AFFECTED:\n- VIP SPECIAL FLT AND ACFT FOR THEIR SUPPORT,\n- SKED INTL AND SKED DOM FLT VIA ATS RTE,\n- ACFT ARR TO/DEP FROM SANKT-PETERBURG/PULKOVO AD,\n- UNMANNED ACFT FLT, STATE AND EXPERIMENTAL AVIATION FLT, SPECIAL\n  FLT, MEDICAL AND SAN FLT AND ACT FOR AIRSPACE USING NOT CONNECTED\n  WITH ACFT FLT SUBJ COOR WITH DUTY OFFICER.\n- FLT OF ACFT WO CONTINUOUS TWO-WAY COM WITH ATS (ATFM) UNIT\n  PROHIBITED.\nF)GND  G)3050M AMSL",
+ "year": 2026
+}

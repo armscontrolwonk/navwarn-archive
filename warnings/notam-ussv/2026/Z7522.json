@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-28T17:00:00Z",
+ "extra": {
+  "fir": "USSV",
+  "kind": "route",
+  "location": "USSV",
+  "lower": "FL065",
+  "lower_fl": 65,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 57.2333,
+   "lon": 52.5667,
+   "radius_nm": 16
+  },
+  "qcode": "QARLC",
+  "queried_fir": "USSV",
+  "schedule": "23-28 0400-1700",
+  "starts_at": "2026-11-23T04:00:00Z",
+  "upper": "FL085",
+  "upper_fl": 85
+ },
+ "first_seen": "2026-11-21T19:24:23Z",
+ "id": "notam-ussv/2026/Z7522",
+ "issued_at": "2026-11-21T08:14:00Z",
+ "last_seen": "2026-11-21T19:24:23Z",
+ "number": "Z7522",
+ "positions": [],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-21T19:27:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENT CLSD:",
+ "text": "Z7522/26 NOTAMN\nQ)USSV/QARLC/IV/NBO/E/065/085/5714N05234E016\nA)USSV B)2611230400 C)2611281700\nD)23-28 0400-1700\nE)ATS RTE SEGMENT CLSD:\nN984 UROKI-RULEN FL065-FL085.\nF)FL065  G)FL085",
+ "year": 2026
+}

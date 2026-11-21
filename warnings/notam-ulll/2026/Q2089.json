@@ -1,0 +1,78 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-23T23:00:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 70.0833,
+   "lon": 36.0333,
+   "radius_nm": 50
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "shape": "polygon",
+  "starts_at": "2026-11-23T07:00:00Z",
+  "upper": "UNL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-21T19:24:23Z",
+ "id": "notam-ulll/2026/Q2089",
+ "issued_at": "2026-11-21T13:46:00Z",
+ "last_seen": "2026-11-21T19:24:23Z",
+ "number": "Q2089",
+ "positions": [
+  [
+   69.58333,
+   34.16667
+  ],
+  [
+   69.75,
+   34.0
+  ],
+  [
+   70.0,
+   34.0
+  ],
+  [
+   70.25,
+   34.58333
+  ],
+  [
+   70.56667,
+   35.5
+  ],
+  [
+   70.56667,
+   38.0
+  ],
+  [
+   69.75,
+   38.0
+  ],
+  [
+   69.33333,
+   36.25
+  ],
+  [
+   69.58333,
+   34.16667
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-21T19:27:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO DANGER AREA ACT:",
+ "text": "Q2089/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/999/7005N03602E050\nA)ULLL B)2611230700 C)2611232300\nE)TEMPO DANGER AREA ACT:\n693500N0341000E-694500N0340000E-700000N0340000E-701500N0343500E-\n703400N0353000E-703400N0380000E-694500N0380000E-692000N0361500E-\n693500N0341000E\nF)GND  G)UNL",
+ "year": 2026
+}
