@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-22T07:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.4833,
+   "lon": 133.4833,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0730",
+  "shape": "polygon",
+  "starts_at": "2026-11-21T00:00:00Z",
+  "upper": "1313FT AMSL",
+  "upper_fl": 14
+ },
+ "first_seen": "2026-11-21T07:20:02Z",
+ "id": "notam-rjjj/2026/U4449",
+ "issued_at": "2026-11-20T21:59:00Z",
+ "last_seen": "2026-11-21T07:20:02Z",
+ "number": "U4449",
+ "positions": [
+  [
+   34.47806,
+   133.49028
+  ],
+  [
+   34.47833,
+   133.48972
+  ],
+  [
+   34.47306,
+   133.48667
+  ],
+  [
+   34.47278,
+   133.48722
+  ],
+  [
+   34.47806,
+   133.49028
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-21T07:22:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U4449/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/014/3429N13329E001\nA)RJJJ B)2611210000 C)2611220730\nD)0000/0730\nE)UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n342841N1332925E - 342842N1332923E - 342823N1332912E - 342822N1332914E\n- 342841N1332925E \n(KASAOKA-SHI IN OKAYAMA)\nWT: 15KG\nNUMBER: 3\nF)SFC G)1313FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,98 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-23T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 31.9167,
+   "lon": 130.8667,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-23T04:00:00Z",
+  "upper": "6234FT AMSL",
+  "upper_fl": 63
+ },
+ "first_seen": "2026-11-21T07:20:02Z",
+ "id": "notam-rjjj/2026/U4450",
+ "issued_at": "2026-11-21T02:53:00Z",
+ "last_seen": "2026-11-21T07:20:02Z",
+ "number": "U4450",
+ "positions": [
+  [
+   31.94611,
+   130.85083
+  ],
+  [
+   31.9425,
+   130.86222
+  ],
+  [
+   31.94028,
+   130.86722
+  ],
+  [
+   31.93611,
+   130.86833
+  ],
+  [
+   31.9325,
+   130.865
+  ],
+  [
+   31.93333,
+   130.85889
+  ],
+  [
+   31.94611,
+   130.85083
+  ],
+  [
+   31.90333,
+   130.85111
+  ],
+  [
+   31.91444,
+   130.87861
+  ],
+  [
+   31.91583,
+   130.88472
+  ],
+  [
+   31.91389,
+   130.88889
+  ],
+  [
+   31.90861,
+   130.88917
+  ],
+  [
+   31.90639,
+   130.88472
+  ],
+  [
+   31.90333,
+   130.85111
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-21T07:22:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4450/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/063/3155N13052E003\nA)RJJJ B)2611230400 C)2611230700\nE)UNMANNED ACFT:\n(1)AREA: BOUNDED BY FLW POINTS\n315646N1305103E - 315633N1305144E - 315625N1305202E - 315610N1305206E\n- 315557N1305154E - 315600N1305132E - 315646N1305103E \n(2)AREA: BOUNDED BY FLW POINTS\n315412N1305104E - 315452N1305243E - 315457N1305305E - 315450N1305320E\n- 315431N1305321E - 315423N1305305E - 315412N1305104E \n(KIRISHIMA-SHI IN KAGOSHIMA,EBINO-SHI IN MIYAZAKI)\nWT: 0.8KG\nF)SFC G)6234FT AMSL",
+ "year": 2026
+}

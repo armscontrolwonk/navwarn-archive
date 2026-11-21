@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T10:00:00Z",
+ "extra": {
+  "fir": "UHHH",
+  "kind": "route",
+  "location": "UHHH",
+  "lower": "300M AMSL",
+  "lower_fl": 10,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.55,
+   "lon": 131.8333,
+   "radius_nm": 24
+  },
+  "qcode": "QARLC",
+  "queried_fir": "UHHH",
+  "schedule": "DAILY 2200-1000",
+  "starts_at": "2026-11-23T22:00:00Z",
+  "upper": "FL200",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-11-21T07:20:02Z",
+ "id": "notam-uhhh/2026/Y0246",
+ "issued_at": "2026-11-21T06:59:00Z",
+ "last_seen": "2026-11-21T07:20:02Z",
+ "number": "Y0246",
+ "positions": [],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-11-21T07:22:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENTS CLSD:",
+ "text": "Y0246/26 NOTAMN\nQ)UHHH/QARLC/IV/NBO/E/010/200/4233N13150E024\nA)UHHH B)2611232200 C)2611251000\nD)DAILY 2200-1000\nE)ATS RTE SEGMENTS CLSD:\n  A900  VATIS-MATEN FL075-FL200,\n  B355  VATIS-LUPAS FL075-FL200,\n  G705  AGBIS-TERNI FL085-FL200,\n  KR475 RITEK-VATIS 300M AMSL-600M AMSL,\n  KR476 LUPAS-TERNI 300M AMSL-600M AMSL.\nF)300M AMSL  G)FL200",
+ "year": 2026
+}
