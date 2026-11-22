@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-03T09:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 2.7833,
+   "lon": 101.5,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "DLY 0100-0400 0700-0900",
+  "shape": "polygon",
+  "starts_at": "2026-11-30T01:00:00Z",
+  "upper": "1500FT",
+  "upper_fl": 15
+ },
+ "first_seen": "2026-11-22T19:47:36Z",
+ "id": "notam-wmfc/2026/A4683",
+ "issued_at": "2026-11-22T10:07:00Z",
+ "last_seen": "2026-11-22T19:47:36Z",
+ "number": "A4683",
+ "positions": [
+  [
+   2.78389,
+   101.49889
+  ],
+  [
+   2.79222,
+   101.50667
+  ],
+  [
+   2.78639,
+   101.51667
+  ],
+  [
+   2.77528,
+   101.51
+  ],
+  [
+   2.78389,
+   101.49889
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-11-22T19:50:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WILL TAKE PLACE WITHIN FLW COORD : ",
+ "text": "A4683/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/015/0247N10130E001\nA) WMFC B) 2611300100 C) 2612030900 \nD)DLY 0100-0400 0700-0900\nE)UA ACT WILL TAKE PLACE WITHIN FLW COORD : \n024702N 1012956E-\n024732N 1013024E- \n024711N 1013100E-\n024631N 1013036E-\n024702N 1012956E\n(KOMPLEK TEKNOLOGI ANGKASA, BANTING)\nF) GND                             G) 1500FT",
+ "year": 2026
+}

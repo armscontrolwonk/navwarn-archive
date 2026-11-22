@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-24T09:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 50.29417,
+    "lon": 127.57333,
+    "radius_nm": 2.16
+   }
+  ],
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 50.2833,
+   "lon": 127.5667,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "starts_at": "2026-11-24T00:00:00Z",
+  "upper": "500M AGL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-22T19:47:36Z",
+ "id": "notam-uhhh/2026/Y0289",
+ "issued_at": "2026-11-22T13:50:00Z",
+ "last_seen": "2026-11-22T19:47:36Z",
+ "number": "Y0289",
+ "positions": [
+  [
+   50.29417,
+   127.57333
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-11-22T19:50:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 4KM CENTRE 501739N1273424E.",
+ "text": "Y0289/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/999/5017N12734E003\nA)UHHH B)2611240000 C)2611240900\nE)AIRSPACE CLSD WI CIRCLE RADIUS 4KM CENTRE 501739N1273424E.\nF)GND  G)500M AGL",
+ "year": 2026
+}

@@ -1,0 +1,101 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-26T11:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 56.07583,
+    "lon": 93.31222,
+    "radius_nm": 0.27
+   }
+  ],
+  "fir": "UNKL",
+  "kind": "restricted",
+  "location": "UNKL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.1167,
+   "lon": 93.25,
+   "radius_nm": 7
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNKL",
+  "schedule": "DAILY 0300-1100",
+  "starts_at": "2026-11-23T03:00:00Z",
+  "upper": "700M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-22T19:47:36Z",
+ "id": "notam-unkl/2026/L5364",
+ "issued_at": "2026-11-22T09:05:00Z",
+ "last_seen": "2026-11-22T19:47:36Z",
+ "number": "L5364",
+ "positions": [
+  [
+   56.18528,
+   93.21333
+  ],
+  [
+   56.16639,
+   93.21611
+  ],
+  [
+   56.13194,
+   93.42583
+  ],
+  [
+   56.03333,
+   93.39306
+  ],
+  [
+   56.02333,
+   93.36556
+  ],
+  [
+   56.06694,
+   93.24444
+  ],
+  [
+   56.06083,
+   93.125
+  ],
+  [
+   56.05639,
+   93.11472
+  ],
+  [
+   56.08972,
+   93.06139
+  ],
+  [
+   56.13972,
+   93.075
+  ],
+  [
+   56.17194,
+   93.12806
+  ],
+  [
+   56.18528,
+   93.21333
+  ],
+  [
+   56.07583,
+   93.31222
+  ]
+ ],
+ "series": "notam-unkl",
+ "source": {
+  "fetched_at": "2026-11-22T19:50:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "L5364/26 NOTAMN\nQ)UNKL/QRTCA/IV/BO/W/000/030/5607N09315E007\nA)UNKL B)2611230300 C)2611261100\nD)DAILY 0300-1100\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 561107N0931248E-560959N0931258E-560755N0932533E-\n         560200N0932335E-560124N0932156E-560401N0931440E-\n         560339N0930730E-560323N0930653E-560523N0930341E-\n         560823N0930430E-561019N0930741E-561107N0931248E\n   400M AMSL-700M AMSL.\n2. WI CIRCLE RADIUS 0.5KM CENTRE 560433N0931844E\n   GND-700M AMSL.\nF)GND  G)700M AMSL",
+ "year": 2026
+}

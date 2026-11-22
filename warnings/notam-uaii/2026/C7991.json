@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-23T11:00:00Z",
+ "extra": {
+  "fir": "UAII",
+  "kind": "restricted",
+  "location": "UAII",
+  "lower": "FL120",
+  "lower_fl": 120,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.8167,
+   "lon": 70.3667,
+   "radius_nm": 40
+  },
+  "qcode": "QRMCA",
+  "queried_fir": "UAII",
+  "shape": "polygon",
+  "starts_at": "2026-11-23T05:00:00Z",
+  "upper": "FL570",
+  "upper_fl": 570
+ },
+ "first_seen": "2026-11-22T19:47:36Z",
+ "id": "notam-uaii/2026/C7991",
+ "issued_at": "2026-11-22T13:19:00Z",
+ "last_seen": "2026-11-22T19:47:36Z",
+ "number": "C7991",
+ "positions": [
+  [
+   42.51667,
+   69.91667
+  ],
+  [
+   43.03333,
+   71.2
+  ],
+  [
+   43.28333,
+   70.83333
+  ],
+  [
+   43.03333,
+   69.73333
+  ],
+  [
+   43.01667,
+   69.71667
+  ],
+  [
+   42.58333,
+   69.53333
+  ],
+  [
+   42.51667,
+   69.91667
+  ]
+ ],
+ "series": "notam-uaii",
+ "source": {
+  "fetched_at": "2026-11-22T19:50:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL OPR AREA ACTIVATED",
+ "text": "C7991/26 NOTAMN\nQ) UAII/QRMCA/IV/BO /W /120/570/4249N07022E040\nA) UAII B) 2611230500 C) 2611231100\nE) MIL OPR AREA ACTIVATED\nAREA BOUNDED BY:\n423100N 0695500E - 430200N 0711200E - 431700N 0705000E - 430200N \n0694400E - 430100N 0694300E - 423500N 0693200E - 423100N 0695500E.\nF) FL120 G) FL570",
+ "year": 2026
+}

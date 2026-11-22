@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-26T10:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "exercise",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 3.6167,
+   "lon": 100.9833,
+   "radius_nm": 10
+  },
+  "qcode": "QWELW",
+  "queried_fir": "WMFC",
+  "schedule": "DAILY 2300-1100",
+  "starts_at": "2026-11-23T23:00:00Z",
+  "upper": "FL050",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-11-22T19:47:36Z",
+ "id": "notam-wmfc/2026/A4679",
+ "issued_at": "2026-11-22T09:37:00Z",
+ "last_seen": "2026-11-22T19:47:36Z",
+ "number": "A4679",
+ "positions": [
+  [
+   3.62611,
+   100.99944
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-11-22T19:50:53Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL ACT WILL TAKE PLACE WITHIN 10NM RADIUS OF 033734N ",
+ "text": "A4679/26 NOTAMN\nQ) WMFC/QWELW/IV/BO /W /000/050/0337N10059E010\nA) WMFC B) 2611232300 C) 2611261000 \nD)DAILY 2300-1100\nE)MIL ACT WILL TAKE PLACE WITHIN 10NM RADIUS OF 033734N \n1005958E ( SUNGAI BESAR WATERS )\nF) SFC                             G) FL050",
+ "year": 2026
+}
