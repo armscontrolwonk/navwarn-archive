@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-03T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.9667,
+   "lon": 136.0667,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/0700",
+  "shape": "polygon",
+  "starts_at": "2026-12-29T23:00:00Z",
+  "upper": "8859FT AMSL",
+  "upper_fl": 89
+ },
+ "first_seen": "2026-11-22T07:00:11Z",
+ "id": "notam-rjjj/2026/U4453",
+ "issued_at": "2026-11-22T06:12:00Z",
+ "last_seen": "2026-11-22T07:00:11Z",
+ "number": "U4453",
+ "positions": [
+  [
+   33.96333,
+   136.06694
+  ],
+  [
+   33.96167,
+   136.07333
+  ],
+  [
+   33.95611,
+   136.07389
+  ],
+  [
+   33.95722,
+   136.06611
+  ],
+  [
+   33.96333,
+   136.06694
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-22T07:03:20Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4453/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/089/3358N13604E001\nA)RJJJ B)2612292300 C)2701030700\nD)2300/0700\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n335748N1360401E - 335742N1360424E - 335722N1360426E - 335726N1360358E\n- 335748N1360401E \n(KUMANO-SHI IN MIE)\nWT: 0.8KG\nF)SFC G)8859FT AMSL",
+ "year": 2026
+}

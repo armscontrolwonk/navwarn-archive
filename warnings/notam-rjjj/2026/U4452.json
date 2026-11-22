@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-20T08:08:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.4333,
+   "lon": 136.6167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-30T21:43:00Z",
+  "upper": "1379FT AMSL",
+  "upper_fl": 14
+ },
+ "first_seen": "2026-11-22T07:00:11Z",
+ "id": "notam-rjjj/2026/U4452",
+ "issued_at": "2026-11-22T05:21:00Z",
+ "last_seen": "2026-11-22T07:00:11Z",
+ "number": "U4452",
+ "positions": [
+  [
+   35.44194,
+   136.60444
+  ],
+  [
+   35.44361,
+   136.60889
+  ],
+  [
+   35.43528,
+   136.61417
+  ],
+  [
+   35.43389,
+   136.60944
+  ],
+  [
+   35.44194,
+   136.60444
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-22T07:03:20Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U4452/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/014/3526N13637E002\nA)RJJJ B)2611302143 C)2701200808\nE)UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n352631N1363616E - 352637N1363632E - 352607N1363651E - 352602N1363634E\n- 352631N1363616E \n(ANPACHI-GUN, IBI-GUN IN GIFU)\nWT: 15KG\nFLT TIME:  HJ\nRMK: THIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)1379FT AMSL",
+ "year": 2026
+}

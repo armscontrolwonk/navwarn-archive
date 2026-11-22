@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-28T19:00:00Z",
+ "extra": {
+  "fir": "UUWV",
+  "kind": "restricted",
+  "location": "UUWV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.4167,
+   "lon": 42.1,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UUWV",
+  "schedule": "23-28 0600-1900",
+  "shape": "polygon",
+  "starts_at": "2026-11-23T06:00:00Z",
+  "upper": "210M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-22T07:00:11Z",
+ "id": "notam-uuwv/2026/H3784",
+ "issued_at": "2026-11-21T21:50:00Z",
+ "last_seen": "2026-11-22T07:00:11Z",
+ "number": "H3784",
+ "positions": [
+  [
+   55.41056,
+   42.12194
+  ],
+  [
+   55.40611,
+   42.115
+  ],
+  [
+   55.42194,
+   42.07861
+  ],
+  [
+   55.43028,
+   42.09389
+  ],
+  [
+   55.41056,
+   42.12194
+  ]
+ ],
+ "series": "notam-uuwv",
+ "source": {
+  "fetched_at": "2026-11-22T07:03:20Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "H3784/26 NOTAMN\nQ)UUWV/QRTCA/IV/BO/W/000/010/5525N04206E001\nA)UUWV B)2611230600 C)2611281900\nD)23-28 0600-1900\nE)AIRSPACE CLSD WI AREA:\n552438N0420719E-552422N0420654E-552519N0420443E-\n552549N0420538E-552438N0420719E.\nF)GND  G)210M AMSL",
+ "year": 2026
+}
