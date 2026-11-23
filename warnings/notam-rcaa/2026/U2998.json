@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "2500FT AMSL",
+  "lower_fl": 25,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 25.6,
+   "lon": 122.3333,
+   "radius_nm": 15
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-25T16:00:00Z",
+  "upper": "6000FT AMSL",
+  "upper_fl": 60
+ },
+ "first_seen": "2026-11-23T07:49:19Z",
+ "id": "notam-rcaa/2026/U2998",
+ "issued_at": "2026-11-23T02:22:00Z",
+ "last_seen": "2026-11-23T07:49:19Z",
+ "number": "U2998",
+ "positions": [
+  [
+   25.61833,
+   122.07972
+  ],
+  [
+   25.71583,
+   122.34222
+  ],
+  [
+   25.78972,
+   122.49472
+  ],
+  [
+   25.49556,
+   122.56833
+  ],
+  [
+   25.46639,
+   122.1775
+  ],
+  [
+   25.61833,
+   122.07972
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-11-23T07:58:28Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U2998/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/025/060/2536N12220E015\nA) RCAA\nB) 2611251600 C) 2612311600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB261104000203\n2.LCA:ZHONGSHAN DISTRICT, KEELUNG CITY\n3.THE AREA OVERLAPS PART OF A2 MIL TRAINING AREA,\n  ACFT ARE CTN ADZ.\n4.COOR TEL:0917-097885, 0911-969472\n5.AREA AS FLW:\n253706N 1220447E\n254257N 1222032E\n254723N 1222941E\n252944N 1223406E\n252759N 1221039E\n253706N 1220447E\nF) 2500FT AMSL G) 6000FT AMSL",
+ "year": 2026
+}

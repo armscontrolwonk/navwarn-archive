@@ -1,0 +1,48 @@
+{
+ "cancels": [
+  "notam-wmfc/2026/A4656"
+ ],
+ "expires_at": "2026-11-27T11:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "exercise",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 5.6,
+   "lon": 102.8,
+   "radius_nm": 10
+  },
+  "qcode": "QWELW",
+  "queried_fir": "WMFC",
+  "schedule": "DLY 2300 - 1100",
+  "starts_at": "2026-11-23T02:00:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-23T07:49:19Z",
+ "id": "notam-wmfc/2026/A4686",
+ "issued_at": "2026-11-23T03:43:00Z",
+ "last_seen": "2026-11-23T07:49:19Z",
+ "number": "A4686",
+ "positions": [
+  [
+   5.605,
+   102.81611
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-11-23T07:58:28Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL ACT WILL TAKE PLACE WI 10NM RADIUS OF 053618N1024858E",
+ "text": "A4686/26 NOTAMR A4656/26\nQ) WMFC/QWELW/IV/BO /W /000/100/0536N10248E010\nA) WMFC B) 2611230200 C) 2611271100 \nD)DLY 2300 - 1100\nE)MIL ACT WILL TAKE PLACE WI 10NM RADIUS OF 053618N1024858E\n\n   (PANTAI PENARIK).\nF) SFC                             G) 10000FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-21T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 25.0,
+   "lon": 121.5833,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-26T16:00:00Z",
+  "upper": "2600FT AMSL",
+  "upper_fl": 26
+ },
+ "first_seen": "2026-11-23T07:49:19Z",
+ "id": "notam-rcaa/2026/U3020",
+ "issued_at": "2026-11-23T03:21:00Z",
+ "last_seen": "2026-11-23T07:49:19Z",
+ "number": "U3020",
+ "positions": [
+  [
+   25.01083,
+   121.56222
+  ],
+  [
+   25.00972,
+   121.59861
+  ],
+  [
+   24.97694,
+   121.59639
+  ],
+  [
+   24.97806,
+   121.56111
+  ],
+  [
+   25.01083,
+   121.56222
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-11-23T07:58:28Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U3020/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/026/2500N12135E002\nA) RCAA\nB) 2611261600 C) 2701211600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB261107000702\n2.LCA:WENSHAN DISTRICT, TAIPEI CITY\n3.COOR TEL:0927-720204, 0912-218136\n4.AREA AS FLW:\n250039N 1213344E\n250035N 1213555E\n245837N 1213547E\n245841N 1213340E\n250039N 1213344E\nF) SFC G) 2600FT AMSL",
+ "year": 2026
+}

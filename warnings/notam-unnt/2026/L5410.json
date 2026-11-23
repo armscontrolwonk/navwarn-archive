@@ -1,0 +1,98 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T13:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 55.08417,
+    "lon": 73.22917,
+    "radius_nm": 4.54
+   },
+   {
+    "lat": 55.03306,
+    "lon": 73.26,
+    "radius_nm": 1.19
+   },
+   {
+    "lat": 55.0725,
+    "lon": 73.33194,
+    "radius_nm": 0.97
+   },
+   {
+    "lat": 55.12583,
+    "lon": 73.13667,
+    "radius_nm": 1.19
+   },
+   {
+    "lat": 55.13,
+    "lon": 73.34583,
+    "radius_nm": 1.19
+   },
+   {
+    "lat": 55.0275,
+    "lon": 73.16167,
+    "radius_nm": 0.49
+   }
+  ],
+  "fir": "UNNT",
+  "kind": "restricted",
+  "location": "UNNT",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.0833,
+   "lon": 73.25,
+   "radius_nm": 5
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNNT",
+  "schedule": "25-27 0300-1300",
+  "starts_at": "2026-11-25T03:00:00Z",
+  "upper": "600M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-23T07:49:19Z",
+ "id": "notam-unnt/2026/L5410",
+ "issued_at": "2026-11-23T06:13:00Z",
+ "last_seen": "2026-11-23T07:49:19Z",
+ "number": "L5410",
+ "positions": [
+  [
+   55.08417,
+   73.22917
+  ],
+  [
+   55.03306,
+   73.26
+  ],
+  [
+   55.0725,
+   73.33194
+  ],
+  [
+   55.12583,
+   73.13667
+  ],
+  [
+   55.13,
+   73.34583
+  ],
+  [
+   55.0275,
+   73.16167
+  ]
+ ],
+ "series": "notam-unnt",
+ "source": {
+  "fetched_at": "2026-11-23T07:58:28Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "L5410/26 NOTAMN\nQ)UNNT/QRTCA/IV/BO/W/000/020/5505N07315E005\nA)UNNT B)2611250300 C)2611271300\nD)25-27 0300-1300\nE)AIRSPACE CLSD AS FLW:\n1. WI CIRCLE RADIUS 8.4KM CENTRE 550503N0731345E\n   500M AMSL-600M AMSL.\n2. WI CIRCLE RADIUS 2.2KM CENTRE 550159N0731536E\n   GND-600M AMSL.\n3. WI CIRCLE RADIUS 1.8KM CENTRE 550421N0731955E\n   GND-600M AMSL.\n4. WI CIRCLE RADIUS 2.2KM CENTRE 550733N0730812E\n   GND-600M AMSL.\n5. WI CIRCLE RADIUS 2.2KM CENTRE 550748N0732045E\n   GND-600M AMSL.\n6. WI CIRCLE RADIUS 0.9KM CENTRE 550139N0730942E\n   GND-600M AMSL.\nF)GND  G)600M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,69 @@
+{
+ "cancels": [
+  "notam-rkrr/2026/E5425"
+ ],
+ "expires_at": "2026-11-29T02:30:00Z",
+ "extra": {
+  "fir": "RKRR",
+  "kind": "restricted",
+  "location": "RKRR",
+  "lower": "7000FT AMSL",
+  "lower_fl": 70,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 35.4333,
+   "lon": 127.9167,
+   "radius_nm": 29
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "RKRR",
+  "schedule": "23 0135-0230 2250-2330, 24 1000-1130, 25 2250-2330, 26 1000-1130, 27 2250-2330, 29 0100-0230",
+  "shape": "polygon",
+  "starts_at": "2026-11-23T01:35:00Z",
+  "upper": "FL430",
+  "upper_fl": 430
+ },
+ "first_seen": "2026-11-23T07:49:19Z",
+ "id": "notam-rkrr/2026/E5426",
+ "issued_at": "2026-11-23T01:37:00Z",
+ "last_seen": "2026-11-23T07:49:19Z",
+ "number": "E5426",
+ "positions": [
+  [
+   35.63611,
+   127.48056
+  ],
+  [
+   35.66111,
+   128.40278
+  ],
+  [
+   35.62917,
+   128.43056
+  ],
+  [
+   35.25417,
+   128.39722
+  ],
+  [
+   35.23333,
+   127.4
+  ],
+  [
+   35.63611,
+   127.48056
+  ]
+ ],
+ "series": "notam-rkrr",
+ "source": {
+  "fetched_at": "2026-11-23T07:58:28Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO RESTRICTED AREA ACT AS FLW",
+ "text": "E5426/26 NOTAMR E5425/26 \nQ)RKRR/QRTCA/IV/BO/W/070/430/3526N12755E029\nA)RKRR B)2611230135 C)2611290230\nD)23 0135-0230 2250-2330, 24 1000-1130, 25 2250-2330, 26 1000-1130, \n27 2250-2330, 29 0100-0230\nE)TEMPO RESTRICTED AREA ACT AS FLW\nAREA BOUNDED BY THE FOLLOWING\n353810N1272850E-353940N1282410E-353745N1282550E-351515N1282350E-\n351400N1272400E-353810N1272850E\n\nRMK : \n1. EXC SKED CIV ACFT INBOUND TO/OUTBOUND FM RKJY AND RKPS\n2. EXC THE AREA THAT OVERLAP WITH ATS RTE V547/Y657\nF)7000FT AMSL G)FL430",
+ "year": 2026
+}

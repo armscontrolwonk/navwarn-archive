@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-01T10:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.8,
+   "lon": 120.2,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "schedule": "2200-1000",
+  "starts_at": "2026-11-26T22:00:00Z",
+  "upper": "500FT AMSL",
+  "upper_fl": 5
+ },
+ "first_seen": "2026-11-23T07:49:19Z",
+ "id": "notam-rcaa/2026/U3009",
+ "issued_at": "2026-11-23T02:48:00Z",
+ "last_seen": "2026-11-23T07:49:19Z",
+ "number": "U3009",
+ "positions": [
+  [
+   23.80389,
+   120.19806
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-11-23T07:58:28Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U3009/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/005/2348N12012E002\nA) RCAA\nB) 2611262200 C) 2701011000\nD) 2200-1000\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB260921001901\n2.LCA:MAILIAO TOWNSHIP, YUNLIN COUNTY\n3.THE AREA OVERLAPS PART OF AERA FOUR MIL TRAINING AREA,\n  ACFT ARE CTN ADZ.\n4.COOR TEL:0987-170260, 0915-212168\n5.AREA AS FLW:\n1500M RADIUS CENTRED ON 234814N 1201153E\nF) SFC G) 500FT AMSL",
+ "year": 2026
+}

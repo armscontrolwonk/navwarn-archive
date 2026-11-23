@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T10:00:00Z",
+ "extra": {
+  "fir": "UNNT",
+  "kind": "restricted",
+  "location": "UNNT",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.0333,
+   "lon": 82.9167,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNNT",
+  "schedule": "25-27 0200-0400 0800-1000",
+  "shape": "polygon",
+  "starts_at": "2026-11-25T02:00:00Z",
+  "upper": "220M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-23T07:49:19Z",
+ "id": "notam-unnt/2026/L5402",
+ "issued_at": "2026-11-23T05:51:00Z",
+ "last_seen": "2026-11-23T07:49:19Z",
+ "number": "L5402",
+ "positions": [
+  [
+   55.03917,
+   82.94222
+  ],
+  [
+   55.03861,
+   82.94139
+  ],
+  [
+   55.03611,
+   82.91472
+  ],
+  [
+   55.04583,
+   82.91222
+  ],
+  [
+   55.03944,
+   82.89444
+  ],
+  [
+   55.04028,
+   82.89389
+  ],
+  [
+   55.03972,
+   82.8925
+  ]
+ ],
+ "series": "notam-unnt",
+ "source": {
+  "fetched_at": "2026-11-23T07:58:28Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI 0.05KM EITHER SIDE OF LINE JOINING POINTS:",
+ "text": "L5402/26 NOTAMN\nQ)UNNT/QRTCA/IV/BO/W/000/010/5502N08255E001\nA)UNNT B)2611250200 C)2611271000\nD)25-27 0200-0400 0800-1000\nE)AIRSPACE CLSD WI 0.05KM EITHER SIDE OF LINE JOINING POINTS:\n550221N0825632E-550219N0825629E-550210N0825453E-550245N0825444E-\n550222N0825340E-550225N0825338E-550223N0825333E.\nF)GND  G)220M AMSL",
+ "year": 2026
+}

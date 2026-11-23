@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2027-02-01T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 25.1333,
+   "lon": 121.75,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-12-01T16:00:00Z",
+  "upper": "2000FT AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-23T07:49:19Z",
+ "id": "notam-rcaa/2026/U3022",
+ "issued_at": "2026-11-23T03:24:00Z",
+ "last_seen": "2026-11-23T07:49:19Z",
+ "number": "U3022",
+ "positions": [
+  [
+   25.14083,
+   121.75583
+  ],
+  [
+   25.13222,
+   121.76806
+  ],
+  [
+   25.12111,
+   121.75611
+  ],
+  [
+   25.12417,
+   121.73806
+  ],
+  [
+   25.13639,
+   121.74722
+  ],
+  [
+   25.14083,
+   121.75583
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-11-23T07:58:28Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U3022/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/020/2508N12145E002\nA) RCAA\nB) 2612011600 C) 2702011600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB261116000901\n2.LCA:RENAI DISTRICT, KEELUNG CITY\n3.THE AREA OVERLAPS PART OF VFR CORRIDOR C2, ACFT ARE CTN ADZ.\n4.COOR TEL:0920-332466, 0912-218136\n5.AREA AS FLW:\n250827N 1214521E\n250756N 1214605E\n250716N 1214522E\n250727N 1214417E\n250811N 1214450E\n250827N 1214521E\nF) SFC G) 2000FT AMSL",
+ "year": 2026
+}

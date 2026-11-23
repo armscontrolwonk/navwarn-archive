@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-09T10:00:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "firing",
+  "location": "RPHI",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 14.5833,
+   "lon": 119.5833,
+   "radius_nm": 8
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "RPHI",
+  "schedule": "0000-1000",
+  "shape": "polygon",
+  "starts_at": "2026-11-25T00:00:00Z",
+  "upper": "300FT AMSL",
+  "upper_fl": 3
+ },
+ "first_seen": "2026-11-23T07:49:19Z",
+ "id": "notam-rphi/2026/B6215",
+ "issued_at": "2026-11-23T02:45:00Z",
+ "last_seen": "2026-11-23T07:49:19Z",
+ "number": "B6215",
+ "positions": [
+  [
+   14.66623,
+   119.5014
+  ],
+  [
+   14.66623,
+   119.66777
+  ],
+  [
+   14.4979,
+   119.66777
+  ],
+  [
+   14.4979,
+   119.5014
+  ],
+  [
+   14.66623,
+   119.5014
+  ]
+ ],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-11-23T07:58:28Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO RESTRICTED AREA ACT WI:",
+ "text": "B6215/26 NOTAMN\nQ) RPHI/QRTCA/IV/BO /W /000/003/1435N11935E008\nA) RPHI B) 2611250000 C) 2612091000\nD) 0000-1000\nE) TEMPO RESTRICTED AREA ACT WI:\n143958.44N 1193005.04E - \n143958.44N 1194003.96E - \n142952.44N 1194003.96E - \n142952.44N 1193005.04E - \n143958.44N 1193005.04E\n(33NM SOUTHWEST OF GRANDE ISLAND, SUBIC BAY).\n\nRMK: TEST FRNG. ALL FLT NOT ALLOWED.\nF) SFC G) 300FT AMSL",
+ "year": 2026
+}
