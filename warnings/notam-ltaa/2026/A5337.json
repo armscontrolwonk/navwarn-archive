@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-26T12:30:00Z",
+ "extra": {
+  "fir": "LTXX",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "14000FT AMSL",
+  "lower_fl": 140,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 39.7,
+   "lon": 30.8833,
+   "radius_nm": 46
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTBB",
+  "shape": "polygon",
+  "starts_at": "2026-11-26T11:30:00Z",
+  "upper": "28000FT AMSL",
+  "upper_fl": 280
+ },
+ "first_seen": "2026-11-24T10:01:37Z",
+ "id": "notam-ltaa/2026/A5337",
+ "issued_at": "2026-11-24T07:23:00Z",
+ "last_seen": "2026-11-24T10:01:37Z",
+ "number": "A5337",
+ "positions": [
+  [
+   39.99889,
+   29.99944
+  ],
+  [
+   39.04889,
+   30.66611
+  ],
+  [
+   39.39889,
+   31.74944
+  ],
+  [
+   39.96556,
+   31.58278
+  ],
+  [
+   40.16556,
+   30.26611
+  ],
+  [
+   39.99889,
+   29.99944
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-24T10:04:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXERCISE WILL TAKE PLACE WI ESKISEHIR MIL TMA.",
+ "text": "A5337/26 NOTAMN\nQ) LTXX/QWELW/IV/BO /W /140/280/3942N03053E046\nA) LTAA LTBB B) 2611261130 C) 2611261230\nE) EXERCISE WILL TAKE PLACE WI ESKISEHIR MIL TMA.\nAREA: 395956N0295958E 390256N0303958E 392356N0314458E \n395756N0313458E 400956N0301558E 395956N0295958E\nF) 14000FT AMSL G) 28000FT AMSL",
+ "year": 2026
+}

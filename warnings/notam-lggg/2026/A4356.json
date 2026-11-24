@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-03T16:00:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "firing",
+  "location": "LGGG",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.3167,
+   "lon": 26.3667,
+   "radius_nm": 5
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LGGG",
+  "schedule": "01-03 0600-1600",
+  "shape": "polygon",
+  "starts_at": "2026-12-01T06:00:00Z",
+  "upper": "500FT AMSL",
+  "upper_fl": 5
+ },
+ "first_seen": "2026-11-24T10:01:37Z",
+ "id": "notam-lggg/2026/A4356",
+ "issued_at": "2026-11-24T09:26:00Z",
+ "last_seen": "2026-11-24T10:01:37Z",
+ "number": "A4356",
+ "positions": [
+  [
+   41.3,
+   26.28333
+  ],
+  [
+   41.35,
+   26.28333
+  ],
+  [
+   41.33333,
+   26.45
+  ],
+  [
+   41.3,
+   26.45
+  ],
+  [
+   41.3,
+   26.28333
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-11-24T10:04:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FIRING ACTIVITIES WILL TAKE PLACE WI PSILOU STALOU AREA AS FLW: ",
+ "text": "A4356/26 NOTAMN\nQ) LGGG/QWMLW/IV/BO /W /000/005/4119N02622E005\nA) LGGG B) 2612010600 C) 2612031600\nD) 01-03 0600-1600\nE) FIRING ACTIVITIES WILL TAKE PLACE WI PSILOU STALOU AREA AS FLW: \n411800N 0261700E - 412100N 0261700E - 412000N 0262700E - 411800N \n0262700E - 411800N 0261700E.\nF) SFC G) 500FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-04T15:59:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "exercise",
+  "location": "RPHI",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 14.2,
+   "lon": 119.8833,
+   "radius_nm": 23
+  },
+  "qcode": "QWELW",
+  "queried_fir": "RPHI",
+  "shape": "polygon",
+  "starts_at": "2026-11-30T16:01:00Z",
+  "upper": "FL180",
+  "upper_fl": 180
+ },
+ "first_seen": "2026-11-24T10:01:37Z",
+ "id": "notam-rphi/2026/B6260",
+ "issued_at": "2026-11-24T06:40:00Z",
+ "last_seen": "2026-11-24T10:01:37Z",
+ "number": "B6260",
+ "positions": [
+  [
+   14.46083,
+   119.62473
+  ],
+  [
+   14.45792,
+   120.14098
+  ],
+  [
+   13.95517,
+   120.13598
+  ],
+  [
+   13.95217,
+   119.61815
+  ],
+  [
+   14.46083,
+   119.62473
+  ]
+ ],
+ "series": "notam-rphi",
+ "source": {
+  "fetched_at": "2026-11-24T10:04:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL EXER WILL TAKE PLACE WI:",
+ "text": "B6260/26 NOTAMN\nQ) RPHI/QWELW/IV/BO /W /000/180/1412N11953E023\nA) RPHI B) 2611301601 C) 2612041559\nE) MIL EXER WILL TAKE PLACE WI:\n142739.00N 1193729.04E -\n142728.50N 1200827.54E -\n135718.60N 1200809.54E -\n135707.80N 1193705.34E -\n142739.00N 1193729.04E\n(NORTH OF LUBANG ISLAND, OCCIDENTAL MINDORO).\nF) SFC G) FL180",
+ "year": 2026
+}

@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T08:00:00Z",
+ "extra": {
+  "fir": "UAII",
+  "kind": "restricted",
+  "location": "UAII",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.95,
+   "lon": 71.7,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UAII",
+  "shape": "polygon",
+  "starts_at": "2026-11-25T04:00:00Z",
+  "upper": "FL170",
+  "upper_fl": 170
+ },
+ "first_seen": "2026-11-24T10:01:37Z",
+ "id": "notam-uaii/2026/C8041",
+ "issued_at": "2026-11-24T06:12:00Z",
+ "last_seen": "2026-11-24T10:01:37Z",
+ "number": "C8041",
+ "positions": [
+  [
+   42.95278,
+   71.68611
+  ],
+  [
+   42.95583,
+   71.69833
+  ],
+  [
+   42.9575,
+   71.69306
+  ],
+  [
+   42.95472,
+   71.69111
+  ],
+  [
+   42.95278,
+   71.68611
+  ]
+ ],
+ "series": "notam-uaii",
+ "source": {
+  "fetched_at": "2026-11-24T10:04:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPORARY RESTRICTED AREA ACTIVATED",
+ "text": "C8041/26 NOTAMN\nQ) UAII/QRTCA/IV/BO /W /000/170/4257N07142E001\nA) UAII B) 2611250400 C) 2611250800\nE) TEMPORARY RESTRICTED AREA ACTIVATED\nAREA BOUNDED BY:\n425710N 0714110E - 425721N 0714154E - 425727N 0714135E - \n425717N 0714128E - 425710N 0714110E\nF) GND G) FL170",
+ "year": 2026
+}

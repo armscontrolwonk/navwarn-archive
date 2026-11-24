@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-29T08:00:00Z",
+ "extra": {
+  "fir": "WSJC",
+  "kind": "exercise",
+  "location": "WSJC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 1.5167,
+   "lon": 103.9167,
+   "radius_nm": 7
+  },
+  "qcode": "QWELW",
+  "queried_fir": "WSJC",
+  "schedule": "NOV 26-29 0230-0330 0700-0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-26T02:30:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-24T10:01:37Z",
+ "id": "notam-wsjc/2026/A3584",
+ "issued_at": "2026-11-24T05:16:00Z",
+ "last_seen": "2026-11-24T10:01:37Z",
+ "number": "A3584",
+ "positions": [
+  [
+   1.60528,
+   103.88306
+  ],
+  [
+   1.60528,
+   103.96639
+  ],
+  [
+   1.53361,
+   103.96639
+  ],
+  [
+   1.43861,
+   103.92222
+  ],
+  [
+   1.43861,
+   103.88306
+  ],
+  [
+   1.60528,
+   103.88306
+  ]
+ ],
+ "series": "notam-wsjc",
+ "source": {
+  "fetched_at": "2026-11-24T10:04:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL ACT WILL TAKE PLACE WI 013619N1035259E-013619N1035759E-",
+ "text": "A3584/26 NOTAMN\nQ)WSJC/QWELW/IV/BO/W/000/100/0131N10355E007\nA)WSJC B)2611260230 C)2611290800\nD)NOV 26-29 0230-0330 0700-0800\nE)MIL ACT WILL TAKE PLACE WI 013619N1035259E-013619N1035759E-\n013201N1035759E-012619N1035520E-012619N1035259E-013619N1035259E.\nF)SFC G)10000FT AMSL",
+ "year": 2026
+}

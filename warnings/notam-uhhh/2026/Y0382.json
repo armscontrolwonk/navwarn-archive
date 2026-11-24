@@ -1,0 +1,107 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T10:00:00Z",
+ "extra": {
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 46.5333,
+   "lon": 137.0833,
+   "radius_nm": 268
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "schedule": "25 26 2200-1000",
+  "shape": "polygon",
+  "starts_at": "2026-11-25T22:00:00Z",
+  "upper": "FL410",
+  "upper_fl": 410
+ },
+ "first_seen": "2026-11-24T10:01:37Z",
+ "id": "notam-uhhh/2026/Y0382",
+ "issued_at": "2026-11-24T06:24:00Z",
+ "last_seen": "2026-11-24T10:01:37Z",
+ "number": "Y0382",
+ "positions": [
+  [
+   42.66028,
+   133.95222
+  ],
+  [
+   42.71639,
+   133.90833
+  ],
+  [
+   42.78,
+   133.93083
+  ],
+  [
+   43.33,
+   135.15833
+  ],
+  [
+   43.7625,
+   135.75111
+  ],
+  [
+   43.64389,
+   135.65333
+  ],
+  [
+   43.50722,
+   135.44389
+  ],
+  [
+   43.36417,
+   135.34111
+  ],
+  [
+   42.66028,
+   133.95222
+  ],
+  [
+   48.92167,
+   140.685
+  ],
+  [
+   49.38917,
+   140.46667
+  ],
+  [
+   49.61667,
+   140.53278
+  ],
+  [
+   50.2175,
+   140.275
+  ],
+  [
+   50.29167,
+   140.67972
+  ],
+  [
+   49.47,
+   140.81667
+  ],
+  [
+   48.92167,
+   140.685
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-11-24T10:04:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Y0382/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/410/4632N13705E268\nA)UHHH B)2611252200 C)2611271000\nD)25 26 2200-1000\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 423937N1335708E-424259N1335430E-424648N1335551E-\n         431948N1350930E-434545N1354504E-433838N1353912E-\n         433026N1352638E-432151N1352028E-423937N1335708E\n   GND-FL410.\n2. AREA: 485518N1404106E-492321N1402800E-493700N1403158E-\n         501303N1401630E-501730N1404047E-492812N1404900E-\n         485518N1404106E\n   GND-FL410.\nF)GND  G)FL410",
+ "year": 2026
+}

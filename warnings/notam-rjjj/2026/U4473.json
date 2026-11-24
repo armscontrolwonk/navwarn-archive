@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T07:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.9,
+   "lon": 140.9167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0000/0700",
+  "shape": "polygon",
+  "starts_at": "2026-11-25T00:00:00Z",
+  "upper": "985FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-24T10:01:37Z",
+ "id": "notam-rjjj/2026/U4473",
+ "issued_at": "2026-11-24T04:28:00Z",
+ "last_seen": "2026-11-24T10:01:37Z",
+ "number": "U4473",
+ "positions": [
+  [
+   40.92028,
+   140.92306
+  ],
+  [
+   40.91778,
+   140.92722
+  ],
+  [
+   40.90306,
+   140.90944
+  ],
+  [
+   40.88472,
+   140.9025
+  ],
+  [
+   40.88611,
+   140.89667
+  ],
+  [
+   40.90472,
+   140.90639
+  ],
+  [
+   40.92028,
+   140.92306
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-24T10:04:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4473/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/010/4054N14055E002\nA)RJJJ B)2611250000 C)2611270700\nD)0000/0700\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n405513N1405523E - 405504N1405538E - 405411N1405434E - 405305N1405409E\n- 405310N1405348E - 405417N1405423E - 405513N1405523E \n(HIGASHITSUGARU-GUN IN AOMORI)\nWT: 11KG\nCONTACT INFORMATION: 080-8157-1455\nF)SFC G)985FT AMSL",
+ "year": 2026
+}

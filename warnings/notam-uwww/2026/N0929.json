@@ -1,0 +1,82 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-03T23:59:00Z",
+ "extra": {
+  "fir": "UWWW",
+  "kind": "restricted",
+  "location": "UWWW",
+  "lower": "610M AMSL",
+  "lower_fl": 20,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 53.35,
+   "lon": 51.3167,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UWWW",
+  "shape": "polygon",
+  "starts_at": "2026-11-28T00:00:00Z",
+  "upper": "900M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-24T10:01:37Z",
+ "id": "notam-uwww/2026/N0929",
+ "issued_at": "2026-11-24T05:54:00Z",
+ "last_seen": "2026-11-24T10:01:37Z",
+ "number": "N0929",
+ "positions": [
+  [
+   53.35972,
+   51.35361
+  ],
+  [
+   53.36583,
+   51.32194
+  ],
+  [
+   53.35833,
+   51.31972
+  ],
+  [
+   53.35861,
+   51.31611
+  ],
+  [
+   53.35444,
+   51.29417
+  ],
+  [
+   53.34278,
+   51.30139
+  ],
+  [
+   53.34333,
+   51.3275
+  ],
+  [
+   53.33417,
+   51.32361
+  ],
+  [
+   53.33417,
+   51.35417
+  ],
+  [
+   53.35972,
+   51.35361
+  ]
+ ],
+ "series": "notam-uwww",
+ "source": {
+  "fetched_at": "2026-11-24T10:04:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "N0929/26 NOTAMN\nQ)UWWW/QRTCA/IV/BO/W/020/030/5321N05119E002\nA)UWWW B)2611280000 C)2612032359\nE)AIRSPACE CLSD WI AREA:\n532135N0512113E-532157N0511919E-532130N0511911E-532131N0511858E-\n532116N0511739E-532034N0511805E-532036N0511939E-532003N0511925E-\n532003N0512115E-532135N0512113E.\nF)610M AMSL  G)900M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-13T20:59:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.6667,
+   "lon": 33.4667,
+   "radius_nm": 25
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LTAA",
+  "schedule": "0600-2059",
+  "shape": "polygon",
+  "starts_at": "2026-12-09T06:00:00Z",
+  "upper": "65000FT AMSL",
+  "upper_fl": 650
+ },
+ "first_seen": "2026-11-24T10:01:37Z",
+ "id": "notam-ltaa/2026/A5339",
+ "issued_at": "2026-11-24T09:33:00Z",
+ "last_seen": "2026-11-24T10:01:37Z",
+ "number": "A5339",
+ "positions": [
+  [
+   38.27167,
+   33.55917
+  ],
+  [
+   38.45611,
+   33.90222
+  ],
+  [
+   39.04667,
+   33.34778
+  ],
+  [
+   38.9125,
+   33.11222
+  ],
+  [
+   38.76778,
+   33.13056
+  ],
+  [
+   38.27167,
+   33.55917
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-24T10:04:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "GUN FRNG WILL TAKE PLACE.",
+ "text": "A5339/26 NOTAMN\nQ) LTAA/QWMLW/IV/BO /W /000/650/3840N03328E025\nA) LTAA B) 2612090600 C) 2612132059\nD) 0600-2059\nE) GUN FRNG WILL TAKE PLACE.\nRMK: FLOW REGULATION NOTAM SHALL BE ISSUED.\nAREA(LTTSA-4R): 381618N0333333E 382722N0335408E 390248N0332052E \n385445N0330644E 384604N0330750E 381618N0333333E\nF) SFC G) 65000FT AMSL",
+ "year": 2026
+}

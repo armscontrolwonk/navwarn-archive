@@ -1,0 +1,83 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T10:00:00Z",
+ "extra": {
+  "fir": "VVHN",
+  "kind": "rocket",
+  "location": "VVHN",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 19.05,
+   "lon": 106.2,
+   "radius_nm": 28
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "VVHN",
+  "schedule": "DAILY 0300-1000",
+  "shape": "polygon",
+  "starts_at": "2026-11-27T03:00:00Z",
+  "upper": "30000M AGL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-24T10:01:37Z",
+ "id": "notam-vvhn/2026/A4532",
+ "issued_at": "2026-11-24T08:08:00Z",
+ "last_seen": "2026-11-24T10:01:37Z",
+ "number": "A4532",
+ "positions": [
+  [
+   19.12833,
+   105.73278
+  ],
+  [
+   19.30806,
+   105.87444
+  ],
+  [
+   19.30778,
+   106.07944
+  ],
+  [
+   18.94889,
+   106.67167
+  ],
+  [
+   18.77528,
+   106.61917
+  ],
+  [
+   18.79472,
+   106.02472
+  ],
+  [
+   18.85361,
+   105.86389
+  ],
+  [
+   19.0225,
+   105.73278
+  ],
+  [
+   19.11194,
+   105.72806
+  ],
+  [
+   19.12833,
+   105.73278
+  ]
+ ],
+ "series": "notam-vvhn",
+ "source": {
+  "fetched_at": "2026-11-24T10:04:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ROCKET FRNG WILL TAKE PLACE WI:",
+ "text": "A4532/26 NOTAMN \nQ) VVHN/QWMLW/IV/BO/W/000/999/1903N10612E028\nA) VVHN B) 2611270300 C) 2611301000 \nD) DAILY 0300-1000\nE) ROCKET FRNG WILL TAKE PLACE WI:\n190742N1054358E - 191829N1055228E - 191828N1060446E \n185656N1064018E - 184631N1063709E - 184741N1060129E \n185113N1055150E - 190121N1054358E - 190643N1054341E \n190742N1054358E\nBRG: 105 DEG - 146 DEG\n- ALL FLIGHTS ARE PROHIBITED WITHIN THIS AREA.\nF) GND G) 30000M AGL",
+ "year": 2026
+}

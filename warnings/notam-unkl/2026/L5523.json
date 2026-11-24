@@ -1,0 +1,114 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-28T11:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 56.39306,
+    "lon": 92.83389,
+    "radius_nm": 0.27
+   },
+   {
+    "lat": 56.16278,
+    "lon": 93.00611,
+    "radius_nm": 0.27
+   }
+  ],
+  "fir": "UNKL",
+  "kind": "restricted",
+  "location": "UNKL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 56.2833,
+   "lon": 92.9667,
+   "radius_nm": 12
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNKL",
+  "schedule": "27 28 0300-1100",
+  "starts_at": "2026-11-27T03:00:00Z",
+  "upper": "750M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-24T10:01:37Z",
+ "id": "notam-unkl/2026/L5523",
+ "issued_at": "2026-11-24T07:05:00Z",
+ "last_seen": "2026-11-24T10:01:37Z",
+ "number": "L5523",
+ "positions": [
+  [
+   56.46889,
+   92.87167
+  ],
+  [
+   56.45889,
+   92.99667
+  ],
+  [
+   56.27694,
+   93.01861
+  ],
+  [
+   56.24556,
+   93.175
+  ],
+  [
+   56.17806,
+   93.16139
+  ],
+  [
+   56.1725,
+   93.12778
+  ],
+  [
+   56.14028,
+   93.07472
+  ],
+  [
+   56.10361,
+   93.06444
+  ],
+  [
+   56.11139,
+   93.00861
+  ],
+  [
+   56.21,
+   92.91667
+  ],
+  [
+   56.31639,
+   92.87306
+  ],
+  [
+   56.39917,
+   92.76444
+  ],
+  [
+   56.46889,
+   92.87167
+  ],
+  [
+   56.39306,
+   92.83389
+  ],
+  [
+   56.16278,
+   93.00611
+  ]
+ ],
+ "series": "notam-unkl",
+ "source": {
+  "fetched_at": "2026-11-24T10:04:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "L5523/26 NOTAMN\nQ)UNKL/QRTCA/IV/BO/W/000/030/5617N09258E012\nA)UNKL B)2611270300 C)2611281100\nD)27 28 0300-1100\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 562808N0925218E-562732N0925948E-561637N0930107E-\n         561444N0931030E-561041N0930941E-561021N0930740E-\n         560825N0930429E-560613N0930352E-560641N0930031E-\n         561236N0925500E-561859N0925223E-562357N0924552E-\n         562808N0925218E\n   450M AMSL-750M AMSL.\n2. WI CIRCLE RADIUS 0.5KM CENTRE 562335N0925002E\n   GND-750M AMSL.\n3. WI CIRCLE RADIUS 0.5KM CENTRE 560946N0930022E\n    GND-750M AMSL.\nF)GND  G)750M AMSL",
+ "year": 2026
+}

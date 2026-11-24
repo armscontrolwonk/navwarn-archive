@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-06T17:00:00Z",
+ "extra": {
+  "fir": "WSJC",
+  "kind": "restricted",
+  "location": "WSJC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 1.35,
+   "lon": 103.6667,
+   "radius_nm": 5
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "WSJC",
+  "schedule": "DEC 04 05 06 0000-1700",
+  "starts_at": "2026-12-04T00:00:00Z",
+  "upper": "FL125",
+  "upper_fl": 125
+ },
+ "first_seen": "2026-11-24T10:01:37Z",
+ "id": "notam-wsjc/2026/A3587",
+ "issued_at": "2026-11-24T07:29:00Z",
+ "last_seen": "2026-11-24T10:01:37Z",
+ "number": "A3587",
+ "positions": [],
+ "series": "notam-wsjc",
+ "source": {
+  "fetched_at": "2026-11-24T10:04:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "WSD11B ACT.",
+ "text": "A3587/26 NOTAMN\nQ)WSJC/QRDCA/IV/BO/W/000/125/0121N10340E005\nA)WSJC B)2612040000 C)2612061700\nD)DEC 04 05 06 0000-1700\nE)WSD11B ACT.\nF)SFC G)FL125",
+ "year": 2026
+}

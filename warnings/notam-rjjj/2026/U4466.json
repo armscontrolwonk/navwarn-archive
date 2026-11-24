@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-29T12:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.45,
+   "lon": 140.4167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "0700/1200",
+  "shape": "polygon",
+  "starts_at": "2026-11-28T07:00:00Z",
+  "upper": "788FT AMSL",
+  "upper_fl": 8
+ },
+ "first_seen": "2026-11-24T10:01:37Z",
+ "id": "notam-rjjj/2026/U4466",
+ "issued_at": "2026-11-24T01:53:00Z",
+ "last_seen": "2026-11-24T10:01:37Z",
+ "number": "U4466",
+ "positions": [
+  [
+   35.45472,
+   140.40667
+  ],
+  [
+   35.45861,
+   140.40861
+  ],
+  [
+   35.45833,
+   140.42222
+  ],
+  [
+   35.45306,
+   140.42194
+  ],
+  [
+   35.45472,
+   140.40667
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-24T10:04:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4466/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/008/3527N14025E002\nA)RJJJ B)2611280700 C)2611291200\nD)0700/1200\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n352717N1402424E - 352731N1402431E - 352730N1402520E - 352711N1402519E\n- 352717N1402424E \n(CHOSEI-GUN IN CHIBA)\nWT: 1.1KG\nF)SFC G)788FT AMSL",
+ "year": 2026
+}

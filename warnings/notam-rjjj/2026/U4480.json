@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-04T07:26:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.25,
+   "lon": 138.9833,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "24-26 DEC 02-03 2200/0726",
+  "shape": "polygon",
+  "starts_at": "2026-11-24T22:00:00Z",
+  "upper": "1247FT AMSL",
+  "upper_fl": 13
+ },
+ "first_seen": "2026-11-24T10:01:37Z",
+ "id": "notam-rjjj/2026/U4480",
+ "issued_at": "2026-11-24T09:17:00Z",
+ "last_seen": "2026-11-24T10:01:37Z",
+ "number": "U4480",
+ "positions": [
+  [
+   37.25722,
+   138.96167
+  ],
+  [
+   37.25722,
+   139.01806
+  ],
+  [
+   37.23167,
+   139.01806
+  ],
+  [
+   37.23167,
+   138.96167
+  ],
+  [
+   37.25722,
+   138.96167
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-24T10:04:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4480/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/013/3715N13859E003\nA)RJJJ B)2611242200 C)2612040726\nD)24-26 DEC 02-03 2200/0726\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n371526N1385742E - 371526N1390105E - 371354N1390105E - 371354N1385742E\n- 371526N1385742E \n(UONUMA-SHI IN NIIGATA)\nWT: 1.4KG\nCONTACT INFORMATION: 090-7025-9608\nF)SFC G)1247FT AMSL",
+ "year": 2026
+}
