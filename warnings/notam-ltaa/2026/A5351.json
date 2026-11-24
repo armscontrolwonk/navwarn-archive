@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T14:30:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "25000FT AMSL",
+  "lower_fl": 250,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.7833,
+   "lon": 33.1167,
+   "radius_nm": 105
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-25T06:30:00Z",
+  "upper": "25000FT AMSL",
+  "upper_fl": 250
+ },
+ "first_seen": "2026-11-24T22:32:58Z",
+ "id": "notam-ltaa/2026/A5351",
+ "issued_at": "2026-11-24T13:08:00Z",
+ "last_seen": "2026-11-24T22:32:58Z",
+ "number": "A5351",
+ "positions": [
+  [
+   39.05694,
+   31.65944
+  ],
+  [
+   39.13889,
+   34.45083
+  ],
+  [
+   37.78389,
+   34.78083
+  ],
+  [
+   36.06639,
+   33.05444
+  ],
+  [
+   39.05694,
+   31.65944
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-24T22:36:14Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRBORNE EARLY WARNING AND CONTROL FLIGHT WILL TAKE PLACE WI",
+ "text": "A5351/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /250/250/3747N03307E105\nA) LTAA B) 2611250630 C) 2611251430\nE) AIRBORNE EARLY WARNING AND CONTROL FLIGHT WILL TAKE PLACE WI\nKONYA MILITARY TMA, KAYSERI MILITARY TMA: 390325N0313934E \n390820N0342703E 374702N0344651E 360359N0330316E 390325N0313934E\nF) 25000FT AMSL G) 25000FT AMSL",
+ "year": 2026
+}

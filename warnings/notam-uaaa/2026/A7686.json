@@ -1,0 +1,74 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T11:00:00Z",
+ "extra": {
+  "fir": "UAAA",
+  "kind": "restricted",
+  "location": "UAAA",
+  "lower": "FL260",
+  "lower_fl": 260,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 45.45,
+   "lon": 80.8,
+   "radius_nm": 55
+  },
+  "qcode": "QRMCA",
+  "queried_fir": "UAAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-25T07:00:00Z",
+  "upper": "FL300",
+  "upper_fl": 300
+ },
+ "first_seen": "2026-11-24T22:32:58Z",
+ "id": "notam-uaaa/2026/A7686",
+ "issued_at": "2026-11-24T17:01:00Z",
+ "last_seen": "2026-11-24T22:32:58Z",
+ "number": "A7686",
+ "positions": [
+  [
+   46.12889,
+   81.56972
+  ],
+  [
+   45.78028,
+   81.98167
+  ],
+  [
+   45.53444,
+   81.7625
+  ],
+  [
+   45.12222,
+   79.6225
+  ],
+  [
+   45.41667,
+   79.91667
+  ],
+  [
+   45.53944,
+   79.70972
+  ],
+  [
+   45.93472,
+   81.45111
+  ],
+  [
+   46.12889,
+   81.56972
+  ]
+ ],
+ "series": "notam-uaaa",
+ "source": {
+  "fetched_at": "2026-11-24T22:36:14Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL OPR AREA ACTIVATED",
+ "text": "A7686/26 NOTAMN\nQ) UAAA/QRMCA/IV/BO /W /260/300/4527N08048E055\nA) UAAA B) 2611250700 C) 2611251100\nE) MIL OPR AREA ACTIVATED\nAREA BOUNDED BY:\n460744N 0813411E - 454649N 0815854E - 453204N 0814545E - \n450720N 0793721E - 452500N 0795500E - 453222N 0794235E - \n455605N 0812704E - 460744N 0813411E\nF) FL260 G) FL300",
+ "year": 2026
+}

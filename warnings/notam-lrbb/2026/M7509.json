@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T13:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "exercise",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.85,
+   "lon": 26.6,
+   "radius_nm": 31
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-11-25T06:00:00Z",
+  "upper": "2000FT AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-24T22:32:58Z",
+ "id": "notam-lrbb/2026/M7509",
+ "issued_at": "2026-11-24T15:49:00Z",
+ "last_seen": "2026-11-24T22:32:58Z",
+ "number": "M7509",
+ "positions": [
+  [
+   45.21667,
+   26.96667
+  ],
+  [
+   45.03333,
+   27.16667
+  ],
+  [
+   44.55333,
+   26.98722
+  ],
+  [
+   44.48056,
+   26.22222
+  ],
+  [
+   44.50583,
+   26.23944
+  ],
+  [
+   44.50361,
+   26.10361
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-11-24T22:36:14Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "NAVIGATION WARNING.   ",
+ "text": "M7509/26 NOTAMN\nQ) LRBB/QWELW/IV/BO /W /000/020/4451N02636E031\nA) LRBB B) 2611250600 C) 2611251300\nE) NAVIGATION WARNING.   \n   MIL FLT WILL TAKE PLACE INTO AN AREA BOUNDED BY 3NM EITHER SIDE\n   OF A STRAIGHT LINE CONNECTING THE FLW POINTS OF COORD:\n   451300N0265800E-450200N0271000E-443312N0265914E-442850N0261320E\n   443021N0261422E-443013N0260613E\n   FLT WILL BE COOR BTN CIV AND MIL ATC\nF) GND G) 2000FT AMSL",
+ "year": 2026
+}

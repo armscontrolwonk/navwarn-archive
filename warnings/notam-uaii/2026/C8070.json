@@ -1,0 +1,102 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T12:00:00Z",
+ "extra": {
+  "fir": "UAII",
+  "kind": "restricted",
+  "location": "UAII",
+  "lower": "FL250",
+  "lower_fl": 250,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.3167,
+   "lon": 64.35,
+   "radius_nm": 179
+  },
+  "qcode": "QRMCA",
+  "queried_fir": "UAII",
+  "shape": "polygon",
+  "starts_at": "2026-11-25T08:30:00Z",
+  "upper": "FL320",
+  "upper_fl": 320
+ },
+ "first_seen": "2026-11-24T22:32:58Z",
+ "id": "notam-uaii/2026/C8070",
+ "issued_at": "2026-11-24T16:52:00Z",
+ "last_seen": "2026-11-24T22:32:58Z",
+ "number": "C8070",
+ "positions": [
+  [
+   43.1175,
+   66.05611
+  ],
+  [
+   43.37778,
+   65.67972
+  ],
+  [
+   43.84222,
+   64.67528
+  ],
+  [
+   43.84083,
+   62.81556
+  ],
+  [
+   44.87778,
+   60.30722
+  ],
+  [
+   44.92333,
+   65.6775
+  ],
+  [
+   43.63194,
+   68.30417
+  ],
+  [
+   43.4925,
+   67.72306
+  ],
+  [
+   44.47611,
+   65.48972
+  ],
+  [
+   44.4775,
+   62.55167
+  ],
+  [
+   44.29222,
+   62.98472
+  ],
+  [
+   44.29083,
+   64.85861
+  ],
+  [
+   43.72167,
+   66.08778
+  ],
+  [
+   43.24778,
+   66.66306
+  ],
+  [
+   43.1175,
+   66.05611
+  ]
+ ],
+ "series": "notam-uaii",
+ "source": {
+  "fetched_at": "2026-11-24T22:36:14Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "MIL OPR AREA ACTIVATED",
+ "text": "C8070/26 NOTAMN\nQ) UAII/QRMCA/IV/BO /W /250/320/4419N06421E179\nA) UAII B) 2611250830 C) 2611251200\nE) MIL OPR AREA ACTIVATED\nAREA BOUNDED BY:\n430703N 0660322E - 432240N 0654047E - 435032N 0644031E - \n435027N 0624856E - 445240N 0601826E - 445524N 0654039E - \n433755N 0681815E - 432933N 0674323E - 442834N 0652923E - \n442839N 0623306E - 441732N 0625905E - 441727N 0645131E - \n434318N 0660516E - 431452N 0663947E - 430703N 0660322E.\nF) FL250 G) FL320",
+ "year": 2026
+}

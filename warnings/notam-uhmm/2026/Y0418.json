@@ -1,0 +1,134 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T08:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 54.17306,
+    "lon": 156.37833,
+    "radius_nm": 0.54
+   },
+   {
+    "lat": 54.44472,
+    "lon": 156.20917,
+    "radius_nm": 0.54
+   }
+  ],
+  "fir": "UHMM",
+  "kind": "restricted",
+  "location": "UHMM",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 54.2167,
+   "lon": 156.2,
+   "radius_nm": 33
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHMM",
+  "schedule": "DAILY 2200-0800",
+  "starts_at": "2026-11-25T22:00:00Z",
+  "upper": "900M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-24T22:32:58Z",
+ "id": "notam-uhmm/2026/Y0418",
+ "issued_at": "2026-11-24T21:24:00Z",
+ "last_seen": "2026-11-24T22:32:58Z",
+ "number": "Y0418",
+ "positions": [
+  [
+   54.17306,
+   156.37833
+  ],
+  [
+   54.44472,
+   156.20917
+  ],
+  [
+   54.69806,
+   155.81389
+  ],
+  [
+   54.71306,
+   155.86028
+  ],
+  [
+   54.57722,
+   156.0475
+  ],
+  [
+   54.51944,
+   156.19667
+  ],
+  [
+   54.38806,
+   156.255
+  ],
+  [
+   54.28667,
+   156.41111
+  ],
+  [
+   54.11444,
+   156.38694
+  ],
+  [
+   54.07361,
+   156.34139
+  ],
+  [
+   53.73722,
+   156.60667
+  ],
+  [
+   53.71917,
+   156.54056
+  ],
+  [
+   54.08111,
+   156.255
+  ],
+  [
+   54.12833,
+   156.31639
+  ],
+  [
+   54.27333,
+   156.33694
+  ],
+  [
+   54.37,
+   156.19444
+  ],
+  [
+   54.49556,
+   156.13417
+  ],
+  [
+   54.54722,
+   156.00111
+  ],
+  [
+   54.67917,
+   155.8225
+  ],
+  [
+   54.69806,
+   155.81389
+  ]
+ ],
+ "series": "notam-uhmm",
+ "source": {
+  "fetched_at": "2026-11-24T22:36:14Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Y0418/26 NOTAMN\nQ)UHMM/QRTCA/IV/BO/W/000/030/5413N15612E033\nA)UHMM B)2611252200 C)2611270800\nD)DAILY 2200-0800\nE)AIRSPACE CLSD AS FLW:\n1. WI CIRCLE RADIUS 1KM CENTRE 541023N1562242E\n   GND-900M AMSL.\n2. WI CIRCLE RADIUS 1KM CENTRE 542641N1561233E\n   GND-900M AMSL.\n3. AREA: 544153N1554850E-544247N1555137E-543438N1560251E-\n         543110N1561148E-542317N1561518E-541712N1562440E-\n         540652N1562313E-540425N1562029E-534414N1563624E-\n         534309N1563226E-540452N1561518E-540742N1561859E-\n         541624N1562013E-542212N1561140E-542944N1560803E-\n         543250N1560004E-544045N1554921E-544153N1554850E\n   550M AMSL-900M AMSL.\nF)GND  G)900M AMSL",
+ "year": 2026
+}

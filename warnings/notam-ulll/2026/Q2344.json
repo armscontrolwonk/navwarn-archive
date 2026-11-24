@@ -1,0 +1,78 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T11:30:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "900M AMSL",
+  "lower_fl": 30,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 58.95,
+   "lon": 30.15,
+   "radius_nm": 37
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "shape": "polygon",
+  "starts_at": "2026-11-25T08:30:00Z",
+  "upper": "900M AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-24T22:32:58Z",
+ "id": "notam-ulll/2026/Q2344",
+ "issued_at": "2026-11-24T21:09:00Z",
+ "last_seen": "2026-11-24T22:32:58Z",
+ "number": "Q2344",
+ "positions": [
+  [
+   59.52111,
+   30.39583
+  ],
+  [
+   59.46667,
+   30.41667
+  ],
+  [
+   59.52111,
+   30.39583
+  ],
+  [
+   59.52778,
+   30.53111
+  ],
+  [
+   59.3,
+   30.81667
+  ],
+  [
+   59.52778,
+   30.53111
+  ],
+  [
+   58.51556,
+   30.27222
+  ],
+  [
+   58.36667,
+   29.78333
+  ],
+  [
+   58.51556,
+   30.27222
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-24T22:36:14Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI 2KM EITHER SIDE OF LINE JOINING POINTS:",
+ "text": "Q2344/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/030/030/5857N03009E037\nA)ULLL B)2611250830 C)2611251130\nE)AIRSPACE CLSD WI 2KM EITHER SIDE OF LINE JOINING POINTS:\n593116N0302345E-592800N0302500E-593116N0302345E-593140N0303152E-\n591800N0304900E-593140N0303152E-583056N0301620E-582200N0294700E-\n583056N0301620E.\nF)900M AMSL  G)900M AMSL",
+ "year": 2026
+}

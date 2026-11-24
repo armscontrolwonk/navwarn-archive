@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-01T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 53.0,
+    "lon": 158.65,
+    "radius_nm": 0.97
+   },
+   {
+    "lat": 53.01306,
+    "lon": 158.645,
+    "radius_nm": 0.16
+   },
+   {
+    "lat": 53.01167,
+    "lon": 158.64917,
+    "radius_nm": 0.03
+   }
+  ],
+  "fir": "UHMM",
+  "kind": "restricted",
+  "location": "UHMM",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 53.0,
+   "lon": 158.65,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHMM",
+  "starts_at": "2026-11-26T00:00:00Z",
+  "upper": "1000M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-11-24T22:32:58Z",
+ "id": "notam-uhmm/2026/Y0405",
+ "issued_at": "2026-11-24T13:29:00Z",
+ "last_seen": "2026-11-24T22:32:58Z",
+ "number": "Y0405",
+ "positions": [
+  [
+   53.0,
+   158.65
+  ],
+  [
+   53.01306,
+   158.645
+  ],
+  [
+   53.01167,
+   158.64917
+  ]
+ ],
+ "series": "notam-uhmm",
+ "source": {
+  "fetched_at": "2026-11-24T22:36:14Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 1.8KM CENTRE 530000N1583900E,",
+ "text": "Y0405/26 NOTAMN\nQ)UHMM/QRTCA/IV/BO/W/000/040/5300N15839E001\nA)UHMM B)2611260000 C)2612012359\nE)AIRSPACE CLSD WI CIRCLE RADIUS 1.8KM CENTRE 530000N1583900E,\nEXC FLW AREAS:\n1. WI CIRCLE RADIUS 0.3KM CENTRE 530047N1583842E\n   GND-100M AGL.\n2. WI CIRCLE RADIUS 0.05KM CENTRE 530042N1583857E\n   GND-100M AGL.\nMANNED ACFT NOT AFFECTED.\nF)GND  G)1000M AMSL",
+ "year": 2026
+}

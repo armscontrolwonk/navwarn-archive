@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T13:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "drone",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 47.1667,
+   "lon": 24.55,
+   "radius_nm": 2
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-11-25T05:00:00Z",
+  "upper": "3600FT AMSL",
+  "upper_fl": 36
+ },
+ "first_seen": "2026-11-24T22:32:58Z",
+ "id": "notam-lrbb/2026/R9585",
+ "issued_at": "2026-11-24T14:16:00Z",
+ "last_seen": "2026-11-24T22:32:58Z",
+ "number": "R9585",
+ "positions": [
+  [
+   47.17667,
+   24.56583
+  ],
+  [
+   47.16639,
+   24.57611
+  ],
+  [
+   47.14806,
+   24.5375
+  ],
+  [
+   47.15278,
+   24.53028
+  ],
+  [
+   47.17472,
+   24.55472
+  ],
+  [
+   47.17667,
+   24.56583
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-11-24T22:36:14Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "DANGER AREA ACTIVATED:   ",
+ "text": "R9585/26 NOTAMN\nQ) LRBB/QRDCA/IV/BO /W /000/036/4710N02433E002\nA) LRBB B) 2611250500 C) 2611251300\nE) DANGER AREA ACTIVATED:   \n   UNMANNED ACFT FLT WILL TAKE PLACE INTO THE FLW AREA:\n   471036N0243357E-470959N0243434E-470853N0243215E-470910N0243149E\n   471029N0243317E-471036N0243357E\nF) GND G) 3600FT AMSL",
+ "year": 2026
+}

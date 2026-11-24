@@ -1,0 +1,111 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-28T15:00:00Z",
+ "extra": {
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.6667,
+   "lon": 40.25,
+   "radius_nm": 4
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "URRV",
+  "schedule": "26-28 0500-1500",
+  "shape": "polygon",
+  "starts_at": "2026-11-26T05:00:00Z",
+  "upper": "2500M AMSL",
+  "upper_fl": 90
+ },
+ "first_seen": "2026-11-24T22:32:58Z",
+ "id": "notam-urrv/2026/N0962",
+ "issued_at": "2026-11-24T11:21:00Z",
+ "last_seen": "2026-11-24T22:32:58Z",
+ "number": "N0962",
+ "positions": [
+  [
+   43.71417,
+   40.2875
+  ],
+  [
+   43.67833,
+   40.29972
+  ],
+  [
+   43.67667,
+   40.29833
+  ],
+  [
+   43.66972,
+   40.29722
+  ],
+  [
+   43.66528,
+   40.29889
+  ],
+  [
+   43.66361,
+   40.29583
+  ],
+  [
+   43.66611,
+   40.25083
+  ],
+  [
+   43.67167,
+   40.22278
+  ],
+  [
+   43.66111,
+   40.1875
+  ],
+  [
+   43.67611,
+   40.17139
+  ],
+  [
+   43.68722,
+   40.20333
+  ],
+  [
+   43.71417,
+   40.2875
+  ],
+  [
+   43.67611,
+   40.31944
+  ],
+  [
+   43.66944,
+   40.32306
+  ],
+  [
+   43.66972,
+   40.29722
+  ],
+  [
+   43.67667,
+   40.29833
+  ],
+  [
+   43.67611,
+   40.31944
+  ]
+ ],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-11-24T22:36:14Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "N0962/26 NOTAMN\nQ)URRV/QRTCA/IV/BO/W/000/090/4340N04015E004\nA)URRV B)2611260500 C)2611281500\nD)26-28 0500-1500\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 434251N0401715E-434042N0401759E-434036N0401754E-\n         434011N0401750E-433955N0401756E-433949N0401745E-\n         433958N0401503E-434018N0401322E-433940N0401115E-\n         434034N0401017E-434114N0401212E-434251N0401715E\n   GND-2500M AMSL.\n2. AREA: 434034N0401910E-434010N0401923E-434011N0401750E-\n         434036N0401754E-434034N0401910E\n   200M AGL-2500M AMSL.\nF)GND  G)2500M AMSL",
+ "year": 2026
+}
