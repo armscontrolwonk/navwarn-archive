@@ -1,0 +1,40 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-25T08:00:00Z",
+ "extra": {
+  "fir": "UHMM",
+  "kind": "route",
+  "location": "UHMM",
+  "lower": "FL085",
+  "lower_fl": 85,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 60.0333,
+   "lon": 150.9667,
+   "radius_nm": 40
+  },
+  "qcode": "QARLC",
+  "queried_fir": "UHMM",
+  "starts_at": "2026-11-25T01:00:00Z",
+  "upper": "FL150",
+  "upper_fl": 150
+ },
+ "first_seen": "2026-11-23T23:59:26Z",
+ "id": "notam-uhmm/2026/Y0329",
+ "issued_at": "2026-11-23T09:17:00Z",
+ "last_seen": "2026-11-23T23:59:26Z",
+ "number": "Y0329",
+ "positions": [],
+ "series": "notam-uhmm",
+ "source": {
+  "fetched_at": "2026-11-24T00:02:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENTS CLSD:",
+ "text": "Y0329/26 NOTAMN\nQ)UHMM/QARLC/IV/NBO/E/085/150/6002N15058E040\nA)UHMM B)2611250100 C)2611250800\nE)ATS RTE SEGMENTS CLSD:\nA812 GOPNA-LUMAG FL135-FL150,\nA812 LUMAG-ORSOR FL085-FL150,\nB216 LUMAG-MEBAR FL085-FL150,\nB927 RUKAR-LUMAG FL135-FL150,\nB927 LUMAG-INDEM FL085-FL150,\nW200 LUMAG-SOMKA FL105-FL150,\nW96 ORTIG-LUMAG FL085-FL150.\nF)FL085  G)FL150",
+ "year": 2026
+}

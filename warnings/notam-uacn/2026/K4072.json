@@ -1,0 +1,45 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-24T03:30:00Z",
+ "extra": {
+  "fir": "UACN",
+  "kind": "restricted",
+  "location": "UACN",
+  "lower": "FL210",
+  "lower_fl": 210,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 49.6667,
+   "lon": 73.3333,
+   "radius_nm": 46
+  },
+  "qcode": "QRPCA",
+  "queried_fir": "UACN",
+  "starts_at": "2026-11-24T02:30:00Z",
+  "upper": "FL290",
+  "upper_fl": 290
+ },
+ "first_seen": "2026-11-23T23:59:26Z",
+ "id": "notam-uacn/2026/K4072",
+ "issued_at": "2026-11-23T15:57:00Z",
+ "last_seen": "2026-11-23T23:59:26Z",
+ "number": "K4072",
+ "positions": [
+  [
+   49.67167,
+   73.33528
+  ]
+ ],
+ "series": "notam-uacn",
+ "source": {
+  "fetched_at": "2026-11-24T00:02:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "PROHIBITED AREA ACTIVATED",
+ "text": "K4072/26 NOTAMN\nQ) UACN/QRPCA/IV/NBO/W /210/290/4940N07320E046\nA) UACN B) 2611240230 C) 2611240330\nE) PROHIBITED AREA ACTIVATED\nWI 45 NM RADIUS CENTRED ON 494018N 0732007E.\nF) FL210 G) FL290",
+ "year": 2026
+}

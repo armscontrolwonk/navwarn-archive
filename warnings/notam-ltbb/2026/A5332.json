@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-26T21:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "drone",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.2167,
+   "lon": 29.0167,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTBB",
+  "schedule": "24 26 0900-2100",
+  "starts_at": "2026-11-24T09:00:00Z",
+  "upper": "1500FT AMSL",
+  "upper_fl": 15
+ },
+ "first_seen": "2026-11-23T23:59:26Z",
+ "id": "notam-ltbb/2026/A5332",
+ "issued_at": "2026-11-23T12:28:00Z",
+ "last_seen": "2026-11-23T23:59:26Z",
+ "number": "A5332",
+ "positions": [
+  [
+   41.20944,
+   29.01194
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-11-24T00:02:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UAV FLIGHT WILL TAKE PLACE.",
+ "text": "A5332/26 NOTAMN\nQ) LTBB/QWULW/IV/BO /W /000/015/4113N02901E003\nA) LTBB B) 2611240900 C) 2611262100\nD) 24 26 0900-2100\nE) UAV FLIGHT WILL TAKE PLACE.\nAREA:CENTERED ON 411234N0290043E WITH RADIUS 2NM \nWITHIN ISTANBUL TMA\nF) SFC G) 1500FT AMSL",
+ "year": 2026
+}

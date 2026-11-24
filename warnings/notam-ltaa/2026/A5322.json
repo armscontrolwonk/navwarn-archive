@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-02T14:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "10000FT AMSL",
+  "lower_fl": 100,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.1667,
+   "lon": 30.8667,
+   "radius_nm": 20
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-12-02T09:00:00Z",
+  "upper": "20000FT AMSL",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-11-23T23:59:26Z",
+ "id": "notam-ltaa/2026/A5322",
+ "issued_at": "2026-11-23T09:36:00Z",
+ "last_seen": "2026-11-23T23:59:26Z",
+ "number": "A5322",
+ "positions": [
+  [
+   36.3,
+   30.51667
+  ],
+  [
+   36.25,
+   31.18333
+  ],
+  [
+   36.025,
+   31.225
+  ],
+  [
+   36.05417,
+   30.56111
+  ],
+  [
+   36.3,
+   30.51667
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-24T00:02:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TRAINIG FLIGHT WILL TAKE PLACE WI ANTALYA TMA:",
+ "text": "A5322/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /100/200/3610N03052E020\nA) LTAA B) 2612020900 C) 2612021400\nE) TRAINIG FLIGHT WILL TAKE PLACE WI ANTALYA TMA:\nAREA: 361800N0303100E 361500N0311100E 360130N0311330E \n360315N0303340E 361800N0303100E\nF) 10000FT AMSL G) 20000FT AMSL",
+ "year": 2026
+}

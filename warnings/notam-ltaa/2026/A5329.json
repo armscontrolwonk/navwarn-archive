@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-10T12:30:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "9000FT AMSL",
+  "lower_fl": 90,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.4167,
+   "lon": 31.4833,
+   "radius_nm": 12
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "schedule": "0600-1000 1030-1230",
+  "shape": "polygon",
+  "starts_at": "2026-12-10T06:00:00Z",
+  "upper": "25000FT AMSL",
+  "upper_fl": 250
+ },
+ "first_seen": "2026-11-23T23:59:26Z",
+ "id": "notam-ltaa/2026/A5329",
+ "issued_at": "2026-11-23T11:12:00Z",
+ "last_seen": "2026-11-23T23:59:26Z",
+ "number": "A5329",
+ "positions": [
+  [
+   36.50417,
+   31.69333
+  ],
+  [
+   36.33528,
+   31.69139
+  ],
+  [
+   36.32889,
+   31.28667
+  ],
+  [
+   36.49583,
+   31.28222
+  ],
+  [
+   36.50417,
+   31.69333
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-24T00:02:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXERCISE WILL TAKE PLACE WI ANTALYA TMA.",
+ "text": "A5329/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /090/250/3625N03129E012\nA) LTAA B) 2612100600 C) 2612101230\nD) 0600-1000 1030-1230\nE) EXERCISE WILL TAKE PLACE WI ANTALYA TMA.\nAREA: 363015N0314136E 362007N0314129E 361944N0311712E \n362945N0311656E 363015N0314136E\nF) 9000FT AMSL G) 25000FT AMSL",
+ "year": 2026
+}

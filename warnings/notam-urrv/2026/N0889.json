@@ -1,0 +1,101 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-01T17:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 44.90472,
+    "lon": 41.65278,
+    "radius_nm": 1.08
+   }
+  ],
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.9667,
+   "lon": 41.8667,
+   "radius_nm": 16
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "URRV",
+  "schedule": "DAILY 0600-1700",
+  "starts_at": "2026-11-26T06:00:00Z",
+  "upper": "1000M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-11-23T23:59:26Z",
+ "id": "notam-urrv/2026/N0889",
+ "issued_at": "2026-11-23T11:37:00Z",
+ "last_seen": "2026-11-23T23:59:26Z",
+ "number": "N0889",
+ "positions": [
+  [
+   45.14,
+   41.63806
+  ],
+  [
+   44.89694,
+   41.62583
+  ],
+  [
+   44.74111,
+   41.86944
+  ],
+  [
+   44.71694,
+   41.99806
+  ],
+  [
+   44.82639,
+   41.90917
+  ],
+  [
+   44.90389,
+   41.7275
+  ],
+  [
+   44.94333,
+   41.72944
+  ],
+  [
+   45.08333,
+   41.79056
+  ],
+  [
+   45.16444,
+   41.77694
+  ],
+  [
+   45.17583,
+   41.76917
+  ],
+  [
+   45.20472,
+   41.71944
+  ],
+  [
+   45.14,
+   41.63806
+  ],
+  [
+   44.90472,
+   41.65278
+  ]
+ ],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-11-24T00:02:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "N0889/26 NOTAMN\nQ)URRV/QRTCA/IV/BO/W/000/040/4458N04152E016\nA)URRV B)2611260600 C)2612011700\nD)DAILY 0600-1700\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 450824N0413817E-445349N0413733E-444428N0415210E-\n         444301N0415953E-444935N0415433E-445414N0414339E-\n         445636N0414346E-450500N0414726E-450952N0414637E-\n         451033N0414609E-451217N0414310E-450824N0413817E,\n   600M AMSL-1000M AMSL.\n2. WI CIRCLE RADIUS 2KM CENTRE 445417N0413910E,\n   GND-1000M AMSL.\nF)GND  G)1000M AMSL",
+ "year": 2026
+}

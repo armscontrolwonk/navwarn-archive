@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-04T14:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "30000FT AMSL",
+  "lower_fl": 300,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.0833,
+   "lon": 32.4333,
+   "radius_nm": 45
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "schedule": "NOV 25 1130-1530, NOV 27 29 0900-1400, DEC 01 02 04 0900-1400",
+  "shape": "polygon",
+  "starts_at": "2026-11-25T11:30:00Z",
+  "upper": "30000FT AMSL",
+  "upper_fl": 300
+ },
+ "first_seen": "2026-11-23T23:59:26Z",
+ "id": "notam-ltaa/2026/A5323",
+ "issued_at": "2026-11-23T09:40:00Z",
+ "last_seen": "2026-11-23T23:59:26Z",
+ "number": "A5323",
+ "positions": [
+  [
+   40.75,
+   31.58333
+  ],
+  [
+   41.4,
+   31.7
+  ],
+  [
+   41.4,
+   33.3
+  ],
+  [
+   40.75,
+   33.0
+  ],
+  [
+   40.75,
+   31.58333
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-24T00:02:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TRNG FLT WILL TAKE PLACE WI AREA: 404500N0313500E ",
+ "text": "A5323/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /300/300/4105N03226E045\nA) LTAA B) 2611251130 C) 2612041400\nD) NOV 25 1130-1530, NOV 27 29 0900-1400, DEC 01 02 04 0900-1400\nE) TRNG FLT WILL TAKE PLACE WI AREA: 404500N0313500E \n412400N0314200E 412400N0331800E 404500N0330000E 404500N0313500E\nF) 30000FT AMSL G) 30000FT AMSL",
+ "year": 2026
+}

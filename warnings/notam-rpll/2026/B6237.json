@@ -1,0 +1,43 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T23:59:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "exercise",
+  "location": "RPLL",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 14.5167,
+   "lon": 121.0167,
+   "radius_nm": 5
+  },
+  "qcode": "QMAXX",
+  "queried_fir": "RPLL",
+  "starts_at": "2026-11-26T00:00:00Z",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-23T23:59:26Z",
+ "id": "notam-rpll/2026/B6237",
+ "issued_at": "2026-11-23T13:22:00Z",
+ "last_seen": "2026-11-23T23:59:26Z",
+ "number": "B6237",
+ "positions": [
+  [
+   14.52638,
+   121.00352
+  ]
+ ],
+ "series": "notam-rpll",
+ "source": {
+  "fetched_at": "2026-11-24T00:02:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXER CTN WHEN OPR GEN MOV AREA (AT COORD: 143134.97N 1210012.66E) ",
+ "text": "B6237/26 NOTAMN\nQ) RPHI/QMAXX/IV/BO /A /000/999/1431N12101E005\nA) RPLL B) 2611260000 C) 2612312359\nE) EXER CTN WHEN OPR GEN MOV AREA (AT COORD: 143134.97N 1210012.66E) \nDUE WIP (PIPE LAYING, EXCAVATION, MANHOLE INSTL).\n\nRMK: PRESENCE OF MEN AND EQPT.",
+ "year": 2026
+}

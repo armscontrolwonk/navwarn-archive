@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-09T13:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "15000FT AMSL",
+  "lower_fl": 150,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.1667,
+   "lon": 33.25,
+   "radius_nm": 66
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "schedule": "07 0700-1000, 08 0530-0830, 09 0530-0830 1015-1300",
+  "shape": "polygon",
+  "starts_at": "2026-12-07T07:00:00Z",
+  "upper": "27000FT AMSL",
+  "upper_fl": 270
+ },
+ "first_seen": "2026-11-23T23:59:26Z",
+ "id": "notam-ltaa/2026/A5328",
+ "issued_at": "2026-11-23T10:19:00Z",
+ "last_seen": "2026-11-23T23:59:26Z",
+ "number": "A5328",
+ "positions": [
+  [
+   39.08972,
+   32.56889
+  ],
+  [
+   39.08972,
+   33.61083
+  ],
+  [
+   38.2,
+   34.61667
+  ],
+  [
+   37.1,
+   33.26667
+  ],
+  [
+   38.11667,
+   31.88333
+  ],
+  [
+   39.08972,
+   32.56889
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-24T00:02:46Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXERCISE WILL TAKE PLACE WI KONYA MIL TMA.",
+ "text": "A5328/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /150/270/3810N03315E066\nA) LTAA B) 2612070700 C) 2612091300\nD) 07 0700-1000, 08 0530-0830, 09 0530-0830 1015-1300\nE) EXERCISE WILL TAKE PLACE WI KONYA MIL TMA.\nAREA: 390523N0323408E 390523N0333639E 381200N0343700E \n370600N0331600E 380700N0315300E 390523N0323408E\nF) 15000FT AMSL G) 27000FT AMSL",
+ "year": 2026
+}
