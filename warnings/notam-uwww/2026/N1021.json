@@ -1,0 +1,110 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-29T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 53.175,
+    "lon": 50.06778,
+    "radius_nm": 0.16
+   },
+   {
+    "lat": 53.22778,
+    "lon": 50.06056,
+    "radius_nm": 0.16
+   }
+  ],
+  "fir": "UWWW",
+  "kind": "restricted",
+  "location": "UWWW",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 53.2,
+   "lon": 50.0667,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UWWW",
+  "schedule": "27-29 0500-1600",
+  "starts_at": "2026-11-27T05:00:00Z",
+  "upper": "130M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-25T08:45:33Z",
+ "id": "notam-uwww/2026/N1021",
+ "issued_at": "2026-11-25T07:32:00Z",
+ "last_seen": "2026-11-25T08:45:33Z",
+ "number": "N1021",
+ "positions": [
+  [
+   53.17472,
+   50.06333
+  ],
+  [
+   53.17556,
+   50.07222
+  ],
+  [
+   53.18306,
+   50.06889
+  ],
+  [
+   53.20194,
+   50.06139
+  ],
+  [
+   53.20722,
+   50.06361
+  ],
+  [
+   53.22083,
+   50.07944
+  ],
+  [
+   53.23028,
+   50.06278
+  ],
+  [
+   53.22611,
+   50.05667
+  ],
+  [
+   53.22028,
+   50.07361
+  ],
+  [
+   53.2075,
+   50.05972
+  ],
+  [
+   53.20167,
+   50.05639
+  ],
+  [
+   53.17472,
+   50.06333
+  ],
+  [
+   53.175,
+   50.06778
+  ],
+  [
+   53.22778,
+   50.06056
+  ]
+ ],
+ "series": "notam-uwww",
+ "source": {
+  "fetched_at": "2026-11-25T08:49:03Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "N1021/26 NOTAMN\nQ)UWWW/QRTCA/IV/BO/W/000/010/5312N05004E002\nA)UWWW B)2611270500 C)2611291600\nD)27-29 0500-1600\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 531029N0500348E-531032N0500420E-531059N0500408E-\n         531207N0500341E-531226N0500349E-531315N0500446E-\n         531349N0500346E-531334N0500324E-531313N0500425E-\n         531227N0500335E-531206N0500323E-531029N0500348E\n   30M AMSL-130M AMSL.\n2. WI CIRCLE RADIUS 0.3KM CENTRE 531030N0500404E\n   GND-130M AMSL.\n3. WI CIRCLE RADIUS 0.3KM CENTRE 531340N0500338E\n   GND-130M AMSL.\nF)GND  G)130M AMSL",
+ "year": 2026
+}

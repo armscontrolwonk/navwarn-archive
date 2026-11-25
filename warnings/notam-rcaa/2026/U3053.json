@@ -1,0 +1,66 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-25T16:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 24.1,
+   "lon": 120.4167,
+   "radius_nm": 6
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-30T16:00:00Z",
+  "upper": "3000FT AMSL",
+  "upper_fl": 30
+ },
+ "first_seen": "2026-11-25T08:45:33Z",
+ "id": "notam-rcaa/2026/U3053",
+ "issued_at": "2026-11-25T03:58:00Z",
+ "last_seen": "2026-11-25T08:45:33Z",
+ "number": "U3053",
+ "positions": [
+  [
+   24.16083,
+   120.42194
+  ],
+  [
+   24.16083,
+   120.49
+  ],
+  [
+   24.04194,
+   120.4225
+  ],
+  [
+   24.04972,
+   120.34833
+  ],
+  [
+   24.08694,
+   120.38528
+  ],
+  [
+   24.16083,
+   120.42194
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-11-25T08:49:03Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U3053/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/030/2406N12025E006\nA) RCAA\nB) 2611301600 C) 2701251600\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB261110002702\n2.LCA:XIANXI TOWNSHIP, CHANGHUA COUNTY\n3.THE AREA OVERLAPS PART OF ULM AIRSPACE BEIDOU ERLIN AND \n  PART OF VFR CORRIDOR C11, ACFT ARE CTN ADZ.\n4.COOR TEL:0920-332466, 0912-218136\n5.AREA AS FLW:\n240939N 1202519E\n240939N 1202924E\n240231N 1202521E\n240259N 1202054E\n240513N 1202307E\n240939N 1202519E\nF) SFC G) 3000FT AMSL",
+ "year": 2026
+}

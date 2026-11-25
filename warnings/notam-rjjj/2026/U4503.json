@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-26T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.0167,
+   "lon": 131.1,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-25T23:00:00Z",
+  "upper": "4922FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-11-25T08:45:33Z",
+ "id": "notam-rjjj/2026/U4503",
+ "issued_at": "2026-11-25T07:09:00Z",
+ "last_seen": "2026-11-25T08:45:33Z",
+ "number": "U4503",
+ "positions": [
+  [
+   33.0075,
+   131.09694
+  ],
+  [
+   33.0075,
+   131.10472
+  ],
+  [
+   33.01389,
+   131.10528
+  ],
+  [
+   33.01444,
+   131.09722
+  ],
+  [
+   33.0075,
+   131.09694
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-25T08:49:03Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U4503/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/050/3301N13106E002\nA)RJJJ B)2611252300 C)2611260800\nE)UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n330027N1310549E - 330027N1310617E - 330050N1310619E - 330052N1310550E\n- 330027N1310549E \n(ASO-SHI IN KUMAMOTO)\nWT: 20KG\nF)SFC G)4922FT AMSL",
+ "year": 2026
+}

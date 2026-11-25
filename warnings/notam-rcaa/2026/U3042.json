@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-23T10:00:00Z",
+ "extra": {
+  "fir": "RCAA",
+  "kind": "drone",
+  "location": "RCAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 25.1667,
+   "lon": 121.4167,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RCAA",
+  "schedule": "2200-1000",
+  "shape": "polygon",
+  "starts_at": "2026-11-30T22:00:00Z",
+  "upper": "700FT AMSL",
+  "upper_fl": 7
+ },
+ "first_seen": "2026-11-25T08:45:33Z",
+ "id": "notam-rcaa/2026/U3042",
+ "issued_at": "2026-11-25T03:08:00Z",
+ "last_seen": "2026-11-25T08:45:33Z",
+ "number": "U3042",
+ "positions": [
+  [
+   25.16306,
+   121.39722
+  ],
+  [
+   25.17472,
+   121.41333
+  ],
+  [
+   25.17111,
+   121.42556
+  ],
+  [
+   25.16361,
+   121.4225
+  ],
+  [
+   25.16667,
+   121.41361
+  ],
+  [
+   25.15806,
+   121.40222
+  ],
+  [
+   25.16306,
+   121.39722
+  ]
+ ],
+ "series": "notam-rcaa",
+ "source": {
+  "fetched_at": "2026-11-25T08:49:03Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL BE RELEASED:",
+ "text": "U3042/26 NOTAMN\nQ) RCAA/QWULW/IV/BO/W/000/007/2510N12125E002\nA) RCAA\nB) 2611302200 C) 2701231000\nD) 2200-1000\nE) UNMANNED ACFT WILL BE RELEASED:\n1.CASE NR:AB261109001901\n2.LCA:BALI DISTRICT, NEW TAIPEI CITY\n3.THE AREA OVERLAPS PART OF VFR HEL RTE H1, \n  ACFT ARE CTN ADZ.\n4.COOR TEL:0908-537225, 0975-013510\n5.AREA AS FLW:\n250947N 1212350E\n251029N 1212448E\n251016N 1212532E\n250949N 1212521E\n251000N 1212449E\n250929N 1212408E\n250947N 1212350E\nF) SFC G) 700FT AMSL",
+ "year": 2026
+}

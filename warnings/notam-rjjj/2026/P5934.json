@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-05T03:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.1333,
+   "lon": 134.1667,
+   "radius_nm": 3
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "schedule": "01-03 2300/0800 04 2300/0300",
+  "shape": "polygon",
+  "starts_at": "2026-12-01T23:00:00Z",
+  "upper": "8911FT AMSL",
+  "upper_fl": 90
+ },
+ "first_seen": "2026-11-25T08:45:33Z",
+ "id": "notam-rjjj/2026/P5934",
+ "issued_at": "2026-11-25T06:16:00Z",
+ "last_seen": "2026-11-25T08:45:33Z",
+ "number": "P5934",
+ "positions": [
+  [
+   35.15417,
+   134.18083
+  ],
+  [
+   35.15528,
+   134.17639
+  ],
+  [
+   35.15472,
+   134.17778
+  ],
+  [
+   35.15417,
+   134.18083
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-25T08:49:03Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG EXER WILL BE CONDUCTED WITHIN R-96 NIPPON-BARA",
+ "text": "P5934/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/090/3508N13410E003\nA)RJJJ B)2612012300 C)2612050300\nD)01-03 2300/0800 04 2300/0300\nE)FRNG EXER WILL BE CONDUCTED WITHIN R-96 NIPPON-BARA\nWEAPON: 81MORTAR\nAREA: BOUNDED BY FLW POINTS\n350915N1341051E - 350919N1341035E - 350917N1341040E - 350915N1341051E\n(KATSUTA-GUN IN OKAYAMA)\nRMK: (1)REF AIP PAGE ENR5.1-4\n(2) SOURCE/JSDF-G(RJOY)\nF)SFC G)8911FT AMSL",
+ "year": 2026
+}
