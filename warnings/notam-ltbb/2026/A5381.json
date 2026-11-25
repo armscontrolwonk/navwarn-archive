@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T15:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "drone",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.7167,
+   "lon": 28.8,
+   "radius_nm": 3
+  },
+  "qcode": "QWULW",
+  "queried_fir": "LTBB",
+  "schedule": "0500-1500",
+  "starts_at": "2026-11-26T05:00:00Z",
+  "upper": "1000FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-25T21:47:42Z",
+ "id": "notam-ltbb/2026/A5381",
+ "issued_at": "2026-11-25T13:40:00Z",
+ "last_seen": "2026-11-25T21:47:42Z",
+ "number": "A5381",
+ "positions": [
+  [
+   36.71667,
+   28.79722
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-11-25T21:51:11Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT FLT WILL TAKE PLACE.",
+ "text": "A5381/26 NOTAMN\nQ) LTBB/QWULW/IV/BO /W /000/010/3643N02848E003\nA) LTBB B) 2611260500 C) 2611271500\nD) 0500-1500\nE) UNMANNED ACFT FLT WILL TAKE PLACE.\nAREA: CENTERED ON 364300N0284750E WITH RADIUS 2NM\nWITHIN DALAMAN TMA\n-DURING PLANNED FLIGHTS, UAV FLIGHTS NOT ALLOWED-\nF) SFC G) 1000FT AMSL",
+ "year": 2026
+}

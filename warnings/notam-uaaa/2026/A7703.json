@@ -1,0 +1,45 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-26T12:00:00Z",
+ "extra": {
+  "fir": "UAAA",
+  "kind": "drone",
+  "location": "UAAA",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.2,
+   "lon": 74.4667,
+   "radius_nm": 6
+  },
+  "qcode": "QWULW",
+  "queried_fir": "UAAA",
+  "starts_at": "2026-11-26T07:00:00Z",
+  "upper": "5000FT AMSL",
+  "upper_fl": 50
+ },
+ "first_seen": "2026-11-25T21:47:42Z",
+ "id": "notam-uaaa/2026/A7703",
+ "issued_at": "2026-11-25T11:06:00Z",
+ "last_seen": "2026-11-25T21:47:42Z",
+ "number": "A7703",
+ "positions": [
+  [
+   43.19417,
+   74.45861
+  ]
+ ],
+ "series": "notam-uaaa",
+ "source": {
+  "fetched_at": "2026-11-25T21:51:11Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL TAKE PLACE",
+ "text": "A7703/26 NOTAMN\nQ) UAAA/QWULW/IV/BO /W /000/050/4312N07428E006\nA) UAAA B) 2611260700 C) 2611261200\nE) UNMANNED ACFT WILL TAKE PLACE\nWI 5 NM RADIUS CENTRED ON 431139N 0742731E \nWHITHOUT CROSSING OF STATE BORDER.\nF) GND G) 5000FT AMSL",
+ "year": 2026
+}

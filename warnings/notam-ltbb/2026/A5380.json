@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T14:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "exercise",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.4833,
+   "lon": 28.3667,
+   "radius_nm": 15
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTBB",
+  "schedule": "0600-1400",
+  "shape": "polygon",
+  "starts_at": "2026-11-26T06:00:00Z",
+  "upper": "7000FT AMSL",
+  "upper_fl": 70
+ },
+ "first_seen": "2026-11-25T21:47:42Z",
+ "id": "notam-ltbb/2026/A5380",
+ "issued_at": "2026-11-25T13:32:00Z",
+ "last_seen": "2026-11-25T21:47:42Z",
+ "number": "A5380",
+ "positions": [
+  [
+   40.43361,
+   28.66667
+  ],
+  [
+   40.49306,
+   28.62111
+  ],
+  [
+   40.50583,
+   28.53333
+  ],
+  [
+   40.60972,
+   28.24611
+  ],
+  [
+   40.60861,
+   28.21444
+  ],
+  [
+   40.53889,
+   28.07667
+  ],
+  [
+   40.43361,
+   28.66667
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-11-25T21:51:11Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEST FLIGHTS WILL TAKE PLACE WI ISTANBUL TMA AND BANDIRMA MIL TMA.",
+ "text": "A5380/26 NOTAMN\nQ) LTBB/QWELW/IV/BO /W /000/070/4029N02822E015\nA) LTBB B) 2611260600 C) 2611271400\nD) 0600-1400\nE) TEST FLIGHTS WILL TAKE PLACE WI ISTANBUL TMA AND BANDIRMA MIL TMA.\nAREA: 402601N0284000E 402935N0283716E 403021N0283200E \n403635N0281446E 403631N0281252E 403220N0280436E 402601N0284000E\nF) SFC G) 7000FT AMSL",
+ "year": 2026
+}

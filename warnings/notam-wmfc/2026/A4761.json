@@ -1,0 +1,46 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-14T09:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 5.3167,
+   "lon": 100.7333,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "DLY 0100-0900",
+  "starts_at": "2026-12-08T01:00:00Z",
+  "upper": "270FT AGL",
+  "upper_fl": 3
+ },
+ "first_seen": "2026-11-25T21:47:42Z",
+ "id": "notam-wmfc/2026/A4761",
+ "issued_at": "2026-11-25T15:14:00Z",
+ "last_seen": "2026-11-25T21:47:42Z",
+ "number": "A4761",
+ "positions": [
+  [
+   5.33076,
+   100.74829
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-11-25T21:51:11Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UAS ACT WILL TAKE PLACE WI 0.1NM RADIUS AT FLW COORD:",
+ "text": "A4761/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/003/0519N10044E001\nA) WMFC B) 2612080100 C) 2612140900 \nD)DLY 0100-0900\nE)UAS ACT WILL TAKE PLACE WI 0.1NM RADIUS AT FLW COORD:\n\n051950.75N 1004453.85E(MAHANG)\n\nF) SFC                             G) 270FT AGL",
+ "year": 2026
+}

@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T11:30:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "other",
+  "location": "VABF",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 22.7167,
+   "lon": 75.8667,
+   "radius_nm": 9
+  },
+  "qcode": "QWYLW",
+  "queried_fir": "VABF",
+  "schedule": "0430-0730 0830-1130",
+  "shape": "polygon",
+  "starts_at": "2026-11-26T04:30:00Z",
+  "upper": "6000FT AMSL",
+  "upper_fl": 60
+ },
+ "first_seen": "2026-11-25T21:47:42Z",
+ "id": "notam-vabf/2026/A1926",
+ "issued_at": "2026-11-25T11:18:00Z",
+ "last_seen": "2026-11-25T21:47:42Z",
+ "number": "A1926",
+ "positions": [
+  [
+   22.82245,
+   75.83118
+  ],
+  [
+   22.81913,
+   75.96207
+  ],
+  [
+   22.70839,
+   75.96198
+  ],
+  [
+   22.60519,
+   75.91444
+  ],
+  [
+   22.60612,
+   75.77712
+  ],
+  [
+   22.70977,
+   75.7449
+  ],
+  [
+   22.77293,
+   75.76068
+  ],
+  [
+   22.82245,
+   75.83118
+  ]
+ ],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-11-25T21:51:11Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AERIAL SURVEY BY ACFT CESSNA T206H REG-VTBMS",
+ "text": "A1926/26 NOTAMN\nQ) VABF/QWYLW/IV/NBO/W/000/060/2243N07552E009\nA) VABF B) 2611260430 C) 2611301130\nD) 0430-0730 0830-1130\nE) AERIAL SURVEY BY ACFT CESSNA T206H REG-VTBMS\n   WI AREA BOUNDED BY COORD-\n\n     224920.81N 0754952.26E- 224908.86N 0755743.47E-\n     224230.19N 0755743.13E- 223618.67N 0755451.99E-\n     223622.04N 0754637.63E- 224235.17N 0754441.63E-\n     224622.54N 0754538.45E- 224920.81N 0754952.26E\nF) GND G) 6000FT AMSL",
+ "year": 2026
+}

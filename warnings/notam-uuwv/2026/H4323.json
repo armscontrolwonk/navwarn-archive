@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-26T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 54.75,
+    "lon": 38.89389,
+    "radius_nm": 0.27
+   }
+  ],
+  "fir": "UUWV",
+  "kind": "restricted",
+  "location": "UUWV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 54.75,
+   "lon": 38.8833,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UUWV",
+  "starts_at": "2026-11-26T07:00:00Z",
+  "upper": "260M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-25T21:47:42Z",
+ "id": "notam-uuwv/2026/H4323",
+ "issued_at": "2026-11-25T14:44:00Z",
+ "last_seen": "2026-11-25T21:47:42Z",
+ "number": "H4323",
+ "positions": [
+  [
+   54.75,
+   38.89389
+  ]
+ ],
+ "series": "notam-uuwv",
+ "source": {
+  "fetched_at": "2026-11-25T21:51:11Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 0.5KM CENTRE 544500N0385338E.",
+ "text": "H4323/26 NOTAMN\nQ)UUWV/QRTCA/IV/BO/W/000/010/5445N03853E001\nA)UUWV B)2611260700 C)2611261600\nE)AIRSPACE CLSD WI CIRCLE RADIUS 0.5KM CENTRE 544500N0385338E.\nF)SFC  G)260M AMSL",
+ "year": 2026
+}

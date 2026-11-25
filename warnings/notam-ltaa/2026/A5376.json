@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-26T13:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "other",
+  "location": "LTAA",
+  "lower": "9000FT AMSL",
+  "lower_fl": 90,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.95,
+   "lon": 33.6167,
+   "radius_nm": 18
+  },
+  "qcode": "QWYLW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-26T06:00:00Z",
+  "upper": "9000FT AMSL",
+  "upper_fl": 90
+ },
+ "first_seen": "2026-11-25T21:47:42Z",
+ "id": "notam-ltaa/2026/A5376",
+ "issued_at": "2026-11-25T13:20:00Z",
+ "last_seen": "2026-11-25T21:47:42Z",
+ "number": "A5376",
+ "positions": [
+  [
+   41.18333,
+   33.38333
+  ],
+  [
+   41.18333,
+   33.85
+  ],
+  [
+   40.71667,
+   33.85
+  ],
+  [
+   40.71667,
+   33.38333
+  ],
+  [
+   41.18333,
+   33.38333
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-25T21:51:11Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AERIAL SURVEY WILL TAKE PLACE",
+ "text": "A5376/26 NOTAMN\nQ) LTAA/QWYLW/IV/M  /W /090/090/4057N03337E018\nA) LTAA B) 2611260600 C) 2611261300\nE) AERIAL SURVEY WILL TAKE PLACE\nAREA: 411100N0332300E 411100N0335100E 404300N0335100E \n404300N0332300E 411100N0332300E\nF) 9000FT AMSL G) 9000FT AMSL",
+ "year": 2026
+}

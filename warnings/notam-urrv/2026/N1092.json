@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T21:00:00Z",
+ "extra": {
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 50.3167,
+   "lon": 44.35,
+   "radius_nm": 4
+  },
+  "qcode": "QRRCA",
+  "queried_fir": "URRV",
+  "schedule": "01-31 0600-2100",
+  "starts_at": "2026-12-01T06:00:00Z",
+  "upper": "FL080",
+  "upper_fl": 80
+ },
+ "first_seen": "2026-11-25T21:47:42Z",
+ "id": "notam-urrv/2026/N1092",
+ "issued_at": "2026-11-25T18:10:00Z",
+ "last_seen": "2026-11-25T21:47:42Z",
+ "number": "N1092",
+ "positions": [],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-11-25T21:51:11Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "RESTRICTED AREA ACT: URR535.",
+ "text": "N1092/26 NOTAMN\nQ)URRV/QRRCA/IV/BO/W/000/080/5019N04421E004\nA)URRV B)2612010600 C)2612312100\nD)01-31 0600-2100\nE)RESTRICTED AREA ACT: URR535.\nF)GND  G)FL080",
+ "year": 2026
+}

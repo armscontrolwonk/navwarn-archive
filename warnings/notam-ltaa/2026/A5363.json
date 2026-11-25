@@ -1,0 +1,74 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T16:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.3167,
+   "lon": 36.0833,
+   "radius_nm": 70
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-11-27T10:00:00Z",
+  "upper": "50000FT AMSL",
+  "upper_fl": 500
+ },
+ "first_seen": "2026-11-25T21:47:42Z",
+ "id": "notam-ltaa/2026/A5363",
+ "issued_at": "2026-11-25T09:00:00Z",
+ "last_seen": "2026-11-25T21:47:42Z",
+ "number": "A5363",
+ "positions": [
+  [
+   42.76361,
+   34.67194
+  ],
+  [
+   42.69,
+   37.525
+  ],
+  [
+   41.78333,
+   36.78333
+  ],
+  [
+   41.7525,
+   36.32917
+  ],
+  [
+   41.56778,
+   35.94
+  ],
+  [
+   41.65083,
+   35.63139
+  ],
+  [
+   41.80917,
+   34.71167
+  ],
+  [
+   42.76361,
+   34.67194
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-25T21:51:11Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEST FIRING WILL TAKE PLACE WI SINOP TMA.",
+ "text": "A5363/26 NOTAMN\nQ) LTAA/QWMLW/IV/BO /W /000/500/4219N03605E070\nA) LTAA B) 2611271000 C) 2611271600\nE) TEST FIRING WILL TAKE PLACE WI SINOP TMA.\nRMK: AIR TRAFFIC FLOW REGULATION NOTAM SHALL BE ISSUED.\n\nAREA(LTTSA-8R): 424549N0344019E 424124N0373130E 414700N0364700E \n414509N0361945E 413404N0355624E 413903N0353753E 414833N0344242E \n424549N0344019E\nF) SFC G) 50000FT AMSL",
+ "year": 2026
+}

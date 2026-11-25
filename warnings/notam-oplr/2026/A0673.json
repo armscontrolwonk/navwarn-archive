@@ -1,0 +1,57 @@
+{
+ "cancels": [
+  "notam-oplr/2026/A0669"
+ ],
+ "expires_at": "2026-11-26T08:30:00Z",
+ "extra": {
+  "fir": "OPLR",
+  "kind": "route",
+  "location": "OPLR",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 32.5833,
+   "lon": 71.1667,
+   "radius_nm": 100
+  },
+  "qcode": "QARLC",
+  "queried_fir": "OPLR",
+  "schedule": "0600-0830",
+  "shape": "polygon",
+  "starts_at": "2026-11-25T11:22:00Z",
+  "upper": "UNL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-25T21:47:42Z",
+ "id": "notam-oplr/2026/A0673",
+ "issued_at": "2026-11-25T11:26:00Z",
+ "last_seen": "2026-11-25T21:47:42Z",
+ "number": "A0673",
+ "positions": [
+  [
+   29.6,
+   68.25
+  ],
+  [
+   29.15,
+   71.25
+  ],
+  [
+   29.15,
+   71.25
+  ]
+ ],
+ "series": "notam-oplr",
+ "source": {
+  "fetched_at": "2026-11-25T21:51:11Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FLW SEGMENTS OF ATS RTE WI LAHORE FIR NOT AVBL FM GND TO UNL",
+ "text": "A0673/26 NOTAMR A0669/26 Q) OPLR/QARLC/IV/NBO/E/000/999/3235N07110E100 A) OPLR  PART 1 OF 2  B) 2611251122  C) 2611260830  D) 0600-0830  E) FLW SEGMENTS OF ATS RTE WI LAHORE FIR NOT AVBL FM GND TO UNL\nDUE OPR REASONS.\nATS ROUTES          ROUTE SEGMENT\n----------          -------------\nA466                SAKUV-SAJAN\nN644                REGET-DI\nP500/M881           LAKRA-DI\nG201                ZB-MOLTA\nG202                ZB-RK\nL750                ZB-MURLI\nG326/J139           ZB-PEBSI\nJ119                RAJAN-MULTAN\nJ124                SP-FA\nJ138                MANRI-ENRIR\nJ141                MULTAN-DI\nJ145                REGET-DI\nJ164/J165           ZHOB-HANGU\nJ153                ZHOB-DI\nJ116                MULTAN-UPVAL\nJ166                MOLTA-HILAL\nALTERNATE ATS ROUTE (BI-DIRECTIONAL):\n-------------------------------------\n1. SULOM/LAHORE T400 PS P500 MOTMO\n2. SULOM/LAHORE T400 NONIB L509 HANGU\n3. SULOM/LAHORE T400 NONIB L509 HANGU G325 REGET N644 DOBAT\n4. PARLO DCT 2936N06815E DCT 2909N07115E DCT MURLI\n5. QT J184 SIBMI DCT 2909N07115E DCT MURLI\nCLIMB/DESCEND SEGMENTS:\n------------------------\n1) MULTAN\n   ---------\n1.MURLI DCT MT AND VICE VERSA\n  CROSS MURLI AT FL090 OR BELOW.\n2) FAISALABAD\n   ------------\n1. NITIV FA AND VICE VERSA \n   CROSS NITIV FA AT FL080 OR BELOW\n3) END PART 1 OF 2\nA0673/26 NOTAMR A0669/26 Q) OPLR/QARLC/IV/NBO/E/000/999/3235N07110E100 A) OPLR  PART 2 OF 2  B) 2611251122  C) 2611260830  D) 0600-0830  E) D.I.KHAN\n   ----------\n1. REGET DCT DI AND VICE VERSA AT FL070 AND BELOW. \nNOTE:\n------\n1.INDEK DCT NONIB AND VICE VERSA MAY BE OFFERED SUBJECT TO\n  AVAILABILITY\n2.10NM AROUND MT AVAILABLE AT FL090 AND BELOW\n3.10NM AROUND FA AVAILABLE AT FL080 AND BELOW. END PART 2 OF 2 F) GND  G) UNL",
+ "year": 2026
+}

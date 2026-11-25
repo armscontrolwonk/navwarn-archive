@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T14:00:00Z",
+ "extra": {
+  "fir": "LTBB",
+  "kind": "exercise",
+  "location": "LTBB",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 40.7,
+   "lon": 27.85,
+   "radius_nm": 14
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTBB",
+  "schedule": "0600-1400",
+  "shape": "polygon",
+  "starts_at": "2026-11-26T06:00:00Z",
+  "upper": "6000FT AMSL",
+  "upper_fl": 60
+ },
+ "first_seen": "2026-11-25T21:47:42Z",
+ "id": "notam-ltbb/2026/A5383",
+ "issued_at": "2026-11-25T13:45:00Z",
+ "last_seen": "2026-11-25T21:47:42Z",
+ "number": "A5383",
+ "positions": [
+  [
+   40.63333,
+   28.11667
+  ],
+  [
+   40.88333,
+   28.0
+  ],
+  [
+   40.8,
+   27.6
+  ],
+  [
+   40.53333,
+   28.02667
+  ],
+  [
+   40.63333,
+   28.11667
+  ]
+ ],
+ "series": "notam-ltbb",
+ "source": {
+  "fetched_at": "2026-11-25T21:51:11Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEST FLT WILL TAKE PLACE WI ISTANBUL TMA.",
+ "text": "A5383/26 NOTAMN\nQ) LTBB/QWELW/IV/BO /W /000/060/4042N02751E014\nA) LTBB B) 2611260600 C) 2611271400\nD) 0600-1400\nE) TEST FLT WILL TAKE PLACE WI ISTANBUL TMA.\nAREA: 403800N0280700E 405300N0280000E 404800N0273600E \n403200N0280136E 403800N0280700E\nF) SFC G) 6000FT AMSL",
+ "year": 2026
+}

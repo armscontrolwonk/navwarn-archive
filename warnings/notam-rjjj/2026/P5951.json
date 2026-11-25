@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-20T09:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 41.33611,
+    "lon": 142.49639,
+    "radius_nm": 15.0
+   }
+  ],
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.3333,
+   "lon": 142.5,
+   "radius_nm": 15
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "schedule": "2100/0900",
+  "starts_at": "2026-12-13T21:00:00Z",
+  "upper": "50000FT AMSL",
+  "upper_fl": 500
+ },
+ "first_seen": "2026-11-25T21:47:42Z",
+ "id": "notam-rjjj/2026/P5951",
+ "issued_at": "2026-11-25T17:32:00Z",
+ "last_seen": "2026-11-25T21:47:42Z",
+ "number": "P5951",
+ "positions": [
+  [
+   41.33611,
+   142.49639
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-25T21:51:11Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG EXER",
+ "text": "P5951/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/500/4120N14230E015\nA)RJJJ B)2612132100 C)2612200900\nD)2100/0900\nE)FRNG EXER\nAREA : RADIUS 15NM CENTER 412010N1422947E\n(E OF TSUGARU-KAIKYO/THE-HIGH-SEAS)\nF)SFC G)50000FT AMSL",
+ "year": 2026
+}

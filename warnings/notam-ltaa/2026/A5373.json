@@ -1,0 +1,39 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-03T15:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "firing",
+  "location": "LTAA",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.35,
+   "lon": 36.8167,
+   "radius_nm": 126
+  },
+  "qcode": "QANLC",
+  "queried_fir": "LTAA",
+  "schedule": "1000-1500",
+  "starts_at": "2026-11-29T10:00:00Z",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-25T21:47:42Z",
+ "id": "notam-ltaa/2026/A5373",
+ "issued_at": "2026-11-25T12:11:00Z",
+ "last_seen": "2026-11-25T21:47:42Z",
+ "number": "A5373",
+ "positions": [],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-25T21:51:11Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "SEE NOTAM: A5372/26",
+ "text": "A5373/26 NOTAMN\nQ) LTAA/QANLC/I /NBO/E /000/999/4221N03649E126\nA) LTAA B) 2611291000 C) 2612031500\nD) 1000-1500\nE) SEE NOTAM: A5372/26\nRNAV ROUTES AND SEGMENT AFFECTED DURING TEST ACTIVITIES (WITH \nFIRING) AS FOLLOWS: \n1. AWY L/UL851 KUGOS-OLUPO SEGMENT CLSD.\n2. AWY M/UM10 OLUPO-GOKPA SEGMENT CLSD,\nINSTEAD OF THIS ROUTE ALL ACFT, COULD FOLLOW ATVAM-DCT-CRM.\n3. AWY M/UM859 OSDIP-KARDE SEGMENT CLSD,\nALL ACFT THAT WILL EXIT FROM 'ROLIN' VIA THIS ROUTE, COULD FOLLOW \nUDROS-DCT-CRM-DCT-ROLIN,\nALL ACFT THAT WILL EXIT FROM 'REBLO' OR 'NOLGA' VIA THIS ROUTE, \nCOULD FOLLOW UDROS-DCT-CRM-M/UM11-TBN\n4. AWY UM860 KUGOS-CRM SEGMENT CLSD.\n5. AWY N/UN644 SIN-FALAZ SEGMENT CLSD,\nALL ACFT THAT WILL EXIT FROM 'ROLIN' VIA THIS ROUTE, COULD FOLLOW \nMIMTO-DCT-CRM-DCT-ROLIN,\nALL ACFT USING THIS ROUTE VIA WESTBOUND, COULD FOLLOW FALAZ-DCT-CRM.\nVERTICAL LIMITS: SFC-160000FT AMSL",
+ "year": 2026
+}
