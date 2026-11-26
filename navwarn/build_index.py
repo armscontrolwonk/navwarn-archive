@@ -34,6 +34,22 @@ def _ring(pts):
     return " ".join(f"{lon},{lat},0" for lat, lon in pts)
 
 
+def _polygon(pts, close=True):
+    ring = pts + [pts[0]] if close and pts[0] != pts[-1] else pts
+    return f"<Polygon><outerBoundaryIs><LinearRing><coordinates>{_ring(ring)}</coordinates></LinearRing></outerBoundaryIs></Polygon>"
+
+
+def _area_geoms(a: dict) -> list:
+    pts = a["positions"]
+    if a["shape"] == "circle":
+        return [_polygon(_circle(pts[0][0], pts[0][1], a["radius_nm"]), close=False)]
+    if a["shape"] == "polygon":
+        return [_polygon(pts)]
+    if a["shape"] == "line":
+        return [f"<LineString><coordinates>{_ring(pts)}</coordinates></LineString>"]
+    return [f"<Point><coordinates>{lon},{lat},0</coordinates></Point>" for lat, lon in pts]
+
+
 def write_kml(active: list, path: str) -> None:
     """All warnings in force as one KML for Google Earth or QGIS, one folder per series."""
     by_series = {}
@@ -47,20 +63,25 @@ def write_kml(active: list, path: str) -> None:
         out.append(f"<Folder><name>{_esc(series)}</name>")
         for w in ws:
             ex, pos = w.get("extra") or {}, w.get("positions") or []
+            desc = _esc(f"{w.get('issued_at') or ''} to {w.get('expires_at') or 'until cancelled'}\n\n{w.get('text') or ''}")
+            if ex.get("areas"):                     # one placemark per area, named by its letter or number
+                for a in ex["areas"]:
+                    name = _esc(f"{w['id']} area {a['label']}" if a.get("label") else w["id"])
+                    out.append(f"<Placemark><name>{name}</name><styleUrl>#a</styleUrl><description>{desc}</description>"
+                               f"<MultiGeometry>{''.join(_area_geoms(a))}</MultiGeometry></Placemark>")
+                continue
             geoms = []
             if ex.get("shape") == "polygon" and len(pos) >= 3:
-                ring = pos + [pos[0]] if pos[0] != pos[-1] else pos
-                geoms.append(f"<Polygon><outerBoundaryIs><LinearRing><coordinates>{_ring(ring)}</coordinates></LinearRing></outerBoundaryIs></Polygon>")
+                geoms.append(_polygon(pos))
             for c in ex.get("circles", []):
-                geoms.append(f"<Polygon><outerBoundaryIs><LinearRing><coordinates>{_ring(_circle(c['lat'], c['lon'], c['radius_nm']))}</coordinates></LinearRing></outerBoundaryIs></Polygon>")
+                geoms.append(_polygon(_circle(c['lat'], c['lon'], c['radius_nm']), close=False))
             if not geoms:
                 geoms = [f"<Point><coordinates>{lon},{lat},0</coordinates></Point>" for lat, lon in pos]
             if not geoms and ex.get("q_circle"):
                 q = ex["q_circle"]
-                geoms.append(f"<Polygon><outerBoundaryIs><LinearRing><coordinates>{_ring(_circle(q['lat'], q['lon'], q['radius_nm']))}</coordinates></LinearRing></outerBoundaryIs></Polygon>")
+                geoms.append(_polygon(_circle(q['lat'], q['lon'], q['radius_nm']), close=False))
             if not geoms:
                 continue
-            desc = _esc(f"{w.get('issued_at') or ''} to {w.get('expires_at') or 'until cancelled'}\n\n{w.get('text') or ''}")
             out.append(f"<Placemark><name>{_esc(w['id'])}</name><styleUrl>#a</styleUrl><description>{desc}</description>"
                        f"<MultiGeometry>{''.join(geoms)}</MultiGeometry></Placemark>")
         out.append("</Folder>")

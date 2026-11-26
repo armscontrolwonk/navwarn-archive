@@ -8,11 +8,12 @@ from datetime import datetime, timezone
 from .. import inbox
 from ..http import now_iso
 from ..model import Warning
+from ..parse import parse_areas, navarea_circles
 
 NAME = "prip"
 CADENCE_DAYS = None
 WITHDRAW_MISSING = False
-PARSER_VERSION = 1
+PARSER_VERSION = 2          # v2: extra.areas
 
 TRANSLIT = dict(zip("АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ",
                     ["a", "b", "v", "g", "d", "e", "e", "zh", "z", "i", "y", "k", "l", "m", "n", "o", "p", "r", "s",
@@ -76,7 +77,8 @@ def parse_text(text: str, raw_path: str, fetched_at: str) -> list[Warning]:
             positions=pos, cancels=cancels, expires_at=expires,
             source={"name": NAME, "url": None, "raw_path": raw_path, "fetched_at": fetched_at,
                     "parser_version": PARSER_VERSION},
-            extra={"region": region, **({"shape": "polygon"} if len(pos) >= 3 and "РАЙОНЕ" in body else {})})
+            extra={"region": region, **({"shape": "polygon"} if len(pos) >= 3 and "РАЙОНЕ" in body else {}),
+                   **({"areas": areas} if (areas := parse_areas(body, positions, lambda t: navarea_circles(t, positions))) else {})})
     return list(out.values())
 
 
