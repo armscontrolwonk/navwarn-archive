@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-15T11:30:00Z",
+ "extra": {
+  "fir": "VOMF",
+  "kind": "other",
+  "location": "VOMF",
+  "lower": "5000FT AMSL",
+  "lower_fl": 50,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 12.3,
+   "lon": 76.6333,
+   "radius_nm": 8
+  },
+  "qcode": "QWYLW",
+  "queried_fir": "VOMF",
+  "schedule": "0430-0730 0830-1130",
+  "shape": "polygon",
+  "starts_at": "2026-11-29T04:30:00Z",
+  "upper": "10000FT AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-26T21:40:22Z",
+ "id": "notam-vomf/2026/A3651",
+ "issued_at": "2026-11-26T12:28:00Z",
+ "last_seen": "2026-11-26T21:40:22Z",
+ "number": "A3651",
+ "positions": [
+  [
+   12.39149,
+   76.54706
+  ],
+  [
+   12.20939,
+   76.55651
+  ],
+  [
+   12.21341,
+   76.72433
+  ],
+  [
+   12.39459,
+   76.71645
+  ],
+  [
+   12.39149,
+   76.54706
+  ]
+ ],
+ "series": "notam-vomf",
+ "source": {
+  "fetched_at": "2026-11-26T21:43:50Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AERIAL SURVEY WI AREA BOUNDED BY COORD:",
+ "text": "A3651/26 NOTAMN\nQ) VOMF/QWYLW/IV/BO/W/050/100/1218N07638E008\nA) VOMF B) 2611290430 C) 2612151130\nD) 0430-0730 0830-1130\nE) AERIAL SURVEY WI AREA BOUNDED BY COORD:\n122329.38N0763249.40E-\n121233.80N0763323.44E-\n121248.27N0764327.60E-\n122340.52N0764259.22E-\n122329.38N0763249.40E\nF) 5000FT AMSL G) 10000FT AMSL",
+ "year": 2026
+}

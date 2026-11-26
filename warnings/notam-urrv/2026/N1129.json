@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-29T21:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 42.51667,
+    "lon": 46.81667,
+    "radius_nm": 16.2
+   }
+  ],
+  "fir": "URRV",
+  "kind": "restricted",
+  "location": "URRV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.5167,
+   "lon": 46.8167,
+   "radius_nm": 17
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "URRV",
+  "schedule": "27 1800-2359, 28 0600-1200, 29 1100-2100",
+  "starts_at": "2026-11-27T18:00:00Z",
+  "upper": "FL100",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-26T21:40:22Z",
+ "id": "notam-urrv/2026/N1129",
+ "issued_at": "2026-11-26T16:31:00Z",
+ "last_seen": "2026-11-26T21:40:22Z",
+ "number": "N1129",
+ "positions": [
+  [
+   42.51667,
+   46.81667
+  ]
+ ],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-11-26T21:43:50Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 30KM CENTRE 423100N0464900E.",
+ "text": "N1129/26 NOTAMN\nQ)URRV/QRTCA/IV/BO/W/000/100/4231N04649E017\nA)URRV B)2611271800 C)2611292100\nD)27 1800-2359, 28 0600-1200, 29 1100-2100\nE)AIRSPACE CLSD WI CIRCLE RADIUS 30KM CENTRE 423100N0464900E.\nF)GND  G)FL100",
+ "year": 2026
+}

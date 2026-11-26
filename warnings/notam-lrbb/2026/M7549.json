@@ -1,0 +1,54 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T13:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "exercise",
+  "location": "LRBB",
+  "lower": "4000FT AMSL",
+  "lower_fl": 40,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.5,
+   "lon": 26.0833,
+   "radius_nm": 3
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-11-27T06:00:00Z",
+  "upper": "FL100",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-26T21:40:22Z",
+ "id": "notam-lrbb/2026/M7549",
+ "issued_at": "2026-11-26T12:30:00Z",
+ "last_seen": "2026-11-26T21:40:22Z",
+ "number": "M7549",
+ "positions": [
+  [
+   44.50361,
+   26.10361
+  ],
+  [
+   44.4825,
+   26.08028
+  ],
+  [
+   44.50361,
+   26.10361
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-11-26T21:43:50Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "NAVIGATION WARNING.   ",
+ "text": "M7549/26 NOTAMN\nQ) LRBB/QWELW/IV/BO /W /040/100/4430N02605E003\nA) LRBB B) 2611270600 C) 2611271300\nE) NAVIGATION WARNING.   \n   MIL FLT WILL TAKE PLACE INTO AN AREA BOUNDED BY 5KM EITHER SIDE\n   OF A STRAIGHT LINE CONNECTING THE FLW POINTS OF COORD:\n   443013N0260613E-442857N0260449E-443013N0260613E\n   FLT WILL BE COOR BTN CIV AND MIL ATC. NATIONAL DAY REHEARSAL.\nF) 4000FT AMSL G) FL100",
+ "year": 2026
+}

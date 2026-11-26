@@ -1,0 +1,50 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-04T23:00:00Z",
+ "extra": {
+  "fir": "UMKK",
+  "kind": "restricted",
+  "location": "UMKK",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 54.6167,
+   "lon": 21.0833,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UMKK",
+  "schedule": "DAILY 0630-2300",
+  "starts_at": "2026-11-30T06:30:00Z",
+  "upper": "1100M AGL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-26T21:40:22Z",
+ "id": "notam-umkk/2026/Q2473",
+ "issued_at": "2026-11-26T12:32:00Z",
+ "last_seen": "2026-11-26T21:40:22Z",
+ "number": "Q2473",
+ "positions": [
+  [
+   54.61667,
+   21.06667
+  ],
+  [
+   54.61667,
+   21.1
+  ]
+ ],
+ "series": "notam-umkk",
+ "source": {
+  "fetched_at": "2026-11-26T21:43:50Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI 0.5KM EITHER SIDE OF LINE JOINING POINTS:",
+ "text": "Q2473/26 NOTAMN\nQ)UMKK/QRTCA/IV/BO/W/000/999/5437N02105E001\nA)UMKK B)2611300630 C)2612042300\nD)DAILY 0630-2300\nE)AIRSPACE CLSD WI 0.5KM EITHER SIDE OF LINE JOINING POINTS:\n543700N0210400E-543700N0210600E\nF)SFC  G)1100M AGL",
+ "year": 2026
+}

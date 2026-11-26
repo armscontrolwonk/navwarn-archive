@@ -1,0 +1,98 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T13:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "exercise",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.5833,
+   "lon": 26.2667,
+   "radius_nm": 15
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-11-27T07:00:00Z",
+  "upper": "2000FT AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-26T21:40:22Z",
+ "id": "notam-lrbb/2026/M7550",
+ "issued_at": "2026-11-26T12:31:00Z",
+ "last_seen": "2026-11-26T21:40:22Z",
+ "number": "M7550",
+ "positions": [
+  [
+   44.57028,
+   26.0775
+  ],
+  [
+   44.68083,
+   26.37583
+  ],
+  [
+   44.73333,
+   26.1
+  ],
+  [
+   44.58556,
+   26.01361
+  ],
+  [
+   44.52972,
+   26.04611
+  ],
+  [
+   44.49944,
+   26.06194
+  ],
+  [
+   44.48222,
+   26.07056
+  ],
+  [
+   44.46722,
+   26.07806
+  ],
+  [
+   44.45222,
+   26.08611
+  ],
+  [
+   44.42889,
+   26.10389
+  ],
+  [
+   44.42417,
+   26.26667
+  ],
+  [
+   44.5925,
+   26.56028
+  ],
+  [
+   44.68083,
+   26.37583
+  ],
+  [
+   44.57028,
+   26.0775
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-11-26T21:43:50Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "NAVIGATION WARNING.   ",
+ "text": "M7550/26 NOTAMN\nQ) LRBB/QWELW/IV/BO /W /000/020/4435N02616E015\nA) LRBB B) 2611270700 C) 2611271300\nE) NAVIGATION WARNING.   \n   MIL FLT WILL TAKE PLACE INTO AN AREA BOUNDED BY 3NM EITHER SIDE\n   OF A STRAIGHT LINE CONNECTING THE FLW POINTS OF COORD:\n   443413N0260439E-444051N0262233E-444400N0260600E-443508N0260049E\n   443147N0260246E-442958N0260343E-442856N0260414E-442802N0260441E\n   442708N0260510E-442544N0260614E-442527N0261600E-443533N0263337E\n   444051N0262233E-443413N0260439E\n   FLT WILL BE COOR BTN CIV AND MIL ATC\nF) GND G) 2000FT AMSL",
+ "year": 2026
+}

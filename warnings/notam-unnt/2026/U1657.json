@@ -1,0 +1,60 @@
+{
+ "cancels": [],
+ "expires_at": null,
+ "extra": {
+  "fir": "UNNT",
+  "kind": "restricted",
+  "location": "UNNT",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 53.7,
+   "lon": 99.9833,
+   "radius_nm": 47
+  },
+  "qcode": "QRRCH",
+  "queried_fir": "UNNT",
+  "shape": "polygon",
+  "starts_at": "2026-11-26T00:00:00Z",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-26T21:40:22Z",
+ "id": "notam-unnt/2026/U1657",
+ "issued_at": "2026-11-26T10:31:00Z",
+ "last_seen": "2026-11-26T21:40:22Z",
+ "number": "U1657",
+ "positions": [
+  [
+   54.16417,
+   98.95361
+  ],
+  [
+   53.40222,
+   101.16556
+  ],
+  [
+   53.25306,
+   101.00167
+  ],
+  [
+   53.97639,
+   98.78417
+  ],
+  [
+   54.16417,
+   98.95361
+  ]
+ ],
+ "series": "notam-unnt",
+ "source": {
+  "fetched_at": "2026-11-26T21:43:50Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "REF AIP RUSSIA SUP 08/26 PAGE 16:",
+ "text": "U1657/26 NOTAMN\nQ)UNNT/QRRCH/IV/BO/W/000/999/5342N09959E047\nA)UNNT B)2611260000 C)PERM\nE)REF AIP RUSSIA SUP 08/26 PAGE 16:\nRESTRICTED AREA UNR2082:\nAMEND LATERAL LIMITS TO READ:\n540951N 0985713E-532408N 1010956E-531511N 1010006E-\n535835N 0984703E-540951N 0985713E INSTEAD OF PUBLISHED.",
+ "year": 2026
+}

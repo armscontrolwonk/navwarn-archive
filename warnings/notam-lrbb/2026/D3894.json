@@ -1,0 +1,45 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T13:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "restricted",
+  "location": "LRBB",
+  "lower": "4000FT AMSL",
+  "lower_fl": 40,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 44.4833,
+   "lon": 26.2167,
+   "radius_nm": 1
+  },
+  "qcode": "QRRCA",
+  "queried_fir": "LRBB",
+  "starts_at": "2026-11-27T06:00:00Z",
+  "upper": "FL100",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-26T21:40:22Z",
+ "id": "notam-lrbb/2026/D3894",
+ "issued_at": "2026-11-26T12:26:00Z",
+ "last_seen": "2026-11-26T21:40:22Z",
+ "number": "D3894",
+ "positions": [
+  [
+   44.48056,
+   26.22222
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-11-26T21:43:50Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPORARY RESTRICTED AREA ACTIVATED.",
+ "text": "D3894/26 NOTAMN\nQ) LRBB/QRRCA/IV/BO /W /040/100/4429N02613E001\nA) LRBB B) 2611270600 C) 2611271300\nE) TEMPORARY RESTRICTED AREA ACTIVATED.\n   MIL FLT WILL TAKE PLACE INTO A CIRCLE CENTERED ON POINT OF \n   COORD 442850N0261320E WITH 1NM RADIUS\n   FLT WILL BE COOR BTN CIV AND MIL ATC. NATIONAL DAY REHEARSAL.\nF) 4000FT AMSL G) FL100",
+ "year": 2026
+}
