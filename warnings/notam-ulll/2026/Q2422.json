@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-03T14:00:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 71.7667,
+   "lon": 38.4333,
+   "radius_nm": 151
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "DAILY 0930-1100 1230-1400",
+  "shape": "polygon",
+  "starts_at": "2026-11-28T09:30:00Z",
+  "upper": "UNL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-26T08:30:45Z",
+ "id": "notam-ulll/2026/Q2422",
+ "issued_at": "2026-11-26T06:12:00Z",
+ "last_seen": "2026-11-26T08:30:45Z",
+ "number": "Q2422",
+ "positions": [
+  [
+   70.17389,
+   32.66667
+  ],
+  [
+   74.235,
+   39.18778
+  ],
+  [
+   73.53,
+   44.38139
+  ],
+  [
+   69.29389,
+   37.86
+  ],
+  [
+   70.17389,
+   32.66667
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-26T08:34:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO DANGER AREA ACT:",
+ "text": "Q2422/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/999/7146N03826E151\nA)ULLL B)2611280930 C)2612031400\nD)DAILY 0930-1100 1230-1400\nE)TEMPO DANGER AREA ACT:\n701026N0324000E-741406N0391116E-733148N0442253E-691738N0375136E-\n701026N0324000E.\nF)GND  G)UNL",
+ "year": 2026
+}

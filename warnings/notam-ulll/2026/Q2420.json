@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-29T16:55:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "route",
+  "location": "ULLL",
+  "lower": "FL055",
+  "lower_fl": 55,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 61.4167,
+   "lon": 32.3,
+   "radius_nm": 68
+  },
+  "qcode": "QARLC",
+  "queried_fir": "ULLL",
+  "schedule": "DAILY 0705-1655",
+  "starts_at": "2026-11-28T07:05:00Z",
+  "upper": "FL165",
+  "upper_fl": 165
+ },
+ "first_seen": "2026-11-26T08:30:45Z",
+ "id": "notam-ulll/2026/Q2420",
+ "issued_at": "2026-11-26T06:04:00Z",
+ "last_seen": "2026-11-26T08:30:45Z",
+ "number": "Q2420",
+ "positions": [],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-26T08:34:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AST RTE SEGMENTS CLSD:",
+ "text": "Q2420/26 NOTAMN\nQ)ULLL/QARLC/IV/NBO/E/055/165/6125N03218E068\nA)ULLL B)2611280705 C)2611291655\nD)DAILY 0705-1655\nE)AST RTE SEGMENTS CLSD:\n  M854 KETOL-ROGID FL095-FL165,\n  M856 KUSAG-ROGID FL065-FL165,\n  M856 ROGID-GIKUR FL055-FL165,\n  N87  TOBMA-ROGID FL065-FL165,\n  N87  ROGID-OKDON FL125-FL165,\n  P157 ODOBA-DISUP FL055-FL165,\n  T693 DISUP-TOBMA FL075-FL165,\n  T821 DISUP-BOBMU FL065-FL165.\nF)FL055  G)FL165",
+ "year": 2026
+}

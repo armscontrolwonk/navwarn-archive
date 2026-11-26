@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-03T11:00:00Z",
+ "extra": {
+  "fir": "VECF",
+  "kind": "exercise",
+  "location": "VECF",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 21.0333,
+   "lon": 87.5667,
+   "radius_nm": 45
+  },
+  "qcode": "QWELW",
+  "queried_fir": "VECF",
+  "schedule": "0430-0630 0900-1100",
+  "shape": "polygon",
+  "starts_at": "2026-12-01T04:30:00Z",
+  "upper": "UNL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-26T08:30:45Z",
+ "id": "notam-vecf/2026/A2341",
+ "issued_at": "2026-11-26T05:58:00Z",
+ "last_seen": "2026-11-26T08:30:45Z",
+ "number": "A2341",
+ "positions": [
+  [
+   20.76333,
+   87.00361
+  ],
+  [
+   20.66556,
+   87.06194
+  ],
+  [
+   20.3175,
+   87.76833
+  ],
+  [
+   20.85194,
+   88.32694
+  ],
+  [
+   21.58139,
+   87.87444
+  ],
+  [
+   21.45833,
+   87.03417
+  ],
+  [
+   20.76333,
+   87.00361
+  ]
+ ],
+ "series": "notam-vecf",
+ "source": {
+  "fetched_at": "2026-11-26T08:34:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AERIAL ACT INPR WI AREA BOUNDED BY COORD:",
+ "text": "A2341/26 NOTAMN\nQ) VECF/QWELW/IV/BO/W/000/999/2102N08734E045\nA) VECF B) 2612010430 C) 2612031100\nD) 0430-0630 0900-1100\nE) AERIAL ACT INPR WI AREA BOUNDED BY COORD:\nPOINT A: 204548N 0870013E\nPOINT B: 203956N 0870343E\nPOINT C: 201903N 0874606E\nPOINT D: 205107N 0881937E \nPOINT E: 213453N 0875228E\nPOINT F: 212730N 0870203E\nAND THEN ALONG COASTLINE TO\nPOINT A: 204548N 0870013E EXC COMMON AREA OF VED53.\nNO OVER FLY ACT IS APPROVED WI THE ABV MENTIONED DNG AREA. DRG THE \nHR OF ACT, THE FLW ATS RTE/SEGMENTS ARE RERTE/NOT AVBL IN KOLKATA \nFIR:\n1. Q10 NOT AVBL BTN BIXON AND CEA.\n2. Q11 NOT AVBL BTN CEA AND MAVLA.\n3. A465 NOT AVBL BTN LEGOS AND PALKO. ALTN RTE:\nCEA-G450-JJS-DCT-JRS-DCT-VVZ. (BIDIRECTIONAL)\n4. W41 NOT AVBL BTN LEGOS AND SURUP. ALTN RTE:\nCEA-G450-JJS-DCT-JRS-W50-BBS. (BIDIRECTIONAL)\n5.M770/M773 NOT AVBL BTN BUBKO AND LEGOS. ALTN RTE FOR M773:\nBUBKO-DCT-VETED-DCT-CEA. (BIDIRECTIONAL)\nF) SFC G) UNL",
+ "year": 2026
+}

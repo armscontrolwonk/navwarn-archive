@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-04T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.2167,
+   "lon": 140.05,
+   "radius_nm": 1
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "schedule": "2300/0800",
+  "shape": "polygon",
+  "starts_at": "2026-12-02T23:00:00Z",
+  "upper": "4000FT AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-11-26T08:30:45Z",
+ "id": "notam-rjjj/2026/P5954",
+ "issued_at": "2026-11-25T22:08:00Z",
+ "last_seen": "2026-11-26T08:30:45Z",
+ "number": "P5954",
+ "positions": [
+  [
+   37.21694,
+   140.0425
+  ],
+  [
+   37.2125,
+   140.04944
+  ],
+  [
+   37.20722,
+   140.04667
+  ],
+  [
+   37.20778,
+   140.04222
+  ],
+  [
+   37.21694,
+   140.0425
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-26T08:34:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG EXER",
+ "text": "P5954/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/040/3713N14003E001\nA)RJJJ B)2612022300 C)2612040800\nD)2300/0800\nE)FRNG EXER\nWEAPON: 155HOWITZER\nAREA: BOUNDED BY FLW POINTS\n371301N1400233E - 371245N1400258E - 371226N1400248E -\n371228N1400232E - 371301N1400233E\n(IWASE-GUN IN FUKUSHIMA)\n(SHIRAKAWANUNOBIKIYAMA MANEUVERING AREA)\nRMK: SOURCE/JSDF-G(RJSU)\nF)SFC G)4000FT AMSL",
+ "year": 2026
+}

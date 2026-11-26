@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-04T06:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 36.7833,
+   "lon": 140.2167,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-12-04T01:00:00Z",
+  "upper": "772FT AMSL",
+  "upper_fl": 8
+ },
+ "first_seen": "2026-11-26T08:30:45Z",
+ "id": "notam-rjjj/2026/U4513",
+ "issued_at": "2026-11-26T02:06:00Z",
+ "last_seen": "2026-11-26T08:30:45Z",
+ "number": "U4513",
+ "positions": [
+  [
+   36.78611,
+   140.21611
+  ],
+  [
+   36.77889,
+   140.21083
+  ],
+  [
+   36.77833,
+   140.21167
+  ],
+  [
+   36.78583,
+   140.21722
+  ],
+  [
+   36.78611,
+   140.21611
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-26T08:34:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:",
+ "text": "U4513/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/008/3647N14013E001\nA)RJJJ B)2612040100 C)2612040600\nE)BEYOND VISUAL LINE OF SIGHT UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n364710N1401258E - 364644N1401239E - 364642N1401242E - 364709N1401302E\n- 364710N1401258E \n(NASU-GUN IN TOCHIGI)\nWT: 9.2KG\nCONTACT INFORMATION: 0289-74-6030\nF)SFC G)772FT AMSL",
+ "year": 2026
+}

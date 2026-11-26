@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-28T10:00:00Z",
+ "extra": {
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.8833,
+   "lon": 132.4667,
+   "radius_nm": 54
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "schedule": "27 0000-0600, 27 2200-28 1000",
+  "shape": "polygon",
+  "starts_at": "2026-11-27T00:00:00Z",
+  "upper": "12000M AMSL",
+  "upper_fl": 400
+ },
+ "first_seen": "2026-11-26T08:30:45Z",
+ "id": "notam-uhhh/2026/Y0491",
+ "issued_at": "2026-11-26T07:22:00Z",
+ "last_seen": "2026-11-26T08:30:45Z",
+ "number": "Y0491",
+ "positions": [
+  [
+   42.47,
+   133.05333
+  ],
+  [
+   41.56333,
+   133.57
+  ],
+  [
+   41.35667,
+   132.77556
+  ],
+  [
+   41.52667,
+   132.09444
+  ],
+  [
+   42.10833,
+   131.85167
+  ],
+  [
+   42.165,
+   131.40167
+  ],
+  [
+   42.19333,
+   131.34333
+  ],
+  [
+   42.47,
+   133.05333
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-11-26T08:34:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO DANGER AREA ACT:",
+ "text": "Y0491/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/400/4153N13228E054\nA)UHHH B)2611270000 C)2611281000\nD)27 0000-0600, 27 2200-28 1000\nE)TEMPO DANGER AREA ACT:\n422812N1330312E-413348N1333412E-412124N1324632E-413136N1320540E-\n420630N1315106E-420954N1312406E-421136N1312036E-422812N1330312E\nF)GND  G)12000M AMSL",
+ "year": 2026
+}

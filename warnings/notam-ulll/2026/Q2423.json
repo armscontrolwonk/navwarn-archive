@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-03T14:00:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "route",
+  "location": "ULLL",
+  "lower": "FL265",
+  "lower_fl": 265,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 72.5667,
+   "lon": 39.4,
+   "radius_nm": 201
+  },
+  "qcode": "QARLC",
+  "queried_fir": "ULLL",
+  "schedule": "DAILY 0930-1100 1230-1400",
+  "starts_at": "2026-11-28T09:30:00Z",
+  "upper": "FL540",
+  "upper_fl": 540
+ },
+ "first_seen": "2026-11-26T08:30:45Z",
+ "id": "notam-ulll/2026/Q2423",
+ "issued_at": "2026-11-26T06:12:00Z",
+ "last_seen": "2026-11-26T08:30:45Z",
+ "number": "Q2423",
+ "positions": [],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-26T08:34:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENTS CLSD:",
+ "text": "Q2423/26 NOTAMN\nQ)ULLL/QARLC/IV/NBO/E/265/540/7234N03924E201\nA)ULLL B)2611280930 C)2612031400\nD)DAILY 0930-1100 1230-1400\nE)ATS RTE SEGMENTS CLSD:\n  M168 LUREG-GIMON FL265-FL540,\n  M745 ATKUP-LIMUS FL325-FL420,\n  N150 LUREG-ADOTI FL265-FL540,\n  T150 EVMUV-LIMUS FL325-FL420,\n  T532 ADOTI-GIMON FL265-FL540,\n  T533 PIBOL-GIMON FL265-FL540,\n  T570 NUTLA-TUMOM FL265-FL540.\nF)FL265  G)FL540",
+ "year": 2026
+}

@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-09T13:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.4167,
+   "lon": 142.5833,
+   "radius_nm": 2
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "schedule": "2200/1300",
+  "shape": "polygon",
+  "starts_at": "2026-12-06T22:00:00Z",
+  "upper": "7500FT AMSL",
+  "upper_fl": 75
+ },
+ "first_seen": "2026-11-26T08:30:45Z",
+ "id": "notam-rjjj/2026/P5987",
+ "issued_at": "2026-11-26T03:48:00Z",
+ "last_seen": "2026-11-26T08:30:45Z",
+ "number": "P5987",
+ "positions": [
+  [
+   43.43389,
+   142.57333
+  ],
+  [
+   43.43083,
+   142.60333
+  ],
+  [
+   43.40528,
+   142.59722
+  ],
+  [
+   43.40806,
+   142.56722
+  ],
+  [
+   43.42417,
+   142.55
+  ],
+  [
+   43.43389,
+   142.57333
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-26T08:34:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG:",
+ "text": "P5987/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/075/4325N14235E002\nA)RJJJ B)2612062200 C)2612091300\nD)2200/1300\nE)FRNG:\nWEAPON: MIDDLE RANGE MULTI PURPOSE MISSILE\nAREA: BOUNDED BY FLW POINTS\n432602N1423424E - 432551N1423612E - 432419N1423550E -\n432429N1423402E - 432527N1423300E - 432602N1423424E\n(SORACHI-GUN IN HOKKAIDO)\n(KAMIFURANO MANEUVERING AREA)\nRMK: SOURCE/JSDF-G(RJCA)\nF)SFC G)7500FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,102 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-26T11:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "exercise",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.8,
+   "lon": 130.2667,
+   "radius_nm": 41
+  },
+  "qcode": "QWELW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-26T08:10:00Z",
+  "upper": "9000FT AMSL",
+  "upper_fl": 90
+ },
+ "first_seen": "2026-11-26T08:30:45Z",
+ "id": "notam-rjjj/2026/P5997",
+ "issued_at": "2026-11-26T07:28:00Z",
+ "last_seen": "2026-11-26T08:30:45Z",
+ "number": "P5997",
+ "positions": [
+  [
+   34.88917,
+   129.45056
+  ],
+  [
+   35.05306,
+   129.66444
+  ],
+  [
+   35.06972,
+   129.86444
+  ],
+  [
+   35.06972,
+   129.93778
+  ],
+  [
+   35.08417,
+   130.62333
+  ],
+  [
+   35.0925,
+   131.0
+  ],
+  [
+   34.69167,
+   131.0
+  ],
+  [
+   34.68639,
+   130.88083
+  ],
+  [
+   34.43861,
+   130.72722
+  ],
+  [
+   34.415,
+   130.66139
+  ],
+  [
+   34.14778,
+   130.48361
+  ],
+  [
+   34.41972,
+   129.92
+  ],
+  [
+   34.50278,
+   129.86278
+  ],
+  [
+   34.66972,
+   129.66444
+  ],
+  [
+   34.88917,
+   129.45056
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-26T08:34:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNLIGHTED ACFT FLT EXER:",
+ "text": "P5997/26 NOTAMN\nQ)RJJJ/QWELW/IV/BO/W/000/090/3448N13016E041\nA)RJJJ B)2611260810 C)2611261130\nE)UNLIGHTED ACFT FLT EXER:\n1. ACFT    : H60 X 1\n2. AREA    : BOUNDED BY FLW POINTS,\n             345321N1292702E - 350311N1293952E - 350411N1295152E -\n             350411N1295616E - 350503N1303724E - 350533N1310000E -\n             344130N1310000E - 344111N1305251E - 342619N1304338E -\n             342454N1303941E - 340852N1302901E - 342511N1295512E -\n             343010N1295146E - 344011N1293952E - 345321N1292702E\n             (THE-HIGH-SEAS)\n3. WX COND : VMC ONLY\n4. RMK     : SOURCE/JSDF-A(RJFA)\n             JAPAN AIR SELF DEFENSE FORCE ASHIYA RESCUE\n             TEL 093-223-0981(EXTENSION:218)\nF)SFC G)9000FT AMSL",
+ "year": 2026
+}

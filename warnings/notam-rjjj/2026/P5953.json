@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-05T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.5,
+   "lon": 140.7667,
+   "radius_nm": 4
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "schedule": "29 2300/0300 30-DEC 04 0400/0800 2300/0300 05 0400/0800",
+  "shape": "polygon",
+  "starts_at": "2026-11-29T23:00:00Z",
+  "upper": "5580FT AMSL",
+  "upper_fl": 56
+ },
+ "first_seen": "2026-11-26T08:30:45Z",
+ "id": "notam-rjjj/2026/P5953",
+ "issued_at": "2026-11-25T22:03:00Z",
+ "last_seen": "2026-11-26T08:30:45Z",
+ "number": "P5953",
+ "positions": [
+  [
+   38.5,
+   140.71361
+  ],
+  [
+   38.50528,
+   140.83667
+  ],
+  [
+   38.48917,
+   140.83806
+  ],
+  [
+   38.48333,
+   140.71361
+  ],
+  [
+   38.5,
+   140.71361
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-26T08:34:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG EXER WILL BE CONDUCTED WITHIN R-127 OJOJI-HARA",
+ "text": "P5953/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/056/3830N14046E004\nA)RJJJ B)2611292300 C)2612050800\nD)29 2300/0300 30-DEC 04 0400/0800 2300/0300 05\n0400/0800\nE)FRNG EXER WILL BE CONDUCTED WITHIN R-127 OJOJI-HARA\nWEAPON: 155HOWITZER\nAREA: BOUNDED BY FLW POINTS\n383000N1404249E - 383019N1405012E - 382921N1405017E -\n382900N1404249E - 383000N1404249E\n(KUROKAWA-GUN,KAMI-GUN IN MIYAGI)\nRMK: (1)SOURCE/JSDF-G(RJSU)\n(2)REF AIP PAGE ENR5.1-6\nF)SFC G)5580FT AMSL",
+ "year": 2026
+}

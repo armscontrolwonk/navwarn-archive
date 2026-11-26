@@ -1,0 +1,67 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-11T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.3,
+   "lon": 131.2833,
+   "radius_nm": 4
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "schedule": "07 0400/1200 07 2200/0900 08-10 2300/0800",
+  "shape": "polygon",
+  "starts_at": "2026-12-07T04:00:00Z",
+  "upper": "11000FT AMSL",
+  "upper_fl": 110
+ },
+ "first_seen": "2026-11-26T08:30:45Z",
+ "id": "notam-rjjj/2026/P5995",
+ "issued_at": "2026-11-26T05:43:00Z",
+ "last_seen": "2026-11-26T08:30:45Z",
+ "number": "P5995",
+ "positions": [
+  [
+   33.31667,
+   131.24889
+  ],
+  [
+   33.31917,
+   131.25083
+  ],
+  [
+   33.31139,
+   131.29083
+  ],
+  [
+   33.29778,
+   131.25083
+  ],
+  [
+   33.30028,
+   131.24972
+  ],
+  [
+   33.31667,
+   131.24889
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-26T08:34:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG EXER WILL BE CONDUCTED WITHIN R-91 HIJUDAI",
+ "text": "P5995/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/110/3318N13117E004\nA)RJJJ B)2612070400 C)2612110800\nD)07 0400/1200 07 2200/0900 08-10 2300/0800\nE)FRNG EXER WILL BE CONDUCTED WITHIN R-91 HIJUDAI\nWEAPON: 81MORTAR\nAREA: BOUNDED BY FLW POINTS\n331900N1311456E - 331909N1311503E - 331841N1311727E -\n331752N1311503E - 331801N1311459E - 331900N1311456E\n(KUSU-GUN IN OITA)\nRMK:(1)REF AIP PAGE ENR5.1-4\n(2)SOURCE/JSDF-G(RJDM)\nF)SFC G)11000FT AMSL",
+ "year": 2026
+}

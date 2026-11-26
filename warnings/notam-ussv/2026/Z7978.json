@@ -1,0 +1,52 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-28T17:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 55.32167,
+    "lon": 62.14556,
+    "radius_nm": 1.08
+   }
+  ],
+  "fir": "USSV",
+  "kind": "restricted",
+  "location": "USSV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 55.3167,
+   "lon": 62.1333,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USSV",
+  "starts_at": "2026-11-28T03:00:00Z",
+  "upper": "350M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-26T08:30:45Z",
+ "id": "notam-ussv/2026/Z7978",
+ "issued_at": "2026-11-26T07:44:00Z",
+ "last_seen": "2026-11-26T08:30:45Z",
+ "number": "Z7978",
+ "positions": [
+  [
+   55.32167,
+   62.14556
+  ]
+ ],
+ "series": "notam-ussv",
+ "source": {
+  "fetched_at": "2026-11-26T08:34:06Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 2KM CENTRE 551918N0620844E.",
+ "text": "Z7978/26 NOTAMN\nQ)USSV/QRTCA/IV/BO/W/000/020/5519N06208E002\nA)USSV B)2611280300 C)2611281700\nE)AIRSPACE CLSD WI CIRCLE RADIUS 2KM CENTRE 551918N0620844E.\nF)GND  G)350M AMSL",
+ "year": 2026
+}
