@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2027-03-28T11:00:00Z",
+ "extra": {
+  "fir": "WMFC",
+  "kind": "drone",
+  "location": "WMFC",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 2.9,
+   "lon": 101.65,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "WMFC",
+  "schedule": "DLY 0000-1100",
+  "shape": "polygon",
+  "starts_at": "2026-12-29T00:00:00Z",
+  "upper": "400FT AGL",
+  "upper_fl": 4
+ },
+ "first_seen": "2026-11-27T08:44:41Z",
+ "id": "notam-wmfc/2026/A4821",
+ "issued_at": "2026-11-27T08:36:00Z",
+ "last_seen": "2026-11-27T08:44:41Z",
+ "number": "A4821",
+ "positions": [
+  [
+   2.91105,
+   101.65398
+  ],
+  [
+   2.91102,
+   101.65578
+  ],
+  [
+   2.90707,
+   101.65681
+  ],
+  [
+   2.90721,
+   101.65433
+  ]
+ ],
+ "series": "notam-wmfc",
+ "source": {
+  "fetched_at": "2026-11-27T08:47:35Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UA ACT WIL TAKE PLACE WI FLW COORD:",
+ "text": "A4821/26 NOTAMN\nQ) WMFC/QWULW/IV/BO /W /000/004/0254N10139E001\nA) WMFC B) 2612290000 C) 2703281100 \nD)DLY 0000-1100\nE)UA ACT WIL TAKE PLACE WI FLW COORD:\n   \n   025439.79N 1013914.32E - 025439.67N 1013920.80E -\n   025425.45N 1013924.53E - 025425.97N 1013915.58E\n   (OBAMA OVAL, FUTURISE CENTER, CYBERJAYA)\n\nF) SFC                             G) 400FT AGL",
+ "year": 2026
+}

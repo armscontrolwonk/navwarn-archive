@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-16T05:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "firing",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.3833,
+   "lon": 135.9833,
+   "radius_nm": 3
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "RJJJ",
+  "schedule": "13-14 2300/1100 15 2300/0500",
+  "shape": "polygon",
+  "starts_at": "2026-12-13T23:00:00Z",
+  "upper": "6888FT AMSL",
+  "upper_fl": 69
+ },
+ "first_seen": "2026-11-27T08:44:41Z",
+ "id": "notam-rjjj/2026/P6018",
+ "issued_at": "2026-11-27T00:06:00Z",
+ "last_seen": "2026-11-27T08:44:41Z",
+ "number": "P6018",
+ "positions": [
+  [
+   35.38917,
+   135.99167
+  ],
+  [
+   35.39667,
+   135.94667
+  ],
+  [
+   35.37389,
+   135.94361
+  ],
+  [
+   35.38917,
+   135.99167
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-27T08:47:35Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG EXER WILL BE CONDUCTED WITHIN R-101 AEBANO",
+ "text": "P6018/26 NOTAMN\nQ)RJJJ/QWMLW/IV/BO/W/000/069/3523N13559E003\nA)RJJJ B)2612132300 C)2612160500\nD)13-14 2300/1100 15 2300/0500\nE)FRNG EXER WILL BE CONDUCTED WITHIN R-101 AEBANO\nWEAPON: 120MORTAR,81MORTAR\nAREA: BOUNDED BY FLW POINTS\n352321N1355930E - 352348N1355648E - 352226N1355637E - 352321N1355930E\n(TAKASHIMA-SHI IN SHIGA)\nRMK: (1)REF AIP PAGE ENR5.1-4\n(2)SOURCE/JSDF-G(RJOY)\nF)SFC G)6888FT AMSL",
+ "year": 2026
+}

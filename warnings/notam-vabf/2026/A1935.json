@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-15T13:30:00Z",
+ "extra": {
+  "fir": "VABF",
+  "kind": "drone",
+  "location": "VABF",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 23.5833,
+   "lon": 77.2333,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "VABF",
+  "schedule": "0030-1330",
+  "shape": "polygon",
+  "starts_at": "2026-12-01T00:30:00Z",
+  "upper": "7000FT AMSL",
+  "upper_fl": 70
+ },
+ "first_seen": "2026-11-27T08:44:41Z",
+ "id": "notam-vabf/2026/A1935",
+ "issued_at": "2026-11-27T05:49:00Z",
+ "last_seen": "2026-11-27T08:44:41Z",
+ "number": "A1935",
+ "positions": [
+  [
+   23.59167,
+   77.22556
+  ],
+  [
+   23.56083,
+   77.22528
+  ],
+  [
+   23.56111,
+   77.25861
+  ],
+  [
+   23.59194,
+   77.25833
+  ],
+  [
+   23.59167,
+   77.22556
+  ]
+ ],
+ "series": "notam-vabf",
+ "source": {
+  "fetched_at": "2026-11-27T08:47:35Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UAV OPS NEAR BHOPAL WI THE AREA BOUNDED BY COORD:",
+ "text": "A1935/26 NOTAMN\nQ) VABF/QWULW/IV/BO/W/000/070/2335N07714E002\nA) VABF B) 2612010030 C) 2612151330\nD) 0030-1330\nE) UAV OPS NEAR BHOPAL WI THE AREA BOUNDED BY COORD:\n   (POINT 1) 233530N 0771332E- \n   (POINT 2) 233339N 0771331E- \n   (POINT 3) 233340N 0771531E- \n   (POINT 4) 233531N 0771530E- \n   (POINT 1) 233530N 0771332E\nF) SFC  G) 7000FT AMSL",
+ "year": 2026
+}

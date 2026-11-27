@@ -1,0 +1,90 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-27T12:00:00Z",
+ "extra": {
+  "fir": "UAII",
+  "kind": "restricted",
+  "location": "UAII",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.1,
+   "lon": 71.6167,
+   "radius_nm": 98
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UAII",
+  "shape": "polygon",
+  "starts_at": "2026-11-27T05:00:00Z",
+  "upper": "FL200",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-11-27T08:44:41Z",
+ "id": "notam-uaii/2026/C8146",
+ "issued_at": "2026-11-27T02:45:00Z",
+ "last_seen": "2026-11-27T08:44:41Z",
+ "number": "C8146",
+ "positions": [
+  [
+   42.25,
+   69.98333
+  ],
+  [
+   42.51667,
+   70.03333
+  ],
+  [
+   42.6,
+   69.55
+  ],
+  [
+   43.18306,
+   70.90056
+  ],
+  [
+   43.27139,
+   71.84611
+  ],
+  [
+   43.74806,
+   72.02139
+  ],
+  [
+   43.57778,
+   73.72611
+  ],
+  [
+   43.05472,
+   73.53694
+  ],
+  [
+   42.74083,
+   72.48778
+  ],
+  [
+   42.85056,
+   71.87972
+  ],
+  [
+   42.80417,
+   71.30556
+  ],
+  [
+   42.25,
+   69.98333
+  ]
+ ],
+ "series": "notam-uaii",
+ "source": {
+  "fetched_at": "2026-11-27T08:47:35Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPORARY RESTRICTED AREA ACTIVATED",
+ "text": "C8146/26 NOTAMN\nQ) UAII/QRTCA/IV/BO /W /000/200/4306N07137E098\nA) UAII B) 2611270500 C) 2611271200\nE) TEMPORARY RESTRICTED AREA ACTIVATED\nAREA BOUNDED BY:\n421500N 0695900E - 423100N 0700200E - 423600N 0693300E - 431059N \n0705402E - 431617N 0715046E - 434453N 0720117E - 433440N 0734334E - \n430317N 0733213E - 424427N 0722916E - 425102N 0715247E - 424815N \n0711820E - 421500N 0695900E\nF) GND G) FL200",
+ "year": 2026
+}

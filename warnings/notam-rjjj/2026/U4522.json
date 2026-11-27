@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T08:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.2833,
+   "lon": 129.9,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-30T07:30:00Z",
+  "upper": "1149FT AMSL",
+  "upper_fl": 12
+ },
+ "first_seen": "2026-11-27T08:44:41Z",
+ "id": "notam-rjjj/2026/U4522",
+ "issued_at": "2026-11-27T01:17:00Z",
+ "last_seen": "2026-11-27T08:44:41Z",
+ "number": "U4522",
+ "positions": [
+  [
+   33.28889,
+   129.89056
+  ],
+  [
+   33.29083,
+   129.89056
+  ],
+  [
+   33.29083,
+   129.89278
+  ],
+  [
+   33.29083,
+   129.89472
+  ],
+  [
+   33.28889,
+   129.89472
+  ],
+  [
+   33.28889,
+   129.8925
+  ],
+  [
+   33.28889,
+   129.89056
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-27T08:47:35Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4522/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/012/3317N12954E001\nA)RJJJ B)2611300730 C)2611300830\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n331720N1295326E - 331727N1295326E - 331727N1295334E - 331727N1295341E\n- 331720N1295341E - 331720N1295333E - 331720N1295326E \n(IMARI-SHI IN SAGA)\nWT: 1.5KG\nF)SFC G)1149FT AMSL",
+ "year": 2026
+}

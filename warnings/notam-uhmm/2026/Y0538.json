@@ -1,0 +1,113 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-04T07:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 59.65722,
+    "lon": 151.26778,
+    "radius_nm": 1.62
+   }
+  ],
+  "fir": "UHMM",
+  "kind": "restricted",
+  "location": "UHMM",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 59.85,
+   "lon": 151.8333,
+   "radius_nm": 23
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHMM",
+  "schedule": "DAILY 2200-0700",
+  "starts_at": "2026-12-01T22:00:00Z",
+  "upper": "2500M AMSL",
+  "upper_fl": 90
+ },
+ "first_seen": "2026-11-27T08:44:41Z",
+ "id": "notam-uhmm/2026/Y0538",
+ "issued_at": "2026-11-27T03:39:00Z",
+ "last_seen": "2026-11-27T08:44:41Z",
+ "number": "Y0538",
+ "positions": [
+  [
+   59.65722,
+   151.26778
+  ],
+  [
+   60.11806,
+   152.13694
+  ],
+  [
+   59.67472,
+   151.36917
+  ],
+  [
+   59.69111,
+   151.21583
+  ],
+  [
+   59.63278,
+   151.20083
+  ],
+  [
+   59.6175,
+   151.41694
+  ],
+  [
+   59.79333,
+   152.04306
+  ],
+  [
+   60.0475,
+   152.29167
+  ],
+  [
+   60.11806,
+   152.13694
+  ],
+  [
+   60.13306,
+   152.1625
+  ],
+  [
+   60.11806,
+   152.13694
+  ],
+  [
+   60.0475,
+   152.29167
+  ],
+  [
+   59.79333,
+   152.04306
+  ],
+  [
+   59.81417,
+   152.11167
+  ],
+  [
+   60.05389,
+   152.465
+  ],
+  [
+   60.13306,
+   152.1625
+  ]
+ ],
+ "series": "notam-uhmm",
+ "source": {
+  "fetched_at": "2026-11-27T08:47:35Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Y0538/26 NOTAMN\nQ)UHMM/QRTCA/IV/BO/W/000/090/5951N15150E023\nA)UHMM B)2612012200 C)2612040700\nD)DAILY 2200-0700\nE)AIRSPACE CLSD AS FLW:\n1. WI CIRCLE RADIUS 3KM CENTRE 593926N1511604E\n   GND-300M AMSL.\n2. AREA: 600705N1520813E-594029N1512209E-594128N1511257E-\n         593758N1511203E-593703N1512501E-594736N1520235E-\n         600251N1521730E-600705N1520813E\n   300M AMSL-2000M AMSL.\n3. AREA: 600759N1520945E-600705N1520813E-600251N1521730E-\n         594736N1520235E-594851N1520642E-600314N1522754E-\n         600759N1520945E\n   2000M AMSL-2500M AMSL.\nF)GND  G)2500M AMSL",
+ "year": 2026
+}

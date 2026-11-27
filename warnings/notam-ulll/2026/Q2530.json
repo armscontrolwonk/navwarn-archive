@@ -1,0 +1,59 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-04T23:59:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 59.95,
+   "lon": 30.3167,
+   "radius_nm": 95
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "DAILY 0000-0700 1700-2359",
+  "shape": "polygon",
+  "starts_at": "2026-11-29T00:00:00Z",
+  "upper": "3050M AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-27T08:44:41Z",
+ "id": "notam-ulll/2026/Q2530",
+ "issued_at": "2026-11-27T07:42:00Z",
+ "last_seen": "2026-11-27T08:44:41Z",
+ "number": "Q2530",
+ "positions": [
+  [
+   58.8625,
+   27.50889
+  ],
+  [
+   61.73944,
+   29.985
+  ],
+  [
+   59.95,
+   30.31667
+  ],
+  [
+   58.8625,
+   27.50889
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-27T08:47:35Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "Q2530/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/100/5957N03019E095\nA)ULLL B)2611290000 C)2612042359\nD)DAILY 0000-0700 1700-2359\nE)AIRSPACE CLSD WI AREA:\n585145N0273032E THEN ALONG STATE BORDER TO 614422N0295906E THEN\nCLOCKWISE ALONG ARC RADIUS 200KM CENTRE (595700N0301900E) TO\n 585145N0273032E.\nACFT FLT NOT AFFECTED:\n- VIP SPECIAL FLT AND ACFT FOR THEIR SUPPORT,\n- ACFT CARRYING OUT INTL AND DOM FLT ALONG ATS RTE ACCORDING TO\n SKED FLT.\n- ACFT ARR/DEP FROM/TO SANKT-PETERBURG/PULKOVO AD.\nF)GND  G)3050M AMSL",
+ "year": 2026
+}

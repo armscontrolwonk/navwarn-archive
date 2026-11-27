@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-29T03:17:00Z",
+ "extra": {
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "FL530",
+  "lower_fl": 530,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 41.7667,
+   "lon": 134.2167,
+   "radius_nm": 109
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "UHHH",
+  "schedule": "28 29 0036-0317",
+  "shape": "polygon",
+  "starts_at": "2026-11-28T00:36:00Z",
+  "upper": "FL530",
+  "upper_fl": 530
+ },
+ "first_seen": "2026-11-27T08:44:41Z",
+ "id": "notam-uhhh/2026/Y0560",
+ "issued_at": "2026-11-27T07:14:00Z",
+ "last_seen": "2026-11-27T08:44:41Z",
+ "number": "Y0560",
+ "positions": [
+  [
+   42.37111,
+   131.98306
+  ],
+  [
+   41.20361,
+   133.375
+  ],
+  [
+   41.10361,
+   133.74444
+  ],
+  [
+   41.11028,
+   136.39694
+  ],
+  [
+   40.55306,
+   136.00194
+  ],
+  [
+   40.50028,
+   135.93389
+  ],
+  [
+   41.10361,
+   133.74444
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-11-27T08:47:35Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPO DANGER AREA ACT:",
+ "text": "Y0560/26 NOTAMN\nQ)UHHH/QRDCA/IV/BO/W/530/530/4146N13413E109\nA)UHHH B)2611280036 C)2611290317\nD)28 29 0036-0317\nE)TEMPO DANGER AREA ACT:\n1. WI 5KM EITHER SIDE OF LINE JOINING POINTS:\n   422216N1315859E-411213N1332230E.\n2. AREA: 410613N1334440E-410637N1362349E-403311N1360007E-\n         403001N1355602E-410613N1334440E\nF)FL530  G)FL530",
+ "year": 2026
+}

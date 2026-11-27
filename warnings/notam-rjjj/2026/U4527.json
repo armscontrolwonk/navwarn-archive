@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-31T08:19:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 33.9,
+   "lon": 139.5833,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2221/0819",
+  "shape": "polygon",
+  "starts_at": "2026-12-24T22:21:00Z",
+  "upper": "919FT AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-27T08:44:41Z",
+ "id": "notam-rjjj/2026/U4527",
+ "issued_at": "2026-11-27T02:34:00Z",
+ "last_seen": "2026-11-27T08:44:41Z",
+ "number": "U4527",
+ "positions": [
+  [
+   33.89222,
+   139.58972
+  ],
+  [
+   33.89417,
+   139.57333
+  ],
+  [
+   33.90528,
+   139.56333
+  ],
+  [
+   33.91917,
+   139.59889
+  ],
+  [
+   33.90611,
+   139.6075
+  ],
+  [
+   33.89778,
+   139.6
+  ],
+  [
+   33.89222,
+   139.58972
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-27T08:47:35Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U4527/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/010/3354N13935E002\nA)RJJJ B)2612242221 C)2612310819\nD)2221/0819\nE)UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n335332N1393523E - 335339N1393424E - 335419N1393348E - 335509N1393556E\n- 335422N1393627E - 335352N1393600E - 335332N1393523E \n(MIKURAJIMA-MURA IN TOKYO)\nWT: 83KG\nFLT TIME: HJ\nF)SFC G)919FT AMSL",
+ "year": 2026
+}

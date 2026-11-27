@@ -1,0 +1,71 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-04T15:00:00Z",
+ "extra": {
+  "fir": "VVHN",
+  "kind": "drone",
+  "location": "VVHN",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 21.4667,
+   "lon": 106.8,
+   "radius_nm": 11
+  },
+  "qcode": "QWULW",
+  "queried_fir": "VVHN",
+  "schedule": "DAILY 0000-1500",
+  "shape": "polygon",
+  "starts_at": "2026-12-01T00:00:00Z",
+  "upper": "5500FT AMSL",
+  "upper_fl": 55
+ },
+ "first_seen": "2026-11-27T08:44:41Z",
+ "id": "notam-vvhn/2026/A4605",
+ "issued_at": "2026-11-27T04:15:00Z",
+ "last_seen": "2026-11-27T08:44:41Z",
+ "number": "A4605",
+ "positions": [
+  [
+   21.42417,
+   106.61889
+  ],
+  [
+   21.44583,
+   106.89556
+  ],
+  [
+   21.44083,
+   106.975
+  ],
+  [
+   21.50944,
+   106.97556
+  ],
+  [
+   21.50889,
+   106.66806
+  ],
+  [
+   21.48778,
+   106.67417
+  ],
+  [
+   21.42417,
+   106.61889
+  ]
+ ],
+ "series": "notam-vvhn",
+ "source": {
+  "fetched_at": "2026-11-27T08:47:35Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT WILL TAKE PLACE WI:",
+ "text": "A4605/26 NOTAMN \nQ) VVHN/QWULW/IV/BO/W/000/055/2128N10648E011\nA) VVHN B) 2612010000 C) 2612041500 \nD) DAILY 0000-1500\nE) UNMANNED ACFT WILL TAKE PLACE WI:\n212527N1063708E - 212645N1065344E - 212627N1065830E - \n213034N1065832E - 213032N1064005E - 212916N1064027E \n212527N1063708E\n- ALL FLIGHTS ARE PROHIBITED WITHIN THIS AREA.\nF) GND G) 5500FT AMSL",
+ "year": 2026
+}
