@@ -1,0 +1,49 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T13:00:00Z",
+ "extra": {
+  "fir": "LTXX",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "15000FT AMSL",
+  "lower_fl": 150,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 38.3833,
+   "lon": 31.8,
+   "radius_nm": 103
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTBB",
+  "starts_at": "2026-11-30T06:00:00Z",
+  "upper": "24000FT AMSL",
+  "upper_fl": 240
+ },
+ "first_seen": "2026-11-27T21:25:27Z",
+ "id": "notam-ltaa/2026/A5418",
+ "issued_at": "2026-11-27T09:48:00Z",
+ "last_seen": "2026-11-27T21:25:27Z",
+ "number": "A5418",
+ "positions": [
+  [
+   39.65028,
+   30.36139
+  ],
+  [
+   37.11389,
+   33.17889
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-27T21:28:35Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEST FLIGHT WILL TAKE PLACE WI ESKISEHIR AND KONYA MILITARY TMA:",
+ "text": "A5418/26 NOTAMN\nQ) LTXX/QWELW/IV/BO /W /150/240/3823N03148E103\nA) LTAA LTBB B) 2611300600 C) 2611301300\nE) TEST FLIGHT WILL TAKE PLACE WI ESKISEHIR AND KONYA MILITARY TMA:\nROUTE: 393901N0302141E 370650N0331044E 2.5NM EITHER SIDE OF A LINE\nF) 15000FT AMSL G) 24000FT AMSL",
+ "year": 2026
+}

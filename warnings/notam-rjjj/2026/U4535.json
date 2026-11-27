@@ -1,0 +1,82 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-29T08:00:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 26.4333,
+   "lon": 127.8333,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-29T03:00:00Z",
+  "upper": "647FT AMSL",
+  "upper_fl": 7
+ },
+ "first_seen": "2026-11-27T21:25:27Z",
+ "id": "notam-rjjj/2026/U4535",
+ "issued_at": "2026-11-27T09:29:00Z",
+ "last_seen": "2026-11-27T21:25:27Z",
+ "number": "U4535",
+ "positions": [
+  [
+   26.42944,
+   127.84222
+  ],
+  [
+   26.42694,
+   127.84028
+  ],
+  [
+   26.42944,
+   127.83639
+  ],
+  [
+   26.43111,
+   127.83778
+  ],
+  [
+   26.43028,
+   127.83944
+  ],
+  [
+   26.43139,
+   127.84
+  ],
+  [
+   26.43083,
+   127.84083
+  ],
+  [
+   26.43056,
+   127.84056
+  ],
+  [
+   26.43028,
+   127.84111
+  ],
+  [
+   26.42944,
+   127.84222
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-27T21:28:35Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4535/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/007/2626N12750E001\nA)RJJJ B)2611290300 C)2611290800\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n262546N1275032E - 262537N1275025E - 262546N1275011E - 262552N1275016E\n- 262549N1275022E - 262553N1275024E - 262551N1275027E -\n262550N1275026E - 262549N1275028E - 262546N1275032E \n(URUMA-SHI IN OKINAWA)\nWT: 1.3KG\nF)SFC G)647FT AMSL",
+ "year": 2026
+}

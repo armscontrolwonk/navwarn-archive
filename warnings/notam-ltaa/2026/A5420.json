@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-04T15:00:00Z",
+ "extra": {
+  "fir": "LTAA",
+  "kind": "exercise",
+  "location": "LTAA",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.5,
+   "lon": 33.8,
+   "radius_nm": 27
+  },
+  "qcode": "QWELW",
+  "queried_fir": "LTAA",
+  "shape": "polygon",
+  "starts_at": "2026-12-04T07:00:00Z",
+  "upper": "40000FT AMSL",
+  "upper_fl": 400
+ },
+ "first_seen": "2026-11-27T21:25:27Z",
+ "id": "notam-ltaa/2026/A5420",
+ "issued_at": "2026-11-27T10:08:00Z",
+ "last_seen": "2026-11-27T21:25:27Z",
+ "number": "A5420",
+ "positions": [
+  [
+   37.75,
+   33.36667
+  ],
+  [
+   37.73333,
+   34.25
+  ],
+  [
+   37.23333,
+   34.23333
+  ],
+  [
+   37.28333,
+   33.4
+  ],
+  [
+   37.75,
+   33.36667
+  ]
+ ],
+ "series": "notam-ltaa",
+ "source": {
+  "fetched_at": "2026-11-27T21:28:35Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXERCISE WILL TAKE PLACE.",
+ "text": "A5420/26 NOTAMN\nQ) LTAA/QWELW/IV/BO /W /000/400/3730N03348E027\nA) LTAA B) 2612040700 C) 2612041500\nE) EXERCISE WILL TAKE PLACE.\nRMK: AIR TRAFFIC REGULATION NOTAM SHALL BE ISSUED.\nAREA(LTTSA-5R): 374500N0332200E 374400N0341500E 371400N0341400E \n371700N0332400E 374500N0332200E\nF) SFC G) 40000FT AMSL",
+ "year": 2026
+}

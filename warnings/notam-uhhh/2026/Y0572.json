@@ -1,0 +1,86 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-30T09:00:00Z",
+ "extra": {
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.7833,
+   "lon": 133.1333,
+   "radius_nm": 39
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "shape": "polygon",
+  "starts_at": "2026-11-29T22:00:00Z",
+  "upper": "4200M AMSL",
+  "upper_fl": 140
+ },
+ "first_seen": "2026-11-27T21:25:27Z",
+ "id": "notam-uhhh/2026/Y0572",
+ "issued_at": "2026-11-27T10:57:00Z",
+ "last_seen": "2026-11-27T21:25:27Z",
+ "number": "Y0572",
+ "positions": [
+  [
+   42.73361,
+   132.85028
+  ],
+  [
+   42.915,
+   132.80194
+  ],
+  [
+   43.22,
+   132.97667
+  ],
+  [
+   43.34472,
+   133.17667
+  ],
+  [
+   43.35444,
+   133.52972
+  ],
+  [
+   42.86833,
+   133.8925
+  ],
+  [
+   42.80694,
+   133.72167
+  ],
+  [
+   42.67333,
+   133.03833
+  ],
+  [
+   42.73361,
+   132.85028
+  ],
+  [
+   42.87056,
+   132.81361
+  ],
+  [
+   42.7075,
+   132.36222
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-11-27T21:28:35Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Y0572/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/000/140/4247N13308E039\nA)UHHH B)2611292200 C)2611300900\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 424401N1325101E-425454N1324807E-431312N1325836E-\n         432041N1331036E-432116N1333147E-425206N1335333E-\n         424825N1334318E-424024N1330218E-424401N1325101E\n   SFC-4200M AMSL.\n2. WI 5KM EITHER SIDE OF LINE JOINING POINTS:\n   425214N1324849E-424227N1322144E.\n   3000M AMSL-4200M AMSL.\nF)SFC  G)4200M AMSL",
+ "year": 2026
+}

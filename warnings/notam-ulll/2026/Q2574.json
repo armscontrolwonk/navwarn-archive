@@ -1,0 +1,58 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-05T07:00:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 59.95,
+   "lon": 30.3167,
+   "radius_nm": 111
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "shape": "polygon",
+  "starts_at": "2026-12-03T21:00:00Z",
+  "upper": "FL270",
+  "upper_fl": 270
+ },
+ "first_seen": "2026-11-27T21:25:27Z",
+ "id": "notam-ulll/2026/Q2574",
+ "issued_at": "2026-11-27T10:21:00Z",
+ "last_seen": "2026-11-27T21:25:27Z",
+ "number": "Q2574",
+ "positions": [
+  [
+   58.8625,
+   27.50889
+  ],
+  [
+   61.73944,
+   29.985
+  ],
+  [
+   59.95,
+   30.31667
+  ],
+  [
+   58.8625,
+   27.50889
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-27T21:28:35Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "Q2574/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/270/5957N03019E111\nA)ULLL B)2612032100 C)2612050700\nE)AIRSPACE CLSD WI AREA:\nFROM 585145N0273032E ALONG STATE BORDER TO 614422N0295906E\n THEN CLOCKWISE ALONG ARC RADIUS 200KM CENTRE (595700N0301900E) TO\n 585145N0273032E\nACFT FLT NOT AFFECTED:\n- VIP SPECIAL FLT AND ACFT FOR THEIR SUPPORT,\n- ACFT CARRYING OUT INTL AND DOM FLT ALONG ATS RTE ACCORDING TO\n SKED FLT.\nF)GND  G)FL270",
+ "year": 2026
+}

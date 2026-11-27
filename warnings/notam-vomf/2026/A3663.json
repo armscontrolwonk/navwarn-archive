@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-24T12:30:00Z",
+ "extra": {
+  "fir": "VOMF",
+  "kind": "firing",
+  "location": "VOMF",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 11.6167,
+   "lon": 92.8167,
+   "radius_nm": 6
+  },
+  "qcode": "QWMLW",
+  "queried_fir": "VOMF",
+  "shape": "polygon",
+  "starts_at": "2026-12-24T10:30:00Z",
+  "upper": "2500FT AMSL",
+  "upper_fl": 25
+ },
+ "first_seen": "2026-11-27T21:25:27Z",
+ "id": "notam-vomf/2026/A3663",
+ "issued_at": "2026-11-27T12:36:00Z",
+ "last_seen": "2026-11-27T21:25:27Z",
+ "number": "A3663",
+ "positions": [
+  [
+   11.66167,
+   92.77167
+  ],
+  [
+   11.67667,
+   92.78333
+  ],
+  [
+   11.645,
+   92.885
+  ],
+  [
+   11.54833,
+   92.805
+  ],
+  [
+   11.66167,
+   92.77167
+  ]
+ ],
+ "series": "notam-vomf",
+ "source": {
+  "fetched_at": "2026-11-27T21:28:35Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "FRNG PRACTICE WI AREA BOUNDED BY COORDINATES:",
+ "text": "A3663/26 NOTAMN\nQ) VOMF/QWMLW/IV/BO/W/000/025/1137N09249E006\nA) VOMF B) 2612241030 C) 2612241230\nE) FRNG PRACTICE WI AREA BOUNDED BY COORDINATES:\n   113942N0924618E-\n   114036N0924700E-\n   113842N0925306E-\n   113254N0924818E-\n   113942N0924618E\nF) SFC G) 2500FT AMSL",
+ "year": 2026
+}

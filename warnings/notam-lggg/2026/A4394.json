@@ -1,0 +1,75 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-20T13:00:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "drone",
+  "location": "LGGG",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.95,
+   "lon": 24.0,
+   "radius_nm": 3
+  },
+  "qcode": "QRTCS",
+  "queried_fir": "LGGG",
+  "schedule": "DAILY 0600-1300",
+  "shape": "polygon",
+  "starts_at": "2026-12-03T06:00:00Z",
+  "upper": "200FT AGL",
+  "upper_fl": 2
+ },
+ "first_seen": "2026-11-27T21:25:27Z",
+ "id": "notam-lggg/2026/A4394",
+ "issued_at": "2026-11-27T12:58:00Z",
+ "last_seen": "2026-11-27T21:25:27Z",
+ "number": "A4394",
+ "positions": [
+  [
+   37.975,
+   23.99472
+  ],
+  [
+   37.985,
+   24.015
+  ],
+  [
+   37.94083,
+   24.01861
+  ],
+  [
+   37.9275,
+   24.00528
+  ],
+  [
+   37.92944,
+   23.99028
+  ],
+  [
+   37.97056,
+   24.00056
+  ],
+  [
+   37.97083,
+   24.0
+  ],
+  [
+   37.975,
+   23.99472
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-11-27T21:28:35Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW:",
+ "text": "A4394/26 NOTAMN\nQ) LGGG/QRTCS/IV/BO /W /000/002/3757N02400E003\nA) LGGG B) 2612030600 C) 2612201300\nD) DAILY 0600-1300\nE) A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW:\n1. AREA:375830N 0235941E - 375906N 0240054E - 375627N 0240107E - \n375539N 0240019E\n- 375546N 0235925E - 375814N 0240002E - 375815N 0240000E - 375830N \n0235941E\n(ARTEMIDA)\n2. TYPE OF RESTRICTION: UAV FLT - ELECTRICAL NETWORK INSPECTION\nATHINAI CTR/ATZ AFFECTED.\n3. REMARKS:\n3.1 OTHER UAV FLT ARE SUSPENDED.\n3.2 OTHER FLT IN CONTACT WITH ATHINAI TWR ARE NOT AFFECTED\n3.3 OPERATOR SHALL CALL ATHINAI TWR PRIOR AND AFTER ACTIVITY AND \nREMAIN IN\nCONTACT DURING ACTIVITY.\n3.4 ACTIVITY SHALL BE ENDED IF REQUIRED BY ATH TWR.\nF) GND G) 200FT AGL",
+ "year": 2026
+}

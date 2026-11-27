@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-02T14:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 54.905,
+    "lon": 39.02694,
+    "radius_nm": 5.4
+   }
+  ],
+  "fir": "UUWV",
+  "kind": "restricted",
+  "location": "UUWV",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 54.9,
+   "lon": 39.0167,
+   "radius_nm": 6
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UUWV",
+  "schedule": "NOV 27 1200-1400, 28-30 DEC 01 02 0700-1400",
+  "starts_at": "2026-11-27T12:00:00Z",
+  "upper": "1000M AMSL",
+  "upper_fl": 40
+ },
+ "first_seen": "2026-11-27T21:25:27Z",
+ "id": "notam-uuwv/2026/H4597",
+ "issued_at": "2026-11-27T10:40:00Z",
+ "last_seen": "2026-11-27T21:25:27Z",
+ "number": "H4597",
+ "positions": [
+  [
+   54.905,
+   39.02694
+  ]
+ ],
+ "series": "notam-uuwv",
+ "source": {
+  "fetched_at": "2026-11-27T21:28:35Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 10KM CENTRE 545418N0390137E.",
+ "text": "H4597/26 NOTAMN\nQ)UUWV/QRTCA/IV/BO/W/000/040/5454N03901E006\nA)UUWV B)2611271200 C)2612021400\nD)NOV 27 1200-1400, 28-30 DEC 01 02 0700-1400\nE)AIRSPACE CLSD WI CIRCLE RADIUS 10KM CENTRE 545418N0390137E.\nF)SFC  G)1000M AMSL",
+ "year": 2026
+}

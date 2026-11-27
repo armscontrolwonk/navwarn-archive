@@ -1,0 +1,111 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-03T10:00:00Z",
+ "extra": {
+  "fir": "UNNT",
+  "kind": "restricted",
+  "location": "UNNT",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 52.1333,
+   "lon": 80.65,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UNNT",
+  "schedule": "DAILY 0300-1000",
+  "shape": "polygon",
+  "starts_at": "2026-12-02T03:00:00Z",
+  "upper": "390M AMSL",
+  "upper_fl": 20
+ },
+ "first_seen": "2026-11-27T21:25:27Z",
+ "id": "notam-unnt/2026/L5770",
+ "issued_at": "2026-11-27T11:24:00Z",
+ "last_seen": "2026-11-27T21:25:27Z",
+ "number": "L5770",
+ "positions": [
+  [
+   52.14222,
+   80.66528
+  ],
+  [
+   52.13944,
+   80.65611
+  ],
+  [
+   52.13444,
+   80.64917
+  ],
+  [
+   52.13194,
+   80.65
+  ],
+  [
+   52.13083,
+   80.64417
+  ],
+  [
+   52.1325,
+   80.63944
+  ],
+  [
+   52.13194,
+   80.6375
+  ],
+  [
+   52.12917,
+   80.63528
+  ],
+  [
+   52.13056,
+   80.63139
+  ],
+  [
+   52.12389,
+   80.61944
+  ],
+  [
+   52.12667,
+   80.61611
+  ],
+  [
+   52.12528,
+   80.6125
+  ],
+  [
+   52.11861,
+   80.60889
+  ],
+  [
+   52.11361,
+   80.61583
+  ],
+  [
+   52.10444,
+   80.64389
+  ],
+  [
+   52.13833,
+   80.67583
+  ],
+  [
+   52.14222,
+   80.66528
+  ]
+ ],
+ "series": "notam-unnt",
+ "source": {
+  "fetched_at": "2026-11-27T21:28:35Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI AREA:",
+ "text": "L5770/26 NOTAMN\nQ)UNNT/QRTCA/IV/BO/W/000/020/5208N08039E002\nA)UNNT B)2612020300 C)2612031000\nD)DAILY 0300-1000\nE)AIRSPACE CLSD WI AREA:\n520832N0803955E-520822N0803922E-520804N0803857E-520755N0803900E-\n520751N0803839E-520757N0803822E-520755N0803815E-520745N0803807E-\n520750N0803753E-520726N0803710E-520736N0803658E-520731N0803645E-\n520707N0803632E-520649N0803657E-520616N0803838E-520818N0804033E-\n520832N0803955E\nF)GND  G)390M AMSL",
+ "year": 2026
+}

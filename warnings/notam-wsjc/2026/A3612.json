@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-05T09:00:00Z",
+ "extra": {
+  "fir": "WSJC",
+  "kind": "exercise",
+  "location": "WSJC",
+  "lower": "5000FT AMSL",
+  "lower_fl": 50,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 2.25,
+   "lon": 103.05,
+   "radius_nm": 40
+  },
+  "qcode": "QWELW",
+  "queried_fir": "WSJC",
+  "schedule": "DEC 03-05 0300-0900",
+  "shape": "polygon",
+  "starts_at": "2026-12-03T03:00:00Z",
+  "upper": "9000FT AMSL",
+  "upper_fl": 90
+ },
+ "first_seen": "2026-11-27T21:25:27Z",
+ "id": "notam-wsjc/2026/A3612",
+ "issued_at": "2026-11-27T18:01:00Z",
+ "last_seen": "2026-11-27T21:25:27Z",
+ "number": "A3612",
+ "positions": [
+  [
+   2.27061,
+   102.43191
+  ],
+  [
+   2.82261,
+   102.75403
+  ],
+  [
+   2.20214,
+   103.696
+  ],
+  [
+   1.67172,
+   103.34638
+  ],
+  [
+   2.27061,
+   102.43191
+  ]
+ ],
+ "series": "notam-wsjc",
+ "source": {
+  "fetched_at": "2026-11-27T21:28:35Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "CLOUD SEEDING OPS WILL TAKE PLACE WI FLW COORD:",
+ "text": "A3612/26 NOTAMN\nQ)WSJC/QWELW/IV/NBO/W/050/090/0215N10303E040\nA)WSJC B)2612030300 C)2612050900\nD)DEC 03-05 0300-0900\nE)CLOUD SEEDING OPS WILL TAKE PLACE WI FLW COORD:\n021614.21N1022554.87E-024921.41N1024514.50E-021207.72N1034145.59E\n-014018.18N1032046.97E-021614.21N1022554.87E.\nF)5000FT AMSL G)9000FT AMSL",
+ "year": 2026
+}

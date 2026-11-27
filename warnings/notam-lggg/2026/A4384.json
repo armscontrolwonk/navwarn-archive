@@ -1,0 +1,70 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-20T14:00:00Z",
+ "extra": {
+  "fir": "LGGG",
+  "kind": "drone",
+  "location": "LGGG",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 37.85,
+   "lon": 24.0,
+   "radius_nm": 4
+  },
+  "qcode": "QRTCS",
+  "queried_fir": "LGGG",
+  "shape": "polygon",
+  "starts_at": "2026-12-03T06:00:00Z",
+  "upper": "200FT AGL",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-27T21:25:27Z",
+ "id": "notam-lggg/2026/A4384",
+ "issued_at": "2026-11-27T09:23:00Z",
+ "last_seen": "2026-11-27T21:25:27Z",
+ "number": "A4384",
+ "positions": [
+  [
+   37.89306,
+   23.96194
+  ],
+  [
+   37.88667,
+   24.01472
+  ],
+  [
+   37.85694,
+   24.05722
+  ],
+  [
+   37.80667,
+   24.03111
+  ],
+  [
+   37.81083,
+   24.02111
+  ],
+  [
+   37.85417,
+   23.92417
+  ],
+  [
+   37.89306,
+   23.96194
+  ]
+ ],
+ "series": "notam-lggg",
+ "source": {
+  "fetched_at": "2026-11-27T21:28:35Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW: ",
+ "text": "A4384/26 NOTAMN\nQ) LGGG/QRTCS/IV/BO /W /000/999/3751N02400E004\nA) LGGG B) 2612030600 C) 2612201400\nE) A TEMPO RESTRICTED AREA IS ESTABLISHED WI ATHINAI FIR AS FLW: \n1. AREA:375335N 0235743E - 375312N 0240053E - 375125N 0240326E - \n374824N 0240152E - 374839N 0240116E - 375115N 0235527E - 375335N \n0235743E  (PORTO RAFTI)\n2. TYPE OF RESTRICTION: UAV FLT - ELECTRICAL NETWORK INSPECTION\nATHINAI VENIZELOS CTR/ATZ AFFECTED.\n3. REMARKS:\n3.1 OTHER UAV FLT ARE SUSPENDED.\n3.2 OTHER FLT IN CONTACT WITH ATHINAI TWR ARE NOT AFFECTED\n3.3 OPERATOR SHALL CALL VENIZELOS TWR PRIOR AND AFTER ACTIVITY AND \nREMAIN IN CONTACT DURING ACTIVITY.\n3.4 ACTIVITY SHALL BE ENDED IF REQUIRED BY ATC.\nF) GND G) 200FT AGL",
+ "year": 2026
+}
