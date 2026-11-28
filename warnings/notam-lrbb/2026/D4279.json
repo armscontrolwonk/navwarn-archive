@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-29T17:00:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "restricted",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 45.8833,
+   "lon": 23.4667,
+   "radius_nm": 8
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "LRBB",
+  "shape": "polygon",
+  "starts_at": "2026-11-29T06:00:00Z",
+  "upper": "8000FT AMSL",
+  "upper_fl": 80
+ },
+ "first_seen": "2026-11-28T20:15:11Z",
+ "id": "notam-lrbb/2026/D4279",
+ "issued_at": "2026-11-28T10:45:00Z",
+ "last_seen": "2026-11-28T20:15:11Z",
+ "number": "D4279",
+ "positions": [
+  [
+   45.94194,
+   23.305
+  ],
+  [
+   45.84278,
+   23.305
+  ],
+  [
+   45.83722,
+   23.61889
+  ],
+  [
+   45.9325,
+   23.61778
+  ],
+  [
+   45.94194,
+   23.305
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-11-28T20:17:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "TEMPORARY RESERVED AREA ACTIVATED.",
+ "text": "D4279/26 NOTAMN\nQ) LRBB/QRTCA/IV/BO /W /000/080/4553N02328E008\nA) LRBB B) 2611290600 C) 2611291700\nE) TEMPORARY RESERVED AREA ACTIVATED.\n   MIL FLT WILL TAKE PLACE INTO THE FLW AREA:\n   455631N0231818E-455034N0231818E-455014N0233708E-455557N0233704E\n   455631N0231818E\n   FLT WILL BE COOR BTN CIV AND MIL ATC. NATIONAL DAY REHEARSAL.\nF) GND G) 8000FT AMSL",
+ "year": 2026
+}

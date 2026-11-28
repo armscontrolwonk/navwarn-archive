@@ -1,0 +1,45 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-29T14:50:00Z",
+ "extra": {
+  "fir": "LRBB",
+  "kind": "restricted",
+  "location": "LRBB",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 46.4833,
+   "lon": 23.9333,
+   "radius_nm": 2
+  },
+  "qcode": "QRDCA",
+  "queried_fir": "LRBB",
+  "starts_at": "2026-11-29T09:00:00Z",
+  "upper": "FL140",
+  "upper_fl": 140
+ },
+ "first_seen": "2026-11-28T20:15:11Z",
+ "id": "notam-lrbb/2026/D4335",
+ "issued_at": "2026-11-28T12:47:00Z",
+ "last_seen": "2026-11-28T20:15:11Z",
+ "number": "D4335",
+ "positions": [
+  [
+   46.48167,
+   23.93139
+  ]
+ ],
+ "series": "notam-lrbb",
+ "source": {
+  "fetched_at": "2026-11-28T20:17:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "DANGER AREA ACTIVATED:",
+ "text": "D4335/26 NOTAMN\nQ) LRBB/QRDCA/IV/BO /W /000/140/4629N02356E002\nA) LRBB B) 2611290900 C) 2611291450\nE) DANGER AREA ACTIVATED:\n   PJE WILL TAKE PLACE INTO A CIRCLE CENTERED\n   ON POINT OF COORD 462854N0235553E WITH 1.5NM RADIUS\n   EXPECT RADAR VECTORING\nF) GND G) FL140",
+ "year": 2026
+}

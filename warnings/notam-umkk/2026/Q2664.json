@@ -1,0 +1,53 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-03T16:00:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 54.745,
+    "lon": 20.57917,
+    "radius_nm": 0.32
+   }
+  ],
+  "fir": "UMKK",
+  "kind": "restricted",
+  "location": "UMKK",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 54.7333,
+   "lon": 20.5667,
+   "radius_nm": 1
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UMKK",
+  "schedule": "01-03 0800-1600",
+  "starts_at": "2026-12-01T08:00:00Z",
+  "upper": "100M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-28T20:15:11Z",
+ "id": "notam-umkk/2026/Q2664",
+ "issued_at": "2026-11-28T08:47:00Z",
+ "last_seen": "2026-11-28T20:15:11Z",
+ "number": "Q2664",
+ "positions": [
+  [
+   54.745,
+   20.57917
+  ]
+ ],
+ "series": "notam-umkk",
+ "source": {
+  "fetched_at": "2026-11-28T20:17:56Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI CIRCLE RADIUS 0.6KM CENTRE 544442N0203445E.",
+ "text": "Q2664/26 NOTAMN\nQ)UMKK/QRTCA/IV/BO/W/000/010/5444N02034E001\nA)UMKK B)2612010800 C)2612031600\nD)01-03 0800-1600\nE)AIRSPACE CLSD WI CIRCLE RADIUS 0.6KM CENTRE 544442N0203445E.\nF)GND  G)100M AMSL",
+ "year": 2026
+}
