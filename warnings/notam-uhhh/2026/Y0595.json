@@ -1,0 +1,50 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-02T09:59:00Z",
+ "extra": {
+  "fir": "UHHH",
+  "kind": "restricted",
+  "location": "UHHH",
+  "lower": "2000M AMSL",
+  "lower_fl": 60,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.1333,
+   "lon": 132.2833,
+   "radius_nm": 16
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UHHH",
+  "schedule": "DAILY 0000-0959",
+  "starts_at": "2026-11-30T00:00:00Z",
+  "upper": "3000M AMSL",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-28T07:58:07Z",
+ "id": "notam-uhhh/2026/Y0595",
+ "issued_at": "2026-11-28T07:28:00Z",
+ "last_seen": "2026-11-28T07:58:07Z",
+ "number": "Y0595",
+ "positions": [
+  [
+   42.4,
+   132.29889
+  ],
+  [
+   41.87917,
+   132.26333
+  ]
+ ],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-11-28T08:01:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI 0.5KM EITHER SIDE OF LINE JOINING POINTS:",
+ "text": "Y0595/26 NOTAMN\nQ)UHHH/QRTCA/IV/BO/W/060/100/4208N13217E016\nA)UHHH B)2611300000 C)2612020959\nD)DAILY 0000-0959\nE)AIRSPACE CLSD WI 0.5KM EITHER SIDE OF LINE JOINING POINTS:\n422400N1321756E-415245N1321548E.\nF)2000M AMSL  G)3000M AMSL",
+ "year": 2026
+}

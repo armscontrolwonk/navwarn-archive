@@ -1,0 +1,55 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-04T12:00:00Z",
+ "extra": {
+  "fir": "UWWW",
+  "kind": "restricted",
+  "location": "UWWW",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 54.8333,
+   "lon": 56.25,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "UWWW",
+  "schedule": "DAILY 0600-1200",
+  "shape": "polygon",
+  "starts_at": "2026-11-30T06:00:00Z",
+  "upper": "300M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-28T07:58:07Z",
+ "id": "notam-uwww/2026/N1243",
+ "issued_at": "2026-11-28T07:27:00Z",
+ "last_seen": "2026-11-28T07:58:07Z",
+ "number": "N1243",
+ "positions": [
+  [
+   54.81361,
+   56.24833
+  ],
+  [
+   54.85833,
+   56.26056
+  ],
+  [
+   54.81361,
+   56.24833
+  ]
+ ],
+ "series": "notam-uwww",
+ "source": {
+  "fetched_at": "2026-11-28T08:01:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI 1KM EITHER SIDE OF LINE JOINING POINTS:",
+ "text": "N1243/26 NOTAMN\nQ)UWWW/QRTCA/IV/BO/W/000/010/5450N05615E002\nA)UWWW B)2611300600 C)2612041200\nD)DAILY 0600-1200\nE)AIRSPACE CLSD WI 1KM EITHER SIDE OF LINE JOINING POINTS:\n544849N0561454E-545130N0561538E-544849N0561454E.\nF)GND  G)300M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,62 @@
+{
+ "cancels": [],
+ "expires_at": "2026-11-29T07:30:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 34.25,
+   "lon": 133.0667,
+   "radius_nm": 2
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "shape": "polygon",
+  "starts_at": "2026-11-29T00:00:00Z",
+  "upper": "1608FT AMSL",
+  "upper_fl": 17
+ },
+ "first_seen": "2026-11-28T07:58:07Z",
+ "id": "notam-rjjj/2026/U4538",
+ "issued_at": "2026-11-28T07:09:00Z",
+ "last_seen": "2026-11-28T07:58:07Z",
+ "number": "U4538",
+ "positions": [
+  [
+   34.25778,
+   133.05833
+  ],
+  [
+   34.26,
+   133.07083
+  ],
+  [
+   34.25583,
+   133.07306
+  ],
+  [
+   34.25417,
+   133.05806
+  ],
+  [
+   34.25778,
+   133.05833
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-28T08:01:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT:",
+ "text": "U4538/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/017/3415N13304E002\nA)RJJJ B)2611290000 C)2611290730\nE)UNMANNED ACFT:\nAREA: BOUNDED BY FLW POINTS\n341528N1330330E - 341536N1330415E - 341521N1330423E - 341515N1330329E\n- 341528N1330330E \n(ONOMICHI-SHI IN HIROSHIMA,IMABARI-SHI IN EHIME)\nWT: 1.1KG\nF)SFC G)1608FT AMSL",
+ "year": 2026
+}

@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-04T20:00:00Z",
+ "extra": {
+  "fir": "URRV",
+  "kind": "route",
+  "location": "URRV",
+  "lower": "200M AMSL",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 43.7,
+   "lon": 39.5667,
+   "radius_nm": 18
+  },
+  "qcode": "QARLC",
+  "queried_fir": "URRV",
+  "schedule": "DAILY 0600-1000 1700-2000",
+  "starts_at": "2026-11-30T06:00:00Z",
+  "upper": "FL200",
+  "upper_fl": 200
+ },
+ "first_seen": "2026-11-28T07:58:07Z",
+ "id": "notam-urrv/2026/N1238",
+ "issued_at": "2026-11-28T06:11:00Z",
+ "last_seen": "2026-11-28T07:58:07Z",
+ "number": "N1238",
+ "positions": [],
+ "series": "notam-urrv",
+ "source": {
+  "fetched_at": "2026-11-28T08:01:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENTS CLSD:",
+ "text": "N1238/26 NOTAMN\nQ)URRV/QARLC/IV/NBO/E/000/200/4342N03934E018\nA)URRV B)2611300600 C)2612042000\nD)DAILY 0600-1000 1700-2000\nE)ATS RTE SEGMENTS CLSD:\nKR846 ZAGDI-DUKEZ 200M AMSL-500M AMSL,\nN166  EMGER-PROZR FL155-FL200.\nF)200M AMSL  G)FL200",
+ "year": 2026
+}

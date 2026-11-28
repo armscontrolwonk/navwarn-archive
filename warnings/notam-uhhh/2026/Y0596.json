@@ -1,0 +1,41 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-02T09:59:00Z",
+ "extra": {
+  "fir": "UHHH",
+  "kind": "route",
+  "location": "UHHH",
+  "lower": "FL075",
+  "lower_fl": 75,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 42.6167,
+   "lon": 131.9,
+   "radius_nm": 19
+  },
+  "qcode": "QARLC",
+  "queried_fir": "UHHH",
+  "schedule": "DAILY 0000-0959",
+  "starts_at": "2026-11-30T00:00:00Z",
+  "upper": "FL100",
+  "upper_fl": 100
+ },
+ "first_seen": "2026-11-28T07:58:07Z",
+ "id": "notam-uhhh/2026/Y0596",
+ "issued_at": "2026-11-28T07:31:00Z",
+ "last_seen": "2026-11-28T07:58:07Z",
+ "number": "Y0596",
+ "positions": [],
+ "series": "notam-uhhh",
+ "source": {
+  "fetched_at": "2026-11-28T08:01:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "ATS RTE SEGMENTS CLSD:",
+ "text": "Y0596/26 NOTAMN\nQ)UHHH/QARLC/IV/NBO/E/075/100/4237N13154E019\nA)UHHH B)2611300000 C)2612020959\nD)DAILY 0000-0959\nE)ATS RTE SEGMENTS CLSD:\nA900 VATIS-MATEN.\nB355 VATIS-TERNI.\nF)FL075  G)FL100",
+ "year": 2026
+}

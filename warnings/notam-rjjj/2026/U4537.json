@@ -1,0 +1,63 @@
+{
+ "cancels": [],
+ "expires_at": "2027-01-20T08:07:00Z",
+ "extra": {
+  "fir": "RJJJ",
+  "kind": "drone",
+  "location": "RJJJ",
+  "lower": "SFC",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 35.0333,
+   "lon": 137.1667,
+   "radius_nm": 1
+  },
+  "qcode": "QWULW",
+  "queried_fir": "RJJJ",
+  "schedule": "2140/0807",
+  "shape": "polygon",
+  "starts_at": "2026-11-30T21:40:00Z",
+  "upper": "1379FT AMSL",
+  "upper_fl": 14
+ },
+ "first_seen": "2026-11-28T07:58:07Z",
+ "id": "notam-rjjj/2026/U4537",
+ "issued_at": "2026-11-28T02:53:00Z",
+ "last_seen": "2026-11-28T07:58:07Z",
+ "number": "U4537",
+ "positions": [
+  [
+   35.03194,
+   137.16556
+  ],
+  [
+   35.03028,
+   137.16722
+  ],
+  [
+   35.02583,
+   137.16167
+  ],
+  [
+   35.0275,
+   137.15972
+  ],
+  [
+   35.03194,
+   137.16556
+  ]
+ ],
+ "series": "notam-rjjj",
+ "source": {
+  "fetched_at": "2026-11-28T08:01:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "UNMANNED ACFT(FIXED WING):",
+ "text": "U4537/26 NOTAMN\nQ)RJJJ/QWULW/IV/BO/W/000/014/3502N13710E001\nA)RJJJ B)2611302140 C)2701200807\nD)2140/0807\nE)UNMANNED ACFT(FIXED WING):\nAREA: BOUNDED BY FLW POINTS\n350155N1370956E - 350149N1371002E - 350133N1370942E - 350139N1370935E\n- 350155N1370956E \n(TOYOTA-SHI, OKAZAKI-SHI IN AICHI)\nWT:15KG\nFLT TIME:HJ\nRMK:  THIS NOTAM WILL BE INCORPORATED IN SUP\nF)SFC G)1379FT AMSL",
+ "year": 2026
+}

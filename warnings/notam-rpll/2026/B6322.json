@@ -1,0 +1,40 @@
+{
+ "cancels": [
+  "notam-rpll/2026/B6319"
+ ],
+ "expires_at": "2026-11-28T13:59:00Z",
+ "extra": {
+  "fir": "RPHI",
+  "kind": "exercise",
+  "location": "RPLL",
+  "lower_fl": 0,
+  "notam_type": "replace",
+  "q_circle": {
+   "lat": 14.5167,
+   "lon": 121.0167,
+   "radius_nm": 5
+  },
+  "qcode": "QMXXX",
+  "queried_fir": "RPLL",
+  "starts_at": "2026-11-28T04:18:00Z",
+  "upper_fl": 999
+ },
+ "first_seen": "2026-11-28T07:58:07Z",
+ "id": "notam-rpll/2026/B6322",
+ "issued_at": "2026-11-28T04:18:00Z",
+ "last_seen": "2026-11-28T07:58:07Z",
+ "number": "B6322",
+ "positions": [],
+ "series": "notam-rpll",
+ "source": {
+  "fetched_at": "2026-11-28T08:01:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "EXER CTN WHEN TAX PORTION OF TWY D (BTN TWY F4 AND F5) DUE ",
+ "text": "B6322/26 NOTAMR B6319/26\nQ) RPHI/QMXXX/IV/M  /A /000/999/1431N12101E005\nA) RPLL B) 2611280418 C) 2611281359\nE) EXER CTN WHEN TAX PORTION OF TWY D (BTN TWY F4 AND F5) DUE \nPRESENCE OF SOFT SPOT.",
+ "year": 2026
+}

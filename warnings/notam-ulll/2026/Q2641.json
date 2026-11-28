@@ -1,0 +1,79 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-03T14:00:00Z",
+ "extra": {
+  "fir": "ULLL",
+  "kind": "restricted",
+  "location": "ULLL",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 62.05,
+   "lon": 52.4167,
+   "radius_nm": 6
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "ULLL",
+  "schedule": "DAILY 0630-1400",
+  "shape": "polygon",
+  "starts_at": "2026-12-01T06:30:00Z",
+  "upper": "240M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-28T07:58:07Z",
+ "id": "notam-ulll/2026/Q2641",
+ "issued_at": "2026-11-28T07:24:00Z",
+ "last_seen": "2026-11-28T07:58:07Z",
+ "number": "Q2641",
+ "positions": [
+  [
+   61.95361,
+   52.33222
+  ],
+  [
+   61.98389,
+   52.36778
+  ],
+  [
+   61.9875,
+   52.36389
+  ],
+  [
+   62.00139,
+   52.36694
+  ],
+  [
+   62.04,
+   52.37056
+  ],
+  [
+   62.115,
+   52.46639
+  ],
+  [
+   62.11028,
+   52.4875
+  ],
+  [
+   62.12194,
+   52.47472
+  ],
+  [
+   62.13222,
+   52.49444
+  ]
+ ],
+ "series": "notam-ulll",
+ "source": {
+  "fetched_at": "2026-11-28T08:01:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD WI 0.25KM EITHER SIDE OF LINE JOINING POINTS:",
+ "text": "Q2641/26 NOTAMN\nQ)ULLL/QRTCA/IV/BO/W/000/010/6203N05225E006\nA)ULLL B)2612010630 C)2612031400\nD)DAILY 0630-1400\nE)AIRSPACE CLSD WI 0.25KM EITHER SIDE OF LINE JOINING POINTS:\n615713N0521956E-615902N0522204E-615915N0522150E-620005N0522201E-\n620224N0522214E-620654N0522759E-620637N0522915E-620719N0522829E-\n620756N0522940E.\nF)GND  G)240M AMSL",
+ "year": 2026
+}

@@ -1,0 +1,77 @@
+{
+ "cancels": [],
+ "expires_at": "2026-12-05T23:59:00Z",
+ "extra": {
+  "circles": [
+   {
+    "lat": 57.23333,
+    "lon": 65.46667,
+    "radius_nm": 0.11
+   }
+  ],
+  "fir": "USTV",
+  "kind": "restricted",
+  "location": "USTV",
+  "lower": "GND",
+  "lower_fl": 0,
+  "notam_type": "new",
+  "q_circle": {
+   "lat": 57.2333,
+   "lon": 65.4667,
+   "radius_nm": 2
+  },
+  "qcode": "QRTCA",
+  "queried_fir": "USTV",
+  "schedule": "DAILY 1500-2359",
+  "starts_at": "2026-11-30T15:00:00Z",
+  "upper": "300M AMSL",
+  "upper_fl": 10
+ },
+ "first_seen": "2026-11-28T07:58:07Z",
+ "id": "notam-ustv/2026/Z8176",
+ "issued_at": "2026-11-28T07:38:00Z",
+ "last_seen": "2026-11-28T07:58:07Z",
+ "number": "Z8176",
+ "positions": [
+  [
+   57.22333,
+   65.49639
+  ],
+  [
+   57.21056,
+   65.4725
+  ],
+  [
+   57.23583,
+   65.4275
+  ],
+  [
+   57.24389,
+   65.43333
+  ],
+  [
+   57.24556,
+   65.44667
+  ],
+  [
+   57.22333,
+   65.49639
+  ],
+  [
+   57.23333,
+   65.46667
+  ]
+ ],
+ "series": "notam-ustv",
+ "source": {
+  "fetched_at": "2026-11-28T08:01:57Z",
+  "name": "daip",
+  "parser_version": 1,
+  "raw_path": "raw/daip/notams.jsonl",
+  "url": "https://www.daip.jcs.mil/daip/mobile/index"
+ },
+ "status": "active",
+ "subject": "AIRSPACE CLSD AS FLW:",
+ "text": "Z8176/26 NOTAMN\nQ)USTV/QRTCA/IV/BO/W/000/010/5714N06528E002\nA)USTV B)2611301500 C)2612052359\nD)DAILY 1500-2359\nE)AIRSPACE CLSD AS FLW:\n1. AREA: 571324N0652947E-571238N0652821E-571409N0652539E-\n         571438N0652600E-571444N0652648E-571324N0652947E\n   110M AMSL-300M AMSL.\n2. WI CIRCLE RADIUS 0.2KM CENTRE 571400N0652800E\n   GND-300M AMSL.\nF)GND  G)300M AMSL",
+ "year": 2026
+}
